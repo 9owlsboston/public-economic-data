@@ -22,10 +22,10 @@ Supports `us-gaap` (10-K/10-Q) and `ifrs-full` (20-F foreign private issuers).
 
 ```
 sec/
-  registry.yaml              # Company registry (TPID → CIK mapping)
+  registry.yaml              # Company registry (CIK-keyed)
   financials/
-    604913.json               # Adobe — 9 annual + 25 quarterly periods
-    784852.json               # Walmart
+    0000796343.json           # Adobe — 9 annual + 25 quarterly periods
+    0000104169.json           # Walmart
     ...                       # 27 files, ~236KB total
   scripts/
     refresh.py                # SEC EDGAR fetcher (Submissions → CompanyFacts)
@@ -46,12 +46,12 @@ sec = SECFinancials(
     github_token="ghp_..."
 )
 
-# Get data
-data = sec.get(604913)                    # Full Adobe data
-latest = sec.latest_annual(604913)        # Most recent 10-K
-yoy = sec.yoy_revenue_growth(604913)      # YoY revenue growth (decimal)
-intensity = sec.rnd_intensity(604913)     # R&D / Revenue (decimal)
-trend = sec.revenue_trend(604913, 5)      # Last 5 annual revenues
+# Get data (by CIK)
+data = sec.get("0000796343")                    # Full Adobe data
+latest = sec.latest_annual("0000796343")        # Most recent 10-K
+yoy = sec.yoy_revenue_growth("0000796343")      # YoY revenue growth (decimal)
+intensity = sec.rnd_intensity("0000796343")     # R&D / Revenue (decimal)
+trend = sec.revenue_trend("0000796343", 5)      # Last 5 annual revenues
 ```
 
 ### Refresh
@@ -60,8 +60,8 @@ trend = sec.revenue_trend(604913, 5)      # Last 5 annual revenues
 # All companies
 python sec/scripts/refresh.py
 
-# Single company
-python sec/scripts/refresh.py --tpid 604913
+# Single company (by CIK)
+python sec/scripts/refresh.py --cik 0000796343
 
 # Dry run
 python sec/scripts/refresh.py --dry-run
@@ -93,13 +93,12 @@ Write sec/financials/{tpid}.json
 1. Find the company's CIK on [SEC EDGAR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany)
 2. Add to `sec/registry.yaml`:
    ```yaml
-   123456:  # TPID
+   "0001234567":  # CIK
      name: "Company Name"
      ticker: "TICK"
-     cik: "0001234567"
      exchange: "NYSE"
    ```
-3. Run `python sec/scripts/refresh.py --tpid 123456`
+3. Run `python sec/scripts/refresh.py --cik 0001234567`
 4. Commit the new JSON file
 
 ## Requirements

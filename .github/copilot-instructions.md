@@ -17,7 +17,8 @@ Repo: `9owlsboston/public-economic-data` (private).
 
 ## Key Conventions
 
-- **Registry vs data separation** — `sec/registry.yaml` has metadata only (name, ticker, CIK). Financial data lives in `sec/financials/{tpid}.json` (one file per company).
+- **Registry vs data separation** — `sec/registry.yaml` has metadata only (name, ticker, exchange). Keyed by **CIK** (SEC's primary identifier). Financial data lives in `sec/financials/{cik}.json` (one file per company).
+- **No internal identifiers** — This repo uses public identifiers only (CIK, ticker). Internal IDs like TPID belong in consumer repos (e.g., acr-analytics has a TPID→CIK mapping).
 - **Monetary values** — Always in millions, suffixed `_M` (e.g., `revenue_M: 23769`).
 - **Period ordering** — Arrays sorted descending by `period_end` (most recent first).
 - **Currency** — Each entry has a `currency` field. Do NOT assume USD. Suppress Azure % ratios when currency ≠ USD.

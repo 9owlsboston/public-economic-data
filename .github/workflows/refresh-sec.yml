@@ -7,8 +7,8 @@ on:
     - cron: '0 6 15 1,4,7,10 *'
   workflow_dispatch:
     inputs:
-      tpid:
-        description: 'Optional: refresh a single company by TPID'
+      cik:
+        description: 'Optional: refresh a single company by CIK'
         required: false
         type: string
 
@@ -30,8 +30,8 @@ jobs:
 
       - name: Refresh SEC data
         run: |
-          if [ -n "${{ inputs.tpid }}" ]; then
-            python sec/scripts/refresh.py --tpid ${{ inputs.tpid }}
+          if [ -n "${{ inputs.cik }}" ]; then
+            python sec/scripts/refresh.py --cik ${{ inputs.cik }}
           else
             python sec/scripts/refresh.py
           fi

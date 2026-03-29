@@ -1,157 +1,130 @@
 version: 2
 companies:
-  101344005:
+  0001737806:
     name: PDD Holdings Inc.
     ticker: PDD
-    cik: 0001737806
     exchange: Nasdaq
-  603819:
+  0001000184:
     name: SAP SE
     ticker: SAP
-    cik: 0001000184
     exchange: NYSE
-  784852:
+  0000104169:
     name: Walmart Inc.
     ticker: WMT
-    cik: 0000104169
     exchange: NYSE
-  2319759:
+  '0001610520':
     name: UBS Group AG
     ticker: UBS
-    cik: '0001610520'
     exchange: NYSE
-  604913:
+  0000796343:
     name: Adobe Inc.
     ticker: ADBE
-    cik: 0000796343
     exchange: Nasdaq
     ai_keywords:
     - Firefly
     - Sensei
     - GenStudio
     - generative AI
-  641918:
+  '0000732717':
     name: AT&T Inc.
     ticker: T
-    cik: '0000732717'
     exchange: NYSE
-  629368:
+  '0000731766':
     name: UnitedHealth Group Inc.
     ticker: UNH
-    cik: '0000731766'
     exchange: NYSE
-  23698710:
+  '0001640147':
     name: Snowflake Inc.
     ticker: SNOW
-    cik: '0001640147'
     exchange: NYSE
     ai_keywords:
     - Cortex
     - Snowpark
     - Arctic
-  2494921:
+  0001045810:
     name: NVIDIA Corp.
     ticker: NVDA
-    cik: 0001045810
     exchange: Nasdaq
     ai_keywords:
     - GPU
     - CUDA
     - DGX
     - inference
-  641874:
+  '0000021344':
     name: The Coca-Cola Company
     ticker: KO
-    cik: '0000021344'
     exchange: NYSE
-  830434:
+  '0001467373':
     name: Accenture plc
     ticker: ACN
-    cik: '0001467373'
     exchange: NYSE
-  636846:
+  '0000077476':
     name: PepsiCo Inc.
     ticker: PEP
-    cik: '0000077476'
     exchange: Nasdaq
-  642705:
+  0000093751:
     name: State Street Corp.
     ticker: STT
-    cik: 0000093751
     exchange: NYSE
-  782348:
+  0000064803:
     name: CVS Health Corp.
     ticker: CVS
-    cik: 0000064803
     exchange: NYSE
-  523863:
+  0000947263:
     name: Toronto-Dominion Bank
     ticker: TD
-    cik: 0000947263
     exchange: NYSE
-  942813:
+  0001094517:
     name: Toyota Motor Corp.
     ticker: TM
-    cik: 0001094517
     exchange: NYSE
-  640683:
+  0000093410:
     name: Chevron Corp.
     ticker: CVX
-    cik: 0000093410
     exchange: NYSE
-  635557:
+  0001156039:
     name: Elevance Health Inc.
     ticker: ELV
-    cik: 0001156039
     exchange: NYSE
-  10545209:
+  0001306965:
     name: Shell plc
     ticker: SHEL
-    cik: 0001306965
     exchange: NYSE
-  641870:
+  0000087347:
     name: SLB (Schlumberger)
     ticker: SLB
-    cik: 0000087347
     exchange: NYSE
-  1312245:
+  0001086888:
     name: Manulife Financial Corp.
     ticker: MFC
-    cik: 0001086888
     exchange: NYSE
-  16009596:
+  '0001373715':
     name: ServiceNow Inc.
     ticker: NOW
-    cik: '0001373715'
     exchange: NYSE
     ai_keywords:
     - Now Assist
     - generative AI
-  770091:
+  0001283699:
     name: T-Mobile US Inc.
     ticker: TMUS
-    cik: 0001283699
     exchange: Nasdaq
-  9322751:
+  0001069183:
     name: Axon Enterprise Inc.
     ticker: AXON
-    cik: 0001069183
     exchange: Nasdaq
     ai_keywords:
     - Draft One
     - AI Era
-  641658:
+  0001467858:
     name: General Motors Co.
     ticker: GM
-    cik: 0001467858
     exchange: NYSE
-  14893316:
+  0001889956:
     name: OneStream Inc.
     ticker: OS
-    cik: 0001889956
     exchange: Nasdaq
-  641125:
+  0001067983:
     name: Berkshire Hathaway Inc.
     ticker: BRK-B
-    cik: 0001067983
     exchange: NYSE

@@ -211,7 +211,7 @@ def extract_metric_by_period(
 
 # ── Step 4: Orchestration ───────────────────────────────────────────────
 
-def refresh_company(cik: str, name: str, tpid: int, tag_overrides: dict | None = None) -> dict:
+def refresh_company(cik: str, name: str, tag_overrides: dict | None = None) -> dict:
     """Build full financial history for one company."""
     print(f"  {name} (CIK {cik})...")
     overrides = tag_overrides or {}
@@ -225,9 +225,8 @@ def refresh_company(cik: str, name: str, tpid: int, tag_overrides: dict | None =
     facts = facts_data.get("facts", {})
 
     output = {
-        "tpid": tpid,
-        "name": name,
         "cik": cik,
+        "name": name,
         "last_refreshed": date.today().isoformat(),
         "annual": [],
         "quarterly": [],
@@ -288,7 +287,7 @@ def refresh_company(cik: str, name: str, tpid: int, tag_overrides: dict | None =
 def main():
     parser = argparse.ArgumentParser(description="Refresh SEC financials")
     parser.add_argument("--dry-run", action="store_true", help="Print without writing")
-    parser.add_argument("--tpid", type=int, help="Refresh a single company by TPID")
+    parser.add_argument("--cik", type=str, help="Refresh a single company by CIK")
     args = parser.parse_args()
 
     with open(REGISTRY_PATH) as f:
@@ -300,18 +299,13 @@ def main():
     total = 0
     errors = 0
 
-    for tpid, info in companies.items():
-        if args.tpid and tpid != args.tpid:
-            continue
-
-        cik = info.get("cik")
-        if not cik:
-            print(f"  Skipping TPID {tpid} ({info.get('name', '?')}): no CIK")
+    for cik, info in companies.items():
+        if args.cik and cik != args.cik:
             continue
 
         try:
             result = refresh_company(
-                cik, info.get("name", str(tpid)), tpid,
+                cik, info.get("name", cik),
                 info.get("tag_overrides"),
             )
         except Exception as e:
@@ -325,9 +319,8 @@ def main():
             total += 1
             continue
 
-        # Merge with existing data (keep periods from prior runs that may
-        # have been in older submissions pages we didn't fetch this time)
-        json_path = FINANCIALS_DIR / f"{tpid}.json"
+        # Merge with existing data
+        json_path = FINANCIALS_DIR / f"{cik}.json"
         if json_path.exists():
             with open(json_path) as f:
                 existing = json.load(f)

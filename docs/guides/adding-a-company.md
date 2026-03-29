@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - The company must be a **SEC filer** (has a CIK number)
-- You need the company's **TPID** from ACR data (or assign a unique identifier)
+- You need the company's **CIK** from SEC EDGAR
 
 ## Step 1: Find the CIK
 
@@ -27,31 +27,30 @@ for v in data.values():
 Edit `sec/registry.yaml`:
 
 ```yaml
-  123456:  # TPID
+  "0001234567":  # CIK
     name: "Company Name"
     ticker: "TICK"
-    cik: "0001234567"
     exchange: "NYSE"
 ```
 
 Optional fields:
-- `ai_keywords: ["keyword1", "keyword2"]` — for AI signal section in CFO reports
+- `ai_keywords: ["keyword1", "keyword2"]` — for AI signal section in reports
 - `tag_overrides: { revenue_tag: "us-gaap:Revenues" }` — force a specific XBRL tag
 
 ## Step 3: Run Refresh
 
 ```bash
-python sec/scripts/refresh.py --tpid 123456
+python sec/scripts/refresh.py --cik 0001234567
 ```
 
-This fetches all historical filings from SEC EDGAR and writes `sec/financials/123456.json`.
+This fetches all historical filings from SEC EDGAR and writes `sec/financials/0001234567.json`.
 
 ## Step 4: Verify
 
 ```bash
 python3 -c "
 import json
-with open('sec/financials/123456.json') as f:
+with open('sec/financials/0001234567.json') as f:
     d = json.load(f)
 print(f'Annual: {len(d[\"annual\"])} periods')
 print(f'Quarterly: {len(d[\"quarterly\"])} periods')
@@ -64,8 +63,8 @@ if d['annual']:
 ## Step 5: Commit
 
 ```bash
-git add sec/registry.yaml sec/financials/123456.json
-git commit -m "feat: add Company Name (TPID 123456)"
+git add sec/registry.yaml sec/financials/0001234567.json
+git commit -m "feat: add Company Name (CIK 0001234567)"
 git push
 ```
 
