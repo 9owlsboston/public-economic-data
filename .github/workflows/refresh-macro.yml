@@ -1,0 +1,44 @@
+name: Refresh Macro Indicators
+
+on:
+  schedule:
+    # Run monthly on the 5th at 08:00 UTC
+    - cron: '0 8 5 * *'
+  workflow_dispatch:
+    inputs:
+      series_id:
+        description: 'Optional: refresh a single series (e.g., GDPC1)'
+        required: false
+        type: string
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Refresh FRED data
+        run: |
+          if [ -n "${{ inputs.series_id }}" ]; then
+            python macro/scripts/refresh_fred.py --series-id "${{ inputs.series_id }}"
+          else
+            python macro/scripts/refresh_fred.py
+          fi
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh macro indicators [automated]"
+          file_pattern: "macro/fred/*.json"

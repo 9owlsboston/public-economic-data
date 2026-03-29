@@ -7,8 +7,8 @@ Private aggregator of public economic and financial datasets for cloud economics
 | Source | Directory | Status | Refresh |
 |---|---|---|---|
 | **SEC EDGAR XBRL** | `sec/` | ✅ Active — 27 companies, full history | Quarterly (GitHub Action) |
+| **FRED Macro Indicators** | `macro/` | ✅ Active — 6 series, full history | Monthly (GitHub Action) |
 | Cloud Pricing (Azure/AWS/GCP) | `cloud-pricing/` | Planned | Monthly |
-| FRED / BLS Macro Indicators | `macro/` | Planned | Monthly |
 | SDK Adoption (PyPI/npm) | `sdk-adoption/` | Planned | Weekly |
 
 ## SEC Financials
@@ -101,8 +101,67 @@ Write sec/financials/{tpid}.json
 3. Run `python sec/scripts/refresh.py --cik 0001234567`
 4. Commit the new JSON file
 
+## FRED Macro Indicators
+
+### Coverage
+
+6 FRED series providing macroeconomic context for cloud economics analysis.
+
+| Series ID | Name | Frequency |
+|---|---|---|
+| `GDPC1` | Real GDP | Quarterly |
+| `CPIAUCSL` | CPI All Items | Monthly |
+| `CUSR0000SEEE` | CPI: IT Hardware & Services | Monthly |
+| `PCU518210518210` | PPI: Data Processing & Hosting | Monthly |
+| `CE16OV` | Civilian Employment Level | Monthly |
+| `CES5051200001` | Tech Sector Employment | Monthly |
+
+### Structure
+
+```
+macro/
+  registry.yaml              # Series registry (ID → metadata)
+  fred/
+    GDPC1.json               # Real GDP — 316 observations
+    PCU518210518210.json      # PPI Data Processing
+    ...                       # 6 files, ~200KB total
+  scripts/
+    refresh_fred.py           # FRED API fetcher
+    macro_indicators.py       # Helper module for reading data
+```
+
+### Usage
+
+```python
+from macro_indicators import MacroIndicators
+
+macro = MacroIndicators(local_dir="macro/fred")
+
+gdp = macro.latest("GDPC1")                    # Most recent observation
+growth = macro.yoy_growth("GDPC1")              # YoY % change (decimal)
+ppi = macro.trend("PCU518210518210", 12)         # Last 12 observations
+series = macro.series_list()                     # All available series IDs
+```
+
+### Refresh
+
+```bash
+# All series
+python macro/scripts/refresh_fred.py
+
+# Single series
+python macro/scripts/refresh_fred.py --series-id GDPC1
+
+# Dry run
+python macro/scripts/refresh_fred.py --dry-run
+```
+
+Automated via GitHub Actions: runs monthly on the 5th.
+Manual trigger available via `workflow_dispatch`.
+
 ## Requirements
 
 - Python 3.10+
 - `pyyaml` (`pip install pyyaml`)
-- No API keys required (SEC EDGAR is public, rate limit: 10 req/sec with User-Agent)
+- **SEC module:** No API keys required (SEC EDGAR is public, rate limit: 10 req/sec with User-Agent)
+- **FRED module:** `FRED_API_KEY` environment variable (free — [register here](https://fred.stlouisfed.org/docs/api/api_key.html))

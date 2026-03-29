@@ -1,6 +1,6 @@
 # Design: FRED & BLS Macro Indicators Module
 
-**Status:** Design
+**Status:** Implemented
 **Date:** 2026-03-29
 **Module:** `macro/`
 **Phase:** 3 (per roadmap)
@@ -23,8 +23,8 @@ Example output: _"Enterprise IT spending grew 4.2% YoY (FRED) while Adobe's Azur
 | Series ID | Name | Frequency | Relevance |
 |---|---|---|---|
 | `GDPC1` | Real GDP (chained 2017 dollars) | Quarterly | Overall economic growth context |
-| `CPURNSA` | CPI-U All Items | Monthly | Inflation context for IT budgets |
-| `CUSR0000SEEE02` | CPI: Internet services and electronic information providers | Monthly | "Cloud inflation" — specific to our domain |
+| `CPIAUCSL` | CPI-U All Items (seasonally adjusted) | Monthly | Inflation context for IT budgets |
+| `CUSR0000SEEE` | CPI: IT Hardware & Services | Monthly | IT-specific inflation — closest CPI proxy for cloud pricing |
 | `PCU518210518210` | PPI: Data Processing, Hosting | Monthly | Producer price index for data centers — closest proxy to cloud pricing pressure |
 | `CE16OV` | Civilian Employment Level | Monthly | Overall employment (macro context) |
 | `CES5051200001` | Employment: Computer Systems Design | Monthly | Tech sector hiring — demand signal |
@@ -51,7 +51,7 @@ The FRED API key is free, has higher rate limits, and returns cleaner JSON.
 macro/fred/
   GDPC1.json              # Real GDP
   PCU518210518210.json     # PPI Data Processing
-  CUSR0000SEEE02.json      # CPI Internet Services
+  CUSR0000SEEE.json        # CPI IT Hardware & Services
   CES5051200001.json       # Tech Employment
 ```
 
@@ -106,7 +106,7 @@ macro/
   fred/
     GDPC1.json
     PCU518210518210.json
-    CUSR0000SEEE02.json
+    CUSR0000SEEE.json
     CES5051200001.json
   registry.yaml               # Series registry (ID → metadata)
   scripts/

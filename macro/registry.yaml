@@ -1,0 +1,37 @@
+version: 1
+series:
+  GDPC1:
+    title: "Real Gross Domestic Product"
+    frequency: quarterly
+    units: "Billions of Chained 2017 Dollars"
+    relevance: "Overall economic growth context"
+
+  CPIAUCSL:
+    title: "Consumer Price Index for All Urban Consumers: All Items"
+    frequency: monthly
+    units: "Index 1982-1984=100"
+    relevance: "Inflation context for IT budgets"
+
+  CUSR0000SEEE:
+    title: "CPI: Information Technology, Hardware and Services"
+    frequency: monthly
+    units: "Index Dec 1988=100"
+    relevance: "IT-specific inflation — closest CPI proxy for cloud pricing"
+
+  PCU518210518210:
+    title: "PPI: Data Processing, Hosting, and Related Services"
+    frequency: monthly
+    units: "Index Jun 2009=100"
+    relevance: "Producer price index for data centers — closest proxy to cloud pricing pressure"
+
+  CE16OV:
+    title: "Civilian Employment Level"
+    frequency: monthly
+    units: "Thousands of Persons"
+    relevance: "Overall employment (macro context)"
+
+  CES5051200001:
+    title: "All Employees, Computer Systems Design and Related Services"
+    frequency: monthly
+    units: "Thousands of Persons"
+    relevance: "Tech sector hiring — demand signal"

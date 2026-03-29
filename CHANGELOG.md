@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+- **FRED Macro Indicators** — 6 series (GDP, CPI, PPI Data Processing, employment), full history, monthly refresh
+
 ## [1.0.0] - 2026-03-29
 
 ### Added

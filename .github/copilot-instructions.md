@@ -11,14 +11,14 @@ Repo: `9owlsboston/public-economic-data` (private).
 | Module | Directory | Status |
 |---|---|---|
 | SEC EDGAR financials | `sec/` | Active — 27 companies, full history |
+| FRED macro indicators | `macro/` | Active — 6 series, full history |
 | Cloud pricing | `cloud-pricing/` | Planned |
-| Macro indicators | `macro/` | Planned |
 | SDK adoption | `sdk-adoption/` | Planned |
 
 ## Key Conventions
 
-- **Registry vs data separation** — `sec/registry.yaml` has metadata only (name, ticker, exchange). Keyed by **CIK** (SEC's primary identifier). Financial data lives in `sec/financials/{cik}.json` (one file per company).
-- **No internal identifiers** — This repo uses public identifiers only (CIK, ticker). Internal IDs like TPID belong in consumer repos (e.g., acr-analytics has a TPID→CIK mapping).
+- **Registry vs data separation** — `sec/registry.yaml` has metadata only (name, ticker, exchange). Keyed by **CIK** (SEC's primary identifier). Financial data lives in `sec/financials/{cik}.json` (one file per company). `macro/registry.yaml` has series metadata (title, frequency, units). Keyed by **FRED series ID**. Time series data lives in `macro/fred/{series_id}.json` (one file per series).
+- **No internal identifiers** — This repo uses public identifiers only (CIK, ticker, FRED series ID). Internal IDs like TPID belong in consumer repos (e.g., acr-analytics has a TPID→CIK mapping).
 - **Monetary values** — Always in millions, suffixed `_M` (e.g., `revenue_M: 23769`).
 - **Period ordering** — Arrays sorted descending by `period_end` (most recent first).
 - **Currency** — Each entry has a `currency` field. Do NOT assume USD. Suppress Azure % ratios when currency ≠ USD.
@@ -37,15 +37,33 @@ SEC EDGAR Submissions API → ALL filings + period end dates
   → Write sec/financials/{tpid}.json
 ```
 
-## Helper Module
+```
+FRED API (series/observations) → all observations for each series
+  → Parse (date, value) pairs, skip missing values
+  → Merge with existing JSON (deduplicate by date, newer wins)
+  → Sort descending by date
+  → Write macro/fred/{series_id}.json
+```
 
-Use `sec/scripts/sec_financials.py` (or `helpers/sec_financials.py`) to read data:
+## Helper Modules
+
+Use `sec/scripts/sec_financials.py` (or `helpers/sec_financials.py`) to read SEC data:
 
 ```python
 from sec_financials import SECFinancials
 sec = SECFinancials(local_dir="sec/financials")
 latest = sec.latest_annual("0000796343")
 yoy = sec.yoy_revenue_growth("0000796343")
+```
+
+Use `macro/scripts/macro_indicators.py` (or `helpers/macro_indicators.py`) to read FRED data:
+
+```python
+from macro_indicators import MacroIndicators
+macro = MacroIndicators(local_dir="macro/fred")
+gdp = macro.latest("GDPC1")
+growth = macro.yoy_growth("GDPC1")
+ppi = macro.trend("PCU518210518210", 12)
 ```
 
 ## Do NOT

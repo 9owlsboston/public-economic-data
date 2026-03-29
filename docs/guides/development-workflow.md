@@ -43,33 +43,4 @@ Standard workflow for all changes in this repo — whether adding a data module,
 
 ## Execution Log
 
-Running record of what was built, when, and key decisions made during implementation.
-
-### 2026-03-29 — Initial Bootstrap
-
-**Scope:** SEC EDGAR financials module + repo structure
-**Contributor:** velen + AI agent
-
-| Time | Action | Outcome |
-|---|---|---|
-| — | Design: CFO one-pager needs public financial context | `acr-analytics/docs/design/cfo-qa.md` — design section added |
-| — | Implement v1: single YAML with latest-only data | `data/public-companies.yaml` — 27 companies, latest Q + FY |
-| — | Implement v2: IFRS namespace, tag overrides, period-end anchoring | Unlocked SAP, Shell, Toyota. Fixed quarterly disambiguation |
-| — | Decision: separate repo for public data | ADR-003: TPID is internal, CIK is public. Clean separation |
-| — | Create repo `9owlsboston/public-economic-data` (private) | Scaffolded with SEC module, 27 companies |
-| — | Refactor: full history extraction | Per-company JSON with all annual + quarterly periods |
-| — | Refactor: CIK as primary key (not TPID) | JSON files renamed, registry rekeyed, TPID→CIK mapping in acr-analytics |
-| — | Repo structure: ADRs, copilot-instructions, roadmap, tests | AI-agent-friendly development workflow established |
-| — | FRED API key registered and stored as GitHub Secret | Ready for Phase 3 implementation |
-
-**Key decisions:**
-- ADR-001: YAML registry + per-company JSON (not single YAML)
-- ADR-002: IFRS namespace support (us-gaap + ifrs-full)
-- ADR-003: Separate repo, public identifiers only (CIK, not TPID)
-- Keep all history, keep amended filings, access via helper module
-
-**Coverage at end of session:**
-- 27 companies tracked (top 50 Azure ACR customers)
-- 25/27 with annual data, 23/27 with quarterly data
-- 27 JSON files, ~236KB total
-- Tests: 6 checks, 1 known issue (UBS: XBRL period-end mismatch)
+See [`docs/execution-log.md`](../execution-log.md) — running record of implementation sessions with actions, outcomes, and decision points.
