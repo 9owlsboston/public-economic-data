@@ -44,26 +44,50 @@ Use `sec/scripts/sec_financials.py` (or `helpers/sec_financials.py`) to read dat
 ```python
 from sec_financials import SECFinancials
 sec = SECFinancials(local_dir="sec/financials")
-latest = sec.latest_annual(604913)
-yoy = sec.yoy_revenue_growth(604913)
+latest = sec.latest_annual("0000796343")
+yoy = sec.yoy_revenue_growth("0000796343")
 ```
 
 ## Do NOT
 
-- Store derived ratios (YoY, R&D intensity, Azure %) in JSON
-- Mix financial data into `sec/registry.yaml`
+- Store derived ratios (YoY, R&D intensity, Azure %) in JSON — compute at read time
+- Mix financial data into registry YAML files
 - Hardcode currency assumptions — always check the `currency` field
 - Overwrite amended filings — keep both original and amended (different `filing_date`)
-- Manually edit JSON files — always use `sec/scripts/refresh.py`
+- Manually edit JSON data files — always use the module's `refresh` script
+- Use internal identifiers (TPID, enrollment numbers) — this repo uses public IDs only (CIK, ticker, FRED series ID)
+
+## Development Workflow
+
+When adding or modifying a data module, follow this sequence:
+
+```
+1. DESIGN    → docs/design/{module}.md       What and why (problem, API, schema)
+2. ADR       → docs/adr/00N-*.md             Non-obvious decisions (if any)
+3. IMPLEMENT → {module}/scripts/refresh.py    Fetch + transform + store
+4. VALIDATE  → tests/test_{module}.py         Data quality checks
+5. AUTOMATE  → .github/workflows/refresh-{module}.yml
+6. DOCUMENT  → README.md + copilot-instructions.md
+7. CHANGELOG → CHANGELOG.md entry
+```
+
+Full checklist: `docs/guides/adding-a-data-module.md`
+
+**Always start with the design doc.** The design doc is what the agent (or human) reads to understand what we're building before writing code. Don't jump to implementation.
 
 ## Architecture Decision Records
 
 See `docs/adr/` for numbered decisions explaining _why_ things are the way they are.
+Read these before making structural changes — the decision may already be documented.
 
 ## Adding a New Data Source
 
-1. Create a new top-level directory (e.g., `cloud-pricing/`)
-2. Add a `scripts/refresh_*.py` fetcher
-3. Add a `.github/workflows/refresh-*.yml` Action
-4. Add a helper to `helpers/`
-5. Update README.md
+Follow `docs/guides/adding-a-data-module.md` for the full checklist. Summary:
+
+1. Write design doc (`docs/design/{module}.md`)
+2. Create module directory with `scripts/`, `registry.yaml`
+3. Implement refresh script with `--dry-run` and single-entity flags
+4. Create validation tests (`tests/test_{module}.py`)
+5. Add GitHub Action workflow
+6. Copy helper to `helpers/`
+7. Update README and this file
