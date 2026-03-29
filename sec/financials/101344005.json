@@ -1,0 +1,92 @@
+{
+  "tpid": 101344005,
+  "name": "PDD Holdings Inc.",
+  "cik": "0001737806",
+  "last_refreshed": "2026-03-29",
+  "annual": [
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-04-28",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 393836,
+      "rnd_M": 12659,
+      "cost_of_revenue_M": 153900,
+      "net_income_M": 112435,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-04-25",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 247639,
+      "rnd_M": 10952,
+      "cost_of_revenue_M": 91724,
+      "net_income_M": 60027
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-04-26",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 130558,
+      "rnd_M": 10385,
+      "cost_of_revenue_M": 31462,
+      "net_income_M": 31538
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-04-25",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 93950,
+      "rnd_M": 8993,
+      "cost_of_revenue_M": 31718,
+      "net_income_M": 7769
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-04-30",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 59492,
+      "rnd_M": 6892,
+      "cost_of_revenue_M": 19279,
+      "net_income_M": -7180
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-04-24",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 30142,
+      "rnd_M": 3870,
+      "cost_of_revenue_M": 6339,
+      "net_income_M": -6968
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-04-24",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 13120,
+      "rnd_M": 1116,
+      "cost_of_revenue_M": 2905,
+      "net_income_M": -10217
+    }
+  ],
+  "quarterly": []
+}

@@ -1,0 +1,117 @@
+{
+  "tpid": 642705,
+  "name": "State Street Corp.",
+  "cik": "0000093751",
+  "last_refreshed": "2026-03-29",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-19",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 13944,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2945,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-02-13",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 13000,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2687
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-02-15",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 11945,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1944
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-09-30",
+      "filing_date": "2025-10-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3545,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 861,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-07-31",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3448,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 693
+    },
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3284,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 644
+    },
+    {
+      "period_end": "2024-09-30",
+      "filing_date": "2024-10-31",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3259,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 730
+    },
+    {
+      "period_end": "2024-06-30",
+      "filing_date": "2024-08-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3191,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 711
+    },
+    {
+      "period_end": "2024-03-31",
+      "filing_date": "2024-05-02",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3138,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 463
+    }
+  ]
+}

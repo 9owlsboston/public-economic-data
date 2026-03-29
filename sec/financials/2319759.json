@@ -1,0 +1,133 @@
+{
+  "tpid": 2319759,
+  "name": "UBS Group AG",
+  "cik": "0001610520",
+  "last_refreshed": "2026-03-29",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-09",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7797,
+      "tags_used": {
+        "net_income": "ifrs-full:ProfitLoss"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-17",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5146
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-03-28",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 27382
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-03-06",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7661
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-03-07",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 35393,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7486
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-03-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 33084,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6572
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-03-03",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 28967,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4310
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-03-15",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 30330,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4522
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-03-09",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "CHF",
+      "revenue_M": 29195,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1128
+    },
+    {
+      "period_end": "2016-12-31",
+      "filing_date": "2017-03-10",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "CHF",
+      "revenue_M": 28357,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3286
+    },
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-03-18",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "CHF",
+      "revenue_M": 30722,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6386
+    }
+  ],
+  "quarterly": []
+}

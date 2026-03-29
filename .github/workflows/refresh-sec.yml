@@ -1,0 +1,43 @@
+name: Refresh SEC Financials
+
+on:
+  schedule:
+    # Run quarterly: 15th of Jan/Apr/Jul/Oct at 06:00 UTC
+    # (~45 days after quarter-end, most 10-Q filings available)
+    - cron: '0 6 15 1,4,7,10 *'
+  workflow_dispatch:
+    inputs:
+      tpid:
+        description: 'Optional: refresh a single company by TPID'
+        required: false
+        type: string
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Refresh SEC data
+        run: |
+          if [ -n "${{ inputs.tpid }}" ]; then
+            python sec/scripts/refresh.py --tpid ${{ inputs.tpid }}
+          else
+            python sec/scripts/refresh.py
+          fi
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh SEC financials [automated]"
+          file_pattern: "sec/financials/*.json"

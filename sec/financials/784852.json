@@ -1,0 +1,163 @@
+{
+  "tpid": 784852,
+  "name": "Walmart Inc.",
+  "cik": "0000104169",
+  "last_refreshed": "2026-03-29",
+  "annual": [
+    {
+      "period_end": "2026-01-31",
+      "filing_date": "2026-03-13",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 713163,
+      "rnd_M": null,
+      "cost_of_revenue_M": 535395,
+      "net_income_M": 21893,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-01-31",
+      "filing_date": "2025-03-14",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 680985,
+      "rnd_M": null,
+      "cost_of_revenue_M": 511753,
+      "net_income_M": 19436
+    },
+    {
+      "period_end": "2024-01-31",
+      "filing_date": "2024-03-15",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 648125,
+      "rnd_M": null,
+      "cost_of_revenue_M": 490142,
+      "net_income_M": 15511
+    },
+    {
+      "period_end": "2023-01-31",
+      "filing_date": "2023-03-17",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 611289,
+      "rnd_M": null,
+      "cost_of_revenue_M": 463721,
+      "net_income_M": 11680
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-10-31",
+      "filing_date": "2025-12-03",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 179496,
+      "rnd_M": null,
+      "cost_of_revenue_M": 134706,
+      "net_income_M": 6143,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-07-31",
+      "filing_date": "2025-08-29",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 177402,
+      "rnd_M": null,
+      "cost_of_revenue_M": 132771,
+      "net_income_M": 7026
+    },
+    {
+      "period_end": "2025-04-30",
+      "filing_date": "2025-06-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 165609,
+      "rnd_M": null,
+      "cost_of_revenue_M": 124303,
+      "net_income_M": 4487
+    },
+    {
+      "period_end": "2024-10-31",
+      "filing_date": "2024-12-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 169588,
+      "rnd_M": null,
+      "cost_of_revenue_M": 127340,
+      "net_income_M": 4577
+    },
+    {
+      "period_end": "2024-07-31",
+      "filing_date": "2024-08-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 169335,
+      "rnd_M": null,
+      "cost_of_revenue_M": 126810,
+      "net_income_M": 4501
+    },
+    {
+      "period_end": "2024-04-30",
+      "filing_date": "2024-06-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 161508,
+      "rnd_M": null,
+      "cost_of_revenue_M": 121431,
+      "net_income_M": 5104
+    },
+    {
+      "period_end": "2023-10-31",
+      "filing_date": "2023-11-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 160804,
+      "rnd_M": null,
+      "cost_of_revenue_M": 121183,
+      "net_income_M": 453
+    },
+    {
+      "period_end": "2023-07-31",
+      "filing_date": "2023-09-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 161632,
+      "rnd_M": null,
+      "cost_of_revenue_M": 121850,
+      "net_income_M": 7891
+    },
+    {
+      "period_end": "2023-04-30",
+      "filing_date": "2023-06-02",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 152301,
+      "rnd_M": null,
+      "cost_of_revenue_M": 115284,
+      "net_income_M": 1673
+    }
+  ]
+}
