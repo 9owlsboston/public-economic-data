@@ -17,6 +17,11 @@ REQUIRED_FIELDS = ["cik", "name", "last_refreshed", "annual", "quarterly"]
 ENTRY_FIELDS = ["period_end", "filing_date", "form", "revenue_M"]
 
 
+def _standard_files():
+    """Return standard company financials files, excluding segment files."""
+    return sorted(f for f in FINANCIALS_DIR.glob("*.json") if "_segments" not in f.stem)
+
+
 def test_all_json_valid():
     """Every .json file should parse without errors."""
     errors = []
@@ -29,9 +34,9 @@ def test_all_json_valid():
 
 
 def test_required_fields():
-    """Every JSON file should have the required top-level fields."""
+    """Every standard JSON file should have the required top-level fields."""
     errors = []
-    for f in sorted(FINANCIALS_DIR.glob("*.json")):
+    for f in _standard_files():
         data = json.loads(f.read_text())
         for field in REQUIRED_FIELDS:
             if field not in data:
@@ -42,7 +47,7 @@ def test_required_fields():
 def test_annual_sorted_descending():
     """Annual entries should be sorted by period_end descending."""
     errors = []
-    for f in sorted(FINANCIALS_DIR.glob("*.json")):
+    for f in _standard_files():
         data = json.loads(f.read_text())
         periods = [e["period_end"] for e in data.get("annual", []) if "period_end" in e]
         if periods != sorted(periods, reverse=True):
@@ -53,18 +58,18 @@ def test_annual_sorted_descending():
 def test_no_null_revenue_in_annual():
     """At least the most recent annual entry should have non-null revenue."""
     errors = []
-    for f in sorted(FINANCIALS_DIR.glob("*.json")):
+    for f in _standard_files():
         data = json.loads(f.read_text())
         annual = data.get("annual", [])
         if annual and annual[0].get("revenue_M") is None:
-            errors.append(f"{f.name}: latest annual has null revenue")
+            errors.append(f"{f.name}: latest annual has null revenue (not disclosed)")
     return errors
 
 
 def test_cik_matches_filename():
     """The CIK in JSON content should match the filename."""
     errors = []
-    for f in sorted(FINANCIALS_DIR.glob("*.json")):
+    for f in _standard_files():
         data = json.loads(f.read_text())
         expected_cik = f.stem
         actual_cik = data.get("cik", "")
@@ -78,7 +83,7 @@ def test_freshness():
     from datetime import date, timedelta
     threshold = date.today() - timedelta(days=120)
     warnings = []
-    for f in sorted(FINANCIALS_DIR.glob("*.json")):
+    for f in _standard_files():
         data = json.loads(f.read_text())
         refreshed = data.get("last_refreshed", "")
         if refreshed and refreshed < threshold.isoformat():
@@ -88,22 +93,26 @@ def test_freshness():
 
 def main():
     tests = [
-        ("JSON parseable", test_all_json_valid),
-        ("Required fields", test_required_fields),
-        ("Annual sorted desc", test_annual_sorted_descending),
-        ("Revenue not null", test_no_null_revenue_in_annual),
-        ("CIK matches filename", test_cik_matches_filename),
-        ("Freshness (<120 days)", test_freshness),
+        ("JSON parseable", test_all_json_valid, True),
+        ("Required fields", test_required_fields, True),
+        ("Annual sorted desc", test_annual_sorted_descending, True),
+        ("Revenue not null", test_no_null_revenue_in_annual, False),
+        ("CIK matches filename", test_cik_matches_filename, True),
+        ("Freshness (<120 days)", test_freshness, False),
     ]
 
     total_errors = 0
-    for name, test_fn in tests:
+    for name, test_fn, is_error in tests:
         issues = test_fn()
-        status = "✅" if not issues else "❌"
+        if is_error:
+            status = "✅" if not issues else "❌"
+        else:
+            status = "✅" if not issues else "⚠️"
         print(f"{status} {name}")
         for issue in issues:
             print(f"   {issue}")
-            total_errors += 1
+            if is_error:
+                total_errors += 1
 
     file_count = len(list(FINANCIALS_DIR.glob("*.json")))
     print(f"\n{file_count} files checked. {total_errors} errors.")

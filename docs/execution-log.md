@@ -69,3 +69,61 @@ Each session appends a dated entry. Agents and humans both contribute.
 - GDPC1 (316 obs), CPIAUCSL (949), CUSR0000SEEE (241), PCU518210518210 (303), CE16OV (937), CES5051200001 (434)
 - Tests: 5 checks, 0 errors
 - GitHub Action ready (requires `FRED_API_KEY` secret)
+
+### 2026-03-29 — SEC Segment Revenue Extraction
+
+**Scope:** Extract segment-level revenue from dimensional XBRL for companies with `segment_tags` in registry
+**Contributor:** velen + AI agent
+
+| Time | Action | Outcome |
+|---|---|---|
+| — | Design: standard CompanyFacts API only provides consolidated totals | Need inline XBRL parsing for segment breakdowns |
+| — | Add `segment_tags` to registry for Microsoft | `intelligent_cloud`, `productivity_business`, `more_personal_computing` mapped to MSFT member tags |
+| — | Implement `sec/scripts/refresh_segments.py` | Downloads inline XBRL HTML, parses dimensional contexts, extracts segment revenue |
+| — | Run segment refresh for Microsoft | 3 segments × 39 observations each = 117 data points |
+| — | Write `sec/financials/0000789019_segments.json` | Separate schema: `segments` dict keyed by segment name |
+
+**Key decisions:**
+- Separate file `{cik}_segments.json` rather than embedding in main financials (different schema, different extraction method)
+- Use inline XBRL HTML parsing (not CompanyFacts API) because segment dimensions aren't available in the standard endpoint
+- Only extract for companies with explicit `segment_tags` in registry (opt-in, not automatic)
+
+**Known gaps at end of session:**
+- ⚠ No documentation added (README, copilot-instructions, CHANGELOG)
+- ⚠ No tests for segment files
+- ⚠ No helper methods for reading segments
+- ⚠ No GitHub Action workflow for segment refresh
+
+**Coverage at end of session:**
+- 1 company with segment data (Microsoft)
+- 3 segments, 39 observations each
+- 1 segment file, ~30KB
+
+### 2026-04-03 — Macro Expansion + Dataset Assessment + Test Fixes
+
+**Scope:** Expand FRED coverage (6→18 series), assess new public datasets, fix SEC test harness, documentation audit
+**Contributor:** velen + AI agent (multiple sessions consolidated)
+
+| Time | Action | Outcome |
+|---|---|---|
+| — | Add 5 FRED series: FEDFUNDS, DGS2, DGS10, SP500, NASDAQCOM | Rates, yield curve, market indices — 45,785 observations total |
+| — | Add 4 FX series: DEXUSEU, DEXCAUS, DEXJPUS, DEXSZUS | FX rates for all non-USD currencies in SEC data |
+| — | Add 3 labor/credit series: UNRATE, ICSA, BAA10Y | Employment stress + credit spreads |
+| — | Add macro helper methods: `observation()`, `spread()`, `fx_usd_per_local()` | Date-aligned reads, yield curve spread, normalized FX |
+| — | Write `docs/design/new-datasets-assessment.md` | Evaluated 11 candidate datasets across 4 tiers |
+| — | Research AI ecosystem public proxies | HuggingFace, Epoch AI, Cloudflare Radar, PyPI — all have free APIs |
+| — | Fix SEC test harness | Excluded `_segments.json` from standard validators; null-revenue now warns (UBS is an IFRS bank) |
+| — | Documentation audit | Found segments completely undocumented; CHANGELOG had stale counts; copilot-instructions missing segment flow |
+| — | Fix all documentation gaps | README (segments section), copilot-instructions (segment flow + helper sync note), CHANGELOG (consolidated + segments), design doc (status update), execution log (this entry) |
+
+**Key decisions:**
+- FRED FX series use inconsistent quote directions — helper normalizes to `usd_per_local_currency` via `fx_usd_per_local()`
+- SEC test: `_segments.json` excluded from structural tests (different schema); null-revenue demoted to warning
+- AI ecosystem metrics (HuggingFace, Epoch AI, Cloudflare Radar) identified as best public proxies for token consumption
+- Codex flagged segment file as invalid → root cause: completely missing documentation, not a code bug
+
+**Coverage at end of session:**
+- 18 FRED series, full history
+- SEC: 28 standard files + 1 segment file
+- All tests pass (11/11 pytest, 0 errors standalone)
+- Documentation audit complete, all identified gaps resolved

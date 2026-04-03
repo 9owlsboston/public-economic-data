@@ -1,5 +1,13 @@
 version: 2
 companies:
+  '0000789019':
+    name: Microsoft Corporation
+    ticker: MSFT
+    exchange: NASDAQ
+    segment_tags:
+      intelligent_cloud: "msft:IntelligentCloudMember"
+      productivity_business: "msft:ProductivityAndBusinessProcessesMember"
+      more_personal_computing: "msft:MorePersonalComputingMember"
   0001737806:
     name: PDD Holdings Inc.
     ticker: PDD

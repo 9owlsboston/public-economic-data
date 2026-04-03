@@ -1,0 +1,949 @@
+{
+  "cik": "0000789019",
+  "company": "Microsoft Corporation",
+  "last_refreshed": "2026-04-02",
+  "segments": {
+    "intelligent_cloud": [
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2023-01-01",
+        "end": "2023-03-31",
+        "revenue": 22081000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2022-01-01",
+        "end": "2022-03-31",
+        "revenue": 18987000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2023-03-31",
+        "revenue": 63914000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2021-07-01",
+        "end": "2022-03-31",
+        "revenue": 54161000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-06-30",
+        "form": "10-K",
+        "start": "2022-07-01",
+        "end": "2023-06-30",
+        "revenue": 87907000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-06-30",
+        "form": "10-K",
+        "start": "2021-07-01",
+        "end": "2022-06-30",
+        "revenue": 74965000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-06-30",
+        "form": "10-K",
+        "start": "2020-07-01",
+        "end": "2021-06-30",
+        "revenue": 59728000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-09-30",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-09-30",
+        "revenue": 24259000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-09-30",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2022-09-30",
+        "revenue": 20325000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2023-10-01",
+        "end": "2023-12-31",
+        "revenue": 25880000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2022-10-01",
+        "end": "2022-12-31",
+        "revenue": 21508000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-12-31",
+        "revenue": 50139000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2022-12-31",
+        "revenue": 41833000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2024-01-01",
+        "end": "2024-03-31",
+        "revenue": 26708000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2023-01-01",
+        "end": "2023-03-31",
+        "revenue": 22081000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2024-03-31",
+        "revenue": 76847000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2023-03-31",
+        "revenue": 63914000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-06-30",
+        "form": "10-K",
+        "start": "2023-07-01",
+        "end": "2024-06-30",
+        "revenue": 105362000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-06-30",
+        "form": "10-K",
+        "start": "2022-07-01",
+        "end": "2023-06-30",
+        "revenue": 87907000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-06-30",
+        "form": "10-K",
+        "start": "2021-07-01",
+        "end": "2022-06-30",
+        "revenue": 74965000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-09-30",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-09-30",
+        "revenue": 24092000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-09-30",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-09-30",
+        "revenue": 20013000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2024-10-01",
+        "end": "2024-12-31",
+        "revenue": 25544000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2023-10-01",
+        "end": "2023-12-31",
+        "revenue": 21525000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-12-31",
+        "revenue": 49636000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-12-31",
+        "revenue": 41538000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2025-01-01",
+        "end": "2025-03-31",
+        "revenue": 26751000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2024-01-01",
+        "end": "2024-03-31",
+        "revenue": 22141000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2025-03-31",
+        "revenue": 76387000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2024-03-31",
+        "revenue": 63679000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-06-30",
+        "form": "10-K",
+        "start": "2024-07-01",
+        "end": "2025-06-30",
+        "revenue": 106265000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-06-30",
+        "form": "10-K",
+        "start": "2023-07-01",
+        "end": "2024-06-30",
+        "revenue": 87464000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-06-30",
+        "form": "10-K",
+        "start": "2022-07-01",
+        "end": "2023-06-30",
+        "revenue": 72944000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-09-30",
+        "form": "10-Q",
+        "start": "2025-07-01",
+        "end": "2025-09-30",
+        "revenue": 30897000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-09-30",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-09-30",
+        "revenue": 24092000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "revenue": 32907000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2024-10-01",
+        "end": "2024-12-31",
+        "revenue": 25544000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2025-07-01",
+        "end": "2025-12-31",
+        "revenue": 63804000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-12-31",
+        "revenue": 49636000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    ],
+    "productivity_business": [
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2023-01-01",
+        "end": "2023-03-31",
+        "revenue": 17516000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2022-01-01",
+        "end": "2022-03-31",
+        "revenue": 15789000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2023-03-31",
+        "revenue": 50983000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2021-07-01",
+        "end": "2022-03-31",
+        "revenue": 46764000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-06-30",
+        "form": "10-K",
+        "start": "2022-07-01",
+        "end": "2023-06-30",
+        "revenue": 69274000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-06-30",
+        "form": "10-K",
+        "start": "2021-07-01",
+        "end": "2022-06-30",
+        "revenue": 63364000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-06-30",
+        "form": "10-K",
+        "start": "2020-07-01",
+        "end": "2021-06-30",
+        "revenue": 53915000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-09-30",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-09-30",
+        "revenue": 18592000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-09-30",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2022-09-30",
+        "revenue": 16465000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2023-10-01",
+        "end": "2023-12-31",
+        "revenue": 19249000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2022-10-01",
+        "end": "2022-12-31",
+        "revenue": 17002000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-12-31",
+        "revenue": 37841000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2022-12-31",
+        "revenue": 33467000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2024-01-01",
+        "end": "2024-03-31",
+        "revenue": 19570000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2023-01-01",
+        "end": "2023-03-31",
+        "revenue": 17516000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2024-03-31",
+        "revenue": 57411000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2023-03-31",
+        "revenue": 50983000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-06-30",
+        "form": "10-K",
+        "start": "2023-07-01",
+        "end": "2024-06-30",
+        "revenue": 77728000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-06-30",
+        "form": "10-K",
+        "start": "2022-07-01",
+        "end": "2023-06-30",
+        "revenue": 69274000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-06-30",
+        "form": "10-K",
+        "start": "2021-07-01",
+        "end": "2022-06-30",
+        "revenue": 63364000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-09-30",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-09-30",
+        "revenue": 28317000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-09-30",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-09-30",
+        "revenue": 25226000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2024-10-01",
+        "end": "2024-12-31",
+        "revenue": 29437000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2023-10-01",
+        "end": "2023-12-31",
+        "revenue": 25854000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-12-31",
+        "revenue": 57754000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-12-31",
+        "revenue": 51080000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2025-01-01",
+        "end": "2025-03-31",
+        "revenue": 29944000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2024-01-01",
+        "end": "2024-03-31",
+        "revenue": 27113000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2025-03-31",
+        "revenue": 87698000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2024-03-31",
+        "revenue": 78193000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-06-30",
+        "form": "10-K",
+        "start": "2024-07-01",
+        "end": "2025-06-30",
+        "revenue": 120810000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-06-30",
+        "form": "10-K",
+        "start": "2023-07-01",
+        "end": "2024-06-30",
+        "revenue": 106820000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-06-30",
+        "form": "10-K",
+        "start": "2022-07-01",
+        "end": "2023-06-30",
+        "revenue": 94151000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-09-30",
+        "form": "10-Q",
+        "start": "2025-07-01",
+        "end": "2025-09-30",
+        "revenue": 33020000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-09-30",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-09-30",
+        "revenue": 28317000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "revenue": 34116000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2024-10-01",
+        "end": "2024-12-31",
+        "revenue": 29437000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2025-07-01",
+        "end": "2025-12-31",
+        "revenue": 67136000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-12-31",
+        "revenue": 57754000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    ],
+    "more_personal_computing": [
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2023-01-01",
+        "end": "2023-03-31",
+        "revenue": 13260000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2022-01-01",
+        "end": "2022-03-31",
+        "revenue": 14584000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2023-03-31",
+        "revenue": 40829000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-03-31",
+        "form": "10-Q",
+        "start": "2021-07-01",
+        "end": "2022-03-31",
+        "revenue": 45480000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-06-30",
+        "form": "10-K",
+        "start": "2022-07-01",
+        "end": "2023-06-30",
+        "revenue": 54734000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-06-30",
+        "form": "10-K",
+        "start": "2021-07-01",
+        "end": "2022-06-30",
+        "revenue": 59941000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-06-30",
+        "form": "10-K",
+        "start": "2020-07-01",
+        "end": "2021-06-30",
+        "revenue": 54445000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-09-30",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-09-30",
+        "revenue": 13666000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-09-30",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2022-09-30",
+        "revenue": 13332000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2023-10-01",
+        "end": "2023-12-31",
+        "revenue": 16891000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2022-10-01",
+        "end": "2022-12-31",
+        "revenue": 14237000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-12-31",
+        "revenue": 30557000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2023-12-31",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2022-12-31",
+        "revenue": 27569000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2024-01-01",
+        "end": "2024-03-31",
+        "revenue": 15580000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2023-01-01",
+        "end": "2023-03-31",
+        "revenue": 13260000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2024-03-31",
+        "revenue": 46137000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-03-31",
+        "form": "10-Q",
+        "start": "2022-07-01",
+        "end": "2023-03-31",
+        "revenue": 40829000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-06-30",
+        "form": "10-K",
+        "start": "2023-07-01",
+        "end": "2024-06-30",
+        "revenue": 62032000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-06-30",
+        "form": "10-K",
+        "start": "2022-07-01",
+        "end": "2023-06-30",
+        "revenue": 54734000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-06-30",
+        "form": "10-K",
+        "start": "2021-07-01",
+        "end": "2022-06-30",
+        "revenue": 59941000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-09-30",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-09-30",
+        "revenue": 13176000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-09-30",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-09-30",
+        "revenue": 11278000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2024-10-01",
+        "end": "2024-12-31",
+        "revenue": 14651000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2023-10-01",
+        "end": "2023-12-31",
+        "revenue": 14641000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-12-31",
+        "revenue": 27827000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2024-12-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2023-12-31",
+        "revenue": 25919000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2025-01-01",
+        "end": "2025-03-31",
+        "revenue": 13371000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2024-01-01",
+        "end": "2024-03-31",
+        "revenue": 12604000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2025-03-31",
+        "revenue": 41198000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-03-31",
+        "form": "10-Q",
+        "start": "2023-07-01",
+        "end": "2024-03-31",
+        "revenue": 38523000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-06-30",
+        "form": "10-K",
+        "start": "2024-07-01",
+        "end": "2025-06-30",
+        "revenue": 54649000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-06-30",
+        "form": "10-K",
+        "start": "2023-07-01",
+        "end": "2024-06-30",
+        "revenue": 50838000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-06-30",
+        "form": "10-K",
+        "start": "2022-07-01",
+        "end": "2023-06-30",
+        "revenue": 44820000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-09-30",
+        "form": "10-Q",
+        "start": "2025-07-01",
+        "end": "2025-09-30",
+        "revenue": 13756000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-09-30",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-09-30",
+        "revenue": 13176000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "revenue": 14250000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2024-10-01",
+        "end": "2024-12-31",
+        "revenue": 14651000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2025-07-01",
+        "end": "2025-12-31",
+        "revenue": 28006000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2025-12-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2024-12-31",
+        "revenue": 27827000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      }
+    ]
+  }
+}

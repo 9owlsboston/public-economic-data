@@ -35,3 +35,75 @@ series:
     frequency: monthly
     units: "Thousands of Persons"
     relevance: "Tech sector hiring — demand signal"
+
+  FEDFUNDS:
+    title: "Federal Funds Effective Rate"
+    frequency: monthly
+    units: "Percent"
+    relevance: "Core monetary policy rate — affects enterprise borrowing costs and CapEx decisions"
+
+  DGS2:
+    title: "2-Year Treasury Constant Maturity Rate"
+    frequency: daily
+    units: "Percent"
+    relevance: "Short-term rate expectations — component of yield curve analysis"
+
+  DGS10:
+    title: "10-Year Treasury Constant Maturity Rate"
+    frequency: daily
+    units: "Percent"
+    relevance: "Long-term rate benchmark — yield curve shape signals recession risk"
+
+  SP500:
+    title: "S&P 500"
+    frequency: daily
+    units: "Index"
+    relevance: "Broad market benchmark — contextualizes company financial performance"
+
+  NASDAQCOM:
+    title: "NASDAQ Composite Index"
+    frequency: daily
+    units: "Index"
+    relevance: "Tech-heavy market benchmark — tracks tech sector valuation trends"
+
+  DEXUSEU:
+    title: "U.S. Dollars to One Euro"
+    frequency: daily
+    units: "U.S. Dollars to One Euro"
+    relevance: "EUR/USD context for IFRS and non-USD filers — helps separate operational growth from FX translation"
+
+  DEXCAUS:
+    title: "Canadian Dollars to One U.S. Dollar"
+    frequency: daily
+    units: "Canadian Dollars to One U.S. Dollar"
+    relevance: "CAD/USD context for Canadian filers — supports normalized comparisons to USD reporters"
+
+  DEXJPUS:
+    title: "Japanese Yen to One U.S. Dollar"
+    frequency: daily
+    units: "Japanese Yen to One U.S. Dollar"
+    relevance: "JPY/USD context for Japanese filers — supports normalized comparisons to USD reporters"
+
+  DEXSZUS:
+    title: "Swiss Francs to One U.S. Dollar"
+    frequency: daily
+    units: "Swiss Francs to One U.S. Dollar"
+    relevance: "CHF/USD context for Swiss filers — supports normalized comparisons to USD reporters"
+
+  UNRATE:
+    title: "Unemployment Rate"
+    frequency: monthly
+    units: "Percent"
+    relevance: "Labor market slack — key macro backdrop for enterprise demand and budget resilience"
+
+  ICSA:
+    title: "Initial Claims"
+    frequency: weekly
+    units: "Number"
+    relevance: "Weekly labor-market stress signal — often turns faster than headline employment series"
+
+  BAA10Y:
+    title: "Moody's Seasoned Baa Corporate Bond Yield Relative to Yield on 10-Year Treasury Constant Maturity"
+    frequency: daily
+    units: "Percent"
+    relevance: "Corporate credit spread proxy — useful for tracking financing conditions and risk appetite"

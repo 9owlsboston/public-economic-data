@@ -1,9 +1,11 @@
 # Design: FRED & BLS Macro Indicators Module
 
-**Status:** Implemented
-**Date:** 2026-03-29
+**Status:** Implemented (initial 6 series); expanded to 18 series in subsequent sessions
+**Date:** 2026-03-29 (initial design); 2026-04-03 (expansion)
 **Module:** `macro/`
 **Phase:** 3 (per roadmap)
+
+**Note:** This design doc covers the original 6-series plan. The module has since been expanded to 18 series covering rates, FX, market indices, labor stress, and credit. See `macro/registry.yaml` for the current series list.
 
 ## Problem
 

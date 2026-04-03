@@ -10,14 +10,15 @@ Repo: `9owlsboston/public-economic-data` (private).
 
 | Module | Directory | Status |
 |---|---|---|
-| SEC EDGAR financials | `sec/` | Active — 27 companies, full history |
-| FRED macro indicators | `macro/` | Active — 6 series, full history |
+| SEC EDGAR financials | `sec/` | Active — 28 companies, full history |
+| SEC segment revenue | `sec/` | Active — Microsoft only (Intelligent Cloud, P&BP, MPC) |
+| FRED macro indicators | `macro/` | Active — 18 series, full history |
 | Cloud pricing | `cloud-pricing/` | Planned |
 | SDK adoption | `sdk-adoption/` | Planned |
 
 ## Key Conventions
 
-- **Registry vs data separation** — `sec/registry.yaml` has metadata only (name, ticker, exchange). Keyed by **CIK** (SEC's primary identifier). Financial data lives in `sec/financials/{cik}.json` (one file per company). `macro/registry.yaml` has series metadata (title, frequency, units). Keyed by **FRED series ID**. Time series data lives in `macro/fred/{series_id}.json` (one file per series).
+- **Registry vs data separation** — `sec/registry.yaml` has metadata only (name, ticker, exchange). Keyed by **CIK** (SEC's primary identifier). Financial data lives in `sec/financials/{cik}.json` (one file per company). Segment data lives in `sec/financials/{cik}_segments.json` (separate file, different schema — requires `segment_tags` in registry). `macro/registry.yaml` has series metadata (title, frequency, units). Keyed by **FRED series ID**. Time series data lives in `macro/fred/{series_id}.json` (one file per series).
 - **No internal identifiers** — This repo uses public identifiers only (CIK, ticker, FRED series ID). Internal IDs like TPID belong in consumer repos (e.g., acr-analytics has a TPID→CIK mapping).
 - **Monetary values** — Always in millions, suffixed `_M` (e.g., `revenue_M: 23769`).
 - **Period ordering** — Arrays sorted descending by `period_end` (most recent first).
@@ -34,7 +35,16 @@ SEC EDGAR Submissions API → ALL filings + period end dates
   → Tag resolution (3-layer: preferred → best match → YAML override)
   → Duration disambiguation (quarterly = shortest, annual = longest)
   → Merge with existing JSON (keep all history, both original + amended)
-  → Write sec/financials/{tpid}.json
+  → Write sec/financials/{cik}.json
+```
+
+```
+SEC Segment Extraction (companies with segment_tags in registry):
+  → Submissions API → filing list
+  → Download inline XBRL HTML for each filing
+  → Parse dimensional contexts to find segment members
+  → Extract revenue by segment
+  → Write sec/financials/{cik}_segments.json
 ```
 
 ```
@@ -46,6 +56,8 @@ FRED API (series/observations) → all observations for each series
 ```
 
 ## Helper Modules
+
+Helpers exist in two identical locations: `{module}/scripts/` (canonical) and `helpers/` (consumer convenience copy). Always keep both in sync after changes.
 
 Use `sec/scripts/sec_financials.py` (or `helpers/sec_financials.py`) to read SEC data:
 
@@ -64,6 +76,8 @@ macro = MacroIndicators(local_dir="macro/fred")
 gdp = macro.latest("GDPC1")
 growth = macro.yoy_growth("GDPC1")
 ppi = macro.trend("PCU518210518210", 12)
+curve = macro.spread("DGS10", "DGS2")
+eurusd = macro.fx_usd_per_local("DEXUSEU")
 ```
 
 ## Do NOT

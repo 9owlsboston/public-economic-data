@@ -12,6 +12,8 @@ Usage:
     gdp = macro.latest("GDPC1")
     growth = macro.yoy_growth("GDPC1")
     trend = macro.trend("PCU518210518210", 12)
+    spread = macro.spread("DGS10", "DGS2")
+    eurusd = macro.fx_usd_per_local("DEXUSEU")
 """
 
 import json
@@ -82,6 +84,19 @@ class MacroIndicators:
             return None
         return data["observations"][0]
 
+    def observation(self, series_id: str, target_date: str | None = None) -> dict | None:
+        """Get the closest observation for a series.
+
+        If target_date is omitted, returns the most recent observation.
+        """
+        data = self.get(series_id)
+        if not data or not data.get("observations"):
+            return None
+        obs = data["observations"]
+        if not target_date:
+            return obs[0]
+        return min(obs, key=lambda o: abs(_date_diff(o["date"], target_date)))
+
     def yoy_growth(self, series_id: str, target_date: str | None = None) -> float | None:
         """Compute YoY growth for a series.
 
@@ -128,6 +143,56 @@ class MacroIndicators:
             return []
         return data.get("observations", [])[:n]
 
+    def spread(
+        self,
+        series_id: str,
+        other_series_id: str,
+        target_date: str | None = None,
+    ) -> dict | None:
+        """Compute a point-in-time spread between two series.
+
+        Returns {"date", "value"} where value = series_id - other_series_id.
+        If the closest observations land on different dates, includes
+        "other_date" for transparency.
+        """
+        left = self.observation(series_id, target_date)
+        if not left:
+            return None
+
+        right_target = target_date or left["date"]
+        right = self.observation(other_series_id, right_target)
+        if not right:
+            return None
+
+        result = {
+            "date": left["date"],
+            "value": round(left["value"] - right["value"], 4),
+        }
+        if right["date"] != left["date"]:
+            result["other_date"] = right["date"]
+        return result
+
+    def fx_usd_per_local(self, series_id: str, target_date: str | None = None) -> dict | None:
+        """Get an FX observation normalized to USD per one unit of local currency.
+
+        This keeps consumers from having to remember which FRED FX series
+        are quoted as local-per-USD vs USD-per-local.
+        """
+        data = self.get(series_id)
+        obs = self.observation(series_id, target_date)
+        if not data or not obs:
+            return None
+
+        normalized = _fx_usd_per_local(obs["value"], data.get("units", ""))
+        if normalized is None:
+            return None
+
+        return {
+            "date": obs["date"],
+            "value": normalized,
+            "quote": "usd_per_local_currency",
+        }
+
     def series_list(self) -> list[str]:
         """List all available series IDs."""
         if self._mode == "local":
@@ -150,3 +215,15 @@ def _year_ago(d: str) -> str:
     # Handle leap year: go back 365 days (close enough for matching)
     prior = dt - timedelta(days=365)
     return prior.strftime("%Y-%m-%d")
+
+
+def _fx_usd_per_local(value: float, units: str) -> float | None:
+    """Normalize a FRED FX quote to USD per one unit of local currency."""
+    units_l = units.lower()
+    if units_l.startswith("u.s. dollars to one "):
+        return round(value, 6)
+    if " to one u.s. dollar" in units_l:
+        if value == 0:
+            return None
+        return round(1 / value, 6)
+    return None
