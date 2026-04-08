@@ -1,0 +1,54 @@
+{
+  "isin": "DE0007100000",
+  "name": "Mercedes-Benz Group AG",
+  "ticker": "MBG",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 132214,
+      "rnd_M": 6055,
+      "cost_of_revenue_M": 109881,
+      "net_income_M": 5141,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 145594,
+      "rnd_M": 5580,
+      "cost_of_revenue_M": 117018,
+      "net_income_M": 10207
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 152390,
+      "rnd_M": 6230,
+      "cost_of_revenue_M": 117386,
+      "net_income_M": 14261
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 150017,
+      "rnd_M": 5602,
+      "cost_of_revenue_M": 115997,
+      "net_income_M": 14501
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

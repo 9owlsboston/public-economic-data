@@ -1,0 +1,54 @@
+{
+  "isin": "DE0007664039",
+  "name": "Volkswagen AG",
+  "ticker": "VOW3",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 321913,
+      "rnd_M": null,
+      "cost_of_revenue_M": 270671,
+      "net_income_M": 7323,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 324655,
+      "rnd_M": null,
+      "cost_of_revenue_M": 265184,
+      "net_income_M": 11351
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 322284,
+      "rnd_M": null,
+      "cost_of_revenue_M": 261299,
+      "net_income_M": 16532
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 279050,
+      "rnd_M": null,
+      "cost_of_revenue_M": 226866,
+      "net_income_M": 15457
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

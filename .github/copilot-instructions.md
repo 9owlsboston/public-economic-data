@@ -10,16 +10,18 @@ Repo: `9owlsboston/public-economic-data` (private).
 
 | Module | Directory | Status |
 |---|---|---|
-| SEC EDGAR financials | `sec/` | Active — 28 companies, full history |
+| SEC EDGAR financials | `sec/` | Active — 29 companies, full history |
 | SEC segment revenue | `sec/` | Active — Microsoft only (Intelligent Cloud, P&BP, MPC) |
 | FRED macro indicators | `macro/` | Active — 18 series, full history |
+| International financials | `intl/` | Active — 4 European companies (BMW, Siemens, Mercedes-Benz, VW) via Yahoo Finance |
+| EDINET financials | `edinet/` | Active — 4 Japanese companies (NTT, Hitachi, NEC, Fujitsu) via EDINET XBRL |
 | Cloud pricing | `cloud-pricing/` | Planned |
 | SDK adoption | `sdk-adoption/` | Planned |
 
 ## Key Conventions
 
-- **Registry vs data separation** — `sec/registry.yaml` has metadata only (name, ticker, exchange). Keyed by **CIK** (SEC's primary identifier). Financial data lives in `sec/financials/{cik}.json` (one file per company). Segment data lives in `sec/financials/{cik}_segments.json` (separate file, different schema — requires `segment_tags` in registry). `macro/registry.yaml` has series metadata (title, frequency, units). Keyed by **FRED series ID**. Time series data lives in `macro/fred/{series_id}.json` (one file per series).
-- **No internal identifiers** — This repo uses public identifiers only (CIK, ticker, FRED series ID). Internal IDs like TPID belong in consumer repos (e.g., acr-analytics has a TPID→CIK mapping).
+- **Registry vs data separation** — `sec/registry.yaml` has metadata only (name, ticker, exchange). Keyed by **CIK** (SEC's primary identifier). Financial data lives in `sec/financials/{cik}.json` (one file per company). Segment data lives in `sec/financials/{cik}_segments.json` (separate file, different schema — requires `segment_tags` in registry). `macro/registry.yaml` has series metadata (title, frequency, units). Keyed by **FRED series ID**. Time series data lives in `macro/fred/{series_id}.json` (one file per series). `intl/registry.yaml` has international company metadata (name, ticker, exchange, yf_symbol). Keyed by **ISIN**. Financial data lives in `intl/financials/{isin}.json` (one file per company). `edinet/registry.yaml` has Japanese company metadata (name, ticker, exchange). Keyed by **EDINET Code**. Financial data lives in `edinet/financials/{edinet_code}.json` (one file per company).
+- **No internal identifiers** — This repo uses public identifiers only (CIK, ticker, FRED series ID, ISIN, EDINET Code). Internal IDs like TPID belong in consumer repos (e.g., acr-analytics has a TPID→CIK mapping).
 - **Monetary values** — Always in millions, suffixed `_M` (e.g., `revenue_M: 23769`).
 - **Period ordering** — Arrays sorted descending by `period_end` (most recent first).
 - **Currency** — Each entry has a `currency` field. Do NOT assume USD. Suppress Azure % ratios when currency ≠ USD.
@@ -55,6 +57,25 @@ FRED API (series/observations) → all observations for each series
   → Write macro/fred/{series_id}.json
 ```
 
+```
+Yahoo Finance (yfinance) → annual income statements for international companies
+  → Extract revenue, R&D, COGS, net income
+  → Convert from full units to millions
+  → Merge with existing JSON (deduplicate by period_end, newer wins)
+  → Sort descending by period_end
+  → Write intl/financials/{isin}.json
+```
+
+```
+EDINET API V2 → document list by date → filter by EDINET code + type 120 (有価証券報告書)
+  → Download XBRL ZIP for each annual filing
+  → Parse iXBRL HTML files for jpigp_cor / company-specific IFRS facts
+  → Extract revenue, operating income, net income (R&D where disclosed)
+  → Merge with existing JSON (deduplicate by period_end, newer wins)
+  → Sort descending by period_end
+  → Write edinet/financials/{edinet_code}.json
+```
+
 ## Helper Modules
 
 Helpers exist in two identical locations: `{module}/scripts/` (canonical) and `helpers/` (consumer convenience copy). Always keep both in sync after changes.
@@ -80,6 +101,26 @@ curve = macro.spread("DGS10", "DGS2")
 eurusd = macro.fx_usd_per_local("DEXUSEU")
 ```
 
+Use `intl/scripts/intl_financials.py` (or `helpers/intl_financials.py`) to read international data:
+
+```python
+from intl_financials import IntlFinancials
+intl = IntlFinancials(local_dir="intl/financials")
+latest = intl.latest_annual("DE0007236101")  # Siemens by ISIN
+yoy = intl.yoy_revenue_growth("DE0007236101")
+trend = intl.revenue_trend("DE0005190003")   # BMW
+```
+
+Use `edinet/scripts/edinet_financials.py` (or `helpers/edinet_financials.py`) to read EDINET data:
+
+```python
+from edinet_financials import EDINETFinancials
+edinet = EDINETFinancials(local_dir="edinet/financials")
+latest = edinet.latest_annual("E04430")        # NTT by EDINET code
+yoy = edinet.yoy_revenue_growth("E04430")
+trend = edinet.revenue_trend("E01766")          # Fujitsu
+```
+
 ## Do NOT
 
 - Store derived ratios (YoY, R&D intensity, Azure %) in JSON — compute at read time
@@ -87,7 +128,7 @@ eurusd = macro.fx_usd_per_local("DEXUSEU")
 - Hardcode currency assumptions — always check the `currency` field
 - Overwrite amended filings — keep both original and amended (different `filing_date`)
 - Manually edit JSON data files — always use the module's `refresh` script
-- Use internal identifiers (TPID, enrollment numbers) — this repo uses public IDs only (CIK, ticker, FRED series ID)
+- Use internal identifiers (TPID, enrollment numbers) — this repo uses public IDs only (CIK, ticker, FRED series ID, ISIN, EDINET Code)
 
 ## Development Workflow
 

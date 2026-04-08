@@ -1,0 +1,46 @@
+{
+  "isin": "DE0007236101",
+  "name": "Siemens AG",
+  "ticker": "SIE",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 78914,
+      "rnd_M": 6559,
+      "cost_of_revenue_M": 48515,
+      "net_income_M": 9620,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 75930,
+      "rnd_M": 6276,
+      "cost_of_revenue_M": 46107,
+      "net_income_M": 8301
+    },
+    {
+      "period_end": "2023-09-30",
+      "currency": "EUR",
+      "revenue_M": 74882,
+      "rnd_M": 6113,
+      "cost_of_revenue_M": 45766,
+      "net_income_M": 7949
+    },
+    {
+      "period_end": "2022-09-30",
+      "currency": "EUR",
+      "revenue_M": 71977,
+      "rnd_M": 5591,
+      "cost_of_revenue_M": 46130,
+      "net_income_M": 3723
+    }
+  ]
+}

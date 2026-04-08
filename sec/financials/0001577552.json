@@ -1,0 +1,147 @@
+{
+  "cik": "0001577552",
+  "name": "Alibaba Group Holding Limited",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-06-26",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 996347,
+      "rnd_M": 57151,
+      "cost_of_revenue_M": 598285,
+      "net_income_M": 130109,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "filing_date": "2024-05-23",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 941168,
+      "rnd_M": 52256,
+      "cost_of_revenue_M": 586323,
+      "net_income_M": 80009
+    },
+    {
+      "period_end": "2023-03-31",
+      "filing_date": "2024-02-23",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 868687,
+      "rnd_M": 56744,
+      "cost_of_revenue_M": 549695,
+      "net_income_M": 72783,
+      "amended": true
+    },
+    {
+      "period_end": "2023-03-31",
+      "filing_date": "2023-07-21",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 868687,
+      "rnd_M": 56744,
+      "cost_of_revenue_M": 549695,
+      "net_income_M": 72783
+    },
+    {
+      "period_end": "2022-03-31",
+      "filing_date": "2022-07-26",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 853062,
+      "rnd_M": 55465,
+      "cost_of_revenue_M": 539450,
+      "net_income_M": 62249
+    },
+    {
+      "period_end": "2021-03-31",
+      "filing_date": "2021-07-27",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 717289,
+      "rnd_M": 57236,
+      "cost_of_revenue_M": 421205,
+      "net_income_M": 150578
+    },
+    {
+      "period_end": "2020-03-31",
+      "filing_date": "2020-07-09",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 509711,
+      "rnd_M": 43080,
+      "cost_of_revenue_M": 282367,
+      "net_income_M": 149433
+    },
+    {
+      "period_end": "2019-03-31",
+      "filing_date": "2019-06-05",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 376844,
+      "rnd_M": 37435,
+      "cost_of_revenue_M": 206929,
+      "net_income_M": 87886
+    },
+    {
+      "period_end": "2018-03-31",
+      "filing_date": "2018-07-27",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 250266,
+      "rnd_M": 22754,
+      "cost_of_revenue_M": 107044,
+      "net_income_M": 64093
+    },
+    {
+      "period_end": "2017-03-31",
+      "filing_date": "2017-06-15",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 158273,
+      "rnd_M": 17060,
+      "cost_of_revenue_M": 59483,
+      "net_income_M": 43675
+    },
+    {
+      "period_end": "2016-03-31",
+      "filing_date": "2016-05-24",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 101143,
+      "rnd_M": 13788,
+      "cost_of_revenue_M": 34355,
+      "net_income_M": 71460
+    },
+    {
+      "period_end": "2015-03-31",
+      "filing_date": "2015-06-25",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 76204,
+      "rnd_M": 10658,
+      "cost_of_revenue_M": 23834,
+      "net_income_M": 24261
+    }
+  ],
+  "quarterly": []
+}

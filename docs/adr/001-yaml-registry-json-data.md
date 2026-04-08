@@ -20,7 +20,7 @@ Adding full historical data (5+ annual periods, 20+ quarterly periods per compan
 Split into two tiers:
 
 1. **`sec/registry.yaml`** — Company registry only (~200 lines). Metadata: name, ticker, CIK, exchange, ai_keywords, tag_overrides. Stable, rarely changes.
-2. **`sec/financials/{tpid}.json`** — One JSON file per company. All historical annual and quarterly data. Machine-readable, fast to parse, ~5KB each.
+2. **`sec/financials/{cik}.json`** — One JSON file per company. All historical annual and quarterly data. Machine-readable, fast to parse, ~5KB each.
 
 JSON was chosen over YAML for financial data because:
 - 10× faster to parse at scale

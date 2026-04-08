@@ -5,12 +5,12 @@ Flow:
   1. Submissions API → find ALL 10-K/10-Q/20-F filings + period end dates
   2. CompanyFacts API → extract revenue, R&D, COGS, net income by period end
   3. Tag resolution (three-layer: preferred list → best match → YAML override)
-  4. Write per-company JSON to sec/financials/{tpid}.json
+  4. Write per-company JSON to sec/financials/{cik}.json
 
 Supports us-gaap (10-K/10-Q) and ifrs-full (20-F foreign private issuers).
 
 Usage:
-    python sec/scripts/refresh.py [--dry-run] [--tpid TPID]
+    python sec/scripts/refresh.py [--dry-run] [--cik CIK]
 
 Rate limit: SEC requires User-Agent header, max 10 req/sec.
 """

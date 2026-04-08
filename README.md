@@ -6,8 +6,10 @@ Private aggregator of public economic and financial datasets for cloud economics
 
 | Source | Directory | Status | Refresh |
 |---|---|---|---|
-| **SEC EDGAR XBRL** | `sec/` | ✅ Active — 28 companies, full history | Quarterly (GitHub Action) |
+| **SEC EDGAR XBRL** | `sec/` | ✅ Active — 29 companies, full history | Quarterly (GitHub Action) |
 | **FRED Macro Indicators** | `macro/` | ✅ Active — 18 series, full history | Monthly (GitHub Action) |
+| **International Financials** | `intl/` | ✅ Active — 4 European companies (Yahoo Finance) | Quarterly (GitHub Action) |
+| **EDINET Financials** | `edinet/` | ✅ Active — 4 Japanese companies (EDINET XBRL) | Quarterly (GitHub Action) |
 | Cloud Pricing (Azure/AWS/GCP) | `cloud-pricing/` | Planned | Monthly |
 | SDK Adoption (PyPI/npm) | `sdk-adoption/` | Planned | Weekly |
 
@@ -15,7 +17,7 @@ Private aggregator of public economic and financial datasets for cloud economics
 
 ### Coverage
 
-28 companies from top 50 Azure customers by ACR. Revenue, R&D, COGS, net income.
+28 companies from top 50 Azure customers by ACR, plus Alibaba. Revenue, R&D, COGS, net income.
 Supports `us-gaap` (10-K/10-Q) and `ifrs-full` (20-F foreign private issuers).
 
 ### Structure
@@ -27,7 +29,7 @@ sec/
     0000796343.json           # Adobe — 9 annual + 25 quarterly periods
     0000104169.json           # Walmart
     0000789019_segments.json  # Microsoft — segment-level revenue
-    ...                       # 28 standard files + 1 segment file
+    ...                       # 29 standard files + 1 segment file
   scripts/
     refresh.py                # SEC EDGAR fetcher (Submissions → CompanyFacts)
     refresh_segments.py       # Segment-level XBRL extraction
@@ -209,9 +211,113 @@ python macro/scripts/refresh_fred.py --dry-run
 Automated via GitHub Actions: runs monthly on the 5th.
 Manual trigger available via `workflow_dispatch`.
 
+## International Financials
+
+### Coverage
+
+4 European companies (BMW, Siemens, Mercedes-Benz, Volkswagen). Revenue, R&D (where disclosed), COGS, net income.
+Data sourced via Yahoo Finance (`yfinance`). All values in EUR.
+
+### Structure
+
+```
+intl/
+  registry.yaml              # Company registry (ISIN-keyed)
+  financials/
+    DE0005190003.json          # BMW
+    DE0007236101.json          # Siemens
+    DE0007100000.json          # Mercedes-Benz
+    DE0007664039.json          # Volkswagen
+  scripts/
+    refresh_intl.py            # Yahoo Finance fetcher
+    intl_financials.py         # Helper module for reading data
+```
+
+### Usage
+
+```python
+from intl_financials import IntlFinancials
+
+intl = IntlFinancials(local_dir="intl/financials")
+
+latest = intl.latest_annual("DE0007236101")       # Siemens by ISIN
+yoy = intl.yoy_revenue_growth("DE0007236101")     # YoY revenue growth (decimal)
+trend = intl.revenue_trend("DE0005190003", 5)     # BMW last 5 annual revenues
+```
+
+### Refresh
+
+```bash
+# All companies
+python intl/scripts/refresh_intl.py
+
+# Single company (by ISIN)
+python intl/scripts/refresh_intl.py --isin DE0007236101
+
+# Dry run
+python intl/scripts/refresh_intl.py --dry-run
+```
+
+Automated via GitHub Actions: runs quarterly on Jan/Apr/Jul/Oct 20.
+Manual trigger available via `workflow_dispatch`.
+
+## EDINET Financials (Japan)
+
+### Coverage
+
+4 Japanese companies (NTT, Hitachi, NEC, Fujitsu). Revenue, operating income, net income.
+Data sourced directly from EDINET XBRL filings (Japan FSA). IFRS reporters. All values in millions JPY.
+
+### Structure
+
+```
+edinet/
+  registry.yaml              # Company registry (EDINET code-keyed)
+  financials/
+    E04430.json                # NTT
+    E01737.json                # Hitachi
+    E01765.json                # NEC
+    E01766.json                # Fujitsu
+  scripts/
+    refresh_edinet.py          # EDINET API + iXBRL parser
+    edinet_financials.py       # Helper module for reading data
+```
+
+### Usage
+
+```python
+from edinet_financials import EDINETFinancials
+
+edinet = EDINETFinancials(local_dir="edinet/financials")
+
+latest = edinet.latest_annual("E04430")           # NTT by EDINET code
+yoy = edinet.yoy_revenue_growth("E04430")         # YoY revenue growth (decimal)
+trend = edinet.revenue_trend("E01766", 5)         # Fujitsu last 5 annual revenues
+```
+
+### Refresh
+
+```bash
+# All companies
+python edinet/scripts/refresh_edinet.py
+
+# Single company (by EDINET code)
+python edinet/scripts/refresh_edinet.py --edinet-code E04430
+
+# Dry run
+python edinet/scripts/refresh_edinet.py --dry-run
+```
+
+Automated via GitHub Actions: runs quarterly on Jan/Apr/Jul/Oct 25.
+Manual trigger available via `workflow_dispatch`.
+
+**Note:** The refresh is slow (~20 min for all 4 companies) because EDINET's document list API requires scanning individual dates to find filings, and each XBRL ZIP must be downloaded and parsed.
+
 ## Requirements
 
 - Python 3.10+
 - `pyyaml` (`pip install pyyaml`)
 - **SEC module:** No API keys required (SEC EDGAR is public, rate limit: 10 req/sec with User-Agent)
 - **FRED module:** `FRED_API_KEY` environment variable (free — [register here](https://fred.stlouisfed.org/docs/api/api_key.html))
+- **International module:** `yfinance` (`pip install yfinance`) — no API key required
+- **EDINET module:** `EDINET_API_KEY` environment variable (free — [register here](https://api.edinet-fsa.go.jp/api/auth/index.aspx?mode=1))

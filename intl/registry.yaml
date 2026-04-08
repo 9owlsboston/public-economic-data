@@ -1,0 +1,29 @@
+version: 1
+# International public companies — sourced via Yahoo Finance (yfinance).
+# Keyed by ISIN (International Securities Identification Number).
+# yf_symbol: Yahoo Finance ticker (e.g., BMW.DE for XETRA-listed BMW).
+companies:
+  DE0005190003:
+    name: BMW AG
+    ticker: BMW
+    exchange: XETRA
+    yf_symbol: BMW.DE
+    currency: EUR
+  DE0007236101:
+    name: Siemens AG
+    ticker: SIE
+    exchange: XETRA
+    yf_symbol: SIE.DE
+    currency: EUR
+  DE0007100000:
+    name: Mercedes-Benz Group AG
+    ticker: MBG
+    exchange: XETRA
+    yf_symbol: MBG.DE
+    currency: EUR
+  DE0007664039:
+    name: Volkswagen AG
+    ticker: VOW3
+    exchange: XETRA
+    yf_symbol: VOW3.DE
+    currency: EUR

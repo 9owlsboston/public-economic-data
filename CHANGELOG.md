@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- **EDINET Financials module** — 4 Japanese companies (NTT, Hitachi, NEC, Fujitsu) via EDINET API V2 + iXBRL parsing. Keyed by EDINET Code. Revenue, operating income, net income in JPY (millions). 6–7 annual periods per company (FY2019–FY2025). Helper: `edinet_financials.py`. Tests: `test_edinet.py` (7 checks). GitHub Action: quarterly refresh on 25th. First repo module with custom XBRL parser.
+- **International Financials module** — 4 European companies (BMW, Siemens, Mercedes-Benz, Volkswagen) via Yahoo Finance. Keyed by ISIN. Revenue, R&D (where disclosed), COGS, net income in EUR. Helper: `intl_financials.py`. Tests: `test_intl.py` (7 checks). GitHub Action: quarterly refresh on 20th.
+- **Alibaba (BABA)** — added to SEC module (CIK `0001577552`). Active 20-F filer on NYSE. 12 annual periods (FY2015–FY2025), currency CNY. SEC company count: 28 → 29.
+- **ADR-004** — source-native keys per module (CIK for SEC, ISIN for intl, EDINET Code for edinet, FRED series ID for macro)
+- **ADR-005** — Yahoo Finance for European data (Bundesanzeiger has no API, filings.xbrl.org excludes Germany, FMP free tier paywalls non-US exchanges)
+- **Non-SEC filers design doc** — covers EDINET (Japan, implemented), Yahoo Finance (Europe, implemented), private companies (deferred). `docs/design/non-sec-filers.md`
 - **FRED Macro Indicators** — 18 series total: GDP, CPI (all items + IT), PPI Data Processing, employment (civilian + tech sector), Federal Funds Rate, 2Y/10Y Treasury rates, S&P 500, NASDAQ, EUR/CAD/JPY/CHF FX rates, Unemployment Rate, Initial Claims, Baa credit spread. Full history, monthly refresh.
 - **Macro helper enhancements** — added `observation()`, `spread()`, and `fx_usd_per_local()` for date-aligned comparisons and normalized FX reads
 - **SEC segment extraction** — `refresh_segments.py` extracts dimensional XBRL segment revenue (Microsoft: Intelligent Cloud, Productivity & Business Processes, More Personal Computing). Stored in `{cik}_segments.json` with separate schema.
@@ -39,10 +45,10 @@ All notable changes to this project will be documented in this file.
 - **Period-end anchored extraction** — uses filing `reportDate` from Submissions API, not CY calendar frames
 - **Duration disambiguation** — correctly separates single-quarter from YTD entries on 10-Q filings
 - **3-layer tag resolution** — preferred tag list → auto-select best match → YAML `tag_overrides`
-- **Per-company JSON storage** — `sec/financials/{tpid}.json` with full annual + quarterly history
+- **Per-company JSON storage** — `sec/financials/{cik}.json` with full annual + quarterly history
 - **YAML registry** — `sec/registry.yaml` with company metadata only (no financial data)
 - **Python helper** — `sec/scripts/sec_financials.py` with `get()`, `latest_annual()`, `yoy_revenue_growth()`, `rnd_intensity()`, `revenue_trend()`
-- **GitHub Action** — quarterly auto-refresh (Jan/Apr/Jul/Oct 15) + manual dispatch per TPID
+- **GitHub Action** — quarterly auto-refresh (Jan/Apr/Jul/Oct 15) + manual dispatch per CIK
 - **Agent instructions** — `.github/copilot-instructions.md` with conventions and boundaries
 - **ADRs** — 3 initial architectural decision records (storage split, IFRS, separate repo)
 

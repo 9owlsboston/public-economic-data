@@ -1,0 +1,46 @@
+name: Refresh EDINET Financials
+
+on:
+  schedule:
+    # Run quarterly on Jan/Apr/Jul/Oct 25 at 12:00 UTC
+    # Offset from SEC (15th), Macro (5th), Intl (20th) to spread load
+    # Japanese FY ends March 31; annual reports filed in June
+    - cron: '0 12 25 1,4,7,10 *'
+  workflow_dispatch:
+    inputs:
+      edinet_code:
+        description: 'Optional: refresh a single company by EDINET code (e.g., E04430)'
+        required: false
+        type: string
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Refresh EDINET financials
+        run: |
+          if [ -n "${{ inputs.edinet_code }}" ]; then
+            python edinet/scripts/refresh_edinet.py --edinet-code "${{ inputs.edinet_code }}"
+          else
+            python edinet/scripts/refresh_edinet.py
+          fi
+        env:
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh EDINET financials [automated]"
+          file_pattern: "edinet/financials/*.json"

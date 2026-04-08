@@ -1,0 +1,25 @@
+version: 1
+# Japanese public companies — sourced via EDINET (FSA Japan).
+# Keyed by EDINET Code (e.g., E04430).
+# All four report under IFRS. FY ends March 31.
+companies:
+  E04430:
+    name: Nippon Telegraph and Telephone Corporation
+    ticker: '9432'
+    exchange: TSE
+    currency: JPY
+  E01737:
+    name: Hitachi, Ltd.
+    ticker: '6501'
+    exchange: TSE
+    currency: JPY
+  E01765:
+    name: NEC Corporation
+    ticker: '6701'
+    exchange: TSE
+    currency: JPY
+  E01766:
+    name: Fujitsu Limited
+    ticker: '6702'
+    exchange: TSE
+    currency: JPY
