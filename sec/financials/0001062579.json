@@ -1,0 +1,236 @@
+{
+  "cik": "0001062579",
+  "name": "AMDOCS LTD",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2024-09-30",
+      "filing_date": "2024-12-17",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 5005,
+      "rnd_M": 361,
+      "cost_of_revenue_M": 3250,
+      "net_income_M": 493,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2023-09-30",
+      "filing_date": "2023-12-13",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 4888,
+      "rnd_M": 375,
+      "cost_of_revenue_M": 3160,
+      "net_income_M": 541
+    },
+    {
+      "period_end": "2022-09-30",
+      "filing_date": "2022-12-13",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 4577,
+      "rnd_M": 355,
+      "cost_of_revenue_M": 2958,
+      "net_income_M": 550
+    },
+    {
+      "period_end": "2021-09-30",
+      "filing_date": "2021-12-09",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 4289,
+      "rnd_M": 313,
+      "cost_of_revenue_M": 2811,
+      "net_income_M": 688
+    },
+    {
+      "period_end": "2020-09-30",
+      "filing_date": "2020-12-14",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 4169,
+      "rnd_M": 282,
+      "cost_of_revenue_M": 2756,
+      "net_income_M": 498
+    },
+    {
+      "period_end": "2019-09-30",
+      "filing_date": "2019-12-19",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 4087,
+      "rnd_M": 274,
+      "cost_of_revenue_M": 2653,
+      "net_income_M": 479,
+      "amended": true
+    },
+    {
+      "period_end": "2019-09-30",
+      "filing_date": "2019-12-16",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 4087,
+      "rnd_M": 274,
+      "cost_of_revenue_M": 2653,
+      "net_income_M": 479
+    },
+    {
+      "period_end": "2018-09-30",
+      "filing_date": "2018-12-10",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3975,
+      "rnd_M": 277,
+      "cost_of_revenue_M": 2595,
+      "net_income_M": 354
+    },
+    {
+      "period_end": "2017-09-30",
+      "filing_date": "2017-12-11",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3867,
+      "rnd_M": 259,
+      "cost_of_revenue_M": 2508,
+      "net_income_M": 437
+    },
+    {
+      "period_end": "2016-09-30",
+      "filing_date": "2016-12-12",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3718,
+      "rnd_M": 252,
+      "cost_of_revenue_M": 2408,
+      "net_income_M": 409
+    },
+    {
+      "period_end": "2015-09-30",
+      "filing_date": "2015-12-10",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3644,
+      "rnd_M": 255,
+      "cost_of_revenue_M": 2349,
+      "net_income_M": 446
+    },
+    {
+      "period_end": "2014-09-30",
+      "filing_date": "2014-12-08",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3564,
+      "rnd_M": 258,
+      "cost_of_revenue_M": 2307,
+      "net_income_M": 422
+    },
+    {
+      "period_end": "2013-09-30",
+      "filing_date": "2013-12-09",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3346,
+      "rnd_M": 240,
+      "cost_of_revenue_M": 2167,
+      "net_income_M": 412
+    },
+    {
+      "period_end": "2012-09-30",
+      "filing_date": "2012-12-11",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 242,
+      "cost_of_revenue_M": null,
+      "net_income_M": 391
+    },
+    {
+      "period_end": "2011-09-30",
+      "filing_date": "2011-12-08",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 222,
+      "cost_of_revenue_M": null,
+      "net_income_M": 347
+    },
+    {
+      "period_end": "2010-09-30",
+      "filing_date": "2010-12-09",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 208,
+      "cost_of_revenue_M": null,
+      "net_income_M": 344,
+      "amended": true
+    },
+    {
+      "period_end": "2010-09-30",
+      "filing_date": "2010-12-07",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 208,
+      "cost_of_revenue_M": null,
+      "net_income_M": 344
+    },
+    {
+      "period_end": "2009-09-30",
+      "filing_date": "2009-12-07",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 210,
+      "cost_of_revenue_M": null,
+      "net_income_M": 326
+    },
+    {
+      "period_end": "2008-09-30",
+      "filing_date": "2008-12-08",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 225,
+      "cost_of_revenue_M": null,
+      "net_income_M": 379
+    },
+    {
+      "period_end": "2007-09-30",
+      "filing_date": "2007-12-03",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 230,
+      "cost_of_revenue_M": null,
+      "net_income_M": 365
+    }
+  ],
+  "quarterly": []
+}

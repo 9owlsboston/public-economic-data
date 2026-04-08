@@ -1,0 +1,87 @@
+{
+  "cik": "0001638826",
+  "name": "ServiceTitan, Inc.",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2026-01-31",
+      "filing_date": "2026-03-25",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 961,
+      "rnd_M": 303,
+      "cost_of_revenue_M": 287,
+      "net_income_M": -160,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-01-31",
+      "filing_date": "2025-04-02",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 772,
+      "rnd_M": 263,
+      "cost_of_revenue_M": 271,
+      "net_income_M": -239
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-10-31",
+      "filing_date": "2025-12-09",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 249,
+      "rnd_M": 79,
+      "cost_of_revenue_M": 73,
+      "net_income_M": -40,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-07-31",
+      "filing_date": "2025-09-10",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 242,
+      "rnd_M": 73,
+      "cost_of_revenue_M": 71,
+      "net_income_M": -32
+    },
+    {
+      "period_end": "2025-04-30",
+      "filing_date": "2025-06-12",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 216,
+      "rnd_M": 69,
+      "cost_of_revenue_M": 67,
+      "net_income_M": -46
+    },
+    {
+      "period_end": "2024-10-31",
+      "filing_date": "2025-01-14",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 199,
+      "rnd_M": 66,
+      "cost_of_revenue_M": 69,
+      "net_income_M": -46
+    }
+  ]
+}

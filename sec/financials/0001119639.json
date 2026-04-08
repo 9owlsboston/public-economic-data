@@ -1,0 +1,58 @@
+{
+  "cik": "0001119639",
+  "name": "PETROBRAS - PETROLEO BRASILEIRO SA",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-04-03",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 91416,
+      "rnd_M": 789,
+      "cost_of_revenue_M": 45444,
+      "net_income_M": 7528,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-04-12",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 102409,
+      "rnd_M": 726,
+      "cost_of_revenue_M": 48435,
+      "net_income_M": 24884
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-03-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 124474,
+      "rnd_M": 792,
+      "cost_of_revenue_M": 59486,
+      "net_income_M": 36623
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-03-30",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 83966,
+      "rnd_M": 563,
+      "cost_of_revenue_M": 43164,
+      "net_income_M": 19875
+    }
+  ],
+  "quarterly": []
+}

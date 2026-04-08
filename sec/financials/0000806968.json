@@ -1,0 +1,158 @@
+{
+  "cik": "0000806968",
+  "name": "WPP plc",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-19",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 13550,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11404,
+      "net_income_M": -215,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-07-25",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 14741,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12290,
+      "net_income_M": 542,
+      "amended": true
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-28",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 14741,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12290,
+      "net_income_M": 542
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-03-21",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 14845,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12326,
+      "net_income_M": 110
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-03-23",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 14429,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11890,
+      "net_income_M": 683
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-04-06",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 12801,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10598,
+      "net_income_M": 638
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-04-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 12003,
+      "rnd_M": null,
+      "cost_of_revenue_M": 9988,
+      "net_income_M": -2965
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2021-02-12",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 13234,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10825,
+      "net_income_M": 844,
+      "amended": true
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-04-30",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 13234,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10825,
+      "net_income_M": 844
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-04-26",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 13047,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10559,
+      "net_income_M": 825
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-04-30",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 13146,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10482,
+      "net_income_M": 1964
+    },
+    {
+      "period_end": "2016-12-31",
+      "filing_date": "2017-04-28",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 14887,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11846,
+      "net_income_M": 1400
+    },
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-04-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 12235,
+      "rnd_M": null,
+      "cost_of_revenue_M": 9709,
+      "net_income_M": 1160
+    }
+  ],
+  "quarterly": []
+}

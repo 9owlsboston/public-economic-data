@@ -1,0 +1,59 @@
+{
+  "cik": "0000886982",
+  "name": "GOLDMAN SACHS GROUP INC",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-25",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 17176,
+      "tags_used": {
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-09-30",
+      "filing_date": "2025-10-31",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4098,
+      "tags_used": {
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-01",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3723
+    },
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-02",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4738
+    }
+  ]
+}

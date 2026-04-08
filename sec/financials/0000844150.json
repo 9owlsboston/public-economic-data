@@ -1,0 +1,56 @@
+{
+  "cik": "0000844150",
+  "name": "NatWest Group plc",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-17",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 30243,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5834,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "net_income": "ifrs-full:ProfitLoss"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-02-21",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 29323,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4811
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-02-23",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 25382,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4632
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-02-24",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 16574,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3595
+    }
+  ],
+  "quarterly": []
+}

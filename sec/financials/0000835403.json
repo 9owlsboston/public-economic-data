@@ -1,0 +1,136 @@
+{
+  "cik": "0000835403",
+  "name": "DIAGEO PLC",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-14",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 27964,
+      "rnd_M": 74,
+      "cost_of_revenue_M": 8072,
+      "net_income_M": 2538,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLoss"
+      }
+    },
+    {
+      "period_end": "2024-06-30",
+      "filing_date": "2024-08-01",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 27891,
+      "rnd_M": 69,
+      "cost_of_revenue_M": 8071,
+      "net_income_M": 4166
+    },
+    {
+      "period_end": "2023-06-30",
+      "filing_date": "2023-08-03",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 23515,
+      "rnd_M": 53,
+      "cost_of_revenue_M": 6899,
+      "net_income_M": 3766
+    },
+    {
+      "period_end": "2022-06-30",
+      "filing_date": "2022-08-04",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 22448,
+      "rnd_M": 43,
+      "cost_of_revenue_M": 5973,
+      "net_income_M": 3338
+    },
+    {
+      "period_end": "2021-06-30",
+      "filing_date": "2021-08-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 19153,
+      "rnd_M": 40,
+      "cost_of_revenue_M": 5038,
+      "net_income_M": 2660
+    },
+    {
+      "period_end": "2020-06-30",
+      "filing_date": "2020-08-07",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 17697,
+      "rnd_M": 34,
+      "cost_of_revenue_M": 4654,
+      "net_income_M": 1409
+    },
+    {
+      "period_end": "2019-06-30",
+      "filing_date": "2019-08-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 19294,
+      "rnd_M": 35,
+      "cost_of_revenue_M": 4866,
+      "net_income_M": 3160
+    },
+    {
+      "period_end": "2018-06-30",
+      "filing_date": "2018-08-15",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 18432,
+      "rnd_M": 36,
+      "cost_of_revenue_M": 4634,
+      "net_income_M": 3022,
+      "amended": true
+    },
+    {
+      "period_end": "2018-06-30",
+      "filing_date": "2018-08-06",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 18432,
+      "rnd_M": 36,
+      "cost_of_revenue_M": 4634,
+      "net_income_M": 3022
+    },
+    {
+      "period_end": "2017-06-30",
+      "filing_date": "2017-08-08",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 33,
+      "cost_of_revenue_M": 4680,
+      "net_income_M": 2772
+    },
+    {
+      "period_end": "2016-06-30",
+      "filing_date": "2016-08-09",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 28,
+      "cost_of_revenue_M": 4251,
+      "net_income_M": 2362
+    }
+  ],
+  "quarterly": []
+}

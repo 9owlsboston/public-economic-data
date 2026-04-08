@@ -1,0 +1,59 @@
+{
+  "cik": "0000895421",
+  "name": "MORGAN STANLEY",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-19",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 16861,
+      "tags_used": {
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-09-30",
+      "filing_date": "2025-11-03",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4610,
+      "tags_used": {
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-04",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3539
+    },
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-05",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4315
+    }
+  ]
+}

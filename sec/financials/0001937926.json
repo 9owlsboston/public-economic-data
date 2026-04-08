@@ -1,0 +1,83 @@
+{
+  "cik": "0001937926",
+  "name": "Brookfield Asset Management Ltd.",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-02",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 4817,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2398,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-17",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3980,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2108
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-04-03",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 19
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-09-30",
+      "filing_date": "2025-11-10",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1252,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 692,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1090,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 584
+    },
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-09",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1081,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 507
+    }
+  ]
+}

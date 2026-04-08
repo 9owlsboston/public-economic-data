@@ -1,0 +1,123 @@
+{
+  "cik": "0001123799",
+  "name": "WIPRO LTD",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-22",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 890884,
+      "rnd_M": null,
+      "cost_of_revenue_M": 617802,
+      "net_income_M": 131354,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "filing_date": "2024-05-22",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 897603,
+      "rnd_M": null,
+      "cost_of_revenue_M": 631497,
+      "net_income_M": 110452
+    },
+    {
+      "period_end": "2023-03-31",
+      "filing_date": "2023-05-24",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 904876,
+      "rnd_M": null,
+      "cost_of_revenue_M": 645446,
+      "net_income_M": 113500
+    },
+    {
+      "period_end": "2022-03-31",
+      "filing_date": "2022-06-09",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 790934,
+      "rnd_M": null,
+      "cost_of_revenue_M": 555872,
+      "net_income_M": 122191
+    },
+    {
+      "period_end": "2021-03-31",
+      "filing_date": "2021-06-09",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 619430,
+      "rnd_M": null,
+      "cost_of_revenue_M": 423205,
+      "net_income_M": 107946
+    },
+    {
+      "period_end": "2020-03-31",
+      "filing_date": "2020-06-01",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 610232,
+      "rnd_M": null,
+      "cost_of_revenue_M": 436085,
+      "net_income_M": 97218
+    },
+    {
+      "period_end": "2019-03-31",
+      "filing_date": "2019-06-11",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 585845,
+      "rnd_M": null,
+      "cost_of_revenue_M": 413033,
+      "net_income_M": 90031
+    },
+    {
+      "period_end": "2018-03-31",
+      "filing_date": "2018-06-28",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 544871,
+      "rnd_M": null,
+      "cost_of_revenue_M": 385575,
+      "net_income_M": 80081
+    },
+    {
+      "period_end": "2017-03-31",
+      "filing_date": "2017-06-02",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 550402,
+      "rnd_M": null,
+      "cost_of_revenue_M": 391544,
+      "net_income_M": 84895
+    },
+    {
+      "period_end": "2016-03-31",
+      "filing_date": "2016-05-26",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "INR",
+      "revenue_M": 512440,
+      "rnd_M": null,
+      "cost_of_revenue_M": 356724,
+      "net_income_M": 89075
+    }
+  ],
+  "quarterly": []
+}

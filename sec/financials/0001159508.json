@@ -1,0 +1,33 @@
+{
+  "cik": "0001159508",
+  "name": "DEUTSCHE BANK AKTIENGESELLSCHAFT",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-12",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 31434,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-13",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 31504,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

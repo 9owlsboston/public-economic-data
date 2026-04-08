@@ -1,0 +1,327 @@
+{
+  "cik": "0001086222",
+  "name": "AKAMAI TECHNOLOGIES INC",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-20",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 514,
+      "cost_of_revenue_M": 1728,
+      "net_income_M": 452,
+      "tags_used": {
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-02-24",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 471,
+      "cost_of_revenue_M": 1621,
+      "net_income_M": 505
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-02-28",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 406,
+      "cost_of_revenue_M": 1511,
+      "net_income_M": 548
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-02-28",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 391,
+      "cost_of_revenue_M": 1384,
+      "net_income_M": 524
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-02-28",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 335,
+      "cost_of_revenue_M": 1269,
+      "net_income_M": 652
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-02-26",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 269,
+      "cost_of_revenue_M": 1133,
+      "net_income_M": 557
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-02-28",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 261,
+      "cost_of_revenue_M": 988,
+      "net_income_M": 478
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-09-30",
+      "filing_date": "2025-11-07",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 125,
+      "cost_of_revenue_M": 430,
+      "net_income_M": 140,
+      "tags_used": {
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 126,
+      "cost_of_revenue_M": 427,
+      "net_income_M": 104
+    },
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-09",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 124,
+      "cost_of_revenue_M": 419,
+      "net_income_M": 123
+    },
+    {
+      "period_end": "2024-09-30",
+      "filing_date": "2024-11-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 120,
+      "cost_of_revenue_M": 409,
+      "net_income_M": 58
+    },
+    {
+      "period_end": "2024-06-30",
+      "filing_date": "2024-08-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 113,
+      "cost_of_revenue_M": 403,
+      "net_income_M": 132
+    },
+    {
+      "period_end": "2024-03-31",
+      "filing_date": "2024-05-09",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 117,
+      "cost_of_revenue_M": 395,
+      "net_income_M": 175
+    },
+    {
+      "period_end": "2023-09-30",
+      "filing_date": "2023-11-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 106,
+      "cost_of_revenue_M": 383,
+      "net_income_M": 161
+    },
+    {
+      "period_end": "2023-06-30",
+      "filing_date": "2023-08-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 99,
+      "cost_of_revenue_M": 373,
+      "net_income_M": 129
+    },
+    {
+      "period_end": "2023-03-31",
+      "filing_date": "2023-05-09",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 92,
+      "cost_of_revenue_M": 361,
+      "net_income_M": 97
+    },
+    {
+      "period_end": "2022-09-30",
+      "filing_date": "2022-11-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 94,
+      "cost_of_revenue_M": 346,
+      "net_income_M": 108
+    },
+    {
+      "period_end": "2022-06-30",
+      "filing_date": "2022-08-09",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 92,
+      "cost_of_revenue_M": 347,
+      "net_income_M": 120
+    },
+    {
+      "period_end": "2022-03-31",
+      "filing_date": "2022-05-09",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 100,
+      "cost_of_revenue_M": 333,
+      "net_income_M": 119
+    },
+    {
+      "period_end": "2021-09-30",
+      "filing_date": "2021-11-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 83,
+      "cost_of_revenue_M": 317,
+      "net_income_M": 179
+    },
+    {
+      "period_end": "2021-06-30",
+      "filing_date": "2021-08-06",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 77,
+      "cost_of_revenue_M": 320,
+      "net_income_M": 156
+    },
+    {
+      "period_end": "2021-03-31",
+      "filing_date": "2021-05-07",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 82,
+      "cost_of_revenue_M": 307,
+      "net_income_M": 156
+    },
+    {
+      "period_end": "2020-09-30",
+      "filing_date": "2020-11-06",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 67,
+      "cost_of_revenue_M": 283,
+      "net_income_M": 159
+    },
+    {
+      "period_end": "2020-06-30",
+      "filing_date": "2020-08-07",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 64,
+      "cost_of_revenue_M": 277,
+      "net_income_M": 162
+    },
+    {
+      "period_end": "2020-03-31",
+      "filing_date": "2020-05-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 71,
+      "cost_of_revenue_M": 269,
+      "net_income_M": 123
+    },
+    {
+      "period_end": "2019-09-30",
+      "filing_date": "2019-11-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 65,
+      "cost_of_revenue_M": 247,
+      "net_income_M": 138
+    },
+    {
+      "period_end": "2019-06-30",
+      "filing_date": "2019-08-08",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 61,
+      "cost_of_revenue_M": 242,
+      "net_income_M": 114
+    },
+    {
+      "period_end": "2019-03-31",
+      "filing_date": "2019-05-09",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": 66,
+      "cost_of_revenue_M": 241,
+      "net_income_M": 107
+    }
+  ]
+}

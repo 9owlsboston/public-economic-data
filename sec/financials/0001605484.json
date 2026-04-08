@@ -1,0 +1,183 @@
+{
+  "cik": "0001605484",
+  "name": "Stellantis N.V.",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-26",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 153508,
+      "rnd_M": 11145,
+      "cost_of_revenue_M": 155627,
+      "net_income_M": -22332,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLoss"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-02-27",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 156878,
+      "rnd_M": 5784,
+      "cost_of_revenue_M": 136360,
+      "net_income_M": 5520
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-02-22",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 189544,
+      "rnd_M": 5619,
+      "cost_of_revenue_M": 151400,
+      "net_income_M": 18625
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-02-24",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 179592,
+      "rnd_M": 5200,
+      "cost_of_revenue_M": 144327,
+      "net_income_M": 16779
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-02-25",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 149419,
+      "rnd_M": 4487,
+      "cost_of_revenue_M": 119943,
+      "net_income_M": 14208
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-03-04",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 47656,
+      "rnd_M": 2231,
+      "cost_of_revenue_M": 38250,
+      "net_income_M": 2023
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-02-25",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 58993,
+      "rnd_M": 2573,
+      "cost_of_revenue_M": 46625,
+      "net_income_M": 3584
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-02-22",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 110412,
+      "rnd_M": 3051,
+      "cost_of_revenue_M": 95011,
+      "net_income_M": 3632
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-08-08",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 105730,
+      "rnd_M": 2903,
+      "cost_of_revenue_M": 89710,
+      "net_income_M": 3510,
+      "amended": true
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-03-02",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 105730,
+      "rnd_M": 2903,
+      "cost_of_revenue_M": 89710,
+      "net_income_M": 3510,
+      "amended": true
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-02-20",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 105730,
+      "rnd_M": 2903,
+      "cost_of_revenue_M": 89710,
+      "net_income_M": 3510
+    },
+    {
+      "period_end": "2016-12-31",
+      "filing_date": "2017-03-14",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 105798,
+      "rnd_M": 2930,
+      "cost_of_revenue_M": 90927,
+      "net_income_M": 1814,
+      "amended": true
+    },
+    {
+      "period_end": "2016-12-31",
+      "filing_date": "2017-02-28",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 105798,
+      "rnd_M": 2930,
+      "cost_of_revenue_M": 90927,
+      "net_income_M": 1814
+    },
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-08-09",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 110595,
+      "rnd_M": 2864,
+      "cost_of_revenue_M": 97620,
+      "net_income_M": 377,
+      "amended": true
+    },
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-02-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 110595,
+      "rnd_M": 2864,
+      "cost_of_revenue_M": 97620,
+      "net_income_M": 377
+    }
+  ],
+  "quarterly": []
+}

@@ -1,0 +1,124 @@
+{
+  "cik": "0001067491",
+  "name": "Infosys Ltd",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-07-01",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 19277,
+      "rnd_M": 153,
+      "cost_of_revenue_M": 13405,
+      "net_income_M": 3158,
+      "tags_used": {
+        "revenue": "ifrs-full:RevenueFromContractsWithCustomers",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "filing_date": "2024-06-24",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 18562,
+      "rnd_M": 135,
+      "cost_of_revenue_M": 12975,
+      "net_income_M": 3167
+    },
+    {
+      "period_end": "2023-03-31",
+      "filing_date": "2023-06-15",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 18212,
+      "rnd_M": 129,
+      "cost_of_revenue_M": 12709,
+      "net_income_M": 2981
+    },
+    {
+      "period_end": "2022-03-31",
+      "filing_date": "2022-06-17",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 16311,
+      "rnd_M": 124,
+      "cost_of_revenue_M": 10996,
+      "net_income_M": 2963
+    },
+    {
+      "period_end": "2021-03-31",
+      "filing_date": "2021-06-11",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 13561,
+      "rnd_M": 127,
+      "cost_of_revenue_M": 8828,
+      "net_income_M": 2613
+    },
+    {
+      "period_end": "2020-03-31",
+      "filing_date": "2020-05-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 12780,
+      "rnd_M": 117,
+      "cost_of_revenue_M": 8552,
+      "net_income_M": 2331
+    },
+    {
+      "period_end": "2019-03-31",
+      "filing_date": "2019-06-19",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 11799,
+      "rnd_M": 110,
+      "cost_of_revenue_M": 7687,
+      "net_income_M": 2199
+    },
+    {
+      "period_end": "2018-03-31",
+      "filing_date": "2018-07-19",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 10939,
+      "rnd_M": 116,
+      "cost_of_revenue_M": 7001,
+      "net_income_M": 2486
+    },
+    {
+      "period_end": "2017-03-31",
+      "filing_date": "2017-06-12",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 10208,
+      "rnd_M": 118,
+      "cost_of_revenue_M": 6446,
+      "net_income_M": 2140
+    },
+    {
+      "period_end": "2016-03-31",
+      "filing_date": "2016-05-18",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 9501,
+      "rnd_M": 108,
+      "cost_of_revenue_M": 5950,
+      "net_income_M": 2052
+    }
+  ],
+  "quarterly": []
+}

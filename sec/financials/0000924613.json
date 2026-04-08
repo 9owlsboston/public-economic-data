@@ -1,0 +1,135 @@
+{
+  "cik": "0000924613",
+  "name": "NOKIA CORP",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 19889,
+      "rnd_M": 4855,
+      "cost_of_revenue_M": 11230,
+      "net_income_M": 651,
+      "tags_used": {
+        "revenue": "ifrs-full:RevenueFromContractsWithCustomers",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-13",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 19220,
+      "rnd_M": 4512,
+      "cost_of_revenue_M": 10356,
+      "net_income_M": 1277
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-02-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 21138,
+      "rnd_M": 4277,
+      "cost_of_revenue_M": 12592,
+      "net_income_M": 665
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-03-02",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 23761,
+      "rnd_M": 4503,
+      "cost_of_revenue_M": 13660,
+      "net_income_M": 4250
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-03-03",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 22202,
+      "rnd_M": 4214,
+      "cost_of_revenue_M": 13368,
+      "net_income_M": 1623
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-03-04",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 21852,
+      "rnd_M": 4087,
+      "cost_of_revenue_M": 13659,
+      "net_income_M": -2523
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-03-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 23315,
+      "rnd_M": 4532,
+      "cost_of_revenue_M": 15051,
+      "net_income_M": 7
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-03-21",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 22563,
+      "rnd_M": 4777,
+      "cost_of_revenue_M": 14251,
+      "net_income_M": -340
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-03-22",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 23147,
+      "rnd_M": 4916,
+      "cost_of_revenue_M": 14008,
+      "net_income_M": -1494
+    },
+    {
+      "period_end": "2016-12-31",
+      "filing_date": "2017-03-23",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 23641,
+      "rnd_M": 4997,
+      "cost_of_revenue_M": 15117,
+      "net_income_M": -766
+    },
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-04-01",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 12560,
+      "rnd_M": 2080,
+      "cost_of_revenue_M": 6963,
+      "net_income_M": 2466
+    }
+  ],
+  "quarterly": []
+}

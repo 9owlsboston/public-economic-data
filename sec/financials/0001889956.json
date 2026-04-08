@@ -1,7 +1,7 @@
 {
-  "name": "OneStream Inc.",
   "cik": "0001889956",
-  "last_refreshed": "2026-03-29",
+  "name": "OneStream Inc.",
+  "last_refreshed": "2026-04-08",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -12,7 +12,19 @@
       "revenue_M": 602,
       "rnd_M": 131,
       "cost_of_revenue_M": 189,
+      "net_income_M": -50
+    },
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-31",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 602,
+      "rnd_M": 131,
+      "cost_of_revenue_M": 189,
       "net_income_M": -50,
+      "amended": true,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "rnd": "us-gaap:ResearchAndDevelopmentExpense",

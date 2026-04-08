@@ -1,0 +1,70 @@
+{
+  "cik": "0001900304",
+  "name": "Haleon plc",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-13",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 11030,
+      "rnd_M": 316,
+      "cost_of_revenue_M": 3950,
+      "net_income_M": 1667,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-20",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 11233,
+      "rnd_M": 298,
+      "cost_of_revenue_M": 4409,
+      "net_income_M": 1442
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-05-24",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 11302,
+      "rnd_M": 311,
+      "cost_of_revenue_M": 4555,
+      "net_income_M": 1049,
+      "amended": true
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-03-15",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 11302,
+      "rnd_M": 311,
+      "cost_of_revenue_M": 4555,
+      "net_income_M": 1049
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-03-20",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 10858,
+      "rnd_M": 300,
+      "cost_of_revenue_M": 4281,
+      "net_income_M": 1060
+    }
+  ],
+  "quarterly": []
+}

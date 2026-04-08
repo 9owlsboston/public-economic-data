@@ -1,0 +1,135 @@
+{
+  "cik": "0000353278",
+  "name": "NOVO NORDISK A S",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-04",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 309064,
+      "rnd_M": 52039,
+      "cost_of_revenue_M": 58788,
+      "net_income_M": 102434,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLoss"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-02-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 290403,
+      "rnd_M": 48062,
+      "cost_of_revenue_M": 44522,
+      "net_income_M": 100988
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-01-31",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 232261,
+      "rnd_M": 32443,
+      "cost_of_revenue_M": 35765,
+      "net_income_M": 83683
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-02-01",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 176954,
+      "rnd_M": 24047,
+      "cost_of_revenue_M": 28448,
+      "net_income_M": 55525
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-02-02",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 140800,
+      "rnd_M": 17772,
+      "cost_of_revenue_M": 23658,
+      "net_income_M": 47757
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-02-03",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 126946,
+      "rnd_M": 15462,
+      "cost_of_revenue_M": 20932,
+      "net_income_M": 42138
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-02-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 122021,
+      "rnd_M": 14220,
+      "cost_of_revenue_M": 20088,
+      "net_income_M": 38951
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-02-04",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 111831,
+      "rnd_M": 14805,
+      "cost_of_revenue_M": 17617,
+      "net_income_M": 38628
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-02-08",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 111696,
+      "rnd_M": 14014,
+      "cost_of_revenue_M": 17632,
+      "net_income_M": 38130
+    },
+    {
+      "period_end": "2016-12-31",
+      "filing_date": "2017-02-09",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 111780,
+      "rnd_M": 14563,
+      "cost_of_revenue_M": 17183,
+      "net_income_M": 37925
+    },
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-02-10",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "DKK",
+      "revenue_M": 107927,
+      "rnd_M": 13608,
+      "cost_of_revenue_M": 16188,
+      "net_income_M": 34860
+    }
+  ],
+  "quarterly": []
+}

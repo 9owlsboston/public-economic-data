@@ -1,13 +1,13 @@
 version: 2
 companies:
-  '0000789019':
+  0000789019:
     name: Microsoft Corporation
     ticker: MSFT
     exchange: NASDAQ
     segment_tags:
-      intelligent_cloud: "msft:IntelligentCloudMember"
-      productivity_business: "msft:ProductivityAndBusinessProcessesMember"
-      more_personal_computing: "msft:MorePersonalComputingMember"
+      intelligent_cloud: msft:IntelligentCloudMember
+      productivity_business: msft:ProductivityAndBusinessProcessesMember
+      more_personal_computing: msft:MorePersonalComputingMember
   0001737806:
     name: PDD Holdings Inc.
     ticker: PDD
@@ -140,3 +140,345 @@ companies:
     name: Alibaba Group Holding Limited
     ticker: BABA
     exchange: NYSE
+  0002087513:
+    name: Feitu Shanglian Cloud Information Technology Co., Ltd
+    ticker: FTY
+  0001528849:
+    name: RH
+    ticker: RH
+  0001958399:
+    name: Huachen AI Parking Management Technology Holding Co., Ltd
+    ticker: HCAI
+  0000861967:
+    name: WOLTERS KLUWER N V /FI
+    ticker: WTKWY
+  '0001045520':
+    name: CANADIAN IMPERIAL BANK OF COMMERCE /CAN/
+    ticker: CM
+  0000818972:
+    name: BNY MELLON STRATEGIC MUNICIPALS, INC.
+    ticker: LEO
+  0000813672:
+    name: CADENCE DESIGN SYSTEMS INC
+    ticker: CDNS
+  0000806968:
+    name: WPP plc
+    ticker: WPP
+  0001605484:
+    name: Stellantis N.V.
+    ticker: STLA
+  0001331875:
+    name: Fidelity National Financial, Inc.
+    ticker: FNF
+  0000895421:
+    name: MORGAN STANLEY
+    ticker: MS
+  '0001001250':
+    name: ESTEE LAUDER COMPANIES INC
+    ticker: EL
+  0002075589:
+    name: Law's Business Group Holding Ltd
+    ticker: LSBA
+  0000829224:
+    name: STARBUCKS CORP
+    ticker: SBUX
+  0001478242:
+    name: IQVIA HOLDINGS INC.
+    ticker: IQV
+  0000776867:
+    name: WHITE MOUNTAINS INSURANCE GROUP LTD
+    ticker: WTM
+  0000833444:
+    name: Johnson Controls International plc
+    ticker: JCI
+  0001472787:
+    name: First American Financial Corp
+    ticker: FAF
+  0000320187:
+    name: NIKE, Inc.
+    ticker: NKE
+  '0001013237':
+    name: FACTSET RESEARCH SYSTEMS INC
+    ticker: FDS
+  0000882835:
+    name: ROPER TECHNOLOGIES INC
+    ticker: ROP
+  0001341439:
+    name: ORACLE CORP
+    ticker: ORCL
+  '0001437441':
+    name: Piraeus Bank S.A.
+    ticker: PIRBF
+  '0001677703':
+    name: CONDUENT Inc
+    ticker: CNDT
+  '0000047217':
+    name: HP INC
+    ticker: HPQ
+  0001647639:
+    name: Upstart Holdings, Inc.
+    ticker: UPST
+  '0000040545':
+    name: GENERAL ELECTRIC CO
+    ticker: GE
+  0000070866:
+    name: NCR Voyix Corp
+    ticker: VYX
+  0000707549:
+    name: LAM RESEARCH CORP
+    ticker: LRCX
+  0001510295:
+    name: Marathon Petroleum Corp
+    ticker: MPC
+  '0001327567':
+    name: Palo Alto Networks Inc
+    ticker: PANW
+  0000062709:
+    name: MARSH & MCLENNAN COMPANIES, INC.
+    ticker: MRSH
+  '0001004315':
+    name: NATIONAL GRID PLC
+    ticker: NGG
+  0000050863:
+    name: INTEL CORP
+    ticker: INTC
+  0001067491:
+    name: Infosys Ltd
+    ticker: INFY
+  0001086222:
+    name: AKAMAI TECHNOLOGIES INC
+    ticker: AKAM
+  0001166691:
+    name: COMCAST CORP
+    ticker: CMCSA
+  0001119639:
+    name: PETROBRAS - PETROLEO BRASILEIRO SA
+    ticker: PBR
+  0001682852:
+    name: Moderna, Inc.
+    ticker: MRNA
+  0000354190:
+    name: Arthur J. Gallagher & Co.
+    ticker: AJG
+  0001937926:
+    name: Brookfield Asset Management Ltd.
+    ticker: BAM
+  0000059478:
+    name: ELI LILLY & Co
+    ticker: LLY
+  0000010795:
+    name: BECTON DICKINSON & CO
+    ticker: BDX
+  '0000031462':
+    name: ECOLAB INC.
+    ticker: ECL
+  0000887028:
+    name: RIO TINTO LTD
+    ticker: RTNTF
+  0001279715:
+    name: Wright Investors Service Holdings, Inc.
+    ticker: IWSH
+  0000876167:
+    name: PROGRESS SOFTWARE CORP /MA
+    ticker: PRGS
+  '0001455365':
+    name: COGNITION THERAPEUTICS INC
+    ticker: CGTX
+  0000811809:
+    name: BHP Group Ltd
+    ticker: BHP
+  0000072971:
+    name: WELLS FARGO & COMPANY/MN
+    ticker: WFC
+  0001567094:
+    name: CNH Industrial N.V.
+    ticker: CNH
+  0000773840:
+    name: HONEYWELL INTERNATIONAL INC
+    ticker: HON
+  0001449664:
+    name: CTF Services Ltd
+    ticker: NWSGY
+  0000924613:
+    name: NOKIA CORP
+    ticker: NOK
+  0001280058:
+    name: BLACKBAUD INC
+    ticker: BLKB
+  0001900304:
+    name: Haleon plc
+    ticker: HLN
+  '0001121404':
+    name: Sanofi
+    ticker: SNY
+  0001638826:
+    name: ServiceTitan, Inc.
+    ticker: TTAN
+  0001944048:
+    name: Kenvue Inc.
+    ticker: KVUE
+  0001645590:
+    name: Hewlett Packard Enterprise Co
+    ticker: HPE
+  0001832511:
+    name: P3 Health Partners Inc.
+    ticker: PIII
+  0000932787:
+    name: STMicroelectronics N.V.
+    ticker: STM
+  0001744489:
+    name: Walt Disney Co
+    ticker: DIS
+  0000895728:
+    name: ENBRIDGE INC
+    ticker: ENB
+  0000352915:
+    name: UNIVERSAL HEALTH SERVICES INC
+    ticker: UHS
+  '0001142231':
+    name: HEINEKEN HOLDING N V
+    ticker: HKHHY
+  0001475841:
+    name: National Bank Holdings Corp
+    ticker: NBHC
+  0000029989:
+    name: OMNICOM GROUP INC.
+    ticker: OMC
+  0001096343:
+    name: MARKEL GROUP INC.
+    ticker: MKL
+  0000947484:
+    name: ARCH CAPITAL GROUP LTD.
+    ticker: ACGL
+  0000946770:
+    name: DEUTSCHE TELEKOM AG
+    ticker: DTEGY
+  0001039610:
+    name: EDP ENERGIAS DE PORTUGAL SA
+    ticker: EDPFY
+  0000857005:
+    name: PTC INC.
+    ticker: PTC
+  0000001800:
+    name: ABBOTT LABORATORIES
+    ticker: ABT
+  0001243429:
+    name: ArcelorMittal
+    ticker: MT
+  0000353278:
+    name: NOVO NORDISK A S
+    ticker: NVO
+  0001777921:
+    name: AvePoint, Inc.
+    ticker: AVPT
+  0000079879:
+    name: PPG INDUSTRIES INC
+    ticker: PPG
+  0001062579:
+    name: AMDOCS LTD
+    ticker: DOX
+  '0001027664':
+    name: ELBIT SYSTEMS LTD
+    ticker: ESLT
+  '0000032604':
+    name: EMERSON ELECTRIC CO
+    ticker: EMR
+  0001114448:
+    name: NOVARTIS AG
+    ticker: NVS
+  0000886982:
+    name: GOLDMAN SACHS GROUP INC
+    ticker: GS
+  0001267238:
+    name: ASSURANT, INC.
+    ticker: AIZ
+  0001637459:
+    name: Kraft Heinz Co
+    ticker: KHC
+  '0000766421':
+    name: ALASKA AIR GROUP, INC.
+    ticker: ALK
+  0001727196:
+    name: Scholar Rock Holding Corp
+    ticker: SRRK
+  0000879764:
+    name: TotalEnergies SE
+    ticker: TTE
+  0001713683:
+    name: Zscaler, Inc.
+    ticker: ZS
+  0001015922:
+    name: CHECK POINT SOFTWARE TECHNOLOGIES LTD
+    ticker: CHKP
+  '0000026172':
+    name: CUMMINS INC
+    ticker: CMI
+  0001934642:
+    name: MDB Capital Holdings, LLC
+    ticker: MDBH
+  0001688568:
+    name: DXC Technology Co
+    ticker: DXC
+  0001132924:
+    name: CHUNGHWA TELECOM CO LTD
+    ticker: CHT
+  0000006951:
+    name: APPLIED MATERIALS INC /DE
+    ticker: AMAT
+  '0001713675':
+    name: Schaeffler AG/ADR
+    ticker: SCAFF
+  0001144967:
+    name: HDFC BANK LTD
+    ticker: HDB
+  0000835403:
+    name: DIAGEO PLC
+    ticker: DEO
+  0000844150:
+    name: NatWest Group plc
+    ticker: NWG
+  0000789570:
+    name: MGM Resorts International
+    ticker: MGM
+  0001058090:
+    name: CHIPOTLE MEXICAN GRILL INC
+    ticker: CMG
+  0001123799:
+    name: WIPRO LTD
+    ticker: WIT
+  0000946581:
+    name: TAKE TWO INTERACTIVE SOFTWARE INC
+    ticker: TTWO
+  0001037976:
+    name: JONES LANG LASALLE INC
+    ticker: JLL
+  0001071739:
+    name: CENTENE CORP
+    ticker: CNC
+  '0001534701':
+    name: Phillips 66
+    ticker: PSX
+  0001159508:
+    name: DEUTSCHE BANK AKTIENGESELLSCHAFT
+    ticker: DB
+  '0000064040':
+    name: S&P Global Inc.
+    ticker: SPGI
+  0000936468:
+    name: LOCKHEED MARTIN CORP
+    ticker: LMT
+  0001746109:
+    name: Bank First Corp
+    ticker: BFC
+  '0000723531':
+    name: PAYCHEX INC
+    ticker: PAYX
+  0000708781:
+    name: CASS INFORMATION SYSTEMS INC
+    ticker: CASS
+  '0000723125':
+    name: MICRON TECHNOLOGY INC
+    ticker: MU
+  0001002638:
+    name: OPEN TEXT CORP
+    ticker: OTEX

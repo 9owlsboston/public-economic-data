@@ -1,0 +1,124 @@
+{
+  "cik": "0001004315",
+  "name": "NATIONAL GRID PLC",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 18378,
+      "rnd_M": 43,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2902,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "filing_date": "2024-05-23",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 19850,
+      "rnd_M": 32,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2290
+    },
+    {
+      "period_end": "2023-03-31",
+      "filing_date": "2023-06-06",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 21659,
+      "rnd_M": 23,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7797
+    },
+    {
+      "period_end": "2022-03-31",
+      "filing_date": "2022-06-07",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 18449,
+      "rnd_M": 11,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2353
+    },
+    {
+      "period_end": "2021-03-31",
+      "filing_date": "2021-06-08",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 13665,
+      "rnd_M": 12,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1640
+    },
+    {
+      "period_end": "2020-03-31",
+      "filing_date": "2020-06-25",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 13360,
+      "rnd_M": 9,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1264
+    },
+    {
+      "period_end": "2019-03-31",
+      "filing_date": "2019-06-04",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 14933,
+      "rnd_M": 19,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1511
+    },
+    {
+      "period_end": "2017-03-31",
+      "filing_date": "2017-07-17",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 15035,
+      "rnd_M": 14,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7795,
+      "amended": true
+    },
+    {
+      "period_end": "2017-03-31",
+      "filing_date": "2017-06-06",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 15035,
+      "rnd_M": 14,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7795
+    },
+    {
+      "period_end": "2016-03-31",
+      "filing_date": "2016-06-07",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 13212,
+      "rnd_M": 19,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2591
+    }
+  ],
+  "quarterly": []
+}

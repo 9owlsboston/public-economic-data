@@ -1,0 +1,134 @@
+{
+  "cik": "0000811809",
+  "name": "BHP Group Ltd",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-22",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 51262,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 9019,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-06-30",
+      "filing_date": "2024-08-30",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 55658,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7897
+    },
+    {
+      "period_end": "2023-06-30",
+      "filing_date": "2023-09-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 53817,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 12921
+    },
+    {
+      "period_end": "2022-06-30",
+      "filing_date": "2022-09-06",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 65098,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 30900
+    },
+    {
+      "period_end": "2021-06-30",
+      "filing_date": "2021-09-21",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 56921,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 11304
+    },
+    {
+      "period_end": "2020-06-30",
+      "filing_date": "2020-09-22",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 38924,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7956
+    },
+    {
+      "period_end": "2019-06-30",
+      "filing_date": "2019-09-17",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 44288,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 8306
+    },
+    {
+      "period_end": "2018-06-30",
+      "filing_date": "2018-09-18",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 43129,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3705
+    },
+    {
+      "period_end": "2017-06-30",
+      "filing_date": "2017-09-28",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 35740,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5890
+    },
+    {
+      "period_end": "2016-06-30",
+      "filing_date": "2017-07-19",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 28567,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -6385,
+      "amended": true
+    },
+    {
+      "period_end": "2016-06-30",
+      "filing_date": "2016-09-21",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 28567,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -6385
+    }
+  ],
+  "quarterly": []
+}

@@ -1,0 +1,158 @@
+{
+  "cik": "0000879764",
+  "name": "TotalEnergies SE",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-27",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 201196,
+      "rnd_M": 810,
+      "cost_of_revenue_M": null,
+      "net_income_M": 13127,
+      "tags_used": {
+        "revenue": "ifrs-full:RevenueFromContractsWithCustomers",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-31",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 214550,
+      "rnd_M": 805,
+      "cost_of_revenue_M": null,
+      "net_income_M": 15758
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-03-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 237128,
+      "rnd_M": 774,
+      "cost_of_revenue_M": null,
+      "net_income_M": 21384
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-03-24",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 280999,
+      "rnd_M": 762,
+      "cost_of_revenue_M": null,
+      "net_income_M": 20526
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-03-25",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 205863,
+      "rnd_M": 824,
+      "cost_of_revenue_M": null,
+      "net_income_M": 16032
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-03-31",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 140685,
+      "rnd_M": 895,
+      "cost_of_revenue_M": null,
+      "net_income_M": -7242
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-04-14",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 200316,
+      "rnd_M": 968,
+      "cost_of_revenue_M": 116221,
+      "net_income_M": 11267,
+      "amended": true
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-03-20",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 200316,
+      "rnd_M": 968,
+      "cost_of_revenue_M": 116221,
+      "net_income_M": 11267
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-04-26",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 209363,
+      "rnd_M": 986,
+      "cost_of_revenue_M": 125816,
+      "net_income_M": 11446,
+      "amended": true
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-03-20",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 209363,
+      "rnd_M": 986,
+      "cost_of_revenue_M": 125816,
+      "net_income_M": 11446
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-03-16",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 149099,
+      "rnd_M": 912,
+      "cost_of_revenue_M": 99411,
+      "net_income_M": 8631
+    },
+    {
+      "period_end": "2016-12-31",
+      "filing_date": "2017-03-17",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 127925,
+      "rnd_M": 1050,
+      "cost_of_revenue_M": 83377,
+      "net_income_M": 6196
+    },
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-03-16",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 143421,
+      "rnd_M": 980,
+      "cost_of_revenue_M": 96671,
+      "net_income_M": 5087
+    }
+  ],
+  "quarterly": []
+}
