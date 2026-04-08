@@ -1,0 +1,46 @@
+{
+  "isin": "DE0005557508",
+  "name": "Deutsche Telekom AG",
+  "ticker": "DTE",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 118343,
+      "rnd_M": null,
+      "cost_of_revenue_M": 46064,
+      "net_income_M": 9609,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 115111,
+      "rnd_M": null,
+      "cost_of_revenue_M": 44741,
+      "net_income_M": 11209
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 111308,
+      "rnd_M": null,
+      "cost_of_revenue_M": 44486,
+      "net_income_M": 17788
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 113608,
+      "rnd_M": null,
+      "cost_of_revenue_M": 50047,
+      "net_income_M": 8001
+    }
+  ]
+}

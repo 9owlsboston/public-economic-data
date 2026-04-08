@@ -1,0 +1,54 @@
+{
+  "isin": "NL0000395903",
+  "name": "Wolters Kluwer N.V.",
+  "ticker": "WKL",
+  "exchange": "AMS",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 6125,
+      "rnd_M": 724,
+      "cost_of_revenue_M": 1625,
+      "net_income_M": 1308,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5916,
+      "rnd_M": 688,
+      "cost_of_revenue_M": 1626,
+      "net_income_M": 1079
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 5584,
+      "rnd_M": 591,
+      "cost_of_revenue_M": 1576,
+      "net_income_M": 1007
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 5453,
+      "rnd_M": 541,
+      "cost_of_revenue_M": 1578,
+      "net_income_M": 1027
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

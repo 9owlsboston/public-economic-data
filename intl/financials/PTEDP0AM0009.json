@@ -1,0 +1,46 @@
+{
+  "isin": "PTEDP0AM0009",
+  "name": "EDP - Energias de Portugal S.A.",
+  "ticker": "EDP",
+  "exchange": "EURONEXT",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 15607,
+      "rnd_M": null,
+      "cost_of_revenue_M": 9745,
+      "net_income_M": 1150,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 14966,
+      "rnd_M": null,
+      "cost_of_revenue_M": 9209,
+      "net_income_M": 801
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 16202,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10381,
+      "net_income_M": 952
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 20651,
+      "rnd_M": null,
+      "cost_of_revenue_M": 15633,
+      "net_income_M": 679
+    }
+  ]
+}

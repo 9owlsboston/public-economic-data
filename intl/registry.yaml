@@ -27,3 +27,33 @@ companies:
     exchange: XETRA
     yf_symbol: VOW3.DE
     currency: EUR
+  NL0000395903:
+    name: Wolters Kluwer N.V.
+    ticker: WKL
+    exchange: AMS
+    yf_symbol: WKL.AS
+    currency: EUR
+  GB0007188757:
+    name: Rio Tinto plc
+    ticker: RIO
+    exchange: LSE
+    yf_symbol: RIO.L
+    currency: GBP
+  NL0000008977:
+    name: Heineken Holding N.V.
+    ticker: HEIO
+    exchange: AMS
+    yf_symbol: HEIO.AS
+    currency: EUR
+  DE0005557508:
+    name: Deutsche Telekom AG
+    ticker: DTE
+    exchange: XETRA
+    yf_symbol: DTE.DE
+    currency: EUR
+  PTEDP0AM0009:
+    name: EDP - Energias de Portugal S.A.
+    ticker: EDP
+    exchange: EURONEXT
+    yf_symbol: EDP.LS
+    currency: EUR

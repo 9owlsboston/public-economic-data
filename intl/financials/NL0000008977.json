@@ -1,0 +1,46 @@
+{
+  "isin": "NL0000008977",
+  "name": "Heineken Holding N.V.",
+  "ticker": "HEIO",
+  "exchange": "AMS",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 28753,
+      "rnd_M": null,
+      "cost_of_revenue_M": 18465,
+      "net_income_M": 952,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 29821,
+      "rnd_M": null,
+      "cost_of_revenue_M": 19313,
+      "net_income_M": 498
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 30362,
+      "rnd_M": null,
+      "cost_of_revenue_M": 20077,
+      "net_income_M": 1174
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 28719,
+      "rnd_M": null,
+      "cost_of_revenue_M": 18618,
+      "net_income_M": 1343
+    }
+  ]
+}

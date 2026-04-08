@@ -1,0 +1,54 @@
+{
+  "isin": "GB0007188757",
+  "name": "Rio Tinto plc",
+  "ticker": "RIO",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 57638,
+      "rnd_M": 524,
+      "cost_of_revenue_M": 24537,
+      "net_income_M": 9966,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 53658,
+      "rnd_M": 398,
+      "cost_of_revenue_M": 23378,
+      "net_income_M": 11552
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "GBP",
+      "revenue_M": 54041,
+      "rnd_M": 245,
+      "cost_of_revenue_M": 21640,
+      "net_income_M": 10058
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "GBP",
+      "revenue_M": 55554,
+      "rnd_M": 76,
+      "cost_of_revenue_M": 21284,
+      "net_income_M": 12392
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}
