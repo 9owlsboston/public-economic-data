@@ -1,7 +1,4 @@
 version: 1
-# International public companies — sourced via Yahoo Finance (yfinance).
-# Keyed by ISIN (International Securities Identification Number).
-# yf_symbol: Yahoo Finance ticker (e.g., BMW.DE for XETRA-listed BMW).
 companies:
   DE0005190003:
     name: BMW AG
@@ -57,3 +54,21 @@ companies:
     exchange: EURONEXT
     yf_symbol: EDP.LS
     currency: EUR
+  GB00B0SWJX34:
+    name: London Stock Exchange Group plc
+    ticker: LSEG
+    exchange: LSE
+    yf_symbol: LSEG.L
+    currency: GBP
+  GRS014003024:
+    name: Piraeus Financial Holdings S.A.
+    ticker: TPEIR
+    exchange: ATHEX
+    yf_symbol: TPEIR.AT
+    currency: EUR
+  GB00B0SWJX34:
+    name: London Stock Exchange Group plc
+    ticker: LSEG
+    exchange: LSE
+    yf_symbol: LSEG.L
+    currency: GBP

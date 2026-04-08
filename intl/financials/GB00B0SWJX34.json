@@ -1,0 +1,54 @@
+{
+  "isin": "GB00B0SWJX34",
+  "name": "London Stock Exchange Group plc",
+  "ticker": "LSEG",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 9346,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1113,
+      "net_income_M": 1249,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 8858,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1173,
+      "net_income_M": 685
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "GBP",
+      "revenue_M": 8379,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1143,
+      "net_income_M": 761
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "GBP",
+      "revenue_M": 7743,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1064,
+      "net_income_M": 1303
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

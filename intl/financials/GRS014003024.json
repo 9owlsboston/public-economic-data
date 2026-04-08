@@ -1,0 +1,54 @@
+{
+  "isin": "GRS014003024",
+  "name": "Piraeus Financial Holdings S.A.",
+  "ticker": "TPEIR",
+  "exchange": "ATHEX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-08",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 2699,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1070,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 2757,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1066
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 2584,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 788
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 2301,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 950
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}
