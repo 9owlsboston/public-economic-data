@@ -37,28 +37,49 @@ DOC_TYPE_ANNUAL = "120"
 # IFRS financial tags to extract from iXBRL.
 # Format: {metric_name: [(namespace_suffix, tag_name), ...]}
 # Priority order: first match wins.
-# Tags may appear in jpigp_cor (standard) or company-specific namespace.
+# Tags may appear in jpigp_cor (IFRS), jppfs_cor (J-GAAP), jpcrp_cor (summary),
+# or company-specific namespace.
 METRIC_TAGS = {
     "revenue_M": [
+        # IFRS tags (jpigp_cor)
         ("jpigp_cor", "RevenueIFRS"),
         ("jpigp_cor", "OperatingRevenueIFRS"),
-        # Company-specific revenue tags (e.g., NTT uses OperatingRevenuesIFRS)
+        ("jpigp_cor", "NetSalesIFRS"),
+        # Company-specific IFRS revenue tags (e.g., NTT uses OperatingRevenuesIFRS)
         (None, "OperatingRevenuesIFRS"),
         (None, "RevenueIFRS"),
         (None, "RevenueFromContractsWithCustomersIFRS"),
+        (None, "NetSalesIFRS"),
+        # J-GAAP tags (jppfs_cor) — used by companies reporting under Japanese GAAP
+        ("jppfs_cor", "NetSales"),
+        ("jppfs_cor", "OperatingRevenue1"),
+        # J-GAAP bank-specific tags (BNK suffix) — consolidated bank revenue
+        ("jppfs_cor", "OrdinaryIncomeBNK"),
+        ("jppfs_cor", "OrdinaryIncome"),
+        # Summary tags (jpcrp_cor)
+        ("jpcrp_cor", "NetSalesSummaryOfBusinessResults"),
+        ("jpcrp_cor", "OperatingRevenue1SummaryOfBusinessResults"),
+        ("jpcrp_cor", "RevenueIFRSSummaryOfBusinessResults"),
+        ("jpcrp_cor", "OrdinaryIncomeSummaryOfBusinessResults"),
     ],
     "operating_income_M": [
         ("jpigp_cor", "OperatingProfitLossIFRS"),
         (None, "OperatingProfitLossIFRS"),
+        ("jppfs_cor", "OperatingIncome"),
+        ("jpcrp_cor", "OperatingIncomeSummaryOfBusinessResults"),
     ],
     "net_income_M": [
         ("jpigp_cor", "ProfitLossAttributableToOwnersOfParentIFRS"),
         ("jpigp_cor", "ProfitLossIFRS"),
         (None, "ProfitLossAttributableToOwnersOfParentIFRS"),
+        ("jppfs_cor", "ProfitLossAttributableToOwnersOfParent"),
+        ("jppfs_cor", "NetIncome"),
+        ("jpcrp_cor", "ProfitLossAttributableToOwnersOfParentSummaryOfBusinessResults"),
     ],
     "cost_of_revenue_M": [
         ("jpigp_cor", "CostOfSalesIFRS"),
         (None, "CostOfSalesIFRS"),
+        ("jppfs_cor", "CostOfSales"),
     ],
     "rnd_M": [
         ("jpigp_cor", "ResearchAndDevelopmentExpenseIFRS"),
@@ -111,32 +132,39 @@ def _parse_ixbrl_facts(zip_file: zipfile.ZipFile) -> dict[str, list[dict]]:
         with zip_file.open(fname) as f:
             content = f.read().decode("utf-8", errors="replace")
 
-        # Extract ix:nonFraction elements: name, contextRef, and text value
-        # Handle both self-closing and normal elements, and ix:nonFraction with sign attribute
-        pattern = (
-            r'<ix:nonFraction[^>]*'
-            r'name="([^"]+)"[^>]*'
-            r'contextRef="([^"]+)"[^>]*'
-            r'(?:sign="([^"]*)")?[^>]*>'
-            r'([^<]*)'
-            r'</ix:nonFraction>'
-        )
+        # Extract ix:nonFraction elements.
+        # Attributes (name, contextRef, sign, scale, decimals) can appear in any order.
+        # Match the full element first, then extract attributes individually.
+        pattern = r'<ix:nonFraction\b([^>]*)>([^<]*)</ix:nonFraction>'
         for match in re.finditer(pattern, content):
-            name, ctx, sign, val_str = match.groups()
-            val_str = val_str.strip().replace(",", "")
+            attrs_str = match.group(1)
+            val_str = match.group(2).strip().replace(",", "")
             if not val_str:
                 continue
+
+            # Extract attributes by name (order-independent)
+            name_m = re.search(r'name="([^"]+)"', attrs_str)
+            ctx_m = re.search(r'contextRef="([^"]+)"', attrs_str)
+            sign_m = re.search(r'sign="([^"]*)"', attrs_str)
+            scale_m = re.search(r'scale="([^"]*)"', attrs_str)
+            if not name_m or not ctx_m:
+                continue
+
+            name = name_m.group(1)
+            ctx = ctx_m.group(1)
+            sign = sign_m.group(1) if sign_m else None
+            scale = int(scale_m.group(1)) if scale_m else 0
+
             try:
-                val = int(val_str)
+                val = float(val_str)
                 if sign == "-":
                     val = -val
+                # EDINET IFRS filings use scale="6" and decimals="-6",
+                # meaning the display value is already in millions of yen.
+                # Do NOT apply the scale factor — the display value is what we want.
+                val = int(val)
             except ValueError:
-                try:
-                    val = float(val_str)
-                    if sign == "-":
-                        val = -val
-                except ValueError:
-                    continue
+                continue
 
             # Split name into prefix:tag
             parts = name.split(":")

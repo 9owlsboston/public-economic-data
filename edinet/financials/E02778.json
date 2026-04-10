@@ -3,7 +3,7 @@
   "name": "SoftBank Group Corp.",
   "ticker": "9984",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -11,12 +11,13 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 7243752,
       "operating_income_M": null,
       "net_income_M": 1153332,
       "cost_of_revenue_M": 3489549,
       "rnd_M": null,
       "tags_used": {
+        "revenue_M": "jpigp_cor:NetSalesIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
         "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
       }
@@ -27,9 +28,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 6756500,
       "operating_income_M": null,
-      "net_income_M": 227646,
+      "net_income_M": -227646,
       "cost_of_revenue_M": 3214108,
       "rnd_M": null
     },
@@ -39,9 +40,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 6570439,
       "operating_income_M": null,
-      "net_income_M": 970144,
+      "net_income_M": -970144,
       "cost_of_revenue_M": 3242397,
       "rnd_M": null
     },
@@ -51,9 +52,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 6221534,
       "operating_income_M": null,
-      "net_income_M": 1708029,
+      "net_income_M": -1708029,
       "cost_of_revenue_M": 2955960,
       "rnd_M": null
     },
@@ -63,7 +64,7 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 5628167,
       "operating_income_M": null,
       "net_income_M": 4987962,
       "cost_of_revenue_M": 2753238,
@@ -75,9 +76,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
-      "operating_income_M": 1364633,
-      "net_income_M": 961576,
+      "revenue_M": 6185093,
+      "operating_income_M": -1364633,
+      "net_income_M": -961576,
       "cost_of_revenue_M": 3485042,
       "rnd_M": null
     },
@@ -87,10 +88,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
-      "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "revenue_M": 9602236,
+      "operating_income_M": 2353931,
+      "net_income_M": 1411199,
+      "cost_of_revenue_M": 5747671,
       "rnd_M": null
     }
   ]

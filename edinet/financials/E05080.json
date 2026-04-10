@@ -1,0 +1,110 @@
+{
+  "edinet_code": "E05080",
+  "name": "Rakuten Group, Inc.",
+  "ticker": "4755",
+  "exchange": "TSE",
+  "last_refreshed": "2026-04-10",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-26",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 2496575,
+      "operating_income_M": 14382,
+      "net_income_M": -177886,
+      "cost_of_revenue_M": null,
+      "rnd_M": null,
+      "tags_used": {
+        "revenue_M": "jpigp_cor:RevenueIFRS",
+        "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
+        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-28",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 2279233,
+      "operating_income_M": 52975,
+      "net_income_M": -162442,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-03-28",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 2071315,
+      "operating_income_M": -212857,
+      "net_income_M": -339473,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-03-30",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 1927878,
+      "operating_income_M": -363892,
+      "net_income_M": -372884,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-03-30",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 1681757,
+      "operating_income_M": -194726,
+      "net_income_M": -133828,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-03-30",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 1455538,
+      "operating_income_M": -93849,
+      "net_income_M": -114199,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-03-27",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 1263932,
+      "operating_income_M": 72745,
+      "net_income_M": -31888,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-03-28",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": null,
+      "operating_income_M": null,
+      "net_income_M": null,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    }
+  ]
+}

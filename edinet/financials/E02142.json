@@ -3,7 +3,7 @@
   "name": "Nissan Motor Co., Ltd.",
   "ticker": "7201",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -11,11 +11,17 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
-      "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
-      "rnd_M": null
+      "revenue_M": 12633214,
+      "operating_income_M": 69798,
+      "net_income_M": -670898,
+      "cost_of_revenue_M": 10939854,
+      "rnd_M": null,
+      "tags_used": {
+        "revenue_M": "jppfs_cor:NetSales",
+        "operating_income_M": "jppfs_cor:OperatingIncome",
+        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
+        "cost_of_revenue_M": "jppfs_cor:CostOfSales"
+      }
     },
     {
       "period_end": "2024-03-31",
@@ -23,10 +29,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
-      "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "revenue_M": 12685716,
+      "operating_income_M": 568718,
+      "net_income_M": 426649,
+      "cost_of_revenue_M": 10618802,
       "rnd_M": null
     },
     {
@@ -35,10 +41,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
-      "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "revenue_M": 10596695,
+      "operating_income_M": 377109,
+      "net_income_M": 221900,
+      "cost_of_revenue_M": 8882846,
       "rnd_M": null
     },
     {
@@ -47,10 +53,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
-      "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "revenue_M": 8424585,
+      "operating_income_M": 247307,
+      "net_income_M": 215533,
+      "cost_of_revenue_M": 7070531,
       "rnd_M": null
     },
     {
@@ -59,10 +65,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
-      "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "revenue_M": 7862572,
+      "operating_income_M": -150651,
+      "net_income_M": -448697,
+      "cost_of_revenue_M": 6811747,
       "rnd_M": null
     },
     {
@@ -71,10 +77,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
-      "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "revenue_M": 9878866,
+      "operating_income_M": -40469,
+      "net_income_M": -671216,
+      "cost_of_revenue_M": 8442905,
       "rnd_M": null
     },
     {
@@ -83,10 +89,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
-      "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "revenue_M": 11574247,
+      "operating_income_M": 318224,
+      "net_income_M": 319138,
+      "cost_of_revenue_M": 9670402,
       "rnd_M": null
     }
   ]

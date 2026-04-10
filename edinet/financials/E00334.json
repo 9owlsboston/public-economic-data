@@ -3,7 +3,7 @@
   "name": "FUJIFILM Holdings Corporation",
   "ticker": "4901",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -11,11 +11,16 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 1370553,
       "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
-      "rnd_M": null
+      "net_income_M": 26585,
+      "cost_of_revenue_M": 1150170,
+      "rnd_M": null,
+      "tags_used": {
+        "revenue_M": "jpigp_cor:NetSalesIFRS",
+        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
+      }
     },
     {
       "period_end": "2024-03-31",
@@ -23,10 +28,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 1303432,
       "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "net_income_M": 28078,
+      "cost_of_revenue_M": 1099801,
       "rnd_M": null
     },
     {
@@ -35,10 +40,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 1259792,
       "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "net_income_M": 16637,
+      "cost_of_revenue_M": 1082760,
       "rnd_M": null
     },
     {
@@ -47,10 +52,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 1174389,
       "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "net_income_M": 48049,
+      "cost_of_revenue_M": 974361,
       "rnd_M": null
     },
     {
@@ -59,10 +64,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 1176101,
       "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "net_income_M": 32616,
+      "cost_of_revenue_M": 964367,
       "rnd_M": null
     },
     {
@@ -71,10 +76,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 1229826,
       "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "net_income_M": 19214,
+      "cost_of_revenue_M": 1024296,
       "rnd_M": null
     },
     {
@@ -83,10 +88,10 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 1234180,
       "operating_income_M": null,
-      "net_income_M": null,
-      "cost_of_revenue_M": null,
+      "net_income_M": 19561,
+      "cost_of_revenue_M": 1033577,
       "rnd_M": null
     }
   ]

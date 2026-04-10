@@ -3,7 +3,7 @@
   "name": "Mitsubishi UFJ Financial Group, Inc.",
   "ticker": "8306",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -11,11 +11,15 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 13629997,
       "operating_income_M": null,
-      "net_income_M": null,
+      "net_income_M": 1862946,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "tags_used": {
+        "revenue_M": "jppfs_cor:OrdinaryIncomeBNK",
+        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent"
+      }
     },
     {
       "period_end": "2024-03-31",
@@ -23,9 +27,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 11890350,
       "operating_income_M": null,
-      "net_income_M": null,
+      "net_income_M": 1490781,
       "cost_of_revenue_M": null,
       "rnd_M": null
     },
@@ -35,9 +39,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 9281027,
       "operating_income_M": null,
-      "net_income_M": null,
+      "net_income_M": 1116496,
       "cost_of_revenue_M": null,
       "rnd_M": null
     },
@@ -47,9 +51,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 6075887,
       "operating_income_M": null,
-      "net_income_M": null,
+      "net_income_M": 1130840,
       "cost_of_revenue_M": null,
       "rnd_M": null
     },
@@ -59,9 +63,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 6025336,
       "operating_income_M": null,
-      "net_income_M": null,
+      "net_income_M": 777018,
       "cost_of_revenue_M": null,
       "rnd_M": null
     },
@@ -71,9 +75,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 7299078,
       "operating_income_M": null,
-      "net_income_M": null,
+      "net_income_M": 528151,
       "cost_of_revenue_M": null,
       "rnd_M": null
     },
@@ -83,9 +87,9 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 6697402,
       "operating_income_M": null,
-      "net_income_M": null,
+      "net_income_M": 872689,
       "cost_of_revenue_M": null,
       "rnd_M": null
     }
