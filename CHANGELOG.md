@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- **Top 1000 coverage design** — `docs/design/top-1000-coverage.md` with 5-phase plan covering SEC, intl, and EDINET scaling. Estimated realistic ceiling: ~525 coverable out of top 1000.
+- **SEC bulk CIK lookup** — `sec/scripts/lookup_cik.py` for verifying CIK↔ticker associations using SEC's `company_tickers.json`. Supports `--verify-mapping`, `--verify-registry`, and `--search` modes. Includes alias table for common name divergences (UPS, IBM, BNY Mellon, etc.).
+- **62 new SEC companies** — Meta, Salesforce, Cisco, Costco, JPMorgan, AMD, Palantir, Datadog, Rubrik, UiPath, DocuSign, Kyndryl, Blackstone, BlackRock, FedEx, UPS, Moody's, Allstate, NICE, CGI, Lumen, and 41 more from tpid-cik-mapping. SEC company count: 134 → 196.
+- **28 new international companies** — LSEG, AXA, Allianz, Bayer, ASML, Munich Re, ABN AMRO, Telefónica, Ahold Delhaize, ABB, Sage, Capgemini, Philips, Commerzbank, Repsol, Inditex, Iberdrola, Société Générale, LVMH, Deutsche Post, Volvo, BASF, L'Oréal, Marks & Spencer, Poste Italiane, Heineken, and more via Yahoo Finance. Intl company count: 11 → 39.
+- **10 new EDINET companies** — SMFG, Rakuten, AEON, SoftBank, Nissan, Panasonic, Sony, Kubota, MUFG, FUJIFILM. EDINET company count: 4 → 14.
+- **J-GAAP tag support in EDINET** — added `jppfs_cor:NetSales`, `jppfs_cor:OperatingRevenue1`, `jppfs_cor:OrdinaryIncome`, `jppfs_cor:OrdinaryIncomeBNK` (bank-specific), `jpigp_cor:NetSalesIFRS`, plus J-GAAP net income and cost of sales tags. Now supports companies reporting under both IFRS and Japanese GAAP.
 - **EDINET Financials module** — 4 Japanese companies (NTT, Hitachi, NEC, Fujitsu) via EDINET API V2 + iXBRL parsing. Keyed by EDINET Code. Revenue, operating income, net income in JPY (millions). 6–7 annual periods per company (FY2019–FY2025). Helper: `edinet_financials.py`. Tests: `test_edinet.py` (7 checks). GitHub Action: quarterly refresh on 25th. First repo module with custom XBRL parser.
 - **International Financials module** — 4 European companies (BMW, Siemens, Mercedes-Benz, Volkswagen) via Yahoo Finance. Keyed by ISIN. Revenue, R&D (where disclosed), COGS, net income in EUR. Helper: `intl_financials.py`. Tests: `test_intl.py` (7 checks). GitHub Action: quarterly refresh on 20th.
 - **Alibaba (BABA)** — added to SEC module (CIK `0001577552`). Active 20-F filer on NYSE. 12 annual periods (FY2015–FY2025), currency CNY. SEC company count: 28 → 29.
@@ -18,6 +24,12 @@ All notable changes to this project will be documented in this file.
 - **New datasets assessment** — evaluated 11 candidate public datasets, prioritized by value and effort in `docs/design/new-datasets-assessment.md`
 
 ### Fixed
+- **EDINET XBRL parser** — `ix:nonFraction` regex now handles attributes in any order (was assuming `name` before `contextRef`, broke on Rakuten/Panasonic/Sony filings where `contextRef` appears first).
+- **EDINET code corrections** — Rakuten was E05765 (subsidiary), corrected to E05080 (parent group). Kubota was E01144 (wrong entity), corrected to E01267.
+- **EDINET filing scan window** — extended from Jun/Jul only to Mar–Jul, catching Dec 31 and Feb 28 fiscal year-end companies.
+- **SEC registry YAML octal corruption** — 14 CIK keys with only digits 0–7 were silently interpreted as octal numbers by YAML parser (e.g., `0000006201` → decimal 3201). All CIK keys now quoted where needed.
+- **6 wrong auto-discovered CIK matches** — UPS→UPST, Allstate→WTM, Moody's→IWSH, Lumen→ROP, NICE→ESLT, CGI→GS. Corrected to UPS→0001090727, ALL→0000899051, MCO→0001059556, LUMN→0000018926, NICE→0001003935, GIB→0001061574.
+- **Removed 5 CIKs with no XBRL on EDGAR** — Wolters Kluwer, Deutsche Lufthansa, E.ON, H&M, Feitu Shanglian (foreign filers that no longer have XBRL data).
 - **SEC test harness** — excluded `_segments.json` from standard validators (different schema); null-revenue check is now a warning for known IFRS bank filers (UBS)
 - **Documentation audit (2026-04-03)** — found and resolved 10 gaps between code and docs:
   - SEC segments were completely undocumented (script, data file, registry config existed since 2026-03-29 with zero mentions in README, copilot-instructions, CHANGELOG, or execution log)
