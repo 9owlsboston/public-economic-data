@@ -1,7 +1,4 @@
 version: 1
-# Japanese public companies — sourced via EDINET (FSA Japan).
-# Keyed by EDINET Code (e.g., E04430).
-# All four report under IFRS. FY ends March 31.
 companies:
   E04430:
     name: Nippon Telegraph and Telephone Corporation
@@ -21,5 +18,55 @@ companies:
   E01766:
     name: Fujitsu Limited
     ticker: '6702'
+    exchange: TSE
+    currency: JPY
+  E03674:
+    name: Sumitomo Mitsui Financial Group, Inc.
+    ticker: '8316'
+    exchange: TSE
+    currency: JPY
+  E05765:
+    name: Rakuten Group, Inc.
+    ticker: '4755'
+    exchange: TSE
+    currency: JPY
+  E02778:
+    name: SoftBank Group Corp.
+    ticker: '9984'
+    exchange: TSE
+    currency: JPY
+  E02142:
+    name: Nissan Motor Co., Ltd.
+    ticker: '7201'
+    exchange: TSE
+    currency: JPY
+  E01772:
+    name: Panasonic Holdings Corporation
+    ticker: '6752'
+    exchange: TSE
+    currency: JPY
+  E01777:
+    name: Sony Group Corporation
+    ticker: '6758'
+    exchange: TSE
+    currency: JPY
+  E01144:
+    name: Kubota Corporation
+    ticker: '6326'
+    exchange: TSE
+    currency: JPY
+  E03606:
+    name: Mitsubishi UFJ Financial Group, Inc.
+    ticker: '8306'
+    exchange: TSE
+    currency: JPY
+  E00334:
+    name: FUJIFILM Holdings Corporation
+    ticker: '4901'
+    exchange: TSE
+    currency: JPY
+  E03498:
+    name: AEON Co., Ltd.
+    ticker: '8267'
     exchange: TSE
     currency: JPY

@@ -1,0 +1,54 @@
+{
+  "isin": "DE000BASF111",
+  "name": "BASF SE",
+  "ticker": "BAS",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 59656,
+      "rnd_M": 1995,
+      "cost_of_revenue_M": 45298,
+      "net_income_M": 1619,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 61443,
+      "rnd_M": 1969,
+      "cost_of_revenue_M": 46225,
+      "net_income_M": 1298
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 68902,
+      "rnd_M": 2130,
+      "cost_of_revenue_M": 52200,
+      "net_income_M": 225
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 87327,
+      "rnd_M": 2298,
+      "cost_of_revenue_M": 66260,
+      "net_income_M": -627
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

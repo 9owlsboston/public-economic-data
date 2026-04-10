@@ -1,0 +1,46 @@
+{
+  "isin": "DE0005552004",
+  "name": "Deutsche Post AG",
+  "ticker": "DHL",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 82855,
+      "rnd_M": null,
+      "cost_of_revenue_M": 69229,
+      "net_income_M": 3501,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 84188,
+      "rnd_M": null,
+      "cost_of_revenue_M": 71033,
+      "net_income_M": 3332
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 81758,
+      "rnd_M": null,
+      "cost_of_revenue_M": 68662,
+      "net_income_M": 3675
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 94436,
+      "rnd_M": null,
+      "cost_of_revenue_M": 78908,
+      "net_income_M": 5359
+    }
+  ]
+}

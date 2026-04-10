@@ -1,0 +1,54 @@
+{
+  "isin": "NL0010273215",
+  "name": "ASML Holding NV",
+  "ticker": "ASML",
+  "exchange": "Euronext Amsterdam",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 32667,
+      "rnd_M": 4699,
+      "cost_of_revenue_M": 15409,
+      "net_income_M": 9609,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 28263,
+      "rnd_M": 4304,
+      "cost_of_revenue_M": 13771,
+      "net_income_M": 7572
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 27558,
+      "rnd_M": 3981,
+      "cost_of_revenue_M": 13422,
+      "net_income_M": 7839
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 21173,
+      "rnd_M": 3254,
+      "cost_of_revenue_M": 10473,
+      "net_income_M": 5624
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

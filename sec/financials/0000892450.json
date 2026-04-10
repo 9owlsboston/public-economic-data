@@ -1,0 +1,122 @@
+{
+  "cik": "0000892450",
+  "name": "KT Corp",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-04-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 26379644,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 459861,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-04-30",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 26287201,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 993325
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-04-28",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 25638855,
+      "rnd_M": 174936,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1260470
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-04-28",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 24898005,
+      "rnd_M": 168969,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1356878
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-04-30",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 24099394,
+      "rnd_M": 156940,
+      "cost_of_revenue_M": null,
+      "net_income_M": 700889
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-04-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 24899189,
+      "rnd_M": 165028,
+      "cost_of_revenue_M": null,
+      "net_income_M": 645703
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-04-30",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 23436050,
+      "rnd_M": 176758,
+      "cost_of_revenue_M": null,
+      "net_income_M": 645571
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-04-30",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 23546929,
+      "rnd_M": 168635,
+      "cost_of_revenue_M": null,
+      "net_income_M": 461559
+    },
+    {
+      "period_end": "2016-12-31",
+      "filing_date": "2017-04-28",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 23164202,
+      "rnd_M": 167881,
+      "cost_of_revenue_M": null,
+      "net_income_M": 745090
+    },
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-04-29",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "KRW",
+      "revenue_M": 22699856,
+      "rnd_M": 183821,
+      "cost_of_revenue_M": null,
+      "net_income_M": 546361
+    }
+  ],
+  "quarterly": []
+}

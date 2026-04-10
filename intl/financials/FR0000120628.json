@@ -1,0 +1,54 @@
+{
+  "isin": "FR0000120628",
+  "name": "AXA SA",
+  "ticker": "CS",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 105925,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 9797,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 103262,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7886
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 97671,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7189
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 81461,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5061
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "isin": "SE0000115446",
+  "name": "AB Volvo",
+  "ticker": "VOLV-B",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 479183,
+      "rnd_M": 26242,
+      "cost_of_revenue_M": 362314,
+      "net_income_M": 34456,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 526816,
+      "rnd_M": 30957,
+      "cost_of_revenue_M": 382767,
+      "net_income_M": 50389
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "SEK",
+      "revenue_M": 552252,
+      "rnd_M": 26645,
+      "cost_of_revenue_M": 402414,
+      "net_income_M": 49825
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "SEK",
+      "revenue_M": 473479,
+      "rnd_M": 22526,
+      "cost_of_revenue_M": 361741,
+      "net_income_M": 32722
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

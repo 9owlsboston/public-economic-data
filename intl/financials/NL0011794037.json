@@ -1,0 +1,54 @@
+{
+  "isin": "NL0011794037",
+  "name": "Koninklijke Ahold Delhaize NV",
+  "ticker": "AD",
+  "exchange": "Euronext Amsterdam",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 92352,
+      "rnd_M": null,
+      "cost_of_revenue_M": 67838,
+      "net_income_M": 2264,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 89357,
+      "rnd_M": null,
+      "cost_of_revenue_M": 65551,
+      "net_income_M": 1764
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 88734,
+      "rnd_M": null,
+      "cost_of_revenue_M": 64880,
+      "net_income_M": 1874
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 86984,
+      "rnd_M": null,
+      "cost_of_revenue_M": 63689,
+      "net_income_M": 2546
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

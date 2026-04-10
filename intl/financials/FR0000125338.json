@@ -1,0 +1,54 @@
+{
+  "isin": "FR0000125338",
+  "name": "Capgemini SE",
+  "ticker": "CAP",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 22465,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16390,
+      "net_income_M": 1601,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 22096,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16044,
+      "net_income_M": 1671
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 22522,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16474,
+      "net_income_M": 1663
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 21995,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16163,
+      "net_income_M": 1547
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

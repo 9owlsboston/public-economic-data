@@ -1,0 +1,54 @@
+{
+  "isin": "ES0148396007",
+  "name": "Inditex SA",
+  "ticker": "ITX",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2026-01-31",
+      "currency": "EUR",
+      "revenue_M": 39864,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16642,
+      "net_income_M": 6220,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-01-31",
+      "currency": "EUR",
+      "revenue_M": 38632,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16288,
+      "net_income_M": 5866
+    },
+    {
+      "period_end": "2024-01-31",
+      "currency": "EUR",
+      "revenue_M": 35947,
+      "rnd_M": null,
+      "cost_of_revenue_M": 15186,
+      "net_income_M": 5381
+    },
+    {
+      "period_end": "2023-01-31",
+      "currency": "EUR",
+      "revenue_M": 32569,
+      "rnd_M": null,
+      "cost_of_revenue_M": 14011,
+      "net_income_M": 4130
+    },
+    {
+      "period_end": "2022-01-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

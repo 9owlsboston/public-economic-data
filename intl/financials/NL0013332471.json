@@ -1,0 +1,46 @@
+{
+  "isin": "NL0013332471",
+  "name": "TomTom NV",
+  "ticker": "TOM2",
+  "exchange": "Euronext Amsterdam",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 555,
+      "rnd_M": 330,
+      "cost_of_revenue_M": 64,
+      "net_income_M": -6,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 574,
+      "rnd_M": 362,
+      "cost_of_revenue_M": 87,
+      "net_income_M": -17
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 585,
+      "rnd_M": 359,
+      "cost_of_revenue_M": 89,
+      "net_income_M": -21
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 536,
+      "rnd_M": 377,
+      "cost_of_revenue_M": 87,
+      "net_income_M": -103
+    }
+  ]
+}

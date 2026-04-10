@@ -1,0 +1,54 @@
+{
+  "isin": "NL0011540547",
+  "name": "ABN AMRO Bank NV",
+  "ticker": "ABN",
+  "exchange": "Euronext Amsterdam",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 8732,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2252,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 8896,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2403
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 8586,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2697
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 7640,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1867
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

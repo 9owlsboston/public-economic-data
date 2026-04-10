@@ -1,0 +1,54 @@
+{
+  "isin": "ES0173516115",
+  "name": "Repsol SA",
+  "ticker": "REP",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 54861,
+      "rnd_M": null,
+      "cost_of_revenue_M": 43670,
+      "net_income_M": 1899,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 57122,
+      "rnd_M": null,
+      "cost_of_revenue_M": 45391,
+      "net_income_M": 1756
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 58948,
+      "rnd_M": null,
+      "cost_of_revenue_M": 46433,
+      "net_income_M": 3168
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 75153,
+      "rnd_M": null,
+      "cost_of_revenue_M": 59043,
+      "net_income_M": 4251
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

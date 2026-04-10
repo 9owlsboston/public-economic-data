@@ -1,0 +1,146 @@
+{
+  "cik": "0001002242",
+  "name": "ENI SPA",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-23",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 82151,
+      "rnd_M": 207,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2608,
+      "tags_used": {
+        "revenue": "ifrs-full:RevenueFromContractsWithCustomers",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-04-04",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 88797,
+      "rnd_M": 178,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2624
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-04-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 93717,
+      "rnd_M": 166,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4771
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-04-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 132512,
+      "rnd_M": 164,
+      "cost_of_revenue_M": null,
+      "net_income_M": 13887
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-04-08",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 76575,
+      "rnd_M": 177,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5821
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-04-02",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 43987,
+      "rnd_M": 157,
+      "cost_of_revenue_M": null,
+      "net_income_M": -8635
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-04-02",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 69881,
+      "rnd_M": 194,
+      "cost_of_revenue_M": null,
+      "net_income_M": 148
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-04-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 76938,
+      "rnd_M": 197,
+      "cost_of_revenue_M": null,
+      "net_income_M": 129
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-04-13",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 70977,
+      "rnd_M": 185,
+      "cost_of_revenue_M": 18749,
+      "net_income_M": 44,
+      "amended": true
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-04-06",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 70977,
+      "rnd_M": 185,
+      "cost_of_revenue_M": 18749,
+      "net_income_M": 44
+    },
+    {
+      "period_end": "2016-12-31",
+      "filing_date": "2017-03-22",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 56693,
+      "rnd_M": 161,
+      "cost_of_revenue_M": 18785,
+      "net_income_M": 36
+    },
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-04-12",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "EUR",
+      "revenue_M": 73538,
+      "rnd_M": 176,
+      "cost_of_revenue_M": 20295,
+      "net_income_M": -9373
+    }
+  ],
+  "quarterly": []
+}

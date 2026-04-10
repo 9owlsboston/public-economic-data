@@ -1,0 +1,380 @@
+{
+  "cik": "0000049071",
+  "name": "HUMANA INC",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-19",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 129664,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1188,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-02-20",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 117761,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1207
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-02-15",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 106374,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2489
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-02-16",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 92870,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2806
+    },
+    {
+      "period_end": "2021-12-31",
+      "filing_date": "2022-02-17",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 83064,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2933
+    },
+    {
+      "period_end": "2020-12-31",
+      "filing_date": "2021-02-18",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 77155,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3367
+    },
+    {
+      "period_end": "2019-12-31",
+      "filing_date": "2020-02-20",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 64888,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2707
+    },
+    {
+      "period_end": "2018-12-31",
+      "filing_date": "2019-02-21",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 56912,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1683
+    },
+    {
+      "period_end": "2017-12-31",
+      "filing_date": "2018-02-16",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 53767,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2448
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-09-30",
+      "filing_date": "2025-11-05",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 32649,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 195,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-07-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 32388,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 545
+    },
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-04-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 32112,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1244
+    },
+    {
+      "period_end": "2024-09-30",
+      "filing_date": "2024-10-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 29397,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 480
+    },
+    {
+      "period_end": "2024-06-30",
+      "filing_date": "2024-07-31",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 29540,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 679
+    },
+    {
+      "period_end": "2024-03-31",
+      "filing_date": "2024-04-24",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 29611,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 741
+    },
+    {
+      "period_end": "2023-09-30",
+      "filing_date": "2023-11-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 26423,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 832
+    },
+    {
+      "period_end": "2023-06-30",
+      "filing_date": "2023-08-02",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 26747,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 959
+    },
+    {
+      "period_end": "2023-03-31",
+      "filing_date": "2023-04-26",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 26742,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1239
+    },
+    {
+      "period_end": "2022-09-30",
+      "filing_date": "2022-11-02",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 22799,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1195
+    },
+    {
+      "period_end": "2022-06-30",
+      "filing_date": "2022-07-27",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 23662,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 696
+    },
+    {
+      "period_end": "2022-03-31",
+      "filing_date": "2022-04-27",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 23970,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 930
+    },
+    {
+      "period_end": "2021-09-30",
+      "filing_date": "2021-11-03",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 20697,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1531
+    },
+    {
+      "period_end": "2021-06-30",
+      "filing_date": "2021-07-28",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 20645,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 588
+    },
+    {
+      "period_end": "2021-03-31",
+      "filing_date": "2021-04-28",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 20668,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 828
+    },
+    {
+      "period_end": "2020-09-30",
+      "filing_date": "2020-11-03",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 20075,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1340
+    },
+    {
+      "period_end": "2020-06-30",
+      "filing_date": "2020-08-05",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 19083,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1828
+    },
+    {
+      "period_end": "2020-03-31",
+      "filing_date": "2020-04-29",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 18935,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 473
+    },
+    {
+      "period_end": "2019-09-30",
+      "filing_date": "2019-11-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 16241,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 689
+    },
+    {
+      "period_end": "2019-06-30",
+      "filing_date": "2019-07-31",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 16245,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 940
+    },
+    {
+      "period_end": "2019-03-31",
+      "filing_date": "2019-05-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 16107,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 566
+    },
+    {
+      "period_end": "2018-09-30",
+      "filing_date": "2018-11-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 14206,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 644
+    },
+    {
+      "period_end": "2018-06-30",
+      "filing_date": "2018-08-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 14259,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 193
+    },
+    {
+      "period_end": "2018-03-31",
+      "filing_date": "2018-05-02",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 14279,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 491
+    }
+  ]
+}

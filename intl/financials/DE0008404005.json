@@ -1,0 +1,54 @@
+{
+  "isin": "DE0008404005",
+  "name": "Allianz SE",
+  "ticker": "ALV",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 137450,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10775,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 139947,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 9931
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 119667,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 8541
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 79860,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6421
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

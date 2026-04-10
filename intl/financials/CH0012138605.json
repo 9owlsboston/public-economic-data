@@ -1,0 +1,54 @@
+{
+  "isin": "CH0012138605",
+  "name": "Adecco Group AG",
+  "ticker": "ADEN",
+  "exchange": "SIX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CHF",
+      "revenue_M": 23082,
+      "rnd_M": null,
+      "cost_of_revenue_M": 18660,
+      "net_income_M": 294,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CHF",
+      "revenue_M": 23138,
+      "rnd_M": null,
+      "cost_of_revenue_M": 18642,
+      "net_income_M": 303
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "CHF",
+      "revenue_M": 23957,
+      "rnd_M": null,
+      "cost_of_revenue_M": 19117,
+      "net_income_M": 325
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "CHF",
+      "revenue_M": 23640,
+      "rnd_M": null,
+      "cost_of_revenue_M": 18666,
+      "net_income_M": 342
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "CHF",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "isin": "FR0000121329",
+  "name": "Thales SA",
+  "ticker": "HO",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 22136,
+      "rnd_M": 1328,
+      "cost_of_revenue_M": 16283,
+      "net_income_M": 1674,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 20577,
+      "rnd_M": 1274,
+      "cost_of_revenue_M": 15203,
+      "net_income_M": 1420
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 18428,
+      "rnd_M": 1108,
+      "cost_of_revenue_M": 13662,
+      "net_income_M": 1023
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 17569,
+      "rnd_M": 1064,
+      "cost_of_revenue_M": 13113,
+      "net_income_M": 1121
+    }
+  ]
+}

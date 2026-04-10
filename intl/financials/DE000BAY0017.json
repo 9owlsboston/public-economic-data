@@ -1,0 +1,46 @@
+{
+  "isin": "DE000BAY0017",
+  "name": "Bayer AG",
+  "ticker": "BAYN",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 45575,
+      "rnd_M": 5769,
+      "cost_of_revenue_M": 18797,
+      "net_income_M": -3620,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 46606,
+      "rnd_M": 6209,
+      "cost_of_revenue_M": 21270,
+      "net_income_M": -2552
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 47637,
+      "rnd_M": 5371,
+      "cost_of_revenue_M": 19749,
+      "net_income_M": -2941
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 50739,
+      "rnd_M": 6572,
+      "cost_of_revenue_M": 19871,
+      "net_income_M": 4150
+    }
+  ]
+}

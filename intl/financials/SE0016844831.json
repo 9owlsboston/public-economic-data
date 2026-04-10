@@ -1,0 +1,54 @@
+{
+  "isin": "SE0016844831",
+  "name": "Volvo Car AB",
+  "ticker": "VOLCAR-B",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 357263,
+      "rnd_M": 26067,
+      "cost_of_revenue_M": 297042,
+      "net_income_M": 174,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 400234,
+      "rnd_M": 16983,
+      "cost_of_revenue_M": 320821,
+      "net_income_M": 15401
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "SEK",
+      "revenue_M": 399343,
+      "rnd_M": 12884,
+      "cost_of_revenue_M": 321916,
+      "net_income_M": 13053
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "SEK",
+      "revenue_M": 330145,
+      "rnd_M": 11514,
+      "cost_of_revenue_M": 269813,
+      "net_income_M": 15577
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -66,9 +66,171 @@ companies:
     exchange: ATHEX
     yf_symbol: TPEIR.AT
     currency: EUR
-  GB00B0SWJX34:
-    name: London Stock Exchange Group plc
-    ticker: LSEG
+  FR0000120628:
+    name: AXA SA
+    ticker: CS
+    exchange: Euronext Paris
+    yf_symbol: CS.PA
+    currency: EUR
+  DE0008404005:
+    name: Allianz SE
+    ticker: ALV
+    exchange: XETRA
+    yf_symbol: ALV.DE
+    currency: EUR
+  DE000BAY0017:
+    name: Bayer AG
+    ticker: BAYN
+    exchange: XETRA
+    yf_symbol: BAYN.DE
+    currency: EUR
+  NL0010273215:
+    name: ASML Holding NV
+    ticker: ASML
+    exchange: Euronext Amsterdam
+    yf_symbol: ASML.AS
+    currency: EUR
+  DE0008430026:
+    name: Muenchener Rueckversicherungs-Gesellschaft AG
+    ticker: MUV2
+    exchange: XETRA
+    yf_symbol: MUV2.DE
+    currency: EUR
+  NL0011540547:
+    name: ABN AMRO Bank NV
+    ticker: ABN
+    exchange: Euronext Amsterdam
+    yf_symbol: ABN.AS
+    currency: EUR
+  ES0178430E18:
+    name: Telefonica SA
+    ticker: TEF
+    exchange: BME
+    yf_symbol: TEF.MC
+    currency: EUR
+  NL0011794037:
+    name: Koninklijke Ahold Delhaize NV
+    ticker: AD
+    exchange: Euronext Amsterdam
+    yf_symbol: AD.AS
+    currency: EUR
+  CH0012221716:
+    name: ABB Ltd
+    ticker: ABBN
+    exchange: SIX
+    yf_symbol: ABBN.SW
+    currency: CHF
+  GB00B8C3BL03:
+    name: Sage Group plc
+    ticker: SGE
     exchange: LSE
-    yf_symbol: LSEG.L
+    yf_symbol: SGE.L
     currency: GBP
+  FR0000125338:
+    name: Capgemini SE
+    ticker: CAP
+    exchange: Euronext Paris
+    yf_symbol: CAP.PA
+    currency: EUR
+  NL0000009538:
+    name: Royal Philips NV
+    ticker: PHIA
+    exchange: Euronext Amsterdam
+    yf_symbol: PHIA.AS
+    currency: EUR
+  DE000CBK1001:
+    name: Commerzbank AG
+    ticker: CBK
+    exchange: XETRA
+    yf_symbol: CBK.DE
+    currency: EUR
+  ES0173516115:
+    name: Repsol SA
+    ticker: REP
+    exchange: BME
+    yf_symbol: REP.MC
+    currency: EUR
+  CH0012138605:
+    name: Adecco Group AG
+    ticker: ADEN
+    exchange: SIX
+    yf_symbol: ADEN.SW
+    currency: CHF
+  ES0148396007:
+    name: Inditex SA
+    ticker: ITX
+    exchange: BME
+    yf_symbol: ITX.MC
+    currency: EUR
+  FR0000121329:
+    name: Thales SA
+    ticker: HO
+    exchange: Euronext Paris
+    yf_symbol: HO.PA
+    currency: EUR
+  ES0144580Y14:
+    name: Iberdrola SA
+    ticker: IBE
+    exchange: BME
+    yf_symbol: IBE.MC
+    currency: EUR
+  FR0000130809:
+    name: Societe Generale SA
+    ticker: GLE
+    exchange: Euronext Paris
+    yf_symbol: GLE.PA
+    currency: EUR
+  FR0000121014:
+    name: LVMH Moet Hennessy Louis Vuitton SE
+    ticker: MC
+    exchange: Euronext Paris
+    yf_symbol: MC.PA
+    currency: EUR
+  DE0005552004:
+    name: Deutsche Post AG
+    ticker: DHL
+    exchange: XETRA
+    yf_symbol: DHL.DE
+    currency: EUR
+  SE0000115446:
+    name: AB Volvo
+    ticker: VOLV-B
+    exchange: OMX Stockholm
+    yf_symbol: VOLV-B.ST
+    currency: SEK
+  DE000BASF111:
+    name: BASF SE
+    ticker: BAS
+    exchange: XETRA
+    yf_symbol: BAS.DE
+    currency: EUR
+  FR0000120321:
+    name: L'Oreal SA
+    ticker: OR
+    exchange: Euronext Paris
+    yf_symbol: OR.PA
+    currency: EUR
+  GB0031274896:
+    name: Marks and Spencer Group plc
+    ticker: MKS
+    exchange: LSE
+    yf_symbol: MKS.L
+    currency: GBP
+  IT0003796171:
+    name: Poste Italiane SpA
+    ticker: PST
+    exchange: Borsa Italiana
+    yf_symbol: PST.MI
+    currency: EUR
+  SE0016844831:
+    name: Volvo Car AB
+    ticker: VOLCAR-B
+    exchange: OMX Stockholm
+    yf_symbol: VOLCAR-B.ST
+    currency: SEK
+  NL0013332471:
+    name: TomTom NV
+    ticker: TOM2
+    exchange: Euronext Amsterdam
+    yf_symbol: TOM2.AS
+    currency: EUR

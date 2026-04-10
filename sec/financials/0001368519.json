@@ -1,0 +1,23 @@
+{
+  "cik": "0001368519",
+  "name": "North American Construction Group Ltd.",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2015-12-31",
+      "filing_date": "2016-02-16",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CAD",
+      "revenue_M": 281,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -7,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss"
+      }
+    }
+  ],
+  "quarterly": []
+}

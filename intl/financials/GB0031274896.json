@@ -1,0 +1,46 @@
+{
+  "isin": "GB0031274896",
+  "name": "Marks and Spencer Group plc",
+  "ticker": "MKS",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "GBP",
+      "revenue_M": 13817,
+      "rnd_M": null,
+      "cost_of_revenue_M": 9209,
+      "net_income_M": 296,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "GBP",
+      "revenue_M": 13040,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8712,
+      "net_income_M": 431
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "GBP",
+      "revenue_M": 11931,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7787,
+      "net_income_M": 363
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "GBP",
+      "revenue_M": 10885,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7130,
+      "net_income_M": 307
+    }
+  ]
+}

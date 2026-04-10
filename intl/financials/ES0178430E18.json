@@ -1,0 +1,54 @@
+{
+  "isin": "ES0178430E18",
+  "name": "Telefonica SA",
+  "ticker": "TEF",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 35120,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11327,
+      "net_income_M": -4318,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 35671,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11183,
+      "net_income_M": -49
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 40652,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12495,
+      "net_income_M": -892
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 39993,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12158,
+      "net_income_M": 2011
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "isin": "GB00B8C3BL03",
+  "name": "Sage Group plc",
+  "ticker": "SGE",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-09-30",
+      "currency": "GBP",
+      "revenue_M": 2513,
+      "rnd_M": null,
+      "cost_of_revenue_M": 183,
+      "net_income_M": 369,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "GBP",
+      "revenue_M": 2332,
+      "rnd_M": null,
+      "cost_of_revenue_M": 168,
+      "net_income_M": 323
+    },
+    {
+      "period_end": "2023-09-30",
+      "currency": "GBP",
+      "revenue_M": 2184,
+      "rnd_M": null,
+      "cost_of_revenue_M": 156,
+      "net_income_M": 211
+    },
+    {
+      "period_end": "2022-09-30",
+      "currency": "GBP",
+      "revenue_M": 1947,
+      "rnd_M": null,
+      "cost_of_revenue_M": 138,
+      "net_income_M": 260
+    },
+    {
+      "period_end": "2021-09-30",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

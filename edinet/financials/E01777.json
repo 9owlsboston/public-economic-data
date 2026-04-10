@@ -1,0 +1,98 @@
+{
+  "edinet_code": "E01777",
+  "name": "Sony Group Corporation",
+  "ticker": "6758",
+  "exchange": "TSE",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-06-20",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": null,
+      "operating_income_M": 1407163,
+      "net_income_M": 1141600,
+      "cost_of_revenue_M": 8504810,
+      "rnd_M": null,
+      "tags_used": {
+        "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
+        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "filing_date": "2024-06-25",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": null,
+      "operating_income_M": 1208831,
+      "net_income_M": 970573,
+      "cost_of_revenue_M": 8089317,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2023-03-31",
+      "filing_date": "2023-06-20",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": null,
+      "operating_income_M": 1208206,
+      "net_income_M": 937126,
+      "cost_of_revenue_M": 7174723,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2022-03-31",
+      "filing_date": "2022-06-28",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": null,
+      "operating_income_M": 1202339,
+      "net_income_M": 882178,
+      "cost_of_revenue_M": 5845804,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2021-03-31",
+      "filing_date": "2021-06-22",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": null,
+      "operating_income_M": null,
+      "net_income_M": null,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2020-03-31",
+      "filing_date": "2020-06-26",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": null,
+      "operating_income_M": null,
+      "net_income_M": null,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    },
+    {
+      "period_end": "2019-03-31",
+      "filing_date": "2019-06-18",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": null,
+      "operating_income_M": null,
+      "net_income_M": null,
+      "cost_of_revenue_M": null,
+      "rnd_M": null
+    }
+  ]
+}

@@ -191,10 +191,17 @@ def _find_annual_filings(edinet_code: str, api_key: str, years_back: int = 8) ->
     filings = []
     today = date.today()
 
-    # Scan June of each year (when March-end FY companies file)
+    # Filing months vary by fiscal year end:
+    #   FY end Mar 31 → files Jun/Jul
+    #   FY end Feb 28 → files May/Jun
+    #   FY end Dec 31 → files Mar/Apr
+    #   FY end Sep 30 → files Dec/Jan
+    # Scan all likely filing months to catch all FY-end patterns.
+    filing_months = [3, 4, 5, 6, 7]
+
     for years_ago in range(0, years_back):
         year = today.year - years_ago
-        for month in [6, 7]:  # Most file in June, some in July
+        for month in filing_months:
             for day in range(1, 31):
                 try:
                     d = date(year, month, day)

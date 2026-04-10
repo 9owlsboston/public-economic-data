@@ -1,0 +1,46 @@
+{
+  "isin": "NL0000009538",
+  "name": "Royal Philips NV",
+  "ticker": "PHIA",
+  "exchange": "Euronext Amsterdam",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 17834,
+      "rnd_M": 1700,
+      "cost_of_revenue_M": 9776,
+      "net_income_M": 895,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 18021,
+      "rnd_M": 1747,
+      "cost_of_revenue_M": 10248,
+      "net_income_M": -702
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 18169,
+      "rnd_M": 1890,
+      "cost_of_revenue_M": 10721,
+      "net_income_M": -466
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 17827,
+      "rnd_M": 2091,
+      "cost_of_revenue_M": 10633,
+      "net_income_M": -1608
+    }
+  ]
+}

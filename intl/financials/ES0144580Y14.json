@@ -1,0 +1,54 @@
+{
+  "isin": "ES0144580Y14",
+  "name": "Iberdrola SA",
+  "ticker": "IBE",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 44076,
+      "rnd_M": null,
+      "cost_of_revenue_M": 20028,
+      "net_income_M": 6285,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 42988,
+      "rnd_M": null,
+      "cost_of_revenue_M": 19777,
+      "net_income_M": 5612
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 49335,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26033,
+      "net_income_M": 4803
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 53949,
+      "rnd_M": null,
+      "cost_of_revenue_M": 33750,
+      "net_income_M": 4339
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "isin": "IT0003796171",
+  "name": "Poste Italiane SpA",
+  "ticker": "PST",
+  "exchange": "Borsa Italiana",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 23257,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16751,
+      "net_income_M": 2214,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 22535,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16483,
+      "net_income_M": 1994
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 20590,
+      "rnd_M": null,
+      "cost_of_revenue_M": 15177,
+      "net_income_M": 1922
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 18280,
+      "rnd_M": null,
+      "cost_of_revenue_M": 13863,
+      "net_income_M": 1578
+    }
+  ]
+}

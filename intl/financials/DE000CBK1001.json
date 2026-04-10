@@ -1,0 +1,54 @@
+{
+  "isin": "DE000CBK1001",
+  "name": "Commerzbank AG",
+  "ticker": "CBK",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 12362,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2677
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 11812,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2224
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 10390,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1435
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": 9645,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 430
+    }
+  ]
+}

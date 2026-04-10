@@ -1,0 +1,54 @@
+{
+  "isin": "DE0008430026",
+  "name": "Muenchener Rueckversicherungs-Gesellschaft AG",
+  "ticker": "MUV2",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 62312,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6118,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 64424,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5704
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 39684,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4606
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 39707,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5313
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

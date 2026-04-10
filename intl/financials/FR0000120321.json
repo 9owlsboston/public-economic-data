@@ -1,0 +1,54 @@
+{
+  "isin": "FR0000120321",
+  "name": "L'Oreal SA",
+  "ticker": "OR",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 44052,
+      "rnd_M": 1381,
+      "cost_of_revenue_M": 11313,
+      "net_income_M": 6127,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 43487,
+      "rnd_M": 1355,
+      "cost_of_revenue_M": 11227,
+      "net_income_M": 6409
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 41182,
+      "rnd_M": 1289,
+      "cost_of_revenue_M": 10767,
+      "net_income_M": 6184
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 38261,
+      "rnd_M": 1139,
+      "cost_of_revenue_M": 10577,
+      "net_income_M": 5707
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

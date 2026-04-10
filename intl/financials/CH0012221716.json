@@ -1,0 +1,54 @@
+{
+  "isin": "CH0012221716",
+  "name": "ABB Ltd",
+  "ticker": "ABBN",
+  "exchange": "SIX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CHF",
+      "revenue_M": 33220,
+      "rnd_M": 1318,
+      "cost_of_revenue_M": 19580,
+      "net_income_M": 4734,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CHF",
+      "revenue_M": 30583,
+      "rnd_M": 1268,
+      "cost_of_revenue_M": 18582,
+      "net_income_M": 3935
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "CHF",
+      "revenue_M": 32235,
+      "rnd_M": 1317,
+      "cost_of_revenue_M": 21021,
+      "net_income_M": 3745
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "CHF",
+      "revenue_M": 29446,
+      "rnd_M": 1166,
+      "cost_of_revenue_M": 19736,
+      "net_income_M": 2475
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "CHF",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "cik": "0000719245",
+  "name": "WESTPAC BANKING CORPORATION",
+  "last_refreshed": "2026-04-09",
+  "annual": [
+    {
+      "period_end": "2025-09-30",
+      "filing_date": "2025-11-04",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 58046,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6916,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+      }
+    },
+    {
+      "period_end": "2024-09-30",
+      "filing_date": "2024-11-05",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 57182,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6990
+    },
+    {
+      "period_end": "2023-09-30",
+      "filing_date": "2023-11-07",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 47080,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7195
+    },
+    {
+      "period_end": "2022-09-30",
+      "filing_date": "2022-11-08",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 25696,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5694
+    },
+    {
+      "period_end": "2021-09-30",
+      "filing_date": "2021-11-03",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 26642,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5458
+    },
+    {
+      "period_end": "2020-09-30",
+      "filing_date": "2020-11-04",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 30534,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2290
+    },
+    {
+      "period_end": "2019-09-30",
+      "filing_date": "2019-11-06",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 36964,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6784
+    },
+    {
+      "period_end": "2018-09-30",
+      "filing_date": "2018-12-06",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 38073,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 8095,
+      "amended": true
+    },
+    {
+      "period_end": "2018-09-30",
+      "filing_date": "2018-11-07",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 38073,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 8095
+    },
+    {
+      "period_end": "2017-09-30",
+      "filing_date": "2017-11-08",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 37366,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7990
+    },
+    {
+      "period_end": "2016-09-30",
+      "filing_date": "2016-11-09",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "AUD",
+      "revenue_M": 37659,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7445
+    }
+  ],
+  "quarterly": []
+}
