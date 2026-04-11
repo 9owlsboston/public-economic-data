@@ -6,10 +6,10 @@ Private aggregator of public economic and financial datasets for cloud economics
 
 | Source | Directory | Status | Refresh |
 |---|---|---|---|
-| **SEC EDGAR XBRL** | `sec/` | ✅ Active — 29 companies, full history | Quarterly (GitHub Action) |
-| **FRED Macro Indicators** | `macro/` | ✅ Active — 18 series, full history | Monthly (GitHub Action) |
-| **International Financials** | `intl/` | ✅ Active — 4 European companies (Yahoo Finance) | Quarterly (GitHub Action) |
-| **EDINET Financials** | `edinet/` | ✅ Active — 4 Japanese companies (EDINET XBRL) | Quarterly (GitHub Action) |
+| **SEC EDGAR XBRL** | `sec/` | ✅ Active — 196 companies, full history | Quarterly (GitHub Action) |
+| **FRED Macro Indicators** | `macro/` | ✅ Active — 22 series, full history | Monthly (GitHub Action) |
+| **International Financials** | `intl/` | ✅ Active — 39 companies (Yahoo Finance) | Quarterly (GitHub Action) |
+| **EDINET Financials** | `edinet/` | ✅ Active — 14 Japanese companies (EDINET XBRL) | Quarterly (GitHub Action) |
 | Cloud Pricing (Azure/AWS/GCP) | `cloud-pricing/` | Planned | Monthly |
 | SDK Adoption (PyPI/npm) | `sdk-adoption/` | Planned | Weekly |
 
@@ -17,7 +17,7 @@ Private aggregator of public economic and financial datasets for cloud economics
 
 ### Coverage
 
-28 companies from top 50 Azure customers by ACR, plus Alibaba. Revenue, R&D, COGS, net income.
+196 companies from top Azure customers by ACR. Revenue, R&D, COGS, net income, capex, operating cash flow, SGA, cash, total debt, total assets.
 Supports `us-gaap` (10-K/10-Q) and `ifrs-full` (20-F foreign private issuers).
 
 ### Structure
@@ -29,7 +29,7 @@ sec/
     0000796343.json           # Adobe — 9 annual + 25 quarterly periods
     0000104169.json           # Walmart
     0000789019_segments.json  # Microsoft — segment-level revenue
-    ...                       # 29 standard files + 1 segment file
+    ...                       # 196 standard files + 1 segment file
   scripts/
     refresh.py                # SEC EDGAR fetcher (Submissions → CompanyFacts)
     refresh_segments.py       # Segment-level XBRL extraction
@@ -81,7 +81,7 @@ CIK
  ↓
 Submissions API  → ALL 10-K/10-Q/20-F filings + period end dates
  ↓
-CompanyFacts API → extract revenue, R&D, COGS, NI for each period end
+CompanyFacts API → extract revenue, R&D, COGS, NI, capex, OCF, SGA, cash, debt, assets for each period end
  ↓
 Tag resolution   → 3-layer: preferred list → best match → YAML override
  ↓
@@ -143,7 +143,7 @@ Segment extraction uses inline XBRL parsing (not CompanyFacts), since the standa
 
 ### Coverage
 
-18 FRED series providing macroeconomic, market, FX, labor, and credit context.
+22 FRED series providing macroeconomic, market, FX, labor, and credit context.
 
 | Series ID | Name | Frequency |
 |---|---|---|
@@ -162,6 +162,10 @@ Segment extraction uses inline XBRL parsing (not CompanyFacts), since the standa
 | `DEXCAUS` | Canadian Dollars to One U.S. Dollar | Daily |
 | `DEXJPUS` | Japanese Yen to One U.S. Dollar | Daily |
 | `DEXSZUS` | Swiss Francs to One U.S. Dollar | Daily |
+| `DEXUSUK` | U.S. Dollars to One British Pound | Daily |
+| `DEXUSAL` | U.S. Dollars to One Australian Dollar | Daily |
+| `DEXKOUS` | South Korean Won to One U.S. Dollar | Daily |
+| `DEXSIUS` | Swedish Kronor to One U.S. Dollar | Daily |
 | `UNRATE` | Unemployment Rate | Monthly |
 | `ICSA` | Initial Claims | Weekly |
 | `BAA10Y` | Baa Corporate Spread vs 10-Year Treasury | Daily |
@@ -174,7 +178,7 @@ macro/
   fred/
     GDPC1.json               # Real GDP — 316 observations
     PCU518210518210.json      # PPI Data Processing
-    ...                       # 18 files
+    ...                       # 22 files
   scripts/
     refresh_fred.py           # FRED API fetcher
     macro_indicators.py       # Helper module for reading data
@@ -215,8 +219,8 @@ Manual trigger available via `workflow_dispatch`.
 
 ### Coverage
 
-4 European companies (BMW, Siemens, Mercedes-Benz, Volkswagen). Revenue, R&D (where disclosed), COGS, net income.
-Data sourced via Yahoo Finance (`yfinance`). All values in EUR.
+39 European and international companies. Revenue, R&D (where disclosed), COGS, net income.
+Data sourced via Yahoo Finance (`yfinance`).
 
 ### Structure
 
@@ -265,8 +269,8 @@ Manual trigger available via `workflow_dispatch`.
 
 ### Coverage
 
-4 Japanese companies (NTT, Hitachi, NEC, Fujitsu). Revenue, operating income, net income.
-Data sourced directly from EDINET XBRL filings (Japan FSA). IFRS reporters. All values in millions JPY.
+14 Japanese companies. Revenue, operating income, net income.
+Data sourced directly from EDINET XBRL filings (Japan FSA). All values in millions JPY.
 
 ### Structure
 

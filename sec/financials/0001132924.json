@@ -1,7 +1,7 @@
 {
   "cik": "0001132924",
   "name": "CHUNGHWA TELECOM CO LTD",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2024-12-31",
@@ -13,11 +13,22 @@
       "rnd_M": 4167,
       "cost_of_revenue_M": 146583,
       "net_income_M": 37189,
+      "capex_M": 28756,
+      "operating_cash_flow_M": 79244,
+      "sga_M": 7175,
+      "cash_M": 36260,
+      "total_debt_M": null,
+      "total_assets_M": 534297,
       "tags_used": {
         "revenue": "ifrs-full:Revenue",
         "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "ifrs-full:CostOfSales",
-        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "sga": "ifrs-full:SellingGeneralAndAdministrativeExpense",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -29,7 +40,13 @@
       "revenue_M": 223199,
       "rnd_M": 3892,
       "cost_of_revenue_M": 141767,
-      "net_income_M": 36958
+      "net_income_M": 36958,
+      "capex_M": 30741,
+      "operating_cash_flow_M": 74559,
+      "sga_M": 6801,
+      "cash_M": 33824,
+      "total_debt_M": null,
+      "total_assets_M": 523741
     },
     {
       "period_end": "2022-12-31",
@@ -40,7 +57,13 @@
       "revenue_M": 216739,
       "rnd_M": 3774,
       "cost_of_revenue_M": 136717,
-      "net_income_M": 36358
+      "net_income_M": 36358,
+      "capex_M": 31535,
+      "operating_cash_flow_M": 75951,
+      "sga_M": 6580,
+      "cash_M": 50193,
+      "total_debt_M": null,
+      "total_assets_M": 522996
     },
     {
       "period_end": "2021-12-31",
@@ -51,7 +74,13 @@
       "revenue_M": 210478,
       "rnd_M": 3688,
       "cost_of_revenue_M": 135111,
-      "net_income_M": 35616
+      "net_income_M": 35616,
+      "capex_M": 35333,
+      "operating_cash_flow_M": 74858,
+      "sga_M": 5293,
+      "cash_M": 39779,
+      "total_debt_M": null,
+      "total_assets_M": 512875
     },
     {
       "period_end": "2020-12-31",
@@ -62,7 +91,13 @@
       "revenue_M": 207609,
       "rnd_M": 3850,
       "cost_of_revenue_M": 137029,
-      "net_income_M": 33419
+      "net_income_M": 33419,
+      "capex_M": 23511,
+      "operating_cash_flow_M": 74456,
+      "sga_M": 5006,
+      "cash_M": 30420,
+      "total_debt_M": null,
+      "total_assets_M": 506180
     },
     {
       "period_end": "2019-12-31",
@@ -73,7 +108,13 @@
       "revenue_M": 207520,
       "rnd_M": 3941,
       "cost_of_revenue_M": 135953,
-      "net_income_M": 32947
+      "net_income_M": 32947,
+      "capex_M": 24166,
+      "operating_cash_flow_M": 72427,
+      "sga_M": 4758,
+      "cash_M": 34050,
+      "total_debt_M": null,
+      "total_assets_M": 477128
     },
     {
       "period_end": "2018-12-31",
@@ -84,7 +125,13 @@
       "revenue_M": 215483,
       "rnd_M": 3725,
       "cost_of_revenue_M": 139545,
-      "net_income_M": 37557
+      "net_income_M": 37557,
+      "capex_M": 28550,
+      "operating_cash_flow_M": 66366,
+      "sga_M": 4589,
+      "cash_M": 27645,
+      "total_debt_M": null,
+      "total_assets_M": 467056
     },
     {
       "period_end": "2017-12-31",
@@ -95,7 +142,13 @@
       "revenue_M": 227514,
       "rnd_M": 3886,
       "cost_of_revenue_M": 146837,
-      "net_income_M": 38988
+      "net_income_M": 38988,
+      "capex_M": 26875,
+      "operating_cash_flow_M": 70932,
+      "sga_M": 4626,
+      "cash_M": 28825,
+      "total_debt_M": null,
+      "total_assets_M": 450902
     },
     {
       "period_end": "2016-12-31",
@@ -106,7 +159,13 @@
       "revenue_M": 229991,
       "rnd_M": 3785,
       "cost_of_revenue_M": 147552,
-      "net_income_M": 40485
+      "net_income_M": 40485,
+      "capex_M": 23517,
+      "operating_cash_flow_M": 64952,
+      "sga_M": 4537,
+      "cash_M": 31100,
+      "total_debt_M": null,
+      "total_assets_M": 446915
     },
     {
       "period_end": "2015-12-31",
@@ -117,7 +176,30 @@
       "revenue_M": 231795,
       "rnd_M": 3617,
       "cost_of_revenue_M": 148126,
-      "net_income_M": 42039
+      "net_income_M": 42039,
+      "capex_M": 25084,
+      "operating_cash_flow_M": 76325,
+      "sga_M": 4515,
+      "cash_M": 30271,
+      "total_debt_M": null,
+      "total_assets_M": null
+    },
+    {
+      "period_end": "2014-12-31",
+      "filing_date": "2015-04-28",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "sga_M": null,
+      "cash_M": 23560,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ],
   "quarterly": []

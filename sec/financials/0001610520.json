@@ -1,7 +1,7 @@
 {
   "cik": "0001610520",
   "name": "UBS Group AG",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,8 +13,17 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 7797,
+      "capex_M": null,
+      "operating_cash_flow_M": 21851,
+      "sga_M": null,
+      "cash_M": 231375,
+      "total_debt_M": null,
+      "total_assets_M": 1617427,
       "tags_used": {
-        "net_income": "ifrs-full:ProfitLoss"
+        "net_income": "ifrs-full:ProfitLoss",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -26,7 +35,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 5146
+      "net_income_M": 5146,
+      "capex_M": null,
+      "operating_cash_flow_M": 3279,
+      "sga_M": null,
+      "cash_M": 244090,
+      "total_debt_M": null,
+      "total_assets_M": 1565028
     },
     {
       "period_end": "2023-12-31",
@@ -37,7 +52,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 27382
+      "net_income_M": 27382,
+      "capex_M": null,
+      "operating_cash_flow_M": 86068,
+      "sga_M": null,
+      "cash_M": 340311,
+      "total_debt_M": null,
+      "total_assets_M": 1717246
     },
     {
       "period_end": "2022-12-31",
@@ -48,7 +69,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 7661
+      "net_income_M": 7661,
+      "capex_M": null,
+      "operating_cash_flow_M": 14647,
+      "sga_M": null,
+      "cash_M": 195321,
+      "total_debt_M": null,
+      "total_assets_M": 1104364
     },
     {
       "period_end": "2021-12-31",
@@ -59,7 +86,13 @@
       "revenue_M": 35393,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 7486
+      "net_income_M": 7486,
+      "capex_M": null,
+      "operating_cash_flow_M": 31425,
+      "sga_M": null,
+      "cash_M": 207875,
+      "total_debt_M": null,
+      "total_assets_M": 1117182
     },
     {
       "period_end": "2020-12-31",
@@ -70,7 +103,13 @@
       "revenue_M": 33084,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 6572
+      "net_income_M": 6572,
+      "capex_M": null,
+      "operating_cash_flow_M": 36958,
+      "sga_M": null,
+      "cash_M": 173531,
+      "total_debt_M": null,
+      "total_assets_M": 1125765
     },
     {
       "period_end": "2019-12-31",
@@ -81,7 +120,13 @@
       "revenue_M": 28967,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 4310
+      "net_income_M": 4310,
+      "capex_M": null,
+      "operating_cash_flow_M": 19705,
+      "sga_M": null,
+      "cash_M": 119873,
+      "total_debt_M": null,
+      "total_assets_M": 972183
     },
     {
       "period_end": "2018-12-31",
@@ -92,7 +137,13 @@
       "revenue_M": 30330,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 4522
+      "net_income_M": 4522,
+      "capex_M": null,
+      "operating_cash_flow_M": 28913,
+      "sga_M": null,
+      "cash_M": 126079,
+      "total_debt_M": null,
+      "total_assets_M": 958489
     },
     {
       "period_end": "2017-12-31",
@@ -103,7 +154,13 @@
       "revenue_M": 29195,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1128
+      "net_income_M": 1128,
+      "capex_M": null,
+      "operating_cash_flow_M": -50911,
+      "sga_M": null,
+      "cash_M": 102200,
+      "total_debt_M": null,
+      "total_assets_M": 915642
     },
     {
       "period_end": "2016-12-31",
@@ -114,7 +171,13 @@
       "revenue_M": 28357,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 3286
+      "net_income_M": 3286,
+      "capex_M": null,
+      "operating_cash_flow_M": -16457,
+      "sga_M": null,
+      "cash_M": 121138,
+      "total_debt_M": null,
+      "total_assets_M": 935016
     },
     {
       "period_end": "2015-12-31",
@@ -125,7 +188,13 @@
       "revenue_M": 30722,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 6386
+      "net_income_M": 6386,
+      "capex_M": null,
+      "operating_cash_flow_M": 3109,
+      "sga_M": null,
+      "cash_M": 103044,
+      "total_debt_M": null,
+      "total_assets_M": 942819
     }
   ],
   "quarterly": []

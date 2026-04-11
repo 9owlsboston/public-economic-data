@@ -1,7 +1,7 @@
 {
   "cik": "0000093751",
   "name": "State Street Corp.",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,9 +13,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 2945,
+      "capex_M": 1055,
+      "operating_cash_flow_M": 11898,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 366047,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -27,7 +36,13 @@
       "revenue_M": 13000,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 2687
+      "net_income_M": 2687,
+      "capex_M": 926,
+      "operating_cash_flow_M": -13210,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 353240
     },
     {
       "period_end": "2023-12-31",
@@ -38,7 +53,13 @@
       "revenue_M": 11945,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1944
+      "net_income_M": 1944,
+      "capex_M": 816,
+      "operating_cash_flow_M": 690,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 297258
     }
   ],
   "quarterly": [
@@ -52,9 +73,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 861,
+      "capex_M": 788,
+      "operating_cash_flow_M": 1856,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 371070,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -66,7 +96,13 @@
       "revenue_M": 3448,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 693
+      "net_income_M": 693,
+      "capex_M": 545,
+      "operating_cash_flow_M": -6045,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 376717
     },
     {
       "period_end": "2025-03-31",
@@ -77,7 +113,13 @@
       "revenue_M": 3284,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 644
+      "net_income_M": 644,
+      "capex_M": 226,
+      "operating_cash_flow_M": 2396,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 372693
     },
     {
       "period_end": "2024-09-30",
@@ -88,7 +130,13 @@
       "revenue_M": 3259,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 730
+      "net_income_M": 730,
+      "capex_M": 677,
+      "operating_cash_flow_M": -5780,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 338481
     },
     {
       "period_end": "2024-06-30",
@@ -99,7 +147,13 @@
       "revenue_M": 3191,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 711
+      "net_income_M": 711,
+      "capex_M": 443,
+      "operating_cash_flow_M": -8488,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 325603
     },
     {
       "period_end": "2024-03-31",
@@ -110,7 +164,13 @@
       "revenue_M": 3138,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 463
+      "net_income_M": 463,
+      "capex_M": 230,
+      "operating_cash_flow_M": -844,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 338003
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "cik": "0001900304",
   "name": "Haleon plc",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,11 +13,23 @@
       "rnd_M": 316,
       "cost_of_revenue_M": 3950,
       "net_income_M": 1667,
+      "capex_M": 322,
+      "operating_cash_flow_M": 2634,
+      "sga_M": 4364,
+      "cash_M": 1324,
+      "total_debt_M": 8609,
+      "total_assets_M": 32630,
       "tags_used": {
         "revenue": "ifrs-full:Revenue",
         "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "ifrs-full:CostOfSales",
-        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "sga": "ifrs-full:SellingGeneralAndAdministrativeExpense",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_debt": "ifrs-full:Borrowings",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -29,7 +41,13 @@
       "revenue_M": 11233,
       "rnd_M": 298,
       "cost_of_revenue_M": 4409,
-      "net_income_M": 1442
+      "net_income_M": 1442,
+      "capex_M": 250,
+      "operating_cash_flow_M": 2301,
+      "sga_M": 4452,
+      "cash_M": 2250,
+      "total_debt_M": 10127,
+      "total_assets_M": 34315
     },
     {
       "period_end": "2023-12-31",
@@ -41,6 +59,12 @@
       "rnd_M": 311,
       "cost_of_revenue_M": 4555,
       "net_income_M": 1049,
+      "capex_M": 234,
+      "operating_cash_flow_M": 2100,
+      "sga_M": 4413,
+      "cash_M": 1044,
+      "total_debt_M": 9456,
+      "total_assets_M": 34055,
       "amended": true
     },
     {
@@ -52,7 +76,13 @@
       "revenue_M": 11302,
       "rnd_M": 311,
       "cost_of_revenue_M": 4555,
-      "net_income_M": 1049
+      "net_income_M": 1049,
+      "capex_M": 234,
+      "operating_cash_flow_M": 2100,
+      "sga_M": 4413,
+      "cash_M": 1044,
+      "total_debt_M": 9456,
+      "total_assets_M": 34055
     },
     {
       "period_end": "2022-12-31",
@@ -63,7 +93,13 @@
       "revenue_M": 10858,
       "rnd_M": 300,
       "cost_of_revenue_M": 4281,
-      "net_income_M": 1060
+      "net_income_M": 1060,
+      "capex_M": 304,
+      "operating_cash_flow_M": 2063,
+      "sga_M": 4483,
+      "cash_M": 684,
+      "total_debt_M": 10440,
+      "total_assets_M": 34815
     }
   ],
   "quarterly": []

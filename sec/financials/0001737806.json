@@ -1,7 +1,7 @@
 {
   "cik": "0001737806",
   "name": "PDD Holdings Inc.",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2024-12-31",
@@ -13,11 +13,20 @@
       "rnd_M": 12659,
       "cost_of_revenue_M": 153900,
       "net_income_M": 112435,
+      "capex_M": null,
+      "operating_cash_flow_M": 121929,
+      "sga_M": null,
+      "cash_M": 57768,
+      "total_debt_M": null,
+      "total_assets_M": 505034,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "rnd": "us-gaap:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -29,7 +38,13 @@
       "revenue_M": 247639,
       "rnd_M": 10952,
       "cost_of_revenue_M": 91724,
-      "net_income_M": 60027
+      "net_income_M": 60027,
+      "capex_M": null,
+      "operating_cash_flow_M": 94163,
+      "sga_M": null,
+      "cash_M": 59794,
+      "total_debt_M": null,
+      "total_assets_M": 348078
     },
     {
       "period_end": "2022-12-31",
@@ -40,7 +55,13 @@
       "revenue_M": 130558,
       "rnd_M": 10385,
       "cost_of_revenue_M": 31462,
-      "net_income_M": 31538
+      "net_income_M": 31538,
+      "capex_M": null,
+      "operating_cash_flow_M": 48508,
+      "sga_M": null,
+      "cash_M": 34326,
+      "total_debt_M": null,
+      "total_assets_M": 237120
     },
     {
       "period_end": "2021-12-31",
@@ -51,7 +72,13 @@
       "revenue_M": 93950,
       "rnd_M": 8993,
       "cost_of_revenue_M": 31718,
-      "net_income_M": 7769
+      "net_income_M": 7769,
+      "capex_M": null,
+      "operating_cash_flow_M": 28783,
+      "sga_M": null,
+      "cash_M": 6427,
+      "total_debt_M": null,
+      "total_assets_M": 181210
     },
     {
       "period_end": "2020-12-31",
@@ -62,7 +89,13 @@
       "revenue_M": 59492,
       "rnd_M": 6892,
       "cost_of_revenue_M": 19279,
-      "net_income_M": -7180
+      "net_income_M": -7180,
+      "capex_M": 43,
+      "operating_cash_flow_M": 28197,
+      "sga_M": null,
+      "cash_M": 22421,
+      "total_debt_M": null,
+      "total_assets_M": 158909
     },
     {
       "period_end": "2019-12-31",
@@ -73,7 +106,13 @@
       "revenue_M": 30142,
       "rnd_M": 3870,
       "cost_of_revenue_M": 6339,
-      "net_income_M": -6968
+      "net_income_M": -6968,
+      "capex_M": 27,
+      "operating_cash_flow_M": 14821,
+      "sga_M": null,
+      "cash_M": 5768,
+      "total_debt_M": null,
+      "total_assets_M": 76057
     },
     {
       "period_end": "2018-12-31",
@@ -84,7 +123,13 @@
       "revenue_M": 13120,
       "rnd_M": 1116,
       "cost_of_revenue_M": 2905,
-      "net_income_M": -10217
+      "net_income_M": -10217,
+      "capex_M": 27,
+      "operating_cash_flow_M": 7768,
+      "sga_M": null,
+      "cash_M": 14160,
+      "total_debt_M": null,
+      "total_assets_M": 43182
     }
   ],
   "quarterly": []

@@ -199,6 +199,37 @@ class MacroIndicators:
             return sorted(f.stem for f in self._dir.glob("*.json"))
         return []
 
+    def get_fx_rate(self, currency: str, target_date: str | None = None) -> float | None:
+        """Get USD per 1 unit of local currency for a given currency code.
+
+        Looks up the matching FRED series and returns the normalized rate
+        closest to target_date (or most recent if omitted).
+
+        Supported currencies: EUR, GBP, JPY, CAD, CHF, AUD, KRW, SEK.
+        Returns None for USD (identity) or unsupported currencies.
+        """
+        if currency == "USD":
+            return 1.0
+        series_id = _CURRENCY_TO_FRED.get(currency)
+        if not series_id:
+            return None
+        result = self.fx_usd_per_local(series_id, target_date)
+        if not result:
+            return None
+        return result["value"]
+
+
+_CURRENCY_TO_FRED = {
+    "EUR": "DEXUSEU",
+    "GBP": "DEXUSUK",
+    "JPY": "DEXJPUS",
+    "CAD": "DEXCAUS",
+    "CHF": "DEXSZUS",
+    "AUD": "DEXUSAL",
+    "KRW": "DEXKOUS",
+    "SEK": "DEXSIUS",
+}
+
 
 def _date_diff(d1: str, d2: str) -> int:
     """Difference in days between two YYYY-MM-DD date strings."""

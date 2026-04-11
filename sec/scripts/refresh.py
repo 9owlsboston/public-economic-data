@@ -72,7 +72,62 @@ METRIC_TAGS = {
             "ProfitLoss",
         ],
     },
+    # ── V2 duration metrics ──────────────────────────────────────────────
+    "capex": {
+        "us-gaap": [
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+        ],
+        "ifrs-full": [
+            "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        ],
+    },
+    "operating_cash_flow": {
+        "us-gaap": [
+            "NetCashProvidedByUsedInOperatingActivities",
+        ],
+        "ifrs-full": [
+            "CashFlowsFromUsedInOperatingActivities",
+        ],
+    },
+    "sga": {
+        "us-gaap": [
+            "SellingGeneralAndAdministrativeExpense",
+        ],
+        "ifrs-full": [
+            "SellingGeneralAndAdministrativeExpense",
+        ],
+    },
+    # ── V2 instant (balance-sheet) metrics ───────────────────────────────
+    "cash": {
+        "us-gaap": [
+            "CashAndCashEquivalentsAtCarryingValue",
+            "CashCashEquivalentsAndShortTermInvestments",
+        ],
+        "ifrs-full": [
+            "CashAndCashEquivalents",
+        ],
+    },
+    "total_debt": {
+        "us-gaap": [
+            "LongTermDebt",
+            "LongTermDebtAndCapitalLeaseObligations",
+        ],
+        "ifrs-full": [
+            "Borrowings",
+        ],
+    },
+    "total_assets": {
+        "us-gaap": [
+            "Assets",
+        ],
+        "ifrs-full": [
+            "Assets",
+        ],
+    },
 }
+
+# Instant metrics use balance-sheet point-in-time values (no start date)
+INSTANT_METRICS = {"cash", "total_debt", "total_assets"}
 
 NAMESPACES = ["us-gaap", "ifrs-full"]
 ANNUAL_FORMS = ("10-K", "20-F", "10-K/A", "20-F/A")
@@ -155,9 +210,11 @@ def extract_metric_by_period(
 ) -> dict | None:
     """Extract a metric matching a specific period end date.
 
-    For quarterly: picks shortest duration (single quarter).
-    For annual: picks longest duration (full year).
+    For instant metrics (cash, debt, assets): picks entries with no start date.
+    For duration metrics: quarterly = shortest, annual = longest.
     """
+    is_instant = metric_name in INSTANT_METRICS
+
     candidates = []
     if tag_override and ":" in tag_override:
         ns, tag = tag_override.split(":", 1)
@@ -175,8 +232,14 @@ def extract_metric_by_period(
             if not matches:
                 continue
 
-            # Duration disambiguation
-            if len(matches) > 1:
+            if is_instant:
+                # Instant metrics: prefer entries without a start date
+                instant_matches = [e for e in matches if "start" not in e]
+                if not instant_matches:
+                    continue
+                best_entry = instant_matches[0]
+            elif len(matches) > 1:
+                # Duration disambiguation
                 with_duration = []
                 for m in matches:
                     start = m.get("start", "")
@@ -232,6 +295,12 @@ def refresh_company(cik: str, name: str, tag_overrides: dict | None = None) -> d
         "quarterly": [],
     }
 
+    all_metrics = (
+        "revenue", "rnd", "cost_of_revenue", "net_income",
+        "capex", "operating_cash_flow", "sga",
+        "cash", "total_debt", "total_assets",
+    )
+
     for scope in ("annual", "quarterly"):
         first = True
         for filing in filings[scope]:
@@ -239,7 +308,7 @@ def refresh_company(cik: str, name: str, tag_overrides: dict | None = None) -> d
 
             metrics = {}
             tags_used = {}
-            for metric_name in ("revenue", "rnd", "cost_of_revenue", "net_income"):
+            for metric_name in all_metrics:
                 override = overrides.get(f"{metric_name}_tag")
                 m = extract_metric_by_period(facts, metric_name, period_end, scope, override)
                 if m:
@@ -265,6 +334,12 @@ def refresh_company(cik: str, name: str, tag_overrides: dict | None = None) -> d
                 "rnd_M": metrics["rnd"],
                 "cost_of_revenue_M": metrics["cost_of_revenue"],
                 "net_income_M": metrics["net_income"],
+                "capex_M": metrics["capex"],
+                "operating_cash_flow_M": metrics["operating_cash_flow"],
+                "sga_M": metrics["sga"],
+                "cash_M": metrics["cash"],
+                "total_debt_M": metrics["total_debt"],
+                "total_assets_M": metrics["total_assets"],
             }
 
             if filing.get("is_amended"):

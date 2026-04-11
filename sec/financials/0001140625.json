@@ -1,7 +1,7 @@
 {
   "cik": "0001140625",
   "name": "EQUINOR ASA",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,11 +13,22 @@
       "rnd_M": 352,
       "cost_of_revenue_M": 55164,
       "net_income_M": 5043,
+      "capex_M": 13994,
+      "operating_cash_flow_M": 19971,
+      "sga_M": 1207,
+      "cash_M": 5036,
+      "total_debt_M": null,
+      "total_assets_M": 131727,
       "tags_used": {
         "revenue": "ifrs-full:Revenue",
         "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "ifrs-full:CostOfSales",
-        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "sga": "ifrs-full:SellingGeneralAndAdministrativeExpense",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -29,7 +40,13 @@
       "revenue_M": 103774,
       "rnd_M": 348,
       "cost_of_revenue_M": 50040,
-      "net_income_M": 8806
+      "net_income_M": 8806,
+      "capex_M": 12177,
+      "operating_cash_flow_M": 19465,
+      "sga_M": 1255,
+      "cash_M": 8120,
+      "total_debt_M": 21536,
+      "total_assets_M": 131141
     },
     {
       "period_end": "2023-12-31",
@@ -41,6 +58,12 @@
       "rnd_M": 311,
       "cost_of_revenue_M": 48175,
       "net_income_M": 11885,
+      "capex_M": 10575,
+      "operating_cash_flow_M": 29257,
+      "sga_M": 1218,
+      "cash_M": 9641,
+      "total_debt_M": 24630,
+      "total_assets_M": 143580,
       "amended": true
     },
     {
@@ -52,7 +75,13 @@
       "revenue_M": 150806,
       "rnd_M": 308,
       "cost_of_revenue_M": 53806,
-      "net_income_M": 28746
+      "net_income_M": 28746,
+      "capex_M": 8758,
+      "operating_cash_flow_M": 35136,
+      "sga_M": 986,
+      "cash_M": 15579,
+      "total_debt_M": 26688,
+      "total_assets_M": 158021
     },
     {
       "period_end": "2021-12-31",
@@ -64,6 +93,12 @@
       "rnd_M": 291,
       "cost_of_revenue_M": 35160,
       "net_income_M": 8563,
+      "capex_M": 8040,
+      "operating_cash_flow_M": 28816,
+      "sga_M": 780,
+      "cash_M": 14126,
+      "total_debt_M": 27655,
+      "total_assets_M": 147120,
       "amended": true
     },
     {
@@ -75,7 +110,13 @@
       "revenue_M": 45818,
       "rnd_M": 254,
       "cost_of_revenue_M": 20986,
-      "net_income_M": -5510
+      "net_income_M": -5510,
+      "capex_M": 8476,
+      "operating_cash_flow_M": 10386,
+      "sga_M": 706,
+      "cash_M": 6757,
+      "total_debt_M": 31091,
+      "total_assets_M": 121972
     },
     {
       "period_end": "2019-12-31",
@@ -86,7 +127,13 @@
       "revenue_M": 64357,
       "rnd_M": 300,
       "cost_of_revenue_M": 29532,
-      "net_income_M": 1843
+      "net_income_M": 1843,
+      "capex_M": 10204,
+      "operating_cash_flow_M": 13749,
+      "sga_M": 809,
+      "cash_M": 5177,
+      "total_debt_M": 23758,
+      "total_assets_M": 118063
     },
     {
       "period_end": "2018-12-31",
@@ -97,7 +144,13 @@
       "revenue_M": 79593,
       "rnd_M": 315,
       "cost_of_revenue_M": 38516,
-      "net_income_M": 7535
+      "net_income_M": 7535,
+      "capex_M": 11367,
+      "operating_cash_flow_M": 19694,
+      "sga_M": 758,
+      "cash_M": 7556,
+      "total_debt_M": 24644,
+      "total_assets_M": 112508
     }
   ],
   "quarterly": []

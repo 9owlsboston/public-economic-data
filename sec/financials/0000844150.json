@@ -1,7 +1,7 @@
 {
   "cik": "0000844150",
   "name": "NatWest Group plc",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,9 +13,19 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 5834,
+      "capex_M": 665,
+      "operating_cash_flow_M": 7072,
+      "sga_M": null,
+      "cash_M": 95433,
+      "total_debt_M": null,
+      "total_assets_M": 714553,
       "tags_used": {
         "revenue": "ifrs-full:Revenue",
-        "net_income": "ifrs-full:ProfitLoss"
+        "net_income": "ifrs-full:ProfitLoss",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -27,7 +37,13 @@
       "revenue_M": 29323,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 4811
+      "net_income_M": 4811,
+      "capex_M": 464,
+      "operating_cash_flow_M": 1772,
+      "sga_M": null,
+      "cash_M": 104845,
+      "total_debt_M": null,
+      "total_assets_M": 707985
     },
     {
       "period_end": "2023-12-31",
@@ -38,7 +54,13 @@
       "revenue_M": 25382,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 4632
+      "net_income_M": 4632,
+      "capex_M": 811,
+      "operating_cash_flow_M": -17438,
+      "sga_M": null,
+      "cash_M": 118824,
+      "total_debt_M": null,
+      "total_assets_M": 692673
     },
     {
       "period_end": "2022-12-31",
@@ -49,7 +71,13 @@
       "revenue_M": 16574,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 3595
+      "net_income_M": 3595,
+      "capex_M": 639,
+      "operating_cash_flow_M": -43597,
+      "sga_M": null,
+      "cash_M": 158449,
+      "total_debt_M": null,
+      "total_assets_M": 720053
     }
   ],
   "quarterly": []

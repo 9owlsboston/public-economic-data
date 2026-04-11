@@ -1,7 +1,7 @@
 {
   "cik": "0000719245",
   "name": "WESTPAC BANKING CORPORATION",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-09-30",
@@ -13,9 +13,19 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 6916,
+      "capex_M": 371,
+      "operating_cash_flow_M": 9489,
+      "sga_M": null,
+      "cash_M": 50430,
+      "total_debt_M": null,
+      "total_assets_M": 1125356,
       "tags_used": {
         "revenue": "ifrs-full:Revenue",
-        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -27,7 +37,13 @@
       "revenue_M": 57182,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 6990
+      "net_income_M": 6990,
+      "capex_M": 235,
+      "operating_cash_flow_M": -19767,
+      "sga_M": null,
+      "cash_M": 65667,
+      "total_debt_M": null,
+      "total_assets_M": 1077544
     },
     {
       "period_end": "2023-09-30",
@@ -38,7 +54,13 @@
       "revenue_M": 47080,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 7195
+      "net_income_M": 7195,
+      "capex_M": 238,
+      "operating_cash_flow_M": -10796,
+      "sga_M": null,
+      "cash_M": 102522,
+      "total_debt_M": null,
+      "total_assets_M": 1029774
     },
     {
       "period_end": "2022-09-30",
@@ -49,7 +71,13 @@
       "revenue_M": 25696,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 5694
+      "net_income_M": 5694,
+      "capex_M": 166,
+      "operating_cash_flow_M": 16954,
+      "sga_M": null,
+      "cash_M": 105257,
+      "total_debt_M": null,
+      "total_assets_M": 1014198
     },
     {
       "period_end": "2021-09-30",
@@ -60,7 +88,13 @@
       "revenue_M": 26642,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 5458
+      "net_income_M": 5458,
+      "capex_M": 234,
+      "operating_cash_flow_M": 50410,
+      "sga_M": null,
+      "cash_M": 71353,
+      "total_debt_M": null,
+      "total_assets_M": 935877
     },
     {
       "period_end": "2020-09-30",
@@ -71,7 +105,13 @@
       "revenue_M": 30534,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 2290
+      "net_income_M": 2290,
+      "capex_M": 240,
+      "operating_cash_flow_M": 58651,
+      "sga_M": null,
+      "cash_M": 30129,
+      "total_debt_M": null,
+      "total_assets_M": 911946
     },
     {
       "period_end": "2019-09-30",
@@ -82,7 +122,13 @@
       "revenue_M": 36964,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 6784
+      "net_income_M": 6784,
+      "capex_M": 280,
+      "operating_cash_flow_M": 7104,
+      "sga_M": null,
+      "cash_M": 20059,
+      "total_debt_M": null,
+      "total_assets_M": 906626
     },
     {
       "period_end": "2018-09-30",
@@ -94,6 +140,12 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 8095,
+      "capex_M": 310,
+      "operating_cash_flow_M": 19770,
+      "sga_M": null,
+      "cash_M": 26431,
+      "total_debt_M": null,
+      "total_assets_M": 879592,
       "amended": true
     },
     {
@@ -105,7 +157,13 @@
       "revenue_M": 38073,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 8095
+      "net_income_M": 8095,
+      "capex_M": 310,
+      "operating_cash_flow_M": 19770,
+      "sga_M": null,
+      "cash_M": 26431,
+      "total_debt_M": null,
+      "total_assets_M": 879592
     },
     {
       "period_end": "2017-09-30",
@@ -116,7 +174,13 @@
       "revenue_M": 37366,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 7990
+      "net_income_M": 7990,
+      "capex_M": 264,
+      "operating_cash_flow_M": 2837,
+      "sga_M": null,
+      "cash_M": 18397,
+      "total_debt_M": null,
+      "total_assets_M": 851875
     },
     {
       "period_end": "2016-09-30",
@@ -127,7 +191,30 @@
       "revenue_M": 37659,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 7445
+      "net_income_M": 7445,
+      "capex_M": 521,
+      "operating_cash_flow_M": 5497,
+      "sga_M": null,
+      "cash_M": 17015,
+      "total_debt_M": null,
+      "total_assets_M": 839202
+    },
+    {
+      "period_end": "2015-09-30",
+      "filing_date": "2015-11-10",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "sga_M": null,
+      "cash_M": 14770,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ],
   "quarterly": []

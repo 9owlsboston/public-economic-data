@@ -1,7 +1,7 @@
 {
   "cik": "0001368519",
   "name": "North American Construction Group Ltd.",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2015-12-31",
@@ -13,9 +13,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": -7,
+      "capex_M": 32,
+      "operating_cash_flow_M": null,
+      "sga_M": null,
+      "cash_M": 32,
+      "total_debt_M": null,
+      "total_assets_M": 361,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     }
   ],

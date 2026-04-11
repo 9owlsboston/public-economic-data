@@ -10,11 +10,11 @@ Repo: `9owlsboston/public-economic-data` (private).
 
 | Module | Directory | Status |
 |---|---|---|
-| SEC EDGAR financials | `sec/` | Active — 29 companies, full history |
+| SEC EDGAR financials | `sec/` | Active — 196 companies, full history |
 | SEC segment revenue | `sec/` | Active — Microsoft only (Intelligent Cloud, P&BP, MPC) |
-| FRED macro indicators | `macro/` | Active — 18 series, full history |
-| International financials | `intl/` | Active — 4 European companies (BMW, Siemens, Mercedes-Benz, VW) via Yahoo Finance |
-| EDINET financials | `edinet/` | Active — 4 Japanese companies (NTT, Hitachi, NEC, Fujitsu) via EDINET XBRL |
+| FRED macro indicators | `macro/` | Active — 22 series, full history |
+| International financials | `intl/` | Active — 39 companies via Yahoo Finance |
+| EDINET financials | `edinet/` | Active — 14 Japanese companies via EDINET XBRL |
 | Cloud pricing | `cloud-pricing/` | Planned |
 | SDK adoption | `sdk-adoption/` | Planned |
 

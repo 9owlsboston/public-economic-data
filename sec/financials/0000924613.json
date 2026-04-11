@@ -1,7 +1,7 @@
 {
   "cik": "0000924613",
   "name": "NOKIA CORP",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,11 +13,22 @@
       "rnd_M": 4855,
       "cost_of_revenue_M": 11230,
       "net_income_M": 651,
+      "capex_M": null,
+      "operating_cash_flow_M": 2071,
+      "sga_M": 3073,
+      "cash_M": 5462,
+      "total_debt_M": 3413,
+      "total_assets_M": 37597,
       "tags_used": {
         "revenue": "ifrs-full:RevenueFromContractsWithCustomers",
         "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "ifrs-full:CostOfSales",
-        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "sga": "ifrs-full:SellingGeneralAndAdministrativeExpense",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_debt": "ifrs-full:Borrowings",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -29,7 +40,13 @@
       "revenue_M": 19220,
       "rnd_M": 4512,
       "cost_of_revenue_M": 10356,
-      "net_income_M": 1277
+      "net_income_M": 1277,
+      "capex_M": null,
+      "operating_cash_flow_M": 2493,
+      "sga_M": 2872,
+      "cash_M": 6623,
+      "total_debt_M": 3887,
+      "total_assets_M": 39149
     },
     {
       "period_end": "2023-12-31",
@@ -40,7 +57,13 @@
       "revenue_M": 21138,
       "rnd_M": 4277,
       "cost_of_revenue_M": 12592,
-      "net_income_M": 665
+      "net_income_M": 665,
+      "capex_M": null,
+      "operating_cash_flow_M": 1317,
+      "sga_M": 2863,
+      "cash_M": 6234,
+      "total_debt_M": 4191,
+      "total_assets_M": 39860
     },
     {
       "period_end": "2022-12-31",
@@ -51,7 +74,13 @@
       "revenue_M": 23761,
       "rnd_M": 4503,
       "cost_of_revenue_M": 13660,
-      "net_income_M": 4250
+      "net_income_M": 4250,
+      "capex_M": null,
+      "operating_cash_flow_M": 1474,
+      "sga_M": 2956,
+      "cash_M": 5467,
+      "total_debt_M": 4477,
+      "total_assets_M": 42943
     },
     {
       "period_end": "2021-12-31",
@@ -62,7 +91,13 @@
       "revenue_M": 22202,
       "rnd_M": 4214,
       "cost_of_revenue_M": 13368,
-      "net_income_M": 1623
+      "net_income_M": 1623,
+      "capex_M": null,
+      "operating_cash_flow_M": 2625,
+      "sga_M": 2792,
+      "cash_M": 6691,
+      "total_debt_M": 4653,
+      "total_assets_M": 40049
     },
     {
       "period_end": "2020-12-31",
@@ -73,7 +108,13 @@
       "revenue_M": 21852,
       "rnd_M": 4087,
       "cost_of_revenue_M": 13659,
-      "net_income_M": -2523
+      "net_income_M": -2523,
+      "capex_M": null,
+      "operating_cash_flow_M": 1759,
+      "sga_M": 2898,
+      "cash_M": 6940,
+      "total_debt_M": 5576,
+      "total_assets_M": 36191
     },
     {
       "period_end": "2019-12-31",
@@ -84,7 +125,13 @@
       "revenue_M": 23315,
       "rnd_M": 4532,
       "cost_of_revenue_M": 15051,
-      "net_income_M": 7
+      "net_income_M": 7,
+      "capex_M": null,
+      "operating_cash_flow_M": 390,
+      "sga_M": 3219,
+      "cash_M": 5910,
+      "total_debt_M": 4277,
+      "total_assets_M": 39128
     },
     {
       "period_end": "2018-12-31",
@@ -95,7 +142,13 @@
       "revenue_M": 22563,
       "rnd_M": 4777,
       "cost_of_revenue_M": 14251,
-      "net_income_M": -340
+      "net_income_M": -340,
+      "capex_M": null,
+      "operating_cash_flow_M": 360,
+      "sga_M": 3549,
+      "cash_M": 6261,
+      "total_debt_M": 3822,
+      "total_assets_M": 39517
     },
     {
       "period_end": "2017-12-31",
@@ -106,7 +159,13 @@
       "revenue_M": 23147,
       "rnd_M": 4916,
       "cost_of_revenue_M": 14008,
-      "net_income_M": -1494
+      "net_income_M": -1494,
+      "capex_M": null,
+      "operating_cash_flow_M": 1811,
+      "sga_M": 3615,
+      "cash_M": 7369,
+      "total_debt_M": 3766,
+      "total_assets_M": 41024
     },
     {
       "period_end": "2016-12-31",
@@ -117,7 +176,13 @@
       "revenue_M": 23641,
       "rnd_M": 4997,
       "cost_of_revenue_M": 15117,
-      "net_income_M": -766
+      "net_income_M": -766,
+      "capex_M": null,
+      "operating_cash_flow_M": -1454,
+      "sga_M": 3767,
+      "cash_M": 7497,
+      "total_debt_M": 4027,
+      "total_assets_M": 44901
     },
     {
       "period_end": "2015-12-31",
@@ -128,7 +193,30 @@
       "revenue_M": 12560,
       "rnd_M": 2080,
       "cost_of_revenue_M": 6963,
-      "net_income_M": 2466
+      "net_income_M": 2466,
+      "capex_M": null,
+      "operating_cash_flow_M": 503,
+      "sga_M": 1772,
+      "cash_M": 6995,
+      "total_debt_M": null,
+      "total_assets_M": null
+    },
+    {
+      "period_end": "2014-12-31",
+      "filing_date": "2015-03-19",
+      "form": "20-F",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "sga_M": null,
+      "cash_M": 5170,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ],
   "quarterly": []

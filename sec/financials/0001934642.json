@@ -1,7 +1,7 @@
 {
   "cik": "0001934642",
   "name": "MDB Capital Holdings, LLC",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,8 +13,17 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": -21,
+      "capex_M": null,
+      "operating_cash_flow_M": -6,
+      "sga_M": null,
+      "cash_M": 13,
+      "total_debt_M": null,
+      "total_assets_M": 64,
       "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -26,7 +35,13 @@
       "revenue_M": null,
       "rnd_M": 1,
       "cost_of_revenue_M": null,
-      "net_income_M": 12
+      "net_income_M": 12,
+      "capex_M": null,
+      "operating_cash_flow_M": -9,
+      "sga_M": null,
+      "cash_M": 20,
+      "total_debt_M": null,
+      "total_assets_M": 72
     },
     {
       "period_end": "2023-12-31",
@@ -37,7 +52,13 @@
       "revenue_M": null,
       "rnd_M": 1,
       "cost_of_revenue_M": null,
-      "net_income_M": -7
+      "net_income_M": -7,
+      "capex_M": 0,
+      "operating_cash_flow_M": -7,
+      "sga_M": null,
+      "cash_M": 6,
+      "total_debt_M": null,
+      "total_assets_M": 43
     }
   ],
   "quarterly": [
@@ -51,8 +72,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": -5,
+      "capex_M": 0,
+      "operating_cash_flow_M": -5,
+      "sga_M": null,
+      "cash_M": 15,
+      "total_debt_M": null,
+      "total_assets_M": 62,
       "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -64,7 +95,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": -8
+      "net_income_M": -8,
+      "capex_M": null,
+      "operating_cash_flow_M": -3,
+      "sga_M": null,
+      "cash_M": 17,
+      "total_debt_M": null,
+      "total_assets_M": 64
     },
     {
       "period_end": "2025-03-31",
@@ -75,7 +112,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": -7
+      "net_income_M": -7,
+      "capex_M": null,
+      "operating_cash_flow_M": -1,
+      "sga_M": null,
+      "cash_M": 20,
+      "total_debt_M": null,
+      "total_assets_M": 69
     },
     {
       "period_end": "2024-09-30",
@@ -86,7 +129,13 @@
       "revenue_M": null,
       "rnd_M": 1,
       "cost_of_revenue_M": null,
-      "net_income_M": -8
+      "net_income_M": -8,
+      "capex_M": 0,
+      "operating_cash_flow_M": -9,
+      "sga_M": null,
+      "cash_M": 17,
+      "total_debt_M": null,
+      "total_assets_M": 34
     },
     {
       "period_end": "2024-06-30",
@@ -97,7 +146,13 @@
       "revenue_M": null,
       "rnd_M": 0,
       "cost_of_revenue_M": null,
-      "net_income_M": -4
+      "net_income_M": -4,
+      "capex_M": 0,
+      "operating_cash_flow_M": -6,
+      "sga_M": null,
+      "cash_M": 18,
+      "total_debt_M": null,
+      "total_assets_M": 38
     },
     {
       "period_end": "2024-03-31",
@@ -108,7 +163,13 @@
       "revenue_M": null,
       "rnd_M": 0,
       "cost_of_revenue_M": null,
-      "net_income_M": -7
+      "net_income_M": -7,
+      "capex_M": 0,
+      "operating_cash_flow_M": -2,
+      "sga_M": null,
+      "cash_M": 5,
+      "total_debt_M": null,
+      "total_assets_M": 41
     },
     {
       "period_end": "2023-09-30",
@@ -119,7 +180,13 @@
       "revenue_M": null,
       "rnd_M": 0,
       "cost_of_revenue_M": null,
-      "net_income_M": -3
+      "net_income_M": -3,
+      "capex_M": 0,
+      "operating_cash_flow_M": -5,
+      "sga_M": null,
+      "cash_M": 24,
+      "total_debt_M": null,
+      "total_assets_M": 43
     },
     {
       "period_end": "2023-06-30",
@@ -130,7 +197,13 @@
       "revenue_M": null,
       "rnd_M": 0,
       "cost_of_revenue_M": null,
-      "net_income_M": 3
+      "net_income_M": 3,
+      "capex_M": 0,
+      "operating_cash_flow_M": -4,
+      "sga_M": null,
+      "cash_M": 2,
+      "total_debt_M": null,
+      "total_assets_M": 27
     }
   ]
 }

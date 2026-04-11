@@ -1,7 +1,7 @@
 {
   "cik": "0000019617",
   "name": "JPMORGAN CHASE & CO",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,9 +13,17 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 57000,
+      "capex_M": null,
+      "operating_cash_flow_M": -147782,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 4424900,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "total_assets": "us-gaap:Assets"
       }
     }
   ],
@@ -30,8 +38,16 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 14393,
+      "capex_M": null,
+      "operating_cash_flow_M": -267506,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 4560205,
       "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -43,7 +59,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 14987
+      "net_income_M": 14987,
+      "capex_M": null,
+      "operating_cash_flow_M": -222292,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 4552482
     },
     {
       "period_end": "2025-03-31",
@@ -54,7 +76,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 14643
+      "net_income_M": 14643,
+      "capex_M": null,
+      "operating_cash_flow_M": -251839,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 4357856
     }
   ]
 }

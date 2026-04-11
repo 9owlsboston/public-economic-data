@@ -1,7 +1,7 @@
 {
   "cik": "0001937926",
   "name": "Brookfield Asset Management Ltd.",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,9 +13,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 2398,
+      "capex_M": null,
+      "operating_cash_flow_M": 2101,
+      "sga_M": null,
+      "cash_M": 1583,
+      "total_debt_M": null,
+      "total_assets_M": 17047,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -27,7 +36,13 @@
       "revenue_M": 3980,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 2108
+      "net_income_M": 2108,
+      "capex_M": null,
+      "operating_cash_flow_M": 1612,
+      "sga_M": null,
+      "cash_M": 12,
+      "total_debt_M": null,
+      "total_assets_M": 4386
     },
     {
       "period_end": "2022-12-31",
@@ -38,7 +53,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 19
+      "net_income_M": 19,
+      "capex_M": null,
+      "operating_cash_flow_M": -2,
+      "sga_M": null,
+      "cash_M": 1,
+      "total_debt_M": null,
+      "total_assets_M": 3161
     }
   ],
   "quarterly": [
@@ -52,9 +73,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 692,
+      "capex_M": null,
+      "operating_cash_flow_M": 745,
+      "sga_M": null,
+      "cash_M": 1062,
+      "total_debt_M": null,
+      "total_assets_M": 16521,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -66,7 +96,13 @@
       "revenue_M": 1090,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 584
+      "net_income_M": 584,
+      "capex_M": null,
+      "operating_cash_flow_M": 529,
+      "sga_M": null,
+      "cash_M": 480,
+      "total_debt_M": null,
+      "total_assets_M": 16143
     },
     {
       "period_end": "2025-03-31",
@@ -77,7 +113,13 @@
       "revenue_M": 1081,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 507
+      "net_income_M": 507,
+      "capex_M": null,
+      "operating_cash_flow_M": 265,
+      "sga_M": null,
+      "cash_M": 332,
+      "total_debt_M": null,
+      "total_assets_M": 14966
     }
   ]
 }

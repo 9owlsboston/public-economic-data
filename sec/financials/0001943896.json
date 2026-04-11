@@ -1,7 +1,7 @@
 {
   "cik": "0001943896",
   "name": "Rubrik",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -13,11 +13,21 @@
       "rnd_M": 374,
       "cost_of_revenue_M": 262,
       "net_income_M": -349,
+      "capex_M": 30,
+      "operating_cash_flow_M": 283,
+      "sga_M": null,
+      "cash_M": 380,
+      "total_debt_M": null,
+      "total_assets_M": 2767,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "rnd": "us-gaap:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -29,7 +39,13 @@
       "revenue_M": 887,
       "rnd_M": 532,
       "cost_of_revenue_M": 266,
-      "net_income_M": -1155
+      "net_income_M": -1155,
+      "capex_M": 17,
+      "operating_cash_flow_M": 48,
+      "sga_M": null,
+      "cash_M": 186,
+      "total_debt_M": null,
+      "total_assets_M": 1423
     }
   ],
   "quarterly": [
@@ -43,11 +59,21 @@
       "rnd_M": 98,
       "cost_of_revenue_M": 68,
       "net_income_M": -64,
+      "capex_M": 11,
+      "operating_cash_flow_M": 190,
+      "sga_M": null,
+      "cash_M": 307,
+      "total_debt_M": null,
+      "total_assets_M": 2549,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "rnd": "us-gaap:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -59,7 +85,13 @@
       "revenue_M": 310,
       "rnd_M": 92,
       "cost_of_revenue_M": 64,
-      "net_income_M": -96
+      "net_income_M": -96,
+      "capex_M": 6,
+      "operating_cash_flow_M": 104,
+      "sga_M": null,
+      "cash_M": 323,
+      "total_debt_M": null,
+      "total_assets_M": 2389
     },
     {
       "period_end": "2025-04-30",
@@ -70,7 +102,13 @@
       "revenue_M": 278,
       "rnd_M": 82,
       "cost_of_revenue_M": 60,
-      "net_income_M": -102
+      "net_income_M": -102,
+      "capex_M": 3,
+      "operating_cash_flow_M": 40,
+      "sga_M": null,
+      "cash_M": 284,
+      "total_debt_M": null,
+      "total_assets_M": 1475
     },
     {
       "period_end": "2024-10-31",
@@ -81,7 +119,13 @@
       "revenue_M": 236,
       "rnd_M": 80,
       "cost_of_revenue_M": 56,
-      "net_income_M": -131
+      "net_income_M": -131,
+      "capex_M": 11,
+      "operating_cash_flow_M": -35,
+      "sga_M": null,
+      "cash_M": 104,
+      "total_debt_M": null,
+      "total_assets_M": 1269
     },
     {
       "period_end": "2024-07-31",
@@ -92,7 +136,13 @@
       "revenue_M": 205,
       "rnd_M": 86,
       "cost_of_revenue_M": 55,
-      "net_income_M": -177
+      "net_income_M": -177,
+      "capex_M": 6,
+      "operating_cash_flow_M": -58,
+      "sga_M": null,
+      "cash_M": 142,
+      "total_debt_M": null,
+      "total_assets_M": 1218
     },
     {
       "period_end": "2024-04-30",
@@ -103,7 +153,13 @@
       "revenue_M": 187,
       "rnd_M": 285,
       "cost_of_revenue_M": 96,
-      "net_income_M": -732
+      "net_income_M": -732,
+      "capex_M": 4,
+      "operating_cash_flow_M": -31,
+      "sga_M": null,
+      "cash_M": 503,
+      "total_debt_M": null,
+      "total_assets_M": 1166
     }
   ]
 }

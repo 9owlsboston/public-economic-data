@@ -1,7 +1,7 @@
 {
   "cik": "0002012383",
   "name": "BlackRock",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,9 +13,20 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 5553,
+      "capex_M": 375,
+      "operating_cash_flow_M": 3927,
+      "sga_M": null,
+      "cash_M": 11468,
+      "total_debt_M": 12768,
+      "total_assets_M": 169998,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
       }
     }
   ],
@@ -30,9 +41,20 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 1323,
+      "capex_M": 245,
+      "operating_cash_flow_M": 1650,
+      "sga_M": null,
+      "cash_M": 9979,
+      "total_debt_M": 12766,
+      "total_assets_M": 162682,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -44,7 +66,13 @@
       "revenue_M": 5423,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1593
+      "net_income_M": 1593,
+      "capex_M": 167,
+      "operating_cash_flow_M": 236,
+      "sga_M": null,
+      "cash_M": 9478,
+      "total_debt_M": 12762,
+      "total_assets_M": 146470
     },
     {
       "period_end": "2025-03-31",
@@ -55,7 +83,13 @@
       "revenue_M": 5276,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1510
+      "net_income_M": 1510,
+      "capex_M": 78,
+      "operating_cash_flow_M": -1128,
+      "sga_M": null,
+      "cash_M": 7747,
+      "total_debt_M": 12349,
+      "total_assets_M": 141942
     }
   ]
 }

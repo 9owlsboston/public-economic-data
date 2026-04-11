@@ -1,7 +1,7 @@
 {
   "cik": "0000895421",
   "name": "MORGAN STANLEY",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,8 +13,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 16861,
+      "capex_M": null,
+      "operating_cash_flow_M": -17889,
+      "sga_M": null,
+      "cash_M": 111695,
+      "total_debt_M": 341681,
+      "total_assets_M": 1420270,
       "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
       }
     }
   ],
@@ -29,8 +39,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 4610,
+      "capex_M": null,
+      "operating_cash_flow_M": -15479,
+      "sga_M": null,
+      "cash_M": 103734,
+      "total_debt_M": 324128,
+      "total_assets_M": 1364806,
       "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -42,7 +62,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 3539
+      "net_income_M": 3539,
+      "capex_M": null,
+      "operating_cash_flow_M": -12147,
+      "sga_M": null,
+      "cash_M": 109130,
+      "total_debt_M": 320128,
+      "total_assets_M": 1353870
     },
     {
       "period_end": "2025-03-31",
@@ -53,7 +79,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 4315
+      "net_income_M": 4315,
+      "capex_M": null,
+      "operating_cash_flow_M": -23976,
+      "sga_M": null,
+      "cash_M": 90739,
+      "total_debt_M": 296997,
+      "total_assets_M": 1300296
     }
   ]
 }

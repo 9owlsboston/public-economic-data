@@ -1,7 +1,7 @@
 {
   "cik": "0001131399",
   "name": "GSK",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,11 +13,23 @@
       "rnd_M": 7525,
       "cost_of_revenue_M": 9017,
       "net_income_M": 5716,
+      "capex_M": 1348,
+      "operating_cash_flow_M": 7741,
+      "sga_M": 9088,
+      "cash_M": 3397,
+      "total_debt_M": 14453,
+      "total_assets_M": 61118,
       "tags_used": {
         "revenue": "ifrs-full:Revenue",
         "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "ifrs-full:CostOfSales",
-        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "sga": "ifrs-full:SellingGeneralAndAdministrativeExpense",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_debt": "ifrs-full:Borrowings",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -29,7 +41,13 @@
       "revenue_M": 31376,
       "rnd_M": 6401,
       "cost_of_revenue_M": 9048,
-      "net_income_M": 2575
+      "net_income_M": 2575,
+      "capex_M": 1399,
+      "operating_cash_flow_M": 6554,
+      "sga_M": 11015,
+      "cash_M": 3870,
+      "total_debt_M": 13095,
+      "total_assets_M": 59463
     },
     {
       "period_end": "2023-12-31",
@@ -40,7 +58,13 @@
       "revenue_M": 30328,
       "rnd_M": 6223,
       "cost_of_revenue_M": 8565,
-      "net_income_M": 4928
+      "net_income_M": 4928,
+      "capex_M": 1314,
+      "operating_cash_flow_M": 6768,
+      "sga_M": 9385,
+      "cash_M": 2936,
+      "total_debt_M": 15040,
+      "total_assets_M": 59005
     },
     {
       "period_end": "2022-12-31",
@@ -52,6 +76,12 @@
       "rnd_M": 5488,
       "cost_of_revenue_M": 9554,
       "net_income_M": 14956,
+      "capex_M": 1143,
+      "operating_cash_flow_M": 7403,
+      "sga_M": 8372,
+      "cash_M": 3723,
+      "total_debt_M": 17197,
+      "total_assets_M": 60146,
       "amended": true
     },
     {
@@ -63,7 +93,13 @@
       "revenue_M": 29324,
       "rnd_M": 5488,
       "cost_of_revenue_M": 9554,
-      "net_income_M": 14956
+      "net_income_M": 14956,
+      "capex_M": 1143,
+      "operating_cash_flow_M": 7403,
+      "sga_M": 8372,
+      "cash_M": 3723,
+      "total_debt_M": 17197,
+      "total_assets_M": 60146
     },
     {
       "period_end": "2021-12-31",
@@ -74,7 +110,13 @@
       "revenue_M": 24696,
       "rnd_M": 5019,
       "cost_of_revenue_M": 8163,
-      "net_income_M": 4385
+      "net_income_M": 4385,
+      "capex_M": 950,
+      "operating_cash_flow_M": 7952,
+      "sga_M": 7070,
+      "cash_M": 4274,
+      "total_debt_M": 19838,
+      "total_assets_M": 79103
     }
   ],
   "quarterly": []

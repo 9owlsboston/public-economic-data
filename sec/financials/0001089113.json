@@ -1,7 +1,7 @@
 {
   "cik": "0001089113",
   "name": "HSBC HOLDINGS PLC",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,8 +13,19 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 23131,
+      "capex_M": 1447,
+      "operating_cash_flow_M": 29766,
+      "sga_M": 11959,
+      "cash_M": 432887,
+      "total_debt_M": null,
+      "total_assets_M": 3233034,
       "tags_used": {
-        "net_income": "ifrs-full:ProfitLoss"
+        "net_income": "ifrs-full:ProfitLoss",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "sga": "ifrs-full:SellingGeneralAndAdministrativeExpense",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -26,7 +37,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 24999
+      "net_income_M": 24999,
+      "capex_M": 1344,
+      "operating_cash_flow_M": 65305,
+      "sga_M": 10498,
+      "cash_M": 434940,
+      "total_debt_M": null,
+      "total_assets_M": 3017048
     },
     {
       "period_end": "2023-12-31",
@@ -37,7 +54,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 24559
+      "net_income_M": 24559,
+      "capex_M": 1145,
+      "operating_cash_flow_M": 39111,
+      "sga_M": 10383,
+      "cash_M": 490933,
+      "total_debt_M": null,
+      "total_assets_M": 3038677
     }
   ],
   "quarterly": []

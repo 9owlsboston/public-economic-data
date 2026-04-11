@@ -1,0 +1,44 @@
+name: Check Helper Sync
+
+on:
+  pull_request:
+    paths:
+      - 'helpers/**'
+      - 'sec/scripts/sec_financials.py'
+      - 'intl/scripts/intl_financials.py'
+      - 'edinet/scripts/edinet_financials.py'
+      - 'macro/scripts/macro_indicators.py'
+
+jobs:
+  check-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify helpers are in sync with canonical sources
+        run: |
+          set -e
+          errors=0
+          for pair in \
+            "sec/scripts/sec_financials.py helpers/sec_financials.py" \
+            "intl/scripts/intl_financials.py helpers/intl_financials.py" \
+            "edinet/scripts/edinet_financials.py helpers/edinet_financials.py" \
+            "macro/scripts/macro_indicators.py helpers/macro_indicators.py"; do
+            src=$(echo "$pair" | cut -d' ' -f1)
+            dst=$(echo "$pair" | cut -d' ' -f2)
+            if [ -f "$src" ] && [ -f "$dst" ]; then
+              if ! diff -q "$src" "$dst" > /dev/null 2>&1; then
+                echo "❌ OUT OF SYNC: $src ↔ $dst"
+                diff --unified=3 "$src" "$dst" || true
+                errors=$((errors + 1))
+              else
+                echo "✅ In sync: $src ↔ $dst"
+              fi
+            fi
+          done
+          if [ $errors -gt 0 ]; then
+            echo ""
+            echo "Helper files are out of sync with canonical sources."
+            echo "Copy the canonical file to helpers/ or vice versa."
+            exit 1
+          fi

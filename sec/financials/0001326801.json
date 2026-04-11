@@ -1,7 +1,7 @@
 {
   "cik": "0001326801",
   "name": "META",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,11 +13,22 @@
       "rnd_M": 57372,
       "cost_of_revenue_M": 36175,
       "net_income_M": 60458,
+      "capex_M": 69691,
+      "operating_cash_flow_M": 115800,
+      "sga_M": null,
+      "cash_M": 35873,
+      "total_debt_M": 58744,
+      "total_assets_M": 366021,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "rnd": "us-gaap:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -29,7 +40,13 @@
       "revenue_M": 164501,
       "rnd_M": 43873,
       "cost_of_revenue_M": 30161,
-      "net_income_M": 62360
+      "net_income_M": 62360,
+      "capex_M": 37256,
+      "operating_cash_flow_M": 91328,
+      "sga_M": null,
+      "cash_M": 43889,
+      "total_debt_M": 28826,
+      "total_assets_M": 276054
     }
   ],
   "quarterly": [
@@ -43,11 +60,21 @@
       "rnd_M": 15144,
       "cost_of_revenue_M": 9206,
       "net_income_M": 2709,
+      "capex_M": 48308,
+      "operating_cash_flow_M": 79586,
+      "sga_M": null,
+      "cash_M": 10187,
+      "total_debt_M": null,
+      "total_assets_M": 303844,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "rnd": "us-gaap:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -59,7 +86,13 @@
       "revenue_M": 47516,
       "rnd_M": 12942,
       "cost_of_revenue_M": 8491,
-      "net_income_M": 18337
+      "net_income_M": 18337,
+      "capex_M": 29479,
+      "operating_cash_flow_M": 49587,
+      "sga_M": null,
+      "cash_M": 12005,
+      "total_debt_M": null,
+      "total_assets_M": 294744
     },
     {
       "period_end": "2025-03-31",
@@ -70,7 +103,13 @@
       "revenue_M": 42314,
       "rnd_M": 12150,
       "cost_of_revenue_M": 7572,
-      "net_income_M": 16644
+      "net_income_M": 16644,
+      "capex_M": 12941,
+      "operating_cash_flow_M": 24026,
+      "sga_M": null,
+      "cash_M": 28750,
+      "total_debt_M": null,
+      "total_assets_M": 280213
     },
     {
       "period_end": "2024-09-30",
@@ -81,7 +120,13 @@
       "revenue_M": 40589,
       "rnd_M": 11177,
       "cost_of_revenue_M": 7375,
-      "net_income_M": 15688
+      "net_income_M": 15688,
+      "capex_M": 22831,
+      "operating_cash_flow_M": 63340,
+      "sga_M": null,
+      "cash_M": 43852,
+      "total_debt_M": 28823,
+      "total_assets_M": 256408
     },
     {
       "period_end": "2024-06-30",
@@ -92,7 +137,13 @@
       "revenue_M": 39071,
       "rnd_M": 10537,
       "cost_of_revenue_M": 7308,
-      "net_income_M": 13465
+      "net_income_M": 13465,
+      "capex_M": 14573,
+      "operating_cash_flow_M": 38616,
+      "sga_M": null,
+      "cash_M": 32045,
+      "total_debt_M": null,
+      "total_assets_M": 230238
     },
     {
       "period_end": "2024-03-31",
@@ -103,7 +154,13 @@
       "revenue_M": 36455,
       "rnd_M": 9978,
       "cost_of_revenue_M": 6640,
-      "net_income_M": 12369
+      "net_income_M": 12369,
+      "capex_M": 6400,
+      "operating_cash_flow_M": 19246,
+      "sga_M": null,
+      "cash_M": 32307,
+      "total_debt_M": null,
+      "total_assets_M": 222844
     }
   ]
 }

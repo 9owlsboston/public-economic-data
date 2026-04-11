@@ -1,7 +1,7 @@
 {
   "cik": "0001160106",
   "name": "Lloyds Banking Group plc",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,9 +13,19 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 4659,
+      "capex_M": 5071,
+      "operating_cash_flow_M": 5701,
+      "sga_M": null,
+      "cash_M": 60593,
+      "total_debt_M": null,
+      "total_assets_M": 944072,
       "tags_used": {
         "revenue": "ifrs-full:Revenue",
-        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
       }
     },
     {
@@ -27,7 +37,13 @@
       "revenue_M": 18003,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 4421
+      "net_income_M": 4421,
+      "capex_M": 4364,
+      "operating_cash_flow_M": -4393,
+      "sga_M": null,
+      "cash_M": 70816,
+      "total_debt_M": null,
+      "total_assets_M": 906697
     },
     {
       "period_end": "2023-12-31",
@@ -38,7 +54,13 @@
       "revenue_M": 18629,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 5460
+      "net_income_M": 5460,
+      "capex_M": 3961,
+      "operating_cash_flow_M": 6810,
+      "sga_M": null,
+      "cash_M": 88838,
+      "total_debt_M": null,
+      "total_assets_M": 881453
     },
     {
       "period_end": "2022-12-31",
@@ -49,7 +71,13 @@
       "revenue_M": -5346,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 3827
+      "net_income_M": 3827,
+      "capex_M": 2432,
+      "operating_cash_flow_M": 22011,
+      "sga_M": null,
+      "cash_M": 95829,
+      "total_debt_M": null,
+      "total_assets_M": 877829
     }
   ],
   "quarterly": []

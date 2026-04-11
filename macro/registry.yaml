@@ -107,3 +107,27 @@ series:
     frequency: daily
     units: "Percent"
     relevance: "Corporate credit spread proxy — useful for tracking financing conditions and risk appetite"
+
+  DEXUSUK:
+    title: "U.S. Dollars to One British Pound"
+    frequency: daily
+    units: "U.S. Dollars to One British Pound"
+    relevance: "GBP/USD context for UK filers — supports normalized comparisons to USD reporters"
+
+  DEXUSAL:
+    title: "U.S. Dollars to One Australian Dollar"
+    frequency: daily
+    units: "U.S. Dollars to One Australian Dollar"
+    relevance: "AUD/USD context for Australian filers — supports normalized comparisons to USD reporters"
+
+  DEXKOUS:
+    title: "South Korean Won to One U.S. Dollar"
+    frequency: daily
+    units: "South Korean Won to One U.S. Dollar"
+    relevance: "KRW/USD context for Korean filers — supports normalized comparisons to USD reporters"
+
+  DEXSIUS:
+    title: "Swedish Kronor to One U.S. Dollar"
+    frequency: daily
+    units: "Swedish Kronor to One U.S. Dollar"
+    relevance: "SEK/USD context for Swedish filers — supports normalized comparisons to USD reporters"

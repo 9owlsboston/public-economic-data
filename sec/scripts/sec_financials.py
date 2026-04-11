@@ -164,3 +164,130 @@ class SECFinancials:
             {"period_end": e["period_end"], "revenue_M": e["revenue_M"], "currency": e.get("currency", "USD")}
             for e in sorted_periods[:periods]
         ]
+
+    # ── V2 derived metrics ───────────────────────────────────────────────
+
+    def free_cash_flow(self, cik: str) -> int | None:
+        """Operating cash flow minus capex for latest annual period (in millions).
+
+        Returns None if either field is missing.
+        """
+        latest = self.latest_annual(cik)
+        if not latest:
+            return None
+        ocf = latest.get("operating_cash_flow_M")
+        capex = latest.get("capex_M")
+        if ocf is None or capex is None:
+            return None
+        return ocf - capex
+
+    def net_cash(self, cik: str) -> int | None:
+        """Cash minus total debt for latest annual period (in millions).
+
+        Returns None if either field is missing.
+        """
+        latest = self.latest_annual(cik)
+        if not latest:
+            return None
+        cash = latest.get("cash_M")
+        debt = latest.get("total_debt_M")
+        if cash is None or debt is None:
+            return None
+        return cash - debt
+
+    def capex_intensity(self, cik: str) -> float | None:
+        """Capex as % of revenue for latest annual period.
+
+        Returns as decimal (e.g., 0.11 = 11%), or None.
+        """
+        latest = self.latest_annual(cik)
+        if not latest:
+            return None
+        capex = latest.get("capex_M")
+        rev = latest.get("revenue_M")
+        if not capex or not rev:
+            return None
+        return round(capex / rev, 4)
+
+    def operating_cash_flow_margin(self, cik: str) -> float | None:
+        """Operating cash flow as % of revenue for latest annual period.
+
+        Returns as decimal (e.g., 0.49 = 49%), or None.
+        """
+        latest = self.latest_annual(cik)
+        if not latest:
+            return None
+        ocf = latest.get("operating_cash_flow_M")
+        rev = latest.get("revenue_M")
+        if not ocf or not rev:
+            return None
+        return round(ocf / rev, 4)
+
+    # ── Segment methods ──────────────────────────────────────────────────
+
+    def get_segments(self, cik: str) -> dict | None:
+        """Load segment data for a company by CIK.
+
+        Returns the parsed JSON from {cik}_segments.json, or None if not found.
+        """
+        cache_key = f"{cik}_segments"
+        if cache_key in self._cache:
+            return self._cache[cache_key]
+
+        data = None
+        if self._mode == "local":
+            path = self._dir / f"{cik}_segments.json"
+            if path.exists():
+                with open(path) as f:
+                    data = json.load(f)
+        elif self._mode == "github":
+            url = f"{self._github_url}/{cik}_segments.json"
+            headers = {"User-Agent": "SECFinancials"}
+            if self._github_token:
+                headers["Authorization"] = f"token {self._github_token}"
+            try:
+                req = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read())
+            except urllib.error.HTTPError:
+                data = None
+
+        if data:
+            self._cache[cache_key] = data
+        return data
+
+    def segment_names(self, cik: str) -> list[str]:
+        """List available segment names for a company."""
+        data = self.get_segments(cik)
+        if not data or "segments" not in data:
+            return []
+        return list(data["segments"].keys())
+
+    def latest_segment_annual(self, cik: str, segment: str) -> dict | None:
+        """Get the most recent annual entry for a specific segment.
+
+        Annual entries are identified as those with ~365 day duration.
+        """
+        data = self.get_segments(cik)
+        if not data or segment not in data.get("segments", {}):
+            return None
+
+        entries = data["segments"][segment]
+        # Filter to annual-like entries (duration > 300 days)
+        annual = []
+        for e in entries:
+            start = e.get("start", "")
+            end = e.get("end", "")
+            if start and end:
+                from datetime import datetime
+                try:
+                    days = (datetime.strptime(end, "%Y-%m-%d") - datetime.strptime(start, "%Y-%m-%d")).days
+                    if days > 300:
+                        annual.append(e)
+                except ValueError:
+                    continue
+
+        if not annual:
+            return None
+        # Return most recent by period_end
+        return max(annual, key=lambda e: e.get("period_end", ""))

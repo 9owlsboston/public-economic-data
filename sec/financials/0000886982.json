@@ -1,7 +1,7 @@
 {
   "cik": "0000886982",
   "name": "GOLDMAN SACHS GROUP INC",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-10",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,8 +13,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 17176,
+      "capex_M": 2064,
+      "operating_cash_flow_M": -45154,
+      "sga_M": null,
+      "cash_M": 164259,
+      "total_debt_M": null,
+      "total_assets_M": 1809320,
       "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     }
   ],
@@ -29,8 +39,18 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 4098,
+      "capex_M": 1533,
+      "operating_cash_flow_M": -28878,
+      "sga_M": null,
+      "cash_M": 169577,
+      "total_debt_M": null,
+      "total_assets_M": 1807982,
       "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss"
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
       }
     },
     {
@@ -42,7 +62,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 3723
+      "net_income_M": 3723,
+      "capex_M": 975,
+      "operating_cash_flow_M": -31558,
+      "sga_M": null,
+      "cash_M": 152967,
+      "total_debt_M": null,
+      "total_assets_M": 1785009
     },
     {
       "period_end": "2025-03-31",
@@ -53,7 +79,13 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 4738
+      "net_income_M": 4738,
+      "capex_M": 499,
+      "operating_cash_flow_M": -37230,
+      "sga_M": null,
+      "cash_M": 167408,
+      "total_debt_M": null,
+      "total_assets_M": 1766181
     }
   ]
 }
