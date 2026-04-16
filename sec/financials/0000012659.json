@@ -1,0 +1,92 @@
+{
+  "company": "H&R Block",
+  "ticker": "HRB",
+  "cik": "0000012659",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2016,
+      "revenue": 125185000,
+      "net_income": -146220000,
+      "total_assets": 2847225000,
+      "capex": 99923000
+    },
+    {
+      "year": 2017,
+      "revenue": 451882000,
+      "net_income": -153566000,
+      "total_assets": 2694108000,
+      "capex": 89255000
+    },
+    {
+      "year": 2018,
+      "revenue": 488426000,
+      "net_income": 1142927000,
+      "total_assets": 3140949000,
+      "capex": 98583000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2016-01-31",
+      "revenue": 474543000,
+      "net_income": -81729000
+    },
+    {
+      "period_end": "2016-07-31",
+      "revenue": 125185000,
+      "net_income": -123673000
+    },
+    {
+      "period_end": "2016-10-31",
+      "revenue": 131332000,
+      "net_income": -146220000
+    },
+    {
+      "period_end": "2017-01-31",
+      "revenue": 451882000,
+      "net_income": -104514000
+    },
+    {
+      "period_end": "2017-07-31",
+      "revenue": 137802000,
+      "net_income": -130567000
+    },
+    {
+      "period_end": "2017-10-31",
+      "revenue": 140854000,
+      "net_income": -153566000
+    },
+    {
+      "period_end": "2018-01-31",
+      "revenue": 488426000,
+      "net_income": -245645000
+    },
+    {
+      "period_end": "2018-07-31",
+      "revenue": 145183000,
+      "net_income": -152670000
+    },
+    {
+      "period_end": "2018-10-31",
+      "revenue": 148871000,
+      "net_income": -176276000
+    },
+    {
+      "period_end": "2019-01-31",
+      "revenue": 468384000,
+      "net_income": -126454000
+    },
+    {
+      "period_end": "2019-07-31",
+      "revenue": 150362000,
+      "net_income": -150247000
+    },
+    {
+      "period_end": "2019-10-31",
+      "revenue": 160801000,
+      "net_income": -187999000
+    }
+  ]
+}

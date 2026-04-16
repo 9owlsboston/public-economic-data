@@ -1,0 +1,101 @@
+{
+  "company": "LivePerson",
+  "ticker": "LPSN",
+  "cik": "0001009829",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2011,
+      "revenue": 383796000,
+      "net_income": -20018000,
+      "total_assets": 615234000,
+      "capex": 12455000
+    },
+    {
+      "year": 2012,
+      "revenue": 312171000,
+      "net_income": -119457000,
+      "total_assets": 554825000,
+      "capex": 13066000
+    },
+    {
+      "year": 2013,
+      "revenue": 302067000,
+      "net_income": -16068000,
+      "total_assets": 449844000,
+      "capex": 10129000
+    },
+    {
+      "year": 2014,
+      "revenue": 383960000,
+      "net_income": 2798000,
+      "total_assets": 561782000,
+      "capex": 10524000
+    },
+    {
+      "year": 2015,
+      "revenue": 331249000,
+      "net_income": -9386000,
+      "total_assets": 499620000,
+      "capex": 17840000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2012-06-30",
+      "revenue": 53496000,
+      "net_income": 214000
+    },
+    {
+      "period_end": "2012-09-30",
+      "revenue": 145136000,
+      "net_income": 30443000
+    },
+    {
+      "period_end": "2013-03-31",
+      "revenue": 34727000,
+      "net_income": -27562000
+    },
+    {
+      "period_end": "2013-06-30",
+      "revenue": 40501000,
+      "net_income": -46873000
+    },
+    {
+      "period_end": "2013-09-30",
+      "revenue": 146396000,
+      "net_income": 36597000
+    },
+    {
+      "period_end": "2014-03-31",
+      "revenue": 41291000,
+      "net_income": -16305000
+    },
+    {
+      "period_end": "2014-06-30",
+      "revenue": 43671000,
+      "net_income": -9053000
+    },
+    {
+      "period_end": "2014-09-30",
+      "revenue": 171350000,
+      "net_income": 44069000
+    },
+    {
+      "period_end": "2015-03-31",
+      "revenue": 51434000,
+      "net_income": -7581000
+    },
+    {
+      "period_end": "2015-06-30",
+      "revenue": 47042000,
+      "net_income": -5680000
+    },
+    {
+      "period_end": "2015-09-30",
+      "revenue": 145179000,
+      "net_income": 45845000
+    }
+  ]
+}

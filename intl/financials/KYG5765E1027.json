@@ -1,0 +1,47 @@
+{
+  "company": "Meitu Inc.",
+  "ticker": "1357.HK",
+  "source_id": "KYG5765E1027",
+  "currency": "HKD",
+  "fx_rate_usd": 0.13,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2021,
+      "revenue": 1666029000,
+      "net_income": -44514000,
+      "rd_expense": 545490000,
+      "total_assets": 4747314000,
+      "operating_cash_flow": -26318000,
+      "capex": 687694000
+    },
+    {
+      "year": 2022,
+      "revenue": 2085329000,
+      "net_income": 94142000,
+      "rd_expense": 586365000,
+      "total_assets": 5004348000,
+      "operating_cash_flow": 233990000,
+      "capex": 50937000
+    },
+    {
+      "year": 2023,
+      "revenue": 2695738000,
+      "net_income": 378293000,
+      "rd_expense": 635484000,
+      "total_assets": 5767186000,
+      "operating_cash_flow": 413225000,
+      "capex": 56406000
+    },
+    {
+      "year": 2024,
+      "revenue": 3340761000,
+      "net_income": 805176000,
+      "rd_expense": 910703000,
+      "total_assets": 7046677000,
+      "operating_cash_flow": 745807000,
+      "capex": 52680000
+    }
+  ],
+  "quarterly": []
+}

@@ -1,0 +1,60 @@
+{
+  "company": "Lenovo Group",
+  "ticker": "0992.HK",
+  "source_id": "HK0992009065",
+  "currency": "HKD",
+  "fx_rate_usd": 0.13,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 71618216000,
+      "net_income": 2029818000,
+      "rd_expense": 2073461000,
+      "total_assets": 44510444000,
+      "operating_cash_flow": 4076979000,
+      "capex": 1284081000
+    },
+    {
+      "year": 2023,
+      "revenue": 61946854000,
+      "net_income": 1607722000,
+      "rd_expense": 2195329000,
+      "total_assets": 38920057000,
+      "operating_cash_flow": 2801402000,
+      "capex": 1578146000
+    },
+    {
+      "year": 2024,
+      "revenue": 56863784000,
+      "net_income": 1010506000,
+      "rd_expense": 2027532000,
+      "total_assets": 38750954000,
+      "operating_cash_flow": 2010991000,
+      "capex": 1285897000
+    },
+    {
+      "year": 2025,
+      "revenue": 69076968000,
+      "net_income": 1384445000,
+      "rd_expense": 2288204000,
+      "total_assets": 44230812000,
+      "operating_cash_flow": 1099822000,
+      "capex": 1151152000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-09-30",
+      "revenue": 17850094000,
+      "net_income": 358532000,
+      "rd_expense": 547528000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 20452022000,
+      "net_income": 340276000,
+      "rd_expense": 580585000
+    }
+  ]
+}

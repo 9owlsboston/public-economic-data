@@ -1,0 +1,131 @@
+{
+  "company": "Duolingo",
+  "ticker": "DUOL",
+  "cik": "0001562088",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2020,
+      "revenue": 161696000,
+      "net_income": -15776000,
+      "rd_expense": 53024000,
+      "total_assets": 175739000,
+      "capex": 3376000
+    },
+    {
+      "year": 2021,
+      "revenue": 250772000,
+      "net_income": -60135000,
+      "rd_expense": 103833000,
+      "total_assets": 661311000,
+      "capex": 3586000
+    },
+    {
+      "year": 2022,
+      "revenue": 369495000,
+      "net_income": -59574000,
+      "rd_expense": 150444000,
+      "total_assets": 747347000,
+      "capex": 5562000
+    },
+    {
+      "year": 2023,
+      "revenue": 531109000,
+      "net_income": 16067000,
+      "rd_expense": 194352000,
+      "total_assets": 953957000,
+      "capex": 3191000
+    },
+    {
+      "year": 2024,
+      "revenue": 748024000,
+      "net_income": 88574000,
+      "rd_expense": 235298000,
+      "total_assets": 1301728000,
+      "capex": 12116000
+    },
+    {
+      "year": 2025,
+      "revenue": 1037589000,
+      "net_income": 414065000,
+      "rd_expense": 306323000,
+      "total_assets": 1992182000,
+      "capex": 18096000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 81220000,
+      "net_income": -12154000,
+      "rd_expense": 29781000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 88386000,
+      "net_income": -15045000,
+      "rd_expense": 34217000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 96065000,
+      "net_income": -18445000,
+      "rd_expense": 41976000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 115661000,
+      "net_income": -2582000,
+      "rd_expense": 45844000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 126839000,
+      "net_income": 3725000,
+      "rd_expense": 47947000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 137624000,
+      "net_income": 2807000,
+      "rd_expense": 50305000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 167553000,
+      "net_income": 26956000,
+      "rd_expense": 50878000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 178327000,
+      "net_income": 24351000,
+      "rd_expense": 55147000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 192594000,
+      "net_income": 23360000,
+      "rd_expense": 62878000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 230743000,
+      "net_income": 35135000,
+      "rd_expense": 70390000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 252265000,
+      "net_income": 44781000,
+      "rd_expense": 73670000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 271713000,
+      "net_income": 292195000,
+      "rd_expense": 82707000
+    }
+  ]
+}

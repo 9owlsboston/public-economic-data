@@ -1,0 +1,78 @@
+{
+  "company": "NetEase",
+  "ticker": "NTES",
+  "source_id": "US64110W1027",
+  "currency": "CNY",
+  "fx_rate_usd": 0.14,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2021,
+      "revenue": 87606026000,
+      "net_income": 16856842000,
+      "rd_expense": 14075991000,
+      "total_assets": 153643924000,
+      "operating_cash_flow": 24926727000,
+      "capex": 3110009000
+    },
+    {
+      "year": 2022,
+      "revenue": 96495809000,
+      "net_income": 20337600000,
+      "rd_expense": 15039014000,
+      "total_assets": 172760985000,
+      "operating_cash_flow": 27709233000,
+      "capex": 2643484000
+    },
+    {
+      "year": 2023,
+      "revenue": 103468159000,
+      "net_income": 29416552000,
+      "rd_expense": 16484910000,
+      "total_assets": 185924978000,
+      "operating_cash_flow": 35331275000,
+      "capex": 4275877000
+    },
+    {
+      "year": 2024,
+      "revenue": 105295236000,
+      "net_income": 29697609000,
+      "rd_expense": 17524812000,
+      "total_assets": 195991550000,
+      "operating_cash_flow": 39676813000,
+      "capex": 2206388000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-09-30",
+      "revenue": 26209879000,
+      "net_income": 6538435000,
+      "rd_expense": 4424469000
+    },
+    {
+      "period_end": "2024-12-31",
+      "revenue": 26747811000,
+      "net_income": 8766479000,
+      "rd_expense": 4469868000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 28828545000,
+      "net_income": 10301157000,
+      "rd_expense": 4386313000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 27891664000,
+      "net_income": 8601010000,
+      "rd_expense": 4356646000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 28358625000,
+      "net_income": 8615677000,
+      "rd_expense": 4541891000
+    }
+  ]
+}

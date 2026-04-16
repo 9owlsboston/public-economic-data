@@ -1,0 +1,99 @@
+{
+  "company": "Vertex Pharmaceuticals",
+  "ticker": "VRTX",
+  "cik": "0000875320",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2016,
+      "revenue": 398080000,
+      "net_income": 32945000,
+      "rd_expense": 248452000,
+      "total_assets": 2896787000,
+      "capex": 56563000
+    },
+    {
+      "year": 2017,
+      "revenue": 714718000,
+      "net_income": 100684000,
+      "rd_expense": 306664000,
+      "total_assets": 3546014000,
+      "capex": 99421000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2014-06-30",
+      "revenue": 138421000,
+      "net_income": -159382000,
+      "rd_expense": 224487000
+    },
+    {
+      "period_end": "2014-09-30",
+      "revenue": 178987000,
+      "net_income": -170060000,
+      "rd_expense": 190939000
+    },
+    {
+      "period_end": "2015-03-31",
+      "revenue": 138509000,
+      "net_income": -198606000,
+      "rd_expense": 215599000
+    },
+    {
+      "period_end": "2015-06-30",
+      "revenue": 166076000,
+      "net_income": -188848000,
+      "rd_expense": 223858000
+    },
+    {
+      "period_end": "2015-09-30",
+      "revenue": 309816000,
+      "net_income": -95149000,
+      "rd_expense": 246284000
+    },
+    {
+      "period_end": "2016-03-31",
+      "revenue": 398080000,
+      "net_income": -41631000,
+      "rd_expense": 255860000
+    },
+    {
+      "period_end": "2016-06-30",
+      "revenue": 431608000,
+      "net_income": -64525000,
+      "rd_expense": 271008000
+    },
+    {
+      "period_end": "2016-09-30",
+      "revenue": 413783000,
+      "net_income": -38841000,
+      "rd_expense": 272370000
+    },
+    {
+      "period_end": "2017-03-31",
+      "revenue": 714718000,
+      "net_income": 247756000,
+      "rd_expense": 273563000
+    },
+    {
+      "period_end": "2017-06-30",
+      "revenue": 544135000,
+      "net_income": 17996000,
+      "rd_expense": 289451000
+    },
+    {
+      "period_end": "2017-09-30",
+      "revenue": 578165000,
+      "net_income": -102952000,
+      "rd_expense": 454947000
+    },
+    {
+      "period_end": "2018-03-31",
+      "revenue": 640799000,
+      "net_income": 210263000,
+      "rd_expense": 310553000
+    }
+  ]
+}

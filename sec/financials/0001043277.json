@@ -1,0 +1,85 @@
+{
+  "company": "C.H. Robinson",
+  "ticker": "CHRW",
+  "cik": "0001043277",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2016,
+      "revenue": 3073943000,
+      "net_income": 122303000,
+      "total_assets": 3687758000,
+      "capex": 73452000
+    },
+    {
+      "year": 2017,
+      "revenue": 3415125000,
+      "net_income": 152556000,
+      "total_assets": 4235834000,
+      "capex": 40122000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2015-03-31",
+      "revenue": 3300890000,
+      "net_income": 106476000
+    },
+    {
+      "period_end": "2015-06-30",
+      "revenue": 3545088000,
+      "net_income": 137208000
+    },
+    {
+      "period_end": "2015-09-30",
+      "revenue": 3419253000,
+      "net_income": 139432000
+    },
+    {
+      "period_end": "2016-03-31",
+      "revenue": 3073943000,
+      "net_income": 118963000
+    },
+    {
+      "period_end": "2016-06-30",
+      "revenue": 3299741000,
+      "net_income": 143090000
+    },
+    {
+      "period_end": "2016-09-30",
+      "revenue": 3355754000,
+      "net_income": 129028000
+    },
+    {
+      "period_end": "2017-03-31",
+      "revenue": 3415125000,
+      "net_income": 122080000
+    },
+    {
+      "period_end": "2017-06-30",
+      "revenue": 573789000,
+      "net_income": 111071000
+    },
+    {
+      "period_end": "2017-09-30",
+      "revenue": 593846000,
+      "net_income": 119186000
+    },
+    {
+      "period_end": "2018-03-31",
+      "revenue": 3925327000,
+      "net_income": 142297000
+    },
+    {
+      "period_end": "2018-06-30",
+      "revenue": 671483000,
+      "net_income": 159163000
+    },
+    {
+      "period_end": "2018-09-30",
+      "revenue": 694044000,
+      "net_income": 175895000
+    }
+  ]
+}

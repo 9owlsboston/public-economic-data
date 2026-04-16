@@ -1,0 +1,113 @@
+{
+  "company": "Pfizer",
+  "ticker": "PFE",
+  "cik": "0000078003",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2020,
+      "revenue": 41651000000,
+      "net_income": 9159000000,
+      "total_assets": 154229000000,
+      "capex": 2226000000
+    },
+    {
+      "year": 2021,
+      "revenue": 81288000000,
+      "net_income": 21979000000,
+      "total_assets": 181476000000,
+      "capex": 2711000000
+    },
+    {
+      "year": 2022,
+      "revenue": 101175000000,
+      "net_income": 31372000000,
+      "total_assets": 197205000000,
+      "capex": 3236000000
+    },
+    {
+      "year": 2023,
+      "revenue": 59553000000,
+      "net_income": 2119000000,
+      "total_assets": 226501000000,
+      "capex": 3907000000
+    },
+    {
+      "year": 2024,
+      "revenue": 63627000000,
+      "net_income": 8031000000,
+      "total_assets": 213396000000,
+      "capex": 2909000000
+    },
+    {
+      "year": 2025,
+      "revenue": 62579000000,
+      "net_income": 7771000000,
+      "total_assets": 208160000000,
+      "capex": 2629000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-04-03",
+      "revenue": 25661000000,
+      "net_income": 7864000000
+    },
+    {
+      "period_end": "2022-07-03",
+      "revenue": 27742000000,
+      "net_income": 9906000000
+    },
+    {
+      "period_end": "2022-10-02",
+      "revenue": 22638000000,
+      "net_income": 8608000000
+    },
+    {
+      "period_end": "2023-04-02",
+      "revenue": 18486000000,
+      "net_income": 5543000000
+    },
+    {
+      "period_end": "2023-07-02",
+      "revenue": 13007000000,
+      "net_income": 2327000000
+    },
+    {
+      "period_end": "2023-10-01",
+      "revenue": 13491000000,
+      "net_income": -2382000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 14879000000,
+      "net_income": 3115000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 13283000000,
+      "net_income": 41000000
+    },
+    {
+      "period_end": "2024-09-29",
+      "revenue": 17702000000,
+      "net_income": 4465000000
+    },
+    {
+      "period_end": "2025-03-30",
+      "revenue": 13715000000,
+      "net_income": 2967000000
+    },
+    {
+      "period_end": "2025-06-29",
+      "revenue": 14653000000,
+      "net_income": 2910000000
+    },
+    {
+      "period_end": "2025-09-28",
+      "revenue": 16654000000,
+      "net_income": 3541000000
+    }
+  ]
+}

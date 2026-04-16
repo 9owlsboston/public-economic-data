@@ -1,0 +1,110 @@
+{
+  "company": "Sprinklr",
+  "ticker": "CXM",
+  "cik": "0001643269",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2019,
+      "revenue": 103642000,
+      "net_income": -47789000,
+      "rd_expense": 36240000,
+      "capex": 467000
+    },
+    {
+      "year": 2020,
+      "revenue": 155056000,
+      "net_income": -92137000,
+      "rd_expense": 52462000,
+      "total_assets": 237761000,
+      "capex": 2068000
+    },
+    {
+      "year": 2021,
+      "revenue": 202637000,
+      "net_income": -80297000,
+      "rd_expense": 70206000,
+      "total_assets": 570507000,
+      "capex": 1138000
+    },
+    {
+      "year": 2022,
+      "revenue": 242125000,
+      "net_income": -123365000,
+      "rd_expense": 94652000,
+      "total_assets": 602131000,
+      "capex": 2258000
+    },
+    {
+      "year": 2023,
+      "revenue": 300668000,
+      "net_income": -124815000,
+      "rd_expense": 104949000,
+      "total_assets": 579098000,
+      "capex": 386000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2019-10-31",
+      "revenue": 40513000,
+      "net_income": -28619000,
+      "rd_expense": 14029000
+    },
+    {
+      "period_end": "2020-04-30",
+      "revenue": 47202000,
+      "net_income": -23565000,
+      "rd_expense": 17699000
+    },
+    {
+      "period_end": "2020-07-31",
+      "revenue": 49415000,
+      "net_income": -12217000,
+      "rd_expense": 15304000
+    },
+    {
+      "period_end": "2020-10-31",
+      "revenue": 51868000,
+      "net_income": -23926000,
+      "rd_expense": 18753000
+    },
+    {
+      "period_end": "2021-04-30",
+      "revenue": 54219000,
+      "net_income": -26914000,
+      "rd_expense": 20443000
+    },
+    {
+      "period_end": "2021-07-31",
+      "revenue": 58841000,
+      "net_income": -32049000,
+      "rd_expense": 23861000
+    },
+    {
+      "period_end": "2021-10-31",
+      "revenue": 62016000,
+      "net_income": -30836000,
+      "rd_expense": 25464000
+    },
+    {
+      "period_end": "2022-04-30",
+      "revenue": 67855000,
+      "net_income": -34750000,
+      "rd_expense": 26253000
+    },
+    {
+      "period_end": "2022-07-31",
+      "revenue": 74108000,
+      "net_income": -35880000,
+      "rd_expense": 27636000
+    },
+    {
+      "period_end": "2022-10-31",
+      "revenue": 78952000,
+      "net_income": -26289000,
+      "rd_expense": 26462000
+    }
+  ]
+}

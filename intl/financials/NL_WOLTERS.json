@@ -1,0 +1,54 @@
+{
+  "isin": "NL_WOLTERS",
+  "name": "Wolters Kluwer NV",
+  "ticker": "WTKWY",
+  "exchange": "OTC/AMS",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-15",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 6125.0,
+      "rnd_M": 724.0,
+      "cost_of_revenue_M": 1625.0,
+      "net_income_M": 1308.0,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5916.0,
+      "rnd_M": 688.0,
+      "cost_of_revenue_M": 1626.0,
+      "net_income_M": 1079.0
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 5584.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1576.0,
+      "net_income_M": 1007.0
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 5453.0,
+      "rnd_M": 541.0,
+      "cost_of_revenue_M": 1578.0,
+      "net_income_M": 1027.0
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": 466.0,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

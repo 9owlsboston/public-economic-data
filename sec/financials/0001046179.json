@@ -1,0 +1,135 @@
+{
+  "cik": "0001046179",
+  "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+  "last_refreshed": "2026-04-15",
+  "annual": [
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-04-17",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "TWD",
+      "revenue_M": 2894308.0,
+      "rnd_M": 204182.0,
+      "cost_of_revenue_M": 1269954.0,
+      "net_income_M": 1157524.0,
+      "total_assets_M": 6691765.0,
+      "operating_cash_flow_M": 1826177.0,
+      "cash_M": null,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLoss",
+        "total_assets": "ifrs-full:Assets",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+      }
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-04-18",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "TWD",
+      "revenue_M": 2161736.0,
+      "rnd_M": 182370.0,
+      "cost_of_revenue_M": 986625.0,
+      "net_income_M": 851028.0,
+      "total_assets_M": 5532197.0,
+      "operating_cash_flow_M": 1241967.0,
+      "cash_M": null
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2025-04-17",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "TWD",
+      "revenue_M": 2161736.0,
+      "rnd_M": 182370.0,
+      "cost_of_revenue_M": 986625.0,
+      "net_income_M": 851028.0,
+      "total_assets_M": 5532197.0,
+      "operating_cash_flow_M": 1241967.0,
+      "cash_M": null
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2023-04-20",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "TWD",
+      "revenue_M": 2263891.0,
+      "rnd_M": 163262.0,
+      "cost_of_revenue_M": 915536.0,
+      "net_income_M": 993295.0,
+      "total_assets_M": 4964459.0,
+      "operating_cash_flow_M": 1610599.0,
+      "cash_M": null
+    },
+    {
+      "period_end": "2022-12-31",
+      "filing_date": "2024-04-18",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "TWD",
+      "revenue_M": 2263891.0,
+      "rnd_M": 163262.0,
+      "cost_of_revenue_M": 915536.0,
+      "net_income_M": 993295.0,
+      "total_assets_M": 4964459.0,
+      "operating_cash_flow_M": 1610599.0,
+      "cash_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "USD",
+      "revenue_M": 1046090.0,
+      "rnd_M": 64858.0,
+      "cost_of_revenue_M": 394104.0,
+      "net_income_M": 505744.0
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "USD",
+      "revenue_M": 989918.0,
+      "rnd_M": 63742.0,
+      "cost_of_revenue_M": 401375.0,
+      "net_income_M": 452301.0
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "USD",
+      "revenue_M": 933792.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 386423.0,
+      "net_income_M": 398273.0
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "USD",
+      "revenue_M": 839254.0,
+      "rnd_M": 56547.0,
+      "cost_of_revenue_M": 345859.0,
+      "net_income_M": 360733.0
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "USD",
+      "revenue_M": 868461.0,
+      "rnd_M": 57231.0,
+      "cost_of_revenue_M": 356083.0,
+      "net_income_M": 359792.0
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "USD",
+      "revenue_M": null,
+      "rnd_M": 52784.0,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

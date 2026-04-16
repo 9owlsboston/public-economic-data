@@ -1,0 +1,69 @@
+{
+  "company": "Banco Ita\u00fa Unibanco",
+  "ticker": "ITUB",
+  "source_id": "BR_ITAU",
+  "currency": "BRL",
+  "fx_rate_usd": 0.19,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 136376000000,
+      "net_income": 29207000000,
+      "total_assets": 2321066000000,
+      "operating_cash_flow": 129633000000,
+      "capex": 8495000000
+    },
+    {
+      "year": 2023,
+      "revenue": 148380000000,
+      "net_income": 33105000000,
+      "total_assets": 2543100000000,
+      "operating_cash_flow": 77493000000,
+      "capex": 8864000000
+    },
+    {
+      "year": 2024,
+      "revenue": 158568000000,
+      "net_income": 41085000000,
+      "total_assets": 2854475000000,
+      "operating_cash_flow": 7069000000,
+      "capex": 6523000000
+    },
+    {
+      "year": 2025,
+      "revenue": 165243000000,
+      "net_income": 44857000000,
+      "total_assets": 3066169000000,
+      "operating_cash_flow": 34466000000,
+      "capex": 7115000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-12-31",
+      "revenue": 33802000000,
+      "net_income": 10835000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 42592000000,
+      "net_income": 10507000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 38368000000,
+      "net_income": 11137000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 42166000000,
+      "net_income": 11306000000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 42119000000,
+      "net_income": 11907000000
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "company": "Box Inc.",
+  "ticker": "BOX",
+  "cik": "0001372612",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2014,
+      "revenue": 124192000,
+      "net_income": -168557000,
+      "rd_expense": 45967000,
+      "capex": 24424000
+    },
+    {
+      "year": 2015,
+      "revenue": 216440000,
+      "net_income": -168227000,
+      "rd_expense": 66402000,
+      "total_assets": 492666000,
+      "capex": 38681000
+    },
+    {
+      "year": 2016,
+      "revenue": 302704000,
+      "net_income": -202948000,
+      "rd_expense": 102500000,
+      "total_assets": 497488000,
+      "capex": 72939000
+    },
+    {
+      "year": 2017,
+      "revenue": 398605000,
+      "net_income": -151787000,
+      "rd_expense": 115928000,
+      "total_assets": 493674000,
+      "capex": 14956000
+    },
+    {
+      "year": 2018,
+      "revenue": 506142000,
+      "net_income": -154960000,
+      "rd_expense": 136791000,
+      "total_assets": 553566000,
+      "capex": 11822000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2014-07-31",
+      "revenue": 51423000,
+      "net_income": -37562000,
+      "rd_expense": 16345000
+    },
+    {
+      "period_end": "2014-10-31",
+      "revenue": 57048000,
+      "net_income": -45421000,
+      "rd_expense": 17172000
+    },
+    {
+      "period_end": "2015-04-30",
+      "revenue": 65621000,
+      "net_income": -47283000,
+      "rd_expense": 23134000
+    },
+    {
+      "period_end": "2015-07-31",
+      "revenue": 73450000,
+      "net_income": -50175000,
+      "rd_expense": 26453000
+    },
+    {
+      "period_end": "2015-10-31",
+      "revenue": 78651000,
+      "net_income": -55117000,
+      "rd_expense": 26324000
+    },
+    {
+      "period_end": "2016-04-30",
+      "revenue": 90155000,
+      "net_income": -38575000,
+      "rd_expense": 26907000
+    },
+    {
+      "period_end": "2016-07-31",
+      "revenue": 95713000,
+      "net_income": -38102000,
+      "rd_expense": 28265000
+    },
+    {
+      "period_end": "2016-10-31",
+      "revenue": 102811000,
+      "net_income": -38233000,
+      "rd_expense": 29652000
+    },
+    {
+      "period_end": "2017-04-30",
+      "revenue": 117222000,
+      "net_income": -40086000,
+      "rd_expense": 33534000
+    },
+    {
+      "period_end": "2017-07-31",
+      "revenue": 122941000,
+      "net_income": -39285000,
+      "rd_expense": 34042000
+    },
+    {
+      "period_end": "2017-10-31",
+      "revenue": 129304000,
+      "net_income": -42924000,
+      "rd_expense": 34812000
+    },
+    {
+      "period_end": "2018-04-30",
+      "revenue": 140507000,
+      "net_income": -36637000,
+      "rd_expense": 38248000
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "company": "MakeMyTrip",
+  "ticker": "MMYT",
+  "cik": "0001495153",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2021,
+      "revenue": 79221000,
+      "net_income": -56042000,
+      "total_assets": 1309010000
+    },
+    {
+      "year": 2022,
+      "revenue": 88587000,
+      "net_income": -45567000,
+      "total_assets": 1322744000
+    },
+    {
+      "year": 2023,
+      "revenue": 593036000,
+      "net_income": -11168000,
+      "total_assets": 1359825000
+    },
+    {
+      "year": 2024,
+      "revenue": 782524000,
+      "net_income": 216743000,
+      "total_assets": 1660077000
+    },
+    {
+      "year": 2025,
+      "revenue": 978336000,
+      "net_income": 95274000,
+      "total_assets": 1828288000
+    }
+  ],
+  "quarterly": []
+}

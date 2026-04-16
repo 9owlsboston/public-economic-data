@@ -1,0 +1,111 @@
+{
+  "company": "Dropbox",
+  "ticker": "DBX",
+  "cik": "0001467623",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2018,
+      "revenue": 1391700000,
+      "net_income": -484900000,
+      "rd_expense": 768200000,
+      "total_assets": 1694100000,
+      "capex": 63000000
+    },
+    {
+      "year": 2019,
+      "revenue": 1661300000,
+      "net_income": -52700000,
+      "rd_expense": 662100000,
+      "total_assets": 2699200000,
+      "capex": 136100000
+    },
+    {
+      "year": 2020,
+      "revenue": 1913900000,
+      "net_income": -256300000,
+      "rd_expense": 727500000,
+      "total_assets": 2387200000,
+      "capex": 80100000
+    },
+    {
+      "year": 2021,
+      "revenue": 2157900000,
+      "net_income": 335800000,
+      "rd_expense": 755900000,
+      "total_assets": 3091300000,
+      "capex": 22100000
+    },
+    {
+      "year": 2022,
+      "revenue": 2324900000,
+      "net_income": 553200000,
+      "rd_expense": 891900000,
+      "total_assets": 3110100000,
+      "capex": 33800000
+    },
+    {
+      "year": 2023,
+      "revenue": 2501600000,
+      "net_income": 453600000,
+      "rd_expense": 936500000,
+      "total_assets": 2983500000,
+      "capex": 24300000
+    },
+    {
+      "year": 2024,
+      "revenue": 2548200000,
+      "net_income": 452300000,
+      "rd_expense": 914900000,
+      "total_assets": 3325200000,
+      "capex": 22500000
+    },
+    {
+      "year": 2025,
+      "revenue": 2521000000,
+      "net_income": 508400000,
+      "rd_expense": 732000000,
+      "total_assets": 2844900000,
+      "capex": 21000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2017-03-31",
+      "revenue": 247900000,
+      "net_income": -33100000,
+      "rd_expense": 89300000
+    },
+    {
+      "period_end": "2017-06-30",
+      "revenue": 266700000,
+      "net_income": -26800000,
+      "rd_expense": 89800000
+    },
+    {
+      "period_end": "2017-09-30",
+      "revenue": 286700000,
+      "net_income": -14100000,
+      "rd_expense": 97200000
+    },
+    {
+      "period_end": "2018-03-31",
+      "revenue": 316300000,
+      "net_income": -465500000,
+      "rd_expense": 378500000
+    },
+    {
+      "period_end": "2018-06-30",
+      "revenue": 339200000,
+      "net_income": -4100000,
+      "rd_expense": 119700000
+    },
+    {
+      "period_end": "2018-09-30",
+      "revenue": 360300000,
+      "net_income": -5800000,
+      "rd_expense": 133200000
+    }
+  ]
+}

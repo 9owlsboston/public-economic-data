@@ -1,0 +1,104 @@
+{
+  "isin": "CA21037X1006",
+  "name": "Constellation Software Inc",
+  "ticker": "CSU.TO",
+  "exchange": "TSX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-15",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CAD",
+      "revenue_M": 11623.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7255.0,
+      "net_income_M": 512.0,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CAD",
+      "revenue_M": 10066.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6451.0,
+      "net_income_M": 731.0
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "CAD",
+      "revenue_M": 8405.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5461.0,
+      "net_income_M": 565.0
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "CAD",
+      "revenue_M": 6622.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4299.0,
+      "net_income_M": 512.0
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "CAD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CAD",
+      "revenue_M": 3177.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1958.0,
+      "net_income_M": 110.0
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "CAD",
+      "revenue_M": 2947.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1823.0,
+      "net_income_M": 210.0
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "CAD",
+      "revenue_M": 2843.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1768.0,
+      "net_income_M": 56.0
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "CAD",
+      "revenue_M": 2653.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1706.0,
+      "net_income_M": 115.0
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CAD",
+      "revenue_M": 2703.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1680.0,
+      "net_income_M": 285.0
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "CAD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

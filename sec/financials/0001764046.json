@@ -1,0 +1,86 @@
+{
+  "company": "Clarivate Analytics",
+  "ticker": "CLVT",
+  "cik": "0001764046",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2018,
+      "revenue": 237027000,
+      "net_income": -43454000,
+      "rd_expense": 13715000,
+      "total_assets": 3709674000,
+      "capex": 45410000
+    },
+    {
+      "year": 2019,
+      "revenue": 234025000,
+      "net_income": -84787000,
+      "total_assets": 3791371000,
+      "capex": 69836000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2020-06-30",
+      "revenue": 273500000,
+      "net_income": -1491000
+    },
+    {
+      "period_end": "2020-09-30",
+      "revenue": 284360000,
+      "net_income": -37233000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 635700000,
+      "net_income": -4415500000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 629100000,
+      "net_income": 43500000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 668800000,
+      "net_income": -123100000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 647200000,
+      "net_income": 12300000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 621200000,
+      "net_income": -75000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 650300000,
+      "net_income": -304300000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 622200000,
+      "net_income": -65600000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 593700000,
+      "net_income": -103900000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 621400000,
+      "net_income": -72000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 623100000,
+      "net_income": -28300000
+    }
+  ]
+}

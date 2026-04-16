@@ -1,0 +1,125 @@
+{
+  "company": "Qualcomm",
+  "ticker": "QCOM",
+  "cik": "0000804328",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2020,
+      "revenue": 5216000000,
+      "net_income": 5198000000,
+      "rd_expense": 5975000000,
+      "total_assets": 35594000000
+    },
+    {
+      "year": 2021,
+      "revenue": 33566000000,
+      "net_income": 9043000000,
+      "rd_expense": 7176000000,
+      "total_assets": 41240000000
+    },
+    {
+      "year": 2022,
+      "revenue": 44200000000,
+      "net_income": 12936000000,
+      "rd_expense": 8194000000,
+      "total_assets": 49014000000
+    },
+    {
+      "year": 2023,
+      "revenue": 35820000000,
+      "net_income": 7232000000,
+      "rd_expense": 8818000000,
+      "total_assets": 51040000000
+    },
+    {
+      "year": 2024,
+      "revenue": 38962000000,
+      "net_income": 10142000000,
+      "rd_expense": 8893000000,
+      "total_assets": 55154000000
+    },
+    {
+      "year": 2025,
+      "revenue": 44284000000,
+      "net_income": 5541000000,
+      "rd_expense": 9042000000,
+      "total_assets": 50143000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-27",
+      "revenue": 11164000000,
+      "net_income": 2934000000,
+      "rd_expense": 2034000000
+    },
+    {
+      "period_end": "2022-06-26",
+      "revenue": 10936000000,
+      "net_income": 3730000000,
+      "rd_expense": 2052000000
+    },
+    {
+      "period_end": "2022-12-25",
+      "revenue": 9463000000,
+      "net_income": 2235000000,
+      "rd_expense": 2251000000
+    },
+    {
+      "period_end": "2023-03-26",
+      "revenue": 9275000000,
+      "net_income": 1704000000,
+      "rd_expense": 2210000000
+    },
+    {
+      "period_end": "2023-06-25",
+      "revenue": 8451000000,
+      "net_income": 1803000000,
+      "rd_expense": 2222000000
+    },
+    {
+      "period_end": "2023-12-24",
+      "revenue": 9935000000,
+      "net_income": 2767000000,
+      "rd_expense": 2096000000
+    },
+    {
+      "period_end": "2024-03-24",
+      "revenue": 9389000000,
+      "net_income": 2326000000,
+      "rd_expense": 2236000000
+    },
+    {
+      "period_end": "2024-06-23",
+      "revenue": 9393000000,
+      "net_income": 2129000000,
+      "rd_expense": 2259000000
+    },
+    {
+      "period_end": "2024-12-29",
+      "revenue": 11669000000,
+      "net_income": 3180000000,
+      "rd_expense": 2230000000
+    },
+    {
+      "period_end": "2025-03-30",
+      "revenue": 10979000000,
+      "net_income": 2812000000,
+      "rd_expense": 2216000000
+    },
+    {
+      "period_end": "2025-06-29",
+      "revenue": 10365000000,
+      "net_income": 2666000000,
+      "rd_expense": 2226000000
+    },
+    {
+      "period_end": "2025-12-28",
+      "revenue": 12252000000,
+      "net_income": 3004000000,
+      "rd_expense": 2453000000
+    }
+  ]
+}

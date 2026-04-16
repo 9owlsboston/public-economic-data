@@ -1,0 +1,69 @@
+{
+  "company": "UniCredit",
+  "ticker": "UCG.MI",
+  "source_id": "IT0005239360",
+  "currency": "EUR",
+  "fx_rate_usd": 1.08,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 21037000000,
+      "net_income": 6458000000,
+      "total_assets": 857773000000,
+      "operating_cash_flow": 10264000000,
+      "capex": 1170000000
+    },
+    {
+      "year": 2023,
+      "revenue": 25360000000,
+      "net_income": 9507000000,
+      "total_assets": 784974000000,
+      "operating_cash_flow": -41128000000,
+      "capex": 1152000000
+    },
+    {
+      "year": 2024,
+      "revenue": 26579000000,
+      "net_income": 9719000000,
+      "total_assets": 784004000000,
+      "operating_cash_flow": -7076000000,
+      "capex": 1740000000
+    },
+    {
+      "year": 2025,
+      "revenue": 25039000000,
+      "net_income": 10915000000,
+      "total_assets": 870238000000,
+      "operating_cash_flow": 8525000000,
+      "capex": 1266000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-09-30",
+      "revenue": 6130000000,
+      "net_income": 2513000000
+    },
+    {
+      "period_end": "2024-12-31",
+      "revenue": 6016000000,
+      "net_income": 1969000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 6550000000,
+      "net_income": 2771000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 6993000000,
+      "net_income": 3344000000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 5348000000,
+      "net_income": 2137000000
+    }
+  ]
+}

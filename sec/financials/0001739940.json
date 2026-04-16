@@ -1,0 +1,110 @@
+{
+  "company": "Cigna Group",
+  "ticker": "CI",
+  "cik": "0001739940",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2019,
+      "revenue": 38556000000,
+      "total_assets": 155774000000,
+      "capex": 1050000000
+    },
+    {
+      "year": 2020,
+      "revenue": 160401000000,
+      "total_assets": 155451000000
+    },
+    {
+      "year": 2021,
+      "revenue": 174069000000,
+      "total_assets": 154889000000
+    },
+    {
+      "year": 2022,
+      "revenue": 180518000000,
+      "total_assets": 143885000000
+    },
+    {
+      "year": 2023,
+      "revenue": 195265000000,
+      "net_income": 5164000000,
+      "total_assets": 152761000000
+    },
+    {
+      "year": 2024,
+      "revenue": 247121000000,
+      "net_income": 3434000000,
+      "total_assets": 155881000000
+    },
+    {
+      "year": 2025,
+      "revenue": 274900000000,
+      "net_income": 5957000000,
+      "total_assets": 157919000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 44006000000,
+      "net_income": 1212000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 45478000000,
+      "net_income": 1570000000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 45281000000,
+      "net_income": 2778000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 46517000000,
+      "net_income": 1306000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 48586000000,
+      "net_income": 1510000000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 49048000000,
+      "net_income": 1449000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 57255000000,
+      "net_income": -212000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 60523000000,
+      "net_income": 1629000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 63694000000,
+      "net_income": 825000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 65502000000,
+      "net_income": 1409000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 67178000000,
+      "net_income": 1632000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 69748000000,
+      "net_income": 1973000000
+    }
+  ]
+}

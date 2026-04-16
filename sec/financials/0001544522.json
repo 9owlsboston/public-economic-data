@@ -1,0 +1,138 @@
+{
+  "company": "Freshworks",
+  "ticker": "FRSH",
+  "cik": "0001544522",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2019,
+      "revenue": 172377000,
+      "net_income": -31125000,
+      "rd_expense": 38559000,
+      "capex": 11505000
+    },
+    {
+      "year": 2020,
+      "revenue": 249659000,
+      "net_income": -57294000,
+      "rd_expense": 69210000,
+      "total_assets": 367424000,
+      "capex": 4383000
+    },
+    {
+      "year": 2021,
+      "revenue": 371022000,
+      "net_income": -191995000,
+      "rd_expense": 120407000,
+      "total_assets": 1482812000,
+      "capex": 5565000
+    },
+    {
+      "year": 2022,
+      "revenue": 497999000,
+      "net_income": -232132000,
+      "rd_expense": 135543000,
+      "total_assets": 1380216000,
+      "capex": 7129000
+    },
+    {
+      "year": 2023,
+      "revenue": 596432000,
+      "net_income": -137436000,
+      "rd_expense": 137756000,
+      "total_assets": 1456772000,
+      "capex": 2069000
+    },
+    {
+      "year": 2024,
+      "revenue": 720420000,
+      "net_income": -95368000,
+      "rd_expense": 164590000,
+      "total_assets": 1611884000,
+      "capex": 9177000
+    },
+    {
+      "year": 2025,
+      "revenue": 838809000,
+      "net_income": 183723000,
+      "rd_expense": 163208000,
+      "total_assets": 1602712000,
+      "capex": 5700000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 114637000,
+      "net_income": -49059000,
+      "rd_expense": 30717000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 121432000,
+      "net_income": -69753000,
+      "rd_expense": 34297000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 128760000,
+      "net_income": -57843000,
+      "rd_expense": 35871000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 137692000,
+      "net_income": -42664000,
+      "rd_expense": 32857000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 145079000,
+      "net_income": -35658000,
+      "rd_expense": 34180000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 153550000,
+      "net_income": -31033000,
+      "rd_expense": 34885000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 165143000,
+      "net_income": -23325000,
+      "rd_expense": 34684000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 174131000,
+      "net_income": -20184000,
+      "rd_expense": 40993000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 186575000,
+      "net_income": -29959000,
+      "rd_expense": 47885000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 196273000,
+      "net_income": -1304000,
+      "rd_expense": 40001000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 204678000,
+      "net_income": -1739000,
+      "rd_expense": 39943000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 215118000,
+      "net_income": -4680000,
+      "rd_expense": 41462000
+    }
+  ]
+}

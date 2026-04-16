@@ -1,0 +1,147 @@
+{
+  "company": "IBM",
+  "ticker": "IBM",
+  "cik": "0000051143",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2018,
+      "revenue": 79591000000,
+      "net_income": 8728000000,
+      "rd_expense": 5379000000,
+      "total_assets": 123382000000,
+      "capex": 3395000000
+    },
+    {
+      "year": 2019,
+      "revenue": 57714000000,
+      "net_income": 9431000000,
+      "rd_expense": 5910000000,
+      "total_assets": 152186000000,
+      "capex": 2286000000
+    },
+    {
+      "year": 2020,
+      "revenue": 55179000000,
+      "net_income": 5590000000,
+      "rd_expense": 6262000000,
+      "total_assets": 155971000000,
+      "capex": 2618000000
+    },
+    {
+      "year": 2021,
+      "revenue": 57350000000,
+      "net_income": 5743000000,
+      "rd_expense": 6488000000,
+      "total_assets": 132001000000,
+      "capex": 2062000000
+    },
+    {
+      "year": 2022,
+      "revenue": 60530000000,
+      "net_income": 1639000000,
+      "rd_expense": 6567000000,
+      "total_assets": 127243000000,
+      "capex": 1346000000
+    },
+    {
+      "year": 2023,
+      "revenue": 61860000000,
+      "net_income": 7502000000,
+      "rd_expense": 6775000000,
+      "total_assets": 135241000000,
+      "capex": 1245000000
+    },
+    {
+      "year": 2024,
+      "revenue": 62753000000,
+      "net_income": 6023000000,
+      "rd_expense": 7479000000,
+      "total_assets": 137175000000,
+      "capex": 1048000000
+    },
+    {
+      "year": 2025,
+      "revenue": 67535000000,
+      "net_income": 10593000000,
+      "rd_expense": 8316000000,
+      "total_assets": 151880000000,
+      "capex": 1091000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 14197000000,
+      "net_income": 733000000,
+      "rd_expense": 1679000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 15535000000,
+      "net_income": 1392000000,
+      "rd_expense": 1673000000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 14107000000,
+      "net_income": -3196000000,
+      "rd_expense": 1611000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 14252000000,
+      "net_income": 927000000,
+      "rd_expense": 1655000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 15475000000,
+      "net_income": 1583000000,
+      "rd_expense": 1687000000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 14752000000,
+      "net_income": 1704000000,
+      "rd_expense": 1685000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 14462000000,
+      "net_income": 1605000000,
+      "rd_expense": 1796000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 15770000000,
+      "net_income": 1834000000,
+      "rd_expense": 1840000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 14968000000,
+      "net_income": -330000000,
+      "rd_expense": 1876000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 14541000000,
+      "net_income": 1055000000,
+      "rd_expense": 1950000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 16977000000,
+      "net_income": 2194000000,
+      "rd_expense": 2097000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 16331000000,
+      "net_income": 1744000000,
+      "rd_expense": 2082000000
+    }
+  ]
+}

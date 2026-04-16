@@ -1,0 +1,54 @@
+{
+  "isin": "HK0000069689",
+  "name": "AIA Group Limited",
+  "ticker": "1299.HK",
+  "exchange": "HKEX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-15",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "HKD",
+      "revenue_M": 39604.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6234.0,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "HKD",
+      "revenue_M": 31255.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6836.0
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "HKD",
+      "revenue_M": 30087.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3764.0
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "HKD",
+      "revenue_M": -15240.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3331.0
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "company": "ADP",
+  "ticker": "ADP",
+  "cik": "0000008670",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2019,
+      "revenue": 3669500000,
+      "net_income": 651600000,
+      "total_assets": 41887700000
+    },
+    {
+      "year": 2020,
+      "revenue": 4047800000,
+      "net_income": 411500000,
+      "total_assets": 39165500000
+    },
+    {
+      "year": 2021,
+      "revenue": 15005400000,
+      "net_income": 2598500000,
+      "total_assets": 48772500000
+    },
+    {
+      "year": 2022,
+      "revenue": 16498300000,
+      "net_income": 2948900000,
+      "rd_expense": 798600000,
+      "total_assets": 63068200000
+    },
+    {
+      "year": 2023,
+      "revenue": 18012200000,
+      "net_income": 3412000000,
+      "rd_expense": 844800000,
+      "total_assets": 50971000000
+    },
+    {
+      "year": 2024,
+      "revenue": 19202600000,
+      "net_income": 3752000000,
+      "rd_expense": 955700000,
+      "total_assets": 54362700000
+    },
+    {
+      "year": 2025,
+      "revenue": 20560900000,
+      "net_income": 4079700000,
+      "rd_expense": 988600000,
+      "total_assets": 53369300000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2017-03-31",
+      "revenue": 3410800000,
+      "net_income": 587900000
+    },
+    {
+      "period_end": "2017-09-30",
+      "revenue": 3077200000,
+      "net_income": 412600000
+    },
+    {
+      "period_end": "2017-12-31",
+      "revenue": 3238300000,
+      "net_income": 670400000
+    },
+    {
+      "period_end": "2018-03-31",
+      "revenue": 3696000000,
+      "net_income": 661000000
+    },
+    {
+      "period_end": "2018-09-30",
+      "revenue": 3310300000,
+      "net_income": 505400000
+    },
+    {
+      "period_end": "2018-12-31",
+      "revenue": 3492400000,
+      "net_income": 558200000
+    },
+    {
+      "period_end": "2019-03-31",
+      "revenue": 3828200000,
+      "net_income": 753700000
+    },
+    {
+      "period_end": "2019-06-30",
+      "revenue": 14110200000,
+      "net_income": 2292800000
+    },
+    {
+      "period_end": "2019-09-30",
+      "revenue": 3495700000,
+      "net_income": 582400000
+    },
+    {
+      "period_end": "2019-12-31",
+      "revenue": 3669500000,
+      "net_income": 651600000
+    },
+    {
+      "period_end": "2020-03-31",
+      "revenue": 4047800000,
+      "net_income": 820900000
+    },
+    {
+      "period_end": "2020-09-30",
+      "revenue": 3470700000,
+      "net_income": 602100000
+    }
+  ]
+}

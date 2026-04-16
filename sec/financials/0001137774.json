@@ -1,0 +1,95 @@
+{
+  "company": "Prudential Financial",
+  "ticker": "PRU",
+  "cik": "0001137774",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 20201000000,
+      "net_income": -52000000,
+      "total_assets": 689029000000
+    },
+    {
+      "year": 2023,
+      "revenue": 17045000000,
+      "net_income": 1317000000,
+      "total_assets": 721212000000
+    },
+    {
+      "year": 2024,
+      "revenue": 70405000000,
+      "net_income": 2727000000,
+      "total_assets": 735587000000
+    },
+    {
+      "year": 2025,
+      "revenue": 60774000000,
+      "net_income": 3576000000,
+      "total_assets": 773740000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 11855000000,
+      "net_income": -493000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 11392000000,
+      "net_income": -1010000000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 20201000000,
+      "net_income": -92000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 17045000000,
+      "net_income": 1462000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 13498000000,
+      "net_income": 511000000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 8352000000,
+      "net_income": -802000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 23509000000,
+      "net_income": 1138000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 14883000000,
+      "net_income": 1198000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 19490000000,
+      "net_income": 448000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 13470000000,
+      "net_income": 707000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 13726000000,
+      "net_income": 533000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 17888000000,
+      "net_income": 1431000000
+    }
+  ]
+}

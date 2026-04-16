@@ -1,0 +1,83 @@
+{
+  "company": "eBay Inc.",
+  "ticker": "EBAY",
+  "cik": "0001065088",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2009,
+      "revenue": 8727362000,
+      "net_income": 1354906000,
+      "rd_expense": 803070000,
+      "total_assets": 18408320000,
+      "capex": 567094000
+    },
+    {
+      "year": 2010,
+      "revenue": 9156000000,
+      "net_income": 559187000,
+      "rd_expense": 908000000,
+      "total_assets": 22003762000,
+      "capex": 724000000
+    },
+    {
+      "year": 2011,
+      "revenue": 11652000000,
+      "net_income": 1980000000,
+      "rd_expense": 1235000000,
+      "total_assets": 27320000000,
+      "capex": 963000000
+    },
+    {
+      "year": 2012,
+      "revenue": 14072000000,
+      "net_income": 751000000,
+      "rd_expense": 1573000000,
+      "total_assets": 37074000000,
+      "capex": 1257000000
+    },
+    {
+      "year": 2013,
+      "revenue": 16047000000,
+      "net_income": 850000000,
+      "rd_expense": 915000000,
+      "total_assets": 41488000000,
+      "capex": 678000000
+    },
+    {
+      "year": 2014,
+      "revenue": 17902000000,
+      "net_income": 1023000000,
+      "rd_expense": 983000000,
+      "total_assets": 45132000000,
+      "capex": 622000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2010-06-30",
+      "revenue": 2215379000,
+      "net_income": 412192000,
+      "rd_expense": 225317000
+    },
+    {
+      "period_end": "2010-09-30",
+      "revenue": 2249488000,
+      "net_income": 431929000,
+      "rd_expense": 226803000
+    },
+    {
+      "period_end": "2011-06-30",
+      "revenue": 2760274000,
+      "net_income": 283000000,
+      "rd_expense": 297000000
+    },
+    {
+      "period_end": "2011-09-30",
+      "revenue": 2965761000,
+      "net_income": 491000000,
+      "rd_expense": 319000000
+    }
+  ]
+}

@@ -13,6 +13,17 @@ Private aggregator of public economic and financial datasets for cloud economics
 | Cloud Pricing (Azure/AWS/GCP) | `cloud-pricing/` | Planned | Monthly |
 | SDK Adoption (PyPI/npm) | `sdk-adoption/` | Planned | Weekly |
 
+## Data Dictionary
+
+Field-level schema documentation for each data source:
+
+| Module | Schema doc |
+|---|---|
+| SEC EDGAR | [`docs/schema/sec.md`](docs/schema/sec.md) — 10 financial metrics, XBRL tag mappings, segment schema |
+| FRED Macro | [`docs/schema/macro.md`](docs/schema/macro.md) — 22 series, unit reference, FX conventions |
+| International | [`docs/schema/intl.md`](docs/schema/intl.md) — 4 metrics, multi-currency handling |
+| EDINET (Japan) | [`docs/schema/edinet.md`](docs/schema/edinet.md) — IFRS/J-GAAP tag resolution, 3 accounting standards |
+
 ## SEC Financials
 
 ### Coverage

@@ -1,0 +1,43 @@
+{
+  "company": "Trend Micro",
+  "ticker": "4704.T",
+  "source_id": "JP3637300009",
+  "currency": "JPY",
+  "fx_rate_usd": 0.0067,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 223795000000,
+      "net_income": 29843000000,
+      "total_assets": 470799000000,
+      "operating_cash_flow": 56903000000,
+      "capex": 20979000000
+    },
+    {
+      "year": 2023,
+      "revenue": 248691000000,
+      "net_income": 10731000000,
+      "total_assets": 492628000000,
+      "operating_cash_flow": 57227000000,
+      "capex": 26361000000
+    },
+    {
+      "year": 2024,
+      "revenue": 272638000000,
+      "net_income": 34358000000,
+      "total_assets": 400316000000,
+      "operating_cash_flow": 46781000000,
+      "capex": 24940000000
+    },
+    {
+      "year": 2025,
+      "revenue": 275984000000,
+      "net_income": 34523000000,
+      "total_assets": 422238000000,
+      "operating_cash_flow": 64637000000,
+      "capex": 22857000000
+    }
+  ],
+  "quarterly": []
+}

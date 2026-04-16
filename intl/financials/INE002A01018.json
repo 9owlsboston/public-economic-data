@@ -1,0 +1,69 @@
+{
+  "company": "Reliance Industries",
+  "ticker": "RELIANCE.NS",
+  "source_id": "INE002A01018",
+  "currency": "INR",
+  "fx_rate_usd": 0.012,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 6959630000000,
+      "net_income": 607050000000,
+      "total_assets": 14996650000000,
+      "operating_cash_flow": 1106540000000,
+      "capex": 1001450000000
+    },
+    {
+      "year": 2023,
+      "revenue": 8778350000000,
+      "net_income": 667020000000,
+      "total_assets": 16074310000000,
+      "operating_cash_flow": 1150320000000,
+      "capex": 1409880000000
+    },
+    {
+      "year": 2024,
+      "revenue": 9010640000000,
+      "net_income": 696210000000,
+      "total_assets": 17559860000000,
+      "operating_cash_flow": 1587880000000,
+      "capex": 1528830000000
+    },
+    {
+      "year": 2025,
+      "revenue": 9646930000000,
+      "net_income": 696480000000,
+      "total_assets": 19501210000000,
+      "operating_cash_flow": 1787030000000,
+      "capex": 1399670000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-09-30",
+      "revenue": 2315350000000,
+      "net_income": 165630000000
+    },
+    {
+      "period_end": "2024-12-31",
+      "revenue": 2399860000000,
+      "net_income": 185400000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 2613880000000,
+      "net_income": 194070000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 2436320000000,
+      "net_income": 269940000000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 2649050000000,
+      "net_income": 186450000000
+    }
+  ]
+}

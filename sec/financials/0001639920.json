@@ -1,0 +1,58 @@
+{
+  "company": "Spotify",
+  "ticker": "SPOT",
+  "cik": "0001639920",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2018,
+      "revenue": 5259000000,
+      "net_income": -78000000,
+      "total_assets": 4336000000
+    },
+    {
+      "year": 2019,
+      "revenue": 6764000000,
+      "net_income": -186000000,
+      "total_assets": 5122000000
+    },
+    {
+      "year": 2020,
+      "revenue": 7880000000,
+      "net_income": -581000000,
+      "total_assets": 6326000000
+    },
+    {
+      "year": 2021,
+      "revenue": 9668000000,
+      "net_income": -34000000,
+      "total_assets": 7170000000
+    },
+    {
+      "year": 2022,
+      "revenue": 11727000000,
+      "net_income": -430000000,
+      "total_assets": 7636000000
+    },
+    {
+      "year": 2023,
+      "revenue": 13247000000,
+      "net_income": -532000000,
+      "total_assets": 8346000000
+    },
+    {
+      "year": 2024,
+      "revenue": 15673000000,
+      "net_income": 1138000000,
+      "total_assets": 12005000000
+    },
+    {
+      "year": 2025,
+      "revenue": 17186000000,
+      "net_income": 2212000000,
+      "total_assets": 15015000000
+    }
+  ],
+  "quarterly": []
+}

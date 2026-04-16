@@ -1,0 +1,113 @@
+{
+  "company": "Charter Communications",
+  "ticker": "CHTR",
+  "cik": "0001091667",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2020,
+      "revenue": 11696000000,
+      "net_income": 1246000000,
+      "total_assets": 144206000000,
+      "capex": 7415000000
+    },
+    {
+      "year": 2021,
+      "revenue": 51682000000,
+      "net_income": 4654000000,
+      "total_assets": 142491000000,
+      "capex": 7635000000
+    },
+    {
+      "year": 2022,
+      "revenue": 54022000000,
+      "net_income": 5055000000,
+      "total_assets": 144523000000,
+      "capex": 9376000000
+    },
+    {
+      "year": 2023,
+      "revenue": 54607000000,
+      "net_income": 4557000000,
+      "total_assets": 147193000000,
+      "capex": 11115000000
+    },
+    {
+      "year": 2024,
+      "revenue": 55085000000,
+      "net_income": 5083000000,
+      "total_assets": 150020000000,
+      "capex": 11269000000
+    },
+    {
+      "year": 2025,
+      "revenue": 54774000000,
+      "net_income": 4987000000,
+      "total_assets": 154213000000,
+      "capex": 11659000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 13200000000,
+      "net_income": 1203000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 13598000000,
+      "net_income": 1471000000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 13550000000,
+      "net_income": 1185000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 13653000000,
+      "net_income": 1021000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 13659000000,
+      "net_income": 1223000000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 13584000000,
+      "net_income": 1255000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 13679000000,
+      "net_income": 1106000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 13685000000,
+      "net_income": 1231000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 13795000000,
+      "net_income": 1280000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 13735000000,
+      "net_income": 1217000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 13766000000,
+      "net_income": 1301000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 13672000000,
+      "net_income": 1137000000
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "company": "BBVA",
+  "ticker": "BBVA",
+  "source_id": "ES0113211835",
+  "currency": "EUR",
+  "fx_rate_usd": 1.08,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 28065000000,
+      "net_income": 6358000000,
+      "total_assets": 712092000000,
+      "operating_cash_flow": 23718000000,
+      "capex": 2442000000
+    },
+    {
+      "year": 2023,
+      "revenue": 33427000000,
+      "net_income": 8019000000,
+      "total_assets": 775558000000,
+      "operating_cash_flow": -721000000,
+      "capex": 1819000000
+    },
+    {
+      "year": 2024,
+      "revenue": 39235000000,
+      "net_income": 10054000000,
+      "total_assets": 772402000000,
+      "operating_cash_flow": -18190000000,
+      "capex": 2011000000
+    },
+    {
+      "year": 2025,
+      "revenue": 39415000000,
+      "net_income": 10511000000,
+      "total_assets": 859576000000,
+      "operating_cash_flow": 14968000000,
+      "capex": 1806000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-12-31",
+      "revenue": 9320000000,
+      "net_income": 2433000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 9324000000,
+      "net_income": 2698000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 8710000000,
+      "net_income": 2749000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 9778000000,
+      "net_income": 2531000000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 9795000000,
+      "net_income": 2533000000
+    }
+  ]
+}

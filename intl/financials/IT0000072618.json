@@ -1,0 +1,69 @@
+{
+  "company": "Intesa Sanpaolo",
+  "ticker": "ISP.MI",
+  "source_id": "IT0000072618",
+  "currency": "EUR",
+  "fx_rate_usd": 1.08,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 21565000000,
+      "net_income": 4379000000,
+      "total_assets": 974587000000,
+      "operating_cash_flow": 102276000000,
+      "capex": 1848000000
+    },
+    {
+      "year": 2023,
+      "revenue": 25416000000,
+      "net_income": 7724000000,
+      "total_assets": 963570000000,
+      "operating_cash_flow": -17338000000,
+      "capex": 1655000000
+    },
+    {
+      "year": 2024,
+      "revenue": 27686000000,
+      "net_income": 8666000000,
+      "total_assets": 933285000000,
+      "operating_cash_flow": -40187000000,
+      "capex": 1669000000
+    },
+    {
+      "year": 2025,
+      "revenue": 28529000000,
+      "net_income": 9321000000,
+      "total_assets": 959887000000,
+      "operating_cash_flow": 8235000000,
+      "capex": 1650000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-12-31",
+      "revenue": 7569000000,
+      "net_income": 1499000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 6962000000,
+      "net_income": 2615000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 7188000000,
+      "net_income": 2601000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 6914000000,
+      "net_income": 2372000000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 7465000000,
+      "net_income": 1733000000
+    }
+  ]
+}

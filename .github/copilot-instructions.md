@@ -18,6 +18,14 @@ Repo: `9owlsboston/public-economic-data` (private).
 | Cloud pricing | `cloud-pricing/` | Planned |
 | SDK adoption | `sdk-adoption/` | Planned |
 
+## Data Dictionary
+
+Field-level schema documentation lives in `docs/schema/`:
+- `docs/schema/sec.md` — SEC EDGAR fields, XBRL tag mappings, segment schema
+- `docs/schema/macro.md` — FRED series, unit reference, FX conventions
+- `docs/schema/intl.md` — International financials fields, multi-currency notes
+- `docs/schema/edinet.md` — EDINET fields, IFRS/J-GAAP tag resolution
+
 ## Key Conventions
 
 - **Registry vs data separation** — `sec/registry.yaml` has metadata only (name, ticker, exchange). Keyed by **CIK** (SEC's primary identifier). Financial data lives in `sec/financials/{cik}.json` (one file per company). Segment data lives in `sec/financials/{cik}_segments.json` (separate file, different schema — requires `segment_tags` in registry). `macro/registry.yaml` has series metadata (title, frequency, units). Keyed by **FRED series ID**. Time series data lives in `macro/fred/{series_id}.json` (one file per series). `intl/registry.yaml` has international company metadata (name, ticker, exchange, yf_symbol). Keyed by **ISIN**. Financial data lives in `intl/financials/{isin}.json` (one file per company). `edinet/registry.yaml` has Japanese company metadata (name, ticker, exchange). Keyed by **EDINET Code**. Financial data lives in `edinet/financials/{edinet_code}.json` (one file per company).

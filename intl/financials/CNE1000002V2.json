@@ -1,0 +1,47 @@
+{
+  "company": "China Telecom",
+  "ticker": "0728.HK",
+  "source_id": "CNE1000002V2",
+  "currency": "HKD",
+  "fx_rate_usd": 0.13,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2021,
+      "revenue": 439553000000,
+      "net_income": 25949000000,
+      "rd_expense": 3379000000,
+      "total_assets": 762239000000,
+      "operating_cash_flow": 137533000000,
+      "capex": 85175000000
+    },
+    {
+      "year": 2022,
+      "revenue": 481448000000,
+      "net_income": 27593000000,
+      "rd_expense": 4199000000,
+      "total_assets": 807698000000,
+      "operating_cash_flow": 136432000000,
+      "capex": 91512000000
+    },
+    {
+      "year": 2023,
+      "revenue": 513551000000,
+      "net_income": 30446000000,
+      "rd_expense": 4203000000,
+      "total_assets": 835814000000,
+      "operating_cash_flow": 137508000000,
+      "capex": 90173000000
+    },
+    {
+      "year": 2024,
+      "revenue": 529417000000,
+      "net_income": 33012000000,
+      "rd_expense": 4661000000,
+      "total_assets": 866625000000,
+      "operating_cash_flow": 145049000000,
+      "capex": 90271000000
+    }
+  ],
+  "quarterly": []
+}

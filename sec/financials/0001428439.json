@@ -1,0 +1,131 @@
+{
+  "company": "Roku",
+  "ticker": "ROKU",
+  "cik": "0001428439",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2020,
+      "revenue": 356073000,
+      "net_income": 67306000,
+      "rd_expense": 355784000,
+      "total_assets": 2270542000,
+      "capex": 82382000
+    },
+    {
+      "year": 2021,
+      "revenue": 2764584000,
+      "net_income": 242385000,
+      "rd_expense": 461602000,
+      "total_assets": 4082145000,
+      "capex": 40041000
+    },
+    {
+      "year": 2022,
+      "revenue": 3126534000,
+      "net_income": -498005000,
+      "rd_expense": 788913000,
+      "total_assets": 4412601000,
+      "capex": 161696000
+    },
+    {
+      "year": 2023,
+      "revenue": 3484619000,
+      "net_income": -709561000,
+      "rd_expense": 878474000,
+      "total_assets": 4261792000,
+      "capex": 82619000
+    },
+    {
+      "year": 2024,
+      "revenue": 4112898000,
+      "net_income": -129386000,
+      "rd_expense": 720145000,
+      "total_assets": 4303933000,
+      "capex": 5061000
+    },
+    {
+      "year": 2025,
+      "revenue": 4737251000,
+      "net_income": 88361000,
+      "rd_expense": 729477000,
+      "total_assets": 4433483000,
+      "capex": 5280000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 733699000,
+      "net_income": -26306000,
+      "rd_expense": 163998000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 764406000,
+      "net_income": -112321000,
+      "rd_expense": 196637000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 761373000,
+      "net_income": -122183000,
+      "rd_expense": 207608000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 740990000,
+      "net_income": -193604000,
+      "rd_expense": 220085000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 847186000,
+      "net_income": -107595000,
+      "rd_expense": 192387000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 912018000,
+      "net_income": -330071000,
+      "rd_expense": 282201000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 881469000,
+      "net_income": -50855000,
+      "rd_expense": 180459000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 968179000,
+      "net_income": -33953000,
+      "rd_expense": 175481000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 1062203000,
+      "net_income": -9030000,
+      "rd_expense": 178798000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 1020672000,
+      "net_income": -27431000,
+      "rd_expense": 184579000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 1111038000,
+      "net_income": 10503000,
+      "rd_expense": 178017000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 1210638000,
+      "net_income": 24812000,
+      "rd_expense": 182235000
+    }
+  ]
+}

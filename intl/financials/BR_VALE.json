@@ -1,0 +1,78 @@
+{
+  "company": "Vale S.A.",
+  "ticker": "VALE",
+  "source_id": "BR_VALE",
+  "currency": "BRL",
+  "fx_rate_usd": 0.19,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 43839000000,
+      "net_income": 18788000000,
+      "rd_expense": 660000000,
+      "total_assets": 86894000000,
+      "operating_cash_flow": 11485000000,
+      "capex": 5446000000
+    },
+    {
+      "year": 2023,
+      "revenue": 41784000000,
+      "net_income": 7983000000,
+      "rd_expense": 723000000,
+      "total_assets": 94186000000,
+      "operating_cash_flow": 13165000000,
+      "capex": 5920000000
+    },
+    {
+      "year": 2024,
+      "revenue": 38056000000,
+      "net_income": 6166000000,
+      "rd_expense": 790000000,
+      "total_assets": 80152000000,
+      "operating_cash_flow": 9366000000,
+      "capex": 6447000000
+    },
+    {
+      "year": 2025,
+      "revenue": 38403000000,
+      "net_income": 2352000000,
+      "rd_expense": 693000000,
+      "total_assets": 86525000000,
+      "operating_cash_flow": 8801000000,
+      "capex": 6006000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-12-31",
+      "revenue": 10124000000,
+      "net_income": -694000000,
+      "rd_expense": 253000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 8119000000,
+      "net_income": 1394000000,
+      "rd_expense": 123000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 8804000000,
+      "net_income": 2117000000,
+      "rd_expense": 159000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 10420000000,
+      "net_income": 2685000000,
+      "rd_expense": 151000000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 11060000000,
+      "net_income": -3844000000,
+      "rd_expense": 260000000
+    }
+  ]
+}

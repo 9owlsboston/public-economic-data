@@ -1,0 +1,113 @@
+{
+  "company": "PayPal",
+  "ticker": "PYPL",
+  "cik": "0001633917",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2020,
+      "revenue": 5261000000,
+      "net_income": 1567000000,
+      "total_assets": 70379000000,
+      "capex": 866000000
+    },
+    {
+      "year": 2021,
+      "revenue": 25371000000,
+      "net_income": 4169000000,
+      "total_assets": 75803000000,
+      "capex": 908000000
+    },
+    {
+      "year": 2022,
+      "revenue": 27518000000,
+      "net_income": 2419000000,
+      "total_assets": 78624000000,
+      "capex": 706000000
+    },
+    {
+      "year": 2023,
+      "revenue": 29771000000,
+      "net_income": 4246000000,
+      "total_assets": 82166000000,
+      "capex": 623000000
+    },
+    {
+      "year": 2024,
+      "revenue": 31797000000,
+      "net_income": 4147000000,
+      "total_assets": 78725000000,
+      "capex": 683000000
+    },
+    {
+      "year": 2025,
+      "revenue": 33172000000,
+      "net_income": 5233000000,
+      "total_assets": 80173000000,
+      "capex": 852000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 6483000000,
+      "net_income": 509000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 6806000000,
+      "net_income": -341000000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 6846000000,
+      "net_income": 1330000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 7040000000,
+      "net_income": 795000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 7287000000,
+      "net_income": 1029000000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 7418000000,
+      "net_income": 1020000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 7699000000,
+      "net_income": 888000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 7885000000,
+      "net_income": 1128000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 7847000000,
+      "net_income": 1010000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 7791000000,
+      "net_income": 1287000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 8288000000,
+      "net_income": 1261000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 8417000000,
+      "net_income": 1248000000
+    }
+  ]
+}

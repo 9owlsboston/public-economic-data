@@ -1,0 +1,69 @@
+{
+  "company": "Larsen & Toubro",
+  "ticker": "LT.NS",
+  "source_id": "INE018A01030",
+  "currency": "INR",
+  "fx_rate_usd": 0.012,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 1556724600000,
+      "net_income": 86693300000,
+      "total_assets": 3200672400000,
+      "operating_cash_flow": 191635800000,
+      "capex": 31106300000
+    },
+    {
+      "year": 2023,
+      "revenue": 1816614200000,
+      "net_income": 104707200000,
+      "total_assets": 3303523100000,
+      "operating_cash_flow": 227769600000,
+      "capex": 41437900000
+    },
+    {
+      "year": 2024,
+      "revenue": 2191156900000,
+      "net_income": 130591100000,
+      "total_assets": 3401359700000,
+      "operating_cash_flow": 182662800000,
+      "capex": 45165300000
+    },
+    {
+      "year": 2025,
+      "revenue": 2542086500000,
+      "net_income": 150371100000,
+      "total_assets": 3795241000000,
+      "operating_cash_flow": 91607100000,
+      "capex": 44188300000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-09-30",
+      "revenue": 615545800000,
+      "net_income": 33952900000
+    },
+    {
+      "period_end": "2024-12-31",
+      "revenue": 646677800000,
+      "net_income": 33588400000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 728664700000,
+      "net_income": 54972600000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 636789200000,
+      "net_income": 36171900000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 714497000000,
+      "net_income": 32151100000
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "company": "Coinbase",
+  "ticker": "COIN",
+  "cik": "0001679788",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2019,
+      "revenue": 533735000,
+      "net_income": -30387000,
+      "rd_expense": 185044000,
+      "capex": 33521000
+    },
+    {
+      "year": 2020,
+      "revenue": 1277481000,
+      "net_income": 322317000,
+      "rd_expense": 271732000,
+      "total_assets": 5855414000,
+      "capex": 9913000
+    },
+    {
+      "year": 2021,
+      "revenue": 7839444000,
+      "net_income": 3624120000,
+      "rd_expense": 1291561000,
+      "total_assets": 21274425000,
+      "capex": 2910000
+    },
+    {
+      "year": 2022,
+      "revenue": 3194208000,
+      "net_income": -2624949000,
+      "rd_expense": 2326354000,
+      "total_assets": 89724873000,
+      "capex": 2933000
+    },
+    {
+      "year": 2023,
+      "revenue": 3108383000,
+      "net_income": 94871000,
+      "rd_expense": 1324541000,
+      "total_assets": 14753901000
+    },
+    {
+      "year": 2024,
+      "revenue": 6564028000,
+      "net_income": 2579066000,
+      "rd_expense": 1468252000,
+      "total_assets": 22541951000
+    },
+    {
+      "year": 2025,
+      "revenue": 7181325000,
+      "net_income": 1260327000,
+      "rd_expense": 1670605000,
+      "total_assets": 29671832000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 1166436000,
+      "net_income": -429659000,
+      "rd_expense": 570664000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 808325000,
+      "net_income": -1093654000,
+      "rd_expense": 609249000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 590339000,
+      "net_income": -544635000,
+      "rd_expense": 556338000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 772529000,
+      "net_income": -78896000,
+      "rd_expense": 358031000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 707911000,
+      "net_income": -97405000,
+      "rd_expense": 320667000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 674148000,
+      "net_income": -2265000,
+      "rd_expense": 322756000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 1637570000,
+      "net_income": 1176245000,
+      "rd_expense": 357863000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 1449628000,
+      "net_income": 36150000,
+      "rd_expense": 364258000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 1205193000,
+      "net_income": 75495000,
+      "rd_expense": 377440000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 2034295000,
+      "net_income": 65608000,
+      "rd_expense": 355368000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 1497208000,
+      "net_income": 1428900000,
+      "rd_expense": 387322000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 1868693000,
+      "net_income": 432552000,
+      "rd_expense": 430585000
+    }
+  ]
+}

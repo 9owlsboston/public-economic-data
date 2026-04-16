@@ -1,0 +1,119 @@
+{
+  "company": "Visa Inc.",
+  "ticker": "V",
+  "cik": "0001403161",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2013,
+      "revenue": 11778000000,
+      "net_income": 4980000000,
+      "total_assets": 35956000000
+    },
+    {
+      "year": 2014,
+      "revenue": 12702000000,
+      "net_income": 5438000000,
+      "total_assets": 38569000000
+    },
+    {
+      "year": 2015,
+      "revenue": 13880000000,
+      "net_income": 6328000000,
+      "total_assets": 39367000000
+    },
+    {
+      "year": 2016,
+      "revenue": 15082000000,
+      "net_income": 5991000000,
+      "total_assets": 64035000000
+    },
+    {
+      "year": 2017,
+      "revenue": 18358000000,
+      "net_income": 6699000000,
+      "total_assets": 67977000000
+    },
+    {
+      "year": 2018,
+      "revenue": 20609000000,
+      "net_income": 10301000000,
+      "total_assets": 69225000000
+    },
+    {
+      "year": 2019,
+      "revenue": 22977000000,
+      "net_income": 12080000000,
+      "total_assets": 72574000000
+    },
+    {
+      "year": 2020,
+      "revenue": 21846000000,
+      "net_income": 10866000000,
+      "total_assets": 80919000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2015-12-31",
+      "revenue": 3565000000,
+      "net_income": 1941000000
+    },
+    {
+      "period_end": "2016-03-31",
+      "revenue": 3626000000,
+      "net_income": 1707000000
+    },
+    {
+      "period_end": "2016-06-30",
+      "revenue": 3630000000,
+      "net_income": 412000000
+    },
+    {
+      "period_end": "2016-12-31",
+      "revenue": 4461000000,
+      "net_income": 2070000000
+    },
+    {
+      "period_end": "2017-03-31",
+      "revenue": 4477000000,
+      "net_income": 430000000
+    },
+    {
+      "period_end": "2017-06-30",
+      "revenue": 4565000000,
+      "net_income": 2059000000
+    },
+    {
+      "period_end": "2017-12-31",
+      "revenue": 4862000000,
+      "net_income": 2522000000
+    },
+    {
+      "period_end": "2018-03-31",
+      "revenue": 5073000000,
+      "net_income": 2605000000
+    },
+    {
+      "period_end": "2018-06-30",
+      "revenue": 5240000000,
+      "net_income": 2329000000
+    },
+    {
+      "period_end": "2018-12-31",
+      "revenue": 5506000000,
+      "net_income": 2977000000
+    },
+    {
+      "period_end": "2019-03-31",
+      "revenue": 5494000000,
+      "net_income": 2977000000
+    },
+    {
+      "period_end": "2019-06-30",
+      "revenue": 5840000000,
+      "net_income": 3101000000
+    }
+  ]
+}

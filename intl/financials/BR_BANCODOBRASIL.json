@@ -1,0 +1,69 @@
+{
+  "company": "Banco do Brasil",
+  "ticker": "BBAS3.SA",
+  "source_id": "BR_BANCODOBRASIL",
+  "currency": "BRL",
+  "fx_rate_usd": 0.19,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 123248268000,
+      "net_income": 31112242000,
+      "total_assets": 2029398765000,
+      "operating_cash_flow": 64694673000,
+      "capex": 6592814000
+    },
+    {
+      "year": 2023,
+      "revenue": 125465944000,
+      "net_income": 29860965000,
+      "total_assets": 2153878452000,
+      "operating_cash_flow": 16740785000,
+      "capex": 5031540000
+    },
+    {
+      "year": 2024,
+      "revenue": 144836573000,
+      "net_income": 26358860000,
+      "total_assets": 2398719197000,
+      "operating_cash_flow": 127208098000,
+      "capex": 5746240000
+    },
+    {
+      "year": 2025,
+      "revenue": 147119627000,
+      "net_income": 13698124000,
+      "total_assets": 2455143253000,
+      "operating_cash_flow": 159254089000,
+      "capex": 7366486000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-12-31",
+      "revenue": 37606967000,
+      "net_income": 4366370000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 36028512000,
+      "net_income": 3438804000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 34677579000,
+      "net_income": 2782083000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 35419525000,
+      "net_income": 2237301000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 41015625000,
+      "net_income": 5239936000
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "ticker": "BAYN",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -41,6 +41,56 @@
       "rnd_M": 6572,
       "cost_of_revenue_M": 19871,
       "net_income_M": 4150
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 11438.0,
+      "rnd_M": 1405.0,
+      "cost_of_revenue_M": 4501.0,
+      "net_income_M": -3757.0
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 9660.0,
+      "rnd_M": 1498.0,
+      "cost_of_revenue_M": 4307.0,
+      "net_income_M": -963.0
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 10739.0,
+      "rnd_M": 1408.0,
+      "cost_of_revenue_M": 4364.0,
+      "net_income_M": -199.0
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 13738.0,
+      "rnd_M": 1458.0,
+      "cost_of_revenue_M": 5625.0,
+      "net_income_M": 1299.0
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 11729.0,
+      "rnd_M": 1725.0,
+      "cost_of_revenue_M": 5723.0,
+      "net_income_M": -335.0
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ]
 }

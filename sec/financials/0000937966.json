@@ -1,0 +1,136 @@
+{
+  "cik": "0000937966",
+  "name": "ASML Holding NV",
+  "last_refreshed": "2026-04-15",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-25",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "EUR",
+      "revenue_M": 32667.0,
+      "rnd_M": 4699.0,
+      "cost_of_revenue_M": 15409.0,
+      "net_income_M": 9609.0,
+      "total_assets_M": 50567.0,
+      "operating_cash_flow_M": 12658.0,
+      "cash_M": 12916.0,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "total_assets": "us-gaap:Assets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-05",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "EUR",
+      "revenue_M": 28263.0,
+      "rnd_M": 4304.0,
+      "cost_of_revenue_M": 13771.0,
+      "net_income_M": 7572.0,
+      "total_assets_M": 48590.0,
+      "operating_cash_flow_M": 11166.0,
+      "cash_M": 12736.0
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2026-02-25",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "EUR",
+      "revenue_M": 28263.0,
+      "rnd_M": 4304.0,
+      "cost_of_revenue_M": 13771.0,
+      "net_income_M": 7572.0,
+      "total_assets_M": 48590.0,
+      "operating_cash_flow_M": 11166.0,
+      "cash_M": 12736.0
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2024-02-14",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "EUR",
+      "revenue_M": 27558.0,
+      "rnd_M": 3981.0,
+      "cost_of_revenue_M": 13422.0,
+      "net_income_M": 7839.0,
+      "total_assets_M": 39958.0,
+      "operating_cash_flow_M": 5443.0,
+      "cash_M": 7005.0
+    },
+    {
+      "period_end": "2023-12-31",
+      "filing_date": "2025-03-05",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "EUR",
+      "revenue_M": 27558.0,
+      "rnd_M": 3981.0,
+      "cost_of_revenue_M": 13422.0,
+      "net_income_M": 7839.0,
+      "total_assets_M": 39958.0,
+      "operating_cash_flow_M": 5443.0,
+      "cash_M": 7005.0
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 9718.0,
+      "rnd_M": 1262.0,
+      "cost_of_revenue_M": 4650.0,
+      "net_income_M": 2840.0
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 7516.0,
+      "rnd_M": 1109.0,
+      "cost_of_revenue_M": 3636.0,
+      "net_income_M": 2124.0
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 7692.0,
+      "rnd_M": 607.0,
+      "cost_of_revenue_M": 3648.0,
+      "net_income_M": 2676.0
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 7742.0,
+      "rnd_M": 1161.0,
+      "cost_of_revenue_M": 3562.0,
+      "net_income_M": 2355.0
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 9263.0,
+      "rnd_M": 1116.0,
+      "cost_of_revenue_M": 4473.0,
+      "net_income_M": 2693.0
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

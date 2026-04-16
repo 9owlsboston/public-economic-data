@@ -1,0 +1,39 @@
+{
+  "company": "Telstra",
+  "ticker": "TLS.AX",
+  "source_id": "AU000000TLS2",
+  "currency": "AUD",
+  "fx_rate_usd": 0.64,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 20920000000,
+      "net_income": 1688000000,
+      "total_assets": 41628000000,
+      "capex": 3094000000
+    },
+    {
+      "year": 2023,
+      "revenue": 22365000000,
+      "net_income": 1928000000,
+      "total_assets": 45029000000,
+      "capex": 3870000000
+    },
+    {
+      "year": 2024,
+      "revenue": 22537000000,
+      "net_income": 1622000000,
+      "total_assets": 45550000000,
+      "capex": 5064000000
+    },
+    {
+      "year": 2025,
+      "revenue": 22717000000,
+      "net_income": 2172000000,
+      "total_assets": 44968000000,
+      "capex": 3874000000
+    }
+  ],
+  "quarterly": []
+}

@@ -1,0 +1,96 @@
+{
+  "isin": "ES0109067019",
+  "name": "Amadeus IT Group SA",
+  "ticker": "AMS.MC",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-15",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 6517.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3649.0,
+      "net_income_M": 1336.0,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 6142.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3487.0,
+      "net_income_M": 1253.0
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 5441.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3030.0,
+      "net_income_M": 1118.0
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 4486.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2614.0,
+      "net_income_M": 664.0
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 1622.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 942.0,
+      "net_income_M": 248.0
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 1635.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 902.0,
+      "net_income_M": 361.0
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 1628.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 896.0,
+      "net_income_M": 372.0
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 1632.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 909.0,
+      "net_income_M": 355.0
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 1541.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 916.0,
+      "net_income_M": 264.0
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

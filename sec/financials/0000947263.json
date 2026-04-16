@@ -3,5 +3,62 @@
   "name": "Toronto-Dominion Bank",
   "last_refreshed": "2026-04-15",
   "annual": [],
-  "quarterly": []
+  "quarterly": [
+    {
+      "period_end": "2026-01-31",
+      "currency": "USD",
+      "revenue_M": 16501.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4043.0
+    },
+    {
+      "period_end": "2025-10-31",
+      "currency": "USD",
+      "revenue_M": 15894.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3280.0
+    },
+    {
+      "period_end": "2025-07-31",
+      "currency": "USD",
+      "revenue_M": 15482.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3336.0
+    },
+    {
+      "period_end": "2025-04-30",
+      "currency": "USD",
+      "revenue_M": 15004.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 11129.0
+    },
+    {
+      "period_end": "2025-01-31",
+      "currency": "USD",
+      "revenue_M": 14901.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2793.0
+    },
+    {
+      "period_end": "2024-10-31",
+      "currency": "USD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2024-07-31",
+      "currency": "USD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
 }

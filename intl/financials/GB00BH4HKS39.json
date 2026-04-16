@@ -1,0 +1,43 @@
+{
+  "company": "Vodafone",
+  "ticker": "VOD.L",
+  "source_id": "GB00BH4HKS39",
+  "currency": "GBP",
+  "fx_rate_usd": 1.27,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 37010000000,
+      "net_income": 2237000000,
+      "total_assets": 154049000000,
+      "operating_cash_flow": 18081000000,
+      "capex": 6922000000
+    },
+    {
+      "year": 2023,
+      "revenue": 37672000000,
+      "net_income": 11838000000,
+      "total_assets": 155521000000,
+      "operating_cash_flow": 18054000000,
+      "capex": 7756000000
+    },
+    {
+      "year": 2024,
+      "revenue": 36717000000,
+      "net_income": 1140000000,
+      "total_assets": 144350000000,
+      "operating_cash_flow": 16557000000,
+      "capex": 6860000000
+    },
+    {
+      "year": 2025,
+      "revenue": 37448000000,
+      "net_income": -4169000000,
+      "total_assets": 128521000000,
+      "operating_cash_flow": 15373000000,
+      "capex": 6699000000
+    }
+  ],
+  "quarterly": []
+}

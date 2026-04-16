@@ -1,0 +1,146 @@
+{
+  "company": "Tempus AI",
+  "ticker": "TEM",
+  "cik": "0001786842",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2018,
+      "revenue": 2665900000,
+      "net_income": 385500000,
+      "rd_expense": 136200000,
+      "capex": 42400000
+    },
+    {
+      "year": 2019,
+      "revenue": 2772100000,
+      "net_income": 436500000,
+      "rd_expense": 136400000,
+      "total_assets": 2828900000,
+      "capex": 38000000
+    },
+    {
+      "year": 2020,
+      "revenue": 2704600000,
+      "net_income": 342000000,
+      "rd_expense": 126200000,
+      "total_assets": 3073000000,
+      "capex": 35700000
+    },
+    {
+      "year": 2021,
+      "revenue": 2990700000,
+      "net_income": 413000000,
+      "rd_expense": 129300000,
+      "total_assets": 4349800000,
+      "capex": 47800000
+    },
+    {
+      "year": 2022,
+      "revenue": 3184400000,
+      "net_income": 401300000,
+      "rd_expense": 144600000,
+      "total_assets": 4343300000,
+      "capex": 60000000
+    },
+    {
+      "year": 2023,
+      "revenue": 3095200000,
+      "net_income": 376900000,
+      "rd_expense": 163500000,
+      "total_assets": 4294000000,
+      "capex": 60100000
+    },
+    {
+      "year": 2024,
+      "revenue": 2979000000,
+      "net_income": 422200000,
+      "rd_expense": 177700000,
+      "total_assets": 4310500000,
+      "capex": 82700000
+    },
+    {
+      "year": 2025,
+      "revenue": 3075600000,
+      "net_income": 406100000,
+      "rd_expense": 175700000,
+      "total_assets": 4368800000,
+      "capex": 69900000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-04-01",
+      "revenue": 748100000,
+      "net_income": 250200000,
+      "rd_expense": 34500000
+    },
+    {
+      "period_end": "2022-07-01",
+      "revenue": 776400000,
+      "net_income": 33300000,
+      "rd_expense": 34900000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 788000000,
+      "net_income": 50100000,
+      "rd_expense": 35000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 776400000,
+      "net_income": 82800000,
+      "rd_expense": 41000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 764400000,
+      "net_income": 97300000,
+      "rd_expense": 40300000
+    },
+    {
+      "period_end": "2023-09-29",
+      "revenue": 765400000,
+      "net_income": 90600000,
+      "rd_expense": 39100000
+    },
+    {
+      "period_end": "2024-03-29",
+      "revenue": 755800000,
+      "net_income": 136800000,
+      "rd_expense": 44500000
+    },
+    {
+      "period_end": "2024-06-28",
+      "revenue": 696400000,
+      "net_income": 70100000,
+      "rd_expense": 45100000
+    },
+    {
+      "period_end": "2024-09-27",
+      "revenue": 750000000,
+      "net_income": 91800000,
+      "rd_expense": 45700000
+    },
+    {
+      "period_end": "2025-03-28",
+      "revenue": 741100000,
+      "net_income": 87900000,
+      "rd_expense": 40200000
+    },
+    {
+      "period_end": "2025-06-27",
+      "revenue": 773500000,
+      "net_income": 91900000,
+      "rd_expense": 47500000
+    },
+    {
+      "period_end": "2025-09-26",
+      "revenue": 752500000,
+      "net_income": 102800000,
+      "rd_expense": 44400000
+    }
+  ]
+}

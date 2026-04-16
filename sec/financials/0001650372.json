@@ -1,0 +1,122 @@
+{
+  "company": "Atlassian",
+  "ticker": "TEAM",
+  "cik": "0001650372",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2021,
+      "revenue": 2089132000,
+      "net_income": -578979000,
+      "rd_expense": 932994000,
+      "capex": 31520000
+    },
+    {
+      "year": 2022,
+      "revenue": 2802882000,
+      "net_income": -519510000,
+      "rd_expense": 1291877000,
+      "total_assets": 3326830000,
+      "capex": 70583000
+    },
+    {
+      "year": 2023,
+      "revenue": 3534647000,
+      "net_income": -486761000,
+      "rd_expense": 1869881000,
+      "total_assets": 4106779000,
+      "capex": 25812000
+    },
+    {
+      "year": 2024,
+      "revenue": 4358603000,
+      "net_income": -300519000,
+      "rd_expense": 2184111000,
+      "total_assets": 5212133000,
+      "capex": 33112000
+    },
+    {
+      "year": 2025,
+      "revenue": 5215304000,
+      "net_income": -256687000,
+      "rd_expense": 2669312000,
+      "total_assets": 6041970000,
+      "capex": 44850000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 740491000,
+      "net_income": 4661000,
+      "rd_expense": 334161000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 807392000,
+      "net_income": -13741000,
+      "rd_expense": 399006000
+    },
+    {
+      "period_end": "2022-12-31",
+      "revenue": 872704000,
+      "net_income": -205031000,
+      "rd_expense": 473676000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 915453000,
+      "net_income": -209037000,
+      "rd_expense": 522344000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 977775000,
+      "net_income": -31883000,
+      "rd_expense": 481738000
+    },
+    {
+      "period_end": "2023-12-31",
+      "revenue": 1060110000,
+      "net_income": -84469000,
+      "rd_expense": 536779000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 1189128000,
+      "net_income": 12752000,
+      "rd_expense": 576490000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 1187781000,
+      "net_income": -123769000,
+      "rd_expense": 603101000
+    },
+    {
+      "period_end": "2024-12-31",
+      "revenue": 1286463000,
+      "net_income": -38208000,
+      "rd_expense": 680213000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 1356716000,
+      "net_income": -70807000,
+      "rd_expense": 685320000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 1432553000,
+      "net_income": -51870000,
+      "rd_expense": 755994000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 1586315000,
+      "net_income": -42645000,
+      "rd_expense": 826489000
+    }
+  ]
+}

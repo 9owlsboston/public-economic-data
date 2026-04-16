@@ -1,0 +1,78 @@
+{
+  "company": "Roblox",
+  "ticker": "RBLX",
+  "cik": "0001315098",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2019,
+      "revenue": 508393000,
+      "net_income": -70968000,
+      "rd_expense": 107095000,
+      "capex": 83264000
+    },
+    {
+      "year": 2020,
+      "revenue": 923885000,
+      "net_income": -253254000,
+      "rd_expense": 201433000,
+      "total_assets": 1847800000,
+      "capex": 104153000
+    },
+    {
+      "year": 2021,
+      "revenue": 1919181000,
+      "net_income": -491651000,
+      "rd_expense": 533207000,
+      "total_assets": 4560596000,
+      "capex": 93273000
+    },
+    {
+      "year": 2022,
+      "revenue": 2225052000,
+      "net_income": -924366000,
+      "rd_expense": 873477000,
+      "total_assets": 5375487000,
+      "capex": 426163000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2020-03-31",
+      "revenue": 161570000,
+      "net_income": -74379000,
+      "rd_expense": 49409000
+    },
+    {
+      "period_end": "2020-06-30",
+      "revenue": 200392000,
+      "net_income": -71521000,
+      "rd_expense": 40249000
+    },
+    {
+      "period_end": "2020-09-30",
+      "revenue": 251914000,
+      "net_income": -48613000,
+      "rd_expense": 51708000
+    },
+    {
+      "period_end": "2021-03-31",
+      "revenue": 386976000,
+      "net_income": -134217000,
+      "rd_expense": 96644000
+    },
+    {
+      "period_end": "2021-06-30",
+      "revenue": 454100000,
+      "net_income": -140134000,
+      "rd_expense": 124748000
+    },
+    {
+      "period_end": "2021-09-30",
+      "revenue": 509336000,
+      "net_income": -74002000,
+      "rd_expense": 138245000
+    }
+  ]
+}

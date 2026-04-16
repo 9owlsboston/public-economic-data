@@ -4,7 +4,7 @@
   "ticker": "VOW3",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -49,6 +49,48 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 83245.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 68650.0,
+      "net_income_M": 3319.0
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 80806.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 67204.0,
+      "net_income_M": 2335.0
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 77559.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 64758.0,
+      "net_income_M": 1982.0
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 87378.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 70290.0,
+      "net_income_M": 3286.0
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 78478.0,
+      "rnd_M": null,
+      "cost_of_revenue_M": 65440.0,
+      "net_income_M": 1348.0
     }
   ]
 }

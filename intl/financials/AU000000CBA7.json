@@ -1,0 +1,43 @@
+{
+  "company": "Commonwealth Bank of Australia",
+  "ticker": "CBA.AX",
+  "source_id": "AU000000CBA7",
+  "currency": "AUD",
+  "fx_rate_usd": 0.64,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 23734000000,
+      "net_income": 10690000000,
+      "total_assets": 1215260000000,
+      "operating_cash_flow": 23240000000,
+      "capex": 977000000
+    },
+    {
+      "year": 2023,
+      "revenue": 26779000000,
+      "net_income": 9998000000,
+      "total_assets": 1252423000000,
+      "operating_cash_flow": -8390000000,
+      "capex": 1568000000
+    },
+    {
+      "year": 2024,
+      "revenue": 27469000000,
+      "net_income": 9394000000,
+      "total_assets": 1254076000000,
+      "operating_cash_flow": -25623000000,
+      "capex": 1322000000
+    },
+    {
+      "year": 2025,
+      "revenue": 28657000000,
+      "net_income": 10116000000,
+      "total_assets": 1353799000000,
+      "operating_cash_flow": -825000000,
+      "capex": 1636000000
+    }
+  ],
+  "quarterly": []
+}

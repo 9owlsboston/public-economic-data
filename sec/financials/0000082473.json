@@ -1,0 +1,115 @@
+{
+  "company": "RELX PLC",
+  "ticker": "RELX",
+  "cik": "0000082473",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2016,
+      "revenue": 11616767,
+      "net_income": 432116,
+      "total_assets": 23940689
+    },
+    {
+      "year": 2017,
+      "revenue": 9197179,
+      "net_income": -2191972,
+      "total_assets": 22172832
+    },
+    {
+      "year": 2018,
+      "revenue": 5566203,
+      "net_income": 1397601,
+      "total_assets": 23228927
+    },
+    {
+      "year": 2019,
+      "revenue": 6168965,
+      "net_income": 1419701,
+      "total_assets": 17199754
+    },
+    {
+      "year": 2022,
+      "revenue": 6700000,
+      "net_income": 254144,
+      "total_assets": 14702309
+    },
+    {
+      "year": 2023,
+      "revenue": 7100000,
+      "net_income": 523171,
+      "total_assets": 17019972
+    },
+    {
+      "year": 2024,
+      "revenue": 7500000,
+      "net_income": 203880,
+      "total_assets": 15680367
+    },
+    {
+      "year": 2025,
+      "revenue": 7600000,
+      "net_income": -1391035,
+      "total_assets": 14193580
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2018-10-31",
+      "revenue": 1501196,
+      "net_income": 2899711
+    },
+    {
+      "period_end": "2019-04-30",
+      "revenue": 2093018,
+      "net_income": -328854
+    },
+    {
+      "period_end": "2022-01-31",
+      "revenue": 6700000,
+      "net_income": 254144
+    },
+    {
+      "period_end": "2023-01-31",
+      "revenue": 7500000,
+      "net_income": 523171
+    },
+    {
+      "period_end": "2024-01-31",
+      "revenue": 7100000,
+      "net_income": 203880
+    },
+    {
+      "period_end": "2024-04-30",
+      "revenue": 7500000,
+      "net_income": -148550
+    },
+    {
+      "period_end": "2024-05-31",
+      "revenue": 2900000
+    },
+    {
+      "period_end": "2024-07-31",
+      "revenue": 7500000,
+      "net_income": -370883
+    },
+    {
+      "period_end": "2024-10-31",
+      "revenue": 7500000,
+      "net_income": -276365
+    },
+    {
+      "period_end": "2025-01-31",
+      "revenue": 7600000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 2820000
+    },
+    {
+      "period_end": "2025-08-31",
+      "revenue": 4600000
+    }
+  ]
+}

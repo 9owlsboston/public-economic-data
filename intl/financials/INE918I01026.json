@@ -1,0 +1,69 @@
+{
+  "company": "Bajaj Finserv",
+  "ticker": "BAJAJFINSV.NS",
+  "source_id": "INE918I01026",
+  "currency": "INR",
+  "fx_rate_usd": 0.012,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 615160000000,
+      "net_income": 45567700000,
+      "total_assets": 3337189600000,
+      "operating_cash_flow": -336699900000,
+      "capex": 9098000000
+    },
+    {
+      "year": 2023,
+      "revenue": 738459200000,
+      "net_income": 64172800000,
+      "total_assets": 4055091900000,
+      "operating_cash_flow": -394795400000,
+      "capex": 12204900000
+    },
+    {
+      "year": 2024,
+      "revenue": 998800700000,
+      "net_income": 81477900000,
+      "total_assets": 5379296300000,
+      "operating_cash_flow": -655020400000,
+      "capex": 14354600000
+    },
+    {
+      "year": 2025,
+      "revenue": 1211924800000,
+      "net_income": 88723100000,
+      "total_assets": 6522316100000,
+      "operating_cash_flow": -621132500000,
+      "capex": 18635700000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-12-31",
+      "revenue": 268465400000,
+      "net_income": 22310000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 383139000000,
+      "net_income": 24166400000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 302309100000,
+      "net_income": 27890500000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 315642800000,
+      "net_income": 22441000000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 326194500000,
+      "net_income": 22291500000
+    }
+  ]
+}

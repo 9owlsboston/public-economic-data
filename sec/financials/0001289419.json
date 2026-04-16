@@ -1,0 +1,95 @@
+{
+  "company": "Morningstar",
+  "ticker": "MORN",
+  "cik": "0001289419",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2020,
+      "revenue": 327900000,
+      "total_assets": 2696000000,
+      "capex": 76700000
+    },
+    {
+      "year": 2021,
+      "revenue": 1699300000,
+      "total_assets": 2862700000,
+      "capex": 101800000
+    },
+    {
+      "year": 2022,
+      "revenue": 1870600000,
+      "total_assets": 3474800000,
+      "capex": 129500000
+    },
+    {
+      "year": 2023,
+      "revenue": 2038600000,
+      "total_assets": 3403400000,
+      "capex": 119100000
+    },
+    {
+      "year": 2024,
+      "revenue": 2275100000,
+      "total_assets": 3548900000,
+      "capex": 142700000
+    },
+    {
+      "year": 2025,
+      "revenue": 2445500000,
+      "total_assets": 3590200000,
+      "capex": 147100000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 457000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 470400000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 468200000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 479700000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 504700000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 515500000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 542800000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 571900000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 569400000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 581900000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 605100000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 617400000
+    }
+  ]
+}

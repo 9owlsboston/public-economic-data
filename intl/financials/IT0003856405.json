@@ -1,0 +1,69 @@
+{
+  "company": "Leonardo S.p.A.",
+  "ticker": "LDO.MI",
+  "source_id": "IT0003856405",
+  "currency": "EUR",
+  "fx_rate_usd": 1.08,
+  "source": "yahoo_finance",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 14713000000,
+      "net_income": 927000000,
+      "total_assets": 28582000000,
+      "operating_cash_flow": 1152000000,
+      "capex": 762000000
+    },
+    {
+      "year": 2023,
+      "revenue": 15291000000,
+      "net_income": 658000000,
+      "total_assets": 30693000000,
+      "operating_cash_flow": 1186000000,
+      "capex": 782000000
+    },
+    {
+      "year": 2024,
+      "revenue": 17763000000,
+      "net_income": 1074000000,
+      "total_assets": 33673000000,
+      "operating_cash_flow": 1541000000,
+      "capex": 895000000
+    },
+    {
+      "year": 2025,
+      "revenue": 19503000000,
+      "net_income": 1224000000,
+      "total_assets": 34509000000,
+      "operating_cash_flow": 1750000000,
+      "capex": 1016000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-09-30",
+      "revenue": 4091000000,
+      "net_income": 175000000
+    },
+    {
+      "period_end": "2024-12-31",
+      "revenue": 5687000000,
+      "net_income": 395000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 4159000000,
+      "net_income": 377000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 4760000000,
+      "net_income": 124000000
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 6059000000,
+      "net_income": 560000000
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "company": "Merck & Co.",
+  "ticker": "MRK",
+  "cik": "0000310158",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2018,
+      "revenue": 42294000000,
+      "net_income": 6220000000,
+      "rd_expense": 9752000000,
+      "total_assets": 82637000000
+    },
+    {
+      "year": 2019,
+      "revenue": 39121000000,
+      "net_income": 9843000000,
+      "rd_expense": 9724000000,
+      "total_assets": 84397000000
+    },
+    {
+      "year": 2020,
+      "revenue": 41518000000,
+      "net_income": 7067000000,
+      "rd_expense": 13397000000,
+      "total_assets": 91588000000
+    },
+    {
+      "year": 2021,
+      "revenue": 48704000000,
+      "net_income": 13049000000,
+      "rd_expense": 12245000000,
+      "total_assets": 105694000000,
+      "capex": 4448000000
+    },
+    {
+      "year": 2022,
+      "revenue": 59283000000,
+      "net_income": 14519000000,
+      "rd_expense": 13548000000,
+      "total_assets": 109160000000,
+      "capex": 4388000000
+    },
+    {
+      "year": 2023,
+      "revenue": 60115000000,
+      "net_income": 365000000,
+      "rd_expense": 30531000000,
+      "total_assets": 106675000000,
+      "capex": 3863000000
+    },
+    {
+      "year": 2024,
+      "revenue": 64168000000,
+      "net_income": 17117000000,
+      "rd_expense": 17938000000,
+      "total_assets": 117106000000,
+      "capex": 3372000000
+    },
+    {
+      "year": 2025,
+      "revenue": 65011000000,
+      "net_income": 18254000000,
+      "rd_expense": 15789000000,
+      "total_assets": 136866000000,
+      "capex": 4112000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 15901000000,
+      "net_income": 4310000000,
+      "rd_expense": 2576000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 14593000000,
+      "net_income": 3944000000,
+      "rd_expense": 2798000000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 14959000000,
+      "net_income": 3248000000,
+      "rd_expense": 4399000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 14487000000,
+      "net_income": 2821000000,
+      "rd_expense": 4276000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 15035000000,
+      "net_income": -5975000000,
+      "rd_expense": 13321000000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 15962000000,
+      "net_income": 4745000000,
+      "rd_expense": 3307000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 15775000000,
+      "net_income": 4762000000,
+      "rd_expense": 3992000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 16112000000,
+      "net_income": 5455000000,
+      "rd_expense": 3500000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 16657000000,
+      "net_income": 3157000000,
+      "rd_expense": 5862000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 15529000000,
+      "net_income": 5079000000,
+      "rd_expense": 3621000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 15806000000,
+      "net_income": 4427000000,
+      "rd_expense": 4048000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 17276000000,
+      "net_income": 5785000000,
+      "rd_expense": 4234000000
+    }
+  ]
+}

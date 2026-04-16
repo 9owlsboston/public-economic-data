@@ -119,5 +119,54 @@
       "total_assets_M": 79103
     }
   ],
-  "quarterly": []
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "USD",
+      "revenue_M": 8618.0,
+      "rnd_M": 2350.0,
+      "cost_of_revenue_M": 2657.0,
+      "net_income_M": 636.0
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "USD",
+      "revenue_M": 8547.0,
+      "rnd_M": 1689.0,
+      "cost_of_revenue_M": 2258.0,
+      "net_income_M": 2013.0
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "USD",
+      "revenue_M": 7986.0,
+      "rnd_M": 2024.0,
+      "cost_of_revenue_M": 2165.0,
+      "net_income_M": 1443.0
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "USD",
+      "revenue_M": 7516.0,
+      "rnd_M": 1462.0,
+      "cost_of_revenue_M": 1937.0,
+      "net_income_M": 1624.0
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "USD",
+      "revenue_M": 8117.0,
+      "rnd_M": 2031.0,
+      "cost_of_revenue_M": 2559.0,
+      "net_income_M": 414.0
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "USD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
 }

@@ -1,0 +1,107 @@
+{
+  "company": "Gartner",
+  "ticker": "IT",
+  "cik": "0000749251",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2009,
+      "revenue": 1139800000,
+      "net_income": 82964000,
+      "total_assets": 1215279000
+    },
+    {
+      "year": 2010,
+      "revenue": 1288454000,
+      "net_income": 96285000,
+      "total_assets": 1285658000
+    },
+    {
+      "year": 2011,
+      "revenue": 1468588000,
+      "net_income": 136902000,
+      "total_assets": 1379872000
+    },
+    {
+      "year": 2012,
+      "revenue": 1615808000,
+      "net_income": 165903000,
+      "total_assets": 1621277000
+    },
+    {
+      "year": 2013,
+      "revenue": 1784213000,
+      "net_income": 182801000,
+      "total_assets": 1783582000
+    },
+    {
+      "year": 2014,
+      "revenue": 2021441000,
+      "net_income": 183766000,
+      "total_assets": 1904351000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2011-06-30",
+      "revenue": 365543000,
+      "net_income": 32223000
+    },
+    {
+      "period_end": "2011-09-30",
+      "revenue": 345784000,
+      "net_income": 30464000
+    },
+    {
+      "period_end": "2012-03-31",
+      "revenue": 369171000,
+      "net_income": 34221000
+    },
+    {
+      "period_end": "2012-06-30",
+      "revenue": 397482000,
+      "net_income": 41484000
+    },
+    {
+      "period_end": "2012-09-30",
+      "revenue": 374406000,
+      "net_income": 31375000
+    },
+    {
+      "period_end": "2013-03-31",
+      "revenue": 406754000,
+      "net_income": 36675000
+    },
+    {
+      "period_end": "2013-06-30",
+      "revenue": 446047000,
+      "net_income": 46514000
+    },
+    {
+      "period_end": "2013-09-30",
+      "revenue": 410705000,
+      "net_income": 38194000
+    },
+    {
+      "period_end": "2014-03-31",
+      "revenue": 446702000,
+      "net_income": 37736000
+    },
+    {
+      "period_end": "2014-06-30",
+      "revenue": 519820000,
+      "net_income": 53040000
+    },
+    {
+      "period_end": "2014-09-30",
+      "revenue": 470940000,
+      "net_income": 33846000
+    },
+    {
+      "period_end": "2015-03-31",
+      "revenue": 471186000,
+      "net_income": 28351000
+    }
+  ]
+}

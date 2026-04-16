@@ -1,0 +1,127 @@
+{
+  "company": "Tegna",
+  "ticker": "TGNA",
+  "cik": "0000039899",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2010,
+      "revenue": 5438678000,
+      "net_income": 588201000,
+      "total_assets": 6816844000,
+      "capex": 69070000
+    },
+    {
+      "year": 2011,
+      "revenue": 5239989000,
+      "net_income": 458748000,
+      "total_assets": 6616450000,
+      "capex": 72451000
+    },
+    {
+      "year": 2012,
+      "revenue": 5353197000,
+      "net_income": 424280000,
+      "total_assets": 6379886000,
+      "capex": 91874000
+    },
+    {
+      "year": 2013,
+      "revenue": 1603123000,
+      "net_income": 388680000,
+      "total_assets": 9240706000,
+      "capex": 110407000
+    },
+    {
+      "year": 2014,
+      "revenue": 2626141000,
+      "net_income": 1062171000,
+      "total_assets": 11242195000,
+      "capex": 150354000
+    },
+    {
+      "year": 2015,
+      "revenue": 1764822000,
+      "net_income": 459522000,
+      "total_assets": 8505958000,
+      "capex": 118767000
+    },
+    {
+      "year": 2016,
+      "revenue": 2004088000,
+      "net_income": 436697000,
+      "total_assets": 8542725000,
+      "capex": 94796000
+    },
+    {
+      "year": 2017,
+      "revenue": 1903026000,
+      "net_income": 273744000,
+      "total_assets": 4962115000,
+      "capex": 76886000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2016-09-30",
+      "revenue": 519617000,
+      "net_income": 118683000
+    },
+    {
+      "period_end": "2017-03-31",
+      "revenue": 459070000,
+      "net_income": 57714000
+    },
+    {
+      "period_end": "2017-06-30",
+      "revenue": 489369000,
+      "net_income": -130352000
+    },
+    {
+      "period_end": "2017-09-30",
+      "revenue": 464264000,
+      "net_income": 42757000
+    },
+    {
+      "period_end": "2018-03-31",
+      "revenue": 502090000,
+      "net_income": 55187000
+    },
+    {
+      "period_end": "2018-06-30",
+      "revenue": 524080000,
+      "net_income": 92512000
+    },
+    {
+      "period_end": "2018-09-30",
+      "revenue": 538976000,
+      "net_income": 97151000
+    },
+    {
+      "period_end": "2019-03-31",
+      "revenue": 516753000,
+      "net_income": 73979000
+    },
+    {
+      "period_end": "2019-06-30",
+      "revenue": 536932000,
+      "net_income": 79955000
+    },
+    {
+      "period_end": "2019-09-30",
+      "revenue": 551857000,
+      "net_income": 48346000
+    },
+    {
+      "period_end": "2020-03-31",
+      "revenue": 684189000,
+      "net_income": 86308000
+    },
+    {
+      "period_end": "2020-06-30",
+      "revenue": 577627000,
+      "net_income": 19947000
+    }
+  ]
+}

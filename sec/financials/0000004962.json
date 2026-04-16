@@ -1,0 +1,92 @@
+{
+  "company": "American Express",
+  "ticker": "AXP",
+  "cik": "0000004962",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2008,
+      "revenue": 28365000000,
+      "net_income": 2699000000,
+      "total_assets": 126074000000,
+      "capex": 977000000
+    },
+    {
+      "year": 2009,
+      "revenue": 24523000000,
+      "net_income": 716000000,
+      "total_assets": 125145000000,
+      "capex": 722000000
+    },
+    {
+      "year": 2010,
+      "revenue": 27819000000,
+      "net_income": 1062000000,
+      "total_assets": 146689000000,
+      "capex": 878000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 7640000000,
+      "net_income": 2099000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 8771000000,
+      "net_income": 1964000000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 8733000000,
+      "net_income": 1879000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 8846000000,
+      "net_income": 1816000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 9433000000,
+      "net_income": 2174000000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 9377000000,
+      "net_income": 2451000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 9339000000,
+      "net_income": 2437000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 9818000000,
+      "net_income": 3015000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 9716000000,
+      "net_income": 2507000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 9626000000,
+      "net_income": 2584000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 10321000000,
+      "net_income": 2885000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 10415000000,
+      "net_income": 2902000000
+    }
+  ]
+}

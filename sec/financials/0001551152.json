@@ -1,0 +1,120 @@
+{
+  "company": "AbbVie",
+  "ticker": "ABBV",
+  "cik": "0001551152",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2019,
+      "revenue": 8479000000,
+      "net_income": 2801000000,
+      "total_assets": 89115000000,
+      "capex": 552000000
+    },
+    {
+      "year": 2020,
+      "revenue": 13858000000,
+      "net_income": 36000000,
+      "total_assets": 150565000000,
+      "capex": 798000000
+    },
+    {
+      "year": 2021,
+      "revenue": 14886000000,
+      "net_income": 4044000000,
+      "total_assets": 146529000000,
+      "capex": 787000000
+    },
+    {
+      "year": 2022,
+      "revenue": 15121000000,
+      "net_income": 2473000000,
+      "total_assets": 138805000000,
+      "capex": 695000000
+    },
+    {
+      "year": 2023,
+      "revenue": 14301000000,
+      "net_income": 822000000,
+      "total_assets": 134711000000,
+      "capex": 777000000
+    },
+    {
+      "year": 2024,
+      "revenue": 15102000000,
+      "net_income": -22000000,
+      "total_assets": 135161000000,
+      "capex": 974000000
+    },
+    {
+      "year": 2025,
+      "revenue": 16618000000,
+      "net_income": 1816000000,
+      "total_assets": 133960000000,
+      "capex": 1214000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 13538000000,
+      "net_income": 4490000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 14583000000,
+      "net_income": 924000000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 14812000000,
+      "net_income": 3949000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 12225000000,
+      "net_income": 239000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 13865000000,
+      "net_income": 2024000000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 13927000000,
+      "net_income": 1778000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 12310000000,
+      "net_income": 1369000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 14462000000,
+      "net_income": 1370000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 14460000000,
+      "net_income": 1561000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 13343000000,
+      "net_income": 1286000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 15423000000,
+      "net_income": 938000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 15776000000,
+      "net_income": 186000000
+    }
+  ]
+}

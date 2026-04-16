@@ -1,0 +1,69 @@
+{
+  "company": "Wix Ltd",
+  "ticker": "WIX",
+  "cik": "0001576789",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2018,
+      "revenue": 603704000,
+      "net_income": -37120000,
+      "rd_expense": 198912000,
+      "total_assets": 844750000,
+      "capex": 13684000
+    },
+    {
+      "year": 2019,
+      "revenue": 757667000,
+      "net_income": -87748000,
+      "rd_expense": 250791000,
+      "total_assets": 1099667000,
+      "capex": 21427000
+    },
+    {
+      "year": 2020,
+      "revenue": 984367000,
+      "net_income": -166867000,
+      "rd_expense": 320278000,
+      "total_assets": 1893526000,
+      "capex": 18403000
+    },
+    {
+      "year": 2021,
+      "revenue": 1269657000,
+      "net_income": -117209000,
+      "rd_expense": 424937000,
+      "total_assets": 2059787000
+    },
+    {
+      "year": 2022,
+      "revenue": 1387666000,
+      "net_income": -424863000,
+      "rd_expense": 482861000,
+      "total_assets": 1758367000
+    },
+    {
+      "year": 2023,
+      "revenue": 1561665000,
+      "net_income": 33137000,
+      "rd_expense": 481293000,
+      "total_assets": 1804136000
+    },
+    {
+      "year": 2024,
+      "revenue": 1760650000,
+      "net_income": 138322000,
+      "rd_expense": 495281000,
+      "total_assets": 1913042000
+    },
+    {
+      "year": 2025,
+      "revenue": 1993044000,
+      "net_income": 50646000,
+      "rd_expense": 645501000,
+      "total_assets": 2610974000
+    }
+  ],
+  "quarterly": []
+}

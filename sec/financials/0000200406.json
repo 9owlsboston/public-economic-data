@@ -1,0 +1,83 @@
+{
+  "company": "Johnson & Johnson",
+  "ticker": "JNJ",
+  "cik": "0000200406",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 19996000000,
+      "net_income": 4458000000,
+      "rd_expense": 0,
+      "total_assets": 182018000000,
+      "capex": 3652000000
+    },
+    {
+      "year": 2023,
+      "revenue": 19939000000,
+      "net_income": 4049000000,
+      "rd_expense": 483000000,
+      "total_assets": 167558000000,
+      "capex": 4543000000
+    },
+    {
+      "year": 2024,
+      "revenue": 88821000000,
+      "net_income": 14066000000,
+      "rd_expense": 1841000000,
+      "total_assets": 180104000000,
+      "capex": 4424000000
+    },
+    {
+      "year": 2025,
+      "revenue": 94193000000,
+      "net_income": 26804000000,
+      "rd_expense": 109000000,
+      "total_assets": 199210000000,
+      "capex": 4832000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2012-07-01",
+      "revenue": 16475000000,
+      "net_income": 1408000000
+    },
+    {
+      "period_end": "2012-09-30",
+      "revenue": 17052000000,
+      "net_income": 2968000000
+    },
+    {
+      "period_end": "2013-03-31",
+      "revenue": 17505000000,
+      "net_income": 3497000000
+    },
+    {
+      "period_end": "2013-06-30",
+      "revenue": 17877000000,
+      "net_income": 3833000000
+    },
+    {
+      "period_end": "2013-09-29",
+      "revenue": 17575000000,
+      "net_income": 2982000000
+    },
+    {
+      "period_end": "2014-03-30",
+      "revenue": 18115000000,
+      "net_income": 4727000000
+    },
+    {
+      "period_end": "2014-06-29",
+      "revenue": 19495000000,
+      "net_income": 4326000000
+    },
+    {
+      "period_end": "2014-09-28",
+      "revenue": 18467000000,
+      "net_income": 4749000000
+    }
+  ]
+}

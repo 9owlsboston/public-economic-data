@@ -1,0 +1,78 @@
+{
+  "company": "Shopify Inc.",
+  "ticker": "SHOP",
+  "cik": "0001594805",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2022,
+      "revenue": 5600000000,
+      "net_income": -3460000000,
+      "rd_expense": 1503000000,
+      "capex": 50000000
+    },
+    {
+      "year": 2023,
+      "revenue": 7060000000,
+      "net_income": 132000000,
+      "rd_expense": 1730000000,
+      "total_assets": 11299000000,
+      "capex": 39000000
+    },
+    {
+      "year": 2024,
+      "revenue": 8880000000,
+      "net_income": 2019000000,
+      "rd_expense": 1367000000,
+      "total_assets": 13924000000,
+      "capex": 19000000
+    },
+    {
+      "year": 2025,
+      "revenue": 11556000000,
+      "net_income": 1231000000,
+      "rd_expense": 1536000000,
+      "total_assets": 15189000000,
+      "capex": 26000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-03-31",
+      "revenue": 1861000000,
+      "net_income": -273000000,
+      "rd_expense": 335000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 2045000000,
+      "net_income": 171000000,
+      "rd_expense": 349000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 2162000000,
+      "net_income": 828000000,
+      "rd_expense": 332000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 2360000000,
+      "net_income": -682000000,
+      "rd_expense": 377000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 2680000000,
+      "net_income": 906000000,
+      "rd_expense": 394000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 2844000000,
+      "net_income": 264000000,
+      "rd_expense": 375000000
+    }
+  ]
+}

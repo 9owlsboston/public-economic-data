@@ -1,0 +1,65 @@
+{
+  "company": "monday.com",
+  "ticker": "MNDY",
+  "cik": "0001845338",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2019,
+      "revenue": 78089000,
+      "net_income": -91611000,
+      "rd_expense": 24637000,
+      "capex": 1402000
+    },
+    {
+      "year": 2020,
+      "revenue": 161123000,
+      "net_income": -152203000,
+      "rd_expense": 43480000,
+      "total_assets": 157420000,
+      "capex": 4362000
+    },
+    {
+      "year": 2021,
+      "revenue": 308150000,
+      "net_income": -129294000,
+      "rd_expense": 73686000,
+      "total_assets": 933192000,
+      "capex": 11578000
+    },
+    {
+      "year": 2022,
+      "revenue": 519029000,
+      "net_income": -136867000,
+      "rd_expense": 127047000,
+      "total_assets": 1039043000,
+      "capex": 16003000
+    },
+    {
+      "year": 2023,
+      "revenue": 729695000,
+      "net_income": -1877000,
+      "rd_expense": 156500000,
+      "total_assets": 1275656000,
+      "capex": 7901000
+    },
+    {
+      "year": 2024,
+      "revenue": 971995000,
+      "net_income": 32372000,
+      "rd_expense": 213709000,
+      "total_assets": 1685508000,
+      "capex": 13211000
+    },
+    {
+      "year": 2025,
+      "revenue": 1231997000,
+      "net_income": 118742000,
+      "rd_expense": 320799000,
+      "total_assets": 2106600000,
+      "capex": 20362000
+    }
+  ],
+  "quarterly": []
+}

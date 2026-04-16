@@ -1,0 +1,120 @@
+{
+  "company": "United Wholesale Mortgage",
+  "ticker": "UWMC",
+  "cik": "0001783398",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2019,
+      "revenue": 1278420000,
+      "net_income": -39002,
+      "total_assets": 412494,
+      "capex": 16775000
+    },
+    {
+      "year": 2020,
+      "revenue": 4938594000,
+      "net_income": -5807306,
+      "total_assets": 11493476000,
+      "capex": 57288000
+    },
+    {
+      "year": 2021,
+      "revenue": 2970293000,
+      "net_income": 98445000,
+      "total_assets": 22528358000,
+      "capex": 65384000
+    },
+    {
+      "year": 2022,
+      "revenue": 2372626000,
+      "net_income": 41715000,
+      "total_assets": 13600625000,
+      "capex": 26615000
+    },
+    {
+      "year": 2023,
+      "revenue": 2165475000,
+      "net_income": -13230000,
+      "total_assets": 11871854000,
+      "capex": 26434000
+    },
+    {
+      "year": 2024,
+      "revenue": 2674126000,
+      "net_income": 14404000,
+      "total_assets": 15671116000,
+      "capex": 39455000
+    },
+    {
+      "year": 2025,
+      "revenue": 3160569000,
+      "net_income": 27380000,
+      "total_assets": 16928676000,
+      "capex": 74048000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 821794000,
+      "net_income": 21930000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 564225000,
+      "net_income": 8366000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 684173000,
+      "net_income": 11696000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 161274000,
+      "net_income": -11941000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 587520000,
+      "net_income": 7558000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 677116000,
+      "net_income": 18231000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 585519000,
+      "net_income": 8730000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 622413000,
+      "net_income": 3050000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 745598000,
+      "net_income": -6295000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 613370000,
+      "net_income": -13679000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 758700000,
+      "net_income": 22909000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 843252000,
+      "net_income": -1262000
+    }
+  ]
+}

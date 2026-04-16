@@ -1,0 +1,119 @@
+{
+  "company": "Bank of America",
+  "ticker": "BAC",
+  "cik": "0000070858",
+  "currency": "USD",
+  "source": "sec_edgar",
+  "annual": [
+    {
+      "year": 2018,
+      "revenue": 91020000000,
+      "net_income": 28147000000,
+      "total_assets": 2354507000000
+    },
+    {
+      "year": 2019,
+      "revenue": 91244000000,
+      "net_income": 27430000000,
+      "total_assets": 2434079000000
+    },
+    {
+      "year": 2020,
+      "revenue": 85528000000,
+      "net_income": 17894000000,
+      "total_assets": 2819627000000
+    },
+    {
+      "year": 2021,
+      "revenue": 89113000000,
+      "net_income": 31978000000,
+      "total_assets": 3169495000000
+    },
+    {
+      "year": 2022,
+      "revenue": 94950000000,
+      "net_income": 27528000000,
+      "total_assets": 3051375000000
+    },
+    {
+      "year": 2023,
+      "revenue": 102769000000,
+      "net_income": 26305000000,
+      "total_assets": 3180151000000
+    },
+    {
+      "year": 2024,
+      "revenue": 105856000000,
+      "net_income": 26973000000,
+      "total_assets": 3261299000000
+    },
+    {
+      "year": 2025,
+      "revenue": 113097000000,
+      "net_income": 30509000000,
+      "total_assets": 3411738000000
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2022-03-31",
+      "revenue": 23228000000,
+      "net_income": 7067000000
+    },
+    {
+      "period_end": "2022-06-30",
+      "revenue": 22688000000,
+      "net_income": 6247000000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 24502000000,
+      "net_income": 7082000000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 26258000000,
+      "net_income": 8161000000
+    },
+    {
+      "period_end": "2023-06-30",
+      "revenue": 25197000000,
+      "net_income": 7408000000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 25167000000,
+      "net_income": 7802000000
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 25818000000,
+      "net_income": 6674000000
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 25377000000,
+      "net_income": 6897000000
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 25345000000,
+      "net_income": 6896000000
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 27366000000,
+      "net_income": 7396000000
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 26463000000,
+      "net_income": 7116000000
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 28088000000,
+      "net_income": 8469000000
+    }
+  ]
+}

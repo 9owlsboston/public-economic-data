@@ -1,0 +1,54 @@
+{
+  "isin": "CH0038863350",
+  "name": "Nestle SA",
+  "ticker": "NESN.SW",
+  "exchange": "SIX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-15",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CHF",
+      "revenue_M": 89885.0,
+      "rnd_M": 1613.0,
+      "cost_of_revenue_M": 48694.0,
+      "net_income_M": 9033.0,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CHF",
+      "revenue_M": 91720.0,
+      "rnd_M": 1667.0,
+      "cost_of_revenue_M": 48670.0,
+      "net_income_M": 10884.0
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "CHF",
+      "revenue_M": 93351.0,
+      "rnd_M": 1656.0,
+      "cost_of_revenue_M": 50328.0,
+      "net_income_M": 11209.0
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "CHF",
+      "revenue_M": 94780.0,
+      "rnd_M": 1696.0,
+      "cost_of_revenue_M": 51745.0,
+      "net_income_M": 9270.0
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "CHF",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}
