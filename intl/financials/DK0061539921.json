@@ -1,0 +1,108 @@
+{
+  "isin": "DK0061539921",
+  "name": "Vestas Wind Systems A/S",
+  "ticker": "VWS",
+  "exchange": "OMX Copenhagen",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "DKK",
+      "revenue_M": 18822,
+      "rnd_M": 424,
+      "cost_of_revenue_M": 16325,
+      "net_income_M": 778,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "DKK",
+      "revenue_M": 17295,
+      "rnd_M": 380,
+      "cost_of_revenue_M": 15238,
+      "net_income_M": 499
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "DKK",
+      "revenue_M": 15382,
+      "rnd_M": 371,
+      "cost_of_revenue_M": 14099,
+      "net_income_M": 77
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "DKK",
+      "revenue_M": 14486,
+      "rnd_M": 457,
+      "cost_of_revenue_M": 14368,
+      "net_income_M": -1572
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "DKK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "DKK",
+      "revenue_M": 6270,
+      "rnd_M": 73,
+      "cost_of_revenue_M": 5321,
+      "net_income_M": 439,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "DKK",
+      "revenue_M": 5339,
+      "rnd_M": 122,
+      "cost_of_revenue_M": 4567,
+      "net_income_M": 302
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "DKK",
+      "revenue_M": 3745,
+      "rnd_M": 119,
+      "cost_of_revenue_M": 3328,
+      "net_income_M": 32
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "DKK",
+      "revenue_M": 3468,
+      "rnd_M": 110,
+      "cost_of_revenue_M": 3109,
+      "net_income_M": 5
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "DKK",
+      "revenue_M": 6141,
+      "rnd_M": 107,
+      "cost_of_revenue_M": 5028,
+      "net_income_M": 598
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "DKK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "isin": "SE0000115420",
+  "name": "Atlas Copco AB",
+  "ticker": "ATCO-A",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 168343,
+      "rnd_M": 7067,
+      "cost_of_revenue_M": 96131,
+      "net_income_M": 26420,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 176771,
+      "rnd_M": 7065,
+      "cost_of_revenue_M": 101027,
+      "net_income_M": 29782
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "SEK",
+      "revenue_M": 172664,
+      "rnd_M": 6693,
+      "cost_of_revenue_M": 97547,
+      "net_income_M": 28040
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "SEK",
+      "revenue_M": 141325,
+      "rnd_M": 5389,
+      "cost_of_revenue_M": 81941,
+      "net_income_M": 23477
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 42782,
+      "rnd_M": 1827,
+      "cost_of_revenue_M": 24801,
+      "net_income_M": 6623,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "SEK",
+      "revenue_M": 41210,
+      "rnd_M": 1696,
+      "cost_of_revenue_M": 23064,
+      "net_income_M": 6523
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "SEK",
+      "revenue_M": 42730,
+      "rnd_M": 1850,
+      "cost_of_revenue_M": 24240,
+      "net_income_M": 6597
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 45988,
+      "rnd_M": 1737,
+      "cost_of_revenue_M": 26918,
+      "net_income_M": 7798
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "SEK",
+      "revenue_M": 43105,
+      "rnd_M": 1698,
+      "cost_of_revenue_M": 24375,
+      "net_income_M": 7170
+    }
+  ]
+}

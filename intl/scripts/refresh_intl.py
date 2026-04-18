@@ -34,7 +34,7 @@ def _to_millions(value) -> int | None:
 
 
 def refresh_company(yf_symbol: str, info: dict) -> dict | None:
-    """Fetch annual income statements for a company via yfinance.
+    """Fetch annual and quarterly income statements for a company via yfinance.
 
     Returns a dict matching the repo's standard schema, or None on error.
     """
@@ -46,28 +46,37 @@ def refresh_company(yf_symbol: str, info: dict) -> dict | None:
 
     currency = info.get("currency", "EUR")
 
-    annual = []
-    for i, col in enumerate(inc.columns):
-        def _get(label):
-            return inc.loc[label, col] if label in inc.index else None
+    def _extract_entries(df):
+        """Extract financial entries from a yfinance DataFrame."""
+        entries = []
+        if df is None or df.empty:
+            return entries
+        for i, col in enumerate(df.columns):
+            def _get(label, _df=df, _col=col):
+                return _df.loc[label, _col] if label in _df.index else None
 
-        entry = {
-            "period_end": col.date().isoformat(),
-            "currency": currency,
-            "revenue_M": _to_millions(_get("Total Revenue")),
-            "rnd_M": _to_millions(_get("Research And Development")),
-            "cost_of_revenue_M": _to_millions(_get("Cost Of Revenue")),
-            "net_income_M": _to_millions(_get("Net Income")),
-        }
-        if i == 0:
-            entry["tags_used"] = {
-                "source": "yahoo_finance",
-                "notes": "Values converted from full units to millions via yfinance",
+            entry = {
+                "period_end": col.date().isoformat(),
+                "currency": currency,
+                "revenue_M": _to_millions(_get("Total Revenue")),
+                "rnd_M": _to_millions(_get("Research And Development")),
+                "cost_of_revenue_M": _to_millions(_get("Cost Of Revenue")),
+                "net_income_M": _to_millions(_get("Net Income")),
             }
-        annual.append(entry)
+            if i == 0:
+                entry["tags_used"] = {
+                    "source": "yahoo_finance",
+                    "notes": "Values converted from full units to millions via yfinance",
+                }
+            entries.append(entry)
+        entries.sort(key=lambda x: x["period_end"], reverse=True)
+        return entries
 
-    # Sort descending by period_end
-    annual.sort(key=lambda x: x["period_end"], reverse=True)
+    annual = _extract_entries(inc)
+
+    # Quarterly financials
+    q_inc = ticker.quarterly_financials
+    quarterly = _extract_entries(q_inc)
 
     return {
         "isin": None,  # filled in by caller
@@ -77,6 +86,7 @@ def refresh_company(yf_symbol: str, info: dict) -> dict | None:
         "source": "yahoo_finance",
         "last_refreshed": date.today().isoformat(),
         "annual": annual,
+        "quarterly": quarterly,
     }
 
 
@@ -135,8 +145,11 @@ def main():
         if json_path.exists():
             with open(json_path) as f:
                 existing = json.load(f)
+            # Skip legacy entries that lack period_end (old schema used "year")
             existing_periods = {
-                e["period_end"]: e for e in existing.get("annual", [])
+                e["period_end"]: e
+                for e in existing.get("annual", [])
+                if "period_end" in e
             }
             for entry in result["annual"]:
                 existing_periods[entry["period_end"]] = entry  # newer wins

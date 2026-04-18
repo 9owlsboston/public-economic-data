@@ -1,0 +1,47 @@
+{
+  "isin": "CH0102484968",
+  "name": "SGS SA",
+  "ticker": "SGSN",
+  "exchange": "SIX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CHF",
+      "revenue_M": 6945,
+      "rnd_M": null,
+      "cost_of_revenue_M": 977,
+      "net_income_M": 668,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CHF",
+      "revenue_M": 6794,
+      "rnd_M": null,
+      "cost_of_revenue_M": 961,
+      "net_income_M": 581
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "CHF",
+      "revenue_M": 6622,
+      "rnd_M": null,
+      "cost_of_revenue_M": 946,
+      "net_income_M": 553
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "CHF",
+      "revenue_M": 6642,
+      "rnd_M": null,
+      "cost_of_revenue_M": 945,
+      "net_income_M": 588
+    }
+  ],
+  "quarterly": []
+}

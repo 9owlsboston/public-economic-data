@@ -1,0 +1,108 @@
+{
+  "isin": "FI0009000681",
+  "name": "Nokia Oyj",
+  "ticker": "NOKIA",
+  "exchange": "OMX Helsinki",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 19889,
+      "rnd_M": 4855,
+      "cost_of_revenue_M": 11230,
+      "net_income_M": 651,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 19220,
+      "rnd_M": 4512,
+      "cost_of_revenue_M": 10356,
+      "net_income_M": 1277
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 21138,
+      "rnd_M": 4277,
+      "cost_of_revenue_M": 12592,
+      "net_income_M": 665
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 23761,
+      "rnd_M": 4503,
+      "cost_of_revenue_M": 13660,
+      "net_income_M": 4250
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 6125,
+      "rnd_M": 1376,
+      "cost_of_revenue_M": 3371,
+      "net_income_M": 542,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 4828,
+      "rnd_M": 1174,
+      "cost_of_revenue_M": 2718,
+      "net_income_M": 78
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 4546,
+      "rnd_M": 1161,
+      "cost_of_revenue_M": 2575,
+      "net_income_M": 90
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 4390,
+      "rnd_M": 1145,
+      "cost_of_revenue_M": 2566,
+      "net_income_M": -59
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5984,
+      "rnd_M": 1136,
+      "cost_of_revenue_M": null,
+      "net_income_M": 806
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

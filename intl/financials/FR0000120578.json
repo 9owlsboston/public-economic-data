@@ -1,0 +1,108 @@
+{
+  "isin": "FR0000120578",
+  "name": "Sanofi SA",
+  "ticker": "SAN_PA",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 46716,
+      "rnd_M": 7842,
+      "cost_of_revenue_M": 13049,
+      "net_income_M": 7813,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 44286,
+      "rnd_M": 7394,
+      "cost_of_revenue_M": 13205,
+      "net_income_M": 5560
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 41618,
+      "rnd_M": 6507,
+      "cost_of_revenue_M": 12628,
+      "net_income_M": 5400
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 40561,
+      "rnd_M": 6501,
+      "cost_of_revenue_M": 11882,
+      "net_income_M": 8371
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 12205,
+      "rnd_M": 2291,
+      "cost_of_revenue_M": 3756,
+      "net_income_M": -801,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 13170,
+      "rnd_M": 1834,
+      "cost_of_revenue_M": 3412,
+      "net_income_M": 2802
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 10735,
+      "rnd_M": 1909,
+      "cost_of_revenue_M": 2992,
+      "net_income_M": 3940
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 10606,
+      "rnd_M": 1808,
+      "cost_of_revenue_M": 2889,
+      "net_income_M": 1872
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 7631,
+      "rnd_M": 2119,
+      "cost_of_revenue_M": 2271,
+      "net_income_M": 499
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "isin": "NO0010096985",
+  "name": "Equinor ASA",
+  "ticker": "EQNR",
+  "exchange": "Oslo Bors",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "NOK",
+      "revenue_M": 105828,
+      "rnd_M": null,
+      "cost_of_revenue_M": 67482,
+      "net_income_M": 5043,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "NOK",
+      "revenue_M": 102502,
+      "rnd_M": null,
+      "cost_of_revenue_M": 59875,
+      "net_income_M": 8806
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "NOK",
+      "revenue_M": 106848,
+      "rnd_M": null,
+      "cost_of_revenue_M": 58809,
+      "net_income_M": 11885
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "NOK",
+      "revenue_M": 149004,
+      "rnd_M": null,
+      "cost_of_revenue_M": 60197,
+      "net_income_M": 28746
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "NOK",
+      "revenue_M": 25297,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16353,
+      "net_income_M": 1314,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "NOK",
+      "revenue_M": 26017,
+      "rnd_M": null,
+      "cost_of_revenue_M": 17214,
+      "net_income_M": -210
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "NOK",
+      "revenue_M": 25130,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16161,
+      "net_income_M": 1313
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "NOK",
+      "revenue_M": 29384,
+      "rnd_M": null,
+      "cost_of_revenue_M": 17753,
+      "net_income_M": 2627
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "NOK",
+      "revenue_M": 26535,
+      "rnd_M": null,
+      "cost_of_revenue_M": 15693,
+      "net_income_M": 1996
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "NOK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

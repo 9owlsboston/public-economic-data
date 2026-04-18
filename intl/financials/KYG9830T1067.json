@@ -1,0 +1,92 @@
+{
+  "isin": "KYG9830T1067",
+  "name": "Xiaomi Corp",
+  "ticker": "1810",
+  "exchange": "HKEX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "HKD",
+      "revenue_M": 365906,
+      "rnd_M": 24050,
+      "cost_of_revenue_M": 289346,
+      "net_income_M": 23658
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "HKD",
+      "revenue_M": 270970,
+      "rnd_M": 19098,
+      "cost_of_revenue_M": 213494,
+      "net_income_M": 17475
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "HKD",
+      "revenue_M": 280044,
+      "rnd_M": 16028,
+      "cost_of_revenue_M": 232467,
+      "net_income_M": 2474
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "HKD",
+      "revenue_M": 328309,
+      "rnd_M": 13167,
+      "cost_of_revenue_M": 270048,
+      "net_income_M": 19339
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-09-30",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "HKD",
+      "revenue_M": 115956,
+      "rnd_M": 7763,
+      "cost_of_revenue_M": 89855,
+      "net_income_M": 11904
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

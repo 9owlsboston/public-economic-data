@@ -1,0 +1,100 @@
+{
+  "isin": "FI0009013296",
+  "name": "TietoEVRY Oyj",
+  "ticker": "TIETO",
+  "exchange": "OMX Helsinki",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 1852,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1409,
+      "net_income_M": -140,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 1880,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1440,
+      "net_income_M": -63
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 2851,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2029,
+      "net_income_M": 172
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 2928,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2062,
+      "net_income_M": 189
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 464,
+      "rnd_M": null,
+      "cost_of_revenue_M": 352,
+      "net_income_M": 44,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 463,
+      "rnd_M": null,
+      "cost_of_revenue_M": 387,
+      "net_income_M": -34
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 471,
+      "rnd_M": null,
+      "cost_of_revenue_M": 387,
+      "net_income_M": -80
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 472,
+      "rnd_M": null,
+      "cost_of_revenue_M": 384,
+      "net_income_M": -168
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 436,
+      "rnd_M": null,
+      "cost_of_revenue_M": 346,
+      "net_income_M": 38
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "isin": "FR0000045072",
+  "name": "Credit Agricole SA",
+  "ticker": "ACA",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 26261,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7074,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 25328,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7087
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 23454,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6348
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 20646,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5306
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 4691,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1024,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 6007,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2389
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 7257,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1824
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5234,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1690
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 6483,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1666
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "ticker": "TOM2",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -41,6 +41,52 @@
       "rnd_M": 377,
       "cost_of_revenue_M": 87,
       "net_income_M": -103
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 129,
+      "rnd_M": 74,
+      "cost_of_revenue_M": 13,
+      "net_income_M": 14,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 131,
+      "rnd_M": 75,
+      "cost_of_revenue_M": 14,
+      "net_income_M": 5
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 146,
+      "rnd_M": 89,
+      "cost_of_revenue_M": 18,
+      "net_income_M": -24
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 140,
+      "rnd_M": 84,
+      "cost_of_revenue_M": 17,
+      "net_income_M": 3
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 142,
+      "rnd_M": 92,
+      "cost_of_revenue_M": 18,
+      "net_income_M": -6
     }
   ]
 }

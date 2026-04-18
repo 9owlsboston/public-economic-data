@@ -1,69 +1,108 @@
 {
-  "company": "Banco do Brasil",
-  "ticker": "BBAS3.SA",
-  "source_id": "BR_BANCODOBRASIL",
-  "currency": "BRL",
-  "fx_rate_usd": 0.19,
+  "isin": "BR_BANCODOBRASIL",
+  "name": "Banco do Brasil S.A.",
+  "ticker": "BBAS3",
+  "exchange": "B3",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 123248268000,
-      "net_income": 31112242000,
-      "total_assets": 2029398765000,
-      "operating_cash_flow": 64694673000,
-      "capex": 6592814000
+      "period_end": "2025-12-31",
+      "currency": "BRL",
+      "revenue_M": 147120,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 13698,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 125465944000,
-      "net_income": 29860965000,
-      "total_assets": 2153878452000,
-      "operating_cash_flow": 16740785000,
-      "capex": 5031540000
+      "period_end": "2024-12-31",
+      "currency": "BRL",
+      "revenue_M": 144837,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 26359
     },
     {
-      "year": 2024,
-      "revenue": 144836573000,
-      "net_income": 26358860000,
-      "total_assets": 2398719197000,
-      "operating_cash_flow": 127208098000,
-      "capex": 5746240000
+      "period_end": "2023-12-31",
+      "currency": "BRL",
+      "revenue_M": 125466,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 29861
     },
     {
-      "year": 2025,
-      "revenue": 147119627000,
-      "net_income": 13698124000,
-      "total_assets": 2455143253000,
-      "operating_cash_flow": 159254089000,
-      "capex": 7366486000
+      "period_end": "2022-12-31",
+      "currency": "BRL",
+      "revenue_M": 123248,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 31112
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "BRL",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-12-31",
-      "revenue": 37606967000,
-      "net_income": 4366370000
-    },
-    {
-      "period_end": "2025-03-31",
-      "revenue": 36028512000,
-      "net_income": 3438804000
-    },
-    {
-      "period_end": "2025-06-30",
-      "revenue": 34677579000,
-      "net_income": 2782083000
+      "period_end": "2025-12-31",
+      "currency": "BRL",
+      "revenue_M": 41016,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5240,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-09-30",
-      "revenue": 35419525000,
-      "net_income": 2237301000
+      "currency": "BRL",
+      "revenue_M": 35420,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2237
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 41015625000,
-      "net_income": 5239936000
+      "period_end": "2025-06-30",
+      "currency": "BRL",
+      "revenue_M": 34678,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2782
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "BRL",
+      "revenue_M": 36029,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3439
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "BRL",
+      "revenue_M": 37607,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4366
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "BRL",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ]
 }

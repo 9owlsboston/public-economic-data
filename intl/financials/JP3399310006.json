@@ -1,0 +1,60 @@
+{
+  "isin": "JP3399310006",
+  "name": "Dai-ichi Life Holdings, Inc.",
+  "ticker": "8750",
+  "exchange": "TSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "JPY",
+      "revenue_M": 9128610,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 429613,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "JPY",
+      "revenue_M": 10487502,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 320765
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "JPY",
+      "revenue_M": 8411439,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 173735
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "JPY",
+      "revenue_M": 7858100,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 409353
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-06-30",
+      "currency": "JPY",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    }
+  ]
+}

@@ -1,26 +1,27 @@
 {
   "cik": "0000802257",
   "name": "Mitesco, Inc.",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "period_end": "2024-12-31",
-      "filing_date": "2025-03-31",
+      "period_end": "2025-12-31",
+      "filing_date": "2026-04-15",
       "form": "10-K",
       "namespace": "us-gaap",
       "currency": "USD",
       "revenue_M": 0,
-      "rnd_M": null,
+      "rnd_M": 0,
       "cost_of_revenue_M": null,
-      "net_income_M": -3,
+      "net_income_M": 0,
       "capex_M": null,
       "operating_cash_flow_M": -1,
-      "sga_M": 1,
+      "sga_M": 2,
       "cash_M": 0,
       "total_debt_M": 0,
       "total_assets_M": 0,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
         "net_income": "us-gaap:NetIncomeLoss",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
         "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
@@ -28,6 +29,23 @@
         "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
       }
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-03-31",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 0,
+      "rnd_M": 0,
+      "cost_of_revenue_M": null,
+      "net_income_M": -3,
+      "capex_M": null,
+      "operating_cash_flow_M": -1,
+      "sga_M": 1,
+      "cash_M": 0,
+      "total_debt_M": 0,
+      "total_assets_M": 0
     },
     {
       "period_end": "2023-12-31",

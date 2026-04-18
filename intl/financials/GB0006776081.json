@@ -1,0 +1,47 @@
+{
+  "isin": "GB0006776081",
+  "name": "SSE plc",
+  "ticker": "SSE",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "GBP",
+      "revenue_M": 10132,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6268,
+      "net_income_M": 1189,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "GBP",
+      "revenue_M": 10457,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6107,
+      "net_income_M": 1710
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "GBP",
+      "revenue_M": 12491,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12650,
+      "net_income_M": -123
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "GBP",
+      "revenue_M": 8697,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4308,
+      "net_income_M": 3027
+    }
+  ],
+  "quarterly": []
+}

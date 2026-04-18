@@ -1,69 +1,92 @@
 {
-  "company": "Reliance Industries",
-  "ticker": "RELIANCE.NS",
-  "source_id": "INE002A01018",
-  "currency": "INR",
-  "fx_rate_usd": 0.012,
+  "isin": "INE002A01018",
+  "name": "Reliance Industries Ltd.",
+  "ticker": "RELIANCE",
+  "exchange": "NSE",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 6959630000000,
-      "net_income": 607050000000,
-      "total_assets": 14996650000000,
-      "operating_cash_flow": 1106540000000,
-      "capex": 1001450000000
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 9646930,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7226870,
+      "net_income_M": 696480,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 8778350000000,
-      "net_income": 667020000000,
-      "total_assets": 16074310000000,
-      "operating_cash_flow": 1150320000000,
-      "capex": 1409880000000
+      "period_end": "2024-03-31",
+      "currency": "INR",
+      "revenue_M": 9010640,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6745990,
+      "net_income_M": 696210
     },
     {
-      "year": 2024,
-      "revenue": 9010640000000,
-      "net_income": 696210000000,
-      "total_assets": 17559860000000,
-      "operating_cash_flow": 1587880000000,
-      "capex": 1528830000000
+      "period_end": "2023-03-31",
+      "currency": "INR",
+      "revenue_M": 8778350,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6718980,
+      "net_income_M": 667020
     },
     {
-      "year": 2025,
-      "revenue": 9646930000000,
-      "net_income": 696480000000,
-      "total_assets": 19501210000000,
-      "operating_cash_flow": 1787030000000,
-      "capex": 1399670000000
+      "period_end": "2022-03-31",
+      "currency": "INR",
+      "revenue_M": 6959630,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5316780,
+      "net_income_M": 607050
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-09-30",
-      "revenue": 2315350000000,
-      "net_income": 165630000000
-    },
-    {
-      "period_end": "2024-12-31",
-      "revenue": 2399860000000,
-      "net_income": 185400000000
-    },
-    {
-      "period_end": "2025-03-31",
-      "revenue": 2613880000000,
-      "net_income": 194070000000
+      "period_end": "2025-12-31",
+      "currency": "INR",
+      "revenue_M": 2649050,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1862500,
+      "net_income_M": 186450,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-06-30",
-      "revenue": 2436320000000,
-      "net_income": 269940000000
+      "currency": "INR",
+      "revenue_M": 2436320,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1664920,
+      "net_income_M": 269940
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 2649050000000,
-      "net_income": 186450000000
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 2613880,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2237110,
+      "net_income_M": 194070
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "INR",
+      "revenue_M": 2399860,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1661400,
+      "net_income_M": 185400
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "INR",
+      "revenue_M": 2315350,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1657820,
+      "net_income_M": 165630
     }
   ]
 }

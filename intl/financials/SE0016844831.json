@@ -4,7 +4,7 @@
   "ticker": "VOLCAR-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -49,6 +49,52 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 94384,
+      "rnd_M": 4816,
+      "cost_of_revenue_M": 79440,
+      "net_income_M": 1287,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "SEK",
+      "revenue_M": 93492,
+      "rnd_M": 12935,
+      "cost_of_revenue_M": 80903,
+      "net_income_M": -7512
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "SEK",
+      "revenue_M": 82948,
+      "rnd_M": 4256,
+      "cost_of_revenue_M": 67855,
+      "net_income_M": 1204
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 112119,
+      "rnd_M": 5028,
+      "cost_of_revenue_M": 92997,
+      "net_income_M": 2503
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "SEK",
+      "revenue_M": 92783,
+      "rnd_M": 3403,
+      "cost_of_revenue_M": 73747,
+      "net_income_M": 4208
     }
   ]
 }

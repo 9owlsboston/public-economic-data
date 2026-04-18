@@ -1,0 +1,92 @@
+{
+  "isin": "INE090A01021",
+  "name": "IndusInd Bank Ltd.",
+  "ticker": "INDUSINDBK",
+  "exchange": "NSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 264968,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 25755,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "INR",
+      "revenue_M": 294654,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 89773
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "INR",
+      "revenue_M": 254677,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 74435
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "INR",
+      "revenue_M": 220432,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 48050
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "INR",
+      "revenue_M": 62688,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1280,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "INR",
+      "revenue_M": 67967,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6041
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 35323,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -23289
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "INR",
+      "revenue_M": 75831,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 14023
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "INR",
+      "revenue_M": 75322,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 13313
+    }
+  ]
+}

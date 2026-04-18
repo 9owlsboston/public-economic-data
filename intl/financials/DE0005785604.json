@@ -1,0 +1,100 @@
+{
+  "isin": "DE0005785604",
+  "name": "Fresenius SE & Co. KGaA",
+  "ticker": "FRE",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 22873,
+      "rnd_M": 633,
+      "cost_of_revenue_M": 17180,
+      "net_income_M": 1264,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 21954,
+      "rnd_M": 641,
+      "cost_of_revenue_M": 16317,
+      "net_income_M": 471
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 21067,
+      "rnd_M": 661,
+      "cost_of_revenue_M": 16096,
+      "net_income_M": -594
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 21532,
+      "rnd_M": 639,
+      "cost_of_revenue_M": 16129,
+      "net_income_M": 1372
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 6156,
+      "rnd_M": 170,
+      "cost_of_revenue_M": 4632,
+      "net_income_M": 361,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 5581,
+      "rnd_M": 164,
+      "cost_of_revenue_M": 4123,
+      "net_income_M": 330
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 5651,
+      "rnd_M": 140,
+      "cost_of_revenue_M": 4240,
+      "net_income_M": 229
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5630,
+      "rnd_M": 177,
+      "cost_of_revenue_M": 4215,
+      "net_income_M": 240
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 5315,
+      "rnd_M": 170,
+      "cost_of_revenue_M": 3957,
+      "net_income_M": 326
+    }
+  ]
+}

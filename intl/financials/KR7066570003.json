@@ -1,78 +1,108 @@
 {
-  "company": "LG Electronics",
-  "ticker": "066570.KS",
-  "source_id": "KR7066570003",
-  "currency": "KRW",
-  "fx_rate_usd": 0.00073,
+  "isin": "KR7066570003",
+  "name": "LG Electronics Inc.",
+  "ticker": "066570",
+  "exchange": "KRX",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 83467318000000,
-      "net_income": 1196442000000,
-      "rd_expense": 2397333000000,
-      "total_assets": 55156141000000,
-      "operating_cash_flow": 3107839000000,
-      "capex": 3752788000000
+      "period_end": "2025-12-31",
+      "currency": "KRW",
+      "revenue_M": 89200882,
+      "rnd_M": 2776637,
+      "cost_of_revenue_M": 68359224,
+      "net_income_M": 960579,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 82262664000000,
-      "net_income": 712902000000,
-      "rd_expense": 2546867000000,
-      "total_assets": 60240793000000,
-      "operating_cash_flow": 5913596000000,
-      "capex": 4137608000000
+      "period_end": "2024-12-31",
+      "currency": "KRW",
+      "revenue_M": 87728182,
+      "rnd_M": 2687295,
+      "cost_of_revenue_M": 66348948,
+      "net_income_M": 367515
     },
     {
-      "year": 2024,
-      "revenue": 87728182000000,
-      "net_income": 367515000000,
-      "rd_expense": 2687295000000,
-      "total_assets": 65629589000000,
-      "operating_cash_flow": 3842661000000,
-      "capex": 3668025000000
+      "period_end": "2023-12-31",
+      "currency": "KRW",
+      "revenue_M": 82262664,
+      "rnd_M": 2546867,
+      "cost_of_revenue_M": 62461405,
+      "net_income_M": 712902
     },
     {
-      "year": 2025,
-      "revenue": 89200882000000,
-      "net_income": 960579000000,
-      "rd_expense": 2776637000000,
-      "total_assets": 68620167000000,
-      "operating_cash_flow": 4280500000000,
-      "capex": 3907380000000
+      "period_end": "2022-12-31",
+      "currency": "KRW",
+      "revenue_M": 83467318,
+      "rnd_M": 2397333,
+      "cost_of_revenue_M": 63231088,
+      "net_income_M": 1196442
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "KRW",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-12-31",
-      "revenue": 22761475000000,
-      "net_income": -714897000000,
-      "rd_expense": 695754000000
-    },
-    {
-      "period_end": "2025-03-31",
-      "revenue": 22739812000000,
-      "net_income": 799006000000,
-      "rd_expense": 653483000000
-    },
-    {
-      "period_end": "2025-06-30",
-      "revenue": 20735142000000,
-      "net_income": 604619000000,
-      "rd_expense": 679208000000
+      "period_end": "2025-12-31",
+      "currency": "KRW",
+      "revenue_M": 23852154,
+      "rnd_M": 746507,
+      "cost_of_revenue_M": 19021905,
+      "net_income_M": -828236,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-09-30",
-      "revenue": 21873774000000,
-      "net_income": 385190000000,
-      "rd_expense": 697439000000
+      "currency": "KRW",
+      "revenue_M": 21873774,
+      "rnd_M": 697439,
+      "cost_of_revenue_M": 16632022,
+      "net_income_M": 385190
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 23852154000000,
-      "net_income": -828236000000,
-      "rd_expense": 746507000000
+      "period_end": "2025-06-30",
+      "currency": "KRW",
+      "revenue_M": 20735142,
+      "rnd_M": 679208,
+      "cost_of_revenue_M": 15556748,
+      "net_income_M": 604619
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "KRW",
+      "revenue_M": 22739812,
+      "rnd_M": 653483,
+      "cost_of_revenue_M": 17148549,
+      "net_income_M": 799006
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "KRW",
+      "revenue_M": 22761475,
+      "rnd_M": 695754,
+      "cost_of_revenue_M": 17809452,
+      "net_income_M": -714897
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "KRW",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ]
 }

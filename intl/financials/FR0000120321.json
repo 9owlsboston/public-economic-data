@@ -4,7 +4,7 @@
   "ticker": "OR",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -50,5 +50,6 @@
       "cost_of_revenue_M": null,
       "net_income_M": null
     }
-  ]
+  ],
+  "quarterly": []
 }

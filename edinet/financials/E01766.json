@@ -3,12 +3,12 @@
   "name": "Fujitsu Limited",
   "ticker": "6702",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-20",
-      "form": "\u6709\u4fa1\u8a3c\u5238\u5831\u544a\u66f8",
+      "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 3550116,
@@ -26,7 +26,7 @@
     {
       "period_end": "2024-03-31",
       "filing_date": "2024-06-24",
-      "form": "\u6709\u4fa1\u8a3c\u5238\u5831\u544a\u66f8",
+      "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 3756059,
@@ -38,7 +38,7 @@
     {
       "period_end": "2023-03-31",
       "filing_date": "2023-06-26",
-      "form": "\u6709\u4fa1\u8a3c\u5238\u5831\u544a\u66f8",
+      "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 3713767,
@@ -50,7 +50,7 @@
     {
       "period_end": "2022-03-31",
       "filing_date": "2022-06-27",
-      "form": "\u6709\u4fa1\u8a3c\u5238\u5831\u544a\u66f8",
+      "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 3586839,
@@ -62,7 +62,7 @@
     {
       "period_end": "2021-03-31",
       "filing_date": "2021-06-28",
-      "form": "\u6709\u4fa1\u8a3c\u5238\u5831\u544a\u66f8",
+      "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 3589702,
@@ -74,7 +74,7 @@
     {
       "period_end": "2020-03-31",
       "filing_date": "2020-06-22",
-      "form": "\u6709\u4fa1\u8a3c\u5238\u5831\u544a\u66f8",
+      "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 3857797,
@@ -86,7 +86,7 @@
     {
       "period_end": "2019-03-31",
       "filing_date": "2019-06-24",
-      "form": "\u6709\u4fa1\u8a3c\u5238\u5831\u544a\u66f8",
+      "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 3952437,
@@ -94,16 +94,6 @@
       "net_income_M": 104562,
       "cost_of_revenue_M": 2879884,
       "rnd_M": null
-    }
-  ],
-  "quarterly": [
-    {
-      "period_end": "2025-06-30",
-      "currency": "JPY",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null
     }
   ]
 }

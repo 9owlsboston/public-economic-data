@@ -1,0 +1,55 @@
+{
+  "isin": "FR0000125007",
+  "name": "Compagnie de Saint-Gobain SA",
+  "ticker": "SGO",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 46483,
+      "rnd_M": null,
+      "cost_of_revenue_M": 33544,
+      "net_income_M": 2883,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 46571,
+      "rnd_M": null,
+      "cost_of_revenue_M": 33688,
+      "net_income_M": 2844
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 47944,
+      "rnd_M": null,
+      "cost_of_revenue_M": 35109,
+      "net_income_M": 2669
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 51197,
+      "rnd_M": null,
+      "cost_of_revenue_M": 38006,
+      "net_income_M": 3003
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

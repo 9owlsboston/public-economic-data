@@ -1,7 +1,7 @@
 {
   "cik": "0000062709",
   "name": "MARSH & MCLENNAN COMPANIES, INC.",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -168,6 +168,32 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-16",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 7597,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1146,
+      "capex_M": 62,
+      "operating_cash_flow_M": -688,
+      "sga_M": null,
+      "cash_M": 1611,
+      "total_debt_M": 19553,
+      "total_assets_M": 58552,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-10-16",
       "form": "10-Q",
@@ -182,16 +208,7 @@
       "sga_M": null,
       "cash_M": 2511,
       "total_debt_M": 19580,
-      "total_assets_M": 58783,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 58783
     },
     {
       "period_end": "2025-06-30",

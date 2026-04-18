@@ -4,7 +4,7 @@
   "ticker": "DTE",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -41,6 +41,60 @@
       "rnd_M": null,
       "cost_of_revenue_M": 50047,
       "net_income_M": 8001
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 31523,
+      "rnd_M": null,
+      "cost_of_revenue_M": 13613,
+      "net_income_M": 1723,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 28754,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10802,
+      "net_income_M": 2427
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 28500,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10640,
+      "net_income_M": 2615
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 29566,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11009,
+      "net_income_M": 2845
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 30759,
+      "rnd_M": null,
+      "cost_of_revenue_M": 13154,
+      "net_income_M": 4182
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ]
 }

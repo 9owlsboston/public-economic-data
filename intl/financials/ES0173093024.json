@@ -1,0 +1,100 @@
+{
+  "isin": "ES0173093024",
+  "name": "Red Electrica Corp S.A.",
+  "ticker": "RED",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 1660,
+      "rnd_M": null,
+      "cost_of_revenue_M": -42,
+      "net_income_M": 506,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 1594,
+      "rnd_M": null,
+      "cost_of_revenue_M": -38,
+      "net_income_M": 368
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 1819,
+      "rnd_M": null,
+      "cost_of_revenue_M": -19,
+      "net_income_M": 690
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 2015,
+      "rnd_M": null,
+      "cost_of_revenue_M": -26,
+      "net_income_M": 665
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 441,
+      "rnd_M": null,
+      "cost_of_revenue_M": -10,
+      "net_income_M": 116,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 407,
+      "rnd_M": null,
+      "cost_of_revenue_M": -10,
+      "net_income_M": 132
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 404,
+      "rnd_M": null,
+      "cost_of_revenue_M": -9,
+      "net_income_M": 138
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 230,
+      "rnd_M": null,
+      "cost_of_revenue_M": -36,
+      "net_income_M": -40
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 454,
+      "rnd_M": null,
+      "cost_of_revenue_M": -1,
+      "net_income_M": 139
+    }
+  ]
+}

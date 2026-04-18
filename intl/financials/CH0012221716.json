@@ -4,7 +4,7 @@
   "ticker": "ABBN",
   "exchange": "SIX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -49,6 +49,52 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CHF",
+      "revenue_M": 9052,
+      "rnd_M": 369,
+      "cost_of_revenue_M": 5394,
+      "net_income_M": 1273,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "CHF",
+      "revenue_M": 8900,
+      "rnd_M": 350,
+      "cost_of_revenue_M": 5326,
+      "net_income_M": 1151
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "CHF",
+      "revenue_M": 7935,
+      "rnd_M": 329,
+      "cost_of_revenue_M": 4624,
+      "net_income_M": 1102
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CHF",
+      "revenue_M": 7996,
+      "rnd_M": 358,
+      "cost_of_revenue_M": 5014,
+      "net_income_M": 987
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "CHF",
+      "revenue_M": 8151,
+      "rnd_M": 315,
+      "cost_of_revenue_M": 4906,
+      "net_income_M": 947
     }
   ]
 }

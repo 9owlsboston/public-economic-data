@@ -1,0 +1,100 @@
+{
+  "isin": "IT0003497168",
+  "name": "Telecom Italia S.p.A.",
+  "ticker": "TIT",
+  "exchange": "Borsa Italiana",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 13734,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8368,
+      "net_income_M": 297,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 13653,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7088,
+      "net_income_M": -610
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 14311,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7085,
+      "net_income_M": -1441
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 15788,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6658,
+      "net_income_M": -2925
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 3758,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2795,
+      "net_income_M": 406,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 3321,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1851,
+      "net_income_M": -8
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 3276,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1853,
+      "net_income_M": -124
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 3812,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2275,
+      "net_income_M": -101
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 3569,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2050,
+      "net_income_M": 137
+    }
+  ]
+}

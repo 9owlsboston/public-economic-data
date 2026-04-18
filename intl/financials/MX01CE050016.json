@@ -1,0 +1,100 @@
+{
+  "isin": "MX01CE050016",
+  "name": "CEMEX S.A.B. de C.V.",
+  "ticker": "CEMEXCPO",
+  "exchange": "BMV",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2024-12-31",
+      "currency": "MXN",
+      "revenue_M": 16200,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10761,
+      "net_income_M": 939,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "MXN",
+      "revenue_M": 16554,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10979,
+      "net_income_M": 182
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "MXN",
+      "revenue_M": 14706,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10221,
+      "net_income_M": 858
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "MXN",
+      "revenue_M": 14379,
+      "rnd_M": null,
+      "cost_of_revenue_M": 9743,
+      "net_income_M": 753
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "MXN",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "MXN",
+      "revenue_M": 4245,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2820,
+      "net_income_M": 264
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "MXN",
+      "revenue_M": 4126,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2725,
+      "net_income_M": 318
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "MXN",
+      "revenue_M": 3649,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2515,
+      "net_income_M": 734
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "MXN",
+      "revenue_M": 3811,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2587,
+      "net_income_M": 48
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "MXN",
+      "revenue_M": 4055,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2722,
+      "net_income_M": 406
+    }
+  ]
+}

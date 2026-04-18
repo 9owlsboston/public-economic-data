@@ -1,0 +1,47 @@
+{
+  "isin": "FR0000051807",
+  "name": "Teleperformance SE",
+  "ticker": "TEP",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 10209,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6979,
+      "net_income_M": 497,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 10280,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6927,
+      "net_income_M": 523
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 8345,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5630,
+      "net_income_M": 592
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 8154,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5367,
+      "net_income_M": 643
+    }
+  ],
+  "quarterly": []
+}

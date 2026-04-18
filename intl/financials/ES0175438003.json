@@ -1,0 +1,100 @@
+{
+  "isin": "ES0175438003",
+  "name": "Prosegur Compania de Seguridad S.A.",
+  "ticker": "PSG",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 4930,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3514,
+      "net_income_M": 119,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 4908,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3432,
+      "net_income_M": 78
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 4310,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3298,
+      "net_income_M": 66
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 4174,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3182,
+      "net_income_M": 65
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 1258,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 37,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 1212,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 26
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 1255,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 28
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 1324,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 26
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 1236,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 24
+    }
+  ]
+}

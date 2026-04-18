@@ -1,0 +1,55 @@
+{
+  "isin": "GB00BD6K4575",
+  "name": "Currys plc",
+  "ticker": "CURY",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-04-30",
+      "currency": "GBP",
+      "revenue_M": 8706,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7086,
+      "net_income_M": 108,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-04-30",
+      "currency": "GBP",
+      "revenue_M": 8476,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6920,
+      "net_income_M": 165
+    },
+    {
+      "period_end": "2023-04-30",
+      "currency": "GBP",
+      "revenue_M": 8874,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7309,
+      "net_income_M": -481
+    },
+    {
+      "period_end": "2022-04-30",
+      "currency": "GBP",
+      "revenue_M": 10144,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8356,
+      "net_income_M": 71
+    },
+    {
+      "period_end": "2021-04-30",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

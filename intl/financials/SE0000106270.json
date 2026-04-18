@@ -1,0 +1,108 @@
+{
+  "isin": "SE0000106270",
+  "name": "H&M Hennes & Mauritz AB",
+  "ticker": "HM-B",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-11-30",
+      "currency": "SEK",
+      "revenue_M": 228285,
+      "rnd_M": null,
+      "cost_of_revenue_M": 106464,
+      "net_income_M": 12158,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-11-30",
+      "currency": "SEK",
+      "revenue_M": 234478,
+      "rnd_M": null,
+      "cost_of_revenue_M": 109179,
+      "net_income_M": 11621
+    },
+    {
+      "period_end": "2023-11-30",
+      "currency": "SEK",
+      "revenue_M": 236035,
+      "rnd_M": null,
+      "cost_of_revenue_M": 115139,
+      "net_income_M": 8745
+    },
+    {
+      "period_end": "2022-11-30",
+      "currency": "SEK",
+      "revenue_M": 223553,
+      "rnd_M": null,
+      "cost_of_revenue_M": 110183,
+      "net_income_M": 3566
+    },
+    {
+      "period_end": "2021-11-30",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-11-30",
+      "currency": "SEK",
+      "revenue_M": 59221,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26137,
+      "net_income_M": 4362,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-08-31",
+      "currency": "SEK",
+      "revenue_M": 57017,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26874,
+      "net_income_M": 3229
+    },
+    {
+      "period_end": "2025-05-31",
+      "currency": "SEK",
+      "revenue_M": 56714,
+      "rnd_M": null,
+      "cost_of_revenue_M": 25289,
+      "net_income_M": 3977
+    },
+    {
+      "period_end": "2025-02-28",
+      "currency": "SEK",
+      "revenue_M": 55333,
+      "rnd_M": null,
+      "cost_of_revenue_M": 28164,
+      "net_income_M": 590
+    },
+    {
+      "period_end": "2024-11-30",
+      "currency": "SEK",
+      "revenue_M": 62193,
+      "rnd_M": null,
+      "cost_of_revenue_M": 28251,
+      "net_income_M": 2987
+    },
+    {
+      "period_end": "2024-08-31",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

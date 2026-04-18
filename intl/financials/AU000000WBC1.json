@@ -1,0 +1,47 @@
+{
+  "isin": "AU000000WBC1",
+  "name": "Westpac Banking Corp",
+  "ticker": "WBC",
+  "exchange": "ASX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2024-09-30",
+      "currency": "AUD",
+      "revenue_M": 21587,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6990,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2023-09-30",
+      "currency": "AUD",
+      "revenue_M": 21376,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7195
+    },
+    {
+      "period_end": "2022-09-30",
+      "currency": "AUD",
+      "revenue_M": 20427,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5694
+    },
+    {
+      "period_end": "2021-09-30",
+      "currency": "AUD",
+      "revenue_M": 21020,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5458
+    }
+  ],
+  "quarterly": []
+}

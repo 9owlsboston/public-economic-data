@@ -1,0 +1,84 @@
+{
+  "isin": "DE000SHA0159",
+  "name": "Schaeffler AG",
+  "ticker": "SHA",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 18188,
+      "rnd_M": 987,
+      "cost_of_revenue_M": 14356,
+      "net_income_M": -632,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 16313,
+      "rnd_M": 768,
+      "cost_of_revenue_M": 12805,
+      "net_income_M": 309
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 15809,
+      "rnd_M": 768,
+      "cost_of_revenue_M": 12230,
+      "net_income_M": 557
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": 13852,
+      "rnd_M": 748,
+      "cost_of_revenue_M": 10412,
+      "net_income_M": 756
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 5922,
+      "rnd_M": 389,
+      "cost_of_revenue_M": 4784,
+      "net_income_M": -40,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 5924,
+      "rnd_M": 435,
+      "cost_of_revenue_M": 4651,
+      "net_income_M": 83
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5954,
+      "rnd_M": 369,
+      "cost_of_revenue_M": 4951,
+      "net_income_M": -882
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 3957,
+      "rnd_M": 203,
+      "cost_of_revenue_M": 3095,
+      "net_income_M": -45
+    }
+  ]
+}

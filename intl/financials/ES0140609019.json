@@ -1,0 +1,100 @@
+{
+  "isin": "ES0140609019",
+  "name": "CaixaBank S.A.",
+  "ticker": "CABK",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 16762,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5891,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 16951,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5787
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 15874,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4816
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 12439,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3129
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 4185,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1494,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 4254,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1482
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 4045,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1470
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 4121,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1539
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 4050,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1573
+    }
+  ]
+}

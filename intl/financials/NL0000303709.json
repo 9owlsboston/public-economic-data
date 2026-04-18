@@ -1,0 +1,108 @@
+{
+  "isin": "NL0000303709",
+  "name": "ING Groep N.V.",
+  "ticker": "INGA",
+  "exchange": "Euronext Amsterdam",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 22903,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6327,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 22554,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6392
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 22674,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7287
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 18891,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3674
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 5798,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1411,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 5854,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1787
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 5704,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1675
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 5636,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1455
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5407,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1154
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "isin": "DE000GEA0015",
+  "name": "GEA Group AG",
+  "ticker": "G1A",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 5495,
+      "rnd_M": 119,
+      "cost_of_revenue_M": 3447,
+      "net_income_M": 414,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5422,
+      "rnd_M": 117,
+      "cost_of_revenue_M": 3487,
+      "net_income_M": 385
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 5373,
+      "rnd_M": 113,
+      "cost_of_revenue_M": 3552,
+      "net_income_M": 393
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 5165,
+      "rnd_M": 98,
+      "cost_of_revenue_M": 3449,
+      "net_income_M": 401
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 1559,
+      "rnd_M": 35,
+      "cost_of_revenue_M": 996,
+      "net_income_M": 92,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 1366,
+      "rnd_M": 27,
+      "cost_of_revenue_M": 856,
+      "net_income_M": 121
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 1312,
+      "rnd_M": 30,
+      "cost_of_revenue_M": 811,
+      "net_income_M": 107
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 1258,
+      "rnd_M": 27,
+      "cost_of_revenue_M": 784,
+      "net_income_M": 94
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 1508,
+      "rnd_M": 38,
+      "cost_of_revenue_M": 974,
+      "net_income_M": 84
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

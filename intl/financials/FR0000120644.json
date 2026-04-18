@@ -1,0 +1,55 @@
+{
+  "isin": "FR0000120644",
+  "name": "Danone SA",
+  "ticker": "BN",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 27283,
+      "rnd_M": 479,
+      "cost_of_revenue_M": 13473,
+      "net_income_M": 1825,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 27376,
+      "rnd_M": 447,
+      "cost_of_revenue_M": 13769,
+      "net_income_M": 2021
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 27619,
+      "rnd_M": 398,
+      "cost_of_revenue_M": 14535,
+      "net_income_M": 881
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 27661,
+      "rnd_M": 339,
+      "cost_of_revenue_M": 14922,
+      "net_income_M": 959
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

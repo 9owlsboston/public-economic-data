@@ -1,78 +1,100 @@
 {
-  "company": "Hexagon AB",
-  "ticker": "HEXA-B.ST",
-  "source_id": "SE0015961909",
-  "currency": "SEK",
-  "fx_rate_usd": 0.097,
+  "isin": "SE0015961909",
+  "name": "Elekta AB",
+  "ticker": "EKTA-B",
+  "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 5160500000,
-      "net_income": 1007600000,
-      "rd_expense": 607100000,
-      "total_assets": 16477000000,
-      "operating_cash_flow": 1330800000,
-      "capex": 567500000
+      "period_end": "2025-04-30",
+      "currency": "SEK",
+      "revenue_M": 18016,
+      "rnd_M": 2676,
+      "cost_of_revenue_M": 11270,
+      "net_income_M": 237,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 5435200000,
-      "net_income": 858900000,
-      "rd_expense": 674500000,
-      "total_assets": 16883800000,
-      "operating_cash_flow": 1370400000,
-      "capex": 626600000
+      "period_end": "2024-04-30",
+      "currency": "SEK",
+      "revenue_M": 18119,
+      "rnd_M": 1404,
+      "cost_of_revenue_M": 11342,
+      "net_income_M": 1302
     },
     {
-      "year": 2024,
-      "revenue": 5401100000,
-      "net_income": 1023400000,
-      "rd_expense": 683700000,
-      "total_assets": 17850500000,
-      "operating_cash_flow": 1588200000,
-      "capex": 632300000
+      "period_end": "2023-04-30",
+      "currency": "SEK",
+      "revenue_M": 16869,
+      "rnd_M": 1418,
+      "cost_of_revenue_M": 10520,
+      "net_income_M": 943
     },
     {
-      "year": 2025,
-      "revenue": 5424600000,
-      "net_income": 617400000,
-      "rd_expense": 924000000,
-      "total_assets": 17108300000,
-      "operating_cash_flow": 1466900000,
-      "capex": 615200000
+      "period_end": "2022-04-30",
+      "currency": "SEK",
+      "revenue_M": 14548,
+      "rnd_M": 1372,
+      "cost_of_revenue_M": 9111,
+      "net_income_M": 1154
+    },
+    {
+      "period_end": "2021-04-30",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-09-30",
-      "revenue": 1299800000,
-      "net_income": 235200000,
-      "rd_expense": 171000000
+      "period_end": "2026-01-31",
+      "currency": "SEK",
+      "revenue_M": 4239,
+      "rnd_M": 522,
+      "cost_of_revenue_M": 2751,
+      "net_income_M": 10,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "period_end": "2024-12-31",
-      "revenue": 1448000000,
-      "net_income": 292400000,
-      "rd_expense": 175800000
+      "period_end": "2025-10-31",
+      "currency": "SEK",
+      "revenue_M": 4070,
+      "rnd_M": 434,
+      "cost_of_revenue_M": 2532,
+      "net_income_M": 230
     },
     {
-      "period_end": "2025-03-31",
-      "revenue": 1322800000,
-      "net_income": 189100000,
-      "rd_expense": 191600000
+      "period_end": "2025-07-31",
+      "currency": "SEK",
+      "revenue_M": 3646,
+      "rnd_M": 438,
+      "cost_of_revenue_M": 2305,
+      "net_income_M": 107
     },
     {
-      "period_end": "2025-06-30",
-      "revenue": 1369900000,
-      "net_income": 225200000,
-      "rd_expense": 186900000
+      "period_end": "2025-04-30",
+      "currency": "SEK",
+      "revenue_M": 5156,
+      "rnd_M": 1376,
+      "cost_of_revenue_M": 3102,
+      "net_income_M": -386
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 1428800000,
-      "net_income": 237000000,
-      "rd_expense": 180500000
+      "period_end": "2025-01-31",
+      "currency": "SEK",
+      "revenue_M": 4695,
+      "rnd_M": 443,
+      "cost_of_revenue_M": 2961,
+      "net_income_M": 341
     }
   ]
 }

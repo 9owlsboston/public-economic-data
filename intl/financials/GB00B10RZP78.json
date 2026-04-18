@@ -1,0 +1,55 @@
+{
+  "isin": "GB00B10RZP78",
+  "name": "Unilever plc",
+  "ticker": "ULVR",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 50503,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26794,
+      "net_income_M": 9469,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 52479,
+      "rnd_M": 987,
+      "cost_of_revenue_M": 27976,
+      "net_income_M": 5744
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "GBP",
+      "revenue_M": 51680,
+      "rnd_M": 949,
+      "cost_of_revenue_M": 29180,
+      "net_income_M": 6487
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "GBP",
+      "revenue_M": 60073,
+      "rnd_M": 908,
+      "cost_of_revenue_M": 35906,
+      "net_income_M": 7642
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": 847,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

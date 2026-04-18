@@ -4,7 +4,7 @@
   "ticker": "DHL",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -41,6 +41,52 @@
       "rnd_M": null,
       "cost_of_revenue_M": 78908,
       "net_income_M": 5359
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 22092,
+      "rnd_M": null,
+      "cost_of_revenue_M": 14781,
+      "net_income_M": 1059,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 19826,
+      "rnd_M": null,
+      "cost_of_revenue_M": 17836,
+      "net_income_M": 815
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 20809,
+      "rnd_M": null,
+      "cost_of_revenue_M": 18680,
+      "net_income_M": 786
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 22704,
+      "rnd_M": null,
+      "cost_of_revenue_M": 15510,
+      "net_income_M": 1097
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 20592,
+      "rnd_M": null,
+      "cost_of_revenue_M": 18625,
+      "net_income_M": 751
     }
   ]
 }

@@ -1,0 +1,84 @@
+{
+  "isin": "DE000KGX8881",
+  "name": "KION Group AG",
+  "ticker": "KGX",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 11503,
+      "rnd_M": 260,
+      "cost_of_revenue_M": 8410,
+      "net_income_M": 360,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 11434,
+      "rnd_M": 235,
+      "cost_of_revenue_M": 8652,
+      "net_income_M": 306
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 11136,
+      "rnd_M": 203,
+      "cost_of_revenue_M": 9012,
+      "net_income_M": 98
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": 10294,
+      "rnd_M": 175,
+      "cost_of_revenue_M": 7771,
+      "net_income_M": 568
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 2708,
+      "rnd_M": 64,
+      "cost_of_revenue_M": 1966,
+      "net_income_M": 94,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 2788,
+      "rnd_M": 79,
+      "cost_of_revenue_M": 2069,
+      "net_income_M": -48
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 3068,
+      "rnd_M": 74,
+      "cost_of_revenue_M": 2247,
+      "net_income_M": 111
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 2699,
+      "rnd_M": 60,
+      "cost_of_revenue_M": 1968,
+      "net_income_M": 72
+    }
+  ]
+}

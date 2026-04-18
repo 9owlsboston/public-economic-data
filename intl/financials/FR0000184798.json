@@ -1,0 +1,55 @@
+{
+  "isin": "FR0000184798",
+  "name": "Edenred SE",
+  "ticker": "EDEN",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 2961,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1169,
+      "net_income_M": 521,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 2856,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1144,
+      "net_income_M": 507
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 2514,
+      "rnd_M": null,
+      "cost_of_revenue_M": 958,
+      "net_income_M": 267
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 2031,
+      "rnd_M": null,
+      "cost_of_revenue_M": 791,
+      "net_income_M": 386
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

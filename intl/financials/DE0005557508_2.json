@@ -1,0 +1,108 @@
+{
+  "isin": "DE0005557508_2",
+  "name": "ThyssenKrupp AG",
+  "ticker": "TKA",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 32837,
+      "rnd_M": 259,
+      "cost_of_revenue_M": 29119,
+      "net_income_M": 465,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 35041,
+      "rnd_M": 257,
+      "cost_of_revenue_M": 31798,
+      "net_income_M": -1506
+    },
+    {
+      "period_end": "2023-09-30",
+      "currency": "EUR",
+      "revenue_M": 37535,
+      "rnd_M": 239,
+      "cost_of_revenue_M": 34878,
+      "net_income_M": -2072
+    },
+    {
+      "period_end": "2022-09-30",
+      "currency": "EUR",
+      "revenue_M": 41140,
+      "rnd_M": 246,
+      "cost_of_revenue_M": 35479,
+      "net_income_M": 1136
+    },
+    {
+      "period_end": "2021-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 7185,
+      "rnd_M": 55,
+      "cost_of_revenue_M": 6464,
+      "net_income_M": -353,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 8277,
+      "rnd_M": 77,
+      "cost_of_revenue_M": 7377,
+      "net_income_M": 639
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 8151,
+      "rnd_M": 65,
+      "cost_of_revenue_M": 7214,
+      "net_income_M": -278
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 8579,
+      "rnd_M": 62,
+      "cost_of_revenue_M": 7662,
+      "net_income_M": 155
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 7831,
+      "rnd_M": 55,
+      "cost_of_revenue_M": 6866,
+      "net_income_M": -51
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

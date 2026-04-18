@@ -1,0 +1,100 @@
+{
+  "isin": "AT0000606306",
+  "name": "Raiffeisen Bank International AG",
+  "ticker": "RBI",
+  "exchange": "Vienna",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 9149,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1371,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 8886,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1157
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 8821,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2386
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 9608,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3627
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 353,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 445,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 2311,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -557
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 2257,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 705
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 2131,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -926
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 2160,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 758
+    }
+  ]
+}

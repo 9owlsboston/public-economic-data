@@ -1,0 +1,47 @@
+{
+  "isin": "AU000000CGL8",
+  "name": "Coles Group Ltd.",
+  "ticker": "COL",
+  "exchange": "ASX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-06-30",
+      "currency": "AUD",
+      "revenue_M": 44352,
+      "rnd_M": null,
+      "cost_of_revenue_M": 32649,
+      "net_income_M": 1079,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-06-30",
+      "currency": "AUD",
+      "revenue_M": 43571,
+      "rnd_M": null,
+      "cost_of_revenue_M": 32299,
+      "net_income_M": 1118
+    },
+    {
+      "period_end": "2023-06-30",
+      "currency": "AUD",
+      "revenue_M": 40483,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30034,
+      "net_income_M": 1098
+    },
+    {
+      "period_end": "2022-06-30",
+      "currency": "AUD",
+      "revenue_M": 39369,
+      "rnd_M": null,
+      "cost_of_revenue_M": 29210,
+      "net_income_M": 1048
+    }
+  ],
+  "quarterly": []
+}

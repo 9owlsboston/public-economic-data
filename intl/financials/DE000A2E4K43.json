@@ -1,0 +1,47 @@
+{
+  "isin": "DE000A2E4K43",
+  "name": "Delivery Hero SE",
+  "ticker": "DHER",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 12295,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8965,
+      "net_income_M": -882,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 9942,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6969,
+      "net_income_M": -2298
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 8577,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6346,
+      "net_income_M": -3008
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": 5856,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4598,
+      "net_income_M": -1124
+    }
+  ],
+  "quarterly": []
+}

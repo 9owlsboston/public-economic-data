@@ -1,0 +1,108 @@
+{
+  "isin": "BE0974293251",
+  "name": "Anheuser-Busch InBev SA/NV",
+  "ticker": "ABI",
+  "exchange": "Euronext Brussels",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 59320,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26141,
+      "net_income_M": 6837,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 59768,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26744,
+      "net_income_M": 5855
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 59380,
+      "rnd_M": null,
+      "cost_of_revenue_M": 27396,
+      "net_income_M": 5341
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 57786,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26305,
+      "net_income_M": 5969
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 15555,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6943,
+      "net_income_M": 1959,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 15133,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6596,
+      "net_income_M": 1054
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 15004,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6558,
+      "net_income_M": 1676
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 13628,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6044,
+      "net_income_M": 2148
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 14841,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6645,
+      "net_income_M": 1220
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

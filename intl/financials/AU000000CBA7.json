@@ -1,42 +1,54 @@
 {
-  "company": "Commonwealth Bank of Australia",
-  "ticker": "CBA.AX",
-  "source_id": "AU000000CBA7",
-  "currency": "AUD",
-  "fx_rate_usd": 0.64,
+  "isin": "AU000000CBA7",
+  "name": "Commonwealth Bank of Australia",
+  "ticker": "CBA",
+  "exchange": "ASX",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 23734000000,
-      "net_income": 10690000000,
-      "total_assets": 1215260000000,
-      "operating_cash_flow": 23240000000,
-      "capex": 977000000
+      "period_end": "2025-06-30",
+      "currency": "AUD",
+      "revenue_M": 28657,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10116,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 26779000000,
-      "net_income": 9998000000,
-      "total_assets": 1252423000000,
-      "operating_cash_flow": -8390000000,
-      "capex": 1568000000
+      "period_end": "2024-06-30",
+      "currency": "AUD",
+      "revenue_M": 27469,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 9394
     },
     {
-      "year": 2024,
-      "revenue": 27469000000,
-      "net_income": 9394000000,
-      "total_assets": 1254076000000,
-      "operating_cash_flow": -25623000000,
-      "capex": 1322000000
+      "period_end": "2023-06-30",
+      "currency": "AUD",
+      "revenue_M": 26779,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 9998
     },
     {
-      "year": 2025,
-      "revenue": 28657000000,
-      "net_income": 10116000000,
-      "total_assets": 1353799000000,
-      "operating_cash_flow": -825000000,
-      "capex": 1636000000
+      "period_end": "2022-06-30",
+      "currency": "AUD",
+      "revenue_M": 23734,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10690
+    },
+    {
+      "period_end": "2021-06-30",
+      "currency": "AUD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ],
   "quarterly": []

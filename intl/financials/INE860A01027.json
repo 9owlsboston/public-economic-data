@@ -1,0 +1,100 @@
+{
+  "isin": "INE860A01027",
+  "name": "HCL Technologies Ltd.",
+  "ticker": "HCLTECH",
+  "exchange": "NSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 1170550,
+      "rnd_M": null,
+      "cost_of_revenue_M": 698340,
+      "net_income_M": 173900,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "INR",
+      "revenue_M": 1099130,
+      "rnd_M": null,
+      "cost_of_revenue_M": 649650,
+      "net_income_M": 157020
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "INR",
+      "revenue_M": 1014560,
+      "rnd_M": null,
+      "cost_of_revenue_M": 583220,
+      "net_income_M": 148510
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "INR",
+      "revenue_M": 856510,
+      "rnd_M": 205,
+      "cost_of_revenue_M": 475360,
+      "net_income_M": 134990
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "INR",
+      "revenue_M": 338720,
+      "rnd_M": null,
+      "cost_of_revenue_M": 244140,
+      "net_income_M": 40760,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "INR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": 189210,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "INR",
+      "revenue_M": 303490,
+      "rnd_M": null,
+      "cost_of_revenue_M": 181060,
+      "net_income_M": 38430
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 302460,
+      "rnd_M": null,
+      "cost_of_revenue_M": 187860,
+      "net_income_M": 43070
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "INR",
+      "revenue_M": 298900,
+      "rnd_M": null,
+      "cost_of_revenue_M": 210940,
+      "net_income_M": 45910
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "INR",
+      "revenue_M": 288620,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 42350
+    }
+  ]
+}

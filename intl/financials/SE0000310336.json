@@ -1,0 +1,108 @@
+{
+  "isin": "SE0000310336",
+  "name": "Sandvik AB",
+  "ticker": "SAND",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 120680,
+      "rnd_M": 4542,
+      "cost_of_revenue_M": 71678,
+      "net_income_M": 14690,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 122878,
+      "rnd_M": 4808,
+      "cost_of_revenue_M": 73742,
+      "net_income_M": 12243
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "SEK",
+      "revenue_M": 126503,
+      "rnd_M": 4489,
+      "cost_of_revenue_M": 74456,
+      "net_income_M": 15300
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "SEK",
+      "revenue_M": 112332,
+      "rnd_M": 4185,
+      "cost_of_revenue_M": 66962,
+      "net_income_M": 11212
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 32461,
+      "rnd_M": 1174,
+      "cost_of_revenue_M": 19552,
+      "net_income_M": 4199,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "SEK",
+      "revenue_M": 29700,
+      "rnd_M": 1227,
+      "cost_of_revenue_M": 17835,
+      "net_income_M": 3216
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "SEK",
+      "revenue_M": 29301,
+      "rnd_M": 1153,
+      "cost_of_revenue_M": 16866,
+      "net_income_M": 3736
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 32151,
+      "rnd_M": 1171,
+      "cost_of_revenue_M": 19190,
+      "net_income_M": 4297
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "SEK",
+      "revenue_M": 30306,
+      "rnd_M": 1032,
+      "cost_of_revenue_M": 18107,
+      "net_income_M": 3237
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "isin": "AU000000WES1",
+  "name": "Wesfarmers Ltd.",
+  "ticker": "WES",
+  "exchange": "ASX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-06-30",
+      "currency": "AUD",
+      "revenue_M": 45576,
+      "rnd_M": null,
+      "cost_of_revenue_M": 29939,
+      "net_income_M": 2926,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-06-30",
+      "currency": "AUD",
+      "revenue_M": 44047,
+      "rnd_M": null,
+      "cost_of_revenue_M": 28828,
+      "net_income_M": 2557
+    },
+    {
+      "period_end": "2023-06-30",
+      "currency": "AUD",
+      "revenue_M": 43417,
+      "rnd_M": null,
+      "cost_of_revenue_M": 28905,
+      "net_income_M": 2465
+    },
+    {
+      "period_end": "2022-06-30",
+      "currency": "AUD",
+      "revenue_M": 36679,
+      "rnd_M": null,
+      "cost_of_revenue_M": 23438,
+      "net_income_M": 2352
+    }
+  ],
+  "quarterly": []
+}

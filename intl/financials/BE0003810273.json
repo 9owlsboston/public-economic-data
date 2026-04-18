@@ -1,0 +1,55 @@
+{
+  "isin": "BE0003810273",
+  "name": "UCB SA",
+  "ticker": "UCB",
+  "exchange": "Euronext Brussels",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 7741,
+      "rnd_M": 1822,
+      "cost_of_revenue_M": 1990,
+      "net_income_M": 1558,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 6152,
+      "rnd_M": 1781,
+      "cost_of_revenue_M": 1752,
+      "net_income_M": 1065
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 5252,
+      "rnd_M": 1630,
+      "cost_of_revenue_M": 1707,
+      "net_income_M": 343
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 5517,
+      "rnd_M": 1670,
+      "cost_of_revenue_M": 1675,
+      "net_income_M": 418
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

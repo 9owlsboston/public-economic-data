@@ -1,0 +1,47 @@
+{
+  "isin": "DK0060079531",
+  "name": "Carlsberg A/S",
+  "ticker": "CARL-B",
+  "exchange": "OMX Copenhagen",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "DKK",
+      "revenue_M": 89095,
+      "rnd_M": 152,
+      "cost_of_revenue_M": 48859,
+      "net_income_M": 5955,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "DKK",
+      "revenue_M": 75011,
+      "rnd_M": 142,
+      "cost_of_revenue_M": 40631,
+      "net_income_M": 9116
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "DKK",
+      "revenue_M": 73585,
+      "rnd_M": 132,
+      "cost_of_revenue_M": 40753,
+      "net_income_M": -40788
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "DKK",
+      "revenue_M": 70265,
+      "rnd_M": 107,
+      "cost_of_revenue_M": 38198,
+      "net_income_M": -1063
+    }
+  ],
+  "quarterly": []
+}

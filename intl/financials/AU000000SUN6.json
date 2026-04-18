@@ -1,0 +1,55 @@
+{
+  "isin": "AU000000SUN6",
+  "name": "Suncorp Group Ltd",
+  "ticker": "SUN",
+  "exchange": "ASX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-06-30",
+      "currency": "AUD",
+      "revenue_M": 15425,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1823,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-06-30",
+      "currency": "AUD",
+      "revenue_M": 13327,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1197
+    },
+    {
+      "period_end": "2023-06-30",
+      "currency": "AUD",
+      "revenue_M": 14650,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1148
+    },
+    {
+      "period_end": "2022-06-30",
+      "currency": "AUD",
+      "revenue_M": 11181,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 681
+    },
+    {
+      "period_end": "2021-06-30",
+      "currency": "AUD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

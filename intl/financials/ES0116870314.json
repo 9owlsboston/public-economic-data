@@ -1,0 +1,55 @@
+{
+  "isin": "ES0116870314",
+  "name": "Naturgy Energy Group S.A.",
+  "ticker": "NTGY",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 19455,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12182,
+      "net_income_M": 2023,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 19267,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11959,
+      "net_income_M": 1901
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 22617,
+      "rnd_M": null,
+      "cost_of_revenue_M": 15424,
+      "net_income_M": 1986
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 33965,
+      "rnd_M": null,
+      "cost_of_revenue_M": 27487,
+      "net_income_M": 1649
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

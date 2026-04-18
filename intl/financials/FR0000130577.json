@@ -1,0 +1,68 @@
+{
+  "isin": "FR0000130577",
+  "name": "Publicis Groupe SA",
+  "ticker": "PUB",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 17399,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1653,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 16030,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1660
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 14802,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1312
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 14196,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1222
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "ticker": "VOLV-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -44,6 +44,60 @@
     },
     {
       "period_end": "2021-12-31",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 123803,
+      "rnd_M": 6693,
+      "cost_of_revenue_M": 92972,
+      "net_income_M": 9614,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "SEK",
+      "revenue_M": 110692,
+      "rnd_M": 5511,
+      "cost_of_revenue_M": 83214,
+      "net_income_M": 7540
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "SEK",
+      "revenue_M": 122896,
+      "rnd_M": 7087,
+      "cost_of_revenue_M": 95261,
+      "net_income_M": 7412
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "SEK",
+      "revenue_M": 121792,
+      "rnd_M": 6951,
+      "cost_of_revenue_M": 90867,
+      "net_income_M": 9890
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 138413,
+      "rnd_M": 8196,
+      "cost_of_revenue_M": 103142,
+      "net_income_M": 10742
+    },
+    {
+      "period_end": "2024-09-30",
       "currency": "SEK",
       "revenue_M": null,
       "rnd_M": null,

@@ -4,7 +4,7 @@
   "ticker": "MBG",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -55,42 +55,46 @@
     {
       "period_end": "2025-12-31",
       "currency": "EUR",
-      "revenue_M": 33690.0,
-      "rnd_M": 1312.0,
-      "cost_of_revenue_M": 28370.0,
-      "net_income_M": 1375.0
+      "revenue_M": 33690,
+      "rnd_M": 1312,
+      "cost_of_revenue_M": 28370,
+      "net_income_M": 1375,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-06-30",
       "currency": "EUR",
-      "revenue_M": 33153.0,
-      "rnd_M": 1460.0,
-      "cost_of_revenue_M": 27711.0,
-      "net_income_M": 915.0
+      "revenue_M": 33153,
+      "rnd_M": 1460,
+      "cost_of_revenue_M": 27711,
+      "net_income_M": 915
     },
     {
       "period_end": "2025-03-31",
       "currency": "EUR",
-      "revenue_M": 33224.0,
-      "rnd_M": 1607.0,
-      "cost_of_revenue_M": 26660.0,
-      "net_income_M": 1678.0
+      "revenue_M": 33224,
+      "rnd_M": 1607,
+      "cost_of_revenue_M": 26660,
+      "net_income_M": 1678
     },
     {
       "period_end": "2024-12-31",
       "currency": "EUR",
-      "revenue_M": 38450.0,
-      "rnd_M": 969.0,
-      "cost_of_revenue_M": 31016.0,
-      "net_income_M": 2484.0
+      "revenue_M": 38450,
+      "rnd_M": 969,
+      "cost_of_revenue_M": 31016,
+      "net_income_M": 2484
     },
     {
       "period_end": "2024-09-30",
       "currency": "EUR",
-      "revenue_M": 34528.0,
-      "rnd_M": 1682.0,
-      "cost_of_revenue_M": 28170.0,
-      "net_income_M": 1733.0
+      "revenue_M": 34528,
+      "rnd_M": 1682,
+      "cost_of_revenue_M": 28170,
+      "net_income_M": 1733
     }
   ]
 }

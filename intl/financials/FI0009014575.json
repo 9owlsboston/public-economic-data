@@ -1,0 +1,100 @@
+{
+  "isin": "FI0009014575",
+  "name": "Metso Oyj",
+  "ticker": "METSO",
+  "exchange": "OMX Helsinki",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 5240,
+      "rnd_M": 109,
+      "cost_of_revenue_M": 3561,
+      "net_income_M": 423,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5026,
+      "rnd_M": 106,
+      "cost_of_revenue_M": 3356,
+      "net_income_M": 329
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 5390,
+      "rnd_M": 66,
+      "cost_of_revenue_M": 3687,
+      "net_income_M": 543
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 4970,
+      "rnd_M": 55,
+      "cost_of_revenue_M": 3642,
+      "net_income_M": 301
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 1443,
+      "rnd_M": 29,
+      "cost_of_revenue_M": 990,
+      "net_income_M": 101,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 1213,
+      "rnd_M": 27,
+      "cost_of_revenue_M": 829,
+      "net_income_M": 61
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 1173,
+      "rnd_M": 24,
+      "cost_of_revenue_M": 786,
+      "net_income_M": 118
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 1301,
+      "rnd_M": 29,
+      "cost_of_revenue_M": 875,
+      "net_income_M": 158
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 1211,
+      "rnd_M": 26,
+      "cost_of_revenue_M": 829,
+      "net_income_M": -78
+    }
+  ]
+}

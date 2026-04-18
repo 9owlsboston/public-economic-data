@@ -1,0 +1,108 @@
+{
+  "isin": "GB00B0SWJX34_2",
+  "name": "Barclays plc",
+  "ticker": "BARC",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 29140,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7172,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 26230,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6307
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "GBP",
+      "revenue_M": 25384,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5259
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "GBP",
+      "revenue_M": 25021,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5928
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 7077,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1453,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "GBP",
+      "revenue_M": 7167,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1712
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "GBP",
+      "revenue_M": 7187,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1911
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "GBP",
+      "revenue_M": 7709,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2096
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 6406,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1193
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

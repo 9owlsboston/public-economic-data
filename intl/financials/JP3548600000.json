@@ -1,0 +1,68 @@
+{
+  "isin": "JP3548600000",
+  "name": "Dentsu Group Inc.",
+  "ticker": "4324",
+  "exchange": "TSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "JPY",
+      "revenue_M": 1435245,
+      "rnd_M": null,
+      "cost_of_revenue_M": 237715,
+      "net_income_M": -327601,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "JPY",
+      "revenue_M": 1410961,
+      "rnd_M": null,
+      "cost_of_revenue_M": 209313,
+      "net_income_M": -192172
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "JPY",
+      "revenue_M": 1304552,
+      "rnd_M": null,
+      "cost_of_revenue_M": 159732,
+      "net_income_M": -10714
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "JPY",
+      "revenue_M": 1246401,
+      "rnd_M": null,
+      "cost_of_revenue_M": 126881,
+      "net_income_M": 59847
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "JPY",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "JPY",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    }
+  ]
+}

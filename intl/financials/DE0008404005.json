@@ -4,7 +4,7 @@
   "ticker": "ALV",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -44,6 +44,60 @@
     },
     {
       "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 37858,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2664,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 39782,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2847
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 33090,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2841
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 26925,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2423
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 35929,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2472
+    },
+    {
+      "period_end": "2024-09-30",
       "currency": "EUR",
       "revenue_M": null,
       "rnd_M": null,

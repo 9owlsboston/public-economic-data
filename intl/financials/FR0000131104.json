@@ -1,0 +1,100 @@
+{
+  "isin": "FR0000131104",
+  "name": "BNP Paribas SA",
+  "ticker": "BNP",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 68804,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 12225,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 65870,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 11688
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 59735,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10975
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 57477,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 9848
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 30694,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2972,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 21465,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3258
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 12960,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2951
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 29520,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2322
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 11941,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2868
+    }
+  ]
+}

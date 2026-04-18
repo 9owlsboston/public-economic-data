@@ -1,0 +1,55 @@
+{
+  "isin": "GB00B2B0DG97",
+  "name": "Rolls-Royce Holdings plc",
+  "ticker": "RR",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 21207,
+      "rnd_M": 495,
+      "cost_of_revenue_M": 15032,
+      "net_income_M": 5841,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 18909,
+      "rnd_M": 203,
+      "cost_of_revenue_M": 14688,
+      "net_income_M": 2521
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "GBP",
+      "revenue_M": 16486,
+      "rnd_M": 739,
+      "cost_of_revenue_M": 12866,
+      "net_income_M": 2412
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "GBP",
+      "revenue_M": 13520,
+      "rnd_M": 891,
+      "cost_of_revenue_M": 10763,
+      "net_income_M": -1269
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

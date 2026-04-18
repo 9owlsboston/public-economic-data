@@ -1,0 +1,108 @@
+{
+  "isin": "DE000LHA0CL1",
+  "name": "Deutsche Lufthansa AG",
+  "ticker": "LHA",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 39597,
+      "rnd_M": null,
+      "cost_of_revenue_M": 34656,
+      "net_income_M": 1339,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 37581,
+      "rnd_M": null,
+      "cost_of_revenue_M": 32755,
+      "net_income_M": 1380
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 35442,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30201,
+      "net_income_M": 1673
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 30895,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26833,
+      "net_income_M": 791
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 9949,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8513,
+      "net_income_M": 246,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 11199,
+      "rnd_M": null,
+      "cost_of_revenue_M": 9132,
+      "net_income_M": 966
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 10322,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8840,
+      "net_income_M": 1012
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 8127,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8170,
+      "net_income_M": -885
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 9444,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8053,
+      "net_income_M": 550
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

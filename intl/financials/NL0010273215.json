@@ -4,7 +4,7 @@
   "ticker": "ASML",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -44,6 +44,68 @@
     },
     {
       "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 8767,
+      "rnd_M": 1185,
+      "cost_of_revenue_M": 4122,
+      "net_income_M": 2757,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 9718,
+      "rnd_M": 1262,
+      "cost_of_revenue_M": 4650,
+      "net_income_M": 2840
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 7516,
+      "rnd_M": 1109,
+      "cost_of_revenue_M": 3636,
+      "net_income_M": 2124
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 7692,
+      "rnd_M": 607,
+      "cost_of_revenue_M": 3648,
+      "net_income_M": 2676
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 7742,
+      "rnd_M": 1161,
+      "cost_of_revenue_M": 3562,
+      "net_income_M": 2355
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2024-09-30",
       "currency": "EUR",
       "revenue_M": null,
       "rnd_M": null,

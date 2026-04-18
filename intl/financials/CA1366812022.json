@@ -1,0 +1,100 @@
+{
+  "isin": "CA1366812022",
+  "name": "Canadian Tire Corp.",
+  "ticker": "CTC-A",
+  "exchange": "TSX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CAD",
+      "revenue_M": 16316,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10700,
+      "net_income_M": 526,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CAD",
+      "revenue_M": 15516,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10315,
+      "net_income_M": 888
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "CAD",
+      "revenue_M": 16656,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10953,
+      "net_income_M": 213
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "CAD",
+      "revenue_M": 17811,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11713,
+      "net_income_M": 1044
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "CAD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CAD",
+      "revenue_M": 4551,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2974,
+      "net_income_M": 208,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "CAD",
+      "revenue_M": 4202,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2782,
+      "net_income_M": 112
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "CAD",
+      "revenue_M": 3457,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2266,
+      "net_income_M": 37
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CAD",
+      "revenue_M": 4507,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2978,
+      "net_income_M": 412
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "CAD",
+      "revenue_M": 3987,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2645,
+      "net_income_M": 201
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "isin": "ES0113679I37",
+  "name": "Bankinter S.A.",
+  "ticker": "BKT",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 3090,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1090,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 3049,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 953
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 2914,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 845
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 2262,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 560
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 807,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 278,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 793,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 272
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 745,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 270
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 764,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 222
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 753,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 258
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "isin": "NO0003733800",
+  "name": "Aker ASA",
+  "ticker": "AKER",
+  "exchange": "Oslo Bors",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "NOK",
+      "revenue_M": 12954,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4370,
+      "net_income_M": 3930,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "NOK",
+      "revenue_M": 12217,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3141,
+      "net_income_M": 7197
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "NOK",
+      "revenue_M": 5804,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2300,
+      "net_income_M": 3235
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "NOK",
+      "revenue_M": 9660,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7131,
+      "net_income_M": 14177
+    }
+  ],
+  "quarterly": []
+}

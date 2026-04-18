@@ -1,0 +1,100 @@
+{
+  "isin": "SE0000108227",
+  "name": "Husqvarna AB",
+  "ticker": "HUSQ-B",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 46613,
+      "rnd_M": null,
+      "cost_of_revenue_M": 32514,
+      "net_income_M": 1768,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 48352,
+      "rnd_M": null,
+      "cost_of_revenue_M": 34053,
+      "net_income_M": 1325
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "SEK",
+      "revenue_M": 53260,
+      "rnd_M": null,
+      "cost_of_revenue_M": 37136,
+      "net_income_M": 2177
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "SEK",
+      "revenue_M": 54036,
+      "rnd_M": null,
+      "cost_of_revenue_M": 39424,
+      "net_income_M": 1935
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 7429,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5660,
+      "net_income_M": -769,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "SEK",
+      "revenue_M": 15277,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10101,
+      "net_income_M": 1578
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "SEK",
+      "revenue_M": 14704,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10172,
+      "net_income_M": 970
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 8464,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6857,
+      "net_income_M": -1116
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "SEK",
+      "revenue_M": 9739,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7207,
+      "net_income_M": -153
+    }
+  ]
+}

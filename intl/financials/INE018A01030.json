@@ -1,69 +1,92 @@
 {
-  "company": "Larsen & Toubro",
-  "ticker": "LT.NS",
-  "source_id": "INE018A01030",
-  "currency": "INR",
-  "fx_rate_usd": 0.012,
+  "isin": "INE018A01030",
+  "name": "Larsen & Toubro Ltd.",
+  "ticker": "LT",
+  "exchange": "NSE",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 1556724600000,
-      "net_income": 86693300000,
-      "total_assets": 3200672400000,
-      "operating_cash_flow": 191635800000,
-      "capex": 31106300000
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 2542086,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1711689,
+      "net_income_M": 150371,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 1816614200000,
-      "net_income": 104707200000,
-      "total_assets": 3303523100000,
-      "operating_cash_flow": 227769600000,
-      "capex": 41437900000
+      "period_end": "2024-03-31",
+      "currency": "INR",
+      "revenue_M": 2191157,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1462124,
+      "net_income_M": 130591
     },
     {
-      "year": 2024,
-      "revenue": 2191156900000,
-      "net_income": 130591100000,
-      "total_assets": 3401359700000,
-      "operating_cash_flow": 182662800000,
-      "capex": 45165300000
+      "period_end": "2023-03-31",
+      "currency": "INR",
+      "revenue_M": 1816614,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1166153,
+      "net_income_M": 104707
     },
     {
-      "year": 2025,
-      "revenue": 2542086500000,
-      "net_income": 150371100000,
-      "total_assets": 3795241000000,
-      "operating_cash_flow": 91607100000,
-      "capex": 44188300000
+      "period_end": "2022-03-31",
+      "currency": "INR",
+      "revenue_M": 1556725,
+      "rnd_M": null,
+      "cost_of_revenue_M": 998869,
+      "net_income_M": 86693
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-09-30",
-      "revenue": 615545800000,
-      "net_income": 33952900000
-    },
-    {
-      "period_end": "2024-12-31",
-      "revenue": 646677800000,
-      "net_income": 33588400000
-    },
-    {
-      "period_end": "2025-03-31",
-      "revenue": 728664700000,
-      "net_income": 54972600000
+      "period_end": "2025-12-31",
+      "currency": "INR",
+      "revenue_M": 714497,
+      "rnd_M": null,
+      "cost_of_revenue_M": 480620,
+      "net_income_M": 32151,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-06-30",
-      "revenue": 636789200000,
-      "net_income": 36171900000
+      "currency": "INR",
+      "revenue_M": 636789,
+      "rnd_M": null,
+      "cost_of_revenue_M": 419372,
+      "net_income_M": 36172
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 714497000000,
-      "net_income": 32151100000
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 728665,
+      "rnd_M": null,
+      "cost_of_revenue_M": 509346,
+      "net_income_M": 54973
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "INR",
+      "revenue_M": 646678,
+      "rnd_M": null,
+      "cost_of_revenue_M": 436152,
+      "net_income_M": 33588
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "INR",
+      "revenue_M": 615546,
+      "rnd_M": null,
+      "cost_of_revenue_M": 410125,
+      "net_income_M": 33953
     }
   ]
 }

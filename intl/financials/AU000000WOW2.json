@@ -1,0 +1,55 @@
+{
+  "isin": "AU000000WOW2",
+  "name": "Woolworths Group Ltd",
+  "ticker": "WOW",
+  "exchange": "ASX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-06-30",
+      "currency": "AUD",
+      "revenue_M": 69077,
+      "rnd_M": null,
+      "cost_of_revenue_M": 50262,
+      "net_income_M": 963,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-06-30",
+      "currency": "AUD",
+      "revenue_M": 67922,
+      "rnd_M": null,
+      "cost_of_revenue_M": 49370,
+      "net_income_M": 108
+    },
+    {
+      "period_end": "2023-06-30",
+      "currency": "AUD",
+      "revenue_M": 64294,
+      "rnd_M": null,
+      "cost_of_revenue_M": 47118,
+      "net_income_M": 1618
+    },
+    {
+      "period_end": "2022-06-30",
+      "currency": "AUD",
+      "revenue_M": 60849,
+      "rnd_M": null,
+      "cost_of_revenue_M": 42807,
+      "net_income_M": 7934
+    },
+    {
+      "period_end": "2021-06-30",
+      "currency": "AUD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

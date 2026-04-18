@@ -1,69 +1,100 @@
 {
-  "company": "BBVA",
+  "isin": "ES0113211835",
+  "name": "Banco Bilbao Vizcaya Argentaria, S.A.",
   "ticker": "BBVA",
-  "source_id": "ES0113211835",
-  "currency": "EUR",
-  "fx_rate_usd": 1.08,
+  "exchange": "BME",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 28065000000,
-      "net_income": 6358000000,
-      "total_assets": 712092000000,
-      "operating_cash_flow": 23718000000,
-      "capex": 2442000000
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 39415,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10511,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 33427000000,
-      "net_income": 8019000000,
-      "total_assets": 775558000000,
-      "operating_cash_flow": -721000000,
-      "capex": 1819000000
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 39235,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10054
     },
     {
-      "year": 2024,
-      "revenue": 39235000000,
-      "net_income": 10054000000,
-      "total_assets": 772402000000,
-      "operating_cash_flow": -18190000000,
-      "capex": 2011000000
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 33427,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 8019
     },
     {
-      "year": 2025,
-      "revenue": 39415000000,
-      "net_income": 10511000000,
-      "total_assets": 859576000000,
-      "operating_cash_flow": 14968000000,
-      "capex": 1806000000
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 28065,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6358
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-12-31",
-      "revenue": 9320000000,
-      "net_income": 2433000000
-    },
-    {
-      "period_end": "2025-03-31",
-      "revenue": 9324000000,
-      "net_income": 2698000000
-    },
-    {
-      "period_end": "2025-06-30",
-      "revenue": 8710000000,
-      "net_income": 2749000000
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 9795,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2533,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-09-30",
-      "revenue": 9778000000,
-      "net_income": 2531000000
+      "currency": "EUR",
+      "revenue_M": 9778,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2531
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 9795000000,
-      "net_income": 2533000000
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 8710,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2749
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 9324,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2698
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 9320,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2433
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ]
 }

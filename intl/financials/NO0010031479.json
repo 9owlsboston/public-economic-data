@@ -1,0 +1,100 @@
+{
+  "isin": "NO0010031479",
+  "name": "DNB Bank ASA",
+  "ticker": "DNB",
+  "exchange": "Oslo Bors",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "NOK",
+      "revenue_M": 89445,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 43547,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "NOK",
+      "revenue_M": 84820,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 45771
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "NOK",
+      "revenue_M": 81251,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 39478
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "NOK",
+      "revenue_M": 65387,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 33356
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "NOK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "NOK",
+      "revenue_M": 23132,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 11597,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "NOK",
+      "revenue_M": 22097,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10449
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "NOK",
+      "revenue_M": 21888,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10842
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "NOK",
+      "revenue_M": 21462,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 12647
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "NOK",
+      "revenue_M": 21833,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 12161
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "isin": "BE0003565737",
+  "name": "Proximus SA",
+  "ticker": "PROX",
+  "exchange": "Euronext Brussels",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 6248,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2224,
+      "net_income_M": 398,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 6376,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2364,
+      "net_income_M": 447
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 5993,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2198,
+      "net_income_M": 357
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 5853,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2186,
+      "net_income_M": 450
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 1557,
+      "rnd_M": null,
+      "cost_of_revenue_M": 570,
+      "net_income_M": 0,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 1540,
+      "rnd_M": null,
+      "cost_of_revenue_M": 543,
+      "net_income_M": 85
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 1532,
+      "rnd_M": null,
+      "cost_of_revenue_M": 521,
+      "net_income_M": 175
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 1622,
+      "rnd_M": null,
+      "cost_of_revenue_M": 590,
+      "net_income_M": 138
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 1674,
+      "rnd_M": null,
+      "cost_of_revenue_M": 658,
+      "net_income_M": 75
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

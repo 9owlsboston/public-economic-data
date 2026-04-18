@@ -1,0 +1,108 @@
+{
+  "isin": "FR0010313833",
+  "name": "Arkema SA",
+  "ticker": "AKE",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 9068,
+      "rnd_M": 284,
+      "cost_of_revenue_M": 7454,
+      "net_income_M": 63,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 9544,
+      "rnd_M": 278,
+      "cost_of_revenue_M": 7605,
+      "net_income_M": 354
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 9514,
+      "rnd_M": 275,
+      "cost_of_revenue_M": 7554,
+      "net_income_M": 418
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 11550,
+      "rnd_M": 270,
+      "cost_of_revenue_M": 8970,
+      "net_income_M": 965
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 2105,
+      "rnd_M": 74,
+      "cost_of_revenue_M": null,
+      "net_income_M": -68,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 2187,
+      "rnd_M": 68,
+      "cost_of_revenue_M": null,
+      "net_income_M": 35
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 2395,
+      "rnd_M": 71,
+      "cost_of_revenue_M": 1940,
+      "net_income_M": 47
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 2381,
+      "rnd_M": 71,
+      "cost_of_revenue_M": 1940,
+      "net_income_M": 49
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 2273,
+      "rnd_M": 94,
+      "cost_of_revenue_M": 1850,
+      "net_income_M": 12
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1917,
+      "net_income_M": null
+    }
+  ]
+}

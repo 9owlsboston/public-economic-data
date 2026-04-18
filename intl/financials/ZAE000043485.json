@@ -1,0 +1,55 @@
+{
+  "isin": "ZAE000043485",
+  "name": "Nedbank Group Ltd.",
+  "ticker": "NED",
+  "exchange": "JSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "ZAR",
+      "revenue_M": 69140,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 9260,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "ZAR",
+      "revenue_M": 67006,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 18321
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "ZAR",
+      "revenue_M": 65168,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 16757
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "ZAR",
+      "revenue_M": 58963,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 15266
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "ZAR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

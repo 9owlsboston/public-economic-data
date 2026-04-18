@@ -1,0 +1,47 @@
+{
+  "isin": "FR0010220475",
+  "name": "Alstom SA",
+  "ticker": "ALO",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 18489,
+      "rnd_M": 581,
+      "cost_of_revenue_M": 16185,
+      "net_income_M": 149,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "EUR",
+      "revenue_M": 17619,
+      "rnd_M": 609,
+      "cost_of_revenue_M": 15406,
+      "net_income_M": -309
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "EUR",
+      "revenue_M": 16507,
+      "rnd_M": 580,
+      "cost_of_revenue_M": 14541,
+      "net_income_M": -132
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "EUR",
+      "revenue_M": 15471,
+      "rnd_M": 604,
+      "cost_of_revenue_M": 13746,
+      "net_income_M": -581
+    }
+  ],
+  "quarterly": []
+}

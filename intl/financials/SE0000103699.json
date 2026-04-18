@@ -1,0 +1,100 @@
+{
+  "isin": "SE0000103699",
+  "name": "Hexagon AB",
+  "ticker": "HEXA-B",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 5425,
+      "rnd_M": 924,
+      "cost_of_revenue_M": 1828,
+      "net_income_M": 617,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 5401,
+      "rnd_M": 684,
+      "cost_of_revenue_M": 1791,
+      "net_income_M": 1023
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "SEK",
+      "revenue_M": 5435,
+      "rnd_M": 674,
+      "cost_of_revenue_M": 1892,
+      "net_income_M": 859
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "SEK",
+      "revenue_M": 5160,
+      "rnd_M": 607,
+      "cost_of_revenue_M": 1800,
+      "net_income_M": 1008
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 1429,
+      "rnd_M": 180,
+      "cost_of_revenue_M": 479,
+      "net_income_M": 237,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "SEK",
+      "revenue_M": 1370,
+      "rnd_M": 187,
+      "cost_of_revenue_M": 453,
+      "net_income_M": 225
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "SEK",
+      "revenue_M": 1323,
+      "rnd_M": 192,
+      "cost_of_revenue_M": 434,
+      "net_income_M": 189
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 1448,
+      "rnd_M": 176,
+      "cost_of_revenue_M": 483,
+      "net_income_M": 292
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "SEK",
+      "revenue_M": 1300,
+      "rnd_M": 171,
+      "cost_of_revenue_M": 429,
+      "net_income_M": 235
+    }
+  ]
+}

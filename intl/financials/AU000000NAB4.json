@@ -1,0 +1,47 @@
+{
+  "isin": "AU000000NAB4",
+  "name": "National Australia Bank Ltd",
+  "ticker": "NAB",
+  "exchange": "ASX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2024-09-30",
+      "currency": "AUD",
+      "revenue_M": 20632,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6960,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2023-09-30",
+      "currency": "AUD",
+      "revenue_M": 20630,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7414
+    },
+    {
+      "period_end": "2022-09-30",
+      "currency": "AUD",
+      "revenue_M": 18329,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6891
+    },
+    {
+      "period_end": "2021-09-30",
+      "currency": "AUD",
+      "revenue_M": 16682,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6364
+    }
+  ],
+  "quarterly": []
+}

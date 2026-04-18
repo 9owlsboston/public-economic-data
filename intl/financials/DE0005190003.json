@@ -4,7 +4,7 @@
   "ticker": "BMW",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -41,6 +41,52 @@
       "rnd_M": null,
       "cost_of_revenue_M": 118042,
       "net_income_M": 17941
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 33454,
+      "rnd_M": null,
+      "cost_of_revenue_M": 28535,
+      "net_income_M": 1771,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 33927,
+      "rnd_M": null,
+      "cost_of_revenue_M": 28352,
+      "net_income_M": 1752
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 33758,
+      "rnd_M": null,
+      "cost_of_revenue_M": 28257,
+      "net_income_M": 2097
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 36416,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30990,
+      "net_income_M": 1497
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 32406,
+      "rnd_M": null,
+      "cost_of_revenue_M": 28160,
+      "net_income_M": 389
     }
   ]
 }

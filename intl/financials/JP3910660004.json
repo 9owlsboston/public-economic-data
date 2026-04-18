@@ -1,0 +1,92 @@
+{
+  "isin": "JP3910660004",
+  "name": "Mizuho Financial Group, Inc.",
+  "ticker": "8411",
+  "exchange": "TSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "JPY",
+      "revenue_M": 3645206,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 885433,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "JPY",
+      "revenue_M": 2971068,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 678993
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "JPY",
+      "revenue_M": 2670039,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 555527
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "JPY",
+      "revenue_M": 2519461,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 530479
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "JPY",
+      "revenue_M": 1072643,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 329943,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "JPY",
+      "revenue_M": 1030811,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 399426
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "JPY",
+      "revenue_M": 890231,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 290521
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "JPY",
+      "revenue_M": 810685,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 30059
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "JPY",
+      "revenue_M": 964935,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 289233
+    }
+  ]
+}

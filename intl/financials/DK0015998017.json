@@ -1,0 +1,100 @@
+{
+  "isin": "DK0015998017",
+  "name": "Pandora A/S",
+  "ticker": "PNDORA",
+  "exchange": "OMX Copenhagen",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "DKK",
+      "revenue_M": 32549,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6802,
+      "net_income_M": 5241,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "DKK",
+      "revenue_M": 31680,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6391,
+      "net_income_M": 5227
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "DKK",
+      "revenue_M": 28136,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6012,
+      "net_income_M": 4740
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "DKK",
+      "revenue_M": 26463,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6273,
+      "net_income_M": 5029
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "DKK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "DKK",
+      "revenue_M": 11859,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2598,
+      "net_income_M": 2848,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "DKK",
+      "revenue_M": 7075,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1468,
+      "net_income_M": 803
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "DKK",
+      "revenue_M": 7347,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1436,
+      "net_income_M": 1101
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "DKK",
+      "revenue_M": 11973,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2422,
+      "net_income_M": 2869
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "DKK",
+      "revenue_M": 6103,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1217,
+      "net_income_M": 595
+    }
+  ]
+}

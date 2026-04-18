@@ -1,0 +1,108 @@
+{
+  "isin": "DE0007010803",
+  "name": "Continental AG",
+  "ticker": "CON",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 19676,
+      "rnd_M": 561,
+      "cost_of_revenue_M": 14565,
+      "net_income_M": -165,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 20077,
+      "rnd_M": 530,
+      "cost_of_revenue_M": 14772,
+      "net_income_M": 1168
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 41421,
+      "rnd_M": 4126,
+      "cost_of_revenue_M": 32613,
+      "net_income_M": 1156
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 39409,
+      "rnd_M": 4057,
+      "cost_of_revenue_M": 31828,
+      "net_income_M": 67
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 4965,
+      "rnd_M": 130,
+      "cost_of_revenue_M": 3701,
+      "net_income_M": 17,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 4950,
+      "rnd_M": 144,
+      "cost_of_revenue_M": 3626,
+      "net_income_M": -756
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 4856,
+      "rnd_M": 139,
+      "cost_of_revenue_M": 3617,
+      "net_income_M": 506
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 4905,
+      "rnd_M": 149,
+      "cost_of_revenue_M": 3621,
+      "net_income_M": 68
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 10095,
+      "rnd_M": 971,
+      "cost_of_revenue_M": 7762,
+      "net_income_M": 430
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

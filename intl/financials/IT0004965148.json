@@ -1,0 +1,55 @@
+{
+  "isin": "IT0004965148",
+  "name": "Nexi S.p.A.",
+  "ticker": "NEXI",
+  "exchange": "Borsa Italiana",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 6274,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3257,
+      "net_income_M": -3377,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 6108,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3300,
+      "net_income_M": 167
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 5814,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2959,
+      "net_income_M": -1006
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 5301,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2107,
+      "net_income_M": 139
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

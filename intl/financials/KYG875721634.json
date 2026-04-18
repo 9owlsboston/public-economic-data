@@ -1,0 +1,100 @@
+{
+  "isin": "KYG875721634",
+  "name": "Tencent Holdings Ltd",
+  "ticker": "0700",
+  "exchange": "HKEX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "HKD",
+      "revenue_M": 751766,
+      "rnd_M": null,
+      "cost_of_revenue_M": 329173,
+      "net_income_M": 224842,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "HKD",
+      "revenue_M": 660257,
+      "rnd_M": null,
+      "cost_of_revenue_M": 311011,
+      "net_income_M": 194073
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "HKD",
+      "revenue_M": 609015,
+      "rnd_M": null,
+      "cost_of_revenue_M": 315906,
+      "net_income_M": 115216
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "HKD",
+      "revenue_M": 554552,
+      "rnd_M": null,
+      "cost_of_revenue_M": 315806,
+      "net_income_M": 188243
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "HKD",
+      "revenue_M": 184504,
+      "rnd_M": null,
+      "cost_of_revenue_M": 79491,
+      "net_income_M": 55628
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

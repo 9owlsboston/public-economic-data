@@ -1,0 +1,100 @@
+{
+  "isin": "INE296A01024",
+  "name": "Bajaj Finserv Ltd.",
+  "ticker": "BAJAJFINSV",
+  "exchange": "NSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 1211925,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 88723,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "INR",
+      "revenue_M": 998801,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 81478
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "INR",
+      "revenue_M": 738459,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 64173
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "INR",
+      "revenue_M": 615160,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 45568
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "INR",
+      "revenue_M": 326194,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 22292,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "INR",
+      "revenue_M": 315643,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 22441
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "INR",
+      "revenue_M": 302309,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 27890
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 383139,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 24166
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "INR",
+      "revenue_M": 268465,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 22310
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "INR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

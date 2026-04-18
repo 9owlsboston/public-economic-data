@@ -1,0 +1,68 @@
+{
+  "isin": "FR0000121261",
+  "name": "Michelin SCA",
+  "ticker": "ML",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 25992,
+      "rnd_M": 788,
+      "cost_of_revenue_M": 18973,
+      "net_income_M": 1665,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 27193,
+      "rnd_M": 786,
+      "cost_of_revenue_M": 19445,
+      "net_income_M": 1884
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 28343,
+      "rnd_M": 756,
+      "cost_of_revenue_M": 20395,
+      "net_income_M": 1983
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 28590,
+      "rnd_M": 698,
+      "cost_of_revenue_M": 21052,
+      "net_income_M": 2001
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    }
+  ]
+}

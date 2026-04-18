@@ -4,7 +4,7 @@
   "ticker": "MKS",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -42,5 +42,6 @@
       "cost_of_revenue_M": 7130,
       "net_income_M": 307
     }
-  ]
+  ],
+  "quarterly": []
 }

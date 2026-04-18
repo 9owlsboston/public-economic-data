@@ -1,0 +1,108 @@
+{
+  "isin": "ES0132105018",
+  "name": "Acerinox S.A.",
+  "ticker": "ACX",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 5781,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3719,
+      "net_income_M": -40,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5413,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3553,
+      "net_income_M": 225
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 6608,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4426,
+      "net_income_M": 228
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 8688,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5606,
+      "net_income_M": 556
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 2723,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1776,
+      "net_income_M": -23,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 1415,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 25
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 1507,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -28
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 1551,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 2632,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1721,
+      "net_income_M": 110
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

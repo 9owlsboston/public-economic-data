@@ -1,0 +1,108 @@
+{
+  "isin": "SE0000667891",
+  "name": "Telefonaktiebolaget LM Ericsson",
+  "ticker": "ERIC-B",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 236681,
+      "rnd_M": 48852,
+      "cost_of_revenue_M": 124013,
+      "net_income_M": 28428,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 247880,
+      "rnd_M": 53514,
+      "cost_of_revenue_M": 138515,
+      "net_income_M": 20
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "SEK",
+      "revenue_M": 263351,
+      "rnd_M": 50664,
+      "cost_of_revenue_M": 161749,
+      "net_income_M": -26446
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "SEK",
+      "revenue_M": 271546,
+      "rnd_M": 47298,
+      "cost_of_revenue_M": 158251,
+      "net_income_M": 18724
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 69285,
+      "rnd_M": 13098,
+      "cost_of_revenue_M": 36580,
+      "net_income_M": 8563,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "SEK",
+      "revenue_M": 56239,
+      "rnd_M": 11510,
+      "cost_of_revenue_M": 29462,
+      "net_income_M": 11149
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "SEK",
+      "revenue_M": 56132,
+      "rnd_M": 12212,
+      "cost_of_revenue_M": 29483,
+      "net_income_M": 4567
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "SEK",
+      "revenue_M": 55025,
+      "rnd_M": 12032,
+      "cost_of_revenue_M": 28488,
+      "net_income_M": 4149
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 72913,
+      "rnd_M": 13877,
+      "cost_of_revenue_M": 40206,
+      "net_income_M": 4779
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

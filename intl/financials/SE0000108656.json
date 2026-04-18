@@ -1,0 +1,100 @@
+{
+  "isin": "SE0000108656",
+  "name": "Electrolux AB",
+  "ticker": "ELUX-B",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 131282,
+      "rnd_M": null,
+      "cost_of_revenue_M": 109580,
+      "net_income_M": 878,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 136150,
+      "rnd_M": null,
+      "cost_of_revenue_M": 115851,
+      "net_income_M": -1394
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "SEK",
+      "revenue_M": 134451,
+      "rnd_M": null,
+      "cost_of_revenue_M": 117316,
+      "net_income_M": -5227
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "SEK",
+      "revenue_M": 134880,
+      "rnd_M": null,
+      "cost_of_revenue_M": 117177,
+      "net_income_M": -1320
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "SEK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 35112,
+      "rnd_M": null,
+      "cost_of_revenue_M": 29318,
+      "net_income_M": 466,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "SEK",
+      "revenue_M": 31276,
+      "rnd_M": null,
+      "cost_of_revenue_M": 25950,
+      "net_income_M": 178
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "SEK",
+      "revenue_M": 32576,
+      "rnd_M": null,
+      "cost_of_revenue_M": 27399,
+      "net_income_M": 42
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 37968,
+      "rnd_M": null,
+      "cost_of_revenue_M": 31974,
+      "net_income_M": 150
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "SEK",
+      "revenue_M": 33286,
+      "rnd_M": null,
+      "cost_of_revenue_M": 28181,
+      "net_income_M": -235
+    }
+  ]
+}

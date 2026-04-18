@@ -1,0 +1,47 @@
+{
+  "isin": "FR0014003TT8",
+  "name": "Worldline SA",
+  "ticker": "WLN",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 4030,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1755,
+      "net_income_M": -5156,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 4163,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1747,
+      "net_income_M": -297
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 4610,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2097,
+      "net_income_M": -817
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 4364,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1948,
+      "net_income_M": 299
+    }
+  ],
+  "quarterly": []
+}

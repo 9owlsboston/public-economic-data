@@ -1,0 +1,108 @@
+{
+  "isin": "BR_PETROBRAS",
+  "name": "Petrobras S.A.",
+  "ticker": "PETR4",
+  "exchange": "B3",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "BRL",
+      "revenue_M": 89195,
+      "rnd_M": 864,
+      "cost_of_revenue_M": 46736,
+      "net_income_M": 19634,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "BRL",
+      "revenue_M": 91416,
+      "rnd_M": 789,
+      "cost_of_revenue_M": 45444,
+      "net_income_M": 7528
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "BRL",
+      "revenue_M": 102409,
+      "rnd_M": 726,
+      "cost_of_revenue_M": 48435,
+      "net_income_M": 24884
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "BRL",
+      "revenue_M": 124474,
+      "rnd_M": 792,
+      "cost_of_revenue_M": 59486,
+      "net_income_M": 36623
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "BRL",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "BRL",
+      "revenue_M": 23608,
+      "rnd_M": 236,
+      "cost_of_revenue_M": 12766,
+      "net_income_M": 2899,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "BRL",
+      "revenue_M": 23477,
+      "rnd_M": 233,
+      "cost_of_revenue_M": 12260,
+      "net_income_M": 6027
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "BRL",
+      "revenue_M": 21037,
+      "rnd_M": 193,
+      "cost_of_revenue_M": 11025,
+      "net_income_M": 4734
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "BRL",
+      "revenue_M": 21073,
+      "rnd_M": 202,
+      "cost_of_revenue_M": 10685,
+      "net_income_M": 5974
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "BRL",
+      "revenue_M": 20815,
+      "rnd_M": 218,
+      "cost_of_revenue_M": 10832,
+      "net_income_M": -2780
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "BRL",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

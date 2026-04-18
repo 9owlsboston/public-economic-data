@@ -1,0 +1,55 @@
+{
+  "isin": "CH0024899483",
+  "name": "Zurich Insurance Group AG",
+  "ticker": "ZURN",
+  "exchange": "SIX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CHF",
+      "revenue_M": 88670,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6798,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CHF",
+      "revenue_M": 86046,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5814
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "CHF",
+      "revenue_M": 78098,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4351
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "CHF",
+      "revenue_M": 44763,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3964
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "CHF",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

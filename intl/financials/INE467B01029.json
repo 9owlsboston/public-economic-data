@@ -1,0 +1,100 @@
+{
+  "isin": "INE467B01029",
+  "name": "Tata Consultancy Services Ltd.",
+  "ticker": "TCS",
+  "exchange": "NSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "INR",
+      "revenue_M": 2670210,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1593930,
+      "net_income_M": 492100,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 2553240,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1574360,
+      "net_income_M": 485530
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "INR",
+      "revenue_M": 2408930,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1328710,
+      "net_income_M": 459080
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "INR",
+      "revenue_M": 2254580,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1197590,
+      "net_income_M": 421470
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "INR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "INR",
+      "revenue_M": 706980,
+      "rnd_M": null,
+      "cost_of_revenue_M": 415870,
+      "net_income_M": 137180,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-12-31",
+      "currency": "INR",
+      "revenue_M": 670870,
+      "rnd_M": null,
+      "cost_of_revenue_M": 397920,
+      "net_income_M": 106570
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "INR",
+      "revenue_M": 634370,
+      "rnd_M": null,
+      "cost_of_revenue_M": 352990,
+      "net_income_M": 127600
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "INR",
+      "revenue_M": 644790,
+      "rnd_M": null,
+      "cost_of_revenue_M": 395100,
+      "net_income_M": 122240
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "INR",
+      "revenue_M": 639730,
+      "rnd_M": null,
+      "cost_of_revenue_M": 394750,
+      "net_income_M": 123800
+    }
+  ]
+}

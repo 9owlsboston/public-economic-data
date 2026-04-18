@@ -1,0 +1,100 @@
+{
+  "isin": "ES0130960018",
+  "name": "Endesa S.A.",
+  "ticker": "ELE",
+  "exchange": "BME",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 21020,
+      "rnd_M": null,
+      "cost_of_revenue_M": 14005,
+      "net_income_M": 2198,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 20927,
+      "rnd_M": null,
+      "cost_of_revenue_M": 13438,
+      "net_income_M": 1888
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 25064,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16643,
+      "net_income_M": 742
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 32540,
+      "rnd_M": null,
+      "cost_of_revenue_M": 23701,
+      "net_income_M": 2541
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 5334,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3893,
+      "net_income_M": 487,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 4978,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 4903,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3345,
+      "net_income_M": 458
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 5805,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3903,
+      "net_income_M": 583
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 5258,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3952,
+      "net_income_M": 604
+    }
+  ]
+}

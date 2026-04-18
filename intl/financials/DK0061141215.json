@@ -1,0 +1,108 @@
+{
+  "isin": "DK0061141215",
+  "name": "Orsted A/S",
+  "ticker": "ORSTED",
+  "exchange": "OMX Copenhagen",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "DKK",
+      "revenue_M": 63606,
+      "rnd_M": null,
+      "cost_of_revenue_M": 38984,
+      "net_income_M": 2440,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "DKK",
+      "revenue_M": 58833,
+      "rnd_M": null,
+      "cost_of_revenue_M": 35963,
+      "net_income_M": -206
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "DKK",
+      "revenue_M": 69077,
+      "rnd_M": null,
+      "cost_of_revenue_M": 46624,
+      "net_income_M": -20506
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "DKK",
+      "revenue_M": 108231,
+      "rnd_M": null,
+      "cost_of_revenue_M": 79303,
+      "net_income_M": 15126
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "DKK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "DKK",
+      "revenue_M": 19983,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12017,
+      "net_income_M": -3461,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "DKK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "DKK",
+      "revenue_M": 15047,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11292,
+      "net_income_M": 3096
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "DKK",
+      "revenue_M": 18400,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10006,
+      "net_income_M": 4594
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "DKK",
+      "revenue_M": 17683,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10439,
+      "net_income_M": -6162
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "DKK",
+      "revenue_M": 13157,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8197,
+      "net_income_M": 5114
+    }
+  ]
+}

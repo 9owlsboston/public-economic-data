@@ -1,0 +1,100 @@
+{
+  "isin": "CA8849038085",
+  "name": "Thomson Reuters Corporation",
+  "ticker": "TRI",
+  "exchange": "TSX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CAD",
+      "revenue_M": 7476,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1809,
+      "net_income_M": 1502,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CAD",
+      "revenue_M": 7258,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1791,
+      "net_income_M": 2210
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "CAD",
+      "revenue_M": 6794,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1560,
+      "net_income_M": 2695
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "CAD",
+      "revenue_M": 6627,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1585,
+      "net_income_M": 1338
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CAD",
+      "revenue_M": 2009,
+      "rnd_M": null,
+      "cost_of_revenue_M": 493,
+      "net_income_M": 332,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "CAD",
+      "revenue_M": 1782,
+      "rnd_M": null,
+      "cost_of_revenue_M": 430,
+      "net_income_M": 423
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "CAD",
+      "revenue_M": 1785,
+      "rnd_M": null,
+      "cost_of_revenue_M": 438,
+      "net_income_M": 313
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "CAD",
+      "revenue_M": 1900,
+      "rnd_M": null,
+      "cost_of_revenue_M": 448,
+      "net_income_M": 434
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CAD",
+      "revenue_M": 1909,
+      "rnd_M": null,
+      "cost_of_revenue_M": 491,
+      "net_income_M": 587
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "CAD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

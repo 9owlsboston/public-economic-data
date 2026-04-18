@@ -1,0 +1,92 @@
+{
+  "isin": "GB0000566504",
+  "name": "Standard Chartered plc",
+  "ticker": "STAN",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 20553,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5085,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 20046,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4050
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "GBP",
+      "revenue_M": 17456,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3469
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "GBP",
+      "revenue_M": 16158,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2948
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 4537,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 476,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "GBP",
+      "revenue_M": 5265,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1719
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "GBP",
+      "revenue_M": 5379,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1590
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 5546,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 522
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "GBP",
+      "revenue_M": 4650,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1150
+    }
+  ]
+}

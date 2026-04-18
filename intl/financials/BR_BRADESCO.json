@@ -1,18 +1,18 @@
 {
   "isin": "BR_BRADESCO",
-  "name": "Banco Bradesco SA",
-  "ticker": "BBD",
-  "exchange": "NYSE ADR",
+  "name": "Banco Bradesco S.A.",
+  "ticker": "BBDC4",
+  "exchange": "B3",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
       "currency": "BRL",
-      "revenue_M": 117814.0,
+      "revenue_M": 117814,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 23673.0,
+      "net_income_M": 23673,
       "tags_used": {
         "source": "yahoo_finance",
         "notes": "Values converted from full units to millions via yfinance"
@@ -21,26 +21,26 @@
     {
       "period_end": "2024-12-31",
       "currency": "BRL",
-      "revenue_M": 105330.0,
+      "revenue_M": 105330,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 17253.0
+      "net_income_M": 17253
     },
     {
       "period_end": "2023-12-31",
       "currency": "BRL",
-      "revenue_M": 98334.0,
+      "revenue_M": 98334,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 14251.0
+      "net_income_M": 14251
     },
     {
       "period_end": "2022-12-31",
       "currency": "BRL",
-      "revenue_M": 108847.0,
+      "revenue_M": 108847,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 21223.0
+      "net_income_M": 21223
     },
     {
       "period_end": "2021-12-31",
@@ -55,42 +55,46 @@
     {
       "period_end": "2025-12-31",
       "currency": "BRL",
-      "revenue_M": 29711.0,
+      "revenue_M": 29711,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 6500.0
+      "net_income_M": 6500,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-09-30",
       "currency": "BRL",
-      "revenue_M": 27979.0,
+      "revenue_M": 27979,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 5501.0
+      "net_income_M": 5501
     },
     {
       "period_end": "2025-06-30",
       "currency": "BRL",
-      "revenue_M": 30306.0,
+      "revenue_M": 30306,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 6067.0
+      "net_income_M": 6067
     },
     {
       "period_end": "2025-03-31",
       "currency": "BRL",
-      "revenue_M": 30162.0,
+      "revenue_M": 30162,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 5605.0
+      "net_income_M": 5605
     },
     {
       "period_end": "2024-12-31",
       "currency": "BRL",
-      "revenue_M": 29701.0,
+      "revenue_M": 29701,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 4146.0
+      "net_income_M": 4146
     },
     {
       "period_end": "2024-09-30",

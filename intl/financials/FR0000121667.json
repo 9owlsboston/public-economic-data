@@ -1,0 +1,55 @@
+{
+  "isin": "FR0000121667",
+  "name": "EssilorLuxottica SA",
+  "ticker": "EL",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 28491,
+      "rnd_M": 664,
+      "cost_of_revenue_M": 11237,
+      "net_income_M": 2315,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 26508,
+      "rnd_M": 630,
+      "cost_of_revenue_M": 9702,
+      "net_income_M": 2359
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 25395,
+      "rnd_M": 593,
+      "cost_of_revenue_M": 9347,
+      "net_income_M": 2289
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 24494,
+      "rnd_M": 600,
+      "cost_of_revenue_M": 8910,
+      "net_income_M": 2152
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

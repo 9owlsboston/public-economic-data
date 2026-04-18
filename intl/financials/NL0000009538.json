@@ -4,7 +4,7 @@
   "ticker": "PHIA",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -41,6 +41,60 @@
       "rnd_M": 2091,
       "cost_of_revenue_M": 10633,
       "net_income_M": -1608
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 5098,
+      "rnd_M": 427,
+      "cost_of_revenue_M": 2810,
+      "net_income_M": 395,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 4302,
+      "rnd_M": 414,
+      "cost_of_revenue_M": 2392,
+      "net_income_M": 184
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 4338,
+      "rnd_M": 402,
+      "cost_of_revenue_M": 2327,
+      "net_income_M": 240
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 4097,
+      "rnd_M": 457,
+      "cost_of_revenue_M": 2248,
+      "net_income_M": 76
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5044,
+      "rnd_M": 472,
+      "cost_of_revenue_M": 3081,
+      "net_income_M": -335
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ]
 }

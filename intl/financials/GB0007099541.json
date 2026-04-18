@@ -1,0 +1,55 @@
+{
+  "isin": "GB0007099541",
+  "name": "Prudential plc",
+  "ticker": "PRU",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 27393,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3978,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 16211,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2285
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "GBP",
+      "revenue_M": 19148,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1701
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "GBP",
+      "revenue_M": -21220,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -1007
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

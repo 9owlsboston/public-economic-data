@@ -401,11 +401,12 @@ def main():
                 existing = json.load(f)
             for scope in ("annual", "quarterly"):
                 existing_periods = {
-                    (e["period_end"], e["filing_date"]): e
+                    (e["period_end"], e.get("filing_date", "")): e
                     for e in existing.get(scope, [])
+                    if "period_end" in e
                 }
                 for entry in result[scope]:
-                    key = (entry["period_end"], entry["filing_date"])
+                    key = (entry["period_end"], entry.get("filing_date", ""))
                     existing_periods[key] = entry  # newer data wins
                 result[scope] = sorted(
                     existing_periods.values(),

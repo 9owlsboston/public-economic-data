@@ -1,0 +1,47 @@
+{
+  "isin": "GB00B19NLV48",
+  "name": "Experian plc",
+  "ticker": "EXPN",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "GBP",
+      "revenue_M": 7523,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3376,
+      "net_income_M": 1166,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "GBP",
+      "revenue_M": 7097,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3149,
+      "net_income_M": 1199
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "GBP",
+      "revenue_M": 6619,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3451,
+      "net_income_M": 770
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "GBP",
+      "revenue_M": 6288,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3313,
+      "net_income_M": 1165
+    }
+  ],
+  "quarterly": []
+}

@@ -1,0 +1,47 @@
+{
+  "isin": "FR0000054470",
+  "name": "Ubisoft Entertainment SA",
+  "ticker": "UBI",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 1899,
+      "rnd_M": 1071,
+      "cost_of_revenue_M": 203,
+      "net_income_M": -159,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-03-31",
+      "currency": "EUR",
+      "revenue_M": 2301,
+      "rnd_M": 1071,
+      "cost_of_revenue_M": 204,
+      "net_income_M": 158
+    },
+    {
+      "period_end": "2023-03-31",
+      "currency": "EUR",
+      "revenue_M": 1814,
+      "rnd_M": 1440,
+      "cost_of_revenue_M": 217,
+      "net_income_M": -494
+    },
+    {
+      "period_end": "2022-03-31",
+      "currency": "EUR",
+      "revenue_M": 2125,
+      "rnd_M": 822,
+      "cost_of_revenue_M": 270,
+      "net_income_M": 79
+    }
+  ],
+  "quarterly": []
+}

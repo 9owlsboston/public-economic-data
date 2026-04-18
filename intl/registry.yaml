@@ -151,10 +151,10 @@ companies:
     yf_symbol: REP.MC
     currency: EUR
   CH0012138605:
-    name: Adecco Group AG
-    ticker: ADEN
+    name: Nestle SA
+    ticker: NESN
     exchange: SIX
-    yf_symbol: ADEN.SW
+    yf_symbol: NESN.SW
     currency: CHF
   ES0148396007:
     name: Inditex SA
@@ -234,3 +234,909 @@ companies:
     exchange: Euronext Amsterdam
     yf_symbol: TOM2.AS
     currency: EUR
+  FR0000121667:
+    name: EssilorLuxottica SA
+    ticker: EL
+    exchange: Euronext Paris
+    yf_symbol: EL.PA
+    currency: EUR
+  AU000000WOW2:
+    name: Woolworths Group Ltd
+    ticker: WOW
+    exchange: ASX
+    yf_symbol: WOW.AX
+    currency: AUD
+  AU000000WBC1:
+    name: Westpac Banking Corp
+    ticker: WBC
+    exchange: ASX
+    yf_symbol: WBC.AX
+    currency: AUD
+  GB00BHJYC057:
+    name: WPP plc
+    ticker: WPP
+    exchange: LSE
+    yf_symbol: WPP.L
+    currency: GBP
+  NO0010096985:
+    name: Equinor ASA
+    ticker: EQNR
+    exchange: Oslo Bors
+    yf_symbol: EQNR.OL
+    currency: NOK
+  DE000ENAG999:
+    name: E.ON SE
+    ticker: EOAN
+    exchange: XETRA
+    yf_symbol: EOAN.DE
+    currency: EUR
+  DE000LHA0CL1:
+    name: Deutsche Lufthansa AG
+    ticker: LHA
+    exchange: XETRA
+    yf_symbol: LHA.DE
+    currency: EUR
+  SE0000106270:
+    name: H&M Hennes & Mauritz AB
+    ticker: HM-B
+    exchange: OMX Stockholm
+    yf_symbol: HM-B.ST
+    currency: SEK
+  FR0000125007:
+    name: Compagnie de Saint-Gobain SA
+    ticker: SGO
+    exchange: Euronext Paris
+    yf_symbol: SGO.PA
+    currency: EUR
+  FR0000130650:
+    name: Dassault Systemes SE
+    ticker: DSY
+    exchange: Euronext Paris
+    yf_symbol: DSY.PA
+    currency: EUR
+  FR0010208488:
+    name: Engie SA
+    ticker: ENGI
+    exchange: Euronext Paris
+    yf_symbol: ENGI.PA
+    currency: EUR
+  FR0000133308:
+    name: Orange SA
+    ticker: ORA
+    exchange: Euronext Paris
+    yf_symbol: ORA.PA
+    currency: EUR
+  FR0010313833:
+    name: Arkema SA
+    ticker: AKE
+    exchange: Euronext Paris
+    yf_symbol: AKE.PA
+    currency: EUR
+  FR0000121972:
+    name: Schneider Electric SE
+    ticker: SU
+    exchange: Euronext Paris
+    yf_symbol: SU.PA
+    currency: EUR
+  GB0007980591:
+    name: BP plc
+    ticker: BP
+    exchange: LSE
+    yf_symbol: BP.L
+    currency: GBP
+  HK0000069689:
+    name: AIA Group Limited
+    ticker: '1299'
+    exchange: HKEX
+    yf_symbol: 1299.HK
+    currency: HKD
+  CA8849038085:
+    name: Thomson Reuters Corporation
+    ticker: TRI
+    exchange: TSX
+    yf_symbol: TRI.TO
+    currency: CAD
+  AU000000CBA7:
+    name: Commonwealth Bank of Australia
+    ticker: CBA
+    exchange: ASX
+    yf_symbol: CBA.AX
+    currency: AUD
+  AU000000TLS2:
+    name: Telstra Group Ltd
+    ticker: TLS
+    exchange: ASX
+    yf_symbol: TLS.AX
+    currency: AUD
+  AU000000NAB4:
+    name: National Australia Bank Ltd
+    ticker: NAB
+    exchange: ASX
+    yf_symbol: NAB.AX
+    currency: AUD
+  AU000000SUN6:
+    name: Suncorp Group Ltd
+    ticker: SUN
+    exchange: ASX
+    yf_symbol: SUN.AX
+    currency: AUD
+  IT0003856405:
+    name: Leonardo S.p.A.
+    ticker: LDO
+    exchange: Borsa Italiana
+    yf_symbol: LDO.MI
+    currency: EUR
+  IT0005239360:
+    name: UniCredit S.p.A.
+    ticker: UCG
+    exchange: Borsa Italiana
+    yf_symbol: UCG.MI
+    currency: EUR
+  IT0003497168:
+    name: Telecom Italia S.p.A.
+    ticker: TIT
+    exchange: Borsa Italiana
+    yf_symbol: TIT.MI
+    currency: EUR
+  GB00B19NLV48:
+    name: Experian plc
+    ticker: EXPN
+    exchange: LSE
+    yf_symbol: EXPN.L
+    currency: GBP
+  GB0008847096:
+    name: Tesco plc
+    ticker: TSCO
+    exchange: LSE
+    yf_symbol: TSCO.L
+    currency: GBP
+  GB00B033F229:
+    name: Centrica plc
+    ticker: CNA
+    exchange: LSE
+    yf_symbol: CNA.L
+    currency: GBP
+  GB0007099541:
+    name: Prudential plc
+    ticker: PRU
+    exchange: LSE
+    yf_symbol: PRU.L
+    currency: GBP
+  GB0005405286:
+    name: HSBC Holdings plc
+    ticker: HSBA
+    exchange: LSE
+    yf_symbol: HSBA.L
+    currency: GBP
+  GB00BN7SWP63:
+    name: GSK plc
+    ticker: GSK
+    exchange: LSE
+    yf_symbol: GSK.L
+    currency: GBP
+  JE00B4T3BW64:
+    name: Glencore plc
+    ticker: GLEN
+    exchange: LSE
+    yf_symbol: GLEN.L
+    currency: GBP
+  GB00BD6K4575:
+    name: Currys plc
+    ticker: CURY
+    exchange: LSE
+    yf_symbol: CURY.L
+    currency: GBP
+  GB0031215220:
+    name: Pearson plc
+    ticker: PSON
+    exchange: LSE
+    yf_symbol: PSON.L
+    currency: GBP
+  GB0000566504:
+    name: Standard Chartered plc
+    ticker: STAN
+    exchange: LSE
+    yf_symbol: STAN.L
+    currency: GBP
+  GB00B10RZP78:
+    name: Unilever plc
+    ticker: ULVR
+    exchange: LSE
+    yf_symbol: ULVR.L
+    currency: GBP
+  FR0000125486:
+    name: Vinci SA
+    ticker: DG
+    exchange: Euronext Paris
+    yf_symbol: DG.PA
+    currency: EUR
+  FR0000131104:
+    name: BNP Paribas SA
+    ticker: BNP
+    exchange: Euronext Paris
+    yf_symbol: BNP.PA
+    currency: EUR
+  FR0000045072:
+    name: Credit Agricole SA
+    ticker: ACA
+    exchange: Euronext Paris
+    yf_symbol: ACA.PA
+    currency: EUR
+  FR0000120503:
+    name: Bouygues SA
+    ticker: EN
+    exchange: Euronext Paris
+    yf_symbol: EN.PA
+    currency: EUR
+  FR0010220475:
+    name: Alstom SA
+    ticker: ALO
+    exchange: Euronext Paris
+    yf_symbol: ALO.PA
+    currency: EUR
+  FR0000130577:
+    name: Publicis Groupe SA
+    ticker: PUB
+    exchange: Euronext Paris
+    yf_symbol: PUB.PA
+    currency: EUR
+  DE000SHA0159:
+    name: Schaeffler AG
+    ticker: SHA
+    exchange: XETRA
+    yf_symbol: SHA0.DE
+    currency: EUR
+  DK0010244508:
+    name: A.P. Moller-Maersk A/S
+    ticker: MAERSK-B
+    exchange: OMX Copenhagen
+    yf_symbol: MAERSK-B.CO
+    currency: DKK
+  SE0000171940:
+    name: AB SKF
+    ticker: SKF-B
+    exchange: OMX Stockholm
+    yf_symbol: SKF-B.ST
+    currency: SEK
+  SE0000103699:
+    name: Hexagon AB
+    ticker: HEXA-B
+    exchange: OMX Stockholm
+    yf_symbol: HEXA-B.ST
+    currency: SEK
+  SE0000115420:
+    name: Atlas Copco AB
+    ticker: ATCO-A
+    exchange: OMX Stockholm
+    yf_symbol: ATCO-A.ST
+    currency: SEK
+  SE0000667891:
+    name: Telefonaktiebolaget LM Ericsson
+    ticker: ERIC-B
+    exchange: OMX Stockholm
+    yf_symbol: ERIC-B.ST
+    currency: SEK
+  CH0126881561:
+    name: Swiss Re AG
+    ticker: SREN
+    exchange: SIX
+    yf_symbol: SREN.SW
+    currency: CHF
+  CH0024899483:
+    name: Zurich Insurance Group AG
+    ticker: ZURN
+    exchange: SIX
+    yf_symbol: ZURN.SW
+    currency: CHF
+  NL0000303709:
+    name: ING Groep N.V.
+    ticker: INGA
+    exchange: Euronext Amsterdam
+    yf_symbol: INGA.AS
+    currency: EUR
+  NL0000009082:
+    name: Koninklijke KPN N.V.
+    ticker: KPN
+    exchange: Euronext Amsterdam
+    yf_symbol: KPN.AS
+    currency: EUR
+  ES0113211835:
+    name: Banco Bilbao Vizcaya Argentaria, S.A.
+    ticker: BBVA
+    exchange: BME
+    yf_symbol: BBVA.MC
+    currency: EUR
+  ES0113900J37:
+    name: Banco Santander, S.A.
+    ticker: SAN
+    exchange: BME
+    yf_symbol: SAN.MC
+    currency: EUR
+  NO0003733800:
+    name: Aker ASA
+    ticker: AKER
+    exchange: Oslo Bors
+    yf_symbol: AKER.OL
+    currency: NOK
+  KR7005930003:
+    name: Samsung Electronics Co., Ltd.
+    ticker: 005930
+    exchange: KRX
+    yf_symbol: 005930.KS
+    currency: KRW
+  KR7066570003:
+    name: LG Electronics Inc.
+    ticker: '066570'
+    exchange: KRX
+    yf_symbol: 066570.KS
+    currency: KRW
+  BR_BANCODOBRASIL:
+    name: Banco do Brasil S.A.
+    ticker: BBAS3
+    exchange: B3
+    yf_symbol: BBAS3.SA
+    currency: BRL
+  BR_BRADESCO:
+    name: Banco Bradesco S.A.
+    ticker: BBDC4
+    exchange: B3
+    yf_symbol: BBDC4.SA
+    currency: BRL
+  BR_ITAU:
+    name: Itau Unibanco Holding S.A.
+    ticker: ITUB4
+    exchange: B3
+    yf_symbol: ITUB4.SA
+    currency: BRL
+  BR_VALE:
+    name: Vale S.A.
+    ticker: VALE3
+    exchange: B3
+    yf_symbol: VALE3.SA
+    currency: BRL
+  SG1T75931496:
+    name: Singapore Telecommunications Ltd
+    ticker: Z74
+    exchange: SGX
+    yf_symbol: Z74.SI
+    currency: SGD
+  CA21037X1006:
+    name: Constellation Software Inc.
+    ticker: CSU
+    exchange: TSX
+    yf_symbol: CSU.TO
+    currency: CAD
+  KYG875721634:
+    name: Tencent Holdings Ltd
+    ticker: '0700'
+    exchange: HKEX
+    yf_symbol: 0700.HK
+    currency: HKD
+  KYG9830T1067:
+    name: Xiaomi Corp
+    ticker: '1810'
+    exchange: HKEX
+    yf_symbol: 1810.HK
+    currency: HKD
+  FI0009000681:
+    name: Nokia Oyj
+    ticker: NOKIA
+    exchange: OMX Helsinki
+    yf_symbol: NOKIA.HE
+    currency: EUR
+  JP3548600000:
+    name: Dentsu Group Inc.
+    ticker: '4324'
+    exchange: TSE
+    yf_symbol: 4324.T
+    currency: JPY
+  JP3910660004:
+    name: Mizuho Financial Group, Inc.
+    ticker: '8411'
+    exchange: TSE
+    yf_symbol: 8411.T
+    currency: JPY
+  JP3756600007:
+    name: Canon Inc.
+    ticker: '7751'
+    exchange: TSE
+    yf_symbol: 7751.T
+    currency: JPY
+  JP3399310006:
+    name: Dai-ichi Life Holdings, Inc.
+    ticker: '8750'
+    exchange: TSE
+    yf_symbol: 8750.T
+    currency: JPY
+  JP3435000009:
+    name: Seven & i Holdings Co., Ltd.
+    ticker: '3382'
+    exchange: TSE
+    yf_symbol: 3382.T
+    currency: JPY
+  JP3538800008:
+    name: Trend Micro Inc.
+    ticker: '4704'
+    exchange: TSE
+    yf_symbol: 4704.T
+    currency: JPY
+  AT0000606306:
+    name: Raiffeisen Bank International AG
+    ticker: RBI
+    exchange: Vienna
+    yf_symbol: RBI.VI
+    currency: EUR
+  CA1366812022:
+    name: Canadian Tire Corp.
+    ticker: CTC-A
+    exchange: TSX
+    yf_symbol: CTC-A.TO
+    currency: CAD
+  HK0992009065:
+    name: Lenovo Group Ltd
+    ticker: 0992
+    exchange: HKEX
+    yf_symbol: 0992.HK
+    currency: HKD
+  DE0005200000:
+    name: Beiersdorf AG
+    ticker: BEI
+    exchange: XETRA
+    yf_symbol: BEI.DE
+    currency: EUR
+  DE0005785604:
+    name: Fresenius SE & Co. KGaA
+    ticker: FRE
+    exchange: XETRA
+    yf_symbol: FRE.DE
+    currency: EUR
+  DE0006969603:
+    name: Henkel AG & Co. KGaA
+    ticker: HEN3
+    exchange: XETRA
+    yf_symbol: HEN3.DE
+    currency: EUR
+  DE000KGX8881:
+    name: KION Group AG
+    ticker: KGX
+    exchange: XETRA
+    yf_symbol: KGX.DE
+    currency: EUR
+  DE0007010803:
+    name: Continental AG
+    ticker: CON
+    exchange: XETRA
+    yf_symbol: CON.DE
+    currency: EUR
+  DE0005557508_2:
+    name: ThyssenKrupp AG
+    ticker: TKA
+    exchange: XETRA
+    yf_symbol: TKA.DE
+    currency: EUR
+  DE000GEA0015:
+    name: GEA Group AG
+    ticker: G1A
+    exchange: XETRA
+    yf_symbol: G1A.DE
+    currency: EUR
+  DE000A2E4K43:
+    name: Delivery Hero SE
+    ticker: DHER
+    exchange: XETRA
+    yf_symbol: DHER.DE
+    currency: EUR
+  FR0000121261:
+    name: Michelin SCA
+    ticker: ML
+    exchange: Euronext Paris
+    yf_symbol: ML.PA
+    currency: EUR
+  FR0000131906:
+    name: Renault SA
+    ticker: RNO
+    exchange: Euronext Paris
+    yf_symbol: RNO.PA
+    currency: EUR
+  FR0000120693:
+    name: Pernod Ricard SA
+    ticker: RI
+    exchange: Euronext Paris
+    yf_symbol: RI.PA
+    currency: EUR
+  FR0000120073:
+    name: Publicis Groupe SA
+    ticker: PUB
+    exchange: Euronext Paris
+    yf_symbol: PUB.PA
+    currency: EUR
+  FR0000054470:
+    name: Ubisoft Entertainment SA
+    ticker: UBI
+    exchange: Euronext Paris
+    yf_symbol: UBI.PA
+    currency: EUR
+  FR0000120644:
+    name: Danone SA
+    ticker: BN
+    exchange: Euronext Paris
+    yf_symbol: BN.PA
+    currency: EUR
+  FR0000051807:
+    name: Teleperformance SE
+    ticker: TEP
+    exchange: Euronext Paris
+    yf_symbol: TEP.PA
+    currency: EUR
+  FR0000184798:
+    name: Edenred SE
+    ticker: EDEN
+    exchange: Euronext Paris
+    yf_symbol: EDEN.PA
+    currency: EUR
+  FR0014003TT8:
+    name: Worldline SA
+    ticker: WLN
+    exchange: Euronext Paris
+    yf_symbol: WLN.PA
+    currency: EUR
+  FR0000120578:
+    name: Sanofi SA
+    ticker: SAN_PA
+    exchange: Euronext Paris
+    yf_symbol: SAN.PA
+    currency: EUR
+  IT0000072618:
+    name: Intesa Sanpaolo S.p.A.
+    ticker: ISP
+    exchange: Borsa Italiana
+    yf_symbol: ISP.MI
+    currency: EUR
+  IT0004176001:
+    name: SNAM S.p.A.
+    ticker: SRG
+    exchange: Borsa Italiana
+    yf_symbol: SRG.MI
+    currency: EUR
+  IT0004965148:
+    name: Nexi S.p.A.
+    ticker: NEXI
+    exchange: Borsa Italiana
+    yf_symbol: NEXI.MI
+    currency: EUR
+  IT0000062072:
+    name: Assicurazioni Generali S.p.A.
+    ticker: G
+    exchange: Borsa Italiana
+    yf_symbol: G.MI
+    currency: EUR
+  CH0012032048:
+    name: Roche Holding AG
+    ticker: ROG
+    exchange: SIX
+    yf_symbol: ROG.SW
+    currency: CHF
+  CH0008742519:
+    name: Schindler Holding AG
+    ticker: SCHP
+    exchange: SIX
+    yf_symbol: SCHP.SW
+    currency: CHF
+  CH0102484968:
+    name: SGS SA
+    ticker: SGSN
+    exchange: SIX
+    yf_symbol: SGSN.SW
+    currency: CHF
+  DK0060079531:
+    name: Carlsberg A/S
+    ticker: CARL-B
+    exchange: OMX Copenhagen
+    yf_symbol: CARL-B.CO
+    currency: DKK
+  DK0061539921:
+    name: Vestas Wind Systems A/S
+    ticker: VWS
+    exchange: OMX Copenhagen
+    yf_symbol: VWS.CO
+    currency: DKK
+  DK0061141215:
+    name: Orsted A/S
+    ticker: ORSTED
+    exchange: OMX Copenhagen
+    yf_symbol: ORSTED.CO
+    currency: DKK
+  DK0015998017:
+    name: Pandora A/S
+    ticker: PNDORA
+    exchange: OMX Copenhagen
+    yf_symbol: PNDORA.CO
+    currency: DKK
+  DK0010274414:
+    name: Danske Bank A/S
+    ticker: DANSKE
+    exchange: OMX Copenhagen
+    yf_symbol: DANSKE.CO
+    currency: DKK
+  DK0060094928:
+    name: DSV A/S
+    ticker: DSV
+    exchange: OMX Copenhagen
+    yf_symbol: DSV.CO
+    currency: DKK
+  SE0000108656:
+    name: Electrolux AB
+    ticker: ELUX-B
+    exchange: OMX Stockholm
+    yf_symbol: ELUX-B.ST
+    currency: SEK
+  SE0000108227:
+    name: Husqvarna AB
+    ticker: HUSQ-B
+    exchange: OMX Stockholm
+    yf_symbol: HUSQ-B.ST
+    currency: SEK
+  SE0000310336:
+    name: Sandvik AB
+    ticker: SAND
+    exchange: OMX Stockholm
+    yf_symbol: SAND.ST
+    currency: SEK
+  SE0015961909:
+    name: Elekta AB
+    ticker: EKTA-B
+    exchange: OMX Stockholm
+    yf_symbol: EKTA-B.ST
+    currency: SEK
+  SE0000667925:
+    name: Swedbank AB
+    ticker: SWED-A
+    exchange: OMX Stockholm
+    yf_symbol: SWED-A.ST
+    currency: SEK
+  FI0009013296:
+    name: TietoEVRY Oyj
+    ticker: TIETO
+    exchange: OMX Helsinki
+    yf_symbol: TIETO.HE
+    currency: EUR
+  FI0009014575:
+    name: Metso Oyj
+    ticker: METSO
+    exchange: OMX Helsinki
+    yf_symbol: METSO.HE
+    currency: EUR
+  FI0009002422:
+    name: Fortum Oyj
+    ticker: FORTUM
+    exchange: OMX Helsinki
+    yf_symbol: FORTUM.HE
+    currency: EUR
+  NO0010208051:
+    name: Kongsberg Gruppen ASA
+    ticker: KOG
+    exchange: Oslo Bors
+    yf_symbol: KOG.OL
+    currency: NOK
+  NO0010031479:
+    name: DNB Bank ASA
+    ticker: DNB
+    exchange: Oslo Bors
+    yf_symbol: DNB.OL
+    currency: NOK
+  BE0003565737:
+    name: Proximus SA
+    ticker: PROX
+    exchange: Euronext Brussels
+    yf_symbol: PROX.BR
+    currency: EUR
+  BE0974293251:
+    name: Anheuser-Busch InBev SA/NV
+    ticker: ABI
+    exchange: Euronext Brussels
+    yf_symbol: ABI.BR
+    currency: EUR
+  BE0003810273:
+    name: UCB SA
+    ticker: UCB
+    exchange: Euronext Brussels
+    yf_symbol: UCB.BR
+    currency: EUR
+  NL0012044747:
+    name: Akzo Nobel N.V.
+    ticker: AKZA
+    exchange: Euronext Amsterdam
+    yf_symbol: AKZA.AS
+    currency: EUR
+  PTSON0AM0001:
+    name: Sonae SGPS SA
+    ticker: SON
+    exchange: Euronext Lisbon
+    yf_symbol: SON.LS
+    currency: EUR
+  TRAKCHOL91Q8:
+    name: Koc Holding A.S.
+    ticker: KCHOL
+    exchange: BIST
+    yf_symbol: KCHOL.IS
+    currency: TRY
+  KR7259960003:
+    name: KRAFTON, Inc.
+    ticker: '259960'
+    exchange: KRX
+    yf_symbol: 259960.KS
+    currency: KRW
+  INE296A01024:
+    name: Bajaj Finserv Ltd.
+    ticker: BAJAJFINSV
+    exchange: NSE
+    yf_symbol: BAJAJFINSV.NS
+    currency: INR
+  INE002A01018:
+    name: Reliance Industries Ltd.
+    ticker: RELIANCE
+    exchange: NSE
+    yf_symbol: RELIANCE.NS
+    currency: INR
+  INE018A01030:
+    name: Larsen & Toubro Ltd.
+    ticker: LT
+    exchange: NSE
+    yf_symbol: LT.NS
+    currency: INR
+  INE860A01027:
+    name: HCL Technologies Ltd.
+    ticker: HCLTECH
+    exchange: NSE
+    yf_symbol: HCLTECH.NS
+    currency: INR
+  INE467B01029:
+    name: Tata Consultancy Services Ltd.
+    ticker: TCS
+    exchange: NSE
+    yf_symbol: TCS.NS
+    currency: INR
+  INE154A01025:
+    name: ICICI Bank Ltd.
+    ticker: ICICIBANK
+    exchange: NSE
+    yf_symbol: ICICIBANK.NS
+    currency: INR
+  INE090A01021:
+    name: IndusInd Bank Ltd.
+    ticker: INDUSINDBK
+    exchange: NSE
+    yf_symbol: INDUSINDBK.NS
+    currency: INR
+  ZAE000109815:
+    name: Standard Bank Group Ltd.
+    ticker: SBK
+    exchange: JSE
+    yf_symbol: SBK.JO
+    currency: ZAR
+  ZAE000043485:
+    name: Nedbank Group Ltd.
+    ticker: NED
+    exchange: JSE
+    yf_symbol: NED.JO
+    currency: ZAR
+  MXP370711014:
+    name: Grupo Bimbo S.A.B. de C.V.
+    ticker: BIMBOA
+    exchange: BMV
+    yf_symbol: BIMBOA.MX
+    currency: MXN
+  MX01CE050016:
+    name: CEMEX S.A.B. de C.V.
+    ticker: CEMEXCPO
+    exchange: BMV
+    yf_symbol: CEMEXCPO.MX
+    currency: MXN
+  AU000000CGL8:
+    name: Coles Group Ltd.
+    ticker: COL
+    exchange: ASX
+    yf_symbol: COL.AX
+    currency: AUD
+  AU000000WES1:
+    name: Wesfarmers Ltd.
+    ticker: WES
+    exchange: ASX
+    yf_symbol: WES.AX
+    currency: AUD
+  GB00B2B0DG97:
+    name: Rolls-Royce Holdings plc
+    ticker: RR
+    exchange: LSE
+    yf_symbol: RR.L
+    currency: GBP
+  GB00B63H8491:
+    name: HSBC Holdings plc
+    ticker: HSBA
+    exchange: LSE
+    yf_symbol: HSBA.L
+    currency: GBP
+  GB00B0SWJX34_2:
+    name: Barclays plc
+    ticker: BARC
+    exchange: LSE
+    yf_symbol: BARC.L
+    currency: GBP
+  GB0006776081:
+    name: SSE plc
+    ticker: SSE
+    exchange: LSE
+    yf_symbol: SSE.L
+    currency: GBP
+  GB00BNNTLN49:
+    name: Sainsbury's plc
+    ticker: SBRY
+    exchange: LSE
+    yf_symbol: SBRY.L
+    currency: GBP
+  ES0109067019:
+    name: Amadeus IT Group S.A.
+    ticker: AMS
+    exchange: BME
+    yf_symbol: AMS.MC
+    currency: EUR
+  ES0130960018:
+    name: Endesa S.A.
+    ticker: ELE
+    exchange: BME
+    yf_symbol: ELE.MC
+    currency: EUR
+  ES0105066007:
+    name: Cellnex Telecom S.A.
+    ticker: CLNX
+    exchange: BME
+    yf_symbol: CLNX.MC
+    currency: EUR
+  ES0140609019:
+    name: CaixaBank S.A.
+    ticker: CABK
+    exchange: BME
+    yf_symbol: CABK.MC
+    currency: EUR
+  ES0116870314:
+    name: Naturgy Energy Group S.A.
+    ticker: NTGY
+    exchange: BME
+    yf_symbol: NTGY.MC
+    currency: EUR
+  ES0173093024:
+    name: Red Electrica Corp S.A.
+    ticker: RED
+    exchange: BME
+    yf_symbol: RED.MC
+    currency: EUR
+  ES0175438003:
+    name: Prosegur Compania de Seguridad S.A.
+    ticker: PSG
+    exchange: BME
+    yf_symbol: PSG.MC
+    currency: EUR
+  ES0113679I37:
+    name: Bankinter S.A.
+    ticker: BKT
+    exchange: BME
+    yf_symbol: BKT.MC
+    currency: EUR
+  ES0132105018:
+    name: Acerinox S.A.
+    ticker: ACX
+    exchange: BME
+    yf_symbol: ACX.MC
+    currency: EUR
+  BR_PETROBRAS:
+    name: Petrobras S.A.
+    ticker: PETR4
+    exchange: B3
+    yf_symbol: PETR4.SA
+    currency: BRL
+  NO0005052605:
+    name: Norsk Hydro ASA
+    ticker: NHY
+    exchange: Oslo Bors
+    yf_symbol: NHY.OL
+    currency: NOK

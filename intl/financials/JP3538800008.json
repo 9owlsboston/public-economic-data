@@ -1,0 +1,68 @@
+{
+  "isin": "JP3538800008",
+  "name": "Trend Micro Inc.",
+  "ticker": "4704",
+  "exchange": "TSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "JPY",
+      "revenue_M": 275984,
+      "rnd_M": null,
+      "cost_of_revenue_M": 63717,
+      "net_income_M": 34523,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "JPY",
+      "revenue_M": 272638,
+      "rnd_M": null,
+      "cost_of_revenue_M": 64980,
+      "net_income_M": 34358
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "JPY",
+      "revenue_M": 248691,
+      "rnd_M": null,
+      "cost_of_revenue_M": 63662,
+      "net_income_M": 10731
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "JPY",
+      "revenue_M": 223795,
+      "rnd_M": null,
+      "cost_of_revenue_M": 54300,
+      "net_income_M": 29843
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "JPY",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-03-31",
+      "currency": "JPY",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    }
+  ]
+}

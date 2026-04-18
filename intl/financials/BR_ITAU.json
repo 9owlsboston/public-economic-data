@@ -1,69 +1,108 @@
 {
-  "company": "Banco Ita\u00fa Unibanco",
-  "ticker": "ITUB",
-  "source_id": "BR_ITAU",
-  "currency": "BRL",
-  "fx_rate_usd": 0.19,
+  "isin": "BR_ITAU",
+  "name": "Itau Unibanco Holding S.A.",
+  "ticker": "ITUB4",
+  "exchange": "B3",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 136376000000,
-      "net_income": 29207000000,
-      "total_assets": 2321066000000,
-      "operating_cash_flow": 129633000000,
-      "capex": 8495000000
+      "period_end": "2025-12-31",
+      "currency": "BRL",
+      "revenue_M": 165243,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 44857,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 148380000000,
-      "net_income": 33105000000,
-      "total_assets": 2543100000000,
-      "operating_cash_flow": 77493000000,
-      "capex": 8864000000
+      "period_end": "2024-12-31",
+      "currency": "BRL",
+      "revenue_M": 158568,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 41085
     },
     {
-      "year": 2024,
-      "revenue": 158568000000,
-      "net_income": 41085000000,
-      "total_assets": 2854475000000,
-      "operating_cash_flow": 7069000000,
-      "capex": 6523000000
+      "period_end": "2023-12-31",
+      "currency": "BRL",
+      "revenue_M": 148380,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 33105
     },
     {
-      "year": 2025,
-      "revenue": 165243000000,
-      "net_income": 44857000000,
-      "total_assets": 3066169000000,
-      "operating_cash_flow": 34466000000,
-      "capex": 7115000000
+      "period_end": "2022-12-31",
+      "currency": "BRL",
+      "revenue_M": 136376,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 29207
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "BRL",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-12-31",
-      "revenue": 33802000000,
-      "net_income": 10835000000
-    },
-    {
-      "period_end": "2025-03-31",
-      "revenue": 42592000000,
-      "net_income": 10507000000
-    },
-    {
-      "period_end": "2025-06-30",
-      "revenue": 38368000000,
-      "net_income": 11137000000
+      "period_end": "2025-12-31",
+      "currency": "BRL",
+      "revenue_M": 42119,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 11907,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-09-30",
-      "revenue": 42166000000,
-      "net_income": 11306000000
+      "currency": "BRL",
+      "revenue_M": 42166,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 11306
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 42119000000,
-      "net_income": 11907000000
+      "period_end": "2025-06-30",
+      "currency": "BRL",
+      "revenue_M": 38368,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 11137
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "BRL",
+      "revenue_M": 42592,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10507
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "BRL",
+      "revenue_M": 33802,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10835
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "BRL",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ]
 }

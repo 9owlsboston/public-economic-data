@@ -1,0 +1,100 @@
+{
+  "isin": "FR0000120503",
+  "name": "Bouygues SA",
+  "ticker": "EN",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 56877,
+      "rnd_M": null,
+      "cost_of_revenue_M": 25176,
+      "net_income_M": 1138,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 56752,
+      "rnd_M": null,
+      "cost_of_revenue_M": 25554,
+      "net_income_M": 1058
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 56017,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26013,
+      "net_income_M": 1040
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 44398,
+      "rnd_M": null,
+      "cost_of_revenue_M": 19511,
+      "net_income_M": 973
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 14993,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6970,
+      "net_income_M": 463,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 14300,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6264,
+      "net_income_M": 329
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 12590,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5411,
+      "net_income_M": -156
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 15231,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6842,
+      "net_income_M": 371
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 14978,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6870,
+      "net_income_M": 501
+    }
+  ]
+}

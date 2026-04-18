@@ -4,7 +4,7 @@
   "ticker": "TEF",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -44,6 +44,60 @@
     },
     {
       "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 8150,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -3238,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 8958,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 276
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 8792,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -51
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 9221,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -1304
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 10897,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -1038
+    },
+    {
+      "period_end": "2024-09-30",
       "currency": "EUR",
       "revenue_M": null,
       "rnd_M": null,

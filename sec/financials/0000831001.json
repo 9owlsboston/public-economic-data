@@ -1,0 +1,93 @@
+{
+  "cik": "0000831001",
+  "name": "Citigroup Inc.",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-20",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 85225,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 14306,
+      "capex_M": 6520,
+      "operating_cash_flow_M": -67632,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": 315827,
+      "total_assets_M": 2657202,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-09-30",
+      "filing_date": "2025-11-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 22090,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3752,
+      "capex_M": 4889,
+      "operating_cash_flow_M": -94187,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": 315846,
+      "total_assets_M": 2642475,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 21668,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4019,
+      "capex_M": 3272,
+      "operating_cash_flow_M": -95287,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": 317761,
+      "total_assets_M": 2622772
+    },
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 21596,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4064,
+      "capex_M": 1517,
+      "operating_cash_flow_M": -58708,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": 295684,
+      "total_assets_M": 2571514
+    }
+  ]
+}

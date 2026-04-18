@@ -1,18 +1,18 @@
 {
   "isin": "DK0010244508",
-  "name": "A.P. Moller - Maersk A/S",
-  "ticker": "MAERSK-B.CO",
+  "name": "A.P. Moller-Maersk A/S",
+  "ticker": "MAERSK-B",
   "exchange": "OMX Copenhagen",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
       "currency": "DKK",
-      "revenue_M": 53988.0,
+      "revenue_M": 53988,
       "rnd_M": null,
-      "cost_of_revenue_M": 50179.0,
-      "net_income_M": 2725.0,
+      "cost_of_revenue_M": 50179,
+      "net_income_M": 2725,
       "tags_used": {
         "source": "yahoo_finance",
         "notes": "Values converted from full units to millions via yfinance"
@@ -21,26 +21,26 @@
     {
       "period_end": "2024-12-31",
       "currency": "DKK",
-      "revenue_M": 55482.0,
+      "revenue_M": 55482,
       "rnd_M": null,
-      "cost_of_revenue_M": 48563.0,
-      "net_income_M": 6109.0
+      "cost_of_revenue_M": 48563,
+      "net_income_M": 6109
     },
     {
       "period_end": "2023-12-31",
       "currency": "DKK",
-      "revenue_M": 51065.0,
+      "revenue_M": 51065,
       "rnd_M": null,
-      "cost_of_revenue_M": 47191.0,
-      "net_income_M": 3822.0
+      "cost_of_revenue_M": 47191,
+      "net_income_M": 3822
     },
     {
       "period_end": "2022-12-31",
       "currency": "DKK",
-      "revenue_M": 81529.0,
+      "revenue_M": 81529,
       "rnd_M": null,
-      "cost_of_revenue_M": 50210.0,
-      "net_income_M": 29198.0
+      "cost_of_revenue_M": 50210,
+      "net_income_M": 29198
     },
     {
       "period_end": "2021-12-31",
@@ -55,42 +55,46 @@
     {
       "period_end": "2025-12-31",
       "currency": "DKK",
-      "revenue_M": 13331.0,
+      "revenue_M": 13331,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": -70.0
+      "net_income_M": -70,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-09-30",
       "currency": "DKK",
-      "revenue_M": 14206.0,
+      "revenue_M": 14206,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1047.0
+      "net_income_M": 1047
     },
     {
       "period_end": "2025-06-30",
       "currency": "DKK",
-      "revenue_M": 13130.0,
+      "revenue_M": 13130,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 586.0
+      "net_income_M": 586
     },
     {
       "period_end": "2025-03-31",
       "currency": "DKK",
-      "revenue_M": 13321.0,
+      "revenue_M": 13321,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1162.0
+      "net_income_M": 1162
     },
     {
       "period_end": "2024-12-31",
       "currency": "DKK",
-      "revenue_M": 14594.0,
+      "revenue_M": 14594,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 2085.0
+      "net_income_M": 2085
     },
     {
       "period_end": "2024-09-30",

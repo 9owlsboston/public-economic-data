@@ -1,0 +1,55 @@
+{
+  "isin": "GB00BHJYC057",
+  "name": "WPP plc",
+  "ticker": "WPP",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 13550,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11404,
+      "net_income_M": -215,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 14741,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12290,
+      "net_income_M": 542
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "GBP",
+      "revenue_M": 14845,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12326,
+      "net_income_M": 110
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "GBP",
+      "revenue_M": 14429,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11890,
+      "net_income_M": 683
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

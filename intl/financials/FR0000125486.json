@@ -1,0 +1,55 @@
+{
+  "isin": "FR0000125486",
+  "name": "Vinci SA",
+  "ticker": "DG",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 75702,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30277,
+      "net_income_M": 4903,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 72768,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30425,
+      "net_income_M": 4863
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 69885,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30310,
+      "net_income_M": 4702
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 62514,
+      "rnd_M": null,
+      "cost_of_revenue_M": 27282,
+      "net_income_M": 4259
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

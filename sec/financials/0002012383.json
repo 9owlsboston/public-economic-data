@@ -1,7 +1,7 @@
 {
   "cik": "0002012383",
   "name": "BlackRock",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -56,6 +56,32 @@
       "net_income_M": 1323.0
     },
     {
+      "period_end": "2025-09-30",
+      "filing_date": "2025-11-05",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 6509,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1323,
+      "capex_M": 245,
+      "operating_cash_flow_M": 1650,
+      "sga_M": null,
+      "cash_M": 9979,
+      "total_debt_M": 12766,
+      "total_assets_M": 162682,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-06-30",
       "currency": "USD",
       "revenue_M": 5423.0,
@@ -64,12 +90,46 @@
       "net_income_M": 1593.0
     },
     {
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 5423,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1593,
+      "capex_M": 167,
+      "operating_cash_flow_M": 236,
+      "sga_M": null,
+      "cash_M": 9478,
+      "total_debt_M": 12762,
+      "total_assets_M": 146470
+    },
+    {
       "period_end": "2025-03-31",
       "currency": "USD",
       "revenue_M": 5276.0,
       "rnd_M": null,
       "cost_of_revenue_M": 2750.0,
       "net_income_M": 1510.0
+    },
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 5276,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1510,
+      "capex_M": 78,
+      "operating_cash_flow_M": -1128,
+      "sga_M": null,
+      "cash_M": 7747,
+      "total_debt_M": 12349,
+      "total_assets_M": 141942
     },
     {
       "period_end": "2024-12-31",

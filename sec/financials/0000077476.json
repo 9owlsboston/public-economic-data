@@ -1,7 +1,7 @@
 {
   "cik": "0000077476",
   "name": "PepsiCo Inc.",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-27",
@@ -221,6 +221,33 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-21",
+      "filing_date": "2026-04-16",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 19443,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8712,
+      "net_income_M": 2327,
+      "capex_M": null,
+      "operating_cash_flow_M": 41,
+      "sga_M": 7518,
+      "cash_M": 10475,
+      "total_debt_M": 42577,
+      "total_assets_M": 110646,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-06",
       "filing_date": "2025-10-09",
       "form": "10-Q",
@@ -235,17 +262,7 @@
       "sga_M": 9122,
       "cash_M": 8126,
       "total_debt_M": 44113,
-      "total_assets_M": 106558,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 106558
     },
     {
       "period_end": "2025-06-14",

@@ -1,0 +1,100 @@
+{
+  "isin": "MXP370711014",
+  "name": "Grupo Bimbo S.A.B. de C.V.",
+  "ticker": "BIMBOA",
+  "exchange": "BMV",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "MXN",
+      "revenue_M": 426952,
+      "rnd_M": null,
+      "cost_of_revenue_M": 203465,
+      "net_income_M": 11133,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "MXN",
+      "revenue_M": 408335,
+      "rnd_M": null,
+      "cost_of_revenue_M": 193407,
+      "net_income_M": 12545
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "MXN",
+      "revenue_M": 399879,
+      "rnd_M": null,
+      "cost_of_revenue_M": 194369,
+      "net_income_M": 15477
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "MXN",
+      "revenue_M": 398706,
+      "rnd_M": null,
+      "cost_of_revenue_M": 193325,
+      "net_income_M": 46910
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "MXN",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "MXN",
+      "revenue_M": 108688,
+      "rnd_M": null,
+      "cost_of_revenue_M": 52383,
+      "net_income_M": 3158,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "MXN",
+      "revenue_M": 107503,
+      "rnd_M": null,
+      "cost_of_revenue_M": 50777,
+      "net_income_M": 2823
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "MXN",
+      "revenue_M": 103726,
+      "rnd_M": null,
+      "cost_of_revenue_M": 49262,
+      "net_income_M": 1770
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "MXN",
+      "revenue_M": 110312,
+      "rnd_M": null,
+      "cost_of_revenue_M": 52380,
+      "net_income_M": 3121
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "MXN",
+      "revenue_M": 106110,
+      "rnd_M": null,
+      "cost_of_revenue_M": 49789,
+      "net_income_M": 3695
+    }
+  ]
+}

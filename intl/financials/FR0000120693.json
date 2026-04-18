@@ -1,0 +1,55 @@
+{
+  "isin": "FR0000120693",
+  "name": "Pernod Ricard SA",
+  "ticker": "RI",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 10959,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4443,
+      "net_income_M": 1626,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-06-30",
+      "currency": "EUR",
+      "revenue_M": 11598,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4623,
+      "net_income_M": 1476
+    },
+    {
+      "period_end": "2023-06-30",
+      "currency": "EUR",
+      "revenue_M": 12137,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4891,
+      "net_income_M": 2262
+    },
+    {
+      "period_end": "2022-06-30",
+      "currency": "EUR",
+      "revenue_M": 10701,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4228,
+      "net_income_M": 1996
+    },
+    {
+      "period_end": "2021-06-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

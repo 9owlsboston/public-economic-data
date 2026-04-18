@@ -1,0 +1,55 @@
+{
+  "isin": "FR0000121972",
+  "name": "Schneider Electric SE",
+  "ticker": "SU",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 40152,
+      "rnd_M": 1365,
+      "cost_of_revenue_M": 23257,
+      "net_income_M": 4163,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 38153,
+      "rnd_M": 1308,
+      "cost_of_revenue_M": 21885,
+      "net_income_M": 4269
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 35902,
+      "rnd_M": 1168,
+      "cost_of_revenue_M": 20890,
+      "net_income_M": 4003
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 34176,
+      "rnd_M": 1040,
+      "cost_of_revenue_M": 20300,
+      "net_income_M": 3477
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

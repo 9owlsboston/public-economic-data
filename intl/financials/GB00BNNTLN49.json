@@ -1,0 +1,47 @@
+{
+  "isin": "GB00BNNTLN49",
+  "name": "Sainsbury's plc",
+  "ticker": "SBRY",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-02-28",
+      "currency": "GBP",
+      "revenue_M": 32812,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30591,
+      "net_income_M": 242,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-02-29",
+      "currency": "GBP",
+      "revenue_M": 32238,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30148,
+      "net_income_M": 137
+    },
+    {
+      "period_end": "2023-02-28",
+      "currency": "GBP",
+      "revenue_M": 31491,
+      "rnd_M": null,
+      "cost_of_revenue_M": 29487,
+      "net_income_M": 207
+    },
+    {
+      "period_end": "2022-02-28",
+      "currency": "GBP",
+      "revenue_M": 29895,
+      "rnd_M": null,
+      "cost_of_revenue_M": 27529,
+      "net_income_M": 677
+    }
+  ],
+  "quarterly": []
+}

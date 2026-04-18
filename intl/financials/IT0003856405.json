@@ -1,69 +1,100 @@
 {
-  "company": "Leonardo S.p.A.",
-  "ticker": "LDO.MI",
-  "source_id": "IT0003856405",
-  "currency": "EUR",
-  "fx_rate_usd": 1.08,
+  "isin": "IT0003856405",
+  "name": "Leonardo S.p.A.",
+  "ticker": "LDO",
+  "exchange": "Borsa Italiana",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 14713000000,
-      "net_income": 927000000,
-      "total_assets": 28582000000,
-      "operating_cash_flow": 1152000000,
-      "capex": 762000000
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 19503,
+      "rnd_M": null,
+      "cost_of_revenue_M": 17240,
+      "net_income_M": 1224,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 15291000000,
-      "net_income": 658000000,
-      "total_assets": 30693000000,
-      "operating_cash_flow": 1186000000,
-      "capex": 782000000
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 17763,
+      "rnd_M": null,
+      "cost_of_revenue_M": 15747,
+      "net_income_M": 1074
     },
     {
-      "year": 2024,
-      "revenue": 17763000000,
-      "net_income": 1074000000,
-      "total_assets": 33673000000,
-      "operating_cash_flow": 1541000000,
-      "capex": 895000000
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 15291,
+      "rnd_M": null,
+      "cost_of_revenue_M": 13641,
+      "net_income_M": 658
     },
     {
-      "year": 2025,
-      "revenue": 19503000000,
-      "net_income": 1224000000,
-      "total_assets": 34509000000,
-      "operating_cash_flow": 1750000000,
-      "capex": 1016000000
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 14713,
+      "rnd_M": null,
+      "cost_of_revenue_M": 13154,
+      "net_income_M": 927
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-09-30",
-      "revenue": 4091000000,
-      "net_income": 175000000
-    },
-    {
-      "period_end": "2024-12-31",
-      "revenue": 5687000000,
-      "net_income": 395000000
-    },
-    {
-      "period_end": "2025-03-31",
-      "revenue": 4159000000,
-      "net_income": 377000000
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 6059,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5162,
+      "net_income_M": 560,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-06-30",
-      "revenue": 4760000000,
-      "net_income": 124000000
+      "currency": "EUR",
+      "revenue_M": 4760,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4287,
+      "net_income_M": 124
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 6059000000,
-      "net_income": 560000000
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 4159,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3792,
+      "net_income_M": 377
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 5687,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4884,
+      "net_income_M": 395
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 4091,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3670,
+      "net_income_M": 175
     }
   ]
 }

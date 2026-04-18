@@ -1,0 +1,92 @@
+{
+  "isin": "SE0000171940",
+  "name": "AB SKF",
+  "ticker": "SKF-B",
+  "exchange": "OMX Stockholm",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 91583,
+      "rnd_M": 3409,
+      "cost_of_revenue_M": 67058,
+      "net_income_M": 3927,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 98722,
+      "rnd_M": 3326,
+      "cost_of_revenue_M": 71349,
+      "net_income_M": 6474
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "SEK",
+      "revenue_M": 103881,
+      "rnd_M": 3303,
+      "cost_of_revenue_M": 77541,
+      "net_income_M": 6395
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "SEK",
+      "revenue_M": 96933,
+      "rnd_M": 3177,
+      "cost_of_revenue_M": 72465,
+      "net_income_M": 4469
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "SEK",
+      "revenue_M": 21969,
+      "rnd_M": 830,
+      "cost_of_revenue_M": 16315,
+      "net_income_M": 568,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "SEK",
+      "revenue_M": 23166,
+      "rnd_M": 910,
+      "cost_of_revenue_M": 17524,
+      "net_income_M": 516
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "SEK",
+      "revenue_M": 23966,
+      "rnd_M": 849,
+      "cost_of_revenue_M": 16830,
+      "net_income_M": 1796
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "SEK",
+      "revenue_M": 24725,
+      "rnd_M": 848,
+      "cost_of_revenue_M": 17864,
+      "net_income_M": 1507
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "SEK",
+      "revenue_M": 23692,
+      "rnd_M": 782,
+      "cost_of_revenue_M": 17145,
+      "net_income_M": 1550
+    }
+  ]
+}

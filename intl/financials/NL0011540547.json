@@ -4,7 +4,7 @@
   "ticker": "ABN",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-09",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -44,6 +44,60 @@
     },
     {
       "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 2278,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 410,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 2179,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 617
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 2143,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 606
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 2155,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 619
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 2223,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 397
+    },
+    {
+      "period_end": "2024-09-30",
       "currency": "EUR",
       "revenue_M": null,
       "rnd_M": null,

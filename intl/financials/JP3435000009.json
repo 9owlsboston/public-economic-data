@@ -1,0 +1,76 @@
+{
+  "isin": "JP3435000009",
+  "name": "Seven & i Holdings Co., Ltd.",
+  "ticker": "3382",
+  "exchange": "TSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-02-28",
+      "currency": "JPY",
+      "revenue_M": 11972762,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8485841,
+      "net_income_M": 173068,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-02-29",
+      "currency": "JPY",
+      "revenue_M": 11471753,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8060919,
+      "net_income_M": 224623
+    },
+    {
+      "period_end": "2023-02-28",
+      "currency": "JPY",
+      "revenue_M": 11811302,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8503617,
+      "net_income_M": 280976
+    },
+    {
+      "period_end": "2022-02-28",
+      "currency": "JPY",
+      "revenue_M": 8749751,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6017372,
+      "net_income_M": 210774
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-11-30",
+      "currency": "JPY",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-05-31",
+      "currency": "JPY",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2024-08-31",
+      "currency": "JPY",
+      "revenue_M": 3300783,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2373468,
+      "net_income_M": 30854
+    }
+  ]
+}

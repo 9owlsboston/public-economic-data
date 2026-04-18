@@ -1,0 +1,108 @@
+{
+  "isin": "IT0004176001",
+  "name": "SNAM S.p.A.",
+  "ticker": "SRG",
+  "exchange": "Borsa Italiana",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 3852,
+      "rnd_M": null,
+      "cost_of_revenue_M": -64,
+      "net_income_M": 1270,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 3548,
+      "rnd_M": null,
+      "cost_of_revenue_M": -300,
+      "net_income_M": 1259
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 4244,
+      "rnd_M": null,
+      "cost_of_revenue_M": 787,
+      "net_income_M": 1135
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 3496,
+      "rnd_M": null,
+      "cost_of_revenue_M": 493,
+      "net_income_M": 671
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 1006,
+      "rnd_M": null,
+      "cost_of_revenue_M": -687,
+      "net_income_M": 174,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": 503,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 922,
+      "rnd_M": null,
+      "cost_of_revenue_M": -89,
+      "net_income_M": 367
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 970,
+      "rnd_M": null,
+      "cost_of_revenue_M": 209,
+      "net_income_M": 406
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 897,
+      "rnd_M": null,
+      "cost_of_revenue_M": -891,
+      "net_income_M": 307
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": 858,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 318
+    }
+  ]
+}

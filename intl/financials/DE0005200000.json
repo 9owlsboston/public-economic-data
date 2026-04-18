@@ -1,0 +1,55 @@
+{
+  "isin": "DE0005200000",
+  "name": "Beiersdorf AG",
+  "ticker": "BEI",
+  "exchange": "XETRA",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 9852,
+      "rnd_M": 365,
+      "cost_of_revenue_M": 4166,
+      "net_income_M": 939,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 9850,
+      "rnd_M": 354,
+      "cost_of_revenue_M": 4090,
+      "net_income_M": 912
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 9447,
+      "rnd_M": 320,
+      "cost_of_revenue_M": 4031,
+      "net_income_M": 736
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 8799,
+      "rnd_M": 291,
+      "cost_of_revenue_M": 3842,
+      "net_income_M": 755
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

@@ -1,0 +1,108 @@
+{
+  "isin": "FR0000130650",
+  "name": "Dassault Systemes SE",
+  "ticker": "DSY",
+  "exchange": "Euronext Paris",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 6236,
+      "rnd_M": 1323,
+      "cost_of_revenue_M": 1015,
+      "net_income_M": 1196,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 6214,
+      "rnd_M": 1286,
+      "cost_of_revenue_M": 1016,
+      "net_income_M": 1200
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 5951,
+      "rnd_M": 1228,
+      "cost_of_revenue_M": 971,
+      "net_income_M": 1051
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 5665,
+      "rnd_M": 1087,
+      "cost_of_revenue_M": 919,
+      "net_income_M": 932
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 1681,
+      "rnd_M": 312,
+      "cost_of_revenue_M": 253,
+      "net_income_M": 437,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 1460,
+      "rnd_M": 314,
+      "cost_of_revenue_M": 237,
+      "net_income_M": 275
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 1522,
+      "rnd_M": 349,
+      "cost_of_revenue_M": 265,
+      "net_income_M": 224
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 1573,
+      "rnd_M": 349,
+      "cost_of_revenue_M": 260,
+      "net_income_M": 260
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 1754,
+      "rnd_M": 328,
+      "cost_of_revenue_M": 267,
+      "net_income_M": 412
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

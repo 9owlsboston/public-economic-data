@@ -1,0 +1,55 @@
+{
+  "isin": "JE00B4T3BW64",
+  "name": "Glencore plc",
+  "ticker": "GLEN",
+  "exchange": "LSE",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "GBP",
+      "revenue_M": 247535,
+      "rnd_M": null,
+      "cost_of_revenue_M": 241672,
+      "net_income_M": 363,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "GBP",
+      "revenue_M": 230944,
+      "rnd_M": null,
+      "cost_of_revenue_M": 224294,
+      "net_income_M": -1634
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "GBP",
+      "revenue_M": 217829,
+      "rnd_M": null,
+      "cost_of_revenue_M": 207046,
+      "net_income_M": 4280
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "GBP",
+      "revenue_M": 255984,
+      "rnd_M": null,
+      "cost_of_revenue_M": 228467,
+      "net_income_M": 17320
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "GBP",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": []
+}

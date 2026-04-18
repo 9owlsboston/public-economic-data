@@ -1,60 +1,92 @@
 {
-  "company": "Lenovo Group",
-  "ticker": "0992.HK",
-  "source_id": "HK0992009065",
-  "currency": "HKD",
-  "fx_rate_usd": 0.13,
+  "isin": "HK0992009065",
+  "name": "Lenovo Group Ltd",
+  "ticker": "0992",
+  "exchange": "HKEX",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 71618216000,
-      "net_income": 2029818000,
-      "rd_expense": 2073461000,
-      "total_assets": 44510444000,
-      "operating_cash_flow": 4076979000,
-      "capex": 1284081000
+      "period_end": "2025-03-31",
+      "currency": "HKD",
+      "revenue_M": 69077,
+      "rnd_M": 2288,
+      "cost_of_revenue_M": 57979,
+      "net_income_M": 1384,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 61946854000,
-      "net_income": 1607722000,
-      "rd_expense": 2195329000,
-      "total_assets": 38920057000,
-      "operating_cash_flow": 2801402000,
-      "capex": 1578146000
+      "period_end": "2024-03-31",
+      "currency": "HKD",
+      "revenue_M": 56864,
+      "rnd_M": 2028,
+      "cost_of_revenue_M": 47061,
+      "net_income_M": 1011
     },
     {
-      "year": 2024,
-      "revenue": 56863784000,
-      "net_income": 1010506000,
-      "rd_expense": 2027532000,
-      "total_assets": 38750954000,
-      "operating_cash_flow": 2010991000,
-      "capex": 1285897000
+      "period_end": "2023-03-31",
+      "currency": "HKD",
+      "revenue_M": 61947,
+      "rnd_M": 2195,
+      "cost_of_revenue_M": 51446,
+      "net_income_M": 1608
     },
     {
-      "year": 2025,
-      "revenue": 69076968000,
-      "net_income": 1384445000,
-      "rd_expense": 2288204000,
-      "total_assets": 44230812000,
-      "operating_cash_flow": 1099822000,
-      "capex": 1151152000
+      "period_end": "2022-03-31",
+      "currency": "HKD",
+      "revenue_M": 71618,
+      "rnd_M": 2073,
+      "cost_of_revenue_M": 59569,
+      "net_income_M": 2030
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-09-30",
-      "revenue": 17850094000,
-      "net_income": 358532000,
-      "rd_expense": 547528000
+      "period_end": "2025-12-31",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-09-30",
-      "revenue": 20452022000,
-      "net_income": 340276000,
-      "rd_expense": 580585000
+      "currency": "HKD",
+      "revenue_M": 20452,
+      "rnd_M": 581,
+      "cost_of_revenue_M": 17305,
+      "net_income_M": 340
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "HKD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "HKD",
+      "revenue_M": 17850,
+      "rnd_M": 548,
+      "cost_of_revenue_M": 15054,
+      "net_income_M": 359
     }
   ]
 }

@@ -1,0 +1,92 @@
+{
+  "isin": "CH0008742519",
+  "name": "Schindler Holding AG",
+  "ticker": "SCHP",
+  "exchange": "SIX",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CHF",
+      "revenue_M": 10947,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3890,
+      "net_income_M": 1015,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CHF",
+      "revenue_M": 11236,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4209,
+      "net_income_M": 950
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "CHF",
+      "revenue_M": 11494,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4605,
+      "net_income_M": 866
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "CHF",
+      "revenue_M": 11346,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4760,
+      "net_income_M": 610
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "CHF",
+      "revenue_M": 2792,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 219,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "CHF",
+      "revenue_M": 2755,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 245
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "CHF",
+      "revenue_M": 2732,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 257
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "CHF",
+      "revenue_M": 2855,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 262
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "CHF",
+      "revenue_M": 2788,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 254
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "isin": "NO0005052605",
+  "name": "Norsk Hydro ASA",
+  "ticker": "NHY",
+  "exchange": "Oslo Bors",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "NOK",
+      "revenue_M": 207971,
+      "rnd_M": null,
+      "cost_of_revenue_M": 133116,
+      "net_income_M": 6717,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "NOK",
+      "revenue_M": 203635,
+      "rnd_M": null,
+      "cost_of_revenue_M": 129349,
+      "net_income_M": 5790
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "NOK",
+      "revenue_M": 193619,
+      "rnd_M": null,
+      "cost_of_revenue_M": 123538,
+      "net_income_M": 3583
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "NOK",
+      "revenue_M": 207929,
+      "rnd_M": null,
+      "cost_of_revenue_M": 129373,
+      "net_income_M": 24154
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "NOK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "NOK",
+      "revenue_M": 47215,
+      "rnd_M": null,
+      "cost_of_revenue_M": 34756,
+      "net_income_M": -2363,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "NOK",
+      "revenue_M": 50546,
+      "rnd_M": null,
+      "cost_of_revenue_M": 35492,
+      "net_income_M": 2194
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "NOK",
+      "revenue_M": 53116,
+      "rnd_M": null,
+      "cost_of_revenue_M": 36176,
+      "net_income_M": 2053
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "NOK",
+      "revenue_M": 57094,
+      "rnd_M": null,
+      "cost_of_revenue_M": 37019,
+      "net_income_M": 4834
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "NOK",
+      "revenue_M": 55057,
+      "rnd_M": null,
+      "cost_of_revenue_M": 36525,
+      "net_income_M": 1912
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "NOK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

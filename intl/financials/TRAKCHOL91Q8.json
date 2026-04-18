@@ -1,0 +1,108 @@
+{
+  "isin": "TRAKCHOL91Q8",
+  "name": "Koc Holding A.S.",
+  "ticker": "KCHOL",
+  "exchange": "BIST",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "TRY",
+      "revenue_M": 2757295,
+      "rnd_M": 9376,
+      "cost_of_revenue_M": 2287941,
+      "net_income_M": 22001,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "TRY",
+      "revenue_M": 3033955,
+      "rnd_M": 9013,
+      "cost_of_revenue_M": 2604845,
+      "net_income_M": 1709
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "TRY",
+      "revenue_M": 2316773,
+      "rnd_M": 4685,
+      "cost_of_revenue_M": 1772974,
+      "net_income_M": 108176
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "TRY",
+      "revenue_M": 1715942,
+      "rnd_M": 2830,
+      "cost_of_revenue_M": 1310999,
+      "net_income_M": 72662
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "TRY",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "TRY",
+      "revenue_M": 802669,
+      "rnd_M": 2704,
+      "cost_of_revenue_M": 663858,
+      "net_income_M": 7649,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "TRY",
+      "revenue_M": 688860,
+      "rnd_M": 2148,
+      "cost_of_revenue_M": 575264,
+      "net_income_M": 7650
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "TRY",
+      "revenue_M": 606756,
+      "rnd_M": 2229,
+      "cost_of_revenue_M": 502569,
+      "net_income_M": 7733
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "TRY",
+      "revenue_M": 538320,
+      "rnd_M": 1867,
+      "cost_of_revenue_M": 446235,
+      "net_income_M": -1415
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "TRY",
+      "revenue_M": 657392,
+      "rnd_M": 1930,
+      "cost_of_revenue_M": 570218,
+      "net_income_M": 3211
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "TRY",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

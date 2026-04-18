@@ -1,38 +1,54 @@
 {
-  "company": "Telstra",
-  "ticker": "TLS.AX",
-  "source_id": "AU000000TLS2",
-  "currency": "AUD",
-  "fx_rate_usd": 0.64,
+  "isin": "AU000000TLS2",
+  "name": "Telstra Group Ltd",
+  "ticker": "TLS",
+  "exchange": "ASX",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 20920000000,
-      "net_income": 1688000000,
-      "total_assets": 41628000000,
-      "capex": 3094000000
+      "period_end": "2025-06-30",
+      "currency": "AUD",
+      "revenue_M": 22717,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8212,
+      "net_income_M": 2172,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 22365000000,
-      "net_income": 1928000000,
-      "total_assets": 45029000000,
-      "capex": 3870000000
+      "period_end": "2024-06-30",
+      "currency": "AUD",
+      "revenue_M": 22537,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8441,
+      "net_income_M": 1622
     },
     {
-      "year": 2024,
-      "revenue": 22537000000,
-      "net_income": 1622000000,
-      "total_assets": 45550000000,
-      "capex": 5064000000
+      "period_end": "2023-06-30",
+      "currency": "AUD",
+      "revenue_M": 22365,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8511,
+      "net_income_M": 1928
     },
     {
-      "year": 2025,
-      "revenue": 22717000000,
-      "net_income": 2172000000,
-      "total_assets": 44968000000,
-      "capex": 3874000000
+      "period_end": "2022-06-30",
+      "currency": "AUD",
+      "revenue_M": 20920,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8228,
+      "net_income_M": 1688
+    },
+    {
+      "period_end": "2021-06-30",
+      "currency": "AUD",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ],
   "quarterly": []

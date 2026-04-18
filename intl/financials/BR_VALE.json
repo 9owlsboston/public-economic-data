@@ -1,78 +1,108 @@
 {
-  "company": "Vale S.A.",
-  "ticker": "VALE",
-  "source_id": "BR_VALE",
-  "currency": "BRL",
-  "fx_rate_usd": 0.19,
+  "isin": "BR_VALE",
+  "name": "Vale S.A.",
+  "ticker": "VALE3",
+  "exchange": "B3",
   "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
-      "year": 2022,
-      "revenue": 43839000000,
-      "net_income": 18788000000,
-      "rd_expense": 660000000,
-      "total_assets": 86894000000,
-      "operating_cash_flow": 11485000000,
-      "capex": 5446000000
+      "period_end": "2025-12-31",
+      "currency": "BRL",
+      "revenue_M": 38403,
+      "rnd_M": 693,
+      "cost_of_revenue_M": 24947,
+      "net_income_M": 2352,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
-      "year": 2023,
-      "revenue": 41784000000,
-      "net_income": 7983000000,
-      "rd_expense": 723000000,
-      "total_assets": 94186000000,
-      "operating_cash_flow": 13165000000,
-      "capex": 5920000000
+      "period_end": "2024-12-31",
+      "currency": "BRL",
+      "revenue_M": 38056,
+      "rnd_M": 790,
+      "cost_of_revenue_M": 24265,
+      "net_income_M": 6166
     },
     {
-      "year": 2024,
-      "revenue": 38056000000,
-      "net_income": 6166000000,
-      "rd_expense": 790000000,
-      "total_assets": 80152000000,
-      "operating_cash_flow": 9366000000,
-      "capex": 6447000000
+      "period_end": "2023-12-31",
+      "currency": "BRL",
+      "revenue_M": 41784,
+      "rnd_M": 723,
+      "cost_of_revenue_M": 24089,
+      "net_income_M": 7983
     },
     {
-      "year": 2025,
-      "revenue": 38403000000,
-      "net_income": 2352000000,
-      "rd_expense": 693000000,
-      "total_assets": 86525000000,
-      "operating_cash_flow": 8801000000,
-      "capex": 6006000000
+      "period_end": "2022-12-31",
+      "currency": "BRL",
+      "revenue_M": 43839,
+      "rnd_M": 660,
+      "cost_of_revenue_M": 24028,
+      "net_income_M": 18788
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "BRL",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ],
   "quarterly": [
     {
-      "period_end": "2024-12-31",
-      "revenue": 10124000000,
-      "net_income": -694000000,
-      "rd_expense": 253000000
-    },
-    {
-      "period_end": "2025-03-31",
-      "revenue": 8119000000,
-      "net_income": 1394000000,
-      "rd_expense": 123000000
-    },
-    {
-      "period_end": "2025-06-30",
-      "revenue": 8804000000,
-      "net_income": 2117000000,
-      "rd_expense": 159000000
+      "period_end": "2025-12-31",
+      "currency": "BRL",
+      "revenue_M": 11060,
+      "rnd_M": 260,
+      "cost_of_revenue_M": 6779,
+      "net_income_M": -3844,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-09-30",
-      "revenue": 10420000000,
-      "net_income": 2685000000,
-      "rd_expense": 151000000
+      "currency": "BRL",
+      "revenue_M": 10420,
+      "rnd_M": 151,
+      "cost_of_revenue_M": 6632,
+      "net_income_M": 2685
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 11060000000,
-      "net_income": -3844000000,
-      "rd_expense": 260000000
+      "period_end": "2025-06-30",
+      "currency": "BRL",
+      "revenue_M": 8804,
+      "rnd_M": 159,
+      "cost_of_revenue_M": 6085,
+      "net_income_M": 2117
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "BRL",
+      "revenue_M": 8119,
+      "rnd_M": 123,
+      "cost_of_revenue_M": 5451,
+      "net_income_M": 1394
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "BRL",
+      "revenue_M": 10124,
+      "rnd_M": 253,
+      "cost_of_revenue_M": 6268,
+      "net_income_M": -694
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "BRL",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ticker": "SIE",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-17",
   "annual": [
     {
       "period_end": "2025-09-30",
@@ -47,42 +47,46 @@
     {
       "period_end": "2025-12-31",
       "currency": "EUR",
-      "revenue_M": 19139.0,
-      "rnd_M": 1637.0,
-      "cost_of_revenue_M": 11506.0,
-      "net_income_M": 2030.0
+      "revenue_M": 19139,
+      "rnd_M": 1637,
+      "cost_of_revenue_M": 11506,
+      "net_income_M": 2030,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
     },
     {
       "period_end": "2025-09-30",
       "currency": "EUR",
-      "revenue_M": 21426.0,
-      "rnd_M": 1744.0,
-      "cost_of_revenue_M": 13323.0,
-      "net_income_M": 1619.0
+      "revenue_M": 21426,
+      "rnd_M": 1744,
+      "cost_of_revenue_M": 13323,
+      "net_income_M": 1619
     },
     {
       "period_end": "2025-06-30",
       "currency": "EUR",
-      "revenue_M": 19377.0,
-      "rnd_M": 1650.0,
-      "cost_of_revenue_M": 11840.0,
-      "net_income_M": 2046.0
+      "revenue_M": 19377,
+      "rnd_M": 1650,
+      "cost_of_revenue_M": 11840,
+      "net_income_M": 2046
     },
     {
       "period_end": "2025-03-31",
       "currency": "EUR",
-      "revenue_M": 19757.0,
-      "rnd_M": 1620.0,
-      "cost_of_revenue_M": 12088.0,
-      "net_income_M": 2251.0
+      "revenue_M": 19757,
+      "rnd_M": 1620,
+      "cost_of_revenue_M": 12088,
+      "net_income_M": 2251
     },
     {
       "period_end": "2024-12-31",
       "currency": "EUR",
-      "revenue_M": 18353.0,
-      "rnd_M": 1545.0,
-      "cost_of_revenue_M": 11264.0,
-      "net_income_M": 3705.0
+      "revenue_M": 18353,
+      "rnd_M": 1545,
+      "cost_of_revenue_M": 11264,
+      "net_income_M": 3705
     },
     {
       "period_end": "2024-09-30",

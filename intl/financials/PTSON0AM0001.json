@@ -1,0 +1,108 @@
+{
+  "isin": "PTSON0AM0001",
+  "name": "Sonae SGPS SA",
+  "ticker": "SON",
+  "exchange": "Euronext Lisbon",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 11360,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7733,
+      "net_income_M": 199,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 9947,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6783,
+      "net_income_M": 223
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "EUR",
+      "revenue_M": 8399,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5784,
+      "net_income_M": 357
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "EUR",
+      "revenue_M": 7693,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5276,
+      "net_income_M": 336
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 3197,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2150,
+      "net_income_M": 0,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": 2910,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2020,
+      "net_income_M": 98
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 2700,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1837,
+      "net_income_M": 59
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 2553,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1745,
+      "net_income_M": 43
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "EUR",
+      "revenue_M": 2981,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2000,
+      "net_income_M": 73
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "isin": "DK0060094928",
+  "name": "DSV A/S",
+  "ticker": "DSV",
+  "exchange": "OMX Copenhagen",
+  "source": "yahoo_finance",
+  "last_refreshed": "2026-04-17",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "DKK",
+      "revenue_M": 247331,
+      "rnd_M": null,
+      "cost_of_revenue_M": 180472,
+      "net_income_M": 8095,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "DKK",
+      "revenue_M": 167106,
+      "rnd_M": null,
+      "cost_of_revenue_M": 124132,
+      "net_income_M": 10109
+    },
+    {
+      "period_end": "2023-12-31",
+      "currency": "DKK",
+      "revenue_M": 150785,
+      "rnd_M": null,
+      "cost_of_revenue_M": 106967,
+      "net_income_M": 12315
+    },
+    {
+      "period_end": "2022-12-31",
+      "currency": "DKK",
+      "revenue_M": 235665,
+      "rnd_M": null,
+      "cost_of_revenue_M": 183516,
+      "net_income_M": 17568
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "DKK",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null
+    }
+  ],
+  "quarterly": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "DKK",
+      "revenue_M": 71685,
+      "rnd_M": null,
+      "cost_of_revenue_M": 52566,
+      "net_income_M": 917,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Values converted from full units to millions via yfinance"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "DKK",
+      "revenue_M": 61983,
+      "rnd_M": null,
+      "cost_of_revenue_M": 44742,
+      "net_income_M": 2330
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "DKK",
+      "revenue_M": 41680,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30689,
+      "net_income_M": 2797
+    },
+    {
+      "period_end": "2024-12-31",
+      "currency": "DKK",
+      "revenue_M": 43514,
+      "rnd_M": null,
+      "cost_of_revenue_M": 32726,
+      "net_income_M": 2210
+    },
+    {
+      "period_end": "2024-09-30",
+      "currency": "DKK",
+      "revenue_M": 44095,
+      "rnd_M": null,
+      "cost_of_revenue_M": 33015,
+      "net_income_M": 2823
+    }
+  ]
+}
