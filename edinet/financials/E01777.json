@@ -3,7 +3,7 @@
   "name": "Sony Group Corporation",
   "ticker": "6758",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-10",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -20,8 +20,16 @@
         "revenue_M": "jpigp_cor:NetSalesIFRS",
         "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
-      }
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      },
+      "cash_M": 2980956,
+      "total_assets_M": 35293173,
+      "capex_M": 867755,
+      "operating_cash_flow_M": 2321675
     },
     {
       "period_end": "2024-03-31",
@@ -33,7 +41,11 @@
       "operating_income_M": 1208831,
       "net_income_M": 970573,
       "cost_of_revenue_M": 8089317,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1907113,
+      "total_assets_M": 34107490,
+      "capex_M": 882611,
+      "operating_cash_flow_M": 1373213
     },
     {
       "period_end": "2023-03-31",
@@ -45,7 +57,11 @@
       "operating_income_M": 1208206,
       "net_income_M": 937126,
       "cost_of_revenue_M": 7174723,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1480900,
+      "total_assets_M": 32041222,
+      "capex_M": 809569,
+      "operating_cash_flow_M": 314691
     },
     {
       "period_end": "2022-03-31",
@@ -57,7 +73,11 @@
       "operating_income_M": 1202339,
       "net_income_M": 882178,
       "cost_of_revenue_M": 5845804,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 2049636,
+      "total_assets_M": 30480967,
+      "capex_M": 697240,
+      "operating_cash_flow_M": 1233643
     },
     {
       "period_end": "2021-03-31",
@@ -69,7 +89,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": null,
+      "capex_M": 485153,
+      "operating_cash_flow_M": null
     },
     {
       "period_end": "2020-03-31",
@@ -81,7 +105,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": null,
+      "capex_M": 513061,
+      "operating_cash_flow_M": null
     },
     {
       "period_end": "2019-03-31",
@@ -93,7 +121,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": null,
+      "capex_M": 344097,
+      "operating_cash_flow_M": null
     }
   ]
 }

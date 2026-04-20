@@ -3,7 +3,7 @@
   "name": "Kubota Corporation",
   "ticker": "6326",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-10",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -20,8 +20,16 @@
         "revenue_M": "jpigp_cor:NetSalesIFRS",
         "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
-      }
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      },
+      "cash_M": 276959,
+      "total_assets_M": 6204909,
+      "capex_M": 179831,
+      "operating_cash_flow_M": 327901
     },
     {
       "period_end": "2024-12-31",
@@ -33,7 +41,11 @@
       "operating_income_M": 315636,
       "net_income_M": 230437,
       "cost_of_revenue_M": 2088301,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 295130,
+      "total_assets_M": 6018665,
+      "capex_M": 215449,
+      "operating_cash_flow_M": 282084
     },
     {
       "period_end": "2023-12-31",
@@ -45,7 +57,11 @@
       "operating_income_M": 328829,
       "net_income_M": 238455,
       "cost_of_revenue_M": 2144242,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 222118,
+      "total_assets_M": 5359247,
+      "capex_M": 146976,
+      "operating_cash_flow_M": -17273
     },
     {
       "period_end": "2022-12-31",
@@ -57,7 +73,11 @@
       "operating_income_M": 218942,
       "net_income_M": 156182,
       "cost_of_revenue_M": 1982248,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 225799,
+      "total_assets_M": 4731273,
+      "capex_M": 169424,
+      "operating_cash_flow_M": -7680
     },
     {
       "period_end": "2021-12-31",
@@ -69,7 +89,11 @@
       "operating_income_M": 246207,
       "net_income_M": 175637,
       "cost_of_revenue_M": 1564960,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 258639,
+      "total_assets_M": 3773510,
+      "capex_M": 121359,
+      "operating_cash_flow_M": 92511
     },
     {
       "period_end": "2020-12-31",
@@ -81,7 +105,11 @@
       "operating_income_M": 175284,
       "net_income_M": 128524,
       "cost_of_revenue_M": 1318384,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 222919,
+      "total_assets_M": 3189317,
+      "capex_M": 87201,
+      "operating_cash_flow_M": 142919
     },
     {
       "period_end": "2019-12-31",
@@ -93,7 +121,11 @@
       "operating_income_M": 201654,
       "net_income_M": 149061,
       "cost_of_revenue_M": 1360115,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 199665,
+      "total_assets_M": 3139318,
+      "capex_M": 86654,
+      "operating_cash_flow_M": 82410
     },
     {
       "period_end": "2018-12-31",
@@ -101,11 +133,15 @@
       "form": "有価証券報告書",
       "namespace": "jpigp_cor",
       "currency": "JPY",
-      "revenue_M": null,
+      "revenue_M": 1850316,
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 229123,
+      "total_assets_M": 2895655,
+      "capex_M": null,
+      "operating_cash_flow_M": 89148
     }
   ]
 }

@@ -3,8 +3,12 @@
   "title": "Producer Price Index by Industry: Data Processing, Hosting and Related Services",
   "frequency": "monthly",
   "units": "Index Dec 2000=100",
-  "last_refreshed": "2026-04-05",
+  "last_refreshed": "2026-04-20",
   "observations": [
+    {
+      "date": "2026-03-01",
+      "value": 123.039
+    },
     {
       "date": "2026-02-01",
       "value": 123.67

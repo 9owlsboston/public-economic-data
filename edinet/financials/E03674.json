@@ -3,7 +3,7 @@
   "name": "Sumitomo Mitsui Financial Group, Inc.",
   "ticker": "8316",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-10",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -18,8 +18,15 @@
       "rnd_M": null,
       "tags_used": {
         "revenue_M": "jppfs_cor:OrdinaryIncomeBNK",
-        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent"
-      }
+        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
+        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
+      },
+      "cash_M": null,
+      "total_assets_M": 851063,
+      "capex_M": 216,
+      "operating_cash_flow_M": -31239
     },
     {
       "period_end": "2024-03-31",
@@ -31,7 +38,11 @@
       "operating_income_M": null,
       "net_income_M": 1255,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 876894,
+      "capex_M": 712,
+      "operating_cash_flow_M": -9113
     },
     {
       "period_end": "2023-03-31",
@@ -43,7 +54,11 @@
       "operating_income_M": null,
       "net_income_M": 1283,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 894997,
+      "capex_M": 409,
+      "operating_cash_flow_M": -92826
     },
     {
       "period_end": "2022-03-31",
@@ -55,7 +70,11 @@
       "operating_income_M": null,
       "net_income_M": 1201,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 970147,
+      "capex_M": 184,
+      "operating_cash_flow_M": -33868
     },
     {
       "period_end": "2021-03-31",
@@ -67,7 +86,11 @@
       "operating_income_M": null,
       "net_income_M": 990,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 963505,
+      "capex_M": 182,
+      "operating_cash_flow_M": 113437
     },
     {
       "period_end": "2020-03-31",
@@ -79,7 +102,11 @@
       "operating_income_M": null,
       "net_income_M": 1062,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 790655,
+      "capex_M": 133,
+      "operating_cash_flow_M": -2256
     },
     {
       "period_end": "2019-03-31",
@@ -91,7 +118,11 @@
       "operating_income_M": null,
       "net_income_M": 1246,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 789773,
+      "capex_M": 272,
+      "operating_cash_flow_M": -21118
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "NEC Corporation",
   "ticker": "6701",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -20,8 +20,16 @@
         "revenue_M": "jpigp_cor:RevenueIFRS",
         "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
-      }
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      },
+      "cash_M": 584615,
+      "total_assets_M": 4315368,
+      "capex_M": 259298,
+      "operating_cash_flow_M": 344408
     },
     {
       "period_end": "2024-03-31",
@@ -33,7 +41,11 @@
       "operating_income_M": 188012,
       "net_income_M": 149521,
       "cost_of_revenue_M": 2471404,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 476490,
+      "total_assets_M": 4227514,
+      "capex_M": 228493,
+      "operating_cash_flow_M": 271228
     },
     {
       "period_end": "2023-03-31",
@@ -45,7 +57,11 @@
       "operating_income_M": 170447,
       "net_income_M": 114500,
       "cost_of_revenue_M": 2354770,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 419462,
+      "total_assets_M": 3984050,
+      "capex_M": 199685,
+      "operating_cash_flow_M": 152127
     },
     {
       "period_end": "2022-03-31",
@@ -57,7 +73,11 @@
       "operating_income_M": 132525,
       "net_income_M": 141277,
       "cost_of_revenue_M": 2127682,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 430778,
+      "total_assets_M": 3761733,
+      "capex_M": 163402,
+      "operating_cash_flow_M": 147517
     },
     {
       "period_end": "2021-03-31",
@@ -69,7 +89,11 @@
       "operating_income_M": 153759,
       "net_income_M": 149606,
       "cost_of_revenue_M": 2132840,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 523345,
+      "total_assets_M": 3668564,
+      "capex_M": 161257,
+      "operating_cash_flow_M": 274907
     },
     {
       "period_end": "2020-03-31",
@@ -81,7 +105,11 @@
       "operating_income_M": 127609,
       "net_income_M": 99967,
       "cost_of_revenue_M": 2207675,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 359252,
+      "total_assets_M": 3123254,
+      "capex_M": 209439,
+      "operating_cash_flow_M": 261863
     },
     {
       "period_end": "2019-03-31",
@@ -93,7 +121,11 @@
       "operating_income_M": 58465,
       "net_income_M": 40195,
       "cost_of_revenue_M": 2083517,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 278314,
+      "total_assets_M": 2950639,
+      "capex_M": 150368,
+      "operating_cash_flow_M": 64235
     }
   ]
 }

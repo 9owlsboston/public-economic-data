@@ -3,7 +3,7 @@
   "name": "Fujitsu Limited",
   "ticker": "6702",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -20,8 +20,16 @@
         "revenue_M": "jpigp_cor:RevenueIFRS",
         "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
-      }
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      },
+      "cash_M": 236079,
+      "total_assets_M": 3497808,
+      "capex_M": 156666,
+      "operating_cash_flow_M": 303882
     },
     {
       "period_end": "2024-03-31",
@@ -33,7 +41,11 @@
       "operating_income_M": 160260,
       "net_income_M": 254478,
       "cost_of_revenue_M": 2591250,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 342139,
+      "total_assets_M": 3514818,
+      "capex_M": 245640,
+      "operating_cash_flow_M": 309221
     },
     {
       "period_end": "2023-03-31",
@@ -45,7 +57,11 @@
       "operating_income_M": 335614,
       "net_income_M": 215182,
       "cost_of_revenue_M": 2569685,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 355901,
+      "total_assets_M": 3265579,
+      "capex_M": 224047,
+      "operating_cash_flow_M": 220329
     },
     {
       "period_end": "2022-03-31",
@@ -57,7 +73,11 @@
       "operating_income_M": 219201,
       "net_income_M": 182691,
       "cost_of_revenue_M": 2468188,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 484020,
+      "total_assets_M": 3331809,
+      "capex_M": 204410,
+      "operating_cash_flow_M": 248347
     },
     {
       "period_end": "2021-03-31",
@@ -69,7 +89,11 @@
       "operating_income_M": 266324,
       "net_income_M": 202700,
       "cost_of_revenue_M": 2509454,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 481832,
+      "total_assets_M": 3190206,
+      "capex_M": 193474,
+      "operating_cash_flow_M": 307947
     },
     {
       "period_end": "2020-03-31",
@@ -81,7 +105,11 @@
       "operating_income_M": 211483,
       "net_income_M": 160042,
       "cost_of_revenue_M": 2748479,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 451857,
+      "total_assets_M": 3187445,
+      "capex_M": 190899,
+      "operating_cash_flow_M": 347263
     },
     {
       "period_end": "2019-03-31",
@@ -93,7 +121,11 @@
       "operating_income_M": 130227,
       "net_income_M": 104562,
       "cost_of_revenue_M": 2879884,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 416684,
+      "total_assets_M": 3104842,
+      "capex_M": 126951,
+      "operating_cash_flow_M": 99416
     }
   ]
 }

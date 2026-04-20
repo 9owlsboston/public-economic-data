@@ -3,7 +3,7 @@
   "name": "AEON Co., Ltd.",
   "ticker": "8267",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-10",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-02-28",
@@ -20,8 +20,15 @@
         "revenue_M": "jppfs_cor:NetSales",
         "operating_income_M": "jppfs_cor:OperatingIncome",
         "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
-        "cost_of_revenue_M": "jppfs_cor:CostOfSales"
-      }
+        "cost_of_revenue_M": "jppfs_cor:CostOfSales",
+        "cash_M": "jppfs_cor:CashAndDeposits",
+        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
+      },
+      "cash_M": 281961,
+      "total_assets_M": 2263937,
+      "capex_M": null,
+      "operating_cash_flow_M": -295852
     },
     {
       "period_end": "2024-02-29",
@@ -33,7 +40,11 @@
       "operating_income_M": -103011,
       "net_income_M": -332798,
       "cost_of_revenue_M": 2351005,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 349785,
+      "total_assets_M": 1899539,
+      "capex_M": null,
+      "operating_cash_flow_M": -149953
     },
     {
       "period_end": "2023-02-28",
@@ -45,7 +56,11 @@
       "operating_income_M": -256823,
       "net_income_M": -302382,
       "cost_of_revenue_M": 2765231,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 477853,
+      "total_assets_M": 2428255,
+      "capex_M": 5,
+      "operating_cash_flow_M": -603950
     },
     {
       "period_end": "2022-02-28",
@@ -57,7 +72,11 @@
       "operating_income_M": -183383,
       "net_income_M": 157727,
       "cost_of_revenue_M": 1837648,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 701498,
+      "total_assets_M": 2045042,
+      "capex_M": 11,
+      "operating_cash_flow_M": -79546
     },
     {
       "period_end": "2021-02-28",
@@ -69,7 +88,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": null,
+      "capex_M": 45,
+      "operating_cash_flow_M": null
     },
     {
       "period_end": "2020-02-29",
@@ -81,7 +104,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": null,
+      "capex_M": 73,
+      "operating_cash_flow_M": null
     },
     {
       "period_end": "2019-02-28",
@@ -93,7 +120,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "Hitachi, Ltd.",
   "ticker": "6501",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -12,15 +12,24 @@
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 9783370,
-      "operating_income_M": null,
+      "operating_income_M": 977607,
       "net_income_M": 615724,
       "cost_of_revenue_M": 6962527,
       "rnd_M": null,
       "tags_used": {
         "revenue_M": "jpigp_cor:RevenueIFRS",
+        "operating_income_M": "jpcrp030000-asr_E01737-000:EBITEarningsBeforeInterestAndTaxesIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
-      }
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      },
+      "cash_M": 866242,
+      "total_assets_M": 13284813,
+      "capex_M": 496784,
+      "operating_cash_flow_M": 1172240
     },
     {
       "period_end": "2024-03-31",
@@ -29,10 +38,14 @@
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 9728716,
-      "operating_income_M": null,
+      "operating_income_M": 857942,
       "net_income_M": 589896,
       "cost_of_revenue_M": 7146629,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 705367,
+      "total_assets_M": 12221284,
+      "capex_M": 468308,
+      "operating_cash_flow_M": 956612
     },
     {
       "period_end": "2023-03-31",
@@ -41,10 +54,14 @@
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 10881150,
-      "operating_income_M": null,
+      "operating_income_M": 845632,
       "net_income_M": 649124,
       "cost_of_revenue_M": 8192063,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 833283,
+      "total_assets_M": 12501414,
+      "capex_M": 508042,
+      "operating_cash_flow_M": 827045
     },
     {
       "period_end": "2022-03-31",
@@ -53,10 +70,14 @@
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 10264602,
-      "operating_income_M": null,
+      "operating_income_M": 850951,
       "net_income_M": 583470,
       "cost_of_revenue_M": 7705981,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 968827,
+      "total_assets_M": 13887502,
+      "capex_M": 532027,
+      "operating_cash_flow_M": 729943
     },
     {
       "period_end": "2021-03-31",
@@ -65,10 +86,14 @@
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 8729196,
-      "operating_income_M": null,
+      "operating_income_M": 850287,
       "net_income_M": 501613,
       "cost_of_revenue_M": 6533890,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1015886,
+      "total_assets_M": 11852853,
+      "capex_M": 478148,
+      "operating_cash_flow_M": 793128
     },
     {
       "period_end": "2019-03-31",
@@ -77,10 +102,14 @@
       "namespace": "jpigp_cor",
       "currency": "JPY",
       "revenue_M": 9480619,
-      "operating_income_M": null,
+      "operating_income_M": 513906,
       "net_income_M": 222546,
       "cost_of_revenue_M": 6964635,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 807593,
+      "total_assets_M": 9626592,
+      "capex_M": 505200,
+      "operating_cash_flow_M": 610025
     }
   ]
 }

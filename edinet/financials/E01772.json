@@ -3,7 +3,7 @@
   "name": "Panasonic Holdings Corporation",
   "ticker": "6752",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-10",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -20,8 +20,16 @@
         "revenue_M": "jpigp_cor:NetSalesIFRS",
         "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
-      }
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      },
+      "cash_M": 847561,
+      "total_assets_M": 9343191,
+      "capex_M": 866301,
+      "operating_cash_flow_M": 796083
     },
     {
       "period_end": "2024-03-31",
@@ -33,7 +41,11 @@
       "operating_income_M": 360962,
       "net_income_M": 443994,
       "cost_of_revenue_M": 6002065,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1119625,
+      "total_assets_M": 9411195,
+      "capex_M": 670893,
+      "operating_cash_flow_M": 866898
     },
     {
       "period_end": "2023-03-31",
@@ -45,7 +57,11 @@
       "operating_income_M": 288570,
       "net_income_M": 265502,
       "cost_of_revenue_M": 6117494,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 819499,
+      "total_assets_M": 8059527,
+      "capex_M": 394891,
+      "operating_cash_flow_M": 520742
     },
     {
       "period_end": "2022-03-31",
@@ -57,7 +73,11 @@
       "operating_income_M": 357526,
       "net_income_M": 255334,
       "cost_of_revenue_M": 5306580,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1205873,
+      "total_assets_M": 8023583,
+      "capex_M": 305108,
+      "operating_cash_flow_M": 252630
     },
     {
       "period_end": "2021-03-31",
@@ -69,7 +89,11 @@
       "operating_income_M": 258600,
       "net_income_M": 165077,
       "cost_of_revenue_M": 4723943,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1593224,
+      "total_assets_M": 6847073,
+      "capex_M": 301494,
+      "operating_cash_flow_M": 504038
     },
     {
       "period_end": "2020-03-31",
@@ -81,7 +105,11 @@
       "operating_income_M": 293751,
       "net_income_M": 225707,
       "cost_of_revenue_M": 5339557,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1016504,
+      "total_assets_M": 6218518,
+      "capex_M": 342098,
+      "operating_cash_flow_M": 430303
     },
     {
       "period_end": "2019-03-31",
@@ -93,7 +121,11 @@
       "operating_income_M": 411498,
       "net_income_M": 284149,
       "cost_of_revenue_M": 5736234,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 772264,
+      "total_assets_M": 6013931,
+      "capex_M": 380678,
+      "operating_cash_flow_M": 203677
     }
   ]
 }

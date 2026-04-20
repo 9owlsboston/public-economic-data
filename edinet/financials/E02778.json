@@ -3,7 +3,7 @@
   "name": "SoftBank Group Corp.",
   "ticker": "9984",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-10",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -19,8 +19,16 @@
       "tags_used": {
         "revenue_M": "jpigp_cor:NetSalesIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS"
-      }
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      },
+      "cash_M": 3713028,
+      "total_assets_M": 45013756,
+      "capex_M": 1067137,
+      "operating_cash_flow_M": 203580
     },
     {
       "period_end": "2024-03-31",
@@ -32,7 +40,11 @@
       "operating_income_M": null,
       "net_income_M": -227646,
       "cost_of_revenue_M": 3214108,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 6186874,
+      "total_assets_M": 46724243,
+      "capex_M": 681139,
+      "operating_cash_flow_M": 250547
     },
     {
       "period_end": "2023-03-31",
@@ -44,7 +56,11 @@
       "operating_income_M": null,
       "net_income_M": -970144,
       "cost_of_revenue_M": 3242397,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 6925153,
+      "total_assets_M": 43936368,
+      "capex_M": 799130,
+      "operating_cash_flow_M": 741292
     },
     {
       "period_end": "2022-03-31",
@@ -56,7 +72,11 @@
       "operating_income_M": null,
       "net_income_M": -1708029,
       "cost_of_revenue_M": 2955960,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 5169001,
+      "total_assets_M": 47544670,
+      "capex_M": 749294,
+      "operating_cash_flow_M": 2725450
     },
     {
       "period_end": "2021-03-31",
@@ -68,7 +88,11 @@
       "operating_income_M": null,
       "net_income_M": 4987962,
       "cost_of_revenue_M": 2753238,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 4662725,
+      "total_assets_M": 45750453,
+      "capex_M": 882978,
+      "operating_cash_flow_M": 557250
     },
     {
       "period_end": "2020-03-31",
@@ -80,7 +104,11 @@
       "operating_income_M": -1364633,
       "net_income_M": -961576,
       "cost_of_revenue_M": 3485042,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 3369015,
+      "total_assets_M": 37257292,
+      "capex_M": 1403938,
+      "operating_cash_flow_M": 1117879
     },
     {
       "period_end": "2019-03-31",
@@ -92,7 +120,11 @@
       "operating_income_M": 2353931,
       "net_income_M": 1411199,
       "cost_of_revenue_M": 5747671,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 3858518,
+      "total_assets_M": 36096476,
+      "capex_M": 1456042,
+      "operating_cash_flow_M": 1171864
     }
   ]
 }

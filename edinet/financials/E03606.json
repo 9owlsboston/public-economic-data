@@ -3,7 +3,7 @@
   "name": "Mitsubishi UFJ Financial Group, Inc.",
   "ticker": "8306",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-10",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -18,8 +18,15 @@
       "rnd_M": null,
       "tags_used": {
         "revenue_M": "jppfs_cor:OrdinaryIncomeBNK",
-        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent"
-      }
+        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
+        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
+      },
+      "cash_M": null,
+      "total_assets_M": 413113501,
+      "capex_M": 417438,
+      "operating_cash_flow_M": 6415
     },
     {
       "period_end": "2024-03-31",
@@ -31,7 +38,11 @@
       "operating_income_M": null,
       "net_income_M": 1490781,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 403703147,
+      "capex_M": 428673,
+      "operating_cash_flow_M": -9844860
     },
     {
       "period_end": "2023-03-31",
@@ -43,7 +54,11 @@
       "operating_income_M": null,
       "net_income_M": 1116496,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 386799477,
+      "capex_M": 360343,
+      "operating_cash_flow_M": 13431773
     },
     {
       "period_end": "2022-03-31",
@@ -55,7 +70,11 @@
       "operating_income_M": null,
       "net_income_M": 1130840,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 373731910,
+      "capex_M": 355414,
+      "operating_cash_flow_M": 9839899
     },
     {
       "period_end": "2021-03-31",
@@ -67,7 +86,11 @@
       "operating_income_M": null,
       "net_income_M": 777018,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 359473515,
+      "capex_M": 351600,
+      "operating_cash_flow_M": 34904946
     },
     {
       "period_end": "2020-03-31",
@@ -79,7 +102,11 @@
       "operating_income_M": null,
       "net_income_M": 528151,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 336571379,
+      "capex_M": 4051,
+      "operating_cash_flow_M": 8060840
     },
     {
       "period_end": "2019-03-31",
@@ -91,7 +118,11 @@
       "operating_income_M": null,
       "net_income_M": 872689,
       "cost_of_revenue_M": null,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 311138903,
+      "capex_M": 4069,
+      "operating_cash_flow_M": 5609305
     }
   ]
 }

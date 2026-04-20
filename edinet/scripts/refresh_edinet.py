@@ -65,6 +65,8 @@ METRIC_TAGS = {
     "operating_income_M": [
         ("jpigp_cor", "OperatingProfitLossIFRS"),
         (None, "OperatingProfitLossIFRS"),
+        # Some companies report EBIT instead of operating income (e.g., Hitachi)
+        (None, "EBITEarningsBeforeInterestAndTaxesIFRS"),
         ("jppfs_cor", "OperatingIncome"),
         ("jpcrp_cor", "OperatingIncomeSummaryOfBusinessResults"),
     ],
@@ -84,8 +86,42 @@ METRIC_TAGS = {
     "rnd_M": [
         ("jpigp_cor", "ResearchAndDevelopmentExpenseIFRS"),
         (None, "ResearchAndDevelopmentExpenseIFRS"),
+        # J-GAAP R&D — appears in overview section, not financial statements
+        ("jpcrp_cor", "ResearchAndDevelopmentActivitiesTextBlock"),
+    ],
+    # --- Balance sheet metrics (instant context) ---
+    "cash_M": [
+        ("jpigp_cor", "CashAndCashEquivalentsIFRS"),
+        (None, "CashAndCashEquivalentsIFRS"),
+        ("jppfs_cor", "CashAndDeposits"),
+        ("jpcrp_cor", "CashAndCashEquivalentsIFRSSummaryOfBusinessResults"),
+    ],
+    "total_assets_M": [
+        ("jpcrp_cor", "TotalAssetsIFRSSummaryOfBusinessResults"),
+        ("jpcrp_cor", "TotalAssetsSummaryOfBusinessResults"),
+        ("jpigp_cor", "TotalAssetsIFRS"),
+        (None, "TotalAssetsIFRS"),
+        ("jppfs_cor", "TotalAssets"),
+    ],
+    # --- Cash flow metrics (duration context) ---
+    "capex_M": [
+        ("jpigp_cor", "CapitalExpendituresIFRS"),
+        (None, "CapitalExpendituresIFRS"),
+        ("jpcrp_cor", "CapitalExpendituresOverviewOfCapitalExpendituresEtc"),
+        # J-GAAP — look for property purchase in cash flow
+        ("jppfs_cor", "PurchaseOfPropertyPlantAndEquipmentAndIntangibleAssets"),
+    ],
+    "operating_cash_flow_M": [
+        ("jpigp_cor", "NetCashProvidedByUsedInOperatingActivitiesIFRS"),
+        (None, "NetCashProvidedByUsedInOperatingActivitiesIFRS"),
+        ("jpcrp_cor", "CashFlowsFromUsedInOperatingActivitiesIFRSSummaryOfBusinessResults"),
+        ("jpcrp_cor", "CashFlowsFromOperatingActivitiesSummaryOfBusinessResults"),
+        ("jppfs_cor", "NetCashProvidedByUsedInOperatingActivities"),
     ],
 }
+
+# Metrics that use instant context (balance sheet) rather than duration
+INSTANT_METRICS = {"cash_M", "total_assets_M"}
 
 
 def _edinet_get(endpoint: str, params: dict, api_key: str) -> dict | None:
@@ -286,7 +322,8 @@ def refresh_company(edinet_code: str, info: dict, api_key: str) -> dict | None:
 
         facts = _parse_ixbrl_facts(zip_file)
 
-        # Extract metrics for CurrentYearDuration
+        # Extract metrics — duration metrics use CurrentYearDuration,
+        # instant (balance sheet) metrics use CurrentYearInstant.
         entry = {
             "period_end": period_end,
             "filing_date": (filing.get("submitDateTime") or "")[:10],
@@ -297,7 +334,8 @@ def refresh_company(edinet_code: str, info: dict, api_key: str) -> dict | None:
 
         tags_used = {}
         for metric in METRIC_TAGS:
-            val, tag = _extract_metric(facts, metric, "CurrentYearDuration")
+            ctx_prefix = "CurrentYearInstant" if metric in INSTANT_METRICS else "CurrentYearDuration"
+            val, tag = _extract_metric(facts, metric, ctx_prefix)
             entry[metric] = val
             if tag and i == 0:
                 tags_used[metric] = tag

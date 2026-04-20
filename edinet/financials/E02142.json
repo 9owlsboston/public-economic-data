@@ -3,7 +3,7 @@
   "name": "Nissan Motor Co., Ltd.",
   "ticker": "7201",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-10",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -20,8 +20,16 @@
         "revenue_M": "jppfs_cor:NetSales",
         "operating_income_M": "jppfs_cor:OperatingIncome",
         "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
-        "cost_of_revenue_M": "jppfs_cor:CostOfSales"
-      }
+        "cost_of_revenue_M": "jppfs_cor:CostOfSales",
+        "cash_M": "jppfs_cor:CashAndDeposits",
+        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
+      },
+      "cash_M": 1961513,
+      "total_assets_M": 19024060,
+      "capex_M": 5773,
+      "operating_cash_flow_M": 753687
     },
     {
       "period_end": "2024-03-31",
@@ -33,7 +41,11 @@
       "operating_income_M": 568718,
       "net_income_M": 426649,
       "cost_of_revenue_M": 10618802,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1896401,
+      "total_assets_M": 19855151,
+      "capex_M": 4861,
+      "operating_cash_flow_M": 960899
     },
     {
       "period_end": "2023-03-31",
@@ -45,7 +57,11 @@
       "operating_income_M": 377109,
       "net_income_M": 221900,
       "cost_of_revenue_M": 8882846,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1798475,
+      "total_assets_M": 17598581,
+      "capex_M": 3508,
+      "operating_cash_flow_M": 1221051
     },
     {
       "period_end": "2022-03-31",
@@ -57,7 +73,11 @@
       "operating_income_M": 247307,
       "net_income_M": 215533,
       "cost_of_revenue_M": 7070531,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1432047,
+      "total_assets_M": 16371481,
+      "capex_M": 3450,
+      "operating_cash_flow_M": 847187
     },
     {
       "period_end": "2021-03-31",
@@ -69,7 +89,11 @@
       "operating_income_M": -150651,
       "net_income_M": -448697,
       "cost_of_revenue_M": 6811747,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1871794,
+      "total_assets_M": 16452068,
+      "capex_M": 4054,
+      "operating_cash_flow_M": 1322789
     },
     {
       "period_end": "2020-03-31",
@@ -81,7 +105,11 @@
       "operating_income_M": -40469,
       "net_income_M": -671216,
       "cost_of_revenue_M": 8442905,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1382471,
+      "total_assets_M": 16976709,
+      "capex_M": 5092,
+      "operating_cash_flow_M": 1185854
     },
     {
       "period_end": "2019-03-31",
@@ -93,7 +121,11 @@
       "operating_income_M": 318224,
       "net_income_M": 319138,
       "cost_of_revenue_M": 9670402,
-      "rnd_M": null
+      "rnd_M": null,
+      "cash_M": 1219588,
+      "total_assets_M": 18952345,
+      "capex_M": 5099,
+      "operating_cash_flow_M": 1450888
     }
   ]
 }
