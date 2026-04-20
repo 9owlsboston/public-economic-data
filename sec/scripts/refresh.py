@@ -76,6 +76,7 @@ METRIC_TAGS = {
     "capex": {
         "us-gaap": [
             "PaymentsToAcquirePropertyPlantAndEquipment",
+            "PaymentsToAcquireProductiveAssets",
         ],
         "ifrs-full": [
             "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
