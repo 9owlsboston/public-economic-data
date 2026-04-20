@@ -1,0 +1,34 @@
+{
+  "cik": "0000312070",
+  "name": "BARCLAYS BANK PLC",
+  "last_refreshed": "2026-04-20",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-10",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "GBP",
+      "revenue_M": 9707,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4658,
+      "capex_M": 574,
+      "operating_cash_flow_M": 28103,
+      "sga_M": 6192,
+      "cash_M": 229953,
+      "total_debt_M": null,
+      "total_assets_M": 1245473,
+      "tags_used": {
+        "revenue": "ifrs-full:RevenueFromContractsWithCustomers",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "sga": "ifrs-full:SellingGeneralAndAdministrativeExpense",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
+      }
+    }
+  ],
+  "quarterly": []
+}

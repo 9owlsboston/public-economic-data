@@ -77,9 +77,11 @@ METRIC_TAGS = {
         "us-gaap": [
             "PaymentsToAcquirePropertyPlantAndEquipment",
             "PaymentsToAcquireProductiveAssets",
+            "PaymentsForCapitalImprovements",
         ],
         "ifrs-full": [
             "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+            "PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
         ],
     },
     "operating_cash_flow": {

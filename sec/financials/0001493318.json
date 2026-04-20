@@ -1,0 +1,36 @@
+{
+  "cik": "0001493318",
+  "name": "eToro Group Ltd.",
+  "last_refreshed": "2026-04-20",
+  "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-03-02",
+      "form": "20-F",
+      "namespace": "ifrs-full",
+      "currency": "USD",
+      "revenue_M": 13838,
+      "rnd_M": 151,
+      "cost_of_revenue_M": 13585,
+      "net_income_M": 216,
+      "capex_M": 5,
+      "operating_cash_flow_M": 318,
+      "sga_M": 244,
+      "cash_M": 1073,
+      "total_debt_M": null,
+      "total_assets_M": 1791,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "ifrs-full:CostOfSales",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "capex": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "sga": "ifrs-full:SellingGeneralAndAdministrativeExpense",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
+      }
+    }
+  ],
+  "quarterly": []
+}
