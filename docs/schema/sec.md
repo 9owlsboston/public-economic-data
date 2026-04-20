@@ -31,7 +31,7 @@ Supports `us-gaap` (10-K/10-Q domestic filers) and `ifrs-full` (20-F foreign pri
 |---|---|---|---|
 | `period_end` | `string` | — | Fiscal period end date (`YYYY-MM-DD`). Matches SEC `reportDate`. |
 | `filing_date` | `string` | — | Date the filing was submitted to SEC (`YYYY-MM-DD`). |
-| `form` | `string` | — | SEC form type: `10-K`, `10-Q`, or `20-F`. Amended forms (`/A`) are normalized (suffix stripped), with `amended: true` flag. |
+| `form` | `string` | — | SEC form type: `10-K`, `10-Q`, `20-F`, or `40-F`. Amended forms (`/A`) are normalized (suffix stripped), with `amended: true` flag. |
 | `namespace` | `string` | — | XBRL taxonomy namespace used: `us-gaap` or `ifrs-full`. Determined from the revenue tag's namespace. |
 | `currency` | `string` | — | ISO 4217 currency code for all monetary values in this entry (usually `USD`). |
 | `revenue_M` | `int \| null` | Millions | Total revenue. See [XBRL tag mapping](#xbrl-tag-mapping) for tag resolution. |
@@ -40,9 +40,10 @@ Supports `us-gaap` (10-K/10-Q domestic filers) and `ifrs-full` (20-F foreign pri
 | `net_income_M` | `int \| null` | Millions | Net income (loss) attributable to the entity. Negative values = net loss. |
 | `capex_M` | `int \| null` | Millions | Capital expenditures (payments to acquire property, plant & equipment). Always positive in source data. |
 | `operating_cash_flow_M` | `int \| null` | Millions | Net cash from operating activities. |
-| `sga_M` | `int \| null` | Millions | Selling, general & administrative expense. Sparsely reported — `null` for many companies. |
+| `operating_income_M` | `int \| null` | Millions | Operating income (loss). `null` for financial sector companies and some energy/industrial filers. |
+| `sga_M` | `int \| null` | Millions | Selling, general & administrative expense. Falls back to G&A-only when full SG&A is not reported. |
 | `cash_M` | `int \| null` | Millions | Cash & cash equivalents (balance sheet, point-in-time as of `period_end`). |
-| `total_debt_M` | `int \| null` | Millions | Long-term debt. Tags used include `LongTermDebt` and `LongTermDebtAndCapitalLeaseObligations` — does **not** include short-term borrowings. |
+| `total_debt_M` | `int \| null` | Millions | Long-term debt. Tags include `LongTermDebt`, `LongTermDebtNoncurrent`, and `LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities` — does **not** include short-term borrowings. |
 | `total_assets_M` | `int \| null` | Millions | Total assets (balance sheet). |
 | `amended` | `bool` | — | Present and `true` only for amended filings (10-K/A, 20-F/A). Omitted for original filings. |
 | `tags_used` | `object \| absent` | — | Map of `{metric_name: "namespace:TagName"}` showing which XBRL tag resolved for each metric. **Included on the first entry per scope only** (to avoid bloat). |
@@ -59,7 +60,7 @@ A value of `null` means the XBRL tag was not found in the company's filings. Thi
 
 | Category | Metrics | How matched |
 |---|---|---|
-| **Duration** (income statement, cash flow) | `revenue_M`, `rnd_M`, `cost_of_revenue_M`, `net_income_M`, `capex_M`, `operating_cash_flow_M`, `sga_M` | Matched by `end` date = `period_end`. For quarterly: shortest duration; for annual: longest duration. |
+| **Duration** (income statement, cash flow) | `revenue_M`, `rnd_M`, `cost_of_revenue_M`, `net_income_M`, `capex_M`, `operating_cash_flow_M`, `operating_income_M`, `sga_M` | Matched by `end` date = `period_end`. For quarterly: shortest duration; for annual: longest duration. |
 | **Instant** (balance sheet) | `cash_M`, `total_debt_M`, `total_assets_M` | Matched by `end` date = `period_end`, no start date. Point-in-time snapshot. |
 
 ### Filing deduplication
@@ -72,18 +73,19 @@ Tags are resolved in priority order (first match wins). Companies can override v
 
 ### us-gaap tags
 
-| Metric | Priority 1 | Priority 2 | Priority 3 |
-|---|---|---|---|
-| `revenue_M` | `Revenues` | `RevenueFromContractWithCustomerExcludingAssessedTax` | `SalesRevenueNet` |
-| `rnd_M` | `ResearchAndDevelopmentExpense` | `ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost` | — |
-| `cost_of_revenue_M` | `CostOfRevenue` | `CostOfGoodsAndServicesSold` | — |
-| `net_income_M` | `NetIncomeLoss` | — | — |
-| `capex_M` | `PaymentsToAcquirePropertyPlantAndEquipment` | — | — |
-| `operating_cash_flow_M` | `NetCashProvidedByUsedInOperatingActivities` | — | — |
-| `sga_M` | `SellingGeneralAndAdministrativeExpense` | — | — |
-| `cash_M` | `CashAndCashEquivalentsAtCarryingValue` | `CashCashEquivalentsAndShortTermInvestments` | — |
-| `total_debt_M` | `LongTermDebt` | `LongTermDebtAndCapitalLeaseObligations` | — |
-| `total_assets_M` | `Assets` | — | — |
+| Metric | Priority 1 | Priority 2 | Priority 3 | Priority 4 | Priority 5 |
+|---|---|---|---|---|---|
+| `revenue_M` | `Revenues` | `RevenueFromContractWithCustomerExcludingAssessedTax` | `SalesRevenueNet` | — | — |
+| `rnd_M` | `ResearchAndDevelopmentExpense` | `ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost` | — | — | — |
+| `cost_of_revenue_M` | `CostOfRevenue` | `CostOfGoodsAndServicesSold` | `CostOfGoodsSold` | — | — |
+| `net_income_M` | `NetIncomeLoss` | — | — | — | — |
+| `capex_M` | `PaymentsToAcquirePropertyPlantAndEquipment` | `PaymentsToAcquireProductiveAssets` | `PaymentsForCapitalImprovements` | `PaymentsToAcquireOtherProductiveAssets` | `PaymentsToAcquireOtherPropertyPlantAndEquipment` |
+| `operating_cash_flow_M` | `NetCashProvidedByUsedInOperatingActivities` | — | — | — | — |
+| `operating_income_M` | `OperatingIncomeLoss` | — | — | — | — |
+| `sga_M` | `SellingGeneralAndAdministrativeExpense` | `GeneralAndAdministrativeExpense` | — | — | — |
+| `cash_M` | `CashAndCashEquivalentsAtCarryingValue` | `CashCashEquivalentsAndShortTermInvestments` | `CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents` | — | — |
+| `total_debt_M` | `LongTermDebt` | `LongTermDebtAndCapitalLeaseObligations` | `LongTermDebtNoncurrent` | `LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities` | — |
+| `total_assets_M` | `Assets` | — | — | — | — |
 
 ### ifrs-full tags
 
@@ -93,11 +95,12 @@ Tags are resolved in priority order (first match wins). Companies can override v
 | `rnd_M` | `ResearchAndDevelopmentExpense` | — |
 | `cost_of_revenue_M` | `CostOfSales` | — |
 | `net_income_M` | `ProfitLossAttributableToOwnersOfParent` | `ProfitLoss` |
-| `capex_M` | `PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities` | — |
+| `capex_M` | `PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities` | `PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets` |
 | `operating_cash_flow_M` | `CashFlowsFromUsedInOperatingActivities` | — |
+| `operating_income_M` | `ProfitLossFromOperatingActivities` | — |
 | `sga_M` | `SellingGeneralAndAdministrativeExpense` | — |
-| `cash_M` | `CashAndCashEquivalents` | — |
-| `total_debt_M` | `Borrowings` | — |
+| `cash_M` | `CashAndCashEquivalents` | `CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition` |
+| `total_debt_M` | `Borrowings` | `NoncurrentFinancialLiabilities` |
 | `total_assets_M` | `Assets` | — |
 
 ## Segment Financials Schema

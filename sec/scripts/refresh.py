@@ -58,6 +58,7 @@ METRIC_TAGS = {
         "us-gaap": [
             "CostOfRevenue",
             "CostOfGoodsAndServicesSold",
+            "CostOfGoodsSold",
         ],
         "ifrs-full": [
             "CostOfSales",
@@ -95,9 +96,18 @@ METRIC_TAGS = {
             "CashFlowsFromUsedInOperatingActivities",
         ],
     },
+    "operating_income": {
+        "us-gaap": [
+            "OperatingIncomeLoss",
+        ],
+        "ifrs-full": [
+            "ProfitLossFromOperatingActivities",
+        ],
+    },
     "sga": {
         "us-gaap": [
             "SellingGeneralAndAdministrativeExpense",
+            "GeneralAndAdministrativeExpense",
         ],
         "ifrs-full": [
             "SellingGeneralAndAdministrativeExpense",
@@ -108,18 +118,23 @@ METRIC_TAGS = {
         "us-gaap": [
             "CashAndCashEquivalentsAtCarryingValue",
             "CashCashEquivalentsAndShortTermInvestments",
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
         ],
         "ifrs-full": [
             "CashAndCashEquivalents",
+            "CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition",
         ],
     },
     "total_debt": {
         "us-gaap": [
             "LongTermDebt",
             "LongTermDebtAndCapitalLeaseObligations",
+            "LongTermDebtNoncurrent",
+            "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
         ],
         "ifrs-full": [
             "Borrowings",
+            "NoncurrentFinancialLiabilities",
         ],
     },
     "total_assets": {
@@ -303,7 +318,7 @@ def refresh_company(cik: str, name: str, tag_overrides: dict | None = None) -> d
 
     all_metrics = (
         "revenue", "rnd", "cost_of_revenue", "net_income",
-        "capex", "operating_cash_flow", "sga",
+        "capex", "operating_cash_flow", "operating_income", "sga",
         "cash", "total_debt", "total_assets",
     )
 
@@ -342,6 +357,7 @@ def refresh_company(cik: str, name: str, tag_overrides: dict | None = None) -> d
                 "net_income_M": metrics["net_income"],
                 "capex_M": metrics["capex"],
                 "operating_cash_flow_M": metrics["operating_cash_flow"],
+                "operating_income_M": metrics["operating_income"],
                 "sga_M": metrics["sga"],
                 "cash_M": metrics["cash"],
                 "total_debt_M": metrics["total_debt"],
