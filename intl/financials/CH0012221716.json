@@ -69,21 +69,6 @@
       "cash_M": 4156,
       "total_debt_M": 8549,
       "total_assets_M": 39148
-    },
-    {
-      "period_end": "2021-12-31",
-      "currency": "CHF",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
     }
   ],
   "quarterly": [
@@ -99,7 +84,7 @@
       "capex_M": 409,
       "operating_cash_flow_M": 1949,
       "cash_M": 4640,
-      "total_debt_M": 9090,
+      "total_debt_M": null,
       "total_assets_M": 44885,
       "tags_used": {
         "source": "yahoo_finance",
@@ -118,7 +103,7 @@
       "capex_M": 224,
       "operating_cash_flow_M": 1059,
       "cash_M": 3266,
-      "total_debt_M": 9690,
+      "total_debt_M": null,
       "total_assets_M": 42799
     },
     {
@@ -133,7 +118,7 @@
       "capex_M": 195,
       "operating_cash_flow_M": 684,
       "cash_M": 4494,
-      "total_debt_M": 8705,
+      "total_debt_M": null,
       "total_assets_M": 42464
     },
     {
@@ -163,7 +148,7 @@
       "capex_M": 196,
       "operating_cash_flow_M": 1345,
       "cash_M": 3264,
-      "total_debt_M": 7670,
+      "total_debt_M": null,
       "total_assets_M": 40684
     }
   ]

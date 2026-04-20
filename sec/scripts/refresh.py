@@ -38,6 +38,7 @@ METRIC_TAGS = {
         "us-gaap": [
             "Revenues",
             "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "RevenueFromContractWithCustomerIncludingAssessedTax",
             "SalesRevenueNet",
         ],
         "ifrs-full": [
@@ -67,6 +68,7 @@ METRIC_TAGS = {
     "net_income": {
         "us-gaap": [
             "NetIncomeLoss",
+            "ProfitLoss",
         ],
         "ifrs-full": [
             "ProfitLossAttributableToOwnersOfParent",
@@ -91,6 +93,7 @@ METRIC_TAGS = {
     "operating_cash_flow": {
         "us-gaap": [
             "NetCashProvidedByUsedInOperatingActivities",
+            "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
         ],
         "ifrs-full": [
             "CashFlowsFromUsedInOperatingActivities",

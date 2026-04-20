@@ -16,7 +16,7 @@
       "operating_income_M": null,
       "sga_M": 44981,
       "capex_M": 11630,
-      "operating_cash_flow_M": -62534,
+      "operating_cash_flow_M": null,
       "cash_M": 160839,
       "total_debt_M": 448686,
       "total_assets_M": 2330327,
@@ -35,7 +35,7 @@
       "operating_income_M": null,
       "sga_M": 43101,
       "capex_M": 8048,
-      "operating_cash_flow_M": 50228,
+      "operating_cash_flow_M": null,
       "cash_M": 168358,
       "total_debt_M": 406481,
       "total_assets_M": 2069484
@@ -50,7 +50,7 @@
       "operating_income_M": null,
       "sga_M": 40645,
       "capex_M": 9141,
-      "operating_cash_flow_M": -178,
+      "operating_cash_flow_M": null,
       "cash_M": 171842,
       "total_debt_M": 359485,
       "total_assets_M": 1927523
@@ -80,7 +80,7 @@
       "operating_income_M": null,
       "sga_M": null,
       "capex_M": null,
-      "operating_cash_flow_M": null,
+      "operating_cash_flow_M": -101993,
       "cash_M": null,
       "total_debt_M": null,
       "total_assets_M": null
@@ -165,21 +165,6 @@
       "cash_M": 168358,
       "total_debt_M": 406481,
       "total_assets_M": 2069484
-    },
-    {
-      "period_end": "2024-09-30",
-      "currency": "BRL",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
     }
   ]
 }

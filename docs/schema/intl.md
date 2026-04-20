@@ -40,7 +40,7 @@ No API key required. Data covers annual income statements, balance sheets, and c
 | `operating_income_M` | `int \| null` | Millions | Operating income (Yahoo Finance: `Operating Income`). May be `null` for financial companies. |
 | `sga_M` | `int \| null` | Millions | Selling, general & administrative expense (Yahoo Finance: `Selling General And Administration`). |
 | `capex_M` | `int \| null` | Millions | Capital expenditures (Yahoo Finance: `Capital Expenditure` from cash flow statement). Stored as **positive** value (yfinance reports as negative cash outflow). |
-| `operating_cash_flow_M` | `int \| null` | Millions | Operating cash flow (Yahoo Finance: `Operating Cash Flow` from cash flow statement). |
+| `operating_cash_flow_M` | `int \| null` | Millions | Operating cash flow. Primary: `Operating Cash Flow`; fallback: `Cash Flowsfromusedin Operating Activities Direct` (used by Australian and some European companies). |
 | `cash_M` | `int \| null` | Millions | Cash and cash equivalents (Yahoo Finance: `Cash And Cash Equivalents` from balance sheet). |
 | `total_debt_M` | `int \| null` | Millions | Total debt (Yahoo Finance: `Total Debt` from balance sheet). |
 | `total_assets_M` | `int \| null` | Millions | Total assets (Yahoo Finance: `Total Assets` from balance sheet). |

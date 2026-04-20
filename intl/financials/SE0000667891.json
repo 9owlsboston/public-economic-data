@@ -69,24 +69,28 @@
       "cash_M": 38349,
       "total_debt_M": 42234,
       "total_assets_M": 349537
-    },
-    {
-      "period_end": "2021-12-31",
-      "currency": "SEK",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
     }
   ],
   "quarterly": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "SEK",
+      "revenue_M": 49332,
+      "rnd_M": 13489,
+      "cost_of_revenue_M": 26033,
+      "net_income_M": 888,
+      "operating_income_M": 1699,
+      "sga_M": 8135,
+      "capex_M": 998,
+      "operating_cash_flow_M": 7403,
+      "cash_M": 52315,
+      "total_debt_M": 39290,
+      "total_assets_M": 290393,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-12-31",
       "currency": "SEK",
@@ -100,11 +104,7 @@
       "operating_cash_flow_M": 16507,
       "cash_M": 43926,
       "total_debt_M": 40264,
-      "total_assets_M": 279223,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 279223
     },
     {
       "period_end": "2025-09-30",
@@ -165,21 +165,6 @@
       "cash_M": 43885,
       "total_debt_M": 45536,
       "total_assets_M": 292374
-    },
-    {
-      "period_end": "2024-09-30",
-      "currency": "SEK",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
     }
   ]
 }

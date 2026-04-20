@@ -30,7 +30,7 @@ def test_all_json_valid():
             json.loads(f.read_text())
         except json.JSONDecodeError as e:
             errors.append(f"{f.name}: {e}")
-    assert not errors, errors
+    return errors
 
 
 def test_required_fields():
@@ -41,7 +41,7 @@ def test_required_fields():
         for field in REQUIRED_FIELDS:
             if field not in data:
                 errors.append(f"{f.name}: missing '{field}'")
-    assert not errors, errors
+    return errors
 
 
 def test_annual_sorted_descending():
@@ -52,20 +52,18 @@ def test_annual_sorted_descending():
         periods = [e["period_end"] for e in data.get("annual", []) if "period_end" in e]
         if periods != sorted(periods, reverse=True):
             errors.append(f"{f.name}: annual not sorted descending")
-    assert not errors, errors
+    return errors
 
 
 def test_no_null_revenue_in_annual():
     """At least the most recent annual entry should have non-null revenue."""
-    import warnings
     errors = []
     for f in _standard_files():
         data = json.loads(f.read_text())
         annual = data.get("annual", [])
         if annual and annual[0].get("revenue_M") is None:
             errors.append(f"{f.name}: latest annual has null revenue (not disclosed)")
-    for e in errors:
-        warnings.warn(e)
+    return errors
 
 
 def test_cik_matches_filename():
@@ -77,19 +75,20 @@ def test_cik_matches_filename():
         actual_cik = data.get("cik", "")
         if actual_cik != expected_cik:
             errors.append(f"{f.name}: CIK '{actual_cik}' != filename '{expected_cik}'")
-    assert not errors, errors
+    return errors
 
 
 def test_freshness():
     """Warn if last_refreshed is more than 120 days old."""
-    import warnings
     from datetime import date, timedelta
+    errors = []
     threshold = date.today() - timedelta(days=120)
     for f in _standard_files():
         data = json.loads(f.read_text())
         refreshed = data.get("last_refreshed", "")
         if refreshed and refreshed < threshold.isoformat():
-            warnings.warn(f"{f.name}: last_refreshed={refreshed} (>120 days)")
+            errors.append(f"{f.name}: last_refreshed={refreshed} (>120 days)")
+    return errors
 
 
 # ── Segment data tests ──────────────────────────────────────────────────
@@ -107,7 +106,7 @@ def test_segment_json_valid():
             json.loads(f.read_text())
         except json.JSONDecodeError as e:
             errors.append(f"{f.name}: {e}")
-    assert not errors, errors
+    return errors
 
 
 def test_segment_required_fields():
@@ -118,7 +117,7 @@ def test_segment_required_fields():
         for field in ["cik", "company", "last_refreshed", "segments"]:
             if field not in data:
                 errors.append(f"{f.name}: missing '{field}'")
-    assert not errors, errors
+    return errors
 
 
 def test_segment_entries_have_revenue():
@@ -131,18 +130,19 @@ def test_segment_entries_have_revenue():
                 if "revenue" not in e:
                     errors.append(f"{f.name}/{seg_name}: entry {e.get('period_end','?')} missing revenue")
                     break
-    assert not errors, errors
+    return errors
 
 
 def test_segment_entries_sorted_descending():
     """Segment entries should be sorted by period_end descending."""
-    import warnings
+    errors = []
     for f in _segment_files():
         data = json.loads(f.read_text())
         for seg_name, entries in data.get("segments", {}).items():
             periods = [e["period_end"] for e in entries if "period_end" in e]
             if periods != sorted(periods, reverse=True):
-                warnings.warn(f"{f.name}/{seg_name}: not sorted descending")
+                errors.append(f"{f.name}/{seg_name}: not sorted descending")
+    return errors
 
 
 def main():

@@ -69,21 +69,6 @@
       "cash_M": 362101,
       "total_debt_M": 417413,
       "total_assets_M": 5095530
-    },
-    {
-      "period_end": "2021-12-31",
-      "currency": "JPY",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
     }
   ],
   "quarterly": [
@@ -105,51 +90,6 @@
         "source": "yahoo_finance",
         "notes": "Income statement + balance sheet + cash flow, converted to millions"
       }
-    },
-    {
-      "period_end": "2025-03-31",
-      "currency": "JPY",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
-    },
-    {
-      "period_end": "2024-12-31",
-      "currency": "JPY",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
-    },
-    {
-      "period_end": "2024-09-30",
-      "currency": "JPY",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
     }
   ]
 }

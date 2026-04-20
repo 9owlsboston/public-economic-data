@@ -57,6 +57,10 @@ def refresh_company(yf_symbol: str, info: dict) -> dict | None:
         if inc_df is None or inc_df.empty:
             return entries
 
+        _metric_keys = {"revenue_M", "rnd_M", "cost_of_revenue_M", "net_income_M",
+                        "operating_income_M", "sga_M", "capex_M",
+                        "operating_cash_flow_M", "cash_M", "total_debt_M", "total_assets_M"}
+
         # Build lookup for balance sheet and cash flow by period_end
         bs_by_period = {}
         if bs_df is not None and not bs_df.empty:
@@ -91,6 +95,11 @@ def refresh_company(yf_symbol: str, info: dict) -> dict | None:
             capex_raw = _cf("Capital Expenditure")
             capex_M = _to_millions(abs(capex_raw)) if capex_raw is not None and not (isinstance(capex_raw, float) and math.isnan(capex_raw)) else None
 
+            # OCF: some exchanges use a different label
+            ocf_raw = _cf("Operating Cash Flow")
+            if ocf_raw is None or (isinstance(ocf_raw, float) and math.isnan(ocf_raw)):
+                ocf_raw = _cf("Cash Flowsfromusedin Operating Activities Direct")
+
             entry = {
                 "period_end": period_end,
                 "currency": currency,
@@ -101,12 +110,15 @@ def refresh_company(yf_symbol: str, info: dict) -> dict | None:
                 "operating_income_M": _to_millions(_get("Operating Income")),
                 "sga_M": _to_millions(_get("Selling General And Administration")),
                 "capex_M": capex_M,
-                "operating_cash_flow_M": _to_millions(_cf("Operating Cash Flow")),
+                "operating_cash_flow_M": _to_millions(ocf_raw),
                 "cash_M": _to_millions(_bs("Cash And Cash Equivalents")),
                 "total_debt_M": _to_millions(_bs("Total Debt")),
                 "total_assets_M": _to_millions(_bs("Total Assets")),
             }
-            if i == 0:
+            # Skip entries where all financial metrics are null (placeholder periods)
+            if all(entry.get(k) is None for k in _metric_keys):
+                continue
+            if not entries:  # first real entry gets tags_used
                 entry["tags_used"] = {
                     "source": "yahoo_finance",
                     "notes": "Income statement + balance sheet + cash flow, converted to millions",
@@ -187,6 +199,9 @@ def main():
 
         # Merge with existing data
         json_path = FINANCIALS_DIR / f"{isin}.json"
+        _metric_keys = {"revenue_M", "rnd_M", "cost_of_revenue_M", "net_income_M",
+                        "operating_income_M", "sga_M", "capex_M",
+                        "operating_cash_flow_M", "cash_M", "total_debt_M", "total_assets_M"}
         if json_path.exists():
             with open(json_path) as f:
                 existing = json.load(f)
@@ -199,8 +214,10 @@ def main():
                 }
                 for entry in result.get(section, []):
                     existing_periods[entry["period_end"]] = entry  # newer wins
+                # Drop entries where all financial metrics are null
                 result[section] = sorted(
-                    existing_periods.values(),
+                    [e for e in existing_periods.values()
+                     if not all(e.get(k) is None for k in _metric_keys)],
                     key=lambda x: x["period_end"],
                     reverse=True,
                 )

@@ -18,7 +18,7 @@
       "capex_M": 112881,
       "operating_cash_flow_M": 303052,
       "cash_M": 141041,
-      "total_debt_M": 406399,
+      "total_debt_M": null,
       "total_assets_M": 2038986,
       "tags_used": {
         "source": "yahoo_finance",
@@ -37,7 +37,7 @@
       "capex_M": 96048,
       "operating_cash_flow_M": 258521,
       "cash_M": 132519,
-      "total_debt_M": 358112,
+      "total_debt_M": null,
       "total_assets_M": 1780995
     },
     {
@@ -52,7 +52,7 @@
       "capex_M": 47407,
       "operating_cash_flow_M": 221962,
       "cash_M": 172320,
-      "total_debt_M": 371240,
+      "total_debt_M": null,
       "total_assets_M": 1577246
     },
     {
@@ -67,60 +67,11 @@
       "capex_M": 50850,
       "operating_cash_flow_M": 146091,
       "cash_M": 156739,
-      "total_debt_M": 359141,
-      "total_assets_M": 1578131
-    },
-    {
-      "period_end": "2021-12-31",
-      "currency": "HKD",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
       "total_debt_M": null,
-      "total_assets_M": null
+      "total_assets_M": 1578131
     }
   ],
   "quarterly": [
-    {
-      "period_end": "2025-12-31",
-      "currency": "HKD",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
-    },
-    {
-      "period_end": "2025-09-30",
-      "currency": "HKD",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
-    },
     {
       "period_end": "2025-06-30",
       "currency": "HKD",
@@ -134,37 +85,11 @@
       "operating_cash_flow_M": null,
       "cash_M": 182057,
       "total_debt_M": 412486,
-      "total_assets_M": 2013310
-    },
-    {
-      "period_end": "2025-03-31",
-      "currency": "HKD",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
-    },
-    {
-      "period_end": "2024-12-31",
-      "currency": "HKD",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
+      "total_assets_M": 2013310,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
     }
   ]
 }

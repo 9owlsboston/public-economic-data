@@ -7,38 +7,23 @@
   "last_refreshed": "2026-04-20",
   "annual": [
     {
-      "period_end": "2026-02-28",
-      "currency": "GBP",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
-    },
-    {
       "period_end": "2025-02-28",
       "currency": "GBP",
       "revenue_M": 69916,
       "rnd_M": null,
       "cost_of_revenue_M": 64865,
       "net_income_M": 1626,
-      "operating_income_M": 2733,
+      "operating_income_M": 2809,
       "sga_M": 2242,
       "capex_M": 1539,
       "operating_cash_flow_M": 2922,
       "cash_M": 2229,
       "total_debt_M": 14666,
-      "total_assets_M": 38890
+      "total_assets_M": 38890,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
     },
     {
       "period_end": "2024-02-29",
@@ -47,7 +32,7 @@
       "rnd_M": null,
       "cost_of_revenue_M": 63338,
       "net_income_M": 1188,
-      "operating_income_M": 2751,
+      "operating_income_M": 2825,
       "sga_M": 2024,
       "capex_M": 1386,
       "operating_cash_flow_M": 3839,
@@ -77,7 +62,7 @@
       "rnd_M": null,
       "cost_of_revenue_M": 56711,
       "net_income_M": 1481,
-      "operating_income_M": 2573,
+      "operating_income_M": 2649,
       "sga_M": 1984,
       "capex_M": 1178,
       "operating_cash_flow_M": 3757,

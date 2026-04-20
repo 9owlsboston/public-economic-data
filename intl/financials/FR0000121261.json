@@ -69,42 +69,7 @@
       "cash_M": 2584,
       "total_debt_M": 7340,
       "total_assets_M": 35346
-    },
-    {
-      "period_end": "2021-12-31",
-      "currency": "EUR",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
     }
   ],
-  "quarterly": [
-    {
-      "period_end": "2025-03-31",
-      "currency": "EUR",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
-    }
-  ]
+  "quarterly": []
 }

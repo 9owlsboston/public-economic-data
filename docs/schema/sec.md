@@ -75,12 +75,12 @@ Tags are resolved in priority order (first match wins). Companies can override v
 
 | Metric | Priority 1 | Priority 2 | Priority 3 | Priority 4 | Priority 5 |
 |---|---|---|---|---|---|
-| `revenue_M` | `Revenues` | `RevenueFromContractWithCustomerExcludingAssessedTax` | `SalesRevenueNet` | — | — |
+| `revenue_M` | `Revenues` | `RevenueFromContractWithCustomerExcludingAssessedTax` | `RevenueFromContractWithCustomerIncludingAssessedTax` | `SalesRevenueNet` | — |
 | `rnd_M` | `ResearchAndDevelopmentExpense` | `ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost` | — | — | — |
 | `cost_of_revenue_M` | `CostOfRevenue` | `CostOfGoodsAndServicesSold` | `CostOfGoodsSold` | — | — |
-| `net_income_M` | `NetIncomeLoss` | — | — | — | — |
+| `net_income_M` | `NetIncomeLoss` | `ProfitLoss` | — | — | — |
 | `capex_M` | `PaymentsToAcquirePropertyPlantAndEquipment` | `PaymentsToAcquireProductiveAssets` | `PaymentsForCapitalImprovements` | `PaymentsToAcquireOtherProductiveAssets` | `PaymentsToAcquireOtherPropertyPlantAndEquipment` |
-| `operating_cash_flow_M` | `NetCashProvidedByUsedInOperatingActivities` | — | — | — | — |
+| `operating_cash_flow_M` | `NetCashProvidedByUsedInOperatingActivities` | `NetCashProvidedByUsedInOperatingActivitiesContinuingOperations` | — | — | — |
 | `operating_income_M` | `OperatingIncomeLoss` | — | — | — | — |
 | `sga_M` | `SellingGeneralAndAdministrativeExpense` | `GeneralAndAdministrativeExpense` | — | — | — |
 | `cash_M` | `CashAndCashEquivalentsAtCarryingValue` | `CashCashEquivalentsAndShortTermInvestments` | `CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents` | — | — |

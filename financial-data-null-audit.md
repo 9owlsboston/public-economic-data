@@ -1,48 +1,116 @@
 # Financial Data Layer — Null Metric Audit
 
-**Date:** 2026-04-20
-**Scope:** All financial metrics in `public-companies.yaml` and SEC JSON source files
-**Context:** Following the CapEx XBRL tag gap fix (see `capex-xbrl-gap-report.md`)
+**Date:** 2026-04-20 (initial), 2026-07-13 (cross-source expansion)
+**Scope:** All data sources — SEC (330 companies), INTL (190 companies), EDINET (14 companies), FRED (22 series)
+**Context:** Following CapEx XBRL tag gap fix, SEC Phase 1-3 tag expansion, INTL metric expansion (4→11), EDINET metric expansion (5→9)
 
 ---
 
-## Status: ✅ Implemented
+## Status: ✅ All Phases Complete
 
-All recommended tag additions have been applied to `sec/scripts/refresh.py`.
-Run `refresh.py` to populate the new fields for all companies.
+### Phase 1-3: SEC XBRL Tag Expansion (original audit)
+All recommended tag additions applied to `sec/scripts/refresh.py`.
 
-### Actual Impact (validated against 330 companies in registry)
-
-| Metric | Tags Added | Companies Newly Resolved | Notes |
-|--------|-----------|-------------------------|-------|
-| `total_debt_M` | +3 tags | **55** | `LongTermDebtNoncurrent` is primary fix |
-| `cost_of_revenue_M` | +1 tag | **7** (historical only) | Most are old periods — companies changed tags |
-| `operating_income_M` | NEW metric, +2 tags | **245** | Brand new metric, massive coverage |
+| Metric | Tags Added | Companies Resolved | Notes |
+|--------|-----------|-------------------|-------|
+| `total_debt_M` | +3 tags | **55** | `LongTermDebtNoncurrent` primary fix |
+| `cost_of_revenue_M` | +1 tag | **7** (historical) | Companies changed tags |
+| `operating_income_M` | NEW metric, +2 tags | **245** | Brand new metric |
 | `sga_M` | +1 tag | **91** | `GeneralAndAdministrativeExpense` fallback |
-| `cash_M` | +2 tags | **43** | Restricted cash variant is primary fix |
+| `cash_M` | +2 tags | **43** | Restricted cash variant primary fix |
 | `capex_M` | (prior fix) | ✅ Done | See `capex-xbrl-gap-report.md` |
 
-### What Remains Unfixable
+### Phase 4: SEC Cross-Metric Tag Expansion
+Additional tags to close gaps discovered in comprehensive re-audit.
 
-- **Financial sector** (~18–25 per metric): Different income statement structure
-- **Fiserv, Chevron, GE, T-Mobile** for `cost_of_revenue`: These companies don't
-  report COGS separately in recent filings (restructured income statements)
-- **Chevron, Exxon, SLB** for `operating_income`: Don't use `OperatingIncomeLoss`
-  (oil majors report income differently)
-- **International IFRS filers** with non-standard tags: Per-company mapping needed
+| Metric | Tag Added | Companies Resolved | Notes |
+|--------|----------|-------------------|-------|
+| `revenue_M` | `RevenueFromContractWithCustomerIncludingAssessedTax` | **7** (TJX, KHC, AKAM, RH, VRNS +2) | Companies switched from `Excluding` to `Including` variant |
+| `net_income_M` | `ProfitLoss` (us-gaap) | **11** (CAT, CMI, MA, BSX, F +6) | Major US companies that stopped using `NetIncomeLoss` |
+| `operating_cash_flow_M` | `NetCashProvidedByUsedInOperatingActivitiesContinuingOperations` | **6** (BDX, JCI, DD, FIS, NWSA +1) | Companies reporting continuing-ops OCF only |
 
-| Metric | Total Null | Financial Sector | International | Fixable | Fix Priority |
-|--------|-----------|------------------|---------------|---------|--------------|
-| `total_debt_M` | 62 (46%) | 18 | 12 | **32 (24%)** | 🔴 High |
-| `cost_of_revenue_M` | 59 (43%) | 25 | 6 | **28 (21%)** | 🔴 High |
-| `sga_M` | 44 (32%) | 20 | 9 | **15 (11%)** | 🟡 Medium |
-| `operating_income_M` | 39 (29%) | 23 | 4 | **12 (9%)** | 🟡 Medium |
-| `cash_and_investments_M` | 29 (21%) | 16 | 4 | **9 (7%)** | 🟢 Low |
-| `capex_M` | 9 (7%) | — | — | ✅ Fixed | ✅ Done |
-| `rnd_M` | ~57% | — | — | Structural | ⚪ N/A |
+### Phase 5: INTL Extraction Fixes
+Fixes to `intl/scripts/refresh_intl.py` for Yahoo Finance data extraction.
 
-**R&D (`rnd_M`)** is intentionally omitted from fix priority — most nulls are
-structural (industrials, energy, financials that don't report R&D separately).
+| Issue | Fix | Companies Resolved | Notes |
+|-------|-----|-------------------|-------|
+| All-null entries (CBK, TSCO, 1810) | Skip income statement columns where all metrics are null (placeholder periods) | **3** | yfinance creates future-date columns with NaN for unreported periods |
+| OCF null for AU/EU companies | Added fallback label `Cash Flowsfromusedin Operating Activities Direct` | **~9** | Australian and some European exchanges use different yfinance labels |
+| Stale all-null entries | Filter all-null entries during merge | **3** | Old entries from previous refreshes with placeholder periods |
+
+### Phase 6: INTL Metric Expansion (4→11 metrics) — completed prior
+| Metric Added | Source | Coverage |
+|-------------|--------|----------|
+| `operating_income_M` | `ticker.financials` | 77% |
+| `sga_M` | `ticker.financials` | 78% |
+| `capex_M` | `ticker.cashflow` | 97% |
+| `operating_cash_flow_M` | `ticker.cashflow` | 98% |
+| `cash_M` | `ticker.balance_sheet` | 99.5% |
+| `total_debt_M` | `ticker.balance_sheet` | 98% |
+| `total_assets_M` | `ticker.balance_sheet` | 100% |
+
+### Phase 7: EDINET Metric Expansion (5→9 metrics) — completed prior
+| Metric Added | XBRL Tags | Coverage |
+|-------------|-----------|----------|
+| `total_assets_M` | `Assets` | 100% |
+| `operating_cash_flow_M` | `CashFlowsFromUsedInOperatingActivities` | 100% |
+| `capex_M` | `PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities` | 93% |
+| `cash_M` | `CashAndCashEquivalents` | 86% |
+
+---
+
+## Current Coverage Summary (post all phases)
+
+### SEC (330 companies, latest annual entry)
+
+| Metric | Null | Coverage | Residual Category |
+|--------|------|----------|-------------------|
+| `revenue_M` | 16 (4.8%) | 95.2% | Banks (interest income) + IFRS filers |
+| `net_income_M` | 1 (0.3%) | 99.7% | DB (Deutsche Bank, IFRS) |
+| `rnd_M` | 170 (51.5%) | 48.5% | Structural — many sectors don't report R&D |
+| `cost_of_revenue_M` | 142 (43.0%) | 57.0% | Structural — financials, energy |
+| `sga_M` | 93 (28.2%) | 71.8% | Financials, non-standard structures |
+| `operating_income_M` | 86 (26.1%) | 73.9% | Financials, energy majors |
+| `capex_M` | 39 (11.8%) | 88.2% | Financials, some IFRS filers |
+| `operating_cash_flow_M` | 3 (0.9%) | 99.1% | 3 IFRS 20-F filers (NGG, DB, VALE) |
+| `cash_M` | 2 (0.6%) | 99.4% | SLB, DB |
+| `total_debt_M` | 75 (22.7%) | 77.3% | Financials, tech with no debt |
+| `total_assets_M` | 1 (0.3%) | 99.7% | WPP (IFRS) |
+
+### INTL (190 companies, latest annual entry)
+
+| Metric | Null | Coverage | Notes |
+|--------|------|----------|-------|
+| `revenue_M` | 0 (0.0%) | 100% | ✅ |
+| `net_income_M` | 0 (0.0%) | 100% | ✅ |
+| `rnd_M` | 133 (70.0%) | 30.0% | Structural — industrials, financials, retail |
+| `cost_of_revenue_M` | 47 (24.7%) | 75.3% | Banks, some exchanges don't report |
+| `sga_M` | 42 (22.1%) | 77.9% | Structural |
+| `operating_income_M` | 43 (22.6%) | 77.4% | Banks, some exchanges |
+| `capex_M` | 6 (3.2%) | 96.8% | ✅ |
+| `operating_cash_flow_M` | 4 (2.1%) | 97.9% | ✅ |
+| `cash_M` | 1 (0.5%) | 99.5% | ✅ |
+| `total_debt_M` | 3 (1.6%) | 98.4% | ✅ |
+| `total_assets_M` | 0 (0.0%) | 100% | ✅ |
+
+### EDINET (14 Japanese companies, latest annual entry)
+
+| Metric | Null | Coverage | Notes |
+|--------|------|----------|-------|
+| `revenue_M` | 0 | 100% | ✅ |
+| `net_income_M` | 0 | 100% | ✅ |
+| `operating_income_M` | 4 (29%) | 71% | Banks + SoftBank + FUJIFILM |
+| `capex_M` | 1 (7%) | 93% | AEON |
+| `operating_cash_flow_M` | 0 | 100% | ✅ |
+| `total_assets_M` | 0 | 100% | ✅ |
+| `cash_M` | 2 (14%) | 86% | Banks (SMFG, MUFG) |
+| `rnd_M` | 14 (100%) | 0% | Structural — Japanese companies don't tag R&D in XBRL |
+
+### FRED (22 macro series)
+
+| Status | Count | Notes |
+|--------|-------|-------|
+| ✅ Healthy | 22/22 | All series current, no null values |
 
 ---
 

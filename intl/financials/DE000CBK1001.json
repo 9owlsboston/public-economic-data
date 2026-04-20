@@ -7,25 +7,6 @@
   "last_refreshed": "2026-04-20",
   "annual": [
     {
-      "period_end": "2025-12-31",
-      "currency": "EUR",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
-    },
-    {
       "period_end": "2024-12-31",
       "currency": "EUR",
       "revenue_M": 12362,
@@ -38,7 +19,11 @@
       "operating_cash_flow_M": -20315,
       "cash_M": 79122,
       "total_debt_M": 54886,
-      "total_assets_M": 554646
+      "total_assets_M": 554646,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
     },
     {
       "period_end": "2023-12-31",
@@ -88,25 +73,6 @@
   ],
   "quarterly": [
     {
-      "period_end": "2025-12-31",
-      "currency": "EUR",
-      "revenue_M": null,
-      "rnd_M": null,
-      "cost_of_revenue_M": null,
-      "net_income_M": null,
-      "operating_income_M": null,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
-    },
-    {
       "period_end": "2025-09-30",
       "currency": "EUR",
       "revenue_M": 2496,
@@ -119,7 +85,11 @@
       "operating_cash_flow_M": null,
       "cash_M": 69268,
       "total_debt_M": null,
-      "total_assets_M": 592951
+      "total_assets_M": 592951,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
     },
     {
       "period_end": "2025-06-30",

@@ -5,14 +5,18 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- **SEC Phase 4 tag expansion** — 3 new XBRL tags: `RevenueFromContractWithCustomerIncludingAssessedTax` (revenue), `ProfitLoss` in us-gaap (net_income), `NetCashProvidedByUsedInOperatingActivitiesContinuingOperations` (OCF). Fixes revenue for TJX/KHC/AKAM/RH/VRNS, net income for CAT/CMI/MA/BSX/F, OCF for BDX/JCI/DD/FIS/NWSA.
 - **EDINET balance sheet/cash flow expansion** — `refresh_edinet.py` now extracts 9 metrics (was 5): added `cash_M`, `total_assets_M`, `capex_M`, `operating_cash_flow_M` from XBRL. Added EBIT fallback for `operating_income_M` (Hitachi uses EBIT). Added `INSTANT_METRICS` set for balance sheet items (instant vs duration context). Coverage: total_assets 100%, operating_cash_flow 100%, capex 93%, cash 86%.
-- **INTL metric expansion** — `refresh_intl.py` now extracts 11 metrics (was 4) from Yahoo Finance: added `operating_income_M`, `sga_M`, `capex_M`, `operating_cash_flow_M`, `cash_M`, `total_debt_M`, `total_assets_M` from balance sheet and cash flow statements. Coverage: capex 87%, cash 90%, total_debt 89%, total_assets 90%, operating_cash_flow 85%, sga 71%, operating_income 70%.
+- **INTL metric expansion** — `refresh_intl.py` now extracts 11 metrics (was 4) from Yahoo Finance: added `operating_income_M`, `sga_M`, `capex_M`, `operating_cash_flow_M`, `cash_M`, `total_debt_M`, `total_assets_M` from balance sheet and cash flow statements. Coverage: capex 97%, cash 99.5%, total_debt 98%, total_assets 100%, operating_cash_flow 98%, sga 78%, operating_income 77%.
 - **INTL quarterly merge** — merge logic now handles quarterly data (was annual-only).
 
 ### Changed
 - **FRED macro refresh** — 21/22 series refreshed. `CUSR0000SEEE` (IT CPI) hit transient HTTP 500 from FRED server.
 
 ### Fixed
+- **INTL all-null company fix** — skip income statement columns where all financial metrics are NaN (yfinance creates placeholder columns for unreported future periods). Also filter stale all-null entries during merge. Fixes Commerzbank, Tesco, Xiaomi.
+- **INTL OCF fallback label** — added `Cash Flowsfromusedin Operating Activities Direct` as fallback for `Operating Cash Flow`. Fixes ~9 Australian and European companies (Woolworths, Telefónica, Sonae, etc.).
+- **SEC test runner** — test functions now return error lists instead of using `assert` (same fix as INTL/EDINET tests).
 - **EDINET test runner** — test functions now return error lists instead of using `assert` (same fix as INTL tests).
 - **INTL test runner** — test functions now return error lists instead of using `assert` (broke `main()` harness which expects return values).
 
