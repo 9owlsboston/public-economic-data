@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- **INTL metric expansion** — `refresh_intl.py` now extracts 11 metrics (was 4) from Yahoo Finance: added `operating_income_M`, `sga_M`, `capex_M`, `operating_cash_flow_M`, `cash_M`, `total_debt_M`, `total_assets_M` from balance sheet and cash flow statements. Coverage: capex 87%, cash 90%, total_debt 89%, total_assets 90%, operating_cash_flow 85%, sga 71%, operating_income 70%.
+- **INTL quarterly merge** — merge logic now handles quarterly data (was annual-only).
+
+### Fixed
+- **INTL test runner** — test functions now return error lists instead of using `assert` (broke `main()` harness which expects return values).
+
+### Removed
+- **19 orphan INTL files** — removed legacy files not in registry (`AE_FAB`, `CA_THOMSON`, `NL_WOLTERS`, and 16 ISIN-format files from pre-registry era or EDINET overlaps).
+
+### Added
 - **Top 1000 coverage design** — `docs/design/top-1000-coverage.md` with 5-phase plan covering SEC, intl, and EDINET scaling. Estimated realistic ceiling: ~525 coverable out of top 1000.
 - **SEC bulk CIK lookup** — `sec/scripts/lookup_cik.py` for verifying CIK↔ticker associations using SEC's `company_tickers.json`. Supports `--verify-mapping`, `--verify-registry`, and `--search` modes. Includes alias table for common name divergences (UPS, IBM, BNY Mellon, etc.).
 - **62 new SEC companies** — Meta, Salesforce, Cisco, Costco, JPMorgan, AMD, Palantir, Datadog, Rubrik, UiPath, DocuSign, Kyndryl, Blackstone, BlackRock, FedEx, UPS, Moody's, Allstate, NICE, CGI, Lumen, and 41 more from tpid-cik-mapping. SEC company count: 134 → 196.

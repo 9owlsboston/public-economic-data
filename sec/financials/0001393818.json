@@ -1,7 +1,7 @@
 {
   "cik": "0001393818",
   "name": "Blackstone Inc.",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,7 +15,8 @@
       "net_income_M": 3019,
       "capex_M": 116,
       "operating_cash_flow_M": 4663,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 1525,
       "cash_M": 2631,
       "total_debt_M": 12577,
       "total_assets_M": 47709,
@@ -24,6 +25,7 @@
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
@@ -41,7 +43,8 @@
       "net_income_M": 2777,
       "capex_M": 61,
       "operating_cash_flow_M": 3482,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 1362,
       "cash_M": 1972,
       "total_debt_M": 11460,
       "total_assets_M": 43470
@@ -58,7 +61,8 @@
       "net_income_M": 1391,
       "capex_M": 224,
       "operating_cash_flow_M": 4057,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 1117,
       "cash_M": 2956,
       "total_debt_M": 11606,
       "total_assets_M": 40288
@@ -75,7 +79,8 @@
       "net_income_M": 1748,
       "capex_M": 235,
       "operating_cash_flow_M": 6336,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 1093,
       "cash_M": 4252,
       "total_debt_M": 12491,
       "total_assets_M": 42524
@@ -92,7 +97,8 @@
       "net_income_M": 5857,
       "capex_M": 64,
       "operating_cash_flow_M": 3986,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 918,
       "cash_M": 2120,
       "total_debt_M": 7856,
       "total_assets_M": 41196
@@ -109,7 +115,8 @@
       "net_income_M": 1045,
       "capex_M": 112,
       "operating_cash_flow_M": 1936,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 712,
       "cash_M": 1999,
       "total_debt_M": 5732,
       "total_assets_M": 26269
@@ -126,7 +133,8 @@
       "net_income_M": 2050,
       "capex_M": 60,
       "operating_cash_flow_M": 1963,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 679,
       "cash_M": 2172,
       "total_debt_M": 11542,
       "total_assets_M": 32586
@@ -143,7 +151,8 @@
       "net_income_M": 1542,
       "capex_M": 18,
       "operating_cash_flow_M": 46,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 595,
       "cash_M": 2208,
       "total_debt_M": 10395,
       "total_assets_M": 28925
@@ -160,7 +169,8 @@
       "net_income_M": 1471,
       "capex_M": 24,
       "operating_cash_flow_M": -1626,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 489,
       "cash_M": 1992,
       "total_debt_M": 15167,
       "total_assets_M": 34429
@@ -177,7 +187,8 @@
       "net_income_M": 1039,
       "capex_M": 22,
       "operating_cash_flow_M": -89,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 542,
       "cash_M": 1837,
       "total_debt_M": 8941,
       "total_assets_M": 26403
@@ -196,7 +207,8 @@
       "net_income_M": 625,
       "capex_M": 93,
       "operating_cash_flow_M": 3595,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 384,
       "cash_M": 2431,
       "total_debt_M": 12126,
       "total_assets_M": 46554,
@@ -205,6 +217,7 @@
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
@@ -222,7 +235,8 @@
       "net_income_M": 764,
       "capex_M": 69,
       "operating_cash_flow_M": 1998,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 361,
       "cash_M": 2235,
       "total_debt_M": 12136,
       "total_assets_M": 45373
@@ -239,7 +253,8 @@
       "net_income_M": 615,
       "capex_M": 29,
       "operating_cash_flow_M": 1109,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 332,
       "cash_M": 2387,
       "total_debt_M": 12584,
       "total_assets_M": 45256
@@ -256,7 +271,8 @@
       "net_income_M": 781,
       "capex_M": 50,
       "operating_cash_flow_M": 3320,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 341,
       "cash_M": 2353,
       "total_debt_M": 10886,
       "total_assets_M": 42575
@@ -273,7 +289,8 @@
       "net_income_M": 444,
       "capex_M": 30,
       "operating_cash_flow_M": 2098,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 312,
       "cash_M": 2381,
       "total_debt_M": 10824,
       "total_assets_M": 40585
@@ -290,7 +307,8 @@
       "net_income_M": 847,
       "capex_M": 18,
       "operating_cash_flow_M": 940,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 370,
       "cash_M": 2504,
       "total_debt_M": 10878,
       "total_assets_M": 39706
@@ -307,7 +325,8 @@
       "net_income_M": 552,
       "capex_M": 193,
       "operating_cash_flow_M": 3161,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 279,
       "cash_M": 2972,
       "total_debt_M": 12340,
       "total_assets_M": 41664
@@ -324,7 +343,8 @@
       "net_income_M": 601,
       "capex_M": 130,
       "operating_cash_flow_M": 2078,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 275,
       "cash_M": 3280,
       "total_debt_M": 12473,
       "total_assets_M": 41583
@@ -341,7 +361,8 @@
       "net_income_M": 86,
       "capex_M": 70,
       "operating_cash_flow_M": 353,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 273,
       "cash_M": 2831,
       "total_debt_M": 12463,
       "total_assets_M": 41086
@@ -358,7 +379,8 @@
       "net_income_M": 2,
       "capex_M": 187,
       "operating_cash_flow_M": 5621,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 270,
       "cash_M": 3480,
       "total_debt_M": 9391,
       "total_assets_M": 40259
@@ -375,7 +397,8 @@
       "net_income_M": -29,
       "capex_M": 101,
       "operating_cash_flow_M": 4638,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 289,
       "cash_M": 4183,
       "total_debt_M": 9497,
       "total_assets_M": 41631
@@ -392,7 +415,8 @@
       "net_income_M": 1217,
       "capex_M": 56,
       "operating_cash_flow_M": 2749,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 241,
       "cash_M": 3869,
       "total_debt_M": 9060,
       "total_assets_M": 43344
@@ -409,7 +433,8 @@
       "net_income_M": 1402,
       "capex_M": 44,
       "operating_cash_flow_M": 4800,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 218,
       "cash_M": 5011,
       "total_debt_M": 7637,
       "total_assets_M": 39038
@@ -426,7 +451,8 @@
       "net_income_M": 1309,
       "capex_M": 35,
       "operating_cash_flow_M": 3196,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 205,
       "cash_M": 2467,
       "total_debt_M": 5679,
       "total_assets_M": 33297
@@ -443,7 +469,8 @@
       "net_income_M": 1748,
       "capex_M": 21,
       "operating_cash_flow_M": 2297,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 185,
       "cash_M": 2862,
       "total_debt_M": 5660,
       "total_assets_M": 29710
@@ -460,7 +487,8 @@
       "net_income_M": 795,
       "capex_M": 71,
       "operating_cash_flow_M": 1626,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 171,
       "cash_M": 2629,
       "total_debt_M": 5658,
       "total_assets_M": 25042
@@ -477,7 +505,8 @@
       "net_income_M": 568,
       "capex_M": 25,
       "operating_cash_flow_M": 1491,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 169,
       "cash_M": 1977,
       "total_debt_M": 11537,
       "total_assets_M": 28844
@@ -494,7 +523,8 @@
       "net_income_M": -1066,
       "capex_M": 12,
       "operating_cash_flow_M": 999,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 158,
       "cash_M": 2068,
       "total_debt_M": 11507,
       "total_assets_M": 26946
@@ -511,7 +541,8 @@
       "net_income_M": 779,
       "capex_M": 49,
       "operating_cash_flow_M": 1373,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 171,
       "cash_M": 2469,
       "total_debt_M": 11711,
       "total_assets_M": 32386
@@ -528,7 +559,8 @@
       "net_income_M": 306,
       "capex_M": 34,
       "operating_cash_flow_M": 295,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 175,
       "cash_M": 1484,
       "total_debt_M": 11055,
       "total_assets_M": 30972
@@ -545,7 +577,8 @@
       "net_income_M": 481,
       "capex_M": 19,
       "operating_cash_flow_M": 131,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 146,
       "cash_M": 1571,
       "total_debt_M": 10362,
       "total_assets_M": 29875
@@ -562,7 +595,8 @@
       "net_income_M": 443,
       "capex_M": 9,
       "operating_cash_flow_M": -1340,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 169,
       "cash_M": 1938,
       "total_debt_M": 10409,
       "total_assets_M": 30460
@@ -579,7 +613,8 @@
       "net_income_M": 742,
       "capex_M": 9,
       "operating_cash_flow_M": -2661,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 146,
       "cash_M": 1710,
       "total_debt_M": 10420,
       "total_assets_M": 30075
@@ -596,7 +631,8 @@
       "net_income_M": 368,
       "capex_M": 5,
       "operating_cash_flow_M": -1770,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 127,
       "cash_M": 1747,
       "total_debt_M": 9510,
       "total_assets_M": 27933
@@ -613,7 +649,8 @@
       "net_income_M": 385,
       "capex_M": 20,
       "operating_cash_flow_M": -1231,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 116,
       "cash_M": 1316,
       "total_debt_M": 12909,
       "total_assets_M": 31762
@@ -630,7 +667,8 @@
       "net_income_M": 343,
       "capex_M": 14,
       "operating_cash_flow_M": -422,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 115,
       "cash_M": 1746,
       "total_debt_M": 11308,
       "total_assets_M": 30128
@@ -647,7 +685,8 @@
       "net_income_M": 462,
       "capex_M": 10,
       "operating_cash_flow_M": null,
-      "sga_M": null,
+      "operating_income_M": null,
+      "sga_M": 106,
       "cash_M": 2304,
       "total_debt_M": 9899,
       "total_assets_M": 28337

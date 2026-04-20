@@ -1,7 +1,7 @@
 {
   "cik": "0001974138",
   "name": "NCR Atleos Corp.",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,6 +15,7 @@
       "net_income_M": 162,
       "capex_M": 117,
       "operating_cash_flow_M": 356,
+      "operating_income_M": 478,
       "sga_M": 513,
       "cash_M": 456,
       "total_debt_M": 2672,
@@ -25,6 +26,7 @@
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
         "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_debt": "us-gaap:LongTermDebt",
@@ -43,6 +45,7 @@
       "net_income_M": 80,
       "capex_M": 87,
       "operating_cash_flow_M": 344,
+      "operating_income_M": 437,
       "sga_M": 521,
       "cash_M": 419,
       "total_debt_M": 2994,
@@ -61,6 +64,7 @@
       "net_income_M": 80,
       "capex_M": 87,
       "operating_cash_flow_M": 344,
+      "operating_income_M": 437,
       "sga_M": 521,
       "cash_M": 419,
       "total_debt_M": 2994,
@@ -78,6 +82,7 @@
       "net_income_M": -150,
       "capex_M": 108,
       "operating_cash_flow_M": 355,
+      "operating_income_M": 263,
       "sga_M": 585,
       "cash_M": 339,
       "total_debt_M": 3099,
@@ -97,6 +102,7 @@
       "net_income_M": 26,
       "capex_M": 80,
       "operating_cash_flow_M": 125,
+      "operating_income_M": 110,
       "sga_M": 143,
       "cash_M": 412,
       "total_debt_M": 2789,
@@ -107,6 +113,7 @@
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
         "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_debt": "us-gaap:LongTermDebt",
@@ -125,6 +132,7 @@
       "net_income_M": 45,
       "capex_M": 50,
       "operating_cash_flow_M": 100,
+      "operating_income_M": 120,
       "sga_M": 116,
       "cash_M": 357,
       "total_debt_M": 2816,
@@ -142,9 +150,10 @@
       "net_income_M": 17,
       "capex_M": 29,
       "operating_cash_flow_M": 123,
+      "operating_income_M": 96,
       "sga_M": 122,
       "cash_M": 352,
-      "total_debt_M": null,
+      "total_debt_M": 2833,
       "total_assets_M": 5739
     },
     {
@@ -159,9 +168,10 @@
       "net_income_M": 24,
       "capex_M": 69,
       "operating_cash_flow_M": 264,
+      "operating_income_M": 119,
       "sga_M": 127,
       "cash_M": 395,
-      "total_debt_M": null,
+      "total_debt_M": 2906,
       "total_assets_M": 5748
     },
     {
@@ -176,9 +186,10 @@
       "net_income_M": 29,
       "capex_M": 47,
       "operating_cash_flow_M": 157,
+      "operating_income_M": 107,
       "sga_M": 132,
       "cash_M": 374,
-      "total_debt_M": null,
+      "total_debt_M": 2921,
       "total_assets_M": 5765
     },
     {
@@ -193,9 +204,10 @@
       "net_income_M": -8,
       "capex_M": 24,
       "operating_cash_flow_M": 148,
+      "operating_income_M": 72,
       "sga_M": 132,
       "cash_M": 343,
-      "total_debt_M": null,
+      "total_debt_M": 2857,
       "total_assets_M": 5776
     },
     {
@@ -210,6 +222,7 @@
       "net_income_M": -58,
       "capex_M": 70,
       "operating_cash_flow_M": 347,
+      "operating_income_M": 91,
       "sga_M": 160,
       "cash_M": 423,
       "total_debt_M": null,
@@ -227,9 +240,10 @@
       "net_income_M": 53,
       "capex_M": 22,
       "operating_cash_flow_M": 200,
+      "operating_income_M": 79,
       "sga_M": 149,
       "cash_M": 337,
-      "total_debt_M": null,
+      "total_debt_M": 214,
       "total_assets_M": 5736
     }
   ]

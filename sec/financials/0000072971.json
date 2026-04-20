@@ -1,7 +1,7 @@
 {
   "cik": "0000072971",
   "name": "WELLS FARGO & COMPANY/MN",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,13 +15,15 @@
       "net_income_M": 21338,
       "capex_M": null,
       "operating_cash_flow_M": -19001,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 172593,
       "total_debt_M": 174712,
       "total_assets_M": 2148631,
       "tags_used": {
         "net_income": "us-gaap:NetIncomeLoss",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
         "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
       }
@@ -38,8 +40,9 @@
       "net_income_M": 19722,
       "capex_M": null,
       "operating_cash_flow_M": 3035,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 201902,
       "total_debt_M": 173078,
       "total_assets_M": 1929845
     }
@@ -57,13 +60,15 @@
       "net_income_M": 5589,
       "capex_M": null,
       "operating_cash_flow_M": -23122,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 172516,
       "total_debt_M": 177773,
       "total_assets_M": 2062926,
       "tags_used": {
         "net_income": "us-gaap:NetIncomeLoss",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
         "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
       }
@@ -80,8 +85,9 @@
       "net_income_M": 5494,
       "capex_M": null,
       "operating_cash_flow_M": -22253,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 193133,
       "total_debt_M": 176237,
       "total_assets_M": 1981269
     },
@@ -97,8 +103,9 @@
       "net_income_M": 4894,
       "capex_M": null,
       "operating_cash_flow_M": -11037,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 176178,
       "total_debt_M": 173660,
       "total_assets_M": 1950311
     },
@@ -114,8 +121,9 @@
       "net_income_M": 5114,
       "capex_M": null,
       "operating_cash_flow_M": -5869,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 184128,
       "total_debt_M": 182015,
       "total_assets_M": 1922125
     },
@@ -131,8 +139,9 @@
       "net_income_M": 4910,
       "capex_M": null,
       "operating_cash_flow_M": -10075,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 230780,
       "total_debt_M": 179136,
       "total_assets_M": 1940073
     },
@@ -148,8 +157,9 @@
       "net_income_M": 4619,
       "capex_M": null,
       "operating_cash_flow_M": -12125,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 268596,
       "total_debt_M": 187764,
       "total_assets_M": 1959153
     }

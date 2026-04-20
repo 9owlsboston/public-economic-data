@@ -15,14 +15,17 @@
       "net_income_M": 57000,
       "capex_M": null,
       "operating_cash_flow_M": -147782,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 343338,
+      "total_debt_M": 435206,
       "total_assets_M": 4424900,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "net_income": "us-gaap:NetIncomeLoss",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
         "total_assets": "us-gaap:Assets"
       }
     }
@@ -40,13 +43,16 @@
       "net_income_M": 14393,
       "capex_M": null,
       "operating_cash_flow_M": -267506,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 303436,
+      "total_debt_M": 427203,
       "total_assets_M": 4560205,
       "tags_used": {
         "net_income": "us-gaap:NetIncomeLoss",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
         "total_assets": "us-gaap:Assets"
       }
     },
@@ -62,9 +68,10 @@
       "net_income_M": 14987,
       "capex_M": null,
       "operating_cash_flow_M": -222292,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 420327,
+      "total_debt_M": 419802,
       "total_assets_M": 4552482
     },
     {
@@ -79,9 +86,10 @@
       "net_income_M": 14643,
       "capex_M": null,
       "operating_cash_flow_M": -251839,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 425903,
+      "total_debt_M": 407224,
       "total_assets_M": 4357856
     }
   ]

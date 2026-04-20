@@ -1,7 +1,7 @@
 {
   "cik": "0000070858",
   "name": "Bank of America Corp.",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,14 +15,16 @@
       "net_income_M": 30509,
       "capex_M": null,
       "operating_cash_flow_M": 12613,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 231845,
       "total_debt_M": 317816,
       "total_assets_M": 3411738,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "net_income": "us-gaap:NetIncomeLoss",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
         "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
       }
@@ -46,14 +48,16 @@
       "net_income_M": 8469,
       "capex_M": null,
       "operating_cash_flow_M": 35558,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 246507,
       "total_debt_M": 311484,
       "total_assets_M": 3403716,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "net_income": "us-gaap:NetIncomeLoss",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
         "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
       }
@@ -75,8 +79,9 @@
       "net_income_M": 7116,
       "capex_M": null,
       "operating_cash_flow_M": -11316,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 266011,
       "total_debt_M": 313418,
       "total_assets_M": 3441142
     },
@@ -97,8 +102,9 @@
       "net_income_M": 7396,
       "capex_M": null,
       "operating_cash_flow_M": -2184,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
+      "cash_M": 273579,
       "total_debt_M": 304146,
       "total_assets_M": 3349424
     },

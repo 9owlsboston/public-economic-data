@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Refresh international company financial data via Yahoo Finance (yfinance).
 
-Fetches income statements for companies listed in intl/registry.yaml
-and writes per-company JSON to intl/financials/{isin}.json.
+Fetches income statements, balance sheets, and cash flow statements
+for companies listed in intl/registry.yaml and writes per-company JSON
+to intl/financials/{isin}.json.
 
 Usage:
     python intl/scripts/refresh_intl.py [--dry-run] [--isin ISIN]
@@ -34,8 +35,9 @@ def _to_millions(value) -> int | None:
 
 
 def refresh_company(yf_symbol: str, info: dict) -> dict | None:
-    """Fetch annual and quarterly income statements for a company via yfinance.
+    """Fetch annual and quarterly financials for a company via yfinance.
 
+    Pulls income statement, balance sheet, and cash flow statement.
     Returns a dict matching the repo's standard schema, or None on error.
     """
     ticker = yf.Ticker(yf_symbol)
@@ -44,39 +46,82 @@ def refresh_company(yf_symbol: str, info: dict) -> dict | None:
     if inc is None or inc.empty:
         return None
 
+    bs = ticker.balance_sheet
+    cf = ticker.cashflow
+
     currency = info.get("currency", "EUR")
 
-    def _extract_entries(df):
-        """Extract financial entries from a yfinance DataFrame."""
+    def _extract_entries(inc_df, bs_df, cf_df):
+        """Extract financial entries by merging income, balance sheet, and cash flow."""
         entries = []
-        if df is None or df.empty:
+        if inc_df is None or inc_df.empty:
             return entries
-        for i, col in enumerate(df.columns):
-            def _get(label, _df=df, _col=col):
+
+        # Build lookup for balance sheet and cash flow by period_end
+        bs_by_period = {}
+        if bs_df is not None and not bs_df.empty:
+            for col in bs_df.columns:
+                bs_by_period[col.date().isoformat()] = bs_df[col]
+
+        cf_by_period = {}
+        if cf_df is not None and not cf_df.empty:
+            for col in cf_df.columns:
+                cf_by_period[col.date().isoformat()] = cf_df[col]
+
+        for i, col in enumerate(inc_df.columns):
+            period_end = col.date().isoformat()
+
+            def _get(label, _df=inc_df, _col=col):
                 return _df.loc[label, _col] if label in _df.index else None
 
+            bs_col = bs_by_period.get(period_end)
+            cf_col = cf_by_period.get(period_end)
+
+            def _bs(label):
+                if bs_col is None:
+                    return None
+                return bs_col.loc[label] if label in bs_col.index else None
+
+            def _cf(label):
+                if cf_col is None:
+                    return None
+                return cf_col.loc[label] if label in cf_col.index else None
+
+            # Capex is reported as negative in yfinance; store as positive
+            capex_raw = _cf("Capital Expenditure")
+            capex_M = _to_millions(abs(capex_raw)) if capex_raw is not None and not (isinstance(capex_raw, float) and math.isnan(capex_raw)) else None
+
             entry = {
-                "period_end": col.date().isoformat(),
+                "period_end": period_end,
                 "currency": currency,
                 "revenue_M": _to_millions(_get("Total Revenue")),
                 "rnd_M": _to_millions(_get("Research And Development")),
                 "cost_of_revenue_M": _to_millions(_get("Cost Of Revenue")),
                 "net_income_M": _to_millions(_get("Net Income")),
+                "operating_income_M": _to_millions(_get("Operating Income")),
+                "sga_M": _to_millions(_get("Selling General And Administration")),
+                "capex_M": capex_M,
+                "operating_cash_flow_M": _to_millions(_cf("Operating Cash Flow")),
+                "cash_M": _to_millions(_bs("Cash And Cash Equivalents")),
+                "total_debt_M": _to_millions(_bs("Total Debt")),
+                "total_assets_M": _to_millions(_bs("Total Assets")),
             }
             if i == 0:
                 entry["tags_used"] = {
                     "source": "yahoo_finance",
-                    "notes": "Values converted from full units to millions via yfinance",
+                    "notes": "Income statement + balance sheet + cash flow, converted to millions",
                 }
             entries.append(entry)
         entries.sort(key=lambda x: x["period_end"], reverse=True)
         return entries
 
-    annual = _extract_entries(inc)
+    annual = _extract_entries(inc, bs, cf)
 
     # Quarterly financials
     q_inc = ticker.quarterly_financials
-    quarterly = _extract_entries(q_inc)
+    q_bs = ticker.quarterly_balance_sheet
+    q_cf = ticker.quarterly_cashflow
+    quarterly = _extract_entries(q_inc, q_bs, q_cf)
 
     return {
         "isin": None,  # filled in by caller
@@ -145,19 +190,20 @@ def main():
         if json_path.exists():
             with open(json_path) as f:
                 existing = json.load(f)
-            # Skip legacy entries that lack period_end (old schema used "year")
-            existing_periods = {
-                e["period_end"]: e
-                for e in existing.get("annual", [])
-                if "period_end" in e
-            }
-            for entry in result["annual"]:
-                existing_periods[entry["period_end"]] = entry  # newer wins
-            result["annual"] = sorted(
-                existing_periods.values(),
-                key=lambda x: x["period_end"],
-                reverse=True,
-            )
+            for section in ("annual", "quarterly"):
+                # Skip legacy entries that lack period_end (old schema used "year")
+                existing_periods = {
+                    e["period_end"]: e
+                    for e in existing.get(section, [])
+                    if "period_end" in e
+                }
+                for entry in result.get(section, []):
+                    existing_periods[entry["period_end"]] = entry  # newer wins
+                result[section] = sorted(
+                    existing_periods.values(),
+                    key=lambda x: x["period_end"],
+                    reverse=True,
+                )
 
         with open(json_path, "w") as f:
             json.dump(result, f, indent=2, ensure_ascii=False)

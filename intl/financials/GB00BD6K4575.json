@@ -13,9 +13,16 @@
       "rnd_M": null,
       "cost_of_revenue_M": 7086,
       "net_income_M": 108,
+      "operating_income_M": 198,
+      "sga_M": null,
+      "capex_M": 77,
+      "operating_cash_flow_M": 453,
+      "cash_M": 179,
+      "total_debt_M": 965,
+      "total_assets_M": 5423,
       "tags_used": {
         "source": "yahoo_finance",
-        "notes": "Values converted from full units to millions via yfinance"
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
       }
     },
     {
@@ -24,7 +31,14 @@
       "revenue_M": 8476,
       "rnd_M": null,
       "cost_of_revenue_M": 6920,
-      "net_income_M": 165
+      "net_income_M": 165,
+      "operating_income_M": 117,
+      "sga_M": null,
+      "capex_M": 48,
+      "operating_cash_flow_M": 366,
+      "cash_M": 89,
+      "total_debt_M": 1032,
+      "total_assets_M": 5309
     },
     {
       "period_end": "2023-04-30",
@@ -32,7 +46,14 @@
       "revenue_M": 8874,
       "rnd_M": null,
       "cost_of_revenue_M": 7309,
-      "net_income_M": -481
+      "net_income_M": -481,
+      "operating_income_M": 147,
+      "sga_M": null,
+      "capex_M": 103,
+      "operating_cash_flow_M": 270,
+      "cash_M": 67,
+      "total_debt_M": 1427,
+      "total_assets_M": 5849
     },
     {
       "period_end": "2022-04-30",
@@ -40,7 +61,14 @@
       "revenue_M": 10144,
       "rnd_M": null,
       "cost_of_revenue_M": 8356,
-      "net_income_M": 71
+      "net_income_M": 71,
+      "operating_income_M": 222,
+      "sga_M": null,
+      "capex_M": 133,
+      "operating_cash_flow_M": 428,
+      "cash_M": 96,
+      "total_debt_M": 1349,
+      "total_assets_M": 6913
     },
     {
       "period_end": "2021-04-30",
@@ -48,7 +76,14 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": null
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ],
   "quarterly": []

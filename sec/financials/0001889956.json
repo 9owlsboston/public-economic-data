@@ -1,7 +1,7 @@
 {
   "cik": "0001889956",
   "name": "OneStream Inc.",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,7 +15,8 @@
       "net_income_M": -50,
       "capex_M": 1,
       "operating_cash_flow_M": 97,
-      "sga_M": null,
+      "operating_income_M": -95,
+      "sga_M": 113,
       "cash_M": 694,
       "total_debt_M": null,
       "total_assets_M": 1026
@@ -32,7 +33,8 @@
       "net_income_M": -50,
       "capex_M": 1,
       "operating_cash_flow_M": 97,
-      "sga_M": null,
+      "operating_income_M": -95,
+      "sga_M": 113,
       "cash_M": 694,
       "total_debt_M": null,
       "total_assets_M": 1026,
@@ -44,6 +46,8 @@
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_assets": "us-gaap:Assets"
       }
@@ -60,7 +64,8 @@
       "net_income_M": -216,
       "capex_M": 3,
       "operating_cash_flow_M": 61,
-      "sga_M": null,
+      "operating_income_M": -320,
+      "sga_M": 144,
       "cash_M": 544,
       "total_debt_M": null,
       "total_assets_M": 823
@@ -95,7 +100,8 @@
       "net_income_M": -9,
       "capex_M": 1,
       "operating_cash_flow_M": 71,
-      "sga_M": null,
+      "operating_income_M": -17,
+      "sga_M": 28,
       "cash_M": 654,
       "total_debt_M": null,
       "total_assets_M": 949,
@@ -106,6 +112,8 @@
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_assets": "us-gaap:Assets"
       }
@@ -130,7 +138,8 @@
       "net_income_M": -18,
       "capex_M": 1,
       "operating_cash_flow_M": 66,
-      "sga_M": null,
+      "operating_income_M": -32,
+      "sga_M": 29,
       "cash_M": 652,
       "total_debt_M": null,
       "total_assets_M": 911
@@ -155,7 +164,8 @@
       "net_income_M": -24,
       "capex_M": 0,
       "operating_cash_flow_M": 36,
-      "sga_M": null,
+      "operating_income_M": -40,
+      "sga_M": 30,
       "cash_M": 594,
       "total_debt_M": null,
       "total_assets_M": 867
@@ -188,7 +198,8 @@
       "net_income_M": -170,
       "capex_M": 2,
       "operating_cash_flow_M": 36,
-      "sga_M": null,
+      "operating_income_M": -255,
+      "sga_M": 74,
       "cash_M": 495,
       "total_debt_M": null,
       "total_assets_M": 750
@@ -205,7 +216,8 @@
       "net_income_M": -8,
       "capex_M": 1,
       "operating_cash_flow_M": 34,
-      "sga_M": null,
+      "operating_income_M": -12,
+      "sga_M": 20,
       "cash_M": 141,
       "total_debt_M": null,
       "total_assets_M": 380

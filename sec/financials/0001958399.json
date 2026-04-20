@@ -1,7 +1,7 @@
 {
   "cik": "0001958399",
   "name": "Huachen AI Parking Management Technology Holding Co., Ltd",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2024-12-31",
@@ -15,7 +15,8 @@
       "net_income_M": 1,
       "capex_M": 0,
       "operating_cash_flow_M": 2,
-      "sga_M": null,
+      "operating_income_M": 2,
+      "sga_M": 3,
       "cash_M": 0,
       "total_debt_M": null,
       "total_assets_M": 46,
@@ -26,6 +27,8 @@
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_assets": "us-gaap:Assets"
       }

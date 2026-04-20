@@ -2,7 +2,33 @@
   "cik": "0000947263",
   "name": "Toronto-Dominion Bank",
   "last_refreshed": "2026-04-20",
-  "annual": [],
+  "annual": [
+    {
+      "period_end": "2025-10-31",
+      "filing_date": "2025-12-04",
+      "form": "40-F",
+      "namespace": "ifrs-full",
+      "currency": "CAD",
+      "revenue_M": 67777,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 20538,
+      "capex_M": null,
+      "operating_cash_flow_M": -69646,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 7512,
+      "total_debt_M": null,
+      "total_assets_M": 2094558,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "net_income": "ifrs-full:ProfitLoss",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
+      }
+    }
+  ],
   "quarterly": [
     {
       "period_end": "2026-01-31",

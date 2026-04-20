@@ -13,9 +13,16 @@
       "rnd_M": null,
       "cost_of_revenue_M": 7226870,
       "net_income_M": 696480,
+      "operating_income_M": 1124620,
+      "sga_M": 380260,
+      "capex_M": 1399670,
+      "operating_cash_flow_M": 1787030,
+      "cash_M": 1006450,
+      "total_debt_M": 3695750,
+      "total_assets_M": 19501210,
       "tags_used": {
         "source": "yahoo_finance",
-        "notes": "Values converted from full units to millions via yfinance"
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
       }
     },
     {
@@ -24,7 +31,14 @@
       "revenue_M": 9010640,
       "rnd_M": null,
       "cost_of_revenue_M": 6745990,
-      "net_income_M": 696210
+      "net_income_M": 696210,
+      "operating_income_M": 1116660,
+      "sga_M": 371420,
+      "capex_M": 1528830,
+      "operating_cash_flow_M": 1587880,
+      "cash_M": 935400,
+      "total_debt_M": 3461420,
+      "total_assets_M": 17559860
     },
     {
       "period_end": "2023-03-31",
@@ -32,7 +46,14 @@
       "revenue_M": 8778350,
       "rnd_M": null,
       "cost_of_revenue_M": 6718980,
-      "net_income_M": 667020
+      "net_income_M": 667020,
+      "operating_income_M": 1020150,
+      "sga_M": 316730,
+      "capex_M": 1409880,
+      "operating_cash_flow_M": 1150320,
+      "cash_M": 341560,
+      "total_debt_M": 3343920,
+      "total_assets_M": 16074310
     },
     {
       "period_end": "2022-03-31",
@@ -40,7 +61,14 @@
       "revenue_M": 6959630,
       "rnd_M": null,
       "cost_of_revenue_M": 5316780,
-      "net_income_M": 607050
+      "net_income_M": 607050,
+      "operating_income_M": 787630,
+      "sga_M": 248250,
+      "capex_M": 1001450,
+      "operating_cash_flow_M": 1106540,
+      "cash_M": 335090,
+      "total_debt_M": 2819740,
+      "total_assets_M": 14996650
     }
   ],
   "quarterly": [
@@ -51,9 +79,16 @@
       "rnd_M": null,
       "cost_of_revenue_M": 1862500,
       "net_income_M": 186450,
+      "operating_income_M": 313960,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null,
       "tags_used": {
         "source": "yahoo_finance",
-        "notes": "Values converted from full units to millions via yfinance"
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
       }
     },
     {
@@ -62,7 +97,14 @@
       "revenue_M": 2436320,
       "rnd_M": null,
       "cost_of_revenue_M": 1664920,
-      "net_income_M": 269940
+      "net_income_M": 269940,
+      "operating_income_M": 290630,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2025-03-31",
@@ -70,7 +112,14 @@
       "revenue_M": 2613880,
       "rnd_M": null,
       "cost_of_revenue_M": 2237110,
-      "net_income_M": 194070
+      "net_income_M": 194070,
+      "operating_income_M": 305070,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 1006450,
+      "total_debt_M": 3695750,
+      "total_assets_M": 19501210
     },
     {
       "period_end": "2024-12-31",
@@ -78,7 +127,14 @@
       "revenue_M": 2399860,
       "rnd_M": null,
       "cost_of_revenue_M": 1661400,
-      "net_income_M": 185400
+      "net_income_M": 185400,
+      "operating_income_M": 306080,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2024-09-30",
@@ -86,7 +142,14 @@
       "revenue_M": 2315350,
       "rnd_M": null,
       "cost_of_revenue_M": 1657820,
-      "net_income_M": 165630
+      "net_income_M": 165630,
+      "operating_income_M": 261780,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 903530,
+      "total_debt_M": 3575250,
+      "total_assets_M": 18151230
     }
   ]
 }

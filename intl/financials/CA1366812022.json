@@ -13,9 +13,16 @@
       "rnd_M": null,
       "cost_of_revenue_M": 10700,
       "net_income_M": 526,
+      "operating_income_M": 1403,
+      "sga_M": 3471,
+      "capex_M": 664,
+      "operating_cash_flow_M": 952,
+      "cash_M": 524,
+      "total_debt_M": 7670,
+      "total_assets_M": 21540,
       "tags_used": {
         "source": "yahoo_finance",
-        "notes": "Values converted from full units to millions via yfinance"
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
       }
     },
     {
@@ -24,7 +31,14 @@
       "revenue_M": 15516,
       "rnd_M": null,
       "cost_of_revenue_M": 10315,
-      "net_income_M": 888
+      "net_income_M": 888,
+      "operating_income_M": 1229,
+      "sga_M": 3240,
+      "capex_M": 628,
+      "operating_cash_flow_M": 2064,
+      "cash_M": 448,
+      "total_debt_M": 7905,
+      "total_assets_M": 22241
     },
     {
       "period_end": "2023-12-31",
@@ -32,7 +46,14 @@
       "revenue_M": 16656,
       "rnd_M": null,
       "cost_of_revenue_M": 10953,
-      "net_income_M": 213
+      "net_income_M": 213,
+      "operating_income_M": 1257,
+      "sga_M": 3676,
+      "capex_M": 669,
+      "operating_cash_flow_M": 1354,
+      "cash_M": 287,
+      "total_debt_M": 8815,
+      "total_assets_M": 21978
     },
     {
       "period_end": "2022-12-31",
@@ -40,7 +61,14 @@
       "revenue_M": 17811,
       "rnd_M": null,
       "cost_of_revenue_M": 11713,
-      "net_income_M": 1044
+      "net_income_M": 1044,
+      "operating_income_M": 1876,
+      "sga_M": 3502,
+      "capex_M": 735,
+      "operating_cash_flow_M": 466,
+      "cash_M": 314,
+      "total_debt_M": 7719,
+      "total_assets_M": 22102
     },
     {
       "period_end": "2021-12-31",
@@ -48,7 +76,14 @@
       "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": null
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ],
   "quarterly": [
@@ -59,9 +94,16 @@
       "rnd_M": null,
       "cost_of_revenue_M": 2974,
       "net_income_M": 208,
+      "operating_income_M": 445,
+      "sga_M": 936,
+      "capex_M": 242,
+      "operating_cash_flow_M": 799,
+      "cash_M": 524,
+      "total_debt_M": 7670,
+      "total_assets_M": 21540,
       "tags_used": {
         "source": "yahoo_finance",
-        "notes": "Values converted from full units to millions via yfinance"
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
       }
     },
     {
@@ -70,7 +112,14 @@
       "revenue_M": 4202,
       "rnd_M": null,
       "cost_of_revenue_M": 2782,
-      "net_income_M": 112
+      "net_income_M": 112,
+      "operating_income_M": 362,
+      "sga_M": 881,
+      "capex_M": 140,
+      "operating_cash_flow_M": 822,
+      "cash_M": 1024,
+      "total_debt_M": 7622,
+      "total_assets_M": 21472
     },
     {
       "period_end": "2025-03-31",
@@ -78,7 +127,14 @@
       "revenue_M": 3457,
       "rnd_M": null,
       "cost_of_revenue_M": 2266,
-      "net_income_M": 37
+      "net_income_M": 37,
+      "operating_income_M": 233,
+      "sga_M": 776,
+      "capex_M": 97,
+      "operating_cash_flow_M": -303,
+      "cash_M": 387,
+      "total_debt_M": 8453,
+      "total_assets_M": 22652
     },
     {
       "period_end": "2024-12-31",
@@ -86,7 +142,14 @@
       "revenue_M": 4507,
       "rnd_M": null,
       "cost_of_revenue_M": 2978,
-      "net_income_M": 412
+      "net_income_M": 412,
+      "operating_income_M": 370,
+      "sga_M": 968,
+      "capex_M": 147,
+      "operating_cash_flow_M": 875,
+      "cash_M": 448,
+      "total_debt_M": 7905,
+      "total_assets_M": 22241
     },
     {
       "period_end": "2024-09-30",
@@ -94,7 +157,14 @@
       "revenue_M": 3987,
       "rnd_M": null,
       "cost_of_revenue_M": 2645,
-      "net_income_M": 201
+      "net_income_M": 201,
+      "operating_income_M": 346,
+      "sga_M": 814,
+      "capex_M": 214,
+      "operating_cash_flow_M": 232,
+      "cash_M": 354,
+      "total_debt_M": 8618,
+      "total_assets_M": 22812
     }
   ]
 }

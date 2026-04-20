@@ -1,7 +1,7 @@
 {
   "cik": "0000093751",
   "name": "State Street Corp.",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,15 +15,18 @@
       "net_income_M": 2945,
       "capex_M": 1055,
       "operating_cash_flow_M": 11898,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 4433,
+      "total_debt_M": 25143,
       "total_assets_M": 366047,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
         "total_assets": "us-gaap:Assets"
       }
     },
@@ -39,9 +42,10 @@
       "net_income_M": 2687,
       "capex_M": 926,
       "operating_cash_flow_M": -13210,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 3145,
+      "total_debt_M": 23272,
       "total_assets_M": 353240
     },
     {
@@ -56,9 +60,10 @@
       "net_income_M": 1944,
       "capex_M": 816,
       "operating_cash_flow_M": 690,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 4047,
+      "total_debt_M": 18839,
       "total_assets_M": 297258
     }
   ],
@@ -75,15 +80,18 @@
       "net_income_M": 861,
       "capex_M": 788,
       "operating_cash_flow_M": 1856,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 4756,
+      "total_debt_M": 24688,
       "total_assets_M": 371070,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
         "total_assets": "us-gaap:Assets"
       }
     },
@@ -99,9 +107,10 @@
       "net_income_M": 693,
       "capex_M": 545,
       "operating_cash_flow_M": -6045,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 4020,
+      "total_debt_M": 25911,
       "total_assets_M": 376717
     },
     {
@@ -116,9 +125,10 @@
       "net_income_M": 644,
       "capex_M": 226,
       "operating_cash_flow_M": 2396,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 4658,
+      "total_debt_M": 24846,
       "total_assets_M": 372693
     },
     {
@@ -133,9 +143,10 @@
       "net_income_M": 730,
       "capex_M": 677,
       "operating_cash_flow_M": -5780,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 4067,
+      "total_debt_M": 20902,
       "total_assets_M": 338481
     },
     {
@@ -150,9 +161,10 @@
       "net_income_M": 711,
       "capex_M": 443,
       "operating_cash_flow_M": -8488,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 2898,
+      "total_debt_M": 19737,
       "total_assets_M": 325603
     },
     {
@@ -167,9 +179,10 @@
       "net_income_M": 463,
       "capex_M": 230,
       "operating_cash_flow_M": -844,
+      "operating_income_M": null,
       "sga_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
+      "cash_M": 3413,
+      "total_debt_M": 19746,
       "total_assets_M": 338003
     }
   ]

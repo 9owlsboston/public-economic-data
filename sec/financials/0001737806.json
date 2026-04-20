@@ -15,7 +15,8 @@
       "net_income_M": 112435,
       "capex_M": null,
       "operating_cash_flow_M": 121929,
-      "sga_M": null,
+      "operating_income_M": 108423,
+      "sga_M": 7553,
       "cash_M": 57768,
       "total_debt_M": null,
       "total_assets_M": 505034,
@@ -25,6 +26,8 @@
         "cost_of_revenue": "us-gaap:CostOfRevenue",
         "net_income": "us-gaap:NetIncomeLoss",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_assets": "us-gaap:Assets"
       }
@@ -41,7 +44,8 @@
       "net_income_M": 60027,
       "capex_M": null,
       "operating_cash_flow_M": 94163,
-      "sga_M": null,
+      "operating_income_M": 58699,
+      "sga_M": 4076,
       "cash_M": 59794,
       "total_debt_M": null,
       "total_assets_M": 348078
@@ -58,7 +62,8 @@
       "net_income_M": 31538,
       "capex_M": null,
       "operating_cash_flow_M": 48508,
-      "sga_M": null,
+      "operating_income_M": 30402,
+      "sga_M": 3965,
       "cash_M": 34326,
       "total_debt_M": null,
       "total_assets_M": 237120
@@ -75,7 +80,8 @@
       "net_income_M": 7769,
       "capex_M": null,
       "operating_cash_flow_M": 28783,
-      "sga_M": null,
+      "operating_income_M": 6897,
+      "sga_M": 1541,
       "cash_M": 6427,
       "total_debt_M": null,
       "total_assets_M": 181210
@@ -92,7 +98,8 @@
       "net_income_M": -7180,
       "capex_M": 43,
       "operating_cash_flow_M": 28197,
-      "sga_M": null,
+      "operating_income_M": -9380,
+      "sga_M": 1507,
       "cash_M": 22421,
       "total_debt_M": null,
       "total_assets_M": 158909
@@ -109,7 +116,8 @@
       "net_income_M": -6968,
       "capex_M": 27,
       "operating_cash_flow_M": 14821,
-      "sga_M": null,
+      "operating_income_M": -8538,
+      "sga_M": 1297,
       "cash_M": 5768,
       "total_debt_M": null,
       "total_assets_M": 76057
@@ -126,7 +134,8 @@
       "net_income_M": -10217,
       "capex_M": 27,
       "operating_cash_flow_M": 7768,
-      "sga_M": null,
+      "operating_income_M": -10800,
+      "sga_M": 6457,
       "cash_M": 14160,
       "total_debt_M": null,
       "total_assets_M": 43182

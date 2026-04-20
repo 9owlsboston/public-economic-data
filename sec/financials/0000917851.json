@@ -1,7 +1,7 @@
 {
   "cik": "0000917851",
   "name": "Vale S.A.",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,17 +15,20 @@
       "net_income_M": 2352,
       "capex_M": null,
       "operating_cash_flow_M": null,
+      "operating_income_M": 5897,
       "sga_M": 641,
       "cash_M": 7372,
-      "total_debt_M": null,
+      "total_debt_M": 22995,
       "total_assets_M": 86525,
       "tags_used": {
         "revenue": "ifrs-full:Revenue",
         "rnd": "ifrs-full:ResearchAndDevelopmentExpense",
         "cost_of_revenue": "ifrs-full:CostOfSales",
         "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "operating_income": "ifrs-full:ProfitLossFromOperatingActivities",
         "sga": "ifrs-full:SellingGeneralAndAdministrativeExpense",
         "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_debt": "ifrs-full:NoncurrentFinancialLiabilities",
         "total_assets": "ifrs-full:Assets"
       }
     },
@@ -41,9 +44,10 @@
       "net_income_M": 6166,
       "capex_M": null,
       "operating_cash_flow_M": null,
+      "operating_income_M": 10788,
       "sga_M": 622,
       "cash_M": 4953,
-      "total_debt_M": null,
+      "total_debt_M": 18902,
       "total_assets_M": 80152
     },
     {
@@ -58,9 +62,10 @@
       "net_income_M": 7983,
       "capex_M": null,
       "operating_cash_flow_M": null,
+      "operating_income_M": 14205,
       "sga_M": 553,
       "cash_M": 3609,
-      "total_debt_M": null,
+      "total_debt_M": 19149,
       "total_assets_M": 94186
     },
     {
@@ -75,6 +80,7 @@
       "net_income_M": 18788,
       "capex_M": null,
       "operating_cash_flow_M": null,
+      "operating_income_M": 17208,
       "sga_M": 515,
       "cash_M": 4736,
       "total_debt_M": 12712,
@@ -90,8 +96,9 @@
       "rnd_M": 549,
       "cost_of_revenue_M": 21729,
       "net_income_M": 22445,
-      "capex_M": null,
+      "capex_M": 4034,
       "operating_cash_flow_M": 25679,
+      "operating_income_M": 27693,
       "sga_M": 481,
       "cash_M": 11721,
       "total_debt_M": 13782,

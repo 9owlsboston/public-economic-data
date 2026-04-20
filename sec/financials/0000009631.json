@@ -1,7 +1,33 @@
 {
   "cik": "0000009631",
   "name": "Bank of Nova Scotia",
-  "last_refreshed": "2026-04-17",
-  "annual": [],
+  "last_refreshed": "2026-04-20",
+  "annual": [
+    {
+      "period_end": "2025-10-31",
+      "filing_date": "2025-12-02",
+      "form": "40-F",
+      "namespace": "ifrs-full",
+      "currency": "CAD",
+      "revenue_M": 37741,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7789,
+      "capex_M": null,
+      "operating_cash_flow_M": 5407,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 10256,
+      "total_debt_M": null,
+      "total_assets_M": 1460042,
+      "tags_used": {
+        "revenue": "ifrs-full:Revenue",
+        "net_income": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+        "operating_cash_flow": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+        "cash": "ifrs-full:CashAndCashEquivalents",
+        "total_assets": "ifrs-full:Assets"
+      }
+    }
+  ],
   "quarterly": []
 }

@@ -1,7 +1,7 @@
 {
   "cik": "0002011641",
   "name": "Ferguson Enterprises Inc.",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2025-07-31",
@@ -13,8 +13,9 @@
       "rnd_M": null,
       "cost_of_revenue_M": 21327,
       "net_income_M": 1856,
-      "capex_M": null,
+      "capex_M": 305,
       "operating_cash_flow_M": 1908,
+      "operating_income_M": 2606,
       "sga_M": 6376,
       "cash_M": 674,
       "total_debt_M": 4175,
@@ -23,7 +24,9 @@
         "revenue": "us-gaap:Revenues",
         "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
         "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
         "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_debt": "us-gaap:LongTermDebt",
@@ -40,8 +43,9 @@
       "rnd_M": null,
       "cost_of_revenue_M": 20582,
       "net_income_M": 1735,
-      "capex_M": null,
+      "capex_M": 372,
       "operating_cash_flow_M": 1873,
+      "operating_income_M": 2652,
       "sga_M": 6038,
       "cash_M": 571,
       "total_debt_M": 3950,
@@ -59,19 +63,23 @@
       "rnd_M": null,
       "cost_of_revenue_M": 5663,
       "net_income_M": 570,
-      "capex_M": null,
+      "capex_M": 118,
       "operating_cash_flow_M": 430,
+      "operating_income_M": 771,
       "sga_M": 1641,
       "cash_M": 526,
-      "total_debt_M": null,
+      "total_debt_M": 4124,
       "total_assets_M": 17694,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
         "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
         "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
         "total_assets": "us-gaap:Assets"
       }
     },
@@ -87,9 +95,10 @@
       "net_income_M": 410,
       "capex_M": 235,
       "operating_cash_flow_M": 1367,
+      "operating_income_M": 606,
       "sga_M": 1589,
       "cash_M": 519,
-      "total_debt_M": null,
+      "total_debt_M": 3701,
       "total_assets_M": 17265
     },
     {
@@ -104,9 +113,10 @@
       "net_income_M": 276,
       "capex_M": 158,
       "operating_cash_flow_M": 685,
+      "operating_income_M": 410,
       "sga_M": 1540,
       "cash_M": 764,
-      "total_debt_M": null,
+      "total_debt_M": 3949,
       "total_assets_M": 16530
     },
     {
@@ -121,9 +131,10 @@
       "net_income_M": 470,
       "capex_M": 77,
       "operating_cash_flow_M": 345,
+      "operating_income_M": 665,
       "sga_M": 1585,
       "cash_M": 601,
-      "total_debt_M": null,
+      "total_debt_M": 3447,
       "total_assets_M": 16858
     }
   ]

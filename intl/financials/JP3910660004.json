@@ -13,9 +13,16 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 885433,
+      "operating_income_M": null,
+      "sga_M": 1840702,
+      "capex_M": 344945,
+      "operating_cash_flow_M": -3820800,
+      "cash_M": 72483086,
+      "total_debt_M": 22493724,
+      "total_assets_M": 283320404,
       "tags_used": {
         "source": "yahoo_finance",
-        "notes": "Values converted from full units to millions via yfinance"
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
       }
     },
     {
@@ -24,7 +31,14 @@
       "revenue_M": 2971068,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 678993
+      "net_income_M": 678993,
+      "operating_income_M": null,
+      "sga_M": 1663951,
+      "capex_M": 257011,
+      "operating_cash_flow_M": 1884978,
+      "cash_M": 72968900,
+      "total_debt_M": 20841970,
+      "total_assets_M": 278672151
     },
     {
       "period_end": "2023-03-31",
@@ -32,7 +46,14 @@
       "revenue_M": 2670039,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 555527
+      "net_income_M": 555527,
+      "operating_income_M": null,
+      "sga_M": 1445283,
+      "capex_M": 183176,
+      "operating_cash_flow_M": 8867246,
+      "cash_M": 67152100,
+      "total_debt_M": 19600794,
+      "total_assets_M": 254258203
     },
     {
       "period_end": "2022-03-31",
@@ -40,7 +61,14 @@
       "revenue_M": 2519461,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 530479
+      "net_income_M": 530479,
+      "operating_income_M": null,
+      "sga_M": 1392896,
+      "capex_M": 139261,
+      "operating_cash_flow_M": 4917186,
+      "cash_M": 51359301,
+      "total_debt_M": 20895607,
+      "total_assets_M": 237066142
     }
   ],
   "quarterly": [
@@ -51,9 +79,16 @@
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 329943,
+      "operating_income_M": null,
+      "sga_M": 543020,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 61088086,
+      "total_debt_M": 26675818,
+      "total_assets_M": 297570168,
       "tags_used": {
         "source": "yahoo_finance",
-        "notes": "Values converted from full units to millions via yfinance"
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
       }
     },
     {
@@ -62,7 +97,14 @@
       "revenue_M": 1030811,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 399426
+      "net_income_M": 399426,
+      "operating_income_M": null,
+      "sga_M": 505442,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 67287879,
+      "total_debt_M": 24865575,
+      "total_assets_M": 288757081
     },
     {
       "period_end": "2025-06-30",
@@ -70,7 +112,14 @@
       "revenue_M": 890231,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 290521
+      "net_income_M": 290521,
+      "operating_income_M": null,
+      "sga_M": 460705,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 64770799,
+      "total_debt_M": 22187940,
+      "total_assets_M": 278650460
     },
     {
       "period_end": "2025-03-31",
@@ -78,7 +127,14 @@
       "revenue_M": 810685,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 30059
+      "net_income_M": 30059,
+      "operating_income_M": null,
+      "sga_M": 482880,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 72483086,
+      "total_debt_M": 22493724,
+      "total_assets_M": 283320404
     },
     {
       "period_end": "2024-12-31",
@@ -86,7 +142,14 @@
       "revenue_M": 964935,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 289233
+      "net_income_M": 289233,
+      "operating_income_M": null,
+      "sga_M": 480654,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 64766427,
+      "total_debt_M": 23373434,
+      "total_assets_M": 285391446
     }
   ]
 }

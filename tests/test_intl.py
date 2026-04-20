@@ -29,7 +29,7 @@ def test_all_json_valid():
             json.loads(f.read_text())
         except json.JSONDecodeError as e:
             errors.append(f"{f.name}: {e}")
-    assert not errors, errors
+    return errors
 
 
 def test_required_fields():
@@ -40,7 +40,7 @@ def test_required_fields():
         for field in REQUIRED_FIELDS:
             if field not in data:
                 errors.append(f"{f.name}: missing '{field}'")
-    assert not errors, errors
+    return errors
 
 
 def test_annual_sorted_descending():
@@ -51,20 +51,18 @@ def test_annual_sorted_descending():
         periods = [e["period_end"] for e in data.get("annual", []) if "period_end" in e]
         if periods != sorted(periods, reverse=True):
             errors.append(f"{f.name}: annual not sorted descending")
-    assert not errors, errors
+    return errors
 
 
 def test_no_null_revenue_in_annual():
     """At least the most recent annual entry should have non-null revenue."""
-    import warnings
     errors = []
     for f in _all_files():
         data = json.loads(f.read_text())
         annual = data.get("annual", [])
         if annual and annual[0].get("revenue_M") is None:
             errors.append(f"{f.name}: latest annual has null revenue")
-    for e in errors:
-        warnings.warn(e)
+    return errors
 
 
 def test_isin_matches_filename():
@@ -76,7 +74,7 @@ def test_isin_matches_filename():
         actual_isin = data.get("isin", "")
         if actual_isin != expected_isin:
             errors.append(f"{f.name}: ISIN '{actual_isin}' != filename '{expected_isin}'")
-    assert not errors, errors
+    return errors
 
 
 def test_source_field():
@@ -86,19 +84,20 @@ def test_source_field():
         data = json.loads(f.read_text())
         if not data.get("source"):
             errors.append(f"{f.name}: missing 'source' field")
-    assert not errors, errors
+    return errors
 
 
 def test_freshness():
     """Warn if last_refreshed is more than 120 days old."""
-    import warnings
     from datetime import date, timedelta
+    errors = []
     threshold = date.today() - timedelta(days=120)
     for f in _all_files():
         data = json.loads(f.read_text())
         refreshed = data.get("last_refreshed", "")
         if refreshed and refreshed < threshold.isoformat():
-            warnings.warn(f"{f.name}: last_refreshed={refreshed} (>120 days)")
+            errors.append(f"{f.name}: last_refreshed={refreshed} (>120 days)")
+    return errors
 
 
 def main():

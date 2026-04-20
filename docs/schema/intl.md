@@ -3,7 +3,7 @@
 ## Source
 
 [Yahoo Finance](https://finance.yahoo.com/) via `yfinance` Python library.
-No API key required. Data covers annual income statement items.
+No API key required. Data covers annual income statements, balance sheets, and cash flow statements.
 
 ## File Layout
 
@@ -37,12 +37,21 @@ No API key required. Data covers annual income statement items.
 | `rnd_M` | `int \| null` | Millions | Research & development expense (Yahoo Finance: `Research And Development`). Often `null` for non-tech companies — many European companies do not report R&D as a separate line item via Yahoo Finance. |
 | `cost_of_revenue_M` | `int \| null` | Millions | Cost of revenue (Yahoo Finance: `Cost Of Revenue`). |
 | `net_income_M` | `int \| null` | Millions | Net income (Yahoo Finance: `Net Income`). Negative values = net loss. |
+| `operating_income_M` | `int \| null` | Millions | Operating income (Yahoo Finance: `Operating Income`). May be `null` for financial companies. |
+| `sga_M` | `int \| null` | Millions | Selling, general & administrative expense (Yahoo Finance: `Selling General And Administration`). |
+| `capex_M` | `int \| null` | Millions | Capital expenditures (Yahoo Finance: `Capital Expenditure` from cash flow statement). Stored as **positive** value (yfinance reports as negative cash outflow). |
+| `operating_cash_flow_M` | `int \| null` | Millions | Operating cash flow (Yahoo Finance: `Operating Cash Flow` from cash flow statement). |
+| `cash_M` | `int \| null` | Millions | Cash and cash equivalents (Yahoo Finance: `Cash And Cash Equivalents` from balance sheet). |
+| `total_debt_M` | `int \| null` | Millions | Total debt (Yahoo Finance: `Total Debt` from balance sheet). |
+| `total_assets_M` | `int \| null` | Millions | Total assets (Yahoo Finance: `Total Assets` from balance sheet). |
 | `tags_used` | `object \| absent` | — | Source metadata. **Included on the first entry only.** Contains `source: "yahoo_finance"` and a `notes` field. |
 
 ### Null semantics
 
 A value of `null` means Yahoo Finance did not return the line item for that period. Common cases:
 - `rnd_M` is `null` for most non-technology companies (banks, industrials, utilities)
+- `operating_income_M` is `null` for some financial companies (banks, insurance)
+- `cost_of_revenue_M` is `null` for financial companies
 - Some companies have incomplete historical data
 
 `null` ≠ zero. Display as "Not disclosed" in reports.
@@ -67,14 +76,13 @@ Unlike SEC data (nearly always USD), international financials use **local curren
 
 **Do not mix currencies** when comparing companies. Use FRED FX rates from the macro module for normalization when needed. Suppress Azure % ratios when currency ≠ USD.
 
-### Fields not collected
+### Yahoo Finance data sources
 
-The following income statement items are **not** extracted from Yahoo Finance:
-- Capital expenditures (`capex_M`)
-- Operating cash flow (`operating_cash_flow_M`)
-- SG&A expense (`sga_M`)
-- Balance sheet items (`cash_M`, `total_debt_M`, `total_assets_M`)
-- Operating income (`operating_income_M`)
+| Statement | yfinance property | Metrics extracted |
+|---|---|---|
+| Income Statement | `ticker.financials` | `revenue_M`, `rnd_M`, `cost_of_revenue_M`, `net_income_M`, `operating_income_M`, `sga_M` |
+| Balance Sheet | `ticker.balance_sheet` | `cash_M`, `total_debt_M`, `total_assets_M` |
+| Cash Flow | `ticker.cashflow` | `capex_M`, `operating_cash_flow_M` |
 
 ## Registry Schema (`intl/registry.yaml`)
 
@@ -88,7 +96,7 @@ The following income statement items are **not** extracted from Yahoo Finance:
 
 ## Coverage
 
-39 companies across 15 countries. Geographic breakdown:
+39 companies across 15 countries. See `intl/registry.yaml` for the full list (190 companies).
 
 | Country | Count | Key companies |
 |---|---|---|

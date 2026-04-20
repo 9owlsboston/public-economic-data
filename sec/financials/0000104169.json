@@ -1,7 +1,7 @@
 {
   "cik": "0000104169",
   "name": "Walmart Inc.",
-  "last_refreshed": "2026-04-17",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -15,6 +15,7 @@
       "net_income_M": 21893,
       "capex_M": 26642,
       "operating_cash_flow_M": 41565,
+      "operating_income_M": 29825,
       "sga_M": 147943,
       "cash_M": 10727,
       "total_debt_M": 38166,
@@ -25,6 +26,7 @@
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
         "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_debt": "us-gaap:LongTermDebt",
@@ -43,6 +45,7 @@
       "net_income_M": 19436,
       "capex_M": 23783,
       "operating_cash_flow_M": 36443,
+      "operating_income_M": 29348,
       "sga_M": 139884,
       "cash_M": 9037,
       "total_debt_M": 35999,
@@ -60,6 +63,7 @@
       "net_income_M": 15511,
       "capex_M": 20606,
       "operating_cash_flow_M": 35726,
+      "operating_income_M": 27012,
       "sga_M": 130971,
       "cash_M": 9867,
       "total_debt_M": 39579,
@@ -77,6 +81,7 @@
       "net_income_M": 11680,
       "capex_M": 16857,
       "operating_cash_flow_M": 28841,
+      "operating_income_M": 20428,
       "sga_M": 127140,
       "cash_M": 8625,
       "total_debt_M": 38840,
@@ -96,9 +101,10 @@
       "net_income_M": 6143,
       "capex_M": 18627,
       "operating_cash_flow_M": 27452,
+      "operating_income_M": 6696,
       "sga_M": 38094,
       "cash_M": 10582,
-      "total_debt_M": null,
+      "total_debt_M": 34445,
       "total_assets_M": 288655,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
@@ -106,8 +112,10 @@
         "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
         "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
         "total_assets": "us-gaap:Assets"
       }
     },
@@ -123,9 +131,10 @@
       "net_income_M": 7026,
       "capex_M": 11409,
       "operating_cash_flow_M": 18352,
+      "operating_income_M": 7286,
       "sga_M": 37345,
       "cash_M": 9431,
-      "total_debt_M": null,
+      "total_debt_M": 35640,
       "total_assets_M": 270837
     },
     {
@@ -140,9 +149,10 @@
       "net_income_M": 4487,
       "capex_M": 4986,
       "operating_cash_flow_M": 5411,
+      "operating_income_M": 7135,
       "sga_M": 34171,
       "cash_M": 9311,
-      "total_debt_M": null,
+      "total_debt_M": 36520,
       "total_assets_M": 262372
     },
     {
@@ -157,9 +167,10 @@
       "net_income_M": 4577,
       "capex_M": 16696,
       "operating_cash_flow_M": 22918,
+      "operating_income_M": 6708,
       "sga_M": 35540,
       "cash_M": 10049,
-      "total_debt_M": null,
+      "total_debt_M": 33645,
       "total_assets_M": 263399
     },
     {
@@ -174,9 +185,10 @@
       "net_income_M": 4501,
       "capex_M": 10507,
       "operating_cash_flow_M": 16357,
+      "operating_income_M": 7940,
       "sga_M": 34585,
       "cash_M": 8811,
-      "total_debt_M": null,
+      "total_debt_M": 35364,
       "total_assets_M": 254440
     },
     {
@@ -191,9 +203,10 @@
       "net_income_M": 5104,
       "capex_M": 4676,
       "operating_cash_flow_M": 4249,
+      "operating_income_M": 6841,
       "sga_M": 33236,
       "cash_M": 9405,
-      "total_debt_M": null,
+      "total_debt_M": 35928,
       "total_assets_M": 254054
     },
     {
@@ -208,9 +221,10 @@
       "net_income_M": 453,
       "capex_M": 14674,
       "operating_cash_flow_M": 19014,
+      "operating_income_M": 6202,
       "sga_M": 33419,
       "cash_M": 12154,
-      "total_debt_M": null,
+      "total_debt_M": 36342,
       "total_assets_M": 259174
     },
     {
@@ -225,9 +239,10 @@
       "net_income_M": 7891,
       "capex_M": 9216,
       "operating_cash_flow_M": 18201,
+      "operating_income_M": 7316,
       "sga_M": 32466,
       "cash_M": 13888,
-      "total_debt_M": null,
+      "total_debt_M": 36806,
       "total_assets_M": 255121
     },
     {
@@ -242,9 +257,10 @@
       "net_income_M": 1673,
       "capex_M": 4429,
       "operating_cash_flow_M": 4633,
+      "operating_income_M": 6240,
       "sga_M": 30777,
       "cash_M": 10575,
-      "total_debt_M": null,
+      "total_debt_M": 38120,
       "total_assets_M": 245053
     }
   ]
