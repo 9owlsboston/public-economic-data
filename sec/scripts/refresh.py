@@ -78,10 +78,13 @@ METRIC_TAGS = {
             "PaymentsToAcquirePropertyPlantAndEquipment",
             "PaymentsToAcquireProductiveAssets",
             "PaymentsForCapitalImprovements",
+            "PaymentsToAcquireOtherProductiveAssets",
+            "PaymentsToAcquireOtherPropertyPlantAndEquipment",
         ],
         "ifrs-full": [
             "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
             "PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
+            "PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities",
         ],
     },
     "operating_cash_flow": {
@@ -133,7 +136,7 @@ METRIC_TAGS = {
 INSTANT_METRICS = {"cash", "total_debt", "total_assets"}
 
 NAMESPACES = ["us-gaap", "ifrs-full"]
-ANNUAL_FORMS = ("10-K", "20-F", "10-K/A", "20-F/A")
+ANNUAL_FORMS = ("10-K", "20-F", "40-F", "10-K/A", "20-F/A", "40-F/A")
 QUARTERLY_FORMS = ("10-Q", "10-Q/A")
 
 
