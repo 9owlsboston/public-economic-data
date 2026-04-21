@@ -83,6 +83,11 @@ METRIC_TAGS = {
         (None, "CostOfSalesIFRS"),
         ("jppfs_cor", "CostOfSales"),
     ],
+    "sga_M": [
+        ("jpigp_cor", "SellingGeneralAndAdministrativeExpensesIFRS"),
+        (None, "SellingGeneralAndAdministrativeExpensesIFRS"),
+        ("jppfs_cor", "SellingGeneralAndAdministrativeExpenses"),
+    ],
     "rnd_M": [
         ("jpigp_cor", "ResearchAndDevelopmentExpenseIFRS"),
         (None, "ResearchAndDevelopmentExpenseIFRS"),
@@ -103,6 +108,12 @@ METRIC_TAGS = {
         (None, "TotalAssetsIFRS"),
         ("jppfs_cor", "TotalAssets"),
     ],
+    "total_debt_M": [
+        ("jpigp_cor", "BondsAndBorrowingsNonCurrentIFRS"),
+        (None, "BondsAndBorrowingsNonCurrentIFRS"),
+        ("jppfs_cor", "LongTermLoansPayable"),
+        ("jppfs_cor", "BondsPayable"),
+    ],
     # --- Cash flow metrics (duration context) ---
     "capex_M": [
         ("jpigp_cor", "CapitalExpendituresIFRS"),
@@ -121,7 +132,7 @@ METRIC_TAGS = {
 }
 
 # Metrics that use instant context (balance sheet) rather than duration
-INSTANT_METRICS = {"cash_M", "total_assets_M"}
+INSTANT_METRICS = {"cash_M", "total_assets_M", "total_debt_M"}
 
 
 def _edinet_get(endpoint: str, params: dict, api_key: str) -> dict | None:

@@ -1,12 +1,12 @@
 # Financial Data Layer — Null Metric Audit
 
-**Date:** 2026-04-20 (initial), 2026-07-13 (cross-source expansion)
-**Scope:** All data sources — SEC (330 companies), INTL (190 companies), EDINET (14 companies), FRED (22 series)
-**Context:** Following CapEx XBRL tag gap fix, SEC Phase 1-3 tag expansion, INTL metric expansion (4→11), EDINET metric expansion (5→9)
+**Date:** 2026-04-20 (initial), 2026-07-13 (cross-source expansion), 2026-04-20 (re-audit)
+**Scope:** All data sources — SEC (365 companies), INTL (190 companies), EDINET (14 companies), FRED (22 series)
+**Context:** Following CapEx XBRL tag gap fix, SEC Phase 1-3 tag expansion, INTL metric expansion (4→11), EDINET metric expansion (5→9→11)
 
 ---
 
-## Status: ✅ All Phases Complete
+## Status: 🟡 Phase 8–9 Added
 
 ### Phase 1-3: SEC XBRL Tag Expansion (original audit)
 All recommended tag additions applied to `sec/scripts/refresh.py`.
@@ -57,24 +57,81 @@ Fixes to `intl/scripts/refresh_intl.py` for Yahoo Finance data extraction.
 | `capex_M` | `PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities` | 93% |
 | `cash_M` | `CashAndCashEquivalents` | 86% |
 
+### Phase 8: EDINET Metric Expansion (9→11 metrics) — code added, pending refresh
+| Metric Added | XBRL Tags | Expected Coverage |
+|-------------|-----------|-------------------|
+| `sga_M` | `SellingGeneralAndAdministrativeExpensesIFRS` (IFRS), `SellingGeneralAndAdministrativeExpenses` (J-GAAP) | TBD after refresh |
+| `total_debt_M` | `BondsAndBorrowingsNonCurrentIFRS` (IFRS), `LongTermLoansPayable` / `BondsPayable` (J-GAAP) | TBD after refresh |
+
+### Phase 9: SEC Legacy Schema Migration — pending refresh
+32 companies have pre-pipeline JSON files using old schema (`year` key instead of `period_end`, no `_M` suffixed metrics). These need `refresh.py --cik <CIK>` to migrate.
+
+<details><summary>Legacy-schema CIKs (32 companies)</summary>
+
+| CIK | Company |
+|-----|---------|
+| 0000004962 | American Express |
+| 0000008670 | ADP |
+| 0000014272 | Bristol-Myers Squibb |
+| 0000039899 | Tegna |
+| 0000078003 | Pfizer |
+| 0000082473 | RELX PLC |
+| 0000749251 | Gartner |
+| 0000804328 | Qualcomm |
+| 0000875320 | Vertex Pharmaceuticals |
+| 0001009829 | LivePerson |
+| 0001091667 | Charter Communications |
+| 0001137774 | Prudential Financial |
+| 0001289419 | Morningstar |
+| 0001315098 | Roblox |
+| 0001324424 | Expedia Group |
+| 0001372612 | Box Inc. |
+| 0001428439 | Roku |
+| 0001467623 | Dropbox |
+| 0001495153 | MakeMyTrip |
+| 0001544522 | Freshworks |
+| 0001551152 | AbbVie |
+| 0001562088 | Duolingo |
+| 0001576789 | Wix Ltd |
+| 0001594805 | Shopify Inc. |
+| 0001639920 | Spotify |
+| 0001643269 | Sprinklr |
+| 0001650372 | Atlassian |
+| 0001679788 | Coinbase |
+| 0001764046 | Clarivate Analytics |
+| 0001786842 | Tempus AI |
+| 0001818502 | Trip.com Group |
+| 0001845338 | monday.com |
+
+</details>
+
 ---
 
 ## Current Coverage Summary (post all phases)
 
-### SEC (330 companies, latest annual entry)
+### SEC (365 companies, latest annual entry)
+**Note:** 32 companies are on legacy schema (pre-pipeline). Numbers below reflect all 365 files.
 
 | Metric | Null | Coverage | Residual Category |
 |--------|------|----------|-------------------|
-| `revenue_M` | 16 (4.8%) | 95.2% | Banks (interest income) + IFRS filers |
-| `net_income_M` | 1 (0.3%) | 99.7% | DB (Deutsche Bank, IFRS) |
-| `rnd_M` | 170 (51.5%) | 48.5% | Structural — many sectors don't report R&D |
-| `cost_of_revenue_M` | 142 (43.0%) | 57.0% | Structural — financials, energy |
-| `sga_M` | 93 (28.2%) | 71.8% | Financials, non-standard structures |
-| `operating_income_M` | 86 (26.1%) | 73.9% | Financials, energy majors |
-| `capex_M` | 39 (11.8%) | 88.2% | Financials, some IFRS filers |
-| `operating_cash_flow_M` | 3 (0.9%) | 99.1% | 3 IFRS 20-F filers (NGG, DB, VALE) |
-| `cash_M` | 2 (0.6%) | 99.4% | SLB, DB |
-| `total_debt_M` | 75 (22.7%) | 77.3% | Financials, tech with no debt |
+| `revenue_M` | 48 (13.2%) | 86.8% | 32 legacy + banks (interest income) + IFRS filers |
+| `net_income_M` | 33 (9.0%) | 91.0% | 32 legacy + DB (IFRS) |
+| `rnd_M` | 203 (55.6%) | 44.4% | Structural — many sectors don't report R&D |
+| `cost_of_revenue_M` | 174 (47.7%) | 52.3% | Structural — financials, energy + 32 legacy |
+| `sga_M` | 128 (35.1%) | 64.9% | Financials, non-standard structures + 32 legacy |
+| `operating_income_M` | 121 (33.2%) | 66.8% | Financials, energy majors + 32 legacy |
+| `capex_M` | 74 (20.3%) | 79.7% | Financials, some IFRS filers + 32 legacy |
+| `operating_cash_flow_M` | 35 (9.6%) | 90.4% | 32 legacy + 3 IFRS 20-F filers |
+| `cash_M` | 35 (9.6%) | 90.4% | 32 legacy + SLB, DB |
+| `total_debt_M` | 110 (30.1%) | 69.9% | Financials, tech with no debt + 32 legacy |
+| `total_assets_M` | 33 (9.0%) | 91.0% | 32 legacy + WPP (IFRS) |
+
+**After legacy refresh (projected, 333 new-schema only):**
+
+| Metric | Null | Coverage | Notes |
+|--------|------|----------|-------|
+| `revenue_M` | 16 (4.8%) | 95.2% | Banks + IFRS filers |
+| `net_income_M` | 1 (0.3%) | 99.7% | DB (IFRS) |
 | `total_assets_M` | 1 (0.3%) | 99.7% | WPP (IFRS) |
 
 ### INTL (190 companies, latest annual entry)
@@ -105,6 +162,9 @@ Fixes to `intl/scripts/refresh_intl.py` for Yahoo Finance data extraction.
 | `total_assets_M` | 0 | 100% | ✅ |
 | `cash_M` | 2 (14%) | 86% | Banks (SMFG, MUFG) |
 | `rnd_M` | 14 (100%) | 0% | Structural — Japanese companies don't tag R&D in XBRL |
+| `cost_of_revenue_M` | 4 (29%) | 71% | Banks + some industrials |
+| `sga_M` | 14 (100%) | 0% | **NEW — tags added Phase 8, pending refresh** |
+| `total_debt_M` | 14 (100%) | 0% | **NEW — tags added Phase 8, pending refresh** |
 
 ### FRED (22 macro series)
 
@@ -360,7 +420,7 @@ Thomson Reuters — Canadian filer, uses `40-F` form. ✅ Now supported (added i
 
 ---
 
-## Fix Plan — ✅ All Phases Complete
+## Fix Plan — Phases 1–7 Complete, 8–9 Added
 
 ### Phase 1 — High Impact (total_debt, cost_of_revenue) ✅
 1. ✅ Added `LongTermDebtNoncurrent` + `LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities` to `total_debt` → **55 companies** resolved
@@ -379,6 +439,15 @@ Thomson Reuters — Canadian filer, uses `40-F` form. ✅ Now supported (added i
 - Financial sector companies — structural nulls, different income statement format
 - International IFRS filers with non-standard tags — requires per-company tag mapping
 - Thomson Reuters — no SEC filing
+
+### Phase 8 — EDINET Metric Expansion (9→11) 🟡 Pending Refresh
+8. ✅ Added `sga_M` with `SellingGeneralAndAdministrativeExpensesIFRS` (IFRS) + `SellingGeneralAndAdministrativeExpenses` (J-GAAP)
+9. ✅ Added `total_debt_M` with `BondsAndBorrowingsNonCurrentIFRS` (IFRS) + `LongTermLoansPayable` / `BondsPayable` (J-GAAP)
+10. Added `total_debt_M` to `INSTANT_METRICS`
+
+### Phase 9 — SEC Legacy Schema Migration 🟡 Pending Refresh
+32 companies have pre-pipeline JSON files (old `year` key, no `_M` suffix, no `period_end`).
+Run `python sec/scripts/refresh.py --cik <CIK>` for each to migrate.
 
 ---
 
