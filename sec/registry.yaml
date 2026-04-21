@@ -6,18 +6,51 @@ companies:
   0000002488:
     name: ADVANCED MICRO DEVICES INC
     ticker: AMD
+  0000004962:
+    name: American Express
+    ticker: AXP
+  '0000005272':
+    name: American International Group, Inc.
+    ticker: AIG
   '0000006201':
     name: American Airlines Group Inc.
     ticker: AAL
   0000006951:
     name: APPLIED MATERIALS INC /DE
     ticker: AMAT
+  0000007084:
+    name: Archer-Daniels-Midland Co.
+    ticker: ADM
+  '0000007536':
+    name: Arrow Electronics, Inc.
+    ticker: ARW
+  0000008670:
+    name: ADP
+    ticker: ADP
+  0000008858:
+    name: Avnet, Inc.
+    ticker: AVT
+  0000009631:
+    name: Bank of Nova Scotia
+    ticker: BNS
+  '0000010456':
+    name: Baxter International Inc.
+    ticker: BAX
   0000010795:
     name: BECTON DICKINSON & CO
     ticker: BDX
+  0000012659:
+    name: H&R Block, Inc.
+    ticker: HRB
   0000012927:
     name: BOEING CO
     ticker: BA
+  '0000014272':
+    name: Bristol-Myers Squibb
+    ticker: BMY
+  '0000016732':
+    name: Campbell's Co.
+    ticker: CPB
   0000018230:
     name: CATERPILLAR INC
     ticker: CAT
@@ -34,6 +67,9 @@ companies:
   '0000026172':
     name: CUMMINS INC
     ticker: CMI
+  0000029905:
+    name: Dover Corp.
+    ticker: DOV
   0000029989:
     name: OMNICOM GROUP INC.
     ticker: OMC
@@ -46,24 +82,48 @@ companies:
   0000034088:
     name: EXXON MOBIL CORP
     ticker: XOM
+  0000037996:
+    name: Ford Motor Co.
+    ticker: F
+  0000039899:
+    name: Tegna
+    ticker: TGNA
   0000039911:
     name: GAP INC
     ticker: GAP
+  '0000040533':
+    name: General Dynamics Corp.
+    ticker: GD
   '0000040545':
     name: GENERAL ELECTRIC CO
     ticker: GE
   '0000045012':
     name: HALLIBURTON CO
     ticker: HAL
+  '0000047111':
+    name: Hershey Co.
+    ticker: HSY
   '0000047217':
     name: HP INC
     ticker: HPQ
+  0000048898:
+    name: Hubbell Inc.
+    ticker: HUBB
   0000049071:
     name: HUMANA INC
     ticker: HUM
   0000050863:
     name: INTEL CORP
     ticker: INTC
+  '0000051143':
+    name: International Business Machines Corp.
+    ticker: IBM
+  '0000051434':
+    name: International Paper Co.
+    ticker: IP
+  0000055785:
+    name: Kimberly-Clark Corp.
+    ticker: KMB
   0000056873:
     name: KROGER CO
     ticker: KR
@@ -73,6 +133,9 @@ companies:
   0000062709:
     name: MARSH & MCLENNAN COMPANIES, INC.
     ticker: MRSH
+  0000063908:
+    name: McDonald's Corp.
+    ticker: MCD
   '0000064040':
     name: S&P Global Inc.
     ticker: SPGI
@@ -80,28 +143,61 @@ companies:
     name: CVS Health Corp.
     ticker: CVS
     exchange: NYSE
+  '0000066740':
+    name: 3M Co.
+    ticker: MMM
   0000067088:
     name: MITSUBISHI UFJ FINANCIAL GROUP INC
     ticker: MUFG
+  0000068505:
+    name: Motorola Solutions, Inc.
+    ticker: MSI
+  0000070858:
+    name: Bank of America Corp.
+    ticker: BAC
   0000070866:
     name: NCR Voyix Corp
     ticker: VYX
+  '0000072741':
+    name: Eversource Energy
+    ticker: ES
   0000072971:
     name: WELLS FARGO & COMPANY/MN
     ticker: WFC
   '0000073124':
     name: NORTHERN TRUST CORP
     ticker: NTRS
+  0000073309:
+    name: Nucor Corp.
+    ticker: NUE
+  '0000076334':
+    name: Parker-Hannifin Corp.
+    ticker: PH
   '0000077476':
     name: PepsiCo Inc.
     ticker: PEP
     exchange: Nasdaq
+  0000078003:
+    name: Pfizer
+    ticker: PFE
+  0000079282:
+    name: Brown & Brown, Inc.
+    ticker: BRO
   0000079879:
     name: PPG INDUSTRIES INC
     ticker: PPG
   0000080424:
     name: PROCTER & GAMBLE COMPANY
     ticker: PG
+  0000080661:
+    name: Progressive Corp.
+    ticker: PGR
+  0000082473:
+    name: RELX PLC
+    ticker: RELX
+  0000085961:
+    name: Ryder System, Inc.
+    ticker: R
   0000087347:
     name: SLB (Schlumberger)
     ticker: SLB
@@ -114,19 +210,51 @@ companies:
     name: State Street Corp.
     ticker: STT
     exchange: NYSE
+  0000101829:
+    name: RTX Corp
+    ticker: RTX
   0000104169:
     name: Walmart Inc.
     ticker: WMT
     exchange: NYSE
+  0000109198:
+    name: TJX Companies, Inc.
+    ticker: TJX
+  '0000200406':
+    name: Johnson & Johnson
+    ticker: JNJ
+  0000202058:
+    name: L3Harris Technologies, Inc.
+    ticker: LHX
+  '0000217346':
+    name: Textron Inc.
+    ticker: TXT
   '0000217410':
     name: Unilever
     ticker: UL
+  0000277948:
+    name: CSX Corp.
+    ticker: CSX
+  0000310158:
+    name: Merck & Co., Inc.
+    ticker: MRK
   '0000310764':
     name: STRYKER CORP
     ticker: SYK
+  '0000312070':
+    name: BARCLAYS BANK PLC
+  '0000313616':
+    name: Danaher Corp.
+    ticker: DHR
   0000313807:
     name: bp
     ticker: BP
+  0000315189:
+    name: Deere & Co.
+    ticker: DE
+  0000315293:
+    name: Aon plc
+    ticker: AON
   0000320187:
     name: NIKE, Inc.
     ticker: NKE
@@ -139,12 +267,24 @@ companies:
   0000354190:
     name: Arthur J. Gallagher & Co.
     ticker: AJG
+  0000354950:
+    name: Home Depot, Inc.
+    ticker: HD
+  0000701985:
+    name: Bath & Body Works, Inc.
+    ticker: BBWI
   0000707549:
     name: LAM RESEARCH CORP
     ticker: LRCX
   0000708781:
     name: CASS INFORMATION SYSTEMS INC
     ticker: CASS
+  '0000712515':
+    name: Electronic Arts Inc.
+    ticker: EA
+  0000715957:
+    name: Dominion Energy, Inc.
+    ticker: D
   0000719245:
     name: WESTPAC BANKING CORPORATION
     ticker: WBK
@@ -158,6 +298,9 @@ companies:
     name: UnitedHealth Group Inc.
     ticker: UNH
     exchange: NYSE
+  '0000732712':
+    name: Verizon Communications Inc.
+    ticker: VZ
   '0000732717':
     name: AT&T Inc.
     ticker: T
@@ -165,15 +308,33 @@ companies:
   0000733099:
     name: ROGERS COMMUNICATIONS INC
     ticker: RCI
+  0000749251:
+    name: Gartner
+    ticker: IT
+  0000764180:
+    name: Altria Group, Inc.
+    ticker: MO
+  0000764478:
+    name: Best Buy Co., Inc.
+    ticker: BBY
   '0000766421':
     name: ALASKA AIR GROUP, INC.
     ticker: ALK
+  0000769218:
+    name: Aegon Ltd.
+    ticker: AEG
+  0000769397:
+    name: Autodesk, Inc.
+    ticker: ADSK
   0000773840:
     name: HONEYWELL INTERNATIONAL INC
     ticker: HON
   0000776867:
     name: WHITE MOUNTAINS INSURANCE GROUP LTD
     ticker: WTM
+  0000780571:
+    name: Itron, Inc.
+    ticker: ITRI
   0000789019:
     name: Microsoft Corporation
     ticker: MSFT
@@ -200,27 +361,56 @@ companies:
   0000802257:
     name: Mitesco, Inc.
     ticker: MITI
+  0000804328:
+    name: Qualcomm
+    ticker: QCOM
   0000806968:
     name: WPP plc
     ticker: WPP
+  0000811156:
+    name: CMS Energy Corp.
+    ticker: CMS
   0000811809:
     name: BHP Group Ltd
     ticker: BHP
   0000813672:
     name: CADENCE DESIGN SYSTEMS INC
     ticker: CDNS
+  0000815097:
+    name: Carnival Corp.
+    ticker: CCL
+  0000816761:
+    name: Teradata Corp.
+    ticker: TDC
+  0000827052:
+    name: Edison International
+    ticker: EIX
   0000829224:
     name: STARBUCKS CORP
     ticker: SBUX
+  0000831001:
+    name: Citigroup Inc.
+    ticker: C
   0000833444:
     name: Johnson Controls International plc
     ticker: JCI
   0000835403:
     name: DIAGEO PLC
     ticker: DEO
+  0000839923:
+    name: Vodafone Group plc
+    ticker: VOD
   0000844150:
     name: NatWest Group plc
     ticker: NWG
+  0000849395:
+    name: CRH PUBLIC LTD CO
+  0000849399:
+    name: Gen Digital Inc.
+    ticker: GEN
+  0000851310:
+    name: Harmonic Inc.
+    ticker: HLIT
   0000857005:
     name: PTC INC.
     ticker: PTC
@@ -233,6 +423,9 @@ companies:
   0000864749:
     name: TRIMBLE INC
     ticker: TRMB
+  0000875320:
+    name: Vertex Pharmaceuticals
+    ticker: VRTX
   0000876167:
     name: PROGRESS SOFTWARE CORP /MA
     ticker: PRGS
@@ -242,9 +435,21 @@ companies:
   0000882835:
     name: ROPER TECHNOLOGIES INC
     ticker: ROP
+  0000883241:
+    name: Synopsys, Inc.
+    ticker: SNPS
+  0000885590:
+    name: Bausch Health Companies Inc.
+    ticker: BHC
+  0000885725:
+    name: Boston Scientific Corp.
+    ticker: BSX
   0000886982:
     name: GOLDMAN SACHS GROUP INC
     ticker: GS
+  0000891478:
+    name: Banco Santander, S.A.
+    ticker: SAN
   0000892450:
     name: KT Corp
     ticker: KT
@@ -257,24 +462,48 @@ companies:
   0000896159:
     name: Chubb Ltd
     ticker: CB
+  0000896878:
+    name: Intuit Inc.
+    ticker: INTU
   0000899051:
     name: Allstate Corp
     ticker: ALL
   0000909832:
     name: COSTCO WHOLESALE CORP /NEW
     ticker: COST
+  0000917851:
+    name: Vale S.A.
+    ticker: VALE
+  0000920760:
+    name: Lennar Corp.
+    ticker: LEN
   0000924613:
     name: NOKIA CORP
     ticker: NOK
   0000927653:
     name: McKesson Corporation
     ticker: MCK
+  0000929008:
+    name: WESCO International, Inc.
+    ticker: WCC
+  0000929869:
+    name: RELX plc
+    ticker: RELX
   0000932787:
     name: STMicroelectronics N.V.
     ticker: STM
+  0000935036:
+    name: ACI Worldwide, Inc.
+    ticker: ACIW
   0000936468:
     name: LOCKHEED MARTIN CORP
     ticker: LMT
+  0000938323:
+    name: Pearson plc
+    ticker: PSO
+  0000943819:
+    name: ResMed Inc.
+    ticker: RMD
   0000946581:
     name: TAKE TWO INTERACTIVE SOFTWARE INC
     ticker: TTWO
@@ -292,6 +521,12 @@ companies:
   '0001001250':
     name: ESTEE LAUDER COMPANIES INC
     ticker: EL
+  0001001290:
+    name: Credicorp Ltd.
+    ticker: BAP
+  '0001002047':
+    name: NetApp, Inc.
+    ticker: NTAP
   '0001002242':
     name: ENI SPA
     ticker: E
@@ -304,12 +539,23 @@ companies:
   '0001004315':
     name: NATIONAL GRID PLC
     ticker: NGG
+  0001009829:
+    name: LivePerson
+    ticker: LPSN
   '0001013237':
     name: FACTSET RESEARCH SYSTEMS INC
     ticker: FDS
+  '0001015650':
+    name: SK Telecom Co., Ltd.
+    ticker: SKM
   0001015922:
     name: CHECK POINT SOFTWARE TECHNOLOGIES LTD
     ticker: CHKP
+  0001018840:
+    name: Abercrombie & Fitch Co.
+    ticker: ANF
+  0001022837:
+    name: SUMITOMO MITSUI FINANCIAL
   0001024478:
     name: ROCKWELL AUTOMATION, INC
     ticker: ROK
@@ -319,9 +565,17 @@ companies:
   0001031308:
     name: BENTLEY SYSTEMS INC
     ticker: BSY
+  '0001035267':
+    name: INTUITIVE SURGICAL INC
   0001037976:
     name: JONES LANG LASALLE INC
     ticker: JLL
+  0001039765:
+    name: ING Groep N.V.
+    ticker: ING
+  '0001043277':
+    name: C.H. Robinson Worldwide, Inc.
+    ticker: CHRW
   '0001045520':
     name: CANADIAN IMPERIAL BANK OF COMMERCE /CAN/
     ticker: CM
@@ -334,9 +588,15 @@ companies:
     - CUDA
     - DGX
     - inference
+  0001048695:
+    name: F5, Inc.
+    ticker: FFIV
   0001048911:
     name: FedEx
     ticker: FDX
+  '0001050446':
+    name: Strategy Inc
+    ticker: MSTR
   0001058090:
     name: CHIPOTLE MEXICAN GRILL INC
     ticker: CMG
@@ -352,6 +612,9 @@ companies:
   0001062579:
     name: AMDOCS LTD
     ticker: DOX
+  0001065088:
+    name: eBay Inc.
+    ticker: EBAY
   0001067491:
     name: Infosys Ltd
     ticker: INFY
@@ -369,6 +632,9 @@ companies:
   0001071739:
     name: CENTENE CORP
     ticker: CNC
+  '0001075124':
+    name: Thomson Reuters Corp.
+    ticker: TRI
   0001086222:
     name: AKAMAI TECHNOLOGIES INC
     ticker: AKAM
@@ -379,9 +645,15 @@ companies:
   0001089113:
     name: HSBC HOLDINGS PLC
     ticker: HSBC
+  0001090012:
+    name: Devon Energy Corp.
+    ticker: DVN
   0001090727:
     name: United Parcel Service
     ticker: UPS
+  0001091667:
+    name: Charter Communications
+    ticker: CHTR
   0001094517:
     name: Toyota Motor Corp.
     ticker: TM
@@ -392,12 +664,18 @@ companies:
   0001099219:
     name: METLIFE INC
     ticker: MET
+  0001099590:
+    name: MercadoLibre, Inc.
+    ticker: MELI
   0001108524:
     name: Salesforce
     ticker: CRM
   0001109357:
     name: EXELON
     ticker: EXC
+  0001113169:
+    name: T. Rowe Price Group, Inc.
+    ticker: TROW
   0001114448:
     name: NOVARTIS AG
     ticker: NVS
@@ -407,43 +685,82 @@ companies:
   '0001121404':
     name: Sanofi
     ticker: SNY
+  '0001123360':
+    name: Global Payments Inc.
+    ticker: GPN
   0001123799:
     name: WIPRO LTD
     ticker: WIT
+  0001129137:
+    name: America Movil, S.A.B. de C.V.
+    ticker: AMX
   0001131399:
     name: GSK
     ticker: GSK
   0001132924:
     name: CHUNGHWA TELECOM CO LTD
     ticker: CHT
+  0001136893:
+    name: Fidelity National Information Services, Inc.
+    ticker: FIS
+  '0001137774':
+    name: Prudential Financial
+    ticker: PRU
+  0001138118:
+    name: CBRE Group, Inc.
+    ticker: CBRE
   '0001140536':
     name: Willis Towers Watson
     ticker: WTW
   '0001140625':
     name: EQUINOR ASA
     ticker: EQNR
+  0001140859:
+    name: Cencora, Inc.
+    ticker: COR
+  0001141391:
+    name: Mastercard Inc.
+    ticker: MA
   0001144967:
     name: HDFC BANK LTD
     ticker: HDB
+  0001145197:
+    name: Insulet Corp.
+    ticker: PODD
   0001156039:
     name: Elevance Health Inc.
     ticker: ELV
     exchange: NYSE
+  0001158463:
+    name: JetBlue Airways Corp.
+    ticker: JBLU
   0001159508:
     name: DEUTSCHE BANK AKTIENGESELLSCHAFT
     ticker: DB
   '0001160106':
     name: Lloyds Banking Group plc
     ticker: LYG
+  '0001160330':
+    name: Banco Bradesco S.A.
+    ticker: BBD
+  '0001164727':
+    name: Newmont Corp.
+    ticker: NEM
   0001166691:
     name: COMCAST CORP
     ticker: CMCSA
   0001169561:
     name: COMMVAULT SYSTEMS INC
     ticker: CVLT
+  '0001170010':
+    name: CarMax, Inc.
+    ticker: KMX
   0001179929:
     name: Molina Healthcare
     ticker: MOH
+  0001180262:
+    name: Herbalife Ltd.
+    ticker: HLF
   0001243429:
     name: ArcelorMittal
     ticker: MT
@@ -466,13 +783,30 @@ companies:
     name: T-Mobile US Inc.
     ticker: TMUS
     exchange: Nasdaq
+  0001286681:
+    name: Domino's Pizza, Inc.
+    ticker: DPZ
+  0001289419:
+    name: Morningstar
+    ticker: MORN
+  0001290109:
+    name: LG Display Co., Ltd.
+    ticker: LPL
+  '0001303523':
+    name: BRITISH AMERICAN TOBACCO
   0001306965:
     name: Shell plc
     ticker: SHEL
     exchange: NYSE
+  0001315098:
+    name: Roblox
+    ticker: RBLX
   '0001321655':
     name: PALANTIR TECHNOLOGIES
     ticker: PLTR
+  '0001324424':
+    name: Expedia Group
+    ticker: EXPE
   0001326801:
     name: META
     ticker: META
@@ -482,12 +816,21 @@ companies:
   0001331875:
     name: Fidelity National Financial, Inc.
     ticker: FNF
+  0001333986:
+    name: Equitable Holdings, Inc.
+    ticker: EQH
   0001341439:
     name: ORACLE CORP
     ticker: ORCL
+  '0001361113':
+    name: Varonis Systems, Inc.
+    ticker: VRNS
   0001368519:
     name: North American Construction Group Ltd.
     ticker: NOA
+  '0001372612':
+    name: Box Inc.
+    ticker: BOX
   '0001373715':
     name: ServiceNow Inc.
     ticker: NOW
@@ -495,6 +838,8 @@ companies:
     ai_keywords:
     - Now Assist
     - generative AI
+  0001381640:
+    name: MELCO RESORTS
   0001390777:
     name: Bank of New York Mellon Corp
     ticker: BK
@@ -502,6 +847,21 @@ companies:
   0001393818:
     name: Blackstone Inc.
     ticker: BX
+  '0001403161':
+    name: Visa Inc.
+    ticker: V
+  0001403568:
+    name: Ulta Beauty, Inc.
+    ticker: ULTA
+  0001408198:
+    name: MSCI Inc.
+    ticker: MSCI
+  0001428439:
+    name: Roku
+    ticker: ROKU
+  0001441816:
+    name: MongoDB, Inc.
+    ticker: MDB
   0001443669:
     name: Proto Labs Inc
     ticker: PRLB
@@ -512,22 +872,36 @@ companies:
     name: Accenture plc
     ticker: ACN
     exchange: NYSE
+  '0001467623':
+    name: Dropbox
+    ticker: DBX
   0001467858:
     name: General Motors Co.
     ticker: GM
     exchange: NYSE
+  0001468174:
+    name: Hyatt Hotels Corp.
+    ticker: H
   0001472787:
     name: First American Financial Corp
     ticker: FAF
   0001475841:
     name: National Bank Holdings Corp
     ticker: NBHC
+  0001477449:
+    name: Teladoc Health, Inc.
+    ticker: TDOC
   0001478242:
     name: IQVIA HOLDINGS INC.
     ticker: IQV
   0001492298:
     name: Sabra Health Care REIT, Inc.
     ticker: SBRA
+  0001493318:
+    name: eToro Group Ltd.
+  0001495153:
+    name: MakeMyTrip
+    ticker: MMYT
   0001510295:
     name: Marathon Petroleum Corp
     ticker: MPC
@@ -537,9 +911,24 @@ companies:
   '0001534701':
     name: Phillips 66
     ticker: PSX
+  0001535929:
+    name: Voya Financial, Inc.
+    ticker: VOYA
+  '0001544522':
+    name: Freshworks
+    ticker: FRSH
+  '0001551152':
+    name: AbbVie
+    ticker: ABBV
+  0001551182:
+    name: Eaton Corp. plc
+    ticker: ETN
   '0001561550':
     name: Datadog, Inc.
     ticker: DDOG
+  0001562088:
+    name: Duolingo
+    ticker: DUOL
   0001564708:
     name: News Corp
     ticker: NWSA
@@ -547,10 +936,22 @@ companies:
   0001567094:
     name: CNH Industrial N.V.
     ticker: CNH
+  0001569345:
+    name: Sprinklr, Inc.
+    ticker: CXM
+  0001571996:
+    name: Dell Technologies Inc.
+    ticker: DELL
+  0001576789:
+    name: Wix Ltd
+    ticker: WIX
   '0001577552':
     name: Alibaba Group Holding Limited
     ticker: BABA
     exchange: NYSE
+  0001594805:
+    name: Shopify Inc.
+    ticker: SHOP
   0001605484:
     name: Stellantis N.V.
     ticker: STLA
@@ -558,12 +959,24 @@ companies:
     name: UBS Group AG
     ticker: UBS
     exchange: NYSE
+  0001628908:
+    name: Evolent Health, Inc.
+    ticker: EVH
+  0001633917:
+    name: PayPal Holdings, Inc.
+    ticker: PYPL
+  '0001636422':
+    name: Health Catalyst, Inc.
+    ticker: HCAT
   0001637459:
     name: Kraft Heinz Co
     ticker: KHC
   0001638826:
     name: ServiceTitan, Inc.
     ticker: TTAN
+  0001639920:
+    name: Spotify
+    ticker: SPOT
   '0001640147':
     name: Snowflake Inc.
     ticker: SNOW
@@ -572,6 +985,9 @@ companies:
     - Cortex
     - Snowpark
     - Arctic
+  0001643269:
+    name: Sprinklr
+    ticker: CXM
   0001645590:
     name: Hewlett Packard Enterprise Co
     ticker: HPE
@@ -581,18 +997,45 @@ companies:
   0001647639:
     name: Upstart Holdings, Inc.
     ticker: UPST
+  '0001650372':
+    name: Atlassian
+    ticker: TEAM
+  0001659166:
+    name: Fortive Corp.
+    ticker: FTV
+  '0001666700':
+    name: DuPont de Nemours, Inc.
+    ticker: DD
+  0001668717:
+    name: Anheuser-Busch InBev SA/NV
+    ticker: BUD
+  0001671933:
+    name: Trade Desk, Inc.
+    ticker: TTD
   '0001677703':
     name: CONDUENT Inc
     ticker: CNDT
+  0001679788:
+    name: Coinbase
+    ticker: COIN
   0001682852:
     name: Moderna, Inc.
     ticker: MRNA
   0001688568:
     name: DXC Technology Co
     ticker: DXC
+  0001690820:
+    name: Carvana Co.
+    ticker: CVNA
+  '0001701605':
+    name: Baker Hughes Co.
+    ticker: BKR
   0001713683:
     name: Zscaler, Inc.
     ticker: ZS
+  0001725964:
+    name: Nutrien Ltd.
+    ticker: NTR
   0001727196:
     name: Scholar Rock Holding Corp
     ticker: SRRK
@@ -603,18 +1046,56 @@ companies:
     name: PDD Holdings Inc.
     ticker: PDD
     exchange: Nasdaq
+  0001739940:
+    name: Cigna Group
+    ticker: CI
   0001744489:
     name: Walt Disney Co
     ticker: DIS
+  '0001745431':
+    name: StoneCo Ltd.
+    ticker: STNE
   0001746109:
     name: Bank First Corp
     ticker: BFC
+  '0001755672':
+    name: Corteva, Inc.
+    ticker: CTVA
+  '0001764046':
+    name: Clarivate Analytics
+    ticker: CLVT
+  0001773383:
+    name: Dynatrace, Inc.
+    ticker: DT
   0001777921:
     name: AvePoint, Inc.
     ticker: AVPT
+  0001781335:
+    name: Otis Worldwide Corp.
+    ticker: OTIS
+  0001783398:
+    name: UWM Holdings Corp.
+    ticker: UWMC
+  0001786842:
+    name: Tempus AI
+    ticker: TEM
+  0001787425:
+    name: XP Inc.
+    ticker: XP
+  0001800667:
+    name: JFrog Ltd.
+    ticker: FROG
+  0001818502:
+    name: Trip.com Group
+    ticker: TCOM
   0001832511:
     name: P3 Health Partners Inc.
     ticker: PIII
+  0001845338:
+    name: monday.com
+    ticker: MNDY
+  0001849253:
+    name: RYAN SPECIALTY HOLDINGS
   0001867072:
     name: Kyndryl Holdings, Inc.
     ticker: KD
@@ -640,399 +1121,14 @@ companies:
   0001958399:
     name: Huachen AI Parking Management Technology Holding Co., Ltd
     ticker: HCAI
-  0002012383:
-    name: BlackRock
-    ticker: BLK
-  0000012659:
-    name: H&R Block, Inc.
-    ticker: HRB
-  '0000051143':
-    name: International Business Machines Corp.
-    ticker: IBM
-  0000080661:
-    name: Progressive Corp.
-    ticker: PGR
-  0000101829:
-    name: RTX Corp
-    ticker: RTX
-  '0000200406':
-    name: Johnson & Johnson
-    ticker: JNJ
-  0000310158:
-    name: Merck & Co., Inc.
-    ticker: MRK
-  0000315293:
-    name: Aon plc
-    ticker: AON
-  '0000712515':
-    name: Electronic Arts Inc.
-    ticker: EA
-  0000839923:
-    name: Vodafone Group plc
-    ticker: VOD
-  0000891478:
-    name: Banco Santander, S.A.
-    ticker: SAN
-  0000917851:
-    name: Vale S.A.
-    ticker: VALE
-  0000929869:
-    name: RELX plc
-    ticker: RELX
-  0000938323:
-    name: Pearson plc
-    ticker: PSO
-  0001001290:
-    name: Credicorp Ltd.
-    ticker: BAP
-  '0001015650':
-    name: SK Telecom Co., Ltd.
-    ticker: SKM
-  0001039765:
-    name: ING Groep N.V.
-    ticker: ING
-  '0001050446':
-    name: Strategy Inc
-    ticker: MSTR
-  '0001075124':
-    name: Thomson Reuters Corp.
-    ticker: TRI
-  0001099590:
-    name: MercadoLibre, Inc.
-    ticker: MELI
-  0001129137:
-    name: America Movil, S.A.B. de C.V.
-    ticker: AMX
-  0001136893:
-    name: Fidelity National Information Services, Inc.
-    ticker: FIS
-  0001140859:
-    name: Cencora, Inc.
-    ticker: COR
-  0001141391:
-    name: Mastercard Inc.
-    ticker: MA
-  '0001160330':
-    name: Banco Bradesco S.A.
-    ticker: BBD
-  0001290109:
-    name: LG Display Co., Ltd.
-    ticker: LPL
-  '0001361113':
-    name: Varonis Systems, Inc.
-    ticker: VRNS
-  0001408198:
-    name: MSCI Inc.
-    ticker: MSCI
-  0001441816:
-    name: MongoDB, Inc.
-    ticker: MDB
-  0001569345:
-    name: Sprinklr, Inc.
-    ticker: CXM
-  0001633917:
-    name: PayPal Holdings, Inc.
-    ticker: PYPL
-  0001659166:
-    name: Fortive Corp.
-    ticker: FTV
-  0001668717:
-    name: Anheuser-Busch InBev SA/NV
-    ticker: BUD
-  0001690820:
-    name: Carvana Co.
-    ticker: CVNA
-  0001739940:
-    name: Cigna Group
-    ticker: CI
-  0001773383:
-    name: Dynatrace, Inc.
-    ticker: DT
-  0001783398:
-    name: UWM Holdings Corp.
-    ticker: UWMC
-  0001787425:
-    name: XP Inc.
-    ticker: XP
   0001974138:
     name: NCR Atleos Corp.
     ticker: NATL
-  '0000005272':
-    name: American International Group, Inc.
-    ticker: AIG
-  0000007084:
-    name: Archer-Daniels-Midland Co.
-    ticker: ADM
-  '0000007536':
-    name: Arrow Electronics, Inc.
-    ticker: ARW
-  0000008858:
-    name: Avnet, Inc.
-    ticker: AVT
-  0000009631:
-    name: Bank of Nova Scotia
-    ticker: BNS
-  '0000010456':
-    name: Baxter International Inc.
-    ticker: BAX
-  '0000016732':
-    name: Campbell's Co.
-    ticker: CPB
-  0000029905:
-    name: Dover Corp.
-    ticker: DOV
-  0000037996:
-    name: Ford Motor Co.
-    ticker: F
-  '0000040533':
-    name: General Dynamics Corp.
-    ticker: GD
-  '0000047111':
-    name: Hershey Co.
-    ticker: HSY
-  0000048898:
-    name: Hubbell Inc.
-    ticker: HUBB
-  '0000051434':
-    name: International Paper Co.
-    ticker: IP
-  0000055785:
-    name: Kimberly-Clark Corp.
-    ticker: KMB
-  0000063908:
-    name: McDonald's Corp.
-    ticker: MCD
-  '0000066740':
-    name: 3M Co.
-    ticker: MMM
-  0000068505:
-    name: Motorola Solutions, Inc.
-    ticker: MSI
-  0000070858:
-    name: Bank of America Corp.
-    ticker: BAC
-  '0000072741':
-    name: Eversource Energy
-    ticker: ES
-  0000073309:
-    name: Nucor Corp.
-    ticker: NUE
-  '0000076334':
-    name: Parker-Hannifin Corp.
-    ticker: PH
-  0000079282:
-    name: Brown & Brown, Inc.
-    ticker: BRO
-  0000085961:
-    name: Ryder System, Inc.
-    ticker: R
-  0000109198:
-    name: TJX Companies, Inc.
-    ticker: TJX
-  0000202058:
-    name: L3Harris Technologies, Inc.
-    ticker: LHX
-  '0000217346':
-    name: Textron Inc.
-    ticker: TXT
-  0000277948:
-    name: CSX Corp.
-    ticker: CSX
-  '0000313616':
-    name: Danaher Corp.
-    ticker: DHR
-  0000315189:
-    name: Deere & Co.
-    ticker: DE
-  0000354950:
-    name: Home Depot, Inc.
-    ticker: HD
-  0000701985:
-    name: Bath & Body Works, Inc.
-    ticker: BBWI
-  0000715957:
-    name: Dominion Energy, Inc.
-    ticker: D
-  '0000732712':
-    name: Verizon Communications Inc.
-    ticker: VZ
-  0000764180:
-    name: Altria Group, Inc.
-    ticker: MO
-  0000764478:
-    name: Best Buy Co., Inc.
-    ticker: BBY
-  0000769218:
-    name: Aegon Ltd.
-    ticker: AEG
-  0000769397:
-    name: Autodesk, Inc.
-    ticker: ADSK
-  0000780571:
-    name: Itron, Inc.
-    ticker: ITRI
-  0000811156:
-    name: CMS Energy Corp.
-    ticker: CMS
-  0000815097:
-    name: Carnival Corp.
-    ticker: CCL
-  0000816761:
-    name: Teradata Corp.
-    ticker: TDC
-  0000827052:
-    name: Edison International
-    ticker: EIX
-  0000831001:
-    name: Citigroup Inc.
-    ticker: C
-  0000849399:
-    name: Gen Digital Inc.
-    ticker: GEN
-  0000851310:
-    name: Harmonic Inc.
-    ticker: HLIT
-  0000883241:
-    name: Synopsys, Inc.
-    ticker: SNPS
-  0000885590:
-    name: Bausch Health Companies Inc.
-    ticker: BHC
-  0000885725:
-    name: Boston Scientific Corp.
-    ticker: BSX
-  0000896878:
-    name: Intuit Inc.
-    ticker: INTU
-  0000920760:
-    name: Lennar Corp.
-    ticker: LEN
-  0000929008:
-    name: WESCO International, Inc.
-    ticker: WCC
-  0000935036:
-    name: ACI Worldwide, Inc.
-    ticker: ACIW
-  0000943819:
-    name: ResMed Inc.
-    ticker: RMD
-  '0001002047':
-    name: NetApp, Inc.
-    ticker: NTAP
-  0001018840:
-    name: Abercrombie & Fitch Co.
-    ticker: ANF
-  '0001043277':
-    name: C.H. Robinson Worldwide, Inc.
-    ticker: CHRW
-  0001048695:
-    name: F5, Inc.
-    ticker: FFIV
-  0001065088:
-    name: eBay Inc.
-    ticker: EBAY
-  0001090012:
-    name: Devon Energy Corp.
-    ticker: DVN
-  0001113169:
-    name: T. Rowe Price Group, Inc.
-    ticker: TROW
-  '0001123360':
-    name: Global Payments Inc.
-    ticker: GPN
-  0001138118:
-    name: CBRE Group, Inc.
-    ticker: CBRE
-  0001145197:
-    name: Insulet Corp.
-    ticker: PODD
-  0001158463:
-    name: JetBlue Airways Corp.
-    ticker: JBLU
-  '0001164727':
-    name: Newmont Corp.
-    ticker: NEM
-  '0001170010':
-    name: CarMax, Inc.
-    ticker: KMX
-  0001180262:
-    name: Herbalife Ltd.
-    ticker: HLF
-  0001286681:
-    name: Domino's Pizza, Inc.
-    ticker: DPZ
-  0001333986:
-    name: Equitable Holdings, Inc.
-    ticker: EQH
-  '0001403161':
-    name: Visa Inc.
-    ticker: V
-  0001403568:
-    name: Ulta Beauty, Inc.
-    ticker: ULTA
-  0001468174:
-    name: Hyatt Hotels Corp.
-    ticker: H
-  0001477449:
-    name: Teladoc Health, Inc.
-    ticker: TDOC
-  0001535929:
-    name: Voya Financial, Inc.
-    ticker: VOYA
-  0001551182:
-    name: Eaton Corp. plc
-    ticker: ETN
-  0001571996:
-    name: Dell Technologies Inc.
-    ticker: DELL
-  0001628908:
-    name: Evolent Health, Inc.
-    ticker: EVH
-  '0001636422':
-    name: Health Catalyst, Inc.
-    ticker: HCAT
-  '0001666700':
-    name: DuPont de Nemours, Inc.
-    ticker: DD
-  0001671933:
-    name: Trade Desk, Inc.
-    ticker: TTD
-  '0001701605':
-    name: Baker Hughes Co.
-    ticker: BKR
-  0001725964:
-    name: Nutrien Ltd.
-    ticker: NTR
-  '0001745431':
-    name: StoneCo Ltd.
-    ticker: STNE
-  '0001755672':
-    name: Corteva, Inc.
-    ticker: CTVA
-  0001781335:
-    name: Otis Worldwide Corp.
-    ticker: OTIS
-  0001800667:
-    name: JFrog Ltd.
-    ticker: FROG
   '0002011641':
     name: Ferguson Enterprises Inc.
     ticker: FERG
-  '0000312070':
-    name: BARCLAYS BANK PLC
-  0000849395:
-    name: CRH PUBLIC LTD CO
-  0001022837:
-    name: SUMITOMO MITSUI FINANCIAL
-  '0001035267':
-    name: INTUITIVE SURGICAL INC
-  '0001303523':
-    name: BRITISH AMERICAN TOBACCO
-  0001381640:
-    name: MELCO RESORTS
-  0001493318:
-    name: eToro Group Ltd.
-  0001849253:
-    name: RYAN SPECIALTY HOLDINGS
+  0002012383:
+    name: BlackRock
+    ticker: BLK
   0002014596:
     name: CONCENTRA GROUP HOLDINGS

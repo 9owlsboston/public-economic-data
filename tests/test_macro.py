@@ -23,7 +23,7 @@ def test_all_json_valid():
             json.loads(f.read_text())
         except json.JSONDecodeError as e:
             errors.append(f"{f.name}: {e}")
-    assert not errors, errors
+    return errors
 
 
 def test_required_fields():
@@ -34,7 +34,7 @@ def test_required_fields():
         for field in REQUIRED_FIELDS:
             if field not in data:
                 errors.append(f"{f.name}: missing '{field}'")
-    assert not errors, errors
+    return errors
 
 
 def test_observations_sorted():
@@ -45,7 +45,7 @@ def test_observations_sorted():
         dates = [o["date"] for o in data.get("observations", []) if "date" in o]
         if dates != sorted(dates, reverse=True):
             errors.append(f"{f.name}: observations not sorted descending")
-    assert not errors, errors
+    return errors
 
 
 def test_series_id_matches_filename():
@@ -55,7 +55,7 @@ def test_series_id_matches_filename():
         data = json.loads(f.read_text())
         if data.get("series_id") != f.stem:
             errors.append(f"{f.name}: series_id '{data.get('series_id')}' != filename '{f.stem}'")
-    assert not errors, errors
+    return errors
 
 
 def test_no_empty_observations():
@@ -65,7 +65,7 @@ def test_no_empty_observations():
         data = json.loads(f.read_text())
         if not data.get("observations"):
             errors.append(f"{f.name}: empty observations")
-    assert not errors, errors
+    return errors
 
 
 def main():

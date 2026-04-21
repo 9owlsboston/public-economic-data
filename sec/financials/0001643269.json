@@ -1,98 +1,130 @@
 {
-  "company": "Sprinklr",
-  "ticker": "CXM",
   "cik": "0001643269",
-  "currency": "USD",
-  "source": "sec_edgar",
+  "name": "Sprinklr",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
-      "year": 2019,
-      "revenue": 103642000,
-      "net_income": -47789000,
-      "rd_expense": 36240000,
-      "capex": 467000
+      "period_end": "2023-01-31",
+      "filing_date": "2023-04-25",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 301,
+      "rnd_M": 105,
+      "cost_of_revenue_M": 98,
+      "net_income_M": -125,
+      "capex_M": 0,
+      "operating_cash_flow_M": -27,
+      "operating_income_M": -127,
+      "sga_M": 72,
+      "cash_M": 76,
+      "total_debt_M": null,
+      "total_assets_M": 579,
+      "amended": true,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
     },
     {
-      "year": 2020,
-      "revenue": 155056000,
-      "net_income": -92137000,
-      "rd_expense": 52462000,
-      "total_assets": 237761000,
-      "capex": 2068000
+      "period_end": "2023-01-31",
+      "filing_date": "2023-03-16",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 301,
+      "rnd_M": 105,
+      "cost_of_revenue_M": 98,
+      "net_income_M": -125,
+      "capex_M": 0,
+      "operating_cash_flow_M": -27,
+      "operating_income_M": -127,
+      "sga_M": 72,
+      "cash_M": 76,
+      "total_debt_M": null,
+      "total_assets_M": 579
     },
     {
-      "year": 2021,
-      "revenue": 202637000,
-      "net_income": -80297000,
-      "rd_expense": 70206000,
-      "total_assets": 570507000,
-      "capex": 1138000
+      "period_end": "2022-01-31",
+      "filing_date": "2022-03-14",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 242,
+      "rnd_M": 95,
+      "cost_of_revenue_M": 78,
+      "net_income_M": -123,
+      "capex_M": 2,
+      "operating_cash_flow_M": -30,
+      "operating_income_M": -121,
+      "sga_M": 59,
+      "cash_M": 80,
+      "total_debt_M": null,
+      "total_assets_M": 602
     },
     {
-      "year": 2022,
-      "revenue": 242125000,
-      "net_income": -123365000,
-      "rd_expense": 94652000,
-      "total_assets": 602131000,
-      "capex": 2258000
-    },
-    {
-      "year": 2023,
-      "revenue": 300668000,
-      "net_income": -124815000,
-      "rd_expense": 104949000,
-      "total_assets": 579098000,
-      "capex": 386000
+      "period_end": "2021-01-31",
+      "filing_date": "2021-03-12",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 203,
+      "rnd_M": 70,
+      "cost_of_revenue_M": 56,
+      "net_income_M": -80,
+      "capex_M": 1,
+      "operating_cash_flow_M": -47,
+      "operating_income_M": -78,
+      "sga_M": 44,
+      "cash_M": 404,
+      "total_debt_M": null,
+      "total_assets_M": 571
     }
   ],
   "quarterly": [
     {
-      "period_end": "2019-10-31",
-      "revenue": 40513000,
-      "net_income": -28619000,
-      "rd_expense": 14029000
+      "period_end": "2022-10-31",
+      "revenue": 78952000,
+      "net_income": -26289000,
+      "rd_expense": 26462000
     },
     {
-      "period_end": "2020-04-30",
-      "revenue": 47202000,
-      "net_income": -23565000,
-      "rd_expense": 17699000
-    },
-    {
-      "period_end": "2020-07-31",
-      "revenue": 49415000,
-      "net_income": -12217000,
-      "rd_expense": 15304000
-    },
-    {
-      "period_end": "2020-10-31",
-      "revenue": 51868000,
-      "net_income": -23926000,
-      "rd_expense": 18753000
-    },
-    {
-      "period_end": "2021-04-30",
-      "revenue": 54219000,
-      "net_income": -26914000,
-      "rd_expense": 20443000
-    },
-    {
-      "period_end": "2021-07-31",
-      "revenue": 58841000,
-      "net_income": -32049000,
-      "rd_expense": 23861000
-    },
-    {
-      "period_end": "2021-10-31",
-      "revenue": 62016000,
-      "net_income": -30836000,
-      "rd_expense": 25464000
-    },
-    {
-      "period_end": "2022-04-30",
-      "revenue": 67855000,
-      "net_income": -34750000,
-      "rd_expense": 26253000
+      "period_end": "2022-10-31",
+      "filing_date": "2022-12-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 79,
+      "rnd_M": 26,
+      "cost_of_revenue_M": 25,
+      "net_income_M": -26,
+      "capex_M": 0,
+      "operating_cash_flow_M": -22,
+      "operating_income_M": -27,
+      "sga_M": 16,
+      "cash_M": 92,
+      "total_debt_M": null,
+      "total_assets_M": 576,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
     },
     {
       "period_end": "2022-07-31",
@@ -101,10 +133,160 @@
       "rd_expense": 27636000
     },
     {
-      "period_end": "2022-10-31",
-      "revenue": 78952000,
-      "net_income": -26289000,
-      "rd_expense": 26462000
+      "period_end": "2022-07-31",
+      "filing_date": "2022-08-26",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 74,
+      "rnd_M": 28,
+      "cost_of_revenue_M": 26,
+      "net_income_M": -36,
+      "capex_M": 0,
+      "operating_cash_flow_M": -13,
+      "operating_income_M": -37,
+      "sga_M": 18,
+      "cash_M": 82,
+      "total_debt_M": null,
+      "total_assets_M": 583
+    },
+    {
+      "period_end": "2022-04-30",
+      "revenue": 67855000,
+      "net_income": -34750000,
+      "rd_expense": 26253000
+    },
+    {
+      "period_end": "2022-04-30",
+      "filing_date": "2022-05-27",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 68,
+      "rnd_M": 26,
+      "cost_of_revenue_M": 24,
+      "net_income_M": -35,
+      "capex_M": 0,
+      "operating_cash_flow_M": -1,
+      "operating_income_M": -35,
+      "sga_M": 17,
+      "cash_M": 80,
+      "total_debt_M": null,
+      "total_assets_M": 596
+    },
+    {
+      "period_end": "2021-10-31",
+      "revenue": 62016000,
+      "net_income": -30836000,
+      "rd_expense": 25464000
+    },
+    {
+      "period_end": "2021-10-31",
+      "filing_date": "2021-12-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 62,
+      "rnd_M": 25,
+      "cost_of_revenue_M": 20,
+      "net_income_M": -31,
+      "capex_M": 2,
+      "operating_cash_flow_M": -20,
+      "operating_income_M": -31,
+      "sga_M": 14,
+      "cash_M": 78,
+      "total_debt_M": null,
+      "total_assets_M": 604
+    },
+    {
+      "period_end": "2021-07-31",
+      "revenue": 58841000,
+      "net_income": -32049000,
+      "rd_expense": 23861000
+    },
+    {
+      "period_end": "2021-07-31",
+      "filing_date": "2021-09-10",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 59,
+      "rnd_M": 24,
+      "cost_of_revenue_M": 20,
+      "net_income_M": -32,
+      "capex_M": 1,
+      "operating_cash_flow_M": -7,
+      "operating_income_M": -33,
+      "sga_M": 17,
+      "cash_M": 97,
+      "total_debt_M": null,
+      "total_assets_M": 602
+    },
+    {
+      "period_end": "2021-04-30",
+      "revenue": 54219000,
+      "net_income": -26914000,
+      "rd_expense": 20443000
+    },
+    {
+      "period_end": "2021-04-30",
+      "filing_date": "2021-06-04",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 54,
+      "rnd_M": 20,
+      "cost_of_revenue_M": 15,
+      "net_income_M": -27,
+      "capex_M": 0,
+      "operating_cash_flow_M": -3,
+      "operating_income_M": -26,
+      "sga_M": 15,
+      "cash_M": 143,
+      "total_debt_M": null,
+      "total_assets_M": 582
+    },
+    {
+      "period_end": "2020-10-31",
+      "revenue": 51868000,
+      "net_income": -23926000,
+      "rd_expense": 18753000
+    },
+    {
+      "period_end": "2020-10-31",
+      "filing_date": "2020-12-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 52,
+      "rnd_M": 19,
+      "cost_of_revenue_M": 14,
+      "net_income_M": -24,
+      "capex_M": 0,
+      "operating_cash_flow_M": -46,
+      "operating_income_M": -23,
+      "sga_M": 16,
+      "cash_M": 407,
+      "total_debt_M": null,
+      "total_assets_M": 564
+    },
+    {
+      "period_end": "2020-07-31",
+      "revenue": 49415000,
+      "net_income": -12217000,
+      "rd_expense": 15304000
+    },
+    {
+      "period_end": "2020-04-30",
+      "revenue": 47202000,
+      "net_income": -23565000,
+      "rd_expense": 17699000
+    },
+    {
+      "period_end": "2019-10-31",
+      "revenue": 40513000,
+      "net_income": -28619000,
+      "rd_expense": 14029000
     }
   ]
 }

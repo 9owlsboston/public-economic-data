@@ -3,7 +3,7 @@
   "name": "AEON Co., Ltd.",
   "ticker": "8267",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-04-21",
   "annual": [
     {
       "period_end": "2025-02-28",
@@ -15,20 +15,24 @@
       "operating_income_M": -282034,
       "net_income_M": -530682,
       "cost_of_revenue_M": 2348933,
+      "sga_M": 3043281,
       "rnd_M": null,
+      "cash_M": 281961,
+      "total_assets_M": 2263937,
+      "total_debt_M": 252189,
+      "capex_M": null,
+      "operating_cash_flow_M": -295852,
       "tags_used": {
         "revenue_M": "jppfs_cor:NetSales",
         "operating_income_M": "jppfs_cor:OperatingIncome",
         "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
         "cost_of_revenue_M": "jppfs_cor:CostOfSales",
+        "sga_M": "jppfs_cor:SellingGeneralAndAdministrativeExpenses",
         "cash_M": "jppfs_cor:CashAndDeposits",
         "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "total_debt_M": "jppfs_cor:LongTermLoansPayable",
         "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
-      },
-      "cash_M": 281961,
-      "total_assets_M": 2263937,
-      "capex_M": null,
-      "operating_cash_flow_M": -295852
+      }
     },
     {
       "period_end": "2024-02-29",
@@ -40,9 +44,11 @@
       "operating_income_M": -103011,
       "net_income_M": -332798,
       "cost_of_revenue_M": 2351005,
+      "sga_M": 3282101,
       "rnd_M": null,
       "cash_M": 349785,
       "total_assets_M": 1899539,
+      "total_debt_M": 111259,
       "capex_M": null,
       "operating_cash_flow_M": -149953
     },
@@ -56,9 +62,11 @@
       "operating_income_M": -256823,
       "net_income_M": -302382,
       "cost_of_revenue_M": 2765231,
+      "sga_M": 3797558,
       "rnd_M": null,
       "cash_M": 477853,
       "total_assets_M": 2428255,
+      "total_debt_M": 120072,
       "capex_M": 5,
       "operating_cash_flow_M": -603950
     },
@@ -72,9 +80,11 @@
       "operating_income_M": -183383,
       "net_income_M": 157727,
       "cost_of_revenue_M": 1837648,
+      "sga_M": 2509302,
       "rnd_M": null,
       "cash_M": 701498,
       "total_assets_M": 2045042,
+      "total_debt_M": 35658,
       "capex_M": 11,
       "operating_cash_flow_M": -79546
     },
@@ -88,9 +98,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
+      "sga_M": null,
       "rnd_M": null,
       "cash_M": null,
       "total_assets_M": null,
+      "total_debt_M": null,
       "capex_M": 45,
       "operating_cash_flow_M": null
     },
@@ -104,9 +116,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
+      "sga_M": null,
       "rnd_M": null,
       "cash_M": null,
       "total_assets_M": null,
+      "total_debt_M": null,
       "capex_M": 73,
       "operating_cash_flow_M": null
     },
@@ -120,9 +134,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
+      "sga_M": null,
       "rnd_M": null,
       "cash_M": null,
       "total_assets_M": null,
+      "total_debt_M": null,
       "capex_M": null,
       "operating_cash_flow_M": null
     }

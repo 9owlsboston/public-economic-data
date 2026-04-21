@@ -1,110 +1,77 @@
 {
-  "company": "Atlassian",
-  "ticker": "TEAM",
   "cik": "0001650372",
-  "currency": "USD",
-  "source": "sec_edgar",
+  "name": "Atlassian",
+  "last_refreshed": "2026-04-20",
   "annual": [
     {
-      "year": 2021,
-      "revenue": 2089132000,
-      "net_income": -578979000,
-      "rd_expense": 932994000,
-      "capex": 31520000
-    },
-    {
-      "year": 2022,
-      "revenue": 2802882000,
-      "net_income": -519510000,
-      "rd_expense": 1291877000,
-      "total_assets": 3326830000,
-      "capex": 70583000
-    },
-    {
-      "year": 2023,
-      "revenue": 3534647000,
-      "net_income": -486761000,
-      "rd_expense": 1869881000,
-      "total_assets": 4106779000,
-      "capex": 25812000
-    },
-    {
-      "year": 2024,
-      "revenue": 4358603000,
-      "net_income": -300519000,
-      "rd_expense": 2184111000,
-      "total_assets": 5212133000,
-      "capex": 33112000
-    },
-    {
-      "year": 2025,
-      "revenue": 5215304000,
-      "net_income": -256687000,
-      "rd_expense": 2669312000,
-      "total_assets": 6041970000,
-      "capex": 44850000
+      "period_end": "2025-06-30",
+      "filing_date": "2025-08-15",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 5215,
+      "rnd_M": 2669,
+      "cost_of_revenue_M": 895,
+      "net_income_M": -257,
+      "capex_M": 45,
+      "operating_cash_flow_M": 1460,
+      "operating_income_M": -130,
+      "sga_M": 647,
+      "cash_M": 2513,
+      "total_debt_M": 988,
+      "total_assets_M": 6042,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
     }
   ],
   "quarterly": [
     {
-      "period_end": "2022-03-31",
-      "revenue": 740491000,
-      "net_income": 4661000,
-      "rd_expense": 334161000
+      "period_end": "2025-12-31",
+      "revenue": 1586315000,
+      "net_income": -42645000,
+      "rd_expense": 826489000
     },
     {
-      "period_end": "2022-09-30",
-      "revenue": 807392000,
-      "net_income": -13741000,
-      "rd_expense": 399006000
-    },
-    {
-      "period_end": "2022-12-31",
-      "revenue": 872704000,
-      "net_income": -205031000,
-      "rd_expense": 473676000
-    },
-    {
-      "period_end": "2023-03-31",
-      "revenue": 915453000,
-      "net_income": -209037000,
-      "rd_expense": 522344000
-    },
-    {
-      "period_end": "2023-09-30",
-      "revenue": 977775000,
-      "net_income": -31883000,
-      "rd_expense": 481738000
-    },
-    {
-      "period_end": "2023-12-31",
-      "revenue": 1060110000,
-      "net_income": -84469000,
-      "rd_expense": 536779000
-    },
-    {
-      "period_end": "2024-03-31",
-      "revenue": 1189128000,
-      "net_income": 12752000,
-      "rd_expense": 576490000
-    },
-    {
-      "period_end": "2024-09-30",
-      "revenue": 1187781000,
-      "net_income": -123769000,
-      "rd_expense": 603101000
-    },
-    {
-      "period_end": "2024-12-31",
-      "revenue": 1286463000,
-      "net_income": -38208000,
-      "rd_expense": 680213000
-    },
-    {
-      "period_end": "2025-03-31",
-      "revenue": 1356716000,
-      "net_income": -70807000,
-      "rd_expense": 685320000
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1586,
+      "rnd_M": 826,
+      "cost_of_revenue_M": 238,
+      "net_income_M": -43,
+      "capex_M": 9,
+      "operating_cash_flow_M": 178,
+      "operating_income_M": -48,
+      "sga_M": 193,
+      "cash_M": 1158,
+      "total_debt_M": 989,
+      "total_assets_M": 6160,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
     },
     {
       "period_end": "2025-09-30",
@@ -113,10 +80,136 @@
       "rd_expense": 755994000
     },
     {
-      "period_end": "2025-12-31",
-      "revenue": 1586315000,
-      "net_income": -42645000,
-      "rd_expense": 826489000
+      "period_end": "2025-09-30",
+      "filing_date": "2025-10-31",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1433,
+      "rnd_M": 756,
+      "cost_of_revenue_M": 258,
+      "net_income_M": -52,
+      "capex_M": 14,
+      "operating_cash_flow_M": 129,
+      "operating_income_M": -96,
+      "sga_M": 179,
+      "cash_M": 2322,
+      "total_debt_M": 988,
+      "total_assets_M": 5720
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 1356716000,
+      "net_income": -70807000,
+      "rd_expense": 685320000
+    },
+    {
+      "period_end": "2025-03-31",
+      "filing_date": "2025-05-02",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1357,
+      "rnd_M": 685,
+      "cost_of_revenue_M": 220,
+      "net_income_M": -71,
+      "capex_M": 14,
+      "operating_cash_flow_M": 653,
+      "operating_income_M": -12,
+      "sga_M": 168,
+      "cash_M": 2661,
+      "total_debt_M": 987,
+      "total_assets_M": 5884
+    },
+    {
+      "period_end": "2024-12-31",
+      "revenue": 1286463000,
+      "net_income": -38208000,
+      "rd_expense": 680213000
+    },
+    {
+      "period_end": "2024-12-31",
+      "filing_date": "2025-01-31",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1286,
+      "rnd_M": 680,
+      "cost_of_revenue_M": 223,
+      "net_income_M": -38,
+      "capex_M": 9,
+      "operating_cash_flow_M": 352,
+      "operating_income_M": -57,
+      "sga_M": 169,
+      "cash_M": 2218,
+      "total_debt_M": 987,
+      "total_assets_M": 5446
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 1187781000,
+      "net_income": -123769000,
+      "rd_expense": 603101000
+    },
+    {
+      "period_end": "2024-09-30",
+      "filing_date": "2024-11-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1188,
+      "rnd_M": 603,
+      "cost_of_revenue_M": 218,
+      "net_income_M": -124,
+      "capex_M": 6,
+      "operating_cash_flow_M": 80,
+      "operating_income_M": -32,
+      "sga_M": 147,
+      "cash_M": 2056,
+      "total_debt_M": 986,
+      "total_assets_M": 4993
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 1189128000,
+      "net_income": 12752000,
+      "rd_expense": 576490000
+    },
+    {
+      "period_end": "2023-12-31",
+      "revenue": 1060110000,
+      "net_income": -84469000,
+      "rd_expense": 536779000
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 977775000,
+      "net_income": -31883000,
+      "rd_expense": 481738000
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 915453000,
+      "net_income": -209037000,
+      "rd_expense": 522344000
+    },
+    {
+      "period_end": "2022-12-31",
+      "revenue": 872704000,
+      "net_income": -205031000,
+      "rd_expense": 473676000
+    },
+    {
+      "period_end": "2022-09-30",
+      "revenue": 807392000,
+      "net_income": -13741000,
+      "rd_expense": 399006000
+    },
+    {
+      "period_end": "2022-03-31",
+      "revenue": 740491000,
+      "net_income": 4661000,
+      "rd_expense": 334161000
     }
   ]
 }

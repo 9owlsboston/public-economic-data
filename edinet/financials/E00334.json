@@ -3,7 +3,7 @@
   "name": "FUJIFILM Holdings Corporation",
   "ticker": "4901",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-04-21",
   "annual": [
     {
       "period_end": "2025-03-31",
@@ -15,20 +15,23 @@
       "operating_income_M": null,
       "net_income_M": 26585,
       "cost_of_revenue_M": 1150170,
+      "sga_M": 184449,
       "rnd_M": null,
+      "cash_M": 71557,
+      "total_assets_M": 949272,
+      "total_debt_M": null,
+      "capex_M": 47156,
+      "operating_cash_flow_M": 77441,
       "tags_used": {
         "revenue_M": "jpigp_cor:NetSalesIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
         "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
         "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
         "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
         "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
         "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
-      },
-      "cash_M": 71557,
-      "total_assets_M": 949272,
-      "capex_M": 47156,
-      "operating_cash_flow_M": 77441
+      }
     },
     {
       "period_end": "2024-03-31",
@@ -40,9 +43,11 @@
       "operating_income_M": null,
       "net_income_M": 28078,
       "cost_of_revenue_M": 1099801,
+      "sga_M": 172074,
       "rnd_M": null,
       "cash_M": 65465,
       "total_assets_M": 958237,
+      "total_debt_M": null,
       "capex_M": 60849,
       "operating_cash_flow_M": 86586
     },
@@ -56,9 +61,11 @@
       "operating_income_M": null,
       "net_income_M": 16637,
       "cost_of_revenue_M": 1082760,
+      "sga_M": 166080,
       "rnd_M": null,
       "cash_M": 64986,
       "total_assets_M": 937155,
+      "total_debt_M": null,
       "capex_M": 67159,
       "operating_cash_flow_M": 11331
     },
@@ -72,9 +79,11 @@
       "operating_income_M": null,
       "net_income_M": 48049,
       "cost_of_revenue_M": 974361,
+      "sga_M": 157950,
       "rnd_M": null,
       "cash_M": 85374,
       "total_assets_M": 909213,
+      "total_debt_M": null,
       "capex_M": 79347,
       "operating_cash_flow_M": 33387
     },
@@ -88,9 +97,11 @@
       "operating_income_M": null,
       "net_income_M": 32616,
       "cost_of_revenue_M": 964367,
+      "sga_M": 161215,
       "rnd_M": null,
       "cash_M": 83831,
       "total_assets_M": 825405,
+      "total_debt_M": null,
       "capex_M": 82902,
       "operating_cash_flow_M": 82518
     },
@@ -104,9 +115,11 @@
       "operating_income_M": null,
       "net_income_M": 19214,
       "cost_of_revenue_M": 1024296,
+      "sga_M": 166030,
       "rnd_M": null,
       "cash_M": 72399,
       "total_assets_M": 768861,
+      "total_debt_M": null,
       "capex_M": 47802,
       "operating_cash_flow_M": 65464
     },
@@ -120,9 +133,11 @@
       "operating_income_M": null,
       "net_income_M": 19561,
       "cost_of_revenue_M": 1033577,
+      "sga_M": 168338,
       "rnd_M": null,
       "cash_M": 48108,
       "total_assets_M": 741388,
+      "total_debt_M": null,
       "capex_M": 47820,
       "operating_cash_flow_M": 30844
     }

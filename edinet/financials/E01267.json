@@ -3,7 +3,7 @@
   "name": "Kubota Corporation",
   "ticker": "6326",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-04-21",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,21 +15,24 @@
       "operating_income_M": 265470,
       "net_income_M": 186687,
       "cost_of_revenue_M": 2134577,
+      "sga_M": 609108,
       "rnd_M": null,
+      "cash_M": 276959,
+      "total_assets_M": 6204909,
+      "total_debt_M": null,
+      "capex_M": 179831,
+      "operating_cash_flow_M": 327901,
       "tags_used": {
         "revenue_M": "jpigp_cor:NetSalesIFRS",
         "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
         "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
         "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
         "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
         "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
         "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
         "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
-      },
-      "cash_M": 276959,
-      "total_assets_M": 6204909,
-      "capex_M": 179831,
-      "operating_cash_flow_M": 327901
+      }
     },
     {
       "period_end": "2024-12-31",
@@ -41,9 +44,11 @@
       "operating_income_M": 315636,
       "net_income_M": 230437,
       "cost_of_revenue_M": 2088301,
+      "sga_M": 597007,
       "rnd_M": null,
       "cash_M": 295130,
       "total_assets_M": 6018665,
+      "total_debt_M": null,
       "capex_M": 215449,
       "operating_cash_flow_M": 282084
     },
@@ -57,9 +62,11 @@
       "operating_income_M": 328829,
       "net_income_M": 238455,
       "cost_of_revenue_M": 2144242,
+      "sga_M": 538621,
       "rnd_M": null,
       "cash_M": 222118,
       "total_assets_M": 5359247,
+      "total_debt_M": null,
       "capex_M": 146976,
       "operating_cash_flow_M": -17273
     },
@@ -73,9 +80,11 @@
       "operating_income_M": 218942,
       "net_income_M": 156182,
       "cost_of_revenue_M": 1982248,
+      "sga_M": 485644,
       "rnd_M": null,
       "cash_M": 225799,
       "total_assets_M": 4731273,
+      "total_debt_M": null,
       "capex_M": 169424,
       "operating_cash_flow_M": -7680
     },
@@ -89,9 +98,11 @@
       "operating_income_M": 246207,
       "net_income_M": 175637,
       "cost_of_revenue_M": 1564960,
+      "sga_M": 390449,
       "rnd_M": null,
       "cash_M": 258639,
       "total_assets_M": 3773510,
+      "total_debt_M": null,
       "capex_M": 121359,
       "operating_cash_flow_M": 92511
     },
@@ -105,9 +116,11 @@
       "operating_income_M": 175284,
       "net_income_M": 128524,
       "cost_of_revenue_M": 1318384,
+      "sga_M": 356092,
       "rnd_M": null,
       "cash_M": 222919,
       "total_assets_M": 3189317,
+      "total_debt_M": null,
       "capex_M": 87201,
       "operating_cash_flow_M": 142919
     },
@@ -121,9 +134,11 @@
       "operating_income_M": 201654,
       "net_income_M": 149061,
       "cost_of_revenue_M": 1360115,
+      "sga_M": 351986,
       "rnd_M": null,
       "cash_M": 199665,
       "total_assets_M": 3139318,
+      "total_debt_M": null,
       "capex_M": 86654,
       "operating_cash_flow_M": 82410
     },
@@ -137,9 +152,11 @@
       "operating_income_M": null,
       "net_income_M": null,
       "cost_of_revenue_M": null,
+      "sga_M": null,
       "rnd_M": null,
       "cash_M": 229123,
       "total_assets_M": 2895655,
+      "total_debt_M": null,
       "capex_M": null,
       "operating_cash_flow_M": 89148
     }
