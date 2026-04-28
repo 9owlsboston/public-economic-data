@@ -258,6 +258,15 @@ companies:
   0000320187:
     name: NIKE, Inc.
     ticker: NKE
+  0000320193:
+    name: Apple Inc.
+    ticker: AAPL
+    exchange: NASDAQ
+    ai_keywords:
+    - Apple Intelligence
+    - Siri
+    - Core ML
+    - Neural Engine
   0000352915:
     name: UNIVERSAL HEALTH SERVICES INC
     ticker: UHS
@@ -551,6 +560,17 @@ companies:
   0001015922:
     name: CHECK POINT SOFTWARE TECHNOLOGIES LTD
     ticker: CHKP
+  0001018724:
+    name: Amazon.com, Inc.
+    ticker: AMZN
+    exchange: NASDAQ
+    ai_keywords:
+    - AWS
+    - Bedrock
+    - SageMaker
+    - Alexa
+    - Trainium
+    - Inferentia
   0001018840:
     name: Abercrombie & Fitch Co.
     ticker: ANF
@@ -801,6 +821,15 @@ companies:
   0001315098:
     name: Roblox
     ticker: RBLX
+  0001318605:
+    name: Tesla, Inc.
+    ticker: TSLA
+    exchange: NASDAQ
+    ai_keywords:
+    - Autopilot
+    - FSD
+    - Dojo
+    - Optimus
   '0001321655':
     name: PALANTIR TECHNOLOGIES
     ticker: PLTR
@@ -808,8 +837,14 @@ companies:
     name: Expedia Group
     ticker: EXPE
   0001326801:
-    name: META
+    name: Meta Platforms, Inc.
     ticker: META
+    exchange: NASDAQ
+    ai_keywords:
+    - LLaMA
+    - PyTorch
+    - Reality Labs
+    - Threads
   '0001327567':
     name: Palo Alto Networks Inc
     ticker: PANW
@@ -1000,6 +1035,16 @@ companies:
   '0001650372':
     name: Atlassian
     ticker: TEAM
+  '0001652044':
+    name: Alphabet Inc.
+    ticker: GOOGL
+    exchange: NASDAQ
+    ai_keywords:
+    - Gemini
+    - DeepMind
+    - Google Cloud
+    - TPU
+    - Waymo
   0001659166:
     name: Fortive Corp.
     ticker: FTV
