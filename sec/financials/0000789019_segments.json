@@ -1,7 +1,7 @@
 {
   "cik": "0000789019",
   "company": "Microsoft Corporation",
-  "last_refreshed": "2026-04-15",
+  "last_refreshed": "2026-04-29",
   "segments": {
     "intelligent_cloud": [
       {
@@ -314,6 +314,38 @@
         "start": "2024-07-01",
         "end": "2024-12-31",
         "revenue": 49636000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2026-01-01",
+        "end": "2026-03-31",
+        "revenue": 34681000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2025-01-01",
+        "end": "2025-03-31",
+        "revenue": 26751000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2025-07-01",
+        "end": "2026-03-31",
+        "revenue": 98485000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2025-03-31",
+        "revenue": 76387000000.0,
         "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
       }
     ],
@@ -629,6 +661,38 @@
         "end": "2024-12-31",
         "revenue": 57754000000.0,
         "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2026-01-01",
+        "end": "2026-03-31",
+        "revenue": 35013000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2025-01-01",
+        "end": "2025-03-31",
+        "revenue": 29944000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2025-07-01",
+        "end": "2026-03-31",
+        "revenue": 102149000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2025-03-31",
+        "revenue": 87698000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
       }
     ],
     "more_personal_computing": [
@@ -942,6 +1006,38 @@
         "start": "2024-07-01",
         "end": "2024-12-31",
         "revenue": 27827000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2026-01-01",
+        "end": "2026-03-31",
+        "revenue": 13192000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2025-01-01",
+        "end": "2025-03-31",
+        "revenue": 13371000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2025-07-01",
+        "end": "2026-03-31",
+        "revenue": 41198000000.0,
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+      },
+      {
+        "period_end": "2026-03-31",
+        "form": "10-Q",
+        "start": "2024-07-01",
+        "end": "2025-03-31",
+        "revenue": 41198000000.0,
         "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
       }
     ]
