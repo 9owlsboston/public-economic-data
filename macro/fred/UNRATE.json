@@ -3,8 +3,12 @@
   "title": "Unemployment Rate",
   "frequency": "monthly",
   "units": "Percent",
-  "last_refreshed": "2026-05-05",
+  "last_refreshed": "2026-06-05",
   "observations": [
+    {
+      "date": "2026-04-01",
+      "value": 4.3
+    },
     {
       "date": "2026-03-01",
       "value": 4.3
