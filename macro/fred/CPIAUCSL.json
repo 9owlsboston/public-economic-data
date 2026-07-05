@@ -3,8 +3,12 @@
   "title": "Consumer Price Index for All Urban Consumers: All Items in U.S. City Average",
   "frequency": "monthly",
   "units": "Index 1982-1984=100",
-  "last_refreshed": "2026-06-05",
+  "last_refreshed": "2026-07-05",
   "observations": [
+    {
+      "date": "2026-05-01",
+      "value": 333.979
+    },
     {
       "date": "2026-04-01",
       "value": 332.407
