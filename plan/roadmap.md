@@ -1,5 +1,8 @@
 # Roadmap
 
+> **Note:** The dated snapshot below is historical. For current coverage numbers,
+> see [`docs/current-state.md`](../docs/current-state.md) (the always-current SoT).
+
 ## Current State (2026-04-10)
 
 **SEC Financials** — Active, 196 companies, full XBRL history.

@@ -43,4 +43,4 @@ Standard workflow for all changes in this repo — whether adding a data module,
 
 ## Execution Log
 
-See [`docs/execution-log.md`](../execution-log.md) — running record of implementation sessions with actions, outcomes, and decision points.
+See [`docs/history/execution-log.md`](../history/execution-log.md) — running record of implementation sessions with actions, outcomes, and decision points.

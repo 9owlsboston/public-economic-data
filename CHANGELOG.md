@@ -58,7 +58,7 @@ All notable changes to this project will be documented in this file.
   - README data flow still referenced `{tpid}` (should be `{cik}`)
   - Design doc `macro-indicators.md` showed 6 series with no note about expansion to 18
   - Execution log missing sessions for segment implementation and macro expansion
-  - All gaps now resolved — see `docs/execution-log.md` for details
+  - All gaps now resolved — see `docs/history/execution-log.md` for details
 
 ### Known Issues
 - **UBS (0001610520)** — all annual entries have `revenue_M: null`. UBS is an IFRS bank that reports interest/fee/trading income separately; none map to standard XBRL revenue tags. Flagged as warning, not error.

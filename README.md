@@ -6,9 +6,9 @@ Private aggregator of public economic and financial datasets for cloud economics
 
 | Source | Directory | Status | Refresh |
 |---|---|---|---|
-| **SEC EDGAR XBRL** | `sec/` | ✅ Active — 196 companies, full history | Quarterly (GitHub Action) |
+| **SEC EDGAR XBRL** | `sec/` | ✅ Active — 366 companies, full history | Quarterly (GitHub Action) |
 | **FRED Macro Indicators** | `macro/` | ✅ Active — 22 series, full history | Monthly (GitHub Action) |
-| **International Financials** | `intl/` | ✅ Active — 39 companies (Yahoo Finance) | Quarterly (GitHub Action) |
+| **International Financials** | `intl/` | ✅ Active — 190 companies (Yahoo Finance) | Quarterly (GitHub Action) |
 | **EDINET Financials** | `edinet/` | ✅ Active — 14 Japanese companies (EDINET XBRL) | Quarterly (GitHub Action) |
 | Cloud Pricing (Azure/AWS/GCP) | `cloud-pricing/` | Planned | Monthly |
 | SDK Adoption (PyPI/npm) | `sdk-adoption/` | Planned | Weekly |
@@ -28,7 +28,7 @@ Field-level schema documentation for each data source:
 
 ### Coverage
 
-196 companies from top Azure customers by ACR. Revenue, R&D, COGS, net income, capex, operating cash flow, SGA, cash, total debt, total assets.
+366 companies from top Azure customers by ACR (registry-keyed; 369 standard data files — 3 filers predate registry entries). Revenue, R&D, COGS, net income, capex, operating cash flow, SGA, cash, total debt, total assets.
 Supports `us-gaap` (10-K/10-Q) and `ifrs-full` (20-F foreign private issuers).
 
 ### Structure
@@ -40,7 +40,7 @@ sec/
     0000796343.json           # Adobe — 9 annual + 25 quarterly periods
     0000104169.json           # Walmart
     0000789019_segments.json  # Microsoft — segment-level revenue
-    ...                       # 196 standard files + 1 segment file
+    ...                       # 369 standard files + 1 segment file
   scripts/
     refresh.py                # SEC EDGAR fetcher (Submissions → CompanyFacts)
     refresh_segments.py       # Segment-level XBRL extraction
@@ -230,7 +230,7 @@ Manual trigger available via `workflow_dispatch`.
 
 ### Coverage
 
-39 European and international companies. Revenue, R&D (where disclosed), COGS, net income.
+190 European and international companies. Revenue, R&D (where disclosed), COGS, net income.
 Data sourced via Yahoo Finance (`yfinance`).
 
 ### Structure

@@ -127,3 +127,31 @@ Each session appends a dated entry. Agents and humans both contribute.
 - SEC: 28 standard files + 1 segment file
 - All tests pass (11/11 pytest, 0 errors standalone)
 - Documentation audit complete, all identified gaps resolved
+
+
+### 2026-07-09 — MVRS bootstrap (profile xs) + review-finding reconciliation
+
+**Scope:** repo scaffolding — patched the repo with the `dev-env-setup` MVRS toolkit and resolved a rubber-duck review of the seeded files before commit.
+**Contributor:** velen + AI agent
+
+- Ran `dev-env-setup/scripts/bootstrap-repo.sh --profile xs` → seeded `.editorconfig`, `.gitattributes`, `.gitignore` baseline, `AGENTS.md`, `docs/current-state.md`, `docs/history/execution-log.md`, `.repo-profile`.
+- Reconciled five review findings:
+  - **AGENTS.md** populated from `.github/copilot-instructions.md` (purpose; hard rules — public IDs only / no manual JSON edits / helper-sync / raw-data-only / currency-aware; run+test; where-to-write map; drift-rules).
+  - **Execution log de-duplicated** — `git mv docs/execution-log.md docs/history/execution-log.md` (dropped the empty scaffold); fixed links in `CHANGELOG.md` + `docs/guides/development-workflow.md`; added a drift-rule guarding the old path.
+  - **docs/current-state.md** filled (2026-07-09 snapshot; 4 active modules + 2 planned).
+  - **.gitattributes** — pinned `*.csv text eol=crlf` so the LF default does not renormalize the tracked `ai-spending-10k.csv`.
+  - **.gitignore** — dropped the duplicate `.cache/`.
+
+Verified: `docs-drift --repo .` clean (links + drift-rules resolve).
+
+### 2026-07-09 — MVRS bootstrap: coverage-count + gitattributes follow-up
+
+**Scope:** second rubber-duck pass on the bootstrap branch — corrected stale coverage counts across live docs and hardened the CSV attribute.
+**Contributor:** velen + AI agent
+
+- **Coverage counts corrected** (were stale): SEC `196 → 366` companies, International `39 → 190`, across `README.md`, `.github/copilot-instructions.md`, `docs/current-state.md`. Added a `366 companies / 369 standard files` note (3 filers predate registry entries: ASML, TSMC, Walgreens).
+- **`docs/schema/intl.md`** — Coverage section was self-contradictory (`39 … (190)`); rebuilt the country table from `intl/registry.yaml` → 190 companies across 28 territories (counts verified against the registry).
+- **`.gitattributes`** — changed `*.csv text eol=crlf` → `*.csv -text` so `git add --renormalize` cannot produce a line-ending-only diff on `ai-spending-10k.csv`.
+- **`plan/roadmap.md`** — left the dated `Current State (2026-04-10)` block and completed `[x]` bullets as immutable history; added a pointer to `docs/current-state.md` as the always-current SoT.
+
+Verified: `intl.md` table sums to 190; every cited key company exists in the registry (fixed one bad citation — SAP is not an intl filer, replaced with Volkswagen); `git check-attr text -- ai-spending-10k.csv` → unset with no blob change on renormalize; no residual stale live counts (`grep` confirms remaining `196`/`39`/`365` hits are dated history only).

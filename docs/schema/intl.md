@@ -96,15 +96,28 @@ Unlike SEC data (nearly always USD), international financials use **local curren
 
 ## Coverage
 
-39 companies across 15 countries. See `intl/registry.yaml` for the full list (190 companies).
+190 companies across 28 countries/territories, sourced via Yahoo Finance. See
+`intl/registry.yaml` for the full list. (Country is derived from the ISIN prefix;
+a few dual-listed names appear under two ISINs.)
 
 | Country | Count | Key companies |
 |---|---|---|
-| Germany | 11 | Siemens, SAP, BMW, VW, Mercedes, Deutsche Telekom, Allianz, BASF, Bayer |
-| France | 4 | L'Oréal, AXA, Capgemini, Société Générale |
-| UK | 5 | Rio Tinto, LSEG, Barclays, Vodafone |
-| Spain | 5 | Amadeus, BBVA, Iberdrola, Inditex, Telefónica |
-| India | 4 | Reliance, Infosys, TCS, Wipro |
-| Brazil | 4 | Itaú, Bradesco, Vale, Banco do Brasil |
-| Australia | 2 | CBA, Telstra |
-| Others | 4 | Novo Nordisk (DK), Heineken (NL), Ericsson (SE), FAB (AE) |
+| France | 29 | LVMH, L'Oréal, Sanofi, BNP Paribas, Schneider Electric, AXA |
+| Germany | 22 | Siemens, Volkswagen, BMW, Allianz, BASF, Deutsche Telekom, Mercedes-Benz |
+| UK | 21 | HSBC, BP, Unilever, Rio Tinto, Barclays, GSK, London Stock Exchange |
+| Spain | 15 | Iberdrola, Inditex, Banco Santander, BBVA, Amadeus, Telefónica |
+| Sweden | 12 | Ericsson, AB Volvo, Atlas Copco, H&M, Sandvik, Electrolux |
+| Netherlands | 10 | ASML, ING Groep, Ahold Delhaize, Philips, Heineken, Wolters Kluwer |
+| Italy | 8 | UniCredit, Intesa Sanpaolo, Generali, Leonardo, Telecom Italia |
+| Australia | 8 | Commonwealth Bank, NAB, Westpac, Woolworths, Wesfarmers, Telstra |
+| Switzerland | 7 | Nestlé, Roche, ABB, Zurich Insurance, Swiss Re, SGS |
+| Denmark | 7 | Maersk, Ørsted, Vestas, Carlsberg, DSV, Danske Bank |
+| India | 7 | Reliance, TCS, HCL Technologies, ICICI Bank, Larsen & Toubro |
+| Japan | 6 | Canon, Mizuho, Seven & i, Dentsu, Dai-ichi Life, Trend Micro |
+| Norway | 5 | Equinor, DNB Bank, Norsk Hydro, Kongsberg, Aker |
+| Brazil | 5 | Petrobras, Vale, Itaú Unibanco, Bradesco, Banco do Brasil |
+| Finland | 4 | Nokia, Fortum, Metso, TietoEVRY |
+| Canada | 3 | Constellation Software, Thomson Reuters, Canadian Tire |
+| South Korea | 3 | Samsung Electronics, LG Electronics, KRAFTON |
+| Belgium | 3 | Anheuser-Busch InBev, UCB, Proximus |
+| Others (10 territories) | 15 | Tencent, Xiaomi (KY); Glencore (JE); AIA, Lenovo (HK); CEMEX, Grupo Bimbo (MX); Standard Bank, Nedbank (ZA); EDP, Sonae (PT); Singtel (SG); Raiffeisen Bank Intl. (AT); Piraeus (GR); Koç Holding (TR) |
