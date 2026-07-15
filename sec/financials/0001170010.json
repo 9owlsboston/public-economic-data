@@ -1,7 +1,7 @@
 {
   "cik": "0001170010",
   "name": "CarMax, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2026-02-28",
@@ -270,6 +270,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-31",
+      "filing_date": "2026-06-24",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 8014,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7159,
+      "net_income_M": 186,
+      "capex_M": 103,
+      "operating_cash_flow_M": 18,
+      "operating_income_M": null,
+      "sga_M": 635,
+      "cash_M": 132,
+      "total_debt_M": 17561,
+      "total_assets_M": 26627,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-11-30",
       "filing_date": "2025-12-23",
       "form": "10-Q",
@@ -285,18 +314,7 @@
       "sga_M": 581,
       "cash_M": 205,
       "total_debt_M": 16587,
-      "total_assets_M": 25562,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 25562
     },
     {
       "period_end": "2025-08-31",

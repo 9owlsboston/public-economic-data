@@ -1,8 +1,38 @@
 {
   "cik": "0001867072",
   "name": "Kyndryl Holdings, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-29",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 15092,
+      "rnd_M": 57,
+      "cost_of_revenue_M": 11803,
+      "net_income_M": 185,
+      "capex_M": 608,
+      "operating_cash_flow_M": 948,
+      "operating_income_M": null,
+      "sga_M": 2654,
+      "cash_M": 2623,
+      "total_debt_M": 2293,
+      "total_assets_M": 12551,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:ProfitLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2026-02-17",
@@ -20,19 +50,7 @@
       "cash_M": 1786,
       "total_debt_M": 3042,
       "total_assets_M": 10452,
-      "amended": true,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:ProfitLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "amended": true
     },
     {
       "period_end": "2025-03-31",

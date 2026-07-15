@@ -1,7 +1,7 @@
 {
   "cik": "0000070858",
   "name": "Bank of America Corp.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -32,6 +32,32 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 30272,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 8584,
+      "capex_M": null,
+      "operating_cash_flow_M": 41770,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 242479,
+      "total_debt_M": 325964,
+      "total_assets_M": 3496186,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "revenue": 28088000000,
       "net_income": 8469000000
@@ -52,15 +78,7 @@
       "sga_M": null,
       "cash_M": 246507,
       "total_debt_M": 311484,
-      "total_assets_M": 3403716,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 3403716
     },
     {
       "period_end": "2025-06-30",

@@ -1,7 +1,7 @@
 {
   "cik": "0001477449",
   "name": "Teladoc Health, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -125,6 +125,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 614,
+      "rnd_M": 68,
+      "cost_of_revenue_M": null,
+      "net_income_M": -64,
+      "capex_M": 2,
+      "operating_cash_flow_M": 10,
+      "operating_income_M": -62,
+      "sga_M": 102,
+      "cash_M": 751,
+      "total_debt_M": null,
+      "total_assets_M": 2807,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-10-30",
       "form": "10-Q",
@@ -140,18 +169,7 @@
       "sga_M": 103,
       "cash_M": 726,
       "total_debt_M": null,
-      "total_assets_M": 2879,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 2879
     },
     {
       "period_end": "2025-06-30",

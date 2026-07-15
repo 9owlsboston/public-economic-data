@@ -1,7 +1,7 @@
 {
   "cik": "0000021344",
   "name": "The Coca-Cola Company",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -180,6 +180,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-03",
+      "filing_date": "2026-04-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 12472,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4620,
+      "net_income_M": 3924,
+      "capex_M": 266,
+      "operating_cash_flow_M": 2021,
+      "operating_income_M": 4359,
+      "sga_M": 3472,
+      "cash_M": 10574,
+      "total_debt_M": 39065,
+      "total_assets_M": 104217,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-26",
       "filing_date": "2025-10-23",
       "form": "10-Q",
@@ -195,19 +225,7 @@
       "sga_M": 3618,
       "cash_M": 12732,
       "total_debt_M": 43177,
-      "total_assets_M": 106045,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 106045
     },
     {
       "period_end": "2025-06-27",

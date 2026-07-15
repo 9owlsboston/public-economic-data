@@ -1,7 +1,7 @@
 {
   "cik": "0001086222",
   "name": "AKAMAI TECHNOLOGIES INC",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -144,6 +144,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1074,
+      "rnd_M": 142,
+      "cost_of_revenue_M": 471,
+      "net_income_M": 106,
+      "capex_M": 102,
+      "operating_cash_flow_M": 313,
+      "operating_income_M": 114,
+      "sga_M": 164,
+      "cash_M": 622,
+      "total_debt_M": null,
+      "total_assets_M": 11646,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-07",
       "form": "10-Q",
@@ -159,19 +189,7 @@
       "sga_M": 162,
       "cash_M": 928,
       "total_debt_M": null,
-      "total_assets_M": 10833,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 10833
     },
     {
       "period_end": "2025-06-30",

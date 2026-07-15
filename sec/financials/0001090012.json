@@ -1,7 +1,7 @@
 {
   "cik": "0001090012",
   "name": "Devon Energy Corp.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -19,7 +19,26 @@
       "sga_M": 492,
       "cash_M": 1384,
       "total_debt_M": 8389,
+      "total_assets_M": 31599
+    },
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-04-21",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 17188,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2642,
+      "capex_M": 3592,
+      "operating_cash_flow_M": 6711,
+      "operating_income_M": null,
+      "sga_M": 492,
+      "cash_M": 1384,
+      "total_debt_M": 8389,
       "total_assets_M": 31599,
+      "amended": true,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "net_income": "us-gaap:NetIncomeLoss",
@@ -40,7 +59,7 @@
       "revenue_M": 15940,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 2891,
+      "net_income_M": 2893,
       "capex_M": 3645,
       "operating_cash_flow_M": 6600,
       "operating_income_M": null,
@@ -58,7 +77,7 @@
       "revenue_M": 15258,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 3747,
+      "net_income_M": 3739,
       "capex_M": 3883,
       "operating_cash_flow_M": 6544,
       "operating_income_M": null,
@@ -76,7 +95,7 @@
       "revenue_M": 19169,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 6015,
+      "net_income_M": 6031,
       "capex_M": 2542,
       "operating_cash_flow_M": 8530,
       "operating_income_M": null,
@@ -94,7 +113,7 @@
       "revenue_M": 12206,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 2813,
+      "net_income_M": 2808,
       "capex_M": 1989,
       "operating_cash_flow_M": 4899,
       "operating_income_M": null,
@@ -268,6 +287,34 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3807,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 120,
+      "capex_M": 839,
+      "operating_cash_flow_M": 1655,
+      "operating_income_M": null,
+      "sga_M": 125,
+      "cash_M": 1763,
+      "total_debt_M": 8386,
+      "total_assets_M": 32543,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-06",
       "form": "10-Q",
@@ -283,17 +330,7 @@
       "sga_M": 114,
       "cash_M": 1229,
       "total_debt_M": 8391,
-      "total_assets_M": 31221,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 31221
     },
     {
       "period_end": "2025-06-30",

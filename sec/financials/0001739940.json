@@ -1,7 +1,7 @@
 {
   "cik": "0001739940",
   "name": "Cigna Group",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -161,6 +161,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 68494,
+      "rnd_M": null,
+      "cost_of_revenue_M": 54100,
+      "net_income_M": 1654,
+      "capex_M": null,
+      "operating_cash_flow_M": 1131,
+      "operating_income_M": 2358,
+      "sga_M": 3722,
+      "cash_M": 7040,
+      "total_debt_M": 29371,
+      "total_assets_M": 153266,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "revenue": 69748000000,
       "net_income": 1973000000
@@ -181,18 +210,7 @@
       "sga_M": 3362,
       "cash_M": 6025,
       "total_debt_M": 30947,
-      "total_assets_M": 157919,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:ProfitLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 157919
     },
     {
       "period_end": "2025-06-30",
@@ -231,7 +249,7 @@
       "revenue_M": 65502,
       "rnd_M": null,
       "cost_of_revenue_M": 48398,
-      "net_income_M": 1409,
+      "net_income_M": 1323,
       "capex_M": null,
       "operating_cash_flow_M": 1920,
       "operating_income_M": 1971,

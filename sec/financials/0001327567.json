@@ -1,7 +1,7 @@
 {
   "cik": "0001327567",
   "name": "Palo Alto Networks Inc",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-07-31",
@@ -144,6 +144,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-30",
+      "filing_date": "2026-06-03",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3002,
+      "rnd_M": 734,
+      "cost_of_revenue_M": 974,
+      "net_income_M": -177,
+      "capex_M": 337,
+      "operating_cash_flow_M": 3196,
+      "operating_income_M": -183,
+      "sga_M": 316,
+      "cash_M": 2364,
+      "total_debt_M": null,
+      "total_assets_M": 46266,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-01-31",
       "filing_date": "2026-02-18",
       "form": "10-Q",
@@ -159,19 +189,7 @@
       "sga_M": 178,
       "cash_M": 4158,
       "total_debt_M": null,
-      "total_assets_M": 24979,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 24979
     },
     {
       "period_end": "2025-10-31",

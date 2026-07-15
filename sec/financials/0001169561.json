@@ -1,8 +1,38 @@
 {
   "cik": "0001169561",
   "name": "COMMVAULT SYSTEMS INC",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-11",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1184,
+      "rnd_M": 162,
+      "cost_of_revenue_M": 223,
+      "net_income_M": 71,
+      "capex_M": 8,
+      "operating_cash_flow_M": 245,
+      "operating_income_M": 74,
+      "sga_M": 163,
+      "cash_M": 900,
+      "total_debt_M": null,
+      "total_assets_M": 1886,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-05-05",
@@ -19,19 +49,7 @@
       "sga_M": 138,
       "cash_M": 302,
       "total_debt_M": null,
-      "total_assets_M": 1118,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 1118
     },
     {
       "period_end": "2024-03-31",

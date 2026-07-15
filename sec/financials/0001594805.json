@@ -1,7 +1,7 @@
 {
   "cik": "0001594805",
   "name": "Shopify Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -19,7 +19,26 @@
       "sga_M": 471,
       "cash_M": 1545,
       "total_debt_M": null,
+      "total_assets_M": 15189
+    },
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-04-29",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 11556,
+      "rnd_M": 1536,
+      "cost_of_revenue_M": 6001,
+      "net_income_M": 1231,
+      "capex_M": 26,
+      "operating_cash_flow_M": 2033,
+      "operating_income_M": 1468,
+      "sga_M": 471,
+      "cash_M": 1545,
+      "total_debt_M": null,
       "total_assets_M": 15189,
+      "amended": true,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "rnd": "us-gaap:ResearchAndDevelopmentExpense",
@@ -235,6 +254,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-05",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3170,
+      "rnd_M": 437,
+      "cost_of_revenue_M": 1624,
+      "net_income_M": -581,
+      "capex_M": 5,
+      "operating_cash_flow_M": 481,
+      "operating_income_M": 382,
+      "sga_M": 115,
+      "cash_M": 1848,
+      "total_debt_M": null,
+      "total_assets_M": 14121,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "revenue": 2844000000,
       "net_income": 264000000,
@@ -256,19 +305,7 @@
       "sga_M": 115,
       "cash_M": 2414,
       "total_debt_M": null,
-      "total_assets_M": 15039,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 15039
     },
     {
       "period_end": "2025-06-30",

@@ -1,7 +1,7 @@
 {
   "cik": "0000072971",
   "name": "WELLS FARGO & COMPANY/MN",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -49,6 +49,31 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-29",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5253,
+      "capex_M": null,
+      "operating_cash_flow_M": 9143,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 173273,
+      "total_debt_M": 183941,
+      "total_assets_M": 2205752,
+      "tags_used": {
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-10-31",
       "form": "10-Q",
@@ -64,14 +89,7 @@
       "sga_M": null,
       "cash_M": 172516,
       "total_debt_M": 177773,
-      "total_assets_M": 2062926,
-      "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 2062926
     },
     {
       "period_end": "2025-06-30",

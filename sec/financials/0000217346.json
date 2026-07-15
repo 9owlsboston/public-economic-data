@@ -1,7 +1,7 @@
 {
   "cik": "0000217346",
   "name": "Textron Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2026-01-03",
@@ -268,6 +268,34 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-04",
+      "filing_date": "2026-04-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3695,
+      "rnd_M": 120,
+      "cost_of_revenue_M": null,
+      "net_income_M": 220,
+      "capex_M": 133,
+      "operating_cash_flow_M": -117,
+      "operating_income_M": null,
+      "sga_M": 321,
+      "cash_M": 1610,
+      "total_debt_M": null,
+      "total_assets_M": 18141,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-27",
       "filing_date": "2025-10-23",
       "form": "10-Q",
@@ -283,17 +311,7 @@
       "sga_M": 257,
       "cash_M": 1522,
       "total_debt_M": null,
-      "total_assets_M": 17381,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 17381
     },
     {
       "period_end": "2025-06-28",

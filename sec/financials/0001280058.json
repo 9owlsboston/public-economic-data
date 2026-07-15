@@ -1,7 +1,7 @@
 {
   "cik": "0001280058",
   "name": "BLACKBAUD INC",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -43,7 +43,7 @@
       "revenue_M": 1155,
       "rnd_M": 154,
       "cost_of_revenue_M": 523,
-      "net_income_M": -300,
+      "net_income_M": -283,
       "capex_M": 7,
       "operating_cash_flow_M": 296,
       "operating_income_M": -271,
@@ -62,7 +62,7 @@
       "revenue_M": 1155,
       "rnd_M": 154,
       "cost_of_revenue_M": 523,
-      "net_income_M": -300,
+      "net_income_M": -283,
       "capex_M": 7,
       "operating_cash_flow_M": 296,
       "operating_income_M": -271,
@@ -80,7 +80,7 @@
       "revenue_M": 1107,
       "rnd_M": 147,
       "cost_of_revenue_M": 508,
-      "net_income_M": 3,
+      "net_income_M": 2,
       "capex_M": 5,
       "operating_cash_flow_M": 200,
       "operating_income_M": 46,
@@ -254,6 +254,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-29",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 281,
+      "rnd_M": 37,
+      "cost_of_revenue_M": 115,
+      "net_income_M": 31,
+      "capex_M": 2,
+      "operating_cash_flow_M": 51,
+      "operating_income_M": 51,
+      "sga_M": 30,
+      "cash_M": 34,
+      "total_debt_M": 1163,
+      "total_assets_M": 2109,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-03",
       "form": "10-Q",
@@ -269,20 +300,7 @@
       "sga_M": 31,
       "cash_M": 38,
       "total_debt_M": 1042,
-      "total_assets_M": 2104,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 2104
     },
     {
       "period_end": "2025-06-30",

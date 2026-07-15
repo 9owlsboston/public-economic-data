@@ -1,7 +1,7 @@
 {
   "cik": "0000019617",
   "name": "JPMORGAN CHASE & CO",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -32,6 +32,31 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-01",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 16494,
+      "capex_M": null,
+      "operating_cash_flow_M": -211761,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 312142,
+      "total_debt_M": 448764,
+      "total_assets_M": 4900475,
+      "tags_used": {
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-04",
       "form": "10-Q",
@@ -47,14 +72,7 @@
       "sga_M": null,
       "cash_M": 303436,
       "total_debt_M": 427203,
-      "total_assets_M": 4560205,
-      "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 4560205
     },
     {
       "period_end": "2025-06-30",

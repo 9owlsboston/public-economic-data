@@ -1,7 +1,7 @@
 {
   "cik": "0000200406",
   "name": "Johnson & Johnson",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-28",
@@ -180,6 +180,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-29",
+      "filing_date": "2026-04-22",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 24062,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8106,
+      "net_income_M": 5235,
+      "capex_M": 1049,
+      "operating_cash_flow_M": 2514,
+      "operating_income_M": null,
+      "sga_M": 6034,
+      "cash_M": 21688,
+      "total_debt_M": 37527,
+      "total_assets_M": 200894,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-28",
       "filing_date": "2025-10-22",
       "form": "10-Q",
@@ -195,18 +224,7 @@
       "sga_M": 5922,
       "cash_M": 18231,
       "total_debt_M": 39408,
-      "total_assets_M": 192816,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 192816
     },
     {
       "period_end": "2025-06-29",

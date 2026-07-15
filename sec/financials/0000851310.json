@@ -1,7 +1,7 @@
 {
   "cik": "0000851310",
   "name": "Harmonic Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -12,7 +12,7 @@
       "revenue_M": 361,
       "rnd_M": 76,
       "cost_of_revenue_M": 186,
-      "net_income_M": -43,
+      "net_income_M": 1,
       "capex_M": 11,
       "operating_cash_flow_M": 108,
       "operating_income_M": 14,
@@ -291,6 +291,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-03",
+      "filing_date": "2026-05-13",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 122,
+      "rnd_M": 21,
+      "cost_of_revenue_M": 58,
+      "net_income_M": 7,
+      "capex_M": 1,
+      "operating_cash_flow_M": 32,
+      "operating_income_M": 20,
+      "sga_M": 22,
+      "cash_M": 109,
+      "total_debt_M": 111,
+      "total_assets_M": 705,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-26",
       "filing_date": "2025-11-04",
       "form": "10-Q",
@@ -306,20 +337,7 @@
       "sga_M": 37,
       "cash_M": 127,
       "total_debt_M": 113,
-      "total_assets_M": 759,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 759
     },
     {
       "period_end": "2025-06-27",

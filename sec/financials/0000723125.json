@@ -1,7 +1,7 @@
 {
   "cik": "0000723125",
   "name": "MICRON TECHNOLOGY INC",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-08-28",
@@ -181,6 +181,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-28",
+      "filing_date": "2026-06-25",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 41456,
+      "rnd_M": 1316,
+      "cost_of_revenue_M": 6400,
+      "net_income_M": 28243,
+      "capex_M": 19602,
+      "operating_cash_flow_M": 45702,
+      "operating_income_M": 33318,
+      "sga_M": 407,
+      "cash_M": 24995,
+      "total_debt_M": 5140,
+      "total_assets_M": 134112,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-02-26",
       "filing_date": "2026-03-19",
       "form": "10-Q",
@@ -196,20 +227,7 @@
       "sga_M": 344,
       "cash_M": 13908,
       "total_debt_M": 9557,
-      "total_assets_M": 101509,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 101509
     },
     {
       "period_end": "2025-11-27",

@@ -1,7 +1,7 @@
 {
   "cik": "0000909832",
   "name": "COSTCO WHOLESALE CORP /NEW",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-08-31",
@@ -217,6 +217,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-10",
+      "filing_date": "2026-06-03",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 70527,
+      "rnd_M": null,
+      "cost_of_revenue_M": 61519,
+      "net_income_M": 2192,
+      "capex_M": 4228,
+      "operating_cash_flow_M": 11133,
+      "operating_income_M": 2815,
+      "sga_M": 6193,
+      "cash_M": 18946,
+      "total_debt_M": 5670,
+      "total_assets_M": 86430,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-02-15",
       "filing_date": "2026-03-11",
       "form": "10-Q",
@@ -232,19 +262,7 @@
       "sga_M": 6272,
       "cash_M": 17383,
       "total_debt_M": 5688,
-      "total_assets_M": 83639,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 83639
     },
     {
       "period_end": "2025-11-23",

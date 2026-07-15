@@ -1,7 +1,7 @@
 {
   "cik": "0000047111",
   "name": "Hershey Co.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -18,7 +18,7 @@
       "operating_income_M": 1442,
       "sga_M": 2461,
       "cash_M": 926,
-      "total_debt_M": 4681,
+      "total_debt_M": 5185,
       "total_assets_M": 13741,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -30,7 +30,7 @@
         "operating_income": "us-gaap:OperatingIncomeLoss",
         "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
       }
     },
@@ -127,6 +127,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-29",
+      "filing_date": "2026-04-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3104,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1881,
+      "net_income_M": 435,
+      "capex_M": 115,
+      "operating_cash_flow_M": 469,
+      "operating_income_M": 641,
+      "sga_M": 576,
+      "cash_M": 877,
+      "total_debt_M": 5188,
+      "total_assets_M": 13841,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-28",
       "filing_date": "2025-10-30",
       "form": "10-Q",
@@ -142,19 +172,7 @@
       "sga_M": 601,
       "cash_M": 1163,
       "total_debt_M": 5179,
-      "total_assets_M": 13579,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 13579
     },
     {
       "period_end": "2025-06-29",

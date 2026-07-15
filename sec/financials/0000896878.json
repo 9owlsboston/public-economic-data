@@ -1,7 +1,7 @@
 {
   "cik": "0000896878",
   "name": "Intuit Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-07-31",
@@ -126,6 +126,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-30",
+      "filing_date": "2026-05-20",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 8558,
+      "rnd_M": 840,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3064,
+      "capex_M": 148,
+      "operating_cash_flow_M": 7507,
+      "operating_income_M": 4020,
+      "sga_M": 409,
+      "cash_M": 4681,
+      "total_debt_M": 6162,
+      "total_assets_M": 39330,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-01-31",
       "filing_date": "2026-02-26",
       "form": "10-Q",
@@ -141,19 +171,7 @@
       "sga_M": 401,
       "cash_M": 2942,
       "total_debt_M": 6160,
-      "total_assets_M": 34282,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 34282
     },
     {
       "period_end": "2025-10-31",

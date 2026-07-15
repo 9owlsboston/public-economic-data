@@ -1,7 +1,7 @@
 {
   "cik": "0001467858",
   "name": "General Motors Co.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -196,6 +196,33 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-28",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 43624,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2627,
+      "capex_M": 1512,
+      "operating_cash_flow_M": 2950,
+      "operating_income_M": 2926,
+      "sga_M": null,
+      "cash_M": 19800,
+      "total_debt_M": null,
+      "total_assets_M": 280974,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-10-21",
       "form": "10-Q",
@@ -211,16 +238,7 @@
       "sga_M": null,
       "cash_M": 22910,
       "total_debt_M": null,
-      "total_assets_M": 288168,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 288168
     },
     {
       "period_end": "2025-06-30",

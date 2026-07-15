@@ -1,7 +1,7 @@
 {
   "cik": "0000104169",
   "name": "Walmart Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -90,6 +90,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-30",
+      "filing_date": "2026-05-29",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 177751,
+      "rnd_M": null,
+      "cost_of_revenue_M": 133058,
+      "net_income_M": 5330,
+      "capex_M": 6684,
+      "operating_cash_flow_M": 4738,
+      "operating_income_M": 7493,
+      "sga_M": 37200,
+      "cash_M": 10729,
+      "total_debt_M": 36887,
+      "total_assets_M": 289607,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-10-31",
       "filing_date": "2025-12-03",
       "form": "10-Q",
@@ -105,19 +135,7 @@
       "sga_M": 38094,
       "cash_M": 10582,
       "total_debt_M": 34445,
-      "total_assets_M": 288655,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 288655
     },
     {
       "period_end": "2025-07-31",

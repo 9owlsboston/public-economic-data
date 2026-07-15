@@ -1,7 +1,7 @@
 {
   "cik": "0001472787",
   "name": "First American Financial Corp",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -302,6 +302,32 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-24",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1838,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 125,
+      "capex_M": 38,
+      "operating_cash_flow_M": 6,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 2436,
+      "total_debt_M": null,
+      "total_assets_M": 17937,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-10-24",
       "form": "10-Q",
@@ -317,15 +343,7 @@
       "sga_M": null,
       "cash_M": 2912,
       "total_debt_M": null,
-      "total_assets_M": 17610,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 17610
     },
     {
       "period_end": "2025-06-30",

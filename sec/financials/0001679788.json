@@ -1,7 +1,7 @@
 {
   "cik": "0001679788",
   "name": "Coinbase",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -12,7 +12,7 @@
       "revenue_M": 7181,
       "rnd_M": 1671,
       "cost_of_revenue_M": null,
-      "net_income_M": 1260,
+      "net_income_M": 1300,
       "capex_M": null,
       "operating_cash_flow_M": 2426,
       "operating_income_M": 1435,
@@ -41,7 +41,7 @@
       "revenue_M": 6564,
       "rnd_M": 1468,
       "cost_of_revenue_M": null,
-      "net_income_M": 2579,
+      "net_income_M": 2600,
       "capex_M": null,
       "operating_cash_flow_M": 3104,
       "operating_income_M": 2307,
@@ -59,7 +59,7 @@
       "revenue_M": 3108,
       "rnd_M": 1325,
       "cost_of_revenue_M": null,
-      "net_income_M": 95,
+      "net_income_M": 100,
       "capex_M": 0,
       "operating_cash_flow_M": 673,
       "operating_income_M": -162,
@@ -77,7 +77,7 @@
       "revenue_M": 3194,
       "rnd_M": 2326,
       "cost_of_revenue_M": null,
-      "net_income_M": -2625,
+      "net_income_M": -2600,
       "capex_M": 3,
       "operating_cash_flow_M": -1585,
       "operating_income_M": -2710,
@@ -95,7 +95,7 @@
       "revenue_M": 7839,
       "rnd_M": 1292,
       "cost_of_revenue_M": null,
-      "net_income_M": 3624,
+      "net_income_M": 3600,
       "capex_M": 3,
       "operating_cash_flow_M": 4038,
       "operating_income_M": 3077,
@@ -106,6 +106,35 @@
     }
   ],
   "quarterly": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1413,
+      "rnd_M": 526,
+      "cost_of_revenue_M": null,
+      "net_income_M": -394,
+      "capex_M": null,
+      "operating_cash_flow_M": 183,
+      "operating_income_M": -21,
+      "sga_M": 376,
+      "cash_M": 10205,
+      "total_debt_M": 7200,
+      "total_assets_M": 28849,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-09-30",
       "revenue": 1868693000,
@@ -128,18 +157,7 @@
       "sga_M": 418,
       "cash_M": 8676,
       "total_debt_M": 7202,
-      "total_assets_M": 31351,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 31351
     },
     {
       "period_end": "2025-06-30",

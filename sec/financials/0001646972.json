@@ -1,8 +1,38 @@
 {
   "cik": "0001646972",
   "name": "Albertsons Companies, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
+    {
+      "period_end": "2026-02-28",
+      "filing_date": "2026-04-27",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 83172,
+      "rnd_M": null,
+      "cost_of_revenue_M": 60566,
+      "net_income_M": 217,
+      "capex_M": 1839,
+      "operating_cash_flow_M": 2367,
+      "operating_income_M": 728,
+      "sga_M": 21891,
+      "cash_M": 199,
+      "total_debt_M": 8413,
+      "total_assets_M": 26766,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-02-22",
       "filing_date": "2025-04-21",
@@ -19,19 +49,7 @@
       "sga_M": 20614,
       "cash_M": 294,
       "total_debt_M": 7762,
-      "total_assets_M": 26756,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 26756
     },
     {
       "period_end": "2024-02-24",

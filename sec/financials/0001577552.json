@@ -1,8 +1,37 @@
 {
   "cik": "0001577552",
   "name": "Alibaba Group Holding Limited",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-20",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 1023670,
+      "rnd_M": 66533,
+      "cost_of_revenue_M": 616136,
+      "net_income_M": 103592,
+      "capex_M": null,
+      "operating_cash_flow_M": 76213,
+      "operating_income_M": 50150,
+      "sga_M": 33082,
+      "cash_M": 131530,
+      "total_debt_M": null,
+      "total_assets_M": 1909570,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-26",
@@ -19,18 +48,7 @@
       "sga_M": 44239,
       "cash_M": 145487,
       "total_debt_M": null,
-      "total_assets_M": 1804227,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 1804227
     },
     {
       "period_end": "2024-03-31",

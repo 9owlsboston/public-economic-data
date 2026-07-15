@@ -1,7 +1,7 @@
 {
   "cik": "0001279715",
   "name": "Wright Investors Service Holdings, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -19,7 +19,26 @@
       "sga_M": null,
       "cash_M": 0,
       "total_debt_M": null,
+      "total_assets_M": 1
+    },
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-04-22",
+      "form": "10-K",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -1,
+      "capex_M": null,
+      "operating_cash_flow_M": -1,
+      "operating_income_M": -1,
+      "sga_M": null,
+      "cash_M": 0,
+      "total_debt_M": null,
       "total_assets_M": 1,
+      "amended": true,
       "tags_used": {
         "net_income": "us-gaap:NetIncomeLoss",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
@@ -642,6 +661,31 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-15",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 0,
+      "capex_M": null,
+      "operating_cash_flow_M": 0,
+      "operating_income_M": 0,
+      "sga_M": null,
+      "cash_M": 0,
+      "total_debt_M": null,
+      "total_assets_M": 1,
+      "tags_used": {
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-14",
       "form": "10-Q",
@@ -657,14 +701,7 @@
       "sga_M": null,
       "cash_M": 0,
       "total_debt_M": null,
-      "total_assets_M": 2,
-      "tags_used": {
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 2
     },
     {
       "period_end": "2025-06-30",

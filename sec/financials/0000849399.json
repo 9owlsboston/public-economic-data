@@ -1,8 +1,38 @@
 {
   "cik": "0000849399",
   "name": "Gen Digital Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
+    {
+      "period_end": "2026-04-03",
+      "filing_date": "2026-05-21",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 5000,
+      "rnd_M": 409,
+      "cost_of_revenue_M": 1077,
+      "net_income_M": 973,
+      "capex_M": 22,
+      "operating_cash_flow_M": 1545,
+      "operating_income_M": 2120,
+      "sga_M": null,
+      "cash_M": 411,
+      "total_debt_M": 8196,
+      "total_assets_M": 15589,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "cash": "us-gaap:CashCashEquivalentsAndShortTermInvestments",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-03-28",
       "filing_date": "2025-05-15",
@@ -19,20 +49,7 @@
       "sga_M": 291,
       "cash_M": 1006,
       "total_debt_M": 8259,
-      "total_assets_M": 15495,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 15495
     },
     {
       "period_end": "2024-03-29",

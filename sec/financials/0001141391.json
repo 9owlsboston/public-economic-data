@@ -1,7 +1,7 @@
 {
   "cik": "0001141391",
   "name": "Mastercard Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -22,7 +22,7 @@
       "total_assets_M": 54157,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:ProfitLoss",
+        "net_income": "us-gaap:NetIncomeLoss",
         "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
         "operating_income": "us-gaap:OperatingIncomeLoss",
@@ -161,6 +161,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 8398,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3882,
+      "capex_M": 154,
+      "operating_cash_flow_M": 2999,
+      "operating_income_M": 4907,
+      "sga_M": 3039,
+      "cash_M": 7906,
+      "total_debt_M": 17212,
+      "total_assets_M": 52449,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:ProfitLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "revenue": 8602000000
     },
@@ -180,18 +209,7 @@
       "sga_M": 2923,
       "cash_M": 10313,
       "total_debt_M": 18983,
-      "total_assets_M": 53289,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:ProfitLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 53289
     },
     {
       "period_end": "2025-06-30",

@@ -1,7 +1,7 @@
 {
   "cik": "0000005272",
   "name": "American International Group, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -123,6 +123,32 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 6650,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 763,
+      "capex_M": null,
+      "operating_cash_flow_M": 155,
+      "operating_income_M": null,
+      "sga_M": 1137,
+      "cash_M": 1528,
+      "total_debt_M": null,
+      "total_assets_M": 161543,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:ProfitLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-05",
       "form": "10-Q",
@@ -138,15 +164,7 @@
       "sga_M": 1297,
       "cash_M": 1594,
       "total_debt_M": null,
-      "total_assets_M": 163415,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 163415
     },
     {
       "period_end": "2025-06-30",

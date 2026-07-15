@@ -1,7 +1,7 @@
 {
   "cik": "0001571996",
   "name": "Dell Technologies Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2026-01-30",
@@ -43,7 +43,7 @@
       "revenue_M": 95567,
       "rnd_M": 3061,
       "cost_of_revenue_M": 74317,
-      "net_income_M": 4592,
+      "net_income_M": 4576,
       "capex_M": 2652,
       "operating_cash_flow_M": 4521,
       "operating_income_M": 6237,
@@ -61,7 +61,7 @@
       "revenue_M": 88425,
       "rnd_M": 2801,
       "cost_of_revenue_M": 67356,
-      "net_income_M": 3388,
+      "net_income_M": 3372,
       "capex_M": 2756,
       "operating_cash_flow_M": 8676,
       "operating_income_M": 5411,
@@ -79,7 +79,7 @@
       "revenue_M": 102301,
       "rnd_M": 2779,
       "cost_of_revenue_M": 79615,
-      "net_income_M": 2442,
+      "net_income_M": 2422,
       "capex_M": 3003,
       "operating_cash_flow_M": 3565,
       "operating_income_M": 5771,
@@ -127,6 +127,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-01",
+      "filing_date": "2026-06-09",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 43842,
+      "rnd_M": 983,
+      "cost_of_revenue_M": 36060,
+      "net_income_M": 3438,
+      "capex_M": 963,
+      "operating_cash_flow_M": 4081,
+      "operating_income_M": 3656,
+      "sga_M": 3143,
+      "cash_M": 11578,
+      "total_debt_M": 31161,
+      "total_assets_M": 114913,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-10-31",
       "filing_date": "2025-12-09",
       "form": "10-Q",
@@ -142,20 +173,7 @@
       "sga_M": 2722,
       "cash_M": 9569,
       "total_debt_M": 31243,
-      "total_assets_M": 87479,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 87479
     },
     {
       "period_end": "2025-08-01",

@@ -1,7 +1,7 @@
 {
   "cik": "0000320193",
   "name": "Apple Inc.",
-  "last_refreshed": "2026-04-29",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-09-27",
@@ -217,6 +217,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-28",
+      "filing_date": "2026-05-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 111184,
+      "rnd_M": 11419,
+      "cost_of_revenue_M": 56403,
+      "net_income_M": 29578,
+      "capex_M": 4344,
+      "operating_cash_flow_M": 82627,
+      "operating_income_M": 35885,
+      "sga_M": 7477,
+      "cash_M": 45572,
+      "total_debt_M": 82700,
+      "total_assets_M": 371082,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-12-27",
       "filing_date": "2026-01-30",
       "form": "10-Q",
@@ -232,20 +263,7 @@
       "sga_M": 7492,
       "cash_M": 45317,
       "total_debt_M": 88500,
-      "total_assets_M": 379297,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 379297
     },
     {
       "period_end": "2025-06-28",

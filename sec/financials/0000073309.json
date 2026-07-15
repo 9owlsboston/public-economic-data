@@ -1,7 +1,7 @@
 {
   "cik": "0000073309",
   "name": "Nucor Corp.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -251,6 +251,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-04",
+      "filing_date": "2026-05-13",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 9496,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7995,
+      "net_income_M": 743,
+      "capex_M": 661,
+      "operating_cash_flow_M": 886,
+      "operating_income_M": null,
+      "sga_M": 378,
+      "cash_M": 2226,
+      "total_debt_M": 6877,
+      "total_assets_M": 35635,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-10-04",
       "filing_date": "2025-11-12",
       "form": "10-Q",
@@ -266,18 +295,7 @@
       "sga_M": 300,
       "cash_M": 2221,
       "total_debt_M": 6686,
-      "total_assets_M": 34776,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 34776
     },
     {
       "period_end": "2025-07-05",

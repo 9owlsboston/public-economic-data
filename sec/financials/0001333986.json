@@ -1,7 +1,7 @@
 {
   "cik": "0001333986",
   "name": "Equitable Holdings, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -19,7 +19,26 @@
       "sga_M": null,
       "cash_M": 12462,
       "total_debt_M": 3835,
+      "total_assets_M": 317990
+    },
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-04-21",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 11665,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -1380,
+      "capex_M": null,
+      "operating_cash_flow_M": 714,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 12462,
+      "total_debt_M": 3835,
       "total_assets_M": 317990,
+      "amended": true,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "net_income": "us-gaap:NetIncomeLoss",
@@ -158,6 +177,32 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 4230,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 621,
+      "capex_M": null,
+      "operating_cash_flow_M": 499,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 9904,
+      "total_debt_M": 3837,
+      "total_assets_M": 310382,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-07",
       "form": "10-Q",
@@ -173,15 +218,7 @@
       "sga_M": null,
       "cash_M": 13604,
       "total_debt_M": 3833,
-      "total_assets_M": 314409,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 314409
     },
     {
       "period_end": "2025-06-30",

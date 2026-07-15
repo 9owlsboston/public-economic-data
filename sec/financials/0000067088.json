@@ -1,8 +1,36 @@
 {
   "cik": "0000067088",
   "name": "MITSUBISHI UFJ FINANCIAL GROUP INC",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-07-06",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "JPY",
+      "revenue_M": 11867264,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1729359,
+      "capex_M": 302858,
+      "operating_cash_flow_M": -3366465,
+      "operating_income_M": 2365400,
+      "sga_M": null,
+      "cash_M": 90378397,
+      "total_debt_M": 21884349,
+      "total_assets_M": 425581652,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-07-07",
@@ -19,17 +47,7 @@
       "sga_M": null,
       "cash_M": 109304211,
       "total_debt_M": 21022407,
-      "total_assets_M": 405940211,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 405940211
     },
     {
       "period_end": "2024-03-31",

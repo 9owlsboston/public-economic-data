@@ -1,7 +1,7 @@
 {
   "cik": "0001067983",
   "name": "Berkshire Hathaway Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -194,6 +194,32 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-04",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 93675,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 10106,
+      "capex_M": 4986,
+      "operating_cash_flow_M": 10438,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 58810,
+      "total_debt_M": null,
+      "total_assets_M": 1252271,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-03",
       "form": "10-Q",
@@ -209,15 +235,7 @@
       "sga_M": null,
       "cash_M": 77111,
       "total_debt_M": null,
-      "total_assets_M": 1225963,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 1225963
     },
     {
       "period_end": "2025-06-30",

@@ -1,7 +1,7 @@
 {
   "cik": "0000006951",
   "name": "APPLIED MATERIALS INC /DE",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-10-26",
@@ -253,6 +253,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-26",
+      "filing_date": "2026-05-21",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 7910,
+      "rnd_M": 1027,
+      "cost_of_revenue_M": 3963,
+      "net_income_M": 2806,
+      "capex_M": 1281,
+      "operating_cash_flow_M": 2531,
+      "operating_income_M": 2523,
+      "sga_M": 397,
+      "cash_M": 6301,
+      "total_debt_M": 5256,
+      "total_assets_M": 40286,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-01-25",
       "filing_date": "2026-02-19",
       "form": "10-Q",
@@ -268,20 +299,7 @@
       "sga_M": 411,
       "cash_M": 7218,
       "total_debt_M": 6453,
-      "total_assets_M": 37644,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 37644
     },
     {
       "period_end": "2025-07-27",
@@ -314,7 +332,7 @@
       "capex_M": 891,
       "operating_cash_flow_M": 2496,
       "operating_income_M": 2169,
-      "sga_M": 207,
+      "sga_M": 423,
       "cash_M": 6169,
       "total_debt_M": 5462,
       "total_assets_M": 33632

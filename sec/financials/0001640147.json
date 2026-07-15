@@ -1,7 +1,7 @@
 {
   "cik": "0001640147",
   "name": "Snowflake Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -12,7 +12,7 @@
       "revenue_M": 4684,
       "rnd_M": 1969,
       "cost_of_revenue_M": 1538,
-      "net_income_M": -1332,
+      "net_income_M": -1329,
       "capex_M": 102,
       "operating_cash_flow_M": 1222,
       "operating_income_M": -1435,
@@ -42,7 +42,7 @@
       "revenue_M": 3626,
       "rnd_M": 1783,
       "cost_of_revenue_M": 1215,
-      "net_income_M": -1286,
+      "net_income_M": -1289,
       "capex_M": 46,
       "operating_cash_flow_M": 960,
       "operating_income_M": -1456,
@@ -60,7 +60,7 @@
       "revenue_M": 2806,
       "rnd_M": 1288,
       "cost_of_revenue_M": 899,
-      "net_income_M": -836,
+      "net_income_M": -838,
       "capex_M": 35,
       "operating_cash_flow_M": 848,
       "operating_income_M": -1095,
@@ -78,7 +78,7 @@
       "revenue_M": 2066,
       "rnd_M": 788,
       "cost_of_revenue_M": 718,
-      "net_income_M": -797,
+      "net_income_M": -798,
       "capex_M": 25,
       "operating_cash_flow_M": 546,
       "operating_income_M": -842,
@@ -108,6 +108,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-30",
+      "filing_date": "2026-05-29",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1391,
+      "rnd_M": 535,
+      "cost_of_revenue_M": 464,
+      "net_income_M": -296,
+      "capex_M": 10,
+      "operating_cash_flow_M": 243,
+      "operating_income_M": -326,
+      "sga_M": 129,
+      "cash_M": 2085,
+      "total_debt_M": null,
+      "total_assets_M": 8554,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-10-31",
       "filing_date": "2025-12-05",
       "form": "10-Q",
@@ -123,19 +153,7 @@
       "sga_M": 107,
       "cash_M": 1942,
       "total_debt_M": null,
-      "total_assets_M": 8230,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 8230
     },
     {
       "period_end": "2025-07-31",

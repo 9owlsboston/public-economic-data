@@ -1,7 +1,7 @@
 {
   "cik": "0000354950",
   "name": "Home Depot, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2026-02-01",
@@ -180,6 +180,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-03",
+      "filing_date": "2026-05-27",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 41765,
+      "rnd_M": null,
+      "cost_of_revenue_M": 27984,
+      "net_income_M": 3289,
+      "capex_M": 844,
+      "operating_cash_flow_M": 6032,
+      "operating_income_M": 4981,
+      "sga_M": 7959,
+      "cash_M": 1601,
+      "total_debt_M": 44828,
+      "total_assets_M": 107904,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-11-02",
       "filing_date": "2025-11-25",
       "form": "10-Q",
@@ -195,19 +225,7 @@
       "sga_M": 7636,
       "cash_M": 1684,
       "total_debt_M": 46343,
-      "total_assets_M": 106274,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 106274
     },
     {
       "period_end": "2025-08-03",

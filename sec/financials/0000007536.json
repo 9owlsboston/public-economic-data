@@ -1,7 +1,7 @@
 {
   "cik": "0000007536",
   "name": "Arrow Electronics, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -180,6 +180,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-04",
+      "filing_date": "2026-05-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 9474,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8383,
+      "net_income_M": 235,
+      "capex_M": 32,
+      "operating_cash_flow_M": 700,
+      "operating_income_M": 362,
+      "sga_M": 656,
+      "cash_M": 287,
+      "total_debt_M": 2352,
+      "total_assets_M": 35954,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-27",
       "filing_date": "2025-10-30",
       "form": "10-Q",
@@ -195,19 +225,7 @@
       "sga_M": 588,
       "cash_M": 214,
       "total_debt_M": 3119,
-      "total_assets_M": 24526,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 24526
     },
     {
       "period_end": "2025-06-28",

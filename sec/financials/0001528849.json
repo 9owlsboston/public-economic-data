@@ -1,7 +1,7 @@
 {
   "cik": "0001528849",
   "name": "RH",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -95,7 +95,7 @@
       "revenue_M": 3759,
       "rnd_M": null,
       "cost_of_revenue_M": 1903,
-      "net_income_M": 689,
+      "net_income_M": 688,
       "capex_M": 185,
       "operating_cash_flow_M": 662,
       "operating_income_M": 927,
@@ -307,6 +307,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-02",
+      "filing_date": "2026-06-11",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 800,
+      "rnd_M": null,
+      "cost_of_revenue_M": 469,
+      "net_income_M": -14,
+      "capex_M": 39,
+      "operating_cash_flow_M": 53,
+      "operating_income_M": 34,
+      "sga_M": 297,
+      "cash_M": 54,
+      "total_debt_M": null,
+      "total_assets_M": 4948,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-11-01",
       "filing_date": "2025-12-11",
       "form": "10-Q",
@@ -322,18 +351,7 @@
       "sga_M": 284,
       "cash_M": 43,
       "total_debt_M": null,
-      "total_assets_M": 4794,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 4794
     },
     {
       "period_end": "2025-08-02",

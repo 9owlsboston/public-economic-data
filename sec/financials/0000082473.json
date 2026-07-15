@@ -1,8 +1,54 @@
 {
   "cik": "0000082473",
   "name": "RELX PLC",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
+    {
+      "period_end": "2026-01-31",
+      "filing_date": "2026-06-18",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 8,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -1,
+      "capex_M": 1,
+      "operating_cash_flow_M": 0,
+      "operating_income_M": -1,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": 12,
+      "total_assets_M": 14,
+      "amended": true,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
+      "period_end": "2026-01-31",
+      "filing_date": "2026-05-19",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 8,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -1,
+      "capex_M": 1,
+      "operating_cash_flow_M": 0,
+      "operating_income_M": -1,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": 12,
+      "total_assets_M": 14
+    },
     {
       "period_end": "2025-01-31",
       "filing_date": "2025-05-01",
@@ -19,16 +65,7 @@
       "sga_M": null,
       "cash_M": null,
       "total_debt_M": 11,
-      "total_assets_M": 14,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 14
     },
     {
       "period_end": "2024-01-31",
@@ -341,6 +378,33 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-30",
+      "filing_date": "2026-06-22",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 2,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 0,
+      "capex_M": 0,
+      "operating_cash_flow_M": 0,
+      "operating_income_M": 0,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": 12,
+      "total_assets_M": 14,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-10-31",
       "filing_date": "2025-12-15",
       "form": "10-Q",
@@ -356,16 +420,7 @@
       "sga_M": null,
       "cash_M": null,
       "total_debt_M": 11,
-      "total_assets_M": 14,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 14
     },
     {
       "period_end": "2025-08-31",

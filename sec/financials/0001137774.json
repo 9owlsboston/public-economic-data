@@ -1,7 +1,7 @@
 {
   "cik": "0001137774",
   "name": "Prudential Financial",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -123,6 +123,33 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 15526,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 597,
+      "capex_M": null,
+      "operating_cash_flow_M": 1008,
+      "operating_income_M": null,
+      "sga_M": 3469,
+      "cash_M": 15936,
+      "total_debt_M": 18882,
+      "total_assets_M": 765396,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "revenue": 17888000000,
       "net_income": 1431000000
@@ -143,16 +170,7 @@
       "sga_M": 3277,
       "cash_M": 17469,
       "total_debt_M": 18797,
-      "total_assets_M": 776302,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 776302
     },
     {
       "period_end": "2025-06-30",

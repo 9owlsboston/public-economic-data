@@ -1,8 +1,37 @@
 {
   "cik": "0001737806",
   "name": "PDD Holdings Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-04-29",
+      "form": "20-F",
+      "namespace": "us-gaap",
+      "currency": "CNY",
+      "revenue_M": 431846,
+      "rnd_M": 16496,
+      "cost_of_revenue_M": 188802,
+      "net_income_M": 97843,
+      "capex_M": null,
+      "operating_cash_flow_M": 106939,
+      "operating_income_M": 93102,
+      "sga_M": 8158,
+      "cash_M": 108901,
+      "total_debt_M": null,
+      "total_assets_M": 630044,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2024-12-31",
       "filing_date": "2025-04-28",
@@ -19,18 +48,7 @@
       "sga_M": 7553,
       "cash_M": 57768,
       "total_debt_M": null,
-      "total_assets_M": 505034,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 505034
     },
     {
       "period_end": "2023-12-31",

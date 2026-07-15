@@ -1,7 +1,7 @@
 {
   "cik": "0001628908",
   "name": "Evolent Health, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -12,7 +12,7 @@
       "revenue_M": 1876,
       "rnd_M": null,
       "cost_of_revenue_M": 1476,
-      "net_income_M": -535,
+      "net_income_M": -579,
       "capex_M": 34,
       "operating_cash_flow_M": 39,
       "operating_income_M": -410,
@@ -42,7 +42,7 @@
       "revenue_M": 2555,
       "rnd_M": null,
       "cost_of_revenue_M": 2187,
-      "net_income_M": -62,
+      "net_income_M": -94,
       "capex_M": 25,
       "operating_cash_flow_M": 19,
       "operating_income_M": -40,
@@ -60,7 +60,7 @@
       "revenue_M": 556,
       "rnd_M": null,
       "cost_of_revenue_M": 1503,
-      "net_income_M": -113,
+      "net_income_M": -142,
       "capex_M": 29,
       "operating_cash_flow_M": 143,
       "operating_income_M": -71,
@@ -235,6 +235,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 496,
+      "rnd_M": null,
+      "cost_of_revenue_M": 412,
+      "net_income_M": -27,
+      "capex_M": 6,
+      "operating_cash_flow_M": -1,
+      "operating_income_M": -11,
+      "sga_M": 73,
+      "cash_M": 142,
+      "total_debt_M": 973,
+      "total_assets_M": 1879,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-07",
       "form": "10-Q",
@@ -250,19 +280,7 @@
       "sga_M": 78,
       "cash_M": 117,
       "total_debt_M": 1055,
-      "total_assets_M": 2453,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 2453
     },
     {
       "period_end": "2025-06-30",

@@ -1,7 +1,7 @@
 {
   "cik": "0000070866",
   "name": "NCR Voyix Corp",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -42,7 +42,7 @@
       "revenue_M": 2818,
       "rnd_M": 157,
       "cost_of_revenue_M": null,
-      "net_income_M": 958,
+      "net_income_M": 957,
       "capex_M": 30,
       "operating_cash_flow_M": -132,
       "operating_income_M": -38,
@@ -78,7 +78,7 @@
       "revenue_M": 3174,
       "rnd_M": 116,
       "cost_of_revenue_M": null,
-      "net_income_M": 60,
+      "net_income_M": 59,
       "capex_M": 92,
       "operating_cash_flow_M": 427,
       "operating_income_M": -50,
@@ -96,7 +96,7 @@
       "revenue_M": 7156,
       "rnd_M": 195,
       "cost_of_revenue_M": null,
-      "net_income_M": 97,
+      "net_income_M": 98,
       "capex_M": 106,
       "operating_cash_flow_M": 1009,
       "operating_income_M": 26,
@@ -235,6 +235,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 606,
+      "rnd_M": 39,
+      "cost_of_revenue_M": null,
+      "net_income_M": -5,
+      "capex_M": 36,
+      "operating_cash_flow_M": 42,
+      "operating_income_M": -19,
+      "sga_M": 110,
+      "cash_M": 232,
+      "total_debt_M": 1100,
+      "total_assets_M": 3923,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-06",
       "form": "10-Q",
@@ -250,19 +280,7 @@
       "sga_M": 111,
       "cash_M": 282,
       "total_debt_M": 1099,
-      "total_assets_M": 4003,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 4003
     },
     {
       "period_end": "2025-06-30",

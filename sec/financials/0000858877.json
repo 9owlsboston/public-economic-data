@@ -1,7 +1,7 @@
 {
   "cik": "0000858877",
   "name": "CISCO SYSTEMS, INC.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-07-26",
@@ -127,6 +127,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-25",
+      "filing_date": "2026-05-19",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 15841,
+      "rnd_M": 2377,
+      "cost_of_revenue_M": 5761,
+      "net_income_M": 3373,
+      "capex_M": 1020,
+      "operating_cash_flow_M": 8791,
+      "operating_income_M": 3960,
+      "sga_M": 661,
+      "cash_M": 7083,
+      "total_debt_M": 22869,
+      "total_assets_M": 125546,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-01-24",
       "filing_date": "2026-02-17",
       "form": "10-Q",
@@ -142,20 +173,7 @@
       "sga_M": 688,
       "cash_M": 7458,
       "total_debt_M": 24617,
-      "total_assets_M": 123371,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 123371
     },
     {
       "period_end": "2025-10-25",

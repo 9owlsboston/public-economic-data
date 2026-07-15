@@ -1,7 +1,7 @@
 {
   "cik": "0001158463",
   "name": "JetBlue Airways Corp.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -18,7 +18,7 @@
       "operating_income_M": -368,
       "sga_M": null,
       "cash_M": 1946,
-      "total_debt_M": 7729,
+      "total_debt_M": 8498,
       "total_assets_M": 16570,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -27,7 +27,7 @@
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
         "operating_income": "us-gaap:OperatingIncomeLoss",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
       }
     },
@@ -196,6 +196,34 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-28",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 2240,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -319,
+      "capex_M": 126,
+      "operating_cash_flow_M": 120,
+      "operating_income_M": -224,
+      "sga_M": null,
+      "cash_M": 1857,
+      "total_debt_M": 8435,
+      "total_assets_M": 16611,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-10-28",
       "form": "10-Q",
@@ -211,17 +239,7 @@
       "sga_M": null,
       "cash_M": 2410,
       "total_debt_M": 8475,
-      "total_assets_M": 16601,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 16601
     },
     {
       "period_end": "2025-06-30",

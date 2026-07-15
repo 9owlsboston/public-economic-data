@@ -1,7 +1,7 @@
 {
   "cik": "0001009829",
   "name": "LivePerson",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -9,10 +9,10 @@
       "form": "10-K",
       "namespace": "us-gaap",
       "currency": "USD",
-      "revenue_M": 571,
+      "revenue_M": 113,
       "rnd_M": 11,
       "cost_of_revenue_M": 386,
-      "net_income_M": 10,
+      "net_income_M": 9871,
       "capex_M": 10,
       "operating_cash_flow_M": 8,
       "operating_income_M": 14,
@@ -42,7 +42,7 @@
       "revenue_M": 691,
       "rnd_M": 11,
       "cost_of_revenue_M": 478,
-      "net_income_M": 34,
+      "net_income_M": 34200,
       "capex_M": 11,
       "operating_cash_flow_M": 39,
       "operating_income_M": 40,
@@ -60,7 +60,7 @@
       "revenue_M": 712,
       "rnd_M": 9,
       "cost_of_revenue_M": 488,
-      "net_income_M": 38,
+      "net_income_M": 38113,
       "capex_M": 9,
       "operating_cash_flow_M": 66,
       "operating_income_M": 59,
@@ -361,6 +361,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-01",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 107,
+      "rnd_M": 2,
+      "cost_of_revenue_M": 71,
+      "net_income_M": -4,
+      "capex_M": 6,
+      "operating_cash_flow_M": 22,
+      "operating_income_M": -6,
+      "sga_M": 41,
+      "cash_M": 63,
+      "total_debt_M": null,
+      "total_assets_M": 400,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-10-31",
       "form": "10-Q",
@@ -376,19 +406,7 @@
       "sga_M": 38,
       "cash_M": 26,
       "total_debt_M": null,
-      "total_assets_M": 485,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 485
     },
     {
       "period_end": "2025-06-30",

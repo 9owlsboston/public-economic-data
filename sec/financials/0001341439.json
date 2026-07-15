@@ -1,8 +1,37 @@
 {
   "cik": "0001341439",
   "name": "ORACLE CORP",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
+    {
+      "period_end": "2026-05-31",
+      "filing_date": "2026-06-22",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 67357,
+      "rnd_M": 10272,
+      "cost_of_revenue_M": null,
+      "net_income_M": 17087,
+      "capex_M": 55663,
+      "operating_cash_flow_M": 31977,
+      "operating_income_M": 20606,
+      "sga_M": 1618,
+      "cash_M": 31289,
+      "total_debt_M": null,
+      "total_assets_M": 261759,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-05-31",
       "filing_date": "2025-06-18",
@@ -19,18 +48,7 @@
       "sga_M": 1602,
       "cash_M": 10786,
       "total_debt_M": null,
-      "total_assets_M": 168361,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 168361
     },
     {
       "period_end": "2024-05-31",

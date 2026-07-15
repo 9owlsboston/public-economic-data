@@ -1,7 +1,7 @@
 {
   "cik": "0001467373",
   "name": "Accenture plc",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-08-31",
@@ -73,6 +73,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-31",
+      "filing_date": "2026-06-18",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 18718,
+      "rnd_M": null,
+      "cost_of_revenue_M": 12584,
+      "net_income_M": 2339,
+      "capex_M": 492,
+      "operating_cash_flow_M": 9268,
+      "operating_income_M": 3175,
+      "sga_M": 1148,
+      "cash_M": 10165,
+      "total_debt_M": 5029,
+      "total_assets_M": 68807,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-02-28",
       "filing_date": "2026-03-19",
       "form": "10-Q",
@@ -88,19 +118,7 @@
       "sga_M": 1217,
       "cash_M": 9399,
       "total_debt_M": 5030,
-      "total_assets_M": 67064,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 67064
     },
     {
       "period_end": "2025-11-30",

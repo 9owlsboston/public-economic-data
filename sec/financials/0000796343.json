@@ -1,7 +1,7 @@
 {
   "cik": "0000796343",
   "name": "Adobe Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-11-28",
@@ -181,6 +181,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-29",
+      "filing_date": "2026-06-15",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 6618,
+      "rnd_M": 1198,
+      "cost_of_revenue_M": 715,
+      "net_income_M": 1712,
+      "capex_M": 95,
+      "operating_cash_flow_M": 5123,
+      "operating_income_M": 2238,
+      "sga_M": 546,
+      "cash_M": 4919,
+      "total_debt_M": 4802,
+      "total_assets_M": 29933,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-02-27",
       "filing_date": "2026-03-25",
       "form": "10-Q",
@@ -196,20 +227,7 @@
       "sga_M": 463,
       "cash_M": 6332,
       "total_debt_M": 5379,
-      "total_assets_M": 29704,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 29704
     },
     {
       "period_end": "2025-08-29",

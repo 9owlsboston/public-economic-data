@@ -1,7 +1,7 @@
 {
   "cik": "0001361113",
   "name": "Varonis Systems, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -234,6 +234,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-29",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 173,
+      "rnd_M": 70,
+      "cost_of_revenue_M": 42,
+      "net_income_M": -37,
+      "capex_M": 5,
+      "operating_cash_flow_M": 55,
+      "operating_income_M": -44,
+      "sga_M": 26,
+      "cash_M": 179,
+      "total_debt_M": null,
+      "total_assets_M": 1635,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-10-29",
       "form": "10-Q",
@@ -249,19 +279,7 @@
       "sga_M": 26,
       "cash_M": 157,
       "total_debt_M": null,
-      "total_assets_M": 1665,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 1665
     },
     {
       "period_end": "2025-06-30",

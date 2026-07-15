@@ -1,7 +1,7 @@
 {
   "cik": "0001535929",
   "name": "Voya Financial, Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -159,6 +159,32 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 2031,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 182,
+      "capex_M": null,
+      "operating_cash_flow_M": -36,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 1090,
+      "total_debt_M": 2500,
+      "total_assets_M": 173433,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-06",
       "form": "10-Q",
@@ -174,15 +200,7 @@
       "sga_M": null,
       "cash_M": 1276,
       "total_debt_M": 2104,
-      "total_assets_M": 177448,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 177448
     },
     {
       "period_end": "2025-06-30",

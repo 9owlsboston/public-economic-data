@@ -1,7 +1,7 @@
 {
   "cik": "0000040533",
   "name": "General Dynamics Corp.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -143,6 +143,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-05",
+      "filing_date": "2026-04-29",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 13481,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1125,
+      "capex_M": 203,
+      "operating_cash_flow_M": 2155,
+      "operating_income_M": 1420,
+      "sga_M": 723,
+      "cash_M": 3654,
+      "total_debt_M": 6259,
+      "total_assets_M": 59029,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-28",
       "filing_date": "2025-10-24",
       "form": "10-Q",
@@ -158,18 +187,7 @@
       "sga_M": 637,
       "cash_M": 2520,
       "total_debt_M": 7008,
-      "total_assets_M": 57599,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 57599
     },
     {
       "period_end": "2025-06-29",

@@ -1,7 +1,7 @@
 {
   "cik": "0001099219",
   "name": "METLIFE INC",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -12,7 +12,7 @@
       "revenue_M": 77084,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 3379,
+      "net_income_M": 3173,
       "capex_M": null,
       "operating_cash_flow_M": 17092,
       "operating_income_M": 6137,
@@ -40,7 +40,7 @@
       "revenue_M": 70986,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 4426,
+      "net_income_M": 4226,
       "capex_M": null,
       "operating_cash_flow_M": 14598,
       "operating_income_M": 5996,
@@ -58,7 +58,7 @@
       "revenue_M": 66905,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1578,
+      "net_income_M": 1380,
       "capex_M": null,
       "operating_cash_flow_M": 13721,
       "operating_income_M": 5723,
@@ -76,7 +76,7 @@
       "revenue_M": 68770,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 5284,
+      "net_income_M": 2354,
       "capex_M": null,
       "operating_cash_flow_M": 13044,
       "operating_income_M": 5978,
@@ -94,7 +94,7 @@
       "revenue_M": 68696,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 6855,
+      "net_income_M": 6353,
       "capex_M": null,
       "operating_cash_flow_M": 12347,
       "operating_income_M": null,
@@ -124,6 +124,34 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-07",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 19074,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1185,
+      "capex_M": null,
+      "operating_cash_flow_M": 2687,
+      "operating_income_M": 1631,
+      "sga_M": 132,
+      "cash_M": 22687,
+      "total_debt_M": 14445,
+      "total_assets_M": 743211,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-11-07",
       "form": "10-Q",
@@ -139,17 +167,7 @@
       "sga_M": 118,
       "cash_M": 20233,
       "total_debt_M": 15300,
-      "total_assets_M": 719726,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 719726
     },
     {
       "period_end": "2025-06-30",

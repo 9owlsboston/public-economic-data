@@ -1,7 +1,7 @@
 {
   "cik": "0000056873",
   "name": "KROGER CO",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -94,7 +94,7 @@
       "revenue_M": 137888,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1655,
+      "net_income_M": 1665,
       "capex_M": 2614,
       "operating_cash_flow_M": 6190,
       "operating_income_M": 3477,
@@ -160,6 +160,34 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-23",
+      "filing_date": "2026-06-26",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 46121,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 903,
+      "capex_M": 1293,
+      "operating_cash_flow_M": 1774,
+      "operating_income_M": 1407,
+      "sga_M": null,
+      "cash_M": 2873,
+      "total_debt_M": 15378,
+      "total_assets_M": 50292,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-11-08",
       "filing_date": "2025-12-12",
       "form": "10-Q",
@@ -175,17 +203,7 @@
       "sga_M": null,
       "cash_M": 3956,
       "total_debt_M": 15951,
-      "total_assets_M": 51440,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 51440
     },
     {
       "period_end": "2025-08-16",

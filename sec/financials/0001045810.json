@@ -1,7 +1,7 @@
 {
   "cik": "0001045810",
   "name": "NVIDIA Corp.",
-  "last_refreshed": "2026-04-29",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2026-01-25",
@@ -127,6 +127,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-26",
+      "filing_date": "2026-05-20",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 81615,
+      "rnd_M": 6321,
+      "cost_of_revenue_M": 20458,
+      "net_income_M": 58321,
+      "capex_M": 1757,
+      "operating_cash_flow_M": 50344,
+      "operating_income_M": 53536,
+      "sga_M": 1300,
+      "cash_M": 13237,
+      "total_debt_M": 8470,
+      "total_assets_M": 259474,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-10-26",
       "filing_date": "2025-11-19",
       "form": "10-Q",
@@ -142,20 +173,7 @@
       "sga_M": 1134,
       "cash_M": 11486,
       "total_debt_M": 8467,
-      "total_assets_M": 161148,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 161148
     },
     {
       "period_end": "2025-07-27",

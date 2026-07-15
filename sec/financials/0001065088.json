@@ -1,7 +1,7 @@
 {
   "cik": "0001065088",
   "name": "eBay Inc.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -240,6 +240,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-04-29",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3089,
+      "rnd_M": 450,
+      "cost_of_revenue_M": 802,
+      "net_income_M": 512,
+      "capex_M": 72,
+      "operating_cash_flow_M": 969,
+      "operating_income_M": 611,
+      "sga_M": 410,
+      "cash_M": 2894,
+      "total_debt_M": 5994,
+      "total_assets_M": 17893,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "filing_date": "2025-10-30",
       "form": "10-Q",
@@ -255,20 +286,7 @@
       "sga_M": 282,
       "cash_M": 2423,
       "total_debt_M": 5003,
-      "total_assets_M": 17791,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 17791
     },
     {
       "period_end": "2025-06-30",
@@ -299,7 +317,7 @@
       "cost_of_revenue_M": 723,
       "net_income_M": 503,
       "capex_M": 143,
-      "operating_cash_flow_M": 787,
+      "operating_cash_flow_M": 755,
       "operating_income_M": 616,
       "sga_M": 261,
       "cash_M": 3031,
@@ -318,7 +336,7 @@
       "cost_of_revenue_M": 723,
       "net_income_M": 503,
       "capex_M": 143,
-      "operating_cash_flow_M": 787,
+      "operating_cash_flow_M": 755,
       "operating_income_M": 616,
       "sga_M": 261,
       "cash_M": 3031,

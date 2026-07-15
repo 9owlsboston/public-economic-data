@@ -1,7 +1,7 @@
 {
   "cik": "0000815097",
   "name": "Carnival Corp.",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-11-30",
@@ -306,6 +306,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-31",
+      "filing_date": "2026-06-26",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 6663,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 537,
+      "capex_M": 1441,
+      "operating_cash_flow_M": 3893,
+      "operating_income_M": 851,
+      "sga_M": 863,
+      "cash_M": 2243,
+      "total_debt_M": 25570,
+      "total_assets_M": 52228,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-02-28",
       "filing_date": "2026-03-27",
       "form": "10-Q",
@@ -321,18 +350,7 @@
       "sga_M": 924,
       "cash_M": 1424,
       "total_debt_M": 26004,
-      "total_assets_M": 51567,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 51567
     },
     {
       "period_end": "2025-08-31",

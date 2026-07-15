@@ -1,7 +1,7 @@
 {
   "cik": "0001324424",
   "name": "Expedia Group",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -12,7 +12,7 @@
       "revenue_M": 14733,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1294,
+      "net_income_M": 1301,
       "capex_M": 770,
       "operating_cash_flow_M": 3880,
       "operating_income_M": 1871,
@@ -41,7 +41,7 @@
       "revenue_M": 13691,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1234,
+      "net_income_M": 1224,
       "capex_M": 756,
       "operating_cash_flow_M": 3085,
       "operating_income_M": 1319,
@@ -59,7 +59,7 @@
       "revenue_M": 12839,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 797,
+      "net_income_M": 688,
       "capex_M": 846,
       "operating_cash_flow_M": 2690,
       "operating_income_M": 1033,
@@ -77,7 +77,7 @@
       "revenue_M": 11667,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 352,
+      "net_income_M": 343,
       "capex_M": 662,
       "operating_cash_flow_M": 3440,
       "operating_income_M": 1085,
@@ -95,7 +95,7 @@
       "revenue_M": 8598,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 12,
+      "net_income_M": 15,
       "capex_M": 673,
       "operating_cash_flow_M": 3748,
       "operating_income_M": 186,
@@ -254,6 +254,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3426,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -6,
+      "capex_M": 184,
+      "operating_cash_flow_M": 3931,
+      "operating_income_M": 251,
+      "sga_M": 196,
+      "cash_M": 5540,
+      "total_debt_M": 4470,
+      "total_assets_M": 26459,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-09-30",
       "revenue": 4412000000,
       "net_income": 959000000
@@ -274,18 +303,7 @@
       "sga_M": 186,
       "cash_M": 5826,
       "total_debt_M": 6216,
-      "total_assets_M": 25108,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 25108
     },
     {
       "period_end": "2025-06-30",

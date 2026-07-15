@@ -1,7 +1,7 @@
 {
   "cik": "0001318605",
   "name": "Tesla, Inc.",
-  "last_refreshed": "2026-04-27",
+  "last_refreshed": "2026-07-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -19,7 +19,26 @@
       "sga_M": 5834,
       "cash_M": 16513,
       "total_debt_M": 6584,
+      "total_assets_M": 137806
+    },
+    {
+      "period_end": "2025-12-31",
+      "filing_date": "2026-04-30",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 94827,
+      "rnd_M": 6411,
+      "cost_of_revenue_M": 77733,
+      "net_income_M": 3794,
+      "capex_M": 8527,
+      "operating_cash_flow_M": 14747,
+      "operating_income_M": 4355,
+      "sga_M": 5834,
+      "cash_M": 16513,
+      "total_debt_M": 6584,
       "total_assets_M": 137806,
+      "amended": true,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "rnd": "us-gaap:ResearchAndDevelopmentExpense",
