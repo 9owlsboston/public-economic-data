@@ -172,3 +172,7 @@ Verified: `intl.md` table sums to 190; every cited key company exists in the reg
 ### 2026-07-18 — Fix pytest return-not-none warnings
 
 Converted the `return`-based `test_*` functions in `tests/` to validate via `assert not errors` (two warning-level sec checks with pre-existing, out-of-scope data conditions — undisclosed latest revenue and ascending-stored segment series — emit non-fatal `warnings.warn` instead, preserving behavior without touching data), and added a small `_run` bridge so the standalone `python tests/test_*.py` runners still report issues. Verified: python3 -m pytest tests/ -q → 29 passed, no ReturnNotNone warnings.
+
+### 2026-07-18 — Relocate loose root analysis artifacts
+
+Relocated three loose root artifacts into their proper homes: `financial-data-null-audit.md` → `docs/history/financial-data-null-audit.md`, `capex-xbrl-gap-report.md` → `docs/history/capex-xbrl-gap-report.md`, and `ai-spending-10k.csv` → `results/ai-spending-10k.csv`. Verified: git grep shows all references updated to new paths; files no longer at repo root.
