@@ -168,3 +168,7 @@ Verified: `docs-drift --repo .` clean (links + drift-rules resolve).
 - **`plan/roadmap.md`** — left the dated `Current State (2026-04-10)` block and completed `[x]` bullets as immutable history; added a pointer to `docs/current-state.md` as the always-current SoT.
 
 Verified: `intl.md` table sums to 190; every cited key company exists in the registry (fixed one bad citation — SAP is not an intl filer, replaced with Volkswagen); `git check-attr text -- ai-spending-10k.csv` → unset with no blob change on renormalize; no residual stale live counts (`grep` confirms remaining `196`/`39`/`365` hits are dated history only).
+
+### 2026-07-18 — Fix pytest return-not-none warnings
+
+Converted the `return`-based `test_*` functions in `tests/` to validate via `assert not errors` (two warning-level sec checks with pre-existing, out-of-scope data conditions — undisclosed latest revenue and ascending-stored segment series — emit non-fatal `warnings.warn` instead, preserving behavior without touching data), and added a small `_run` bridge so the standalone `python tests/test_*.py` runners still report issues. Verified: python3 -m pytest tests/ -q → 29 passed, no ReturnNotNone warnings.
