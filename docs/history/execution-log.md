@@ -1,11 +1,24 @@
 # Execution Log
 
-Running record of implementation sessions — actions, outcomes, and decisions made.
-Each session appends a dated entry. Agents and humans both contribute.
+Chronological record of **what was executed** against this repo — commands run,
+changes made, and how they were verified. Distinct from `CHANGELOG.md` (which
+records *content* changes for consumers); this log records **action** — especially
+important because AI agents execute on our behalf. Agents and humans both contribute.
+
+Append newest-last. Preserve dates, commands, and verification notes; use
+completed-state language (record what happened, not what to do).
 
 **Format:** Each session has scope, contributor, action/outcome table, key decisions, and coverage snapshot.
 
 ---
+
+<!-- Template (copy per entry):
+
+### YYYY-MM-DD — <short title>
+
+<what was done + why, in a sentence or two>. Verified: <how — command output,
+test, diff, byte-identity, etc.>.
+-->
 
 ### 2026-03-29 — Initial Bootstrap
 
@@ -155,6 +168,10 @@ Verified: `docs-drift --repo .` clean (links + drift-rules resolve).
 - **`plan/roadmap.md`** — left the dated `Current State (2026-04-10)` block and completed `[x]` bullets as immutable history; added a pointer to `docs/current-state.md` as the always-current SoT.
 
 Verified: `intl.md` table sums to 190; every cited key company exists in the registry (fixed one bad citation — SAP is not an intl filer, replaced with Volkswagen); `git check-attr text -- ai-spending-10k.csv` → unset with no blob change on renormalize; no residual stale live counts (`grep` confirms remaining `196`/`39`/`365` hits are dated history only).
+
+### 2026-07-18 — Fix pytest return-not-none warnings
+
+Converted the `return`-based `test_*` functions in `tests/` to validate via `assert not errors` (two warning-level sec checks with pre-existing, out-of-scope data conditions — undisclosed latest revenue and ascending-stored segment series — emit non-fatal `warnings.warn` instead, preserving behavior without touching data), and added a small `_run` bridge so the standalone `python tests/test_*.py` runners still report issues. Verified: python3 -m pytest tests/ -q → 29 passed, no ReturnNotNone warnings.
 
 ### 2026-07-18 — Relocate loose root analysis artifacts
 

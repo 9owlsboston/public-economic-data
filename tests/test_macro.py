@@ -7,6 +7,7 @@ Validates JSON structure, freshness, and data quality for FRED series.
 
 import json
 import sys
+import warnings
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -23,7 +24,7 @@ def test_all_json_valid():
             json.loads(f.read_text())
         except json.JSONDecodeError as e:
             errors.append(f"{f.name}: {e}")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_required_fields():
@@ -34,7 +35,7 @@ def test_required_fields():
         for field in REQUIRED_FIELDS:
             if field not in data:
                 errors.append(f"{f.name}: missing '{field}'")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_observations_sorted():
@@ -45,7 +46,7 @@ def test_observations_sorted():
         dates = [o["date"] for o in data.get("observations", []) if "date" in o]
         if dates != sorted(dates, reverse=True):
             errors.append(f"{f.name}: observations not sorted descending")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_series_id_matches_filename():
@@ -55,7 +56,7 @@ def test_series_id_matches_filename():
         data = json.loads(f.read_text())
         if data.get("series_id") != f.stem:
             errors.append(f"{f.name}: series_id '{data.get('series_id')}' != filename '{f.stem}'")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_no_empty_observations():
@@ -65,7 +66,23 @@ def test_no_empty_observations():
         data = json.loads(f.read_text())
         if not data.get("observations"):
             errors.append(f"{f.name}: empty observations")
-    return errors
+    assert not errors, "\n".join(errors)
+
+
+def _run(test_fn):
+    """Bridge the assert/warn-based test functions to the standalone runner.
+
+    Returns a list of issue strings: a failed assertion or any warnings the
+    test emits are surfaced as printable lines; an empty list means the check
+    passed cleanly.
+    """
+    with warnings.catch_warnings(record=True) as caught:
+        warnings.simplefilter("always")
+        try:
+            test_fn()
+        except AssertionError as exc:
+            return [line for line in str(exc).splitlines() if line]
+    return [str(w.message) for w in caught]
 
 
 def main():
@@ -83,7 +100,7 @@ def main():
 
     total_errors = 0
     for name, test_fn in tests:
-        issues = test_fn()
+        issues = _run(test_fn)
         status = "✅" if not issues else "❌"
         print(f"{status} {name}")
         for issue in issues:

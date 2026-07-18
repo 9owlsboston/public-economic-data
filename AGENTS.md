@@ -1,7 +1,9 @@
 # AGENTS.md — public-economic-data
 
 Repo-specific operating contract for any AI coding agent (Copilot CLI, VS Code,
-Claude, etc.) working here.
+Claude, etc.) working here. This file is the **cross-tool source of truth** —
+the sibling of `.github/copilot-instructions.md` (which stays thin and points
+here).
 
 > **Not here:** the SDLC (explore → plan → implement → verify → ship → **close-out**,
 > the `planner`/`implementer`/`verifier` personas + the `explorer`/`rubber-duck`
@@ -80,11 +82,18 @@ Pick the destination by the **kind** of content, not the topic:
 | Rules for agents working here | `AGENTS.md` (this file) |
 | Dated "where we are now" snapshot (current → future → gaps) | `docs/current-state.md` |
 | **What commands actually ran / how verified** (action trail) | `docs/history/execution-log.md` |
-| Architecture, proposals, per-module design — the *why* | `docs/design/` |
+| Durable working memory (issues/chores/decisions/**routines**/memories) | the **agent ledger** (`repo:public-economic-data` scope; promote to `execution-log.md` when it earns a commit, or to `/kb` when generalizable) |
+| Architecture, proposals, per-module design — the *why* (Diátaxis *explanation* / ADRs) | `docs/design/` |
 | Non-obvious decisions (numbered ADRs) | `docs/adr/` |
-| Field-level data dictionary / schema | `docs/schema/` |
-| How-to workflows and walkthroughs | `docs/guides/` |
+| Field-level data dictionary / schema (Diátaxis *reference*) | `docs/schema/` |
+| How-to workflows and walkthroughs (Diátaxis *how-to* / *tutorial*) | `docs/guides/` |
 | Consumer-facing change log (content) | `CHANGELOG.md` |
+
+<!-- Optional: declare cross-repo PROJECT membership so `ledger recall` / `profile`
+     union open items + facts across EVERY repo that declares the SAME (lowercase)
+     project name. Copy the line below, DROP the `-example` suffix so it goes live,
+     put it on its own line, and set your name (the `-example` form is inert): -->
+<!-- ledger-project-example: your-project-name -->
 
 ## 5. Drift-rules
 
@@ -102,6 +111,12 @@ docs/execution-log.md  ->   moved to docs/history/execution-log.md (MVRS floor p
 
 - **Pre** (session start): read this file + the relevant plan/design doc; run
   `docs-drift` before changing code.
+- **Agent memory (ledger):** at session start **recall** the ledger; **apply a
+  relevant routine before planning**; **log a routine after a notable success**
+  (a routine is a distilled how-to with the five fields
+  `goal:/applies-when:/preconditions:/steps:/pitfalls:`). The exact commands (and
+  the OS-specific `python3`/`python` invocation) live in the usage guide — see the
+  engine + how-to pointer below.
 - **During**: update `docs/history/execution-log.md` *as part of* the change
   (what ran, how verified) — not after; keep any plan status honest. Docs change
   *with* code: if a change alters behavior, config, CLI, API, or deployment, the
@@ -117,8 +132,31 @@ docs/execution-log.md  ->   moved to docs/history/execution-log.md (MVRS floor p
   `README.md` + any touched topic docs, then explicitly report one of
   `current-state: updated / not-affected / needs-human-decision`. A read-only
   judgment pass — not a script.
+- **Rubber-duck termination:** rubber-duck loops on **blocking** findings only,
+  then terminates by **acceptance** (plan-stage) or the stage-3 `verifier` gate
+  (diff-stage); round cap 2–3, open blockers at the cap → Open Questions, never
+  dropped. Full rule:
+  [`dev-env-setup` `docs/guides/sdlc.md`](https://github.com/9owlsboston/dev-env-setup/blob/main/docs/guides/sdlc.md).
+- **Rubber-duck enforcement:** rubber-duck is **required** (not optional) at
+  plan-stage and diff-stage for code/config changes — record a **ran-or-waived**
+  attestation in the design doc's `## Review attestations` (PR body mirrors the
+  diff-stage line). Carve-outs (`noncodefix`/`spike`/`release`) are exempt **unless**
+  the change touches deps/CI/IaC/security/behavioral config. Full rule:
+  [`dev-env-setup` `docs/guides/sdlc.md`](https://github.com/9owlsboston/dev-env-setup/blob/main/docs/guides/sdlc.md).
 
 Full lifecycle spec: global `~/.copilot/copilot-instructions.md`.
+
+**Agent-memory engine + how-to.** The ledger is
+[`ledger.py`](https://github.com/9owlsboston/kb-tools/blob/main/ledger.py) in
+`kb-tools` — **not** executable and **not** on PATH. Set `KB` for your shell, then
+call the interpreter on the script:
+- **POSIX:** `KB=~/ws/kb-tools` → `python3 "$KB/ledger.py" <verb>`
+- **PowerShell (Windows):** `$KB = "$env:USERPROFILE\ws\kb-tools"` → `python "$KB\ledger.py" <verb>`
+
+How-to:
+[agent-memory-usage.md](https://github.com/9owlsboston/dev-env-setup/blob/main/docs/guides/agent-memory-usage.md).
+Design:
+[agent-memory-ledger.md](https://github.com/9owlsboston/dev-env-setup/blob/main/docs/design/agent-memory-ledger.md).
 
 ## 7. Documentation output style
 

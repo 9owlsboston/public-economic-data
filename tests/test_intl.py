@@ -7,6 +7,7 @@ Validates JSON structure, freshness, and data quality for Yahoo Finance-sourced 
 
 import json
 import sys
+import warnings
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -29,7 +30,7 @@ def test_all_json_valid():
             json.loads(f.read_text())
         except json.JSONDecodeError as e:
             errors.append(f"{f.name}: {e}")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_required_fields():
@@ -40,7 +41,7 @@ def test_required_fields():
         for field in REQUIRED_FIELDS:
             if field not in data:
                 errors.append(f"{f.name}: missing '{field}'")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_annual_sorted_descending():
@@ -51,7 +52,7 @@ def test_annual_sorted_descending():
         periods = [e["period_end"] for e in data.get("annual", []) if "period_end" in e]
         if periods != sorted(periods, reverse=True):
             errors.append(f"{f.name}: annual not sorted descending")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_no_null_revenue_in_annual():
@@ -62,7 +63,7 @@ def test_no_null_revenue_in_annual():
         annual = data.get("annual", [])
         if annual and annual[0].get("revenue_M") is None:
             errors.append(f"{f.name}: latest annual has null revenue")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_isin_matches_filename():
@@ -74,7 +75,7 @@ def test_isin_matches_filename():
         actual_isin = data.get("isin", "")
         if actual_isin != expected_isin:
             errors.append(f"{f.name}: ISIN '{actual_isin}' != filename '{expected_isin}'")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_source_field():
@@ -84,7 +85,7 @@ def test_source_field():
         data = json.loads(f.read_text())
         if not data.get("source"):
             errors.append(f"{f.name}: missing 'source' field")
-    return errors
+    assert not errors, "\n".join(errors)
 
 
 def test_freshness():
@@ -97,7 +98,23 @@ def test_freshness():
         refreshed = data.get("last_refreshed", "")
         if refreshed and refreshed < threshold.isoformat():
             errors.append(f"{f.name}: last_refreshed={refreshed} (>120 days)")
-    return errors
+    assert not errors, "\n".join(errors)
+
+
+def _run(test_fn):
+    """Bridge the assert/warn-based test functions to the standalone runner.
+
+    Returns a list of issue strings: a failed assertion or any warnings the
+    test emits are surfaced as printable lines; an empty list means the check
+    passed cleanly.
+    """
+    with warnings.catch_warnings(record=True) as caught:
+        warnings.simplefilter("always")
+        try:
+            test_fn()
+        except AssertionError as exc:
+            return [line for line in str(exc).splitlines() if line]
+    return [str(w.message) for w in caught]
 
 
 def main():
@@ -117,7 +134,7 @@ def main():
 
     total_errors = 0
     for name, test_fn, is_error in tests:
-        issues = test_fn()
+        issues = _run(test_fn)
         if is_error:
             status = "✅" if not issues else "❌"
         else:
