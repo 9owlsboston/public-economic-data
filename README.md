@@ -2,6 +2,10 @@
 
 Private aggregator of public economic and financial datasets for cloud economics analysis.
 
+> **Current state:** see [`docs/current-state.md`](docs/current-state.md) for the
+> dated "where we are now" snapshot (current → future → open gaps). This README
+> holds the durable orientation; the snapshot holds the moving picture.
+
 ## Data Sources
 
 | Source | Directory | Status | Refresh |

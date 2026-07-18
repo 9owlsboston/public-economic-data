@@ -1,11 +1,24 @@
 # Execution Log
 
-Running record of implementation sessions — actions, outcomes, and decisions made.
-Each session appends a dated entry. Agents and humans both contribute.
+Chronological record of **what was executed** against this repo — commands run,
+changes made, and how they were verified. Distinct from `CHANGELOG.md` (which
+records *content* changes for consumers); this log records **action** — especially
+important because AI agents execute on our behalf. Agents and humans both contribute.
+
+Append newest-last. Preserve dates, commands, and verification notes; use
+completed-state language (record what happened, not what to do).
 
 **Format:** Each session has scope, contributor, action/outcome table, key decisions, and coverage snapshot.
 
 ---
+
+<!-- Template (copy per entry):
+
+### YYYY-MM-DD — <short title>
+
+<what was done + why, in a sentence or two>. Verified: <how — command output,
+test, diff, byte-identity, etc.>.
+-->
 
 ### 2026-03-29 — Initial Bootstrap
 
