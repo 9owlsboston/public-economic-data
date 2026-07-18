@@ -155,3 +155,7 @@ Verified: `docs-drift --repo .` clean (links + drift-rules resolve).
 - **`plan/roadmap.md`** — left the dated `Current State (2026-04-10)` block and completed `[x]` bullets as immutable history; added a pointer to `docs/current-state.md` as the always-current SoT.
 
 Verified: `intl.md` table sums to 190; every cited key company exists in the registry (fixed one bad citation — SAP is not an intl filer, replaced with Volkswagen); `git check-attr text -- ai-spending-10k.csv` → unset with no blob change on renormalize; no residual stale live counts (`grep` confirms remaining `196`/`39`/`365` hits are dated history only).
+
+### 2026-07-18 — Relocate loose root analysis artifacts
+
+Relocated three loose root artifacts into their proper homes: `financial-data-null-audit.md` → `docs/history/financial-data-null-audit.md`, `capex-xbrl-gap-report.md` → `docs/history/capex-xbrl-gap-report.md`, and `ai-spending-10k.csv` → `results/ai-spending-10k.csv`. Verified: git grep shows all references updated to new paths; files no longer at repo root.
