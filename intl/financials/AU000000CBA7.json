@@ -4,7 +4,7 @@
   "ticker": "CBA",
   "exchange": "ASX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-06-30",
@@ -17,9 +17,9 @@
       "sga_M": 752,
       "capex_M": 1636,
       "operating_cash_flow_M": -825,
-      "cash_M": 55503,
-      "total_debt_M": 216232,
-      "total_assets_M": 1353799,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null,
       "tags_used": {
         "source": "yahoo_finance",
         "notes": "Income statement + balance sheet + cash flow, converted to millions"
@@ -36,9 +36,9 @@
       "sga_M": 707,
       "capex_M": 1322,
       "operating_cash_flow_M": -25623,
-      "cash_M": 48110,
-      "total_debt_M": 186685,
-      "total_assets_M": 1254076
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2023-06-30",
@@ -51,9 +51,9 @@
       "sga_M": 665,
       "capex_M": 1568,
       "operating_cash_flow_M": -8390,
-      "cash_M": 108008,
-      "total_debt_M": 161553,
-      "total_assets_M": 1252423
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2022-06-30",
@@ -66,9 +66,9 @@
       "sga_M": 722,
       "capex_M": 977,
       "operating_cash_flow_M": 23240,
-      "cash_M": 120315,
-      "total_debt_M": 151599,
-      "total_assets_M": 1215260
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ],
   "quarterly": []

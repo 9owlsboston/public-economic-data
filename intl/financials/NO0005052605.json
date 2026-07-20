@@ -4,7 +4,7 @@
   "ticker": "NHY",
   "exchange": "Oslo Bors",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "NOK",
+      "revenue_M": 50388,
+      "rnd_M": null,
+      "cost_of_revenue_M": 34300,
+      "net_income_M": 4236,
+      "operating_income_M": 9106,
+      "sga_M": null,
+      "capex_M": 2752,
+      "operating_cash_flow_M": -1891,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "NOK",
       "revenue_M": 47215,
@@ -83,13 +102,9 @@
       "sga_M": null,
       "capex_M": 4059,
       "operating_cash_flow_M": 7993,
-      "cash_M": 16085,
-      "total_debt_M": 36574,
-      "total_assets_M": 208296,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2025-09-30",
@@ -102,9 +117,9 @@
       "sga_M": null,
       "capex_M": 2161,
       "operating_cash_flow_M": 3698,
-      "cash_M": 14703,
-      "total_debt_M": 37001,
-      "total_assets_M": 205463
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2025-06-30",
@@ -117,9 +132,9 @@
       "sga_M": null,
       "capex_M": 2658,
       "operating_cash_flow_M": 7640,
-      "cash_M": 18809,
-      "total_debt_M": 37548,
-      "total_assets_M": 203293
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2025-03-31",
@@ -132,9 +147,9 @@
       "sga_M": null,
       "capex_M": 2704,
       "operating_cash_flow_M": 3980,
-      "cash_M": 18945,
-      "total_debt_M": 37171,
-      "total_assets_M": 208049
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2024-12-31",

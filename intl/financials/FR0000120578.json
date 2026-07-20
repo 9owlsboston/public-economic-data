@@ -4,7 +4,7 @@
   "ticker": "SAN_PA",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 11244,
+      "rnd_M": 1747,
+      "cost_of_revenue_M": 3138,
+      "net_income_M": 1614,
+      "operating_income_M": 2269,
+      "sga_M": 2494,
+      "capex_M": null,
+      "operating_cash_flow_M": 1683,
+      "cash_M": 5544,
+      "total_debt_M": 20021,
+      "total_assets_M": 128024,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 12205,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 3445,
       "cash_M": 7657,
       "total_debt_M": 20329,
-      "total_assets_M": 126805,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 126805
     },
     {
       "period_end": "2025-09-30",
@@ -128,8 +143,8 @@
       "rnd_M": 1808,
       "cost_of_revenue_M": 2889,
       "net_income_M": 1872,
-      "operating_income_M": 2461,
-      "sga_M": 2222,
+      "operating_income_M": 2233,
+      "sga_M": 2391,
       "capex_M": null,
       "operating_cash_flow_M": 2093,
       "cash_M": 7991,

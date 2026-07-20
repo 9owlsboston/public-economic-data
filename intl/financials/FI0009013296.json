@@ -4,7 +4,7 @@
   "ticker": "TIETO",
   "exchange": "OMX Helsinki",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 448,
+      "rnd_M": null,
+      "cost_of_revenue_M": 345,
+      "net_income_M": 60,
+      "operating_income_M": 80,
+      "sga_M": null,
+      "capex_M": 15,
+      "operating_cash_flow_M": 85,
+      "cash_M": 300,
+      "total_debt_M": 699,
+      "total_assets_M": 2344,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 464,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 102,
       "cash_M": 128,
       "total_debt_M": 706,
-      "total_assets_M": 2247,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 2247
     },
     {
       "period_end": "2025-06-30",

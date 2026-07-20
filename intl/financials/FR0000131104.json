@@ -4,7 +4,7 @@
   "ticker": "BNP",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 14056,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 3217,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 188696,
+      "total_debt_M": 345753,
+      "total_assets_M": 2931529,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 30694,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 326959,
       "total_debt_M": 398488,
-      "total_assets_M": 2792981,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 2792981
     },
     {
       "period_end": "2025-06-30",

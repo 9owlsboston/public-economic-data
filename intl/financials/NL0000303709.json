@@ -4,7 +4,7 @@
   "ticker": "INGA",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -17,9 +17,9 @@
       "sga_M": null,
       "capex_M": 351,
       "operating_cash_flow_M": -6380,
-      "cash_M": 52889,
-      "total_debt_M": 179219,
-      "total_assets_M": 1054405,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null,
       "tags_used": {
         "source": "yahoo_finance",
         "notes": "Income statement + balance sheet + cash flow, converted to millions"
@@ -36,9 +36,9 @@
       "sga_M": null,
       "capex_M": 332,
       "operating_cash_flow_M": -22544,
-      "cash_M": 70353,
-      "total_debt_M": 171327,
-      "total_assets_M": 1020545
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2023-12-31",
@@ -51,9 +51,9 @@
       "sga_M": null,
       "capex_M": 246,
       "operating_cash_flow_M": -11340,
-      "cash_M": 90214,
-      "total_debt_M": 150000,
-      "total_assets_M": 975583
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2022-12-31",
@@ -66,9 +66,9 @@
       "sga_M": null,
       "capex_M": 231,
       "operating_cash_flow_M": -11112,
-      "cash_M": 87614,
-      "total_debt_M": 119497,
-      "total_assets_M": 967817
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2021-12-31",
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 5824,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1556,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 68587,
+      "total_debt_M": 182898,
+      "total_assets_M": 1137511,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 5798,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 52889,
       "total_debt_M": 179219,
-      "total_assets_M": 1054405,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 1054405
     },
     {
       "period_end": "2025-09-30",

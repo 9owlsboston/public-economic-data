@@ -4,7 +4,7 @@
   "ticker": "SWED-A",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "SEK",
+      "revenue_M": 17964,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7194,
+      "operating_income_M": null,
+      "sga_M": 2345,
+      "capex_M": 108,
+      "operating_cash_flow_M": -4072,
+      "cash_M": 261232,
+      "total_debt_M": 1020428,
+      "total_assets_M": 3306693,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "SEK",
+      "revenue_M": 16957,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7345,
+      "operating_income_M": null,
+      "sga_M": 2122,
+      "capex_M": 116,
+      "operating_cash_flow_M": 36512,
+      "cash_M": 279149,
+      "total_debt_M": 1022722,
+      "total_assets_M": 3187658
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "SEK",
       "revenue_M": 17995,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": -58525,
       "cash_M": 263628,
       "total_debt_M": 913660,
-      "total_assets_M": 3062782,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 3062782
     },
     {
       "period_end": "2025-06-30",
@@ -97,9 +127,9 @@
       "revenue_M": 16796,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 7886,
+      "net_income_M": 7889,
       "operating_income_M": null,
-      "sga_M": 1691,
+      "sga_M": 1870,
       "capex_M": 186,
       "operating_cash_flow_M": -17474,
       "cash_M": 325020,
@@ -114,11 +144,11 @@
       "cost_of_revenue_M": null,
       "net_income_M": 8200,
       "operating_income_M": null,
-      "sga_M": 1659,
+      "sga_M": 1876,
       "capex_M": 55,
       "operating_cash_flow_M": 35507,
       "cash_M": 363213,
-      "total_debt_M": 956643,
+      "total_debt_M": null,
       "total_assets_M": 3099331
     },
     {

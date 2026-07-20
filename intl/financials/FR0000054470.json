@@ -4,26 +4,41 @@
   "ticker": "UBI",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 1396,
+      "rnd_M": 1883,
+      "cost_of_revenue_M": 166,
+      "net_income_M": -1475,
+      "operating_income_M": -1313,
+      "sga_M": 556,
+      "capex_M": 35,
+      "operating_cash_flow_M": -408,
+      "cash_M": 1345,
+      "total_debt_M": 1794,
+      "total_assets_M": 3946,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "EUR",
-      "revenue_M": 1899,
+      "revenue_M": 1785,
       "rnd_M": 1071,
       "cost_of_revenue_M": 203,
-      "net_income_M": -159,
-      "operating_income_M": -66,
+      "net_income_M": -244,
+      "operating_income_M": -180,
       "sga_M": 656,
       "capex_M": 42,
       "operating_cash_flow_M": 169,
       "cash_M": 990,
       "total_debt_M": 2166,
-      "total_assets_M": 4700,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 4615
     },
     {
       "period_end": "2024-03-31",

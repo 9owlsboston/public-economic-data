@@ -4,8 +4,27 @@
   "ticker": "TSCO",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-02-28",
+      "currency": "GBP",
+      "revenue_M": 73712,
+      "rnd_M": null,
+      "cost_of_revenue_M": 68174,
+      "net_income_M": 1787,
+      "operating_income_M": 3103,
+      "sga_M": 2435,
+      "capex_M": 1666,
+      "operating_cash_flow_M": 3906,
+      "cash_M": 2487,
+      "total_debt_M": 15080,
+      "total_assets_M": 39474,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-02-28",
       "currency": "GBP",
@@ -16,14 +35,10 @@
       "operating_income_M": 2809,
       "sga_M": 2242,
       "capex_M": 1539,
-      "operating_cash_flow_M": 2922,
+      "operating_cash_flow_M": 2919,
       "cash_M": 2229,
       "total_debt_M": 14666,
-      "total_assets_M": 38890,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 38890
     },
     {
       "period_end": "2024-02-29",

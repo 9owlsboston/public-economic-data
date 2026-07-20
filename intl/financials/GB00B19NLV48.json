@@ -4,8 +4,27 @@
   "ticker": "EXPN",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "GBP",
+      "revenue_M": 8445,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3760,
+      "net_income_M": 1502,
+      "operating_income_M": 2045,
+      "sga_M": 596,
+      "capex_M": 726,
+      "operating_cash_flow_M": 2239,
+      "cash_M": 328,
+      "total_debt_M": 5565,
+      "total_assets_M": 14290,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "GBP",
@@ -13,17 +32,13 @@
       "rnd_M": null,
       "cost_of_revenue_M": 3376,
       "net_income_M": 1166,
-      "operating_income_M": 1783,
+      "operating_income_M": 1793,
       "sga_M": 536,
       "capex_M": 651,
       "operating_cash_flow_M": 2005,
       "cash_M": 368,
       "total_debt_M": 5016,
-      "total_assets_M": 12886,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 12886
     },
     {
       "period_end": "2024-03-31",

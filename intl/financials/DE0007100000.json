@@ -4,7 +4,7 @@
   "ticker": "MBG",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 31602,
+      "rnd_M": 1388,
+      "cost_of_revenue_M": 26138,
+      "net_income_M": 1418,
+      "operating_income_M": 1700,
+      "sga_M": 2925,
+      "capex_M": 1784,
+      "operating_cash_flow_M": 3785,
+      "cash_M": 12201,
+      "total_debt_M": 81424,
+      "total_assets_M": 258618,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 33690,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 2777,
       "cash_M": 12254,
       "total_debt_M": 82267,
-      "total_assets_M": 255466,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 255466
     },
     {
       "period_end": "2025-06-30",
@@ -113,7 +128,7 @@
       "rnd_M": 1607,
       "cost_of_revenue_M": 26660,
       "net_income_M": 1678,
-      "operating_income_M": 2165,
+      "operating_income_M": 1920,
       "sga_M": 3060,
       "capex_M": 1477,
       "operating_cash_flow_M": 5966,

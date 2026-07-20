@@ -4,7 +4,7 @@
   "ticker": "KCHOL",
   "exchange": "BIST",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "TRY",
+      "revenue_M": 738043,
+      "rnd_M": 2580,
+      "cost_of_revenue_M": 607517,
+      "net_income_M": 522,
+      "operating_income_M": 31157,
+      "sga_M": 86769,
+      "capex_M": 23761,
+      "operating_cash_flow_M": 76338,
+      "cash_M": 392039,
+      "total_debt_M": 1543364,
+      "total_assets_M": 5748170,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "TRY",
       "revenue_M": 802669,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": -55245,
       "cash_M": 358830,
       "total_debt_M": 1503898,
-      "total_assets_M": 5317600,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 5317600
     },
     {
       "period_end": "2025-09-30",
@@ -115,8 +130,8 @@
       "net_income_M": 7733,
       "operating_income_M": 24777,
       "sga_M": 69968,
-      "capex_M": 26950,
-      "operating_cash_flow_M": -37669,
+      "capex_M": 20459,
+      "operating_cash_flow_M": -33535,
       "cash_M": 311130,
       "total_debt_M": 1166424,
       "total_assets_M": 4659703
@@ -124,14 +139,14 @@
     {
       "period_end": "2025-03-31",
       "currency": "TRY",
-      "revenue_M": 538320,
-      "rnd_M": 1867,
-      "cost_of_revenue_M": 446235,
-      "net_income_M": -1415,
-      "operating_income_M": 16905,
-      "sga_M": 66415,
-      "capex_M": 21031,
-      "operating_cash_flow_M": -13401,
+      "revenue_M": 704473,
+      "rnd_M": 2443,
+      "cost_of_revenue_M": 583966,
+      "net_income_M": -1852,
+      "operating_income_M": 22124,
+      "sga_M": 86913,
+      "capex_M": 27522,
+      "operating_cash_flow_M": -17535,
       "cash_M": 325424,
       "total_debt_M": 1046247,
       "total_assets_M": 4209252

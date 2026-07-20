@@ -4,21 +4,21 @@
   "ticker": "PSG",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 4930,
       "rnd_M": null,
-      "cost_of_revenue_M": 3514,
+      "cost_of_revenue_M": 3775,
       "net_income_M": 119,
-      "operating_income_M": 331,
-      "sga_M": null,
+      "operating_income_M": 321,
+      "sga_M": 223,
       "capex_M": 198,
       "operating_cash_flow_M": 352,
       "cash_M": 1180,
-      "total_debt_M": 2308,
+      "total_debt_M": 2487,
       "total_assets_M": 4912,
       "tags_used": {
         "source": "yahoo_finance",
@@ -30,9 +30,9 @@
       "currency": "EUR",
       "revenue_M": 4908,
       "rnd_M": null,
-      "cost_of_revenue_M": 3432,
+      "cost_of_revenue_M": 3681,
       "net_income_M": 78,
-      "operating_income_M": 327,
+      "operating_income_M": 298,
       "sga_M": 256,
       "capex_M": 194,
       "operating_cash_flow_M": 353,
@@ -47,7 +47,7 @@
       "rnd_M": null,
       "cost_of_revenue_M": 3298,
       "net_income_M": 66,
-      "operating_income_M": 258,
+      "operating_income_M": 257,
       "sga_M": 227,
       "capex_M": 200,
       "operating_cash_flow_M": 293,
@@ -62,7 +62,7 @@
       "rnd_M": null,
       "cost_of_revenue_M": 3182,
       "net_income_M": 65,
-      "operating_income_M": 258,
+      "operating_income_M": 259,
       "sga_M": 226,
       "capex_M": 168,
       "operating_cash_flow_M": 308,
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 1274,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 33,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": 40,
+      "operating_cash_flow_M": 8,
+      "cash_M": 715,
+      "total_debt_M": 1617,
+      "total_assets_M": 4609,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 1258,
@@ -99,12 +118,8 @@
       "capex_M": 74,
       "operating_cash_flow_M": 231,
       "cash_M": 1180,
-      "total_debt_M": 2308,
-      "total_assets_M": 4912,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_debt_M": 2487,
+      "total_assets_M": 4912
     },
     {
       "period_end": "2025-06-30",

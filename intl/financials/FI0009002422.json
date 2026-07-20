@@ -4,7 +4,7 @@
   "ticker": "FORTUM",
   "exchange": "OMX Helsinki",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 1992,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1190,
+      "net_income_M": 421,
+      "operating_income_M": 520,
+      "sga_M": null,
+      "capex_M": 99,
+      "operating_cash_flow_M": null,
+      "cash_M": 2478,
+      "total_debt_M": 3947,
+      "total_assets_M": 15994,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 1444,
@@ -82,14 +101,10 @@
       "operating_income_M": 251,
       "sga_M": null,
       "capex_M": 161,
-      "operating_cash_flow_M": 53,
+      "operating_cash_flow_M": null,
       "cash_M": 2902,
       "total_debt_M": 4746,
-      "total_assets_M": 16444,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 16444
     },
     {
       "period_end": "2025-09-30",
@@ -116,7 +131,7 @@
       "operating_income_M": 115,
       "sga_M": null,
       "capex_M": 129,
-      "operating_cash_flow_M": 203,
+      "operating_cash_flow_M": null,
       "cash_M": 3153,
       "total_debt_M": 4737,
       "total_assets_M": 16060
@@ -130,8 +145,8 @@
       "net_income_M": 363,
       "operating_income_M": 461,
       "sga_M": null,
-      "capex_M": 100,
-      "operating_cash_flow_M": 453,
+      "capex_M": 132,
+      "operating_cash_flow_M": null,
       "cash_M": 4317,
       "total_debt_M": 4728,
       "total_assets_M": 17743
@@ -143,11 +158,11 @@
       "rnd_M": null,
       "cost_of_revenue_M": 821,
       "net_income_M": 344,
-      "operating_income_M": 256,
+      "operating_income_M": null,
       "sga_M": null,
-      "capex_M": 142,
-      "operating_cash_flow_M": 167,
-      "cash_M": 4135,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
       "total_debt_M": 4827,
       "total_assets_M": 17307
     },

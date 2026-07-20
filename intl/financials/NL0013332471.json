@@ -4,7 +4,7 @@
   "ticker": "TOM2",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 135,
+      "rnd_M": 81,
+      "cost_of_revenue_M": 13,
+      "net_income_M": 7,
+      "operating_income_M": 9,
+      "sga_M": 32,
+      "capex_M": 10,
+      "operating_cash_flow_M": 1,
+      "cash_M": 54,
+      "total_debt_M": 42,
+      "total_assets_M": 704,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 129,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 9,
       "cash_M": 68,
       "total_debt_M": 42,
-      "total_assets_M": 711,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 711
     },
     {
       "period_end": "2025-12-31",
@@ -113,8 +128,8 @@
       "rnd_M": 89,
       "cost_of_revenue_M": 18,
       "net_income_M": -24,
-      "operating_income_M": 5,
-      "sga_M": 34,
+      "operating_income_M": -20,
+      "sga_M": 59,
       "capex_M": 8,
       "operating_cash_flow_M": 22,
       "cash_M": 55,

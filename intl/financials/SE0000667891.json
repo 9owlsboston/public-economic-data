@@ -4,7 +4,7 @@
   "ticker": "ERIC-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "SEK",
+      "revenue_M": 52691,
+      "rnd_M": 10480,
+      "cost_of_revenue_M": 28568,
+      "net_income_M": 4046,
+      "operating_income_M": 6120,
+      "sga_M": 7612,
+      "capex_M": 1021,
+      "operating_cash_flow_M": 1932,
+      "cash_M": 41691,
+      "total_debt_M": 39478,
+      "total_assets_M": 287899,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "SEK",
       "revenue_M": 49332,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 7403,
       "cash_M": 52315,
       "total_debt_M": 39290,
-      "total_assets_M": 290393,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 290393
     },
     {
       "period_end": "2025-12-31",

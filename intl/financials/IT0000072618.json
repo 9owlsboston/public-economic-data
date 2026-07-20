@@ -4,7 +4,7 @@
   "ticker": "ISP",
   "exchange": "Borsa Italiana",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,9 +73,28 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 7323,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2761,
+      "operating_income_M": null,
+      "sga_M": 1038,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 35584,
+      "total_debt_M": 93887,
+      "total_assets_M": 968065,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
-      "revenue_M": 7465,
+      "revenue_M": 7460,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 1733,
@@ -85,16 +104,12 @@
       "operating_cash_flow_M": null,
       "cash_M": 47135,
       "total_debt_M": 139313,
-      "total_assets_M": 959887,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 959887
     },
     {
       "period_end": "2025-09-30",
       "currency": "EUR",
-      "revenue_M": 6914,
+      "revenue_M": 6919,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 2372,
@@ -109,7 +124,7 @@
     {
       "period_end": "2025-06-30",
       "currency": "EUR",
-      "revenue_M": 7188,
+      "revenue_M": 7181,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 2601,
@@ -124,7 +139,7 @@
     {
       "period_end": "2025-03-31",
       "currency": "EUR",
-      "revenue_M": 6962,
+      "revenue_M": 6969,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 2615,

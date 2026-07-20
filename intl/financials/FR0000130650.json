@@ -4,7 +4,7 @@
   "ticker": "DSY",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 1509,
+      "rnd_M": 319,
+      "cost_of_revenue_M": 241,
+      "net_income_M": 292,
+      "operating_income_M": 348,
+      "sga_M": 516,
+      "capex_M": 24,
+      "operating_cash_flow_M": 949,
+      "cash_M": 4875,
+      "total_debt_M": 2479,
+      "total_assets_M": 15467,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 1681,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 296,
       "cash_M": 4125,
       "total_debt_M": 3169,
-      "total_assets_M": 15059,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 15059
     },
     {
       "period_end": "2025-09-30",

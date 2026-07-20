@@ -4,7 +4,7 @@
   "ticker": "VOW3",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 75657,
+      "rnd_M": null,
+      "cost_of_revenue_M": 63902,
+      "net_income_M": 1443,
+      "operating_income_M": 2461,
+      "sga_M": 8700,
+      "capex_M": 5026,
+      "operating_cash_flow_M": 5211,
+      "cash_M": 48116,
+      "total_debt_M": 195174,
+      "total_assets_M": 666081,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 83245,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 4939,
       "cash_M": 38801,
       "total_debt_M": 196357,
-      "total_assets_M": 644467,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 644467
     },
     {
       "period_end": "2025-06-30",
@@ -113,7 +128,7 @@
       "rnd_M": null,
       "cost_of_revenue_M": 64758,
       "net_income_M": 1982,
-      "operating_income_M": 3275,
+      "operating_income_M": 2875,
       "sga_M": 8769,
       "capex_M": 5088,
       "operating_cash_flow_M": 2976,

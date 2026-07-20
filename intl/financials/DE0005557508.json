@@ -4,7 +4,7 @@
   "ticker": "DTE",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 29673,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11257,
+      "net_income_M": 2043,
+      "operating_income_M": 5937,
+      "sga_M": 153,
+      "capex_M": 3930,
+      "operating_cash_flow_M": 10875,
+      "cash_M": 8887,
+      "total_debt_M": 142769,
+      "total_assets_M": 293500,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 31523,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 8961,
       "cash_M": 7381,
       "total_debt_M": 140462,
-      "total_assets_M": 289769,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 289769
     },
     {
       "period_end": "2025-09-30",
@@ -139,17 +154,17 @@
     {
       "period_end": "2024-12-31",
       "currency": "EUR",
-      "revenue_M": 30759,
+      "revenue_M": null,
       "rnd_M": null,
-      "cost_of_revenue_M": 13154,
-      "net_income_M": 4182,
-      "operating_income_M": 5986,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
       "sga_M": 155,
-      "capex_M": 4801,
-      "operating_cash_flow_M": 9171,
-      "cash_M": 8156,
-      "total_debt_M": 145146,
-      "total_assets_M": 304934
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ]
 }

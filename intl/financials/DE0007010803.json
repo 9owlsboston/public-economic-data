@@ -4,7 +4,7 @@
   "ticker": "CON",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 4396,
+      "rnd_M": 133,
+      "cost_of_revenue_M": 3104,
+      "net_income_M": 200,
+      "operating_income_M": 480,
+      "sga_M": 679,
+      "capex_M": 180,
+      "operating_cash_flow_M": 197,
+      "cash_M": 1383,
+      "total_debt_M": 6611,
+      "total_assets_M": 17484,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 4965,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 1364,
       "cash_M": 1424,
       "total_debt_M": 6822,
-      "total_assets_M": 17792,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 17792
     },
     {
       "period_end": "2025-09-30",

@@ -4,7 +4,7 @@
   "ticker": "TIT",
   "exchange": "Borsa Italiana",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 3321,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1887,
+      "net_income_M": -292,
+      "operating_income_M": -52,
+      "sga_M": null,
+      "capex_M": 925,
+      "operating_cash_flow_M": 204,
+      "cash_M": 2054,
+      "total_debt_M": 14636,
+      "total_assets_M": 37468,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 3758,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 1102,
       "cash_M": 2048,
       "total_debt_M": 13224,
-      "total_assets_M": 36734,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 36734
     },
     {
       "period_end": "2025-06-30",

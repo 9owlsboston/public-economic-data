@@ -4,7 +4,7 @@
   "ticker": "DANSKE",
   "exchange": "OMX Copenhagen",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "DKK",
+      "revenue_M": 15156,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 6201,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": 619,
+      "operating_cash_flow_M": 12453,
+      "cash_M": 253818,
+      "total_debt_M": 1150322,
+      "total_assets_M": 3869007,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "DKK",
+      "revenue_M": 13974,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5686,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": 501,
+      "operating_cash_flow_M": 11519,
+      "cash_M": 259828,
+      "total_debt_M": 1144440,
+      "total_assets_M": 3792379
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "DKK",
       "revenue_M": 15290,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": 66254,
       "cash_M": 225455,
       "total_debt_M": 1136680,
-      "total_assets_M": 3753911,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 3753911
     },
     {
       "period_end": "2025-09-30",
@@ -109,7 +139,7 @@
     {
       "period_end": "2025-06-30",
       "currency": "DKK",
-      "revenue_M": 13928,
+      "revenue_M": 13985,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 5454,

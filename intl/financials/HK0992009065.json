@@ -4,8 +4,27 @@
   "ticker": "0992",
   "exchange": "HKEX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "HKD",
+      "revenue_M": 83075,
+      "rnd_M": 2490,
+      "cost_of_revenue_M": 70265,
+      "net_income_M": 1912,
+      "operating_income_M": 3262,
+      "sga_M": 7141,
+      "capex_M": 1859,
+      "operating_cash_flow_M": 4024,
+      "cash_M": 4887,
+      "total_debt_M": 5156,
+      "total_assets_M": 57129,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "HKD",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 1100,
       "cash_M": 4728,
       "total_debt_M": 5733,
-      "total_assets_M": 44231,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 44231
     },
     {
       "period_end": "2024-03-31",

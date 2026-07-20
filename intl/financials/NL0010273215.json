@@ -4,7 +4,7 @@
   "ticker": "ASML",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 9326,
+      "rnd_M": 1277,
+      "cost_of_revenue_M": 4291,
+      "net_income_M": 2918,
+      "operating_income_M": 3456,
+      "sga_M": 303,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 6672,
+      "total_debt_M": 1984,
+      "total_assets_M": 50215,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 8767,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": -2186,
       "cash_M": 7970,
       "total_debt_M": 2706,
-      "total_assets_M": 48060,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 48060
     },
     {
       "period_end": "2025-12-31",
@@ -125,13 +140,13 @@
       "period_end": "2025-06-30",
       "currency": "EUR",
       "revenue_M": 7692,
-      "rnd_M": 607,
-      "cost_of_revenue_M": 3648,
-      "net_income_M": 2676,
-      "operating_income_M": 3138,
+      "rnd_M": 1167,
+      "cost_of_revenue_M": 3562,
+      "net_income_M": 2290,
+      "operating_income_M": 2664,
       "sga_M": 299,
-      "capex_M": 988,
-      "operating_cash_flow_M": 1346,
+      "capex_M": 429,
+      "operating_cash_flow_M": 748,
       "cash_M": 7244,
       "total_debt_M": 3699,
       "total_assets_M": 44849
@@ -139,17 +154,17 @@
     {
       "period_end": "2025-03-31",
       "currency": "EUR",
-      "revenue_M": 7742,
-      "rnd_M": 1161,
-      "cost_of_revenue_M": 3562,
-      "net_income_M": 2355,
-      "operating_income_M": 2738,
-      "sga_M": 281,
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": null,
       "capex_M": 416,
       "operating_cash_flow_M": -59,
-      "cash_M": 9098,
-      "total_debt_M": 3681,
-      "total_assets_M": 45479
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ]
 }

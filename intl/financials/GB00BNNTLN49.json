@@ -4,26 +4,41 @@
   "ticker": "SBRY",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
-      "period_end": "2025-02-28",
+      "period_end": "2026-02-28",
       "currency": "GBP",
-      "revenue_M": 32812,
+      "revenue_M": 33647,
       "rnd_M": null,
-      "cost_of_revenue_M": 30591,
-      "net_income_M": 242,
-      "operating_income_M": 951,
-      "sga_M": 1325,
-      "capex_M": 859,
-      "operating_cash_flow_M": 1364,
-      "cash_M": 2777,
-      "total_debt_M": 6608,
-      "total_assets_M": 24648,
+      "cost_of_revenue_M": 31441,
+      "net_income_M": 393,
+      "operating_income_M": 953,
+      "sga_M": 1328,
+      "capex_M": 851,
+      "operating_cash_flow_M": 1774,
+      "cash_M": 1067,
+      "total_debt_M": 6601,
+      "total_assets_M": 18943,
       "tags_used": {
         "source": "yahoo_finance",
         "notes": "Income statement + balance sheet + cash flow, converted to millions"
       }
+    },
+    {
+      "period_end": "2025-02-28",
+      "currency": "GBP",
+      "revenue_M": 32772,
+      "rnd_M": null,
+      "cost_of_revenue_M": 30589,
+      "net_income_M": 253,
+      "operating_income_M": 936,
+      "sga_M": 1302,
+      "capex_M": 859,
+      "operating_cash_flow_M": 802,
+      "cash_M": 2222,
+      "total_debt_M": 6608,
+      "total_assets_M": 24757
     },
     {
       "period_end": "2024-02-29",
@@ -36,9 +51,9 @@
       "sga_M": 1333,
       "capex_M": 1565,
       "operating_cash_flow_M": 2113,
-      "cash_M": 1987,
+      "cash_M": 1978,
       "total_debt_M": 6549,
-      "total_assets_M": 25061
+      "total_assets_M": 25160
     },
     {
       "period_end": "2023-02-28",

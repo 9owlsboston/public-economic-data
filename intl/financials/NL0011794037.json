@@ -4,7 +4,7 @@
   "ticker": "AD",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 22276,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16306,
+      "net_income_M": 552,
+      "operating_income_M": 783,
+      "sga_M": 5187,
+      "capex_M": 603,
+      "operating_cash_flow_M": 757,
+      "cash_M": 3792,
+      "total_debt_M": 5397,
+      "total_assets_M": 49874,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 23490,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 2701,
       "cash_M": 3547,
       "total_debt_M": 18403,
-      "total_assets_M": 49089,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 49089
     },
     {
       "period_end": "2025-09-30",
@@ -139,17 +154,17 @@
     {
       "period_end": "2024-12-31",
       "currency": "EUR",
-      "revenue_M": 23276,
+      "revenue_M": null,
       "rnd_M": null,
-      "cost_of_revenue_M": 17140,
-      "net_income_M": 380,
-      "operating_income_M": 500,
-      "sga_M": 5636,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": null,
       "capex_M": 660,
-      "operating_cash_flow_M": 2319,
-      "cash_M": 6157,
-      "total_debt_M": 20315,
-      "total_assets_M": 51842
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2024-09-30",

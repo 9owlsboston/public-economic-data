@@ -4,7 +4,7 @@
   "ticker": "VOLCAR-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "SEK",
+      "revenue_M": 77673,
+      "rnd_M": 5370,
+      "cost_of_revenue_M": 64590,
+      "net_income_M": 1256,
+      "operating_income_M": 655,
+      "sga_M": 7257,
+      "capex_M": 8681,
+      "operating_cash_flow_M": 3052,
+      "cash_M": 41420,
+      "total_debt_M": 37106,
+      "total_assets_M": 388055,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "SEK",
+      "revenue_M": 72616,
+      "rnd_M": 4958,
+      "cost_of_revenue_M": 59170,
+      "net_income_M": 1610,
+      "operating_income_M": 1446,
+      "sga_M": 7264,
+      "capex_M": 7500,
+      "operating_cash_flow_M": -2583,
+      "cash_M": 46396,
+      "total_debt_M": 34729,
+      "total_assets_M": 379239
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "SEK",
       "revenue_M": 94384,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": 15897,
       "cash_M": 57564,
       "total_debt_M": 36145,
-      "total_assets_M": 373172,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 373172
     },
     {
       "period_end": "2025-06-30",

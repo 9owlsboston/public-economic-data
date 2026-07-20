@@ -4,7 +4,7 @@
   "ticker": "ELUX-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "SEK",
+      "revenue_M": 29543,
+      "rnd_M": null,
+      "cost_of_revenue_M": 25449,
+      "net_income_M": -470,
+      "operating_income_M": -266,
+      "sga_M": 4553,
+      "capex_M": 475,
+      "operating_cash_flow_M": -4828,
+      "cash_M": 10222,
+      "total_debt_M": 44290,
+      "total_assets_M": 115012,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "SEK",
       "revenue_M": 35112,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 4596,
       "cash_M": 15658,
       "total_debt_M": 43500,
-      "total_assets_M": 114626,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 114626
     },
     {
       "period_end": "2025-06-30",

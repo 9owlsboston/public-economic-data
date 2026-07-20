@@ -4,7 +4,7 @@
   "ticker": "RED",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -18,7 +18,7 @@
       "capex_M": 1407,
       "operating_cash_flow_M": 1013,
       "cash_M": 546,
-      "total_debt_M": 6130,
+      "total_debt_M": 6144,
       "total_assets_M": 15345,
       "tags_used": {
         "source": "yahoo_finance",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 430,
+      "rnd_M": null,
+      "cost_of_revenue_M": -11,
+      "net_income_M": 140,
+      "operating_income_M": 201,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": 149,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 16001,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 441,
@@ -84,12 +103,8 @@
       "capex_M": null,
       "operating_cash_flow_M": 414,
       "cash_M": 546,
-      "total_debt_M": 6130,
-      "total_assets_M": 15345,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_debt_M": 6144,
+      "total_assets_M": 15345
     },
     {
       "period_end": "2025-06-30",

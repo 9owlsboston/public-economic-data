@@ -4,7 +4,7 @@
   "ticker": "LDO",
   "exchange": "Borsa Italiana",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 4448,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4012,
+      "net_income_M": 162,
+      "operating_income_M": 251,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": -411,
+      "cash_M": 1493,
+      "total_debt_M": 605,
+      "total_assets_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 6059,
@@ -85,11 +104,22 @@
       "operating_cash_flow_M": 1598,
       "cash_M": 3238,
       "total_debt_M": 4489,
-      "total_assets_M": 34509,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 34509
+    },
+    {
+      "period_end": "2025-09-30",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": 427,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2025-06-30",
@@ -131,7 +161,7 @@
       "operating_income_M": 607,
       "sga_M": null,
       "capex_M": null,
-      "operating_cash_flow_M": 1591,
+      "operating_cash_flow_M": null,
       "cash_M": 2556,
       "total_debt_M": 4700,
       "total_assets_M": 33673

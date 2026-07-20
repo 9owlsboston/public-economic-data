@@ -4,7 +4,7 @@
   "ticker": "SKF-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "SEK",
+      "revenue_M": 23195,
+      "rnd_M": 835,
+      "cost_of_revenue_M": 16313,
+      "net_income_M": 1263,
+      "operating_income_M": 2219,
+      "sga_M": 3615,
+      "capex_M": 716,
+      "operating_cash_flow_M": 2055,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 118605,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "SEK",
+      "revenue_M": 21873,
+      "rnd_M": 759,
+      "cost_of_revenue_M": 15460,
+      "net_income_M": 1627,
+      "operating_income_M": 2643,
+      "sga_M": 3238,
+      "capex_M": 772,
+      "operating_cash_flow_M": -446,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": 111360
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "SEK",
       "revenue_M": 21969,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": 2758,
       "cash_M": 8984,
       "total_debt_M": 14984,
-      "total_assets_M": 106422,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 106422
     },
     {
       "period_end": "2025-06-30",

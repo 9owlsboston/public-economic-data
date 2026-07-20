@@ -4,7 +4,7 @@
   "ticker": "HM-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-11-30",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-05-31",
+      "currency": "SEK",
+      "revenue_M": 54828,
+      "rnd_M": null,
+      "cost_of_revenue_M": 23783,
+      "net_income_M": 3986,
+      "operating_income_M": 5988,
+      "sga_M": 20801,
+      "capex_M": 1718,
+      "operating_cash_flow_M": 10591,
+      "cash_M": 18697,
+      "total_debt_M": 56364,
+      "total_assets_M": 165884,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-02-28",
+      "currency": "SEK",
+      "revenue_M": 49607,
+      "rnd_M": null,
+      "cost_of_revenue_M": 24469,
+      "net_income_M": 724,
+      "operating_income_M": 1567,
+      "sga_M": 19318,
+      "capex_M": 2037,
+      "operating_cash_flow_M": 4025,
+      "cash_M": 18733,
+      "total_debt_M": 56615,
+      "total_assets_M": 164092
+    },
+    {
       "period_end": "2025-11-30",
       "currency": "SEK",
       "revenue_M": 59221,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": 8406,
       "cash_M": 20908,
       "total_debt_M": 77547,
-      "total_assets_M": 170273,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 170273
     },
     {
       "period_end": "2025-08-31",

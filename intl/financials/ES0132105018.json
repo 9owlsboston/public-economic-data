@@ -4,7 +4,7 @@
   "ticker": "ACX",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 1384,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 5,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": 34,
+      "cash_M": 845,
+      "total_debt_M": 2139,
+      "total_assets_M": 5731,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 2723,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 156,
       "cash_M": 970,
       "total_debt_M": 2158,
-      "total_assets_M": 5621,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 5621
     },
     {
       "period_end": "2025-09-30",
@@ -139,17 +154,17 @@
     {
       "period_end": "2024-12-31",
       "currency": "EUR",
-      "revenue_M": 2632,
+      "revenue_M": null,
       "rnd_M": null,
       "cost_of_revenue_M": 1721,
-      "net_income_M": 110,
+      "net_income_M": null,
       "operating_income_M": 44,
       "sga_M": null,
       "capex_M": null,
-      "operating_cash_flow_M": 91,
-      "cash_M": 1263,
-      "total_debt_M": 2383,
-      "total_assets_M": 6467
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ]
 }

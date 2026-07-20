@@ -4,12 +4,12 @@
   "ticker": "HSBA",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
       "currency": "GBP",
-      "revenue_M": 66224,
+      "revenue_M": 71020,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 22285,
@@ -73,9 +73,28 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "GBP",
+      "revenue_M": 19125,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 7345,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 214707,
+      "total_debt_M": 101742,
+      "total_assets_M": 3306011,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "GBP",
-      "revenue_M": 12927,
+      "revenue_M": 17723,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 4944,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 307737,
       "total_debt_M": 256139,
-      "total_assets_M": 3233034,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 3233034
     },
     {
       "period_end": "2025-09-30",

@@ -4,8 +4,27 @@
   "ticker": "3382",
   "exchange": "TSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-02-28",
+      "currency": "JPY",
+      "revenue_M": 10430268,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7300235,
+      "net_income_M": 292760,
+      "operating_income_M": 422997,
+      "sga_M": 254264,
+      "capex_M": 404323,
+      "operating_cash_flow_M": 666736,
+      "cash_M": 438634,
+      "total_debt_M": 3793778,
+      "total_assets_M": 9142957,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-02-28",
       "currency": "JPY",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 876458,
       "cash_M": 1368663,
       "total_debt_M": 4098791,
-      "total_assets_M": 11386111,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 11386111
     },
     {
       "period_end": "2024-02-29",

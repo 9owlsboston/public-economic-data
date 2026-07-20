@@ -4,7 +4,7 @@
   "ticker": "ITUB4",
   "exchange": "B3",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "BRL",
+      "revenue_M": 41132,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 11636,
+      "operating_income_M": null,
+      "sga_M": 14882,
+      "capex_M": 4228,
+      "operating_cash_flow_M": 55594,
+      "cash_M": 273613,
+      "total_debt_M": 560875,
+      "total_assets_M": 3171201,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "BRL",
       "revenue_M": 42119,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": -43422,
       "cash_M": 270614,
       "total_debt_M": 563696,
-      "total_assets_M": 3066169,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 3066169
     },
     {
       "period_end": "2025-09-30",
@@ -130,7 +145,7 @@
       "net_income_M": 11137,
       "operating_income_M": null,
       "sga_M": 16957,
-      "capex_M": 1786,
+      "capex_M": 1846,
       "operating_cash_flow_M": 13898,
       "cash_M": 258408,
       "total_debt_M": 525656,
@@ -145,7 +160,7 @@
       "net_income_M": 10507,
       "operating_income_M": null,
       "sga_M": 13415,
-      "capex_M": 1828,
+      "capex_M": 1768,
       "operating_cash_flow_M": -11714,
       "cash_M": 254999,
       "total_debt_M": 515154,

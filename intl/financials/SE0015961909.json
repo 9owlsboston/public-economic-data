@@ -4,8 +4,27 @@
   "ticker": "EKTA-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-04-30",
+      "currency": "SEK",
+      "revenue_M": 16718,
+      "rnd_M": 2633,
+      "cost_of_revenue_M": 10468,
+      "net_income_M": -519,
+      "operating_income_M": 101,
+      "sga_M": 3183,
+      "capex_M": 1072,
+      "operating_cash_flow_M": 2464,
+      "cash_M": 3167,
+      "total_debt_M": 7331,
+      "total_assets_M": 26955,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-04-30",
       "currency": "SEK",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 2626,
       "cash_M": 2947,
       "total_debt_M": 7567,
-      "total_assets_M": 28977,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 28977
     },
     {
       "period_end": "2024-04-30",
@@ -73,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-30",
+      "currency": "SEK",
+      "revenue_M": 4762,
+      "rnd_M": 1239,
+      "cost_of_revenue_M": 2880,
+      "net_income_M": -866,
+      "operating_income_M": -524,
+      "sga_M": 879,
+      "capex_M": 239,
+      "operating_cash_flow_M": 1380,
+      "cash_M": 3167,
+      "total_debt_M": 7331,
+      "total_assets_M": 26955,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-01-31",
       "currency": "SEK",
       "revenue_M": 4239,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": 533,
       "cash_M": 2541,
       "total_debt_M": 7284,
-      "total_assets_M": 27678,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 27678
     },
     {
       "period_end": "2025-10-31",

@@ -4,12 +4,31 @@
   "ticker": "8411",
   "exchange": "TSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "JPY",
+      "revenue_M": 4316919,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1248632,
+      "operating_income_M": null,
+      "sga_M": 2103458,
+      "capex_M": 318951,
+      "operating_cash_flow_M": -4838533,
+      "cash_M": 61567751,
+      "total_debt_M": 26180927,
+      "total_assets_M": 302240042,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "JPY",
-      "revenue_M": 3645206,
+      "revenue_M": 3809305,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 885433,
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": -3820800,
       "cash_M": 72483086,
       "total_debt_M": 22493724,
-      "total_assets_M": 283320404,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 283320404
     },
     {
       "period_end": "2024-03-31",
@@ -73,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "JPY",
+      "revenue_M": 1323234,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 228742,
+      "operating_income_M": null,
+      "sga_M": 594291,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 61567751,
+      "total_debt_M": 26180927,
+      "total_assets_M": 302240042,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "JPY",
       "revenue_M": 1072643,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 61088086,
       "total_debt_M": 26675818,
-      "total_assets_M": 297570168,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 297570168
     },
     {
       "period_end": "2025-09-30",

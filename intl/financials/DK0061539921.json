@@ -4,7 +4,7 @@
   "ticker": "VWS",
   "exchange": "OMX Copenhagen",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "DKK",
+      "revenue_M": 3966,
+      "rnd_M": 102,
+      "cost_of_revenue_M": 3495,
+      "net_income_M": 82,
+      "operating_income_M": 127,
+      "sga_M": 242,
+      "capex_M": 198,
+      "operating_cash_flow_M": -289,
+      "cash_M": 4199,
+      "total_debt_M": 3944,
+      "total_assets_M": 26707,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "DKK",
       "revenue_M": 6270,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 1298,
       "cash_M": 4367,
       "total_debt_M": 3374,
-      "total_assets_M": 25732,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 25732
     },
     {
       "period_end": "2025-09-30",

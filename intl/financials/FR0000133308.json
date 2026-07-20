@@ -4,7 +4,7 @@
   "ticker": "ORA",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 10095,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": -2180,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 10550,
@@ -85,16 +104,12 @@
       "operating_cash_flow_M": null,
       "cash_M": 12167,
       "total_debt_M": 7522,
-      "total_assets_M": 107415,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 107415
     },
     {
       "period_end": "2025-06-30",
       "currency": "EUR",
-      "revenue_M": null,
+      "revenue_M": 9942,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": null,
@@ -105,6 +120,21 @@
       "cash_M": 7540,
       "total_debt_M": 7508,
       "total_assets_M": 101621
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 9911,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": -3739,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2024-12-31",

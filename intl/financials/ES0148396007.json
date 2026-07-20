@@ -4,7 +4,7 @@
   "ticker": "ITX",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -13,12 +13,12 @@
       "rnd_M": null,
       "cost_of_revenue_M": 16642,
       "net_income_M": 6220,
-      "operating_income_M": 8045,
-      "sga_M": null,
+      "operating_income_M": 8064,
+      "sga_M": 3591,
       "capex_M": 2712,
       "operating_cash_flow_M": 9232,
       "cash_M": 5276,
-      "total_debt_M": 2,
+      "total_debt_M": 6095,
       "total_assets_M": 35638,
       "tags_used": {
         "source": "yahoo_finance",
@@ -32,7 +32,7 @@
       "rnd_M": null,
       "cost_of_revenue_M": 16288,
       "net_income_M": 5866,
-      "operating_income_M": 7594,
+      "operating_income_M": 7673,
       "sga_M": 3712,
       "capex_M": 2672,
       "operating_cash_flow_M": 9288,
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-04-30",
+      "currency": "EUR",
+      "revenue_M": 8750,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3391,
+      "net_income_M": 1375,
+      "operating_income_M": 1756,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 5045,
+      "total_debt_M": 6041,
+      "total_assets_M": 36489,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-10-31",
       "currency": "EUR",
       "revenue_M": 9814,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 5951,
       "total_debt_M": 5457,
-      "total_assets_M": 36830,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 36830
     },
     {
       "period_end": "2025-07-31",

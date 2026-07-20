@@ -4,7 +4,7 @@
   "ticker": "ACA",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 6991,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1676,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 160000,
+      "total_debt_M": 317400,
+      "total_assets_M": 2416100,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 4691,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 579758,
       "total_debt_M": 312979,
-      "total_assets_M": 2374307,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 2374307
     },
     {
       "period_end": "2025-06-30",
@@ -109,10 +124,10 @@
     {
       "period_end": "2025-03-31",
       "currency": "EUR",
-      "revenue_M": 7257,
+      "revenue_M": 6936,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1824,
+      "net_income_M": 1646,
       "operating_income_M": null,
       "sga_M": null,
       "capex_M": null,

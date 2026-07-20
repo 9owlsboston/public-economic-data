@@ -4,7 +4,7 @@
   "ticker": "G1A",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 1273,
+      "rnd_M": 30,
+      "cost_of_revenue_M": 789,
+      "net_income_M": 100,
+      "operating_income_M": 138,
+      "sga_M": 316,
+      "capex_M": 33,
+      "operating_cash_flow_M": -125,
+      "cash_M": 416,
+      "total_debt_M": null,
+      "total_assets_M": 6100,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 1559,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 544,
       "cash_M": 594,
       "total_debt_M": 247,
-      "total_assets_M": 6088,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 6088
     },
     {
       "period_end": "2025-09-30",

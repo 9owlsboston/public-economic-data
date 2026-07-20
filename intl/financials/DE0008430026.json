@@ -4,7 +4,7 @@
   "ticker": "MUV2",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -43,7 +43,7 @@
     {
       "period_end": "2023-12-31",
       "currency": "EUR",
-      "revenue_M": 39684,
+      "revenue_M": 59516,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 4606,
@@ -58,7 +58,7 @@
     {
       "period_end": "2022-12-31",
       "currency": "EUR",
-      "revenue_M": 39707,
+      "revenue_M": 57548,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 5313,
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 16246,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1708,
+      "operating_income_M": null,
+      "sga_M": 2290,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 5600,
+      "total_debt_M": 7518,
+      "total_assets_M": 281932,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 13360,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 5502,
       "total_debt_M": 7434,
-      "total_assets_M": 279934,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 279934
     },
     {
       "period_end": "2025-09-30",

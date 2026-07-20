@@ -4,8 +4,27 @@
   "ticker": "SSE",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "GBP",
+      "revenue_M": 10186,
+      "rnd_M": null,
+      "cost_of_revenue_M": 6412,
+      "net_income_M": 1209,
+      "operating_income_M": 1993,
+      "sga_M": null,
+      "capex_M": 4444,
+      "operating_cash_flow_M": 3435,
+      "cash_M": 1543,
+      "total_debt_M": 10121,
+      "total_assets_M": 35354,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "GBP",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 2477,
       "cash_M": 1090,
       "total_debt_M": 10604,
-      "total_assets_M": 30364,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 30364
     },
     {
       "period_end": "2024-03-31",

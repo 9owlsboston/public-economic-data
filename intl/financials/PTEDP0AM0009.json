@@ -4,7 +4,7 @@
   "ticker": "EDP",
   "exchange": "EURONEXT",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 4053,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2434,
+      "net_income_M": 378,
+      "operating_income_M": 662,
+      "sga_M": null,
+      "capex_M": 1171,
+      "operating_cash_flow_M": 642,
+      "cash_M": 3609,
+      "total_debt_M": 23667,
+      "total_assets_M": 55639,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 4163,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 1142,
       "cash_M": 3930,
       "total_debt_M": 23634,
-      "total_assets_M": 54956,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 54956
     },
     {
       "period_end": "2025-09-30",
@@ -128,7 +143,7 @@
       "rnd_M": null,
       "cost_of_revenue_M": 2326,
       "net_income_M": 428,
-      "operating_income_M": 817,
+      "operating_income_M": 762,
       "sga_M": null,
       "capex_M": 1278,
       "operating_cash_flow_M": 843,

@@ -4,26 +4,41 @@
   "ticker": "Z74",
   "exchange": "SGX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "SGD",
+      "revenue_M": 14261,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4376,
+      "net_income_M": 5606,
+      "operating_income_M": 1249,
+      "sga_M": 1744,
+      "capex_M": 2603,
+      "operating_cash_flow_M": 4920,
+      "cash_M": 3470,
+      "total_debt_M": 11679,
+      "total_assets_M": 50697,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "SGD",
       "revenue_M": 14146,
       "rnd_M": null,
-      "cost_of_revenue_M": 4188,
+      "cost_of_revenue_M": 4300,
       "net_income_M": 4017,
       "operating_income_M": 1147,
-      "sga_M": null,
+      "sga_M": 1760,
       "capex_M": 4257,
       "operating_cash_flow_M": 4609,
       "cash_M": 2773,
       "total_debt_M": 11672,
-      "total_assets_M": 46783,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 46783
     },
     {
       "period_end": "2024-03-31",

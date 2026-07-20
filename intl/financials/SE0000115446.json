@@ -4,7 +4,7 @@
   "ticker": "VOLV-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "SEK",
+      "revenue_M": 126273,
+      "rnd_M": 6183,
+      "cost_of_revenue_M": 93819,
+      "net_income_M": 10371,
+      "operating_income_M": 13338,
+      "sga_M": 10593,
+      "capex_M": 5923,
+      "operating_cash_flow_M": 6213,
+      "cash_M": 46971,
+      "total_debt_M": 260355,
+      "total_assets_M": 678690,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "SEK",
+      "revenue_M": 110765,
+      "rnd_M": 5861,
+      "cost_of_revenue_M": 82041,
+      "net_income_M": 8315,
+      "operating_income_M": 10951,
+      "sga_M": 9981,
+      "capex_M": 6285,
+      "operating_cash_flow_M": 10635,
+      "cash_M": 72452,
+      "total_debt_M": 257633,
+      "total_assets_M": 682483
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "SEK",
       "revenue_M": 123803,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": 24179,
       "cash_M": 64761,
       "total_debt_M": 247001,
-      "total_assets_M": 648590,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 648590
     },
     {
       "period_end": "2025-09-30",

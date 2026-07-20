@@ -4,7 +4,7 @@
   "ticker": "BIMBOA",
   "exchange": "BMV",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -13,10 +13,10 @@
       "rnd_M": null,
       "cost_of_revenue_M": 203465,
       "net_income_M": 11133,
-      "operating_income_M": 38656,
+      "operating_income_M": 39424,
       "sga_M": 183889,
-      "capex_M": 22841,
-      "operating_cash_flow_M": 47743,
+      "capex_M": 22893,
+      "operating_cash_flow_M": 47753,
       "cash_M": 8535,
       "total_debt_M": 188453,
       "total_assets_M": 409805,
@@ -31,11 +31,11 @@
       "revenue_M": 408335,
       "rnd_M": null,
       "cost_of_revenue_M": 193407,
-      "net_income_M": 12545,
-      "operating_income_M": 39438,
+      "net_income_M": 12544,
+      "operating_income_M": 40738,
       "sga_M": 175164,
-      "capex_M": 30175,
-      "operating_cash_flow_M": 40007,
+      "capex_M": 30879,
+      "operating_cash_flow_M": 39907,
       "cash_M": 8057,
       "total_debt_M": 186706,
       "total_assets_M": 416804
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "MXN",
+      "revenue_M": 100319,
+      "rnd_M": null,
+      "cost_of_revenue_M": 47662,
+      "net_income_M": 2362,
+      "operating_income_M": 8374,
+      "sga_M": 44282,
+      "capex_M": 2743,
+      "operating_cash_flow_M": 15111,
+      "cash_M": 19574,
+      "total_debt_M": 191782,
+      "total_assets_M": 418883,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "MXN",
       "revenue_M": 108688,
@@ -81,15 +100,11 @@
       "net_income_M": 3158,
       "operating_income_M": 11613,
       "sga_M": 44693,
-      "capex_M": 8371,
-      "operating_cash_flow_M": 13280,
+      "capex_M": 8423,
+      "operating_cash_flow_M": 13291,
       "cash_M": 8535,
       "total_debt_M": 188453,
-      "total_assets_M": 409805,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 409805
     },
     {
       "period_end": "2025-06-30",
@@ -109,12 +124,12 @@
     {
       "period_end": "2025-03-31",
       "currency": "MXN",
-      "revenue_M": 103726,
+      "revenue_M": 103448,
       "rnd_M": null,
-      "cost_of_revenue_M": 49262,
-      "net_income_M": 1770,
-      "operating_income_M": 8088,
-      "sga_M": 46377,
+      "cost_of_revenue_M": 49123,
+      "net_income_M": 1785,
+      "operating_income_M": 8069,
+      "sga_M": 46254,
       "capex_M": 5362,
       "operating_cash_flow_M": 10591,
       "cash_M": 17779,
@@ -130,8 +145,8 @@
       "net_income_M": 3121,
       "operating_income_M": 10091,
       "sga_M": 47841,
-      "capex_M": 10703,
-      "operating_cash_flow_M": 13019,
+      "capex_M": 11407,
+      "operating_cash_flow_M": 12919,
       "cash_M": 8057,
       "total_debt_M": 186706,
       "total_assets_M": 416804

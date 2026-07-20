@@ -4,7 +4,7 @@
   "ticker": "ABBN",
   "exchange": "SIX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "CHF",
+      "revenue_M": 9475,
+      "rnd_M": 371,
+      "cost_of_revenue_M": 5682,
+      "net_income_M": 1231,
+      "operating_income_M": 1697,
+      "sga_M": 1725,
+      "capex_M": 236,
+      "operating_cash_flow_M": 1150,
+      "cash_M": 3867,
+      "total_debt_M": null,
+      "total_assets_M": 45736,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "CHF",
+      "revenue_M": 8734,
+      "rnd_M": 333,
+      "cost_of_revenue_M": 5294,
+      "net_income_M": 1324,
+      "operating_income_M": 1432,
+      "sga_M": 1675,
+      "capex_M": 181,
+      "operating_cash_flow_M": 1029,
+      "cash_M": 3325,
+      "total_debt_M": null,
+      "total_assets_M": 44629
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "CHF",
       "revenue_M": 9052,
@@ -85,22 +119,18 @@
       "operating_cash_flow_M": 1949,
       "cash_M": 4640,
       "total_debt_M": null,
-      "total_assets_M": 44885,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 44885
     },
     {
       "period_end": "2025-06-30",
       "currency": "CHF",
-      "revenue_M": 8900,
-      "rnd_M": 350,
-      "cost_of_revenue_M": 5326,
+      "revenue_M": 8295,
+      "rnd_M": 320,
+      "cost_of_revenue_M": 4933,
       "net_income_M": 1151,
-      "operating_income_M": 1476,
-      "sga_M": 1748,
-      "capex_M": 224,
+      "operating_income_M": 1371,
+      "sga_M": 1671,
+      "capex_M": 202,
       "operating_cash_flow_M": 1059,
       "cash_M": 3266,
       "total_debt_M": null,
@@ -109,13 +139,13 @@
     {
       "period_end": "2025-03-31",
       "currency": "CHF",
-      "revenue_M": 7935,
-      "rnd_M": 329,
-      "cost_of_revenue_M": 4624,
+      "revenue_M": 7382,
+      "rnd_M": 303,
+      "cost_of_revenue_M": 4260,
       "net_income_M": 1102,
-      "operating_income_M": 1378,
-      "sga_M": 1604,
-      "capex_M": 195,
+      "operating_income_M": 1285,
+      "sga_M": 1534,
+      "capex_M": 183,
       "operating_cash_flow_M": 684,
       "cash_M": 4494,
       "total_debt_M": null,

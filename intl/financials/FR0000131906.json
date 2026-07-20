@@ -4,7 +4,7 @@
   "ticker": "RNO",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,8 +15,8 @@
       "net_income_M": -10931,
       "operating_income_M": 3632,
       "sga_M": 5243,
-      "capex_M": 3044,
-      "operating_cash_flow_M": 2339,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
       "cash_M": 18942,
       "total_debt_M": 68939,
       "total_assets_M": 121010,
@@ -34,8 +34,8 @@
       "net_income_M": 752,
       "operating_income_M": 4263,
       "sga_M": 5195,
-      "capex_M": 3050,
-      "operating_cash_flow_M": 7161,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
       "cash_M": 21556,
       "total_debt_M": 70265,
       "total_assets_M": 129366
@@ -49,8 +49,8 @@
       "net_income_M": 2198,
       "operating_income_M": 4117,
       "sga_M": 4701,
-      "capex_M": 3064,
-      "operating_cash_flow_M": 4462,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
       "cash_M": 19789,
       "total_debt_M": 65083,
       "total_assets_M": 121913
@@ -64,8 +64,8 @@
       "net_income_M": -354,
       "operating_income_M": 2638,
       "sga_M": 4522,
-      "capex_M": 2684,
-      "operating_cash_flow_M": 3613,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
       "cash_M": 20605,
       "total_debt_M": 62763,
       "total_assets_M": 118292

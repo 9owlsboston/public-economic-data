@@ -4,7 +4,7 @@
   "ticker": "LHA",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 8746,
+      "rnd_M": null,
+      "cost_of_revenue_M": 8427,
+      "net_income_M": -665,
+      "operating_income_M": -420,
+      "sga_M": null,
+      "capex_M": 1118,
+      "operating_cash_flow_M": 2083,
+      "cash_M": 1077,
+      "total_debt_M": 13020,
+      "total_assets_M": 50696,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 9949,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 98,
       "cash_M": 1160,
       "total_debt_M": 14554,
-      "total_assets_M": 48394,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 48394
     },
     {
       "period_end": "2025-09-30",

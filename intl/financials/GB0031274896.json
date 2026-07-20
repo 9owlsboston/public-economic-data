@@ -4,26 +4,41 @@
   "ticker": "MKS",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "GBP",
+      "revenue_M": 17274,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11722,
+      "net_income_M": 259,
+      "operating_income_M": 995,
+      "sga_M": 1048,
+      "capex_M": 627,
+      "operating_cash_flow_M": 1176,
+      "cash_M": 997,
+      "total_debt_M": 3419,
+      "total_assets_M": 10115,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "GBP",
       "revenue_M": 13817,
       "rnd_M": null,
-      "cost_of_revenue_M": 9209,
+      "cost_of_revenue_M": 9079,
       "net_income_M": 296,
       "operating_income_M": 668,
-      "sga_M": 974,
+      "sga_M": 781,
       "capex_M": 507,
       "operating_cash_flow_M": 1313,
       "cash_M": 864,
       "total_debt_M": 2944,
-      "total_assets_M": 8821,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 8821
     },
     {
       "period_end": "2024-03-31",

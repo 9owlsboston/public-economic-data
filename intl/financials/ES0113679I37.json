@@ -4,21 +4,21 @@
   "ticker": "BKT",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
       "currency": "EUR",
-      "revenue_M": 3090,
+      "revenue_M": 3128,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 1090,
       "operating_income_M": null,
-      "sga_M": 461,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": 15000,
-      "total_debt_M": 10384,
+      "sga_M": 334,
+      "capex_M": 168,
+      "operating_cash_flow_M": -599,
+      "cash_M": 18073,
+      "total_debt_M": 11941,
       "total_assets_M": 131019,
       "tags_used": {
         "source": "yahoo_finance",
@@ -28,12 +28,12 @@
     {
       "period_end": "2024-12-31",
       "currency": "EUR",
-      "revenue_M": 3049,
+      "revenue_M": 3082,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 953,
       "operating_income_M": null,
-      "sga_M": 459,
+      "sga_M": 332,
       "capex_M": 151,
       "operating_cash_flow_M": 1941,
       "cash_M": 18014,
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 793,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 291,
+      "operating_income_M": null,
+      "sga_M": 116,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 11516,
+      "total_debt_M": 9981,
+      "total_assets_M": 136678,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 807,
@@ -98,13 +117,9 @@
       "sga_M": 122,
       "capex_M": null,
       "operating_cash_flow_M": null,
-      "cash_M": 15000,
-      "total_debt_M": 10384,
-      "total_assets_M": 131019,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "cash_M": 18073,
+      "total_debt_M": 11941,
+      "total_assets_M": 131019
     },
     {
       "period_end": "2025-06-30",

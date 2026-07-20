@@ -4,7 +4,7 @@
   "ticker": "ATCO-A",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "SEK",
+      "revenue_M": 44974,
+      "rnd_M": 1730,
+      "cost_of_revenue_M": 25984,
+      "net_income_M": 7060,
+      "operating_income_M": 9249,
+      "sga_M": 8099,
+      "capex_M": 1376,
+      "operating_cash_flow_M": 8158,
+      "cash_M": 14709,
+      "total_debt_M": 35858,
+      "total_assets_M": 215592,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "SEK",
+      "revenue_M": 40540,
+      "rnd_M": 1697,
+      "cost_of_revenue_M": 23422,
+      "net_income_M": 6258,
+      "operating_income_M": 8261,
+      "sga_M": 7455,
+      "capex_M": 1120,
+      "operating_cash_flow_M": 5356,
+      "cash_M": 20828,
+      "total_debt_M": 35473,
+      "total_assets_M": 215639
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "SEK",
       "revenue_M": 42782,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": 8393,
       "cash_M": 15523,
       "total_debt_M": 34830,
-      "total_assets_M": 202454,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 202454
     },
     {
       "period_end": "2025-06-30",

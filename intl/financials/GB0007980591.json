@@ -4,7 +4,7 @@
   "ticker": "BP",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -17,7 +17,7 @@
       "sga_M": 17494,
       "capex_M": 13221,
       "operating_cash_flow_M": 24493,
-      "cash_M": 31831,
+      "cash_M": 36556,
       "total_debt_M": 72529,
       "total_assets_M": 278526,
       "tags_used": {
@@ -73,23 +73,38 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "GBP",
+      "revenue_M": 52255,
+      "rnd_M": null,
+      "cost_of_revenue_M": 39626,
+      "net_income_M": 3842,
+      "operating_income_M": 7959,
+      "sga_M": 4626,
+      "capex_M": 3242,
+      "operating_cash_flow_M": 2860,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "GBP",
       "revenue_M": 47383,
       "rnd_M": null,
       "cost_of_revenue_M": 39705,
       "net_income_M": -3422,
-      "operating_income_M": 3004,
+      "operating_income_M": 3347,
       "sga_M": 4570,
       "capex_M": 3463,
       "operating_cash_flow_M": 7602,
-      "cash_M": 36556,
-      "total_debt_M": 72529,
-      "total_assets_M": 278526,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2025-09-30",
@@ -102,9 +117,9 @@
       "sga_M": 4271,
       "capex_M": 3171,
       "operating_cash_flow_M": 7786,
-      "cash_M": 34909,
-      "total_debt_M": 74817,
-      "total_assets_M": 280459
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2025-06-30",
@@ -117,9 +132,9 @@
       "sga_M": 4242,
       "capex_M": 3236,
       "operating_cash_flow_M": 6271,
-      "cash_M": 35067,
-      "total_debt_M": 74982,
-      "total_assets_M": 284737
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2025-03-31",
@@ -132,9 +147,9 @@
       "sga_M": 4411,
       "capex_M": 3351,
       "operating_cash_flow_M": 2834,
-      "cash_M": 33774,
-      "total_debt_M": 71130,
-      "total_assets_M": 281396
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2024-12-31",

@@ -4,7 +4,7 @@
   "ticker": "AKZA",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 2386,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1408,
+      "net_income_M": 93,
+      "operating_income_M": 177,
+      "sga_M": 804,
+      "capex_M": 58,
+      "operating_cash_flow_M": -86,
+      "cash_M": 2763,
+      "total_debt_M": 6110,
+      "total_assets_M": 15486,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 2372,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 462,
       "cash_M": 1618,
       "total_debt_M": 4862,
-      "total_assets_M": 13952,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 13952
     },
     {
       "period_end": "2025-06-30",

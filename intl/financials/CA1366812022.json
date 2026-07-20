@@ -4,7 +4,7 @@
   "ticker": "CTC-A",
   "exchange": "TSX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "CAD",
+      "revenue_M": 3571,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2307,
+      "net_income_M": 107,
+      "operating_income_M": 254,
+      "sga_M": 823,
+      "capex_M": 94,
+      "operating_cash_flow_M": 36,
+      "cash_M": 341,
+      "total_debt_M": 7788,
+      "total_assets_M": 21836,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "CAD",
       "revenue_M": 4551,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 799,
       "cash_M": 524,
       "total_debt_M": 7670,
-      "total_assets_M": 21540,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 21540
     },
     {
       "period_end": "2025-06-30",

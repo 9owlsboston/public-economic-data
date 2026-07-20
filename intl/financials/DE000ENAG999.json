@@ -4,7 +4,7 @@
   "ticker": "EOAN",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 21823,
+      "rnd_M": null,
+      "cost_of_revenue_M": 16411,
+      "net_income_M": 2230,
+      "operating_income_M": 4112,
+      "sga_M": null,
+      "capex_M": 1235,
+      "operating_cash_flow_M": -1028,
+      "cash_M": 4867,
+      "total_debt_M": null,
+      "total_assets_M": 117219,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 21190,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 3639,
       "cash_M": 3042,
       "total_debt_M": null,
-      "total_assets_M": 110685,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 110685
     },
     {
       "period_end": "2025-09-30",
@@ -116,7 +131,7 @@
       "operating_income_M": 1062,
       "sga_M": null,
       "capex_M": 1562,
-      "operating_cash_flow_M": 2324,
+      "operating_cash_flow_M": 2319,
       "cash_M": 2328,
       "total_debt_M": null,
       "total_assets_M": 109439
@@ -131,7 +146,7 @@
       "operating_income_M": 1444,
       "sga_M": null,
       "capex_M": 1349,
-      "operating_cash_flow_M": -1464,
+      "operating_cash_flow_M": -1459,
       "cash_M": 3385,
       "total_debt_M": null,
       "total_assets_M": 112296

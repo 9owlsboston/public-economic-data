@@ -4,7 +4,7 @@
   "ticker": "WKL",
   "exchange": "AMS",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -44,7 +44,7 @@
       "period_end": "2023-12-31",
       "currency": "EUR",
       "revenue_M": 5584,
-      "rnd_M": 591,
+      "rnd_M": null,
       "cost_of_revenue_M": 1576,
       "net_income_M": 1007,
       "operating_income_M": 1330,
@@ -69,6 +69,21 @@
       "cash_M": 1346,
       "total_debt_M": 3615,
       "total_assets_M": 9510
+    },
+    {
+      "period_end": "2021-12-31",
+      "currency": "EUR",
+      "revenue_M": null,
+      "rnd_M": 466,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ],
   "quarterly": []

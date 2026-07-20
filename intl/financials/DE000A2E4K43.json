@@ -4,8 +4,27 @@
   "ticker": "DHER",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2025-12-31",
+      "currency": "EUR",
+      "revenue_M": 14060,
+      "rnd_M": null,
+      "cost_of_revenue_M": 10626,
+      "net_income_M": -783,
+      "operating_income_M": 787,
+      "sga_M": 1069,
+      "capex_M": 326,
+      "operating_cash_flow_M": 80,
+      "cash_M": 2113,
+      "total_debt_M": 4626,
+      "total_assets_M": 10210,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2024-12-31",
       "currency": "EUR",
@@ -13,17 +32,13 @@
       "rnd_M": null,
       "cost_of_revenue_M": 8965,
       "net_income_M": -882,
-      "operating_income_M": 441,
+      "operating_income_M": 448,
       "sga_M": 1150,
       "capex_M": 280,
       "operating_cash_flow_M": 638,
       "cash_M": 3809,
       "total_debt_M": 5667,
-      "total_assets_M": 12420,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 12420
     },
     {
       "period_end": "2023-12-31",

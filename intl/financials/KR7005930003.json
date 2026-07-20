@@ -4,7 +4,7 @@
   "ticker": "005930",
   "exchange": "KRX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "KRW",
+      "revenue_M": 133873444,
+      "rnd_M": 11336713,
+      "cost_of_revenue_M": 51960271,
+      "net_income_M": 47101190,
+      "operating_income_M": 57232797,
+      "sga_M": 9677431,
+      "capex_M": 18176955,
+      "operating_cash_flow_M": 40274106,
+      "cash_M": 73306751,
+      "total_debt_M": 28138794,
+      "total_assets_M": 633339604,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "KRW",
       "revenue_M": 93837371,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 28799652,
       "cash_M": 57856378,
       "total_debt_M": 25239139,
-      "total_assets_M": 566942110,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 566942110
     },
     {
       "period_end": "2025-09-30",

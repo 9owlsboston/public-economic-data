@@ -4,8 +4,27 @@
   "ticker": "ALO",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 19171,
+      "rnd_M": 623,
+      "cost_of_revenue_M": 16819,
+      "net_income_M": 324,
+      "operating_income_M": 699,
+      "sga_M": 1030,
+      "capex_M": null,
+      "operating_cash_flow_M": 891,
+      "cash_M": 2297,
+      "total_debt_M": 3555,
+      "total_assets_M": 35005,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "EUR",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 972,
       "cash_M": 2274,
       "total_debt_M": 3592,
-      "total_assets_M": 34586,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 34586
     },
     {
       "period_end": "2024-03-31",

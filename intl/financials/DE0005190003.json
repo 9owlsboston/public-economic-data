@@ -4,7 +4,7 @@
   "ticker": "BMW",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 31007,
+      "rnd_M": null,
+      "cost_of_revenue_M": 26441,
+      "net_income_M": 1622,
+      "operating_income_M": 2004,
+      "sga_M": 2268,
+      "capex_M": 1742,
+      "operating_cash_flow_M": 1139,
+      "cash_M": 19011,
+      "total_debt_M": null,
+      "total_assets_M": 270624,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 33454,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 636,
       "cash_M": 18854,
       "total_debt_M": 88350,
-      "total_assets_M": 265967,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 265967
     },
     {
       "period_end": "2025-06-30",

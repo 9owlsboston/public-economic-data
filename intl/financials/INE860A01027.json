@@ -4,14 +4,33 @@
   "ticker": "HCLTECH",
   "exchange": "NSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "INR",
+      "revenue_M": 1301440,
+      "rnd_M": null,
+      "cost_of_revenue_M": 767520,
+      "net_income_M": 166420,
+      "operating_income_M": 408190,
+      "sga_M": null,
+      "capex_M": 14220,
+      "operating_cash_flow_M": 199750,
+      "cash_M": 82650,
+      "total_debt_M": 52150,
+      "total_assets_M": 1162580,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "INR",
       "revenue_M": 1170550,
       "rnd_M": null,
-      "cost_of_revenue_M": 698340,
+      "cost_of_revenue_M": 687830,
       "net_income_M": 173900,
       "operating_income_M": 365820,
       "sga_M": 14200,
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 222610,
       "cash_M": 82260,
       "total_debt_M": 62790,
-      "total_assets_M": 1055440,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 1055440
     },
     {
       "period_end": "2024-03-31",
@@ -58,20 +73,54 @@
     {
       "period_end": "2022-03-31",
       "currency": "INR",
-      "revenue_M": 856510,
+      "revenue_M": null,
       "rnd_M": 205,
-      "cost_of_revenue_M": 475360,
-      "net_income_M": 134990,
-      "operating_income_M": 287190,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
       "sga_M": 11140,
-      "capex_M": 16450,
-      "operating_cash_flow_M": 169000,
-      "cash_M": 105020,
-      "total_debt_M": 63430,
-      "total_assets_M": 890330
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ],
   "quarterly": [
+    {
+      "period_end": "2026-06-30",
+      "currency": "INR",
+      "revenue_M": 345790,
+      "rnd_M": null,
+      "cost_of_revenue_M": 205420,
+      "net_income_M": 46240,
+      "operating_income_M": 109390,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "INR",
+      "revenue_M": 339810,
+      "rnd_M": null,
+      "cost_of_revenue_M": 200860,
+      "net_income_M": 44880,
+      "operating_income_M": 106540,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 82650,
+      "total_debt_M": 52150,
+      "total_assets_M": 1162580
+    },
     {
       "period_end": "2025-12-31",
       "currency": "INR",
@@ -85,11 +134,7 @@
       "operating_cash_flow_M": null,
       "cash_M": null,
       "total_debt_M": null,
-      "total_assets_M": null,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": null
     },
     {
       "period_end": "2025-09-30",
@@ -126,9 +171,9 @@
       "currency": "INR",
       "revenue_M": 302460,
       "rnd_M": null,
-      "cost_of_revenue_M": 187860,
+      "cost_of_revenue_M": null,
       "net_income_M": 43070,
-      "operating_income_M": 94410,
+      "operating_income_M": null,
       "sga_M": null,
       "capex_M": null,
       "operating_cash_flow_M": null,

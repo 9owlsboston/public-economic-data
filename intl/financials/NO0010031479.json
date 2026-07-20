@@ -4,7 +4,7 @@
   "ticker": "DNB",
   "exchange": "Oslo Bors",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "NOK",
+      "revenue_M": 21774,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 9811,
+      "operating_income_M": null,
+      "sga_M": 276,
+      "capex_M": 927,
+      "operating_cash_flow_M": -3196,
+      "cash_M": 253292,
+      "total_debt_M": 979789,
+      "total_assets_M": 3878706,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "NOK",
+      "revenue_M": 21544,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 9868,
+      "operating_income_M": null,
+      "sga_M": 276,
+      "capex_M": 16,
+      "operating_cash_flow_M": 120477,
+      "cash_M": 281216,
+      "total_debt_M": 906034,
+      "total_assets_M": 3837114
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "NOK",
       "revenue_M": 23132,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": -78581,
       "cash_M": 162780,
       "total_debt_M": 938409,
-      "total_assets_M": 3695290,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 3695290
     },
     {
       "period_end": "2025-06-30",
@@ -109,7 +139,7 @@
     {
       "period_end": "2025-03-31",
       "currency": "NOK",
-      "revenue_M": 21888,
+      "revenue_M": 21886,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 10842,

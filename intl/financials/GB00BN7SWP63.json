@@ -4,7 +4,7 @@
   "ticker": "GSK",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -17,9 +17,9 @@
       "sga_M": 9088,
       "capex_M": 2985,
       "operating_cash_flow_M": 7741,
-      "cash_M": 3150,
-      "total_debt_M": 17720,
-      "total_assets_M": 61118,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null,
       "tags_used": {
         "source": "yahoo_finance",
         "notes": "Income statement + balance sheet + cash flow, converted to millions"
@@ -36,9 +36,9 @@
       "sga_M": 11015,
       "capex_M": 2982,
       "operating_cash_flow_M": 6554,
-      "cash_M": 3693,
-      "total_debt_M": 16986,
-      "total_assets_M": 59463
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2023-12-31",
@@ -51,9 +51,9 @@
       "sga_M": 9385,
       "capex_M": 2344,
       "operating_cash_flow_M": 6768,
-      "cash_M": 2746,
-      "total_debt_M": 18018,
-      "total_assets_M": 59005
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2022-12-31",
@@ -66,12 +66,31 @@
       "sga_M": 8372,
       "capex_M": 2258,
       "operating_cash_flow_M": 7403,
-      "cash_M": 3523,
-      "total_debt_M": 20987,
-      "total_assets_M": 60146
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     }
   ],
   "quarterly": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "GBP",
+      "revenue_M": 7629,
+      "rnd_M": 1692,
+      "cost_of_revenue_M": 1875,
+      "net_income_M": 1737,
+      "operating_income_M": 2293,
+      "sga_M": 2119,
+      "capex_M": 443,
+      "operating_cash_flow_M": 1141,
+      "cash_M": 3442,
+      "total_debt_M": 19056,
+      "total_assets_M": 62869,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-12-31",
       "currency": "GBP",
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 2278,
       "cash_M": 3150,
       "total_debt_M": 17720,
-      "total_assets_M": 61118,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 61118
     },
     {
       "period_end": "2025-09-30",

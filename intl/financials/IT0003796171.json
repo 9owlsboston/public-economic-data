@@ -4,7 +4,7 @@
   "ticker": "PST",
   "exchange": "Borsa Italiana",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 4289,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3324,
+      "net_income_M": 812,
+      "operating_income_M": 904,
+      "sga_M": null,
+      "capex_M": 236,
+      "operating_cash_flow_M": 1402,
+      "cash_M": 9889,
+      "total_debt_M": null,
+      "total_assets_M": 287878,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 11938,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": -313,
       "cash_M": 5956,
       "total_debt_M": 10529,
-      "total_assets_M": 290325,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 290325
     },
     {
       "period_end": "2025-09-30",
@@ -139,17 +154,17 @@
     {
       "period_end": "2024-12-31",
       "currency": "EUR",
-      "revenue_M": 11759,
+      "revenue_M": null,
       "rnd_M": null,
-      "cost_of_revenue_M": 11501,
-      "net_income_M": 412,
-      "operating_income_M": 902,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
       "sga_M": 275,
-      "capex_M": 497,
-      "operating_cash_flow_M": 242,
-      "cash_M": 8837,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
       "total_debt_M": 9502,
-      "total_assets_M": 277098
+      "total_assets_M": null
     }
   ]
 }

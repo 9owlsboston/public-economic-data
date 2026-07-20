@@ -4,7 +4,7 @@
   "ticker": "066570",
   "exchange": "KRX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "KRW",
+      "revenue_M": 23727227,
+      "rnd_M": 663840,
+      "cost_of_revenue_M": 17564180,
+      "net_income_M": 815703,
+      "operating_income_M": 1673723,
+      "sga_M": 3825484,
+      "capex_M": 1169557,
+      "operating_cash_flow_M": 1100897,
+      "cash_M": 8631642,
+      "total_debt_M": 14057559,
+      "total_assets_M": 71234533,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "KRW",
       "revenue_M": 23852154,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 610150,
       "cash_M": 8769841,
       "total_debt_M": 13960335,
-      "total_assets_M": 68620167,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 68620167
     },
     {
       "period_end": "2025-09-30",

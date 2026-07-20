@@ -4,7 +4,7 @@
   "ticker": "SCHP",
   "exchange": "SIX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "CHF",
+      "revenue_M": 2593,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 262,
+      "operating_income_M": 337,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": 532,
+      "cash_M": 2160,
+      "total_debt_M": null,
+      "total_assets_M": 11891,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "CHF",
       "revenue_M": 2792,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 523,
       "cash_M": 2304,
       "total_debt_M": 678,
-      "total_assets_M": 11722,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 11722
     },
     {
       "period_end": "2025-06-30",

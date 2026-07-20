@@ -4,7 +4,7 @@
   "ticker": "ORSTED",
   "exchange": "OMX Copenhagen",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -17,7 +17,7 @@
       "sga_M": null,
       "capex_M": 54776,
       "operating_cash_flow_M": 23741,
-      "cash_M": 53229,
+      "cash_M": 53448,
       "total_debt_M": 107857,
       "total_assets_M": 367922,
       "tags_used": {
@@ -36,7 +36,7 @@
       "sga_M": null,
       "capex_M": 42654,
       "operating_cash_flow_M": 18356,
-      "cash_M": 22809,
+      "cash_M": 23126,
       "total_debt_M": 96618,
       "total_assets_M": 298786
     },
@@ -47,11 +47,11 @@
       "rnd_M": null,
       "cost_of_revenue_M": 46624,
       "net_income_M": -20506,
-      "operating_income_M": 3744,
+      "operating_income_M": 3746,
       "sga_M": null,
       "capex_M": 38203,
       "operating_cash_flow_M": 28532,
-      "cash_M": 9664,
+      "cash_M": 10145,
       "total_debt_M": 88046,
       "total_assets_M": 281136
     },
@@ -66,7 +66,7 @@
       "sga_M": 7049,
       "capex_M": 33004,
       "operating_cash_flow_M": 11924,
-      "cash_M": 13707,
+      "cash_M": 16178,
       "total_debt_M": 71547,
       "total_assets_M": 314142
     },
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "DKK",
+      "revenue_M": 24663,
+      "rnd_M": null,
+      "cost_of_revenue_M": 15856,
+      "net_income_M": 2323,
+      "operating_income_M": 6945,
+      "sga_M": null,
+      "capex_M": 8218,
+      "operating_cash_flow_M": 6537,
+      "cash_M": 28036,
+      "total_debt_M": 98264,
+      "total_assets_M": 360332,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "DKK",
       "revenue_M": 19983,
@@ -98,13 +117,9 @@
       "sga_M": null,
       "capex_M": 15058,
       "operating_cash_flow_M": 17087,
-      "cash_M": 53229,
+      "cash_M": 53448,
       "total_debt_M": 107857,
-      "total_assets_M": 367922,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 367922
     },
     {
       "period_end": "2025-06-30",
@@ -147,7 +162,7 @@
       "sga_M": null,
       "capex_M": 16335,
       "operating_cash_flow_M": 10306,
-      "cash_M": 22809,
+      "cash_M": 23126,
       "total_debt_M": 96618,
       "total_assets_M": 298786
     },

@@ -4,7 +4,7 @@
   "ticker": "BAYN",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 13405,
+      "rnd_M": 1419,
+      "cost_of_revenue_M": 5232,
+      "net_income_M": 2763,
+      "operating_income_M": 3528,
+      "sga_M": 3696,
+      "capex_M": 411,
+      "operating_cash_flow_M": -1794,
+      "cash_M": 5728,
+      "total_debt_M": null,
+      "total_assets_M": 107944,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 11438,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 4202,
       "cash_M": 6671,
       "total_debt_M": 36453,
-      "total_assets_M": 104541,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 104541
     },
     {
       "period_end": "2025-09-30",
@@ -139,17 +154,17 @@
     {
       "period_end": "2024-12-31",
       "currency": "EUR",
-      "revenue_M": 11729,
-      "rnd_M": 1725,
-      "cost_of_revenue_M": 5723,
-      "net_income_M": -335,
-      "operating_income_M": 3532,
-      "sga_M": 4335,
-      "capex_M": 1099,
-      "operating_cash_flow_M": 4997,
-      "cash_M": 6191,
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
       "total_debt_M": 40697,
-      "total_assets_M": 110850
+      "total_assets_M": null
     }
   ]
 }

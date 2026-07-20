@@ -4,7 +4,7 @@
   "ticker": "MC",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -15,8 +15,8 @@
       "net_income_M": 10878,
       "operating_income_M": 17668,
       "sga_M": 35848,
-      "capex_M": 4670,
-      "operating_cash_flow_M": 18875,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
       "cash_M": 8794,
       "total_debt_M": 36731,
       "total_assets_M": 142037,
@@ -34,8 +34,8 @@
       "net_income_M": 12550,
       "operating_income_M": 19577,
       "sga_M": 37222,
-      "capex_M": 5552,
-      "operating_cash_flow_M": 18925,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
       "cash_M": 9631,
       "total_debt_M": 41203,
       "total_assets_M": 149190
@@ -49,8 +49,8 @@
       "net_income_M": 15174,
       "operating_income_M": 22781,
       "sga_M": 36482,
-      "capex_M": 7807,
-      "operating_cash_flow_M": 18403,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
       "cash_M": 7774,
       "total_debt_M": 38876,
       "total_assets_M": 143694
@@ -64,8 +64,8 @@
       "net_income_M": 14084,
       "operating_income_M": 21014,
       "sga_M": 33178,
-      "capex_M": 5082,
-      "operating_cash_flow_M": 17835,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
       "cash_M": 7300,
       "total_debt_M": 35147,
       "total_assets_M": 134646

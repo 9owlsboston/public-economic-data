@@ -4,7 +4,7 @@
   "ticker": "PNDORA",
   "exchange": "OMX Copenhagen",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "DKK",
+      "revenue_M": 7109,
+      "rnd_M": null,
+      "cost_of_revenue_M": 1458,
+      "net_income_M": 942,
+      "operating_income_M": 1487,
+      "sga_M": 4164,
+      "capex_M": 427,
+      "operating_cash_flow_M": 42,
+      "cash_M": 826,
+      "total_debt_M": 16916,
+      "total_assets_M": 28954,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "DKK",
       "revenue_M": 11859,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 5301,
       "cash_M": 1305,
       "total_debt_M": 15024,
-      "total_assets_M": 29603,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 29603
     },
     {
       "period_end": "2025-06-30",

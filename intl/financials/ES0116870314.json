@@ -4,7 +4,7 @@
   "ticker": "NTGY",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -71,5 +71,55 @@
       "total_assets_M": 40390
     }
   ],
-  "quarterly": []
+  "quarterly": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "EUR",
+      "revenue_M": 5101,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3192,
+      "net_income_M": 530,
+      "operating_income_M": 938,
+      "sga_M": null,
+      "capex_M": 320,
+      "operating_cash_flow_M": 1381,
+      "cash_M": 4746,
+      "total_debt_M": null,
+      "total_assets_M": 41050,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "currency": "EUR",
+      "revenue_M": 4481,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2446,
+      "net_income_M": 641,
+      "operating_income_M": 1153,
+      "sga_M": null,
+      "capex_M": 467,
+      "operating_cash_flow_M": 1210,
+      "cash_M": 3104,
+      "total_debt_M": null,
+      "total_assets_M": 36507
+    },
+    {
+      "period_end": "2025-03-31",
+      "currency": "EUR",
+      "revenue_M": 5480,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3627,
+      "net_income_M": 506,
+      "operating_income_M": 870,
+      "sga_M": null,
+      "capex_M": 402,
+      "operating_cash_flow_M": 1432,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
+    }
+  ]
 }

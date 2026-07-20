@@ -4,8 +4,27 @@
   "ticker": "RELIANCE",
   "exchange": "NSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "currency": "INR",
+      "revenue_M": 10572190,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7868240,
+      "net_income_M": 807750,
+      "operating_income_M": 1213770,
+      "sga_M": 382980,
+      "capex_M": 1229160,
+      "operating_cash_flow_M": 1921130,
+      "cash_M": 1373270,
+      "total_debt_M": 3980000,
+      "total_assets_M": 21781400,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "currency": "INR",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 1787030,
       "cash_M": 1006450,
       "total_debt_M": 3695750,
-      "total_assets_M": 19501210,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 19501210
     },
     {
       "period_end": "2024-03-31",
@@ -73,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "INR",
+      "revenue_M": 2940590,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2158500,
+      "net_income_M": 169710,
+      "operating_income_M": 293330,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 1373270,
+      "total_debt_M": 3980000,
+      "total_assets_M": 21781400,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "INR",
       "revenue_M": 2649050,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": null,
       "total_debt_M": null,
-      "total_assets_M": null,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": null
     },
     {
       "period_end": "2025-06-30",
@@ -111,9 +141,9 @@
       "currency": "INR",
       "revenue_M": 2613880,
       "rnd_M": null,
-      "cost_of_revenue_M": 2237110,
+      "cost_of_revenue_M": 1838490,
       "net_income_M": 194070,
-      "operating_income_M": 305070,
+      "operating_income_M": 303530,
       "sga_M": null,
       "capex_M": null,
       "operating_cash_flow_M": null,

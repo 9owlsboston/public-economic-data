@@ -4,7 +4,7 @@
   "ticker": "KOG",
   "exchange": "Oslo Bors",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "NOK",
+      "revenue_M": 9887,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1600,
+      "operating_income_M": 1587,
+      "sga_M": null,
+      "capex_M": 248,
+      "operating_cash_flow_M": -1934,
+      "cash_M": 4859,
+      "total_debt_M": 3154,
+      "total_assets_M": 61780,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "NOK",
+      "revenue_M": 8940,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1684,
+      "operating_income_M": 1491,
+      "sga_M": null,
+      "capex_M": 776,
+      "operating_cash_flow_M": -181,
+      "cash_M": 18466,
+      "total_debt_M": 4384,
+      "total_assets_M": 84447
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "NOK",
       "revenue_M": 9593,
@@ -85,20 +119,16 @@
       "operating_cash_flow_M": 8347,
       "cash_M": 20189,
       "total_debt_M": 5359,
-      "total_assets_M": 82527,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 82527
     },
     {
       "period_end": "2025-06-30",
       "currency": "NOK",
-      "revenue_M": 13741,
+      "revenue_M": 7630,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 1624,
-      "operating_income_M": 1761,
+      "operating_income_M": 1061,
       "sga_M": null,
       "capex_M": 599,
       "operating_cash_flow_M": 214,
@@ -109,11 +139,11 @@
     {
       "period_end": "2025-03-31",
       "currency": "NOK",
-      "revenue_M": 13574,
+      "revenue_M": 7032,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 2276,
-      "operating_income_M": 1844,
+      "operating_income_M": 939,
       "sga_M": null,
       "capex_M": 560,
       "operating_cash_flow_M": 2046,
@@ -124,17 +154,17 @@
     {
       "period_end": "2024-12-31",
       "currency": "NOK",
-      "revenue_M": 7092,
+      "revenue_M": null,
       "rnd_M": 232,
       "cost_of_revenue_M": null,
-      "net_income_M": 1454,
-      "operating_income_M": 981,
+      "net_income_M": null,
+      "operating_income_M": null,
       "sga_M": null,
-      "capex_M": 594,
-      "operating_cash_flow_M": 9030,
-      "cash_M": 14293,
-      "total_debt_M": 4689,
-      "total_assets_M": 69414
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null
     },
     {
       "period_end": "2024-09-30",

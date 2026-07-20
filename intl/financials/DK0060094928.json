@@ -4,7 +4,7 @@
   "ticker": "DSV",
   "exchange": "OMX Copenhagen",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-07-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-03-31",
+      "currency": "DKK",
+      "revenue_M": 70416,
+      "rnd_M": null,
+      "cost_of_revenue_M": 51513,
+      "net_income_M": 1624,
+      "operating_income_M": 4855,
+      "sga_M": null,
+      "capex_M": 936,
+      "operating_cash_flow_M": 451,
+      "cash_M": 10314,
+      "total_debt_M": 94456,
+      "total_assets_M": 294978,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "DKK",
       "revenue_M": 71685,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": 5745,
       "cash_M": 10528,
       "total_debt_M": 97935,
-      "total_assets_M": 290373,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 290373
     },
     {
       "period_end": "2025-06-30",
