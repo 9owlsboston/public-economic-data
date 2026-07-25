@@ -3,8 +3,36 @@
   "name": "SoftBank Group Corp.",
   "ticker": "9984",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-25",
+  "last_refreshed": "2026-07-25",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-06-22",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 7798650,
+      "operating_income_M": null,
+      "net_income_M": 5002271,
+      "cost_of_revenue_M": 3782511,
+      "sga_M": 4020928,
+      "rnd_M": null,
+      "cash_M": 5362150,
+      "total_assets_M": 60749547,
+      "total_debt_M": null,
+      "capex_M": 1387310,
+      "operating_cash_flow_M": -428832,
+      "tags_used": {
+        "revenue_M": "jpigp_cor:NetSalesIFRS",
+        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-26",
@@ -21,17 +49,7 @@
       "total_assets_M": 45013756,
       "total_debt_M": null,
       "capex_M": 1067137,
-      "operating_cash_flow_M": 203580,
-      "tags_used": {
-        "revenue_M": "jpigp_cor:NetSalesIFRS",
-        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
-        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
-        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
-        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
-        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
-        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
-      }
+      "operating_cash_flow_M": 203580
     },
     {
       "period_end": "2024-03-31",

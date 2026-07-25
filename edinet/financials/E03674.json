@@ -3,8 +3,33 @@
   "name": "Sumitomo Mitsui Financial Group, Inc.",
   "ticker": "8316",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-25",
+  "last_refreshed": "2026-07-25",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-06-23",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 15499,
+      "operating_income_M": null,
+      "net_income_M": 1680,
+      "cost_of_revenue_M": null,
+      "sga_M": null,
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 870980,
+      "total_debt_M": null,
+      "capex_M": 413,
+      "operating_cash_flow_M": -5287,
+      "tags_used": {
+        "revenue_M": "jppfs_cor:OrdinaryIncomeBNK",
+        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
+        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-18",
@@ -21,14 +46,7 @@
       "total_assets_M": 851063,
       "total_debt_M": null,
       "capex_M": 216,
-      "operating_cash_flow_M": -31239,
-      "tags_used": {
-        "revenue_M": "jppfs_cor:OrdinaryIncomeBNK",
-        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
-        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
-        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
-        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
-      }
+      "operating_cash_flow_M": -31239
     },
     {
       "period_end": "2024-03-31",

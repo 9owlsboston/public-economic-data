@@ -3,8 +3,37 @@
   "name": "AEON Co., Ltd.",
   "ticker": "8267",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-25",
+  "last_refreshed": "2026-07-25",
   "annual": [
+    {
+      "period_end": "2026-02-28",
+      "filing_date": "2026-06-01",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 10382417,
+      "operating_income_M": 184807,
+      "net_income_M": 58702,
+      "cost_of_revenue_M": 6891156,
+      "sga_M": 3306452,
+      "rnd_M": null,
+      "cash_M": 1832352,
+      "total_assets_M": 6470933,
+      "total_debt_M": 30608,
+      "capex_M": null,
+      "operating_cash_flow_M": -130303,
+      "tags_used": {
+        "revenue_M": "jppfs_cor:NetSales",
+        "operating_income_M": "jppfs_cor:OperatingIncome",
+        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
+        "cost_of_revenue_M": "jppfs_cor:CostOfSales",
+        "sga_M": "jppfs_cor:SellingGeneralAndAdministrativeExpenses",
+        "cash_M": "jppfs_cor:CashAndDeposits",
+        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "total_debt_M": "jppfs_cor:LongTermLoansPayable",
+        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
+      }
+    },
     {
       "period_end": "2025-02-28",
       "filing_date": "2025-05-22",
@@ -21,18 +50,7 @@
       "total_assets_M": 2263937,
       "total_debt_M": 252189,
       "capex_M": null,
-      "operating_cash_flow_M": -295852,
-      "tags_used": {
-        "revenue_M": "jppfs_cor:NetSales",
-        "operating_income_M": "jppfs_cor:OperatingIncome",
-        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
-        "cost_of_revenue_M": "jppfs_cor:CostOfSales",
-        "sga_M": "jppfs_cor:SellingGeneralAndAdministrativeExpenses",
-        "cash_M": "jppfs_cor:CashAndDeposits",
-        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
-        "total_debt_M": "jppfs_cor:LongTermLoansPayable",
-        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
-      }
+      "operating_cash_flow_M": -295852
     },
     {
       "period_end": "2024-02-29",

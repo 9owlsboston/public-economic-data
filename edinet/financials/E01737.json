@@ -3,8 +3,37 @@
   "name": "Hitachi, Ltd.",
   "ticker": "6501",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-25",
+  "last_refreshed": "2026-07-25",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-06-22",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 10586781,
+      "operating_income_M": 1274049,
+      "net_income_M": 802368,
+      "cost_of_revenue_M": 7407252,
+      "sga_M": 1980254,
+      "rnd_M": null,
+      "cash_M": 1323480,
+      "total_assets_M": 15041246,
+      "total_debt_M": null,
+      "capex_M": 620341,
+      "operating_cash_flow_M": 1668061,
+      "tags_used": {
+        "revenue_M": "jpigp_cor:RevenueIFRS",
+        "operating_income_M": "jpcrp030000-asr_E01737-000:EBITEarningsBeforeInterestAndTaxesIFRS",
+        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-25",
@@ -21,18 +50,7 @@
       "total_assets_M": 13284813,
       "total_debt_M": null,
       "capex_M": 496784,
-      "operating_cash_flow_M": 1172240,
-      "tags_used": {
-        "revenue_M": "jpigp_cor:RevenueIFRS",
-        "operating_income_M": "jpcrp030000-asr_E01737-000:EBITEarningsBeforeInterestAndTaxesIFRS",
-        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
-        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
-        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
-        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
-        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
-        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
-      }
+      "operating_cash_flow_M": 1172240
     },
     {
       "period_end": "2024-03-31",

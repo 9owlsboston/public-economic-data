@@ -3,8 +3,37 @@
   "name": "NEC Corporation",
   "ticker": "6701",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-25",
+  "last_refreshed": "2026-07-25",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-06-18",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 3582733,
+      "operating_income_M": 359913,
+      "net_income_M": 270228,
+      "cost_of_revenue_M": 2401437,
+      "sga_M": 805555,
+      "rnd_M": null,
+      "cash_M": 659034,
+      "total_assets_M": 4466784,
+      "total_debt_M": null,
+      "capex_M": 194516,
+      "operating_cash_flow_M": 438463,
+      "tags_used": {
+        "revenue_M": "jpigp_cor:RevenueIFRS",
+        "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
+        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-19",
@@ -21,18 +50,7 @@
       "total_assets_M": 4315368,
       "total_debt_M": null,
       "capex_M": 259298,
-      "operating_cash_flow_M": 344408,
-      "tags_used": {
-        "revenue_M": "jpigp_cor:RevenueIFRS",
-        "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
-        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
-        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
-        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
-        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
-        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
-        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
-      }
+      "operating_cash_flow_M": 344408
     },
     {
       "period_end": "2024-03-31",

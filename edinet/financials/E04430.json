@@ -3,8 +3,35 @@
   "name": "Nippon Telegraph and Telephone Corporation",
   "ticker": "9432",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-25",
+  "last_refreshed": "2026-07-25",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-06-16",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 14409121,
+      "operating_income_M": 1706221,
+      "net_income_M": 1037032,
+      "cost_of_revenue_M": null,
+      "sga_M": null,
+      "rnd_M": null,
+      "cash_M": 1921882,
+      "total_assets_M": 46721259,
+      "total_debt_M": null,
+      "capex_M": 2326004,
+      "operating_cash_flow_M": 1485190,
+      "tags_used": {
+        "revenue_M": "jpcrp030000-asr_E04430-000:OperatingRevenuesIFRS",
+        "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
+        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-20",
@@ -21,16 +48,7 @@
       "total_assets_M": 30062483,
       "total_debt_M": null,
       "capex_M": 2087356,
-      "operating_cash_flow_M": 2364031,
-      "tags_used": {
-        "revenue_M": "jpcrp030000-asr_E04430-000:OperatingRevenuesIFRS",
-        "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
-        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
-        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
-        "capex_M": "jpigp_cor:CapitalExpendituresIFRS",
-        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
-      }
+      "operating_cash_flow_M": 2364031
     },
     {
       "period_end": "2024-03-31",

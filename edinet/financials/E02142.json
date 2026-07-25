@@ -3,8 +3,38 @@
   "name": "Nissan Motor Co., Ltd.",
   "ticker": "7201",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-25",
+  "last_refreshed": "2026-07-25",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-06-22",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 12007888,
+      "operating_income_M": 58005,
+      "net_income_M": -533095,
+      "cost_of_revenue_M": 10467932,
+      "sga_M": 1481951,
+      "rnd_M": null,
+      "cash_M": 1575442,
+      "total_assets_M": 19812442,
+      "total_debt_M": 2539845,
+      "capex_M": 4992,
+      "operating_cash_flow_M": 794674,
+      "tags_used": {
+        "revenue_M": "jppfs_cor:NetSales",
+        "operating_income_M": "jppfs_cor:OperatingIncome",
+        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
+        "cost_of_revenue_M": "jppfs_cor:CostOfSales",
+        "sga_M": "jppfs_cor:SellingGeneralAndAdministrativeExpenses",
+        "cash_M": "jppfs_cor:CashAndDeposits",
+        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "total_debt_M": "jppfs_cor:LongTermLoansPayable",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-23",
@@ -21,19 +51,7 @@
       "total_assets_M": 19024060,
       "total_debt_M": 2661356,
       "capex_M": 5773,
-      "operating_cash_flow_M": 753687,
-      "tags_used": {
-        "revenue_M": "jppfs_cor:NetSales",
-        "operating_income_M": "jppfs_cor:OperatingIncome",
-        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
-        "cost_of_revenue_M": "jppfs_cor:CostOfSales",
-        "sga_M": "jppfs_cor:SellingGeneralAndAdministrativeExpenses",
-        "cash_M": "jppfs_cor:CashAndDeposits",
-        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
-        "total_debt_M": "jppfs_cor:LongTermLoansPayable",
-        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
-        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
-      }
+      "operating_cash_flow_M": 753687
     },
     {
       "period_end": "2024-03-31",

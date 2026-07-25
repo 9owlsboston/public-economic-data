@@ -3,8 +3,37 @@
   "name": "Sony Group Corporation",
   "ticker": "6758",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-25",
+  "last_refreshed": "2026-07-25",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-06-18",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 12479620,
+      "operating_income_M": 1447507,
+      "net_income_M": -326865,
+      "cost_of_revenue_M": 8635225,
+      "sga_M": 2298638,
+      "rnd_M": null,
+      "cash_M": 2208879,
+      "total_assets_M": 15683490,
+      "total_debt_M": null,
+      "capex_M": 804946,
+      "operating_cash_flow_M": 1945617,
+      "tags_used": {
+        "revenue_M": "jpigp_cor:NetSalesIFRS",
+        "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
+        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
+        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
+        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
+        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
+        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-20",
@@ -21,18 +50,7 @@
       "total_assets_M": 35293173,
       "total_debt_M": null,
       "capex_M": 867755,
-      "operating_cash_flow_M": 2321675,
-      "tags_used": {
-        "revenue_M": "jpigp_cor:NetSalesIFRS",
-        "operating_income_M": "jpigp_cor:OperatingProfitLossIFRS",
-        "net_income_M": "jpigp_cor:ProfitLossAttributableToOwnersOfParentIFRS",
-        "cost_of_revenue_M": "jpigp_cor:CostOfSalesIFRS",
-        "sga_M": "jpigp_cor:SellingGeneralAndAdministrativeExpensesIFRS",
-        "cash_M": "jpigp_cor:CashAndCashEquivalentsIFRS",
-        "total_assets_M": "jpcrp_cor:TotalAssetsIFRSSummaryOfBusinessResults",
-        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
-        "operating_cash_flow_M": "jpigp_cor:NetCashProvidedByUsedInOperatingActivitiesIFRS"
-      }
+      "operating_cash_flow_M": 2321675
     },
     {
       "period_end": "2024-03-31",

@@ -3,8 +3,34 @@
   "name": "Mitsubishi UFJ Financial Group, Inc.",
   "ticker": "8306",
   "exchange": "TSE",
-  "last_refreshed": "2026-04-25",
+  "last_refreshed": "2026-07-25",
   "annual": [
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-06-24",
+      "form": "有価証券報告書",
+      "namespace": "jpigp_cor",
+      "currency": "JPY",
+      "revenue_M": 14620843,
+      "operating_income_M": null,
+      "net_income_M": 2427229,
+      "cost_of_revenue_M": null,
+      "sga_M": null,
+      "rnd_M": null,
+      "cash_M": null,
+      "total_assets_M": 431731548,
+      "total_debt_M": 15790570,
+      "capex_M": 504891,
+      "operating_cash_flow_M": -23064420,
+      "tags_used": {
+        "revenue_M": "jppfs_cor:OrdinaryIncomeBNK",
+        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
+        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
+        "total_debt_M": "jppfs_cor:BondsPayable",
+        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
+        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
+      }
+    },
     {
       "period_end": "2025-03-31",
       "filing_date": "2025-06-25",
@@ -21,15 +47,7 @@
       "total_assets_M": 413113501,
       "total_debt_M": 14018955,
       "capex_M": 417438,
-      "operating_cash_flow_M": 6415,
-      "tags_used": {
-        "revenue_M": "jppfs_cor:OrdinaryIncomeBNK",
-        "net_income_M": "jppfs_cor:ProfitLossAttributableToOwnersOfParent",
-        "total_assets_M": "jpcrp_cor:TotalAssetsSummaryOfBusinessResults",
-        "total_debt_M": "jppfs_cor:BondsPayable",
-        "capex_M": "jpcrp_cor:CapitalExpendituresOverviewOfCapitalExpendituresEtc",
-        "operating_cash_flow_M": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities"
-      }
+      "operating_cash_flow_M": 6415
     },
     {
       "period_end": "2024-03-31",
