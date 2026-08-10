@@ -1,6 +1,6 @@
 # Current state — public-economic-data
 
-> **Snapshot:** 2026-07-09. The single, always-current answer to *"where is this
+> **Snapshot:** 2026-08-10. The single, always-current answer to *"where is this
 > project right now?"* — a **supplement to the README**, not a design-doc rollup.
 > Lead with a human summary, then keep the rest thin — one line per area + **links**
 > to the authoritative topic docs. On any conflict, the linked topic doc wins. Update
@@ -46,6 +46,11 @@ One line per area, each linking to the doc that owns the detail.
   [`schema/edinet.md`](schema/edinet.md).
 - **Automation** — per-module refresh workflows + a helper-sync check in
   `.github/workflows/`.
+- **Repo governance** — the MVRS guardrail toolkit is adopted:
+  [`AGENTS.md`](../AGENTS.md) is the cross-tool contract (the Copilot instructions
+  are a thin pointer to it), the repo is linked into its ledger-project, and loose
+  root analysis artifacts now land in `docs/history/` or `results/` per the
+  where-to-write map rather than the repo root.
 
 ## Future state / vision
 
