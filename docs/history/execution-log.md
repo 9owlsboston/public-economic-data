@@ -176,3 +176,37 @@ Converted the `return`-based `test_*` functions in `tests/` to validate via `ass
 ### 2026-07-18 — Relocate loose root analysis artifacts
 
 Relocated three loose root artifacts into their proper homes: `financial-data-null-audit.md` → `docs/history/financial-data-null-audit.md`, `capex-xbrl-gap-report.md` → `docs/history/capex-xbrl-gap-report.md`, and `ai-spending-10k.csv` → `results/ai-spending-10k.csv`. Verified: git grep shows all references updated to new paths; files no longer at repo root.
+
+### 2026-08-10 — reconcile `docs/current-state.md` (was 32d stale)
+
+Flagged by the cross-repo `hygiene` sweep at 32 days (>30d threshold). The valuable part
+of a staleness check is not the date — it's **re-verifying the claims**, since a
+current-state doc's failure mode is asserting coverage numbers that quietly drifted.
+
+**Claims re-verified against the tree (all still accurate, none edited):**
+
+| Claim | Checked | Result |
+|---|---|---|
+| SEC: 366 companies, 369 standard data files + segments | `sec/registry.yaml` → `companies: 366`; `ls sec/financials` → 370 files = 369 `<CIK>.json` + `0000789019_segments.json` | ✅ exact |
+| FRED: 22 series | `macro/registry.yaml` → `series: 22`; `ls macro/fred` → 22 | ✅ |
+| International: 190 companies | `intl/registry.yaml` → 190; `ls intl/financials` → 190 | ✅ |
+| EDINET: 14 companies | `edinet/registry.yaml` → 14; `ls edinet/financials` → 14 | ✅ |
+
+The SEC automated refresh (`a12cc2d`) updated data in place without changing the registry
+count, so the "3 filers predate registry entries" note still holds exactly.
+
+**The one genuine state move.** All five commits since the snapshot were repo-governance,
+not data: MVRS toolkit bootstrap (`6f5dcf1`), the toolkit/doc merge (`e3b892b`, #2) making
+`AGENTS.md` the cross-tool contract with the Copilot instructions reduced to a pointer plus
+a ledger-project declaration, the relocation of three loose root artifacts into
+`docs/history/`/`results/` (`b483e76`, #3), and a pytest fix (`e784687`, #4). Added a
+**Repo governance** line under Current state so the doc reflects that this repo is now
+toolkit-governed — previously invisible in the snapshot.
+
+Future state and Open gaps re-read and left unchanged: cloud-pricing and SDK-adoption are
+still unimplemented, and coverage expansion is still design-only.
+
+Snapshot date bumped to 2026-08-10 as the last step. `docs-drift`: clean.
+
+**Review attestations.** Plan-stage / diff-stage: **waived** — `noncodefix` carve-out
+(single doc; no code, deps, CI, IaC, or config).
