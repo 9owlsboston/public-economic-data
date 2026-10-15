@@ -1,8 +1,39 @@
 {
   "cik": "0001650372",
   "name": "Atlassian",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-14",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 6572,
+      "rnd_M": 3269,
+      "cost_of_revenue_M": 997,
+      "net_income_M": -54,
+      "capex_M": 34,
+      "operating_cash_flow_M": 1353,
+      "operating_income_M": 10,
+      "sga_M": 755,
+      "cash_M": 1240,
+      "total_debt_M": 990,
+      "total_assets_M": 6104,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "filing_date": "2025-08-15",
@@ -19,20 +50,7 @@
       "sga_M": 647,
       "cash_M": 2513,
       "total_debt_M": 988,
-      "total_assets_M": 6042,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 6042
     }
   ],
   "quarterly": [

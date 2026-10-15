@@ -1,7 +1,7 @@
 {
   "cik": "0000077476",
   "name": "PepsiCo Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-27",
@@ -235,6 +235,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-09-05",
+      "filing_date": "2026-10-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 25274,
+      "rnd_M": null,
+      "cost_of_revenue_M": 11520,
+      "net_income_M": 3048,
+      "capex_M": 2182,
+      "operating_cash_flow_M": 7950,
+      "operating_income_M": 4260,
+      "sga_M": 9494,
+      "cash_M": 10675,
+      "total_debt_M": 42658,
+      "total_assets_M": 111976,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-06-13",
       "filing_date": "2026-07-09",
       "form": "10-Q",
@@ -250,19 +280,7 @@
       "sga_M": 9088,
       "cash_M": 10251,
       "total_debt_M": 42612,
-      "total_assets_M": 112189,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 112189
     },
     {
       "period_end": "2026-03-21",

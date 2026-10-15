@@ -1,7 +1,7 @@
 {
   "cik": "0000773840",
   "name": "HONEYWELL INTERNATIONAL INC",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -145,6 +145,56 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-07-24",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 9719,
+      "rnd_M": 524,
+      "cost_of_revenue_M": 6066,
+      "net_income_M": 5682,
+      "capex_M": 538,
+      "operating_cash_flow_M": 626,
+      "operating_income_M": 2240,
+      "sga_M": 1344,
+      "cash_M": 8751,
+      "total_debt_M": 31510,
+      "total_assets_M": 77344,
+      "amended": true,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-07-23",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 9719,
+      "rnd_M": 524,
+      "cost_of_revenue_M": 6066,
+      "net_income_M": 5682,
+      "capex_M": 538,
+      "operating_cash_flow_M": 626,
+      "operating_income_M": 2240,
+      "sga_M": 1344,
+      "cash_M": 8751,
+      "total_debt_M": 31510,
+      "total_assets_M": 77344
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-04-23",
       "form": "10-Q",
@@ -160,20 +210,7 @@
       "sga_M": 1310,
       "cash_M": 11977,
       "total_debt_M": 32109,
-      "total_assets_M": 73988,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 73988
     },
     {
       "period_end": "2025-09-30",

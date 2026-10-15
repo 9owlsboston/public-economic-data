@@ -1,7 +1,7 @@
 {
   "cik": "0001640147",
   "name": "Snowflake Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -108,6 +108,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-07-31",
+      "filing_date": "2026-09-04",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1547,
+      "rnd_M": 567,
+      "cost_of_revenue_M": 510,
+      "net_income_M": -192,
+      "capex_M": 18,
+      "operating_cash_flow_M": 335,
+      "operating_income_M": -263,
+      "sga_M": 121,
+      "cash_M": 1707,
+      "total_debt_M": null,
+      "total_assets_M": 8690,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-04-30",
       "filing_date": "2026-05-29",
       "form": "10-Q",
@@ -123,19 +153,7 @@
       "sga_M": 129,
       "cash_M": 2085,
       "total_debt_M": null,
-      "total_assets_M": 8554,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 8554
     },
     {
       "period_end": "2025-10-31",

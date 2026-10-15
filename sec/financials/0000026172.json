@@ -1,7 +1,7 @@
 {
   "cik": "0000026172",
   "name": "CUMMINS INC",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -199,6 +199,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-04",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 9457,
+      "rnd_M": 385,
+      "cost_of_revenue_M": 6992,
+      "net_income_M": 968,
+      "capex_M": 438,
+      "operating_cash_flow_M": 1808,
+      "operating_income_M": 1279,
+      "sga_M": 893,
+      "cash_M": 3179,
+      "total_debt_M": 6737,
+      "total_assets_M": 35630,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:ProfitLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-05-05",
       "form": "10-Q",
@@ -214,20 +245,7 @@
       "sga_M": 845,
       "cash_M": 2614,
       "total_debt_M": 6729,
-      "total_assets_M": 34445,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:ProfitLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 34445
     },
     {
       "period_end": "2025-09-30",

@@ -1,7 +1,7 @@
 {
   "cik": "0000354190",
   "name": "Arthur J. Gallagher & Co.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -177,6 +177,33 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-05",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 4003,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 324,
+      "capex_M": 87,
+      "operating_cash_flow_M": 967,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 1386,
+      "total_debt_M": 11955,
+      "total_assets_M": 81808,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsForCapitalImprovements",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-05-07",
       "form": "10-Q",
@@ -192,16 +219,7 @@
       "sga_M": null,
       "cash_M": 1413,
       "total_debt_M": 12077,
-      "total_assets_M": 78301,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsForCapitalImprovements",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 78301
     },
     {
       "period_end": "2025-09-30",

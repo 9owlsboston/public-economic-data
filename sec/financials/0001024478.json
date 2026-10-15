@@ -1,7 +1,7 @@
 {
   "cik": "0001024478",
   "name": "ROCKWELL AUTOMATION, INC",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-09-30",
@@ -145,6 +145,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-04",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 2313,
+      "rnd_M": 173,
+      "cost_of_revenue_M": 1169,
+      "net_income_M": 408,
+      "capex_M": 179,
+      "operating_cash_flow_M": 1278,
+      "operating_income_M": 550,
+      "sga_M": 490,
+      "cash_M": 479,
+      "total_debt_M": 2570,
+      "total_assets_M": 11091,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-05-05",
       "form": "10-Q",
@@ -160,20 +191,7 @@
       "sga_M": 478,
       "cash_M": 423,
       "total_debt_M": 2571,
-      "total_assets_M": 11256,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 11256
     },
     {
       "period_end": "2025-12-31",
@@ -200,12 +218,12 @@
       "namespace": "us-gaap",
       "currency": "USD",
       "revenue_M": 2144,
-      "rnd_M": null,
+      "rnd_M": 170,
       "cost_of_revenue_M": 1268,
       "net_income_M": 295,
       "capex_M": 137,
       "operating_cash_flow_M": 1090,
-      "operating_income_M": null,
+      "operating_income_M": 454,
       "sga_M": 498,
       "cash_M": 495,
       "total_debt_M": 2617,

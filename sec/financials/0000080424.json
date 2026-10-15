@@ -1,8 +1,39 @@
 {
   "cik": "0000080424",
   "name": "PROCTER & GAMBLE COMPANY",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-04",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 87032,
+      "rnd_M": 2100,
+      "cost_of_revenue_M": 43362,
+      "net_income_M": 16046,
+      "capex_M": 4409,
+      "operating_cash_flow_M": 19556,
+      "operating_income_M": 19748,
+      "sga_M": 23922,
+      "cash_M": 9942,
+      "total_debt_M": 22842,
+      "total_assets_M": 126521,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "filing_date": "2025-08-04",
@@ -19,20 +50,7 @@
       "sga_M": 22669,
       "cash_M": 9556,
       "total_debt_M": 24995,
-      "total_assets_M": 125231,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 125231
     },
     {
       "period_end": "2024-06-30",

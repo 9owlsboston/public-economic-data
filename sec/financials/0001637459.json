@@ -1,7 +1,7 @@
 {
   "cik": "0001637459",
   "name": "Kraft Heinz Co",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-27",
@@ -217,6 +217,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-27",
+      "filing_date": "2026-08-05",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 6262,
+      "rnd_M": null,
+      "cost_of_revenue_M": 4234,
+      "net_income_M": -5460,
+      "capex_M": 429,
+      "operating_cash_flow_M": 2088,
+      "operating_income_M": -6431,
+      "sga_M": 8459,
+      "cash_M": 2419,
+      "total_debt_M": 17619,
+      "total_assets_M": 73065,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-28",
       "filing_date": "2026-05-06",
       "form": "10-Q",
@@ -232,19 +262,7 @@
       "sga_M": 1074,
       "cash_M": 3308,
       "total_debt_M": 19223,
-      "total_assets_M": 82046,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 82046
     },
     {
       "period_end": "2025-09-27",

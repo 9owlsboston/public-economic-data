@@ -1,8 +1,39 @@
 {
   "cik": "0000707549",
   "name": "LAM RESEARCH CORP",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
+    {
+      "period_end": "2026-06-28",
+      "filing_date": "2026-08-07",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 23233,
+      "rnd_M": 2376,
+      "cost_of_revenue_M": 11507,
+      "net_income_M": 7265,
+      "capex_M": 966,
+      "operating_cash_flow_M": 5858,
+      "operating_income_M": 8200,
+      "sga_M": 1150,
+      "cash_M": 5579,
+      "total_debt_M": 3722,
+      "total_assets_M": 23530,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-06-29",
       "filing_date": "2025-08-11",
@@ -19,20 +50,7 @@
       "sga_M": 982,
       "cash_M": 6391,
       "total_debt_M": 4469,
-      "total_assets_M": 21345,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 21345
     },
     {
       "period_end": "2024-06-30",

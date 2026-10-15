@@ -1,8 +1,38 @@
 {
   "cik": "0000008858",
   "name": "Avnet, Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
+    {
+      "period_end": "2026-06-27",
+      "filing_date": "2026-08-14",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 27633,
+      "rnd_M": null,
+      "cost_of_revenue_M": 24751,
+      "net_income_M": 334,
+      "capex_M": 74,
+      "operating_cash_flow_M": -281,
+      "operating_income_M": 725,
+      "sga_M": 2022,
+      "cash_M": 155,
+      "total_debt_M": 2479,
+      "total_assets_M": 15425,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-06-28",
       "filing_date": "2025-08-15",
@@ -19,19 +49,7 @@
       "sga_M": 1762,
       "cash_M": 192,
       "total_debt_M": 2575,
-      "total_assets_M": 12119,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 12119
     },
     {
       "period_end": "2024-06-29",

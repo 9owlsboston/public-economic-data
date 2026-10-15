@@ -1,8 +1,38 @@
 {
   "cik": "0001001250",
   "name": "ESTEE LAUDER COMPANIES INC",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-19",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 15049,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3687,
+      "net_income_M": 182,
+      "capex_M": 457,
+      "operating_cash_flow_M": 1773,
+      "operating_income_M": 780,
+      "sga_M": 9685,
+      "cash_M": 3498,
+      "total_debt_M": 6803,
+      "total_assets_M": 19762,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "filing_date": "2025-08-20",
@@ -19,19 +49,7 @@
       "sga_M": 9456,
       "cash_M": 2921,
       "total_debt_M": 7314,
-      "total_assets_M": 19892,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:ProfitLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 19892
     },
     {
       "period_end": "2024-06-30",

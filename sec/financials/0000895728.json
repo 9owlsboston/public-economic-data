@@ -1,7 +1,7 @@
 {
   "cik": "0000895728",
   "name": "ENBRIDGE INC",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -475,6 +475,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-07-31",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "CAD",
+      "revenue_M": 29318,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1501,
+      "capex_M": 5414,
+      "operating_cash_flow_M": 6453,
+      "operating_income_M": 2910,
+      "sga_M": 2361,
+      "cash_M": 2012,
+      "total_debt_M": 103852,
+      "total_assets_M": 231647,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-05-08",
       "form": "10-Q",
@@ -490,18 +519,7 @@
       "sga_M": 2568,
       "cash_M": 1635,
       "total_debt_M": 103007,
-      "total_assets_M": 228201,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 228201
     },
     {
       "period_end": "2025-09-30",

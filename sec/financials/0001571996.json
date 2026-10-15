@@ -1,7 +1,7 @@
 {
   "cik": "0001571996",
   "name": "Dell Technologies Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2026-01-30",
@@ -127,6 +127,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-07-31",
+      "filing_date": "2026-09-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 46971,
+      "rnd_M": 1109,
+      "cost_of_revenue_M": 37141,
+      "net_income_M": 4133,
+      "capex_M": 2202,
+      "operating_cash_flow_M": 6306,
+      "operating_income_M": 5385,
+      "sga_M": 3336,
+      "cash_M": 11569,
+      "total_debt_M": 34466,
+      "total_assets_M": 127393,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-05-01",
       "filing_date": "2026-06-09",
       "form": "10-Q",
@@ -142,20 +173,7 @@
       "sga_M": 3143,
       "cash_M": 11578,
       "total_debt_M": 31161,
-      "total_assets_M": 114913,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 114913
     },
     {
       "period_end": "2025-10-31",

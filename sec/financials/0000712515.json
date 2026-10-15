@@ -1,7 +1,7 @@
 {
   "cik": "0000712515",
   "name": "Electronic Arts Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2026-03-31",
@@ -19,7 +19,26 @@
       "sga_M": 763,
       "cash_M": 2864,
       "total_debt_M": null,
+      "total_assets_M": 13131
+    },
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-07-28",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 7531,
+      "rnd_M": 2828,
+      "cost_of_revenue_M": 1584,
+      "net_income_M": 887,
+      "capex_M": 230,
+      "operating_cash_flow_M": 2553,
+      "operating_income_M": 1162,
+      "sga_M": 763,
+      "cash_M": 2864,
+      "total_debt_M": null,
       "total_assets_M": 13131,
+      "amended": true,
       "tags_used": {
         "revenue": "us-gaap:Revenues",
         "rnd": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
@@ -29,7 +48,7 @@
         "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
         "operating_income": "us-gaap:OperatingIncomeLoss",
         "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_assets": "us-gaap:Assets"
       }
     },
@@ -144,6 +163,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-03",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1986,
+      "rnd_M": 743,
+      "cost_of_revenue_M": 274,
+      "net_income_M": 397,
+      "capex_M": 76,
+      "operating_cash_flow_M": -242,
+      "operating_income_M": 513,
+      "sga_M": 181,
+      "cash_M": 2288,
+      "total_debt_M": null,
+      "total_assets_M": 12579,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireOtherPropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-12-31",
       "filing_date": "2026-02-03",
       "form": "10-Q",
@@ -159,19 +208,7 @@
       "sga_M": 199,
       "cash_M": 2784,
       "total_debt_M": null,
-      "total_assets_M": 13280,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireOtherPropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 13280
     },
     {
       "period_end": "2025-09-30",

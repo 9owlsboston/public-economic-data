@@ -1,7 +1,7 @@
 {
   "cik": "0001373715",
   "name": "ServiceNow Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -18,7 +18,7 @@
       "operating_income_M": 1824,
       "sga_M": 1123,
       "cash_M": 3726,
-      "total_debt_M": null,
+      "total_debt_M": 1491,
       "total_assets_M": 26038,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -30,6 +30,7 @@
         "operating_income": "us-gaap:OperatingIncomeLoss",
         "sga": "us-gaap:GeneralAndAdministrativeExpense",
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
       }
     },
@@ -90,6 +91,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-07-23",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 3987,
+      "rnd_M": 915,
+      "cost_of_revenue_M": 1169,
+      "net_income_M": 298,
+      "capex_M": 255,
+      "operating_cash_flow_M": 2257,
+      "operating_income_M": 162,
+      "sga_M": 369,
+      "cash_M": 2503,
+      "total_debt_M": 5435,
+      "total_assets_M": 31666,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-04-23",
       "form": "10-Q",
@@ -105,19 +137,7 @@
       "sga_M": 288,
       "cash_M": 2702,
       "total_debt_M": null,
-      "total_assets_M": 24381,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 24381
     },
     {
       "period_end": "2025-09-30",

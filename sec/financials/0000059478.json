@@ -1,7 +1,7 @@
 {
   "cik": "0000059478",
   "name": "ELI LILLY & Co",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -107,6 +107,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-05",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 22974,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3268,
+      "net_income_M": 7095,
+      "capex_M": 5259,
+      "operating_cash_flow_M": 16023,
+      "operating_income_M": null,
+      "sga_M": 3430,
+      "cash_M": 8950,
+      "total_debt_M": 47858,
+      "total_assets_M": 142283,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireOtherPropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-04-30",
       "form": "10-Q",
@@ -122,18 +151,7 @@
       "sga_M": 2934,
       "cash_M": 5282,
       "total_debt_M": 39370,
-      "total_assets_M": 116576,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireOtherPropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 116576
     },
     {
       "period_end": "2025-09-30",

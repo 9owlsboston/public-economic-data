@@ -1,8 +1,38 @@
 {
   "cik": "0000896878",
   "name": "Intuit Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
+    {
+      "period_end": "2026-07-31",
+      "filing_date": "2026-09-09",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 21448,
+      "rnd_M": 3376,
+      "cost_of_revenue_M": null,
+      "net_income_M": 4566,
+      "capex_M": 175,
+      "operating_cash_flow_M": 8838,
+      "operating_income_M": 5884,
+      "sga_M": 1623,
+      "cash_M": 4705,
+      "total_debt_M": 7669,
+      "total_assets_M": 36786,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-07-31",
       "filing_date": "2025-09-03",
@@ -19,19 +49,7 @@
       "sga_M": 1601,
       "cash_M": 2884,
       "total_debt_M": 5973,
-      "total_assets_M": 36958,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 36958
     },
     {
       "period_end": "2024-07-31",

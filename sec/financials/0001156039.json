@@ -1,7 +1,7 @@
 {
   "cik": "0001156039",
   "name": "Elevance Health Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -252,6 +252,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-07-15",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 50474,
+      "rnd_M": null,
+      "cost_of_revenue_M": 5492,
+      "net_income_M": 1463,
+      "capex_M": 522,
+      "operating_cash_flow_M": 6245,
+      "operating_income_M": 1763,
+      "sga_M": 5547,
+      "cash_M": 10232,
+      "total_debt_M": 31044,
+      "total_assets_M": 126438,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-04-22",
       "form": "10-Q",
@@ -267,19 +297,7 @@
       "sga_M": 6330,
       "cash_M": 9657,
       "total_debt_M": 31118,
-      "total_assets_M": 125827,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 125827
     },
     {
       "period_end": "2025-09-30",

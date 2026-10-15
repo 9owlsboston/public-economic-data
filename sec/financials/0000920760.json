@@ -1,7 +1,7 @@
 {
   "cik": "0000920760",
   "name": "Lennar Corp.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-11-30",
@@ -233,6 +233,32 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-08-31",
+      "filing_date": "2026-10-02",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 8046,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 284,
+      "capex_M": 41,
+      "operating_cash_flow_M": -822,
+      "operating_income_M": null,
+      "sga_M": 714,
+      "cash_M": 1499,
+      "total_debt_M": null,
+      "total_assets_M": null,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+      }
+    },
+    {
       "period_end": "2026-05-31",
       "filing_date": "2026-06-29",
       "form": "10-Q",
@@ -248,16 +274,7 @@
       "sga_M": 698,
       "cash_M": 2174,
       "total_debt_M": null,
-      "total_assets_M": 33701,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 33701
     },
     {
       "period_end": "2026-02-28",
@@ -290,7 +307,7 @@
       "capex_M": 103,
       "operating_cash_flow_M": -1543,
       "operating_income_M": null,
-      "sga_M": 171,
+      "sga_M": 676,
       "cash_M": 1757,
       "total_debt_M": null,
       "total_assets_M": 34878

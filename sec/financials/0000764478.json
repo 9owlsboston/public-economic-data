@@ -1,7 +1,7 @@
 {
   "cik": "0000764478",
   "name": "Best Buy Co., Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -198,6 +198,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-08-01",
+      "filing_date": "2026-09-04",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 9779,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7441,
+      "net_income_M": 315,
+      "capex_M": 344,
+      "operating_cash_flow_M": 1296,
+      "operating_income_M": 421,
+      "sga_M": 1923,
+      "cash_M": 2255,
+      "total_debt_M": 1158,
+      "total_assets_M": 16107,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-05-02",
       "filing_date": "2026-06-05",
       "form": "10-Q",
@@ -213,19 +243,7 @@
       "sga_M": 1741,
       "cash_M": 1749,
       "total_debt_M": 1158,
-      "total_assets_M": 14890,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 14890
     },
     {
       "period_end": "2025-11-01",

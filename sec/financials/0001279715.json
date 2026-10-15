@@ -1,7 +1,7 @@
 {
   "cik": "0001279715",
   "name": "Wright Investors Service Holdings, Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -661,8 +661,8 @@
   ],
   "quarterly": [
     {
-      "period_end": "2026-03-31",
-      "filing_date": "2026-05-15",
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-14",
       "form": "10-Q",
       "namespace": "",
       "currency": "",
@@ -684,6 +684,24 @@
         "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
         "total_assets": "us-gaap:Assets"
       }
+    },
+    {
+      "period_end": "2026-03-31",
+      "filing_date": "2026-05-15",
+      "form": "10-Q",
+      "namespace": "",
+      "currency": "",
+      "revenue_M": null,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 0,
+      "capex_M": null,
+      "operating_cash_flow_M": 0,
+      "operating_income_M": 0,
+      "sga_M": null,
+      "cash_M": 0,
+      "total_debt_M": null,
+      "total_assets_M": 1
     },
     {
       "period_end": "2025-09-30",

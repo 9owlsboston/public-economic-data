@@ -1,7 +1,7 @@
 {
   "cik": "0001090012",
   "name": "Devon Energy Corp.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -287,6 +287,34 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-05",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 7417,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1911,
+      "capex_M": 1318,
+      "operating_cash_flow_M": 3674,
+      "operating_income_M": null,
+      "sga_M": 175,
+      "cash_M": 950,
+      "total_debt_M": 11388,
+      "total_assets_M": 70893,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-05-06",
       "form": "10-Q",
@@ -302,17 +330,7 @@
       "sga_M": 125,
       "cash_M": 1763,
       "total_debt_M": 8386,
-      "total_assets_M": 32543,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 32543
     },
     {
       "period_end": "2025-09-30",

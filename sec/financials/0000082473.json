@@ -1,7 +1,7 @@
 {
   "cik": "0000082473",
   "name": "RELX PLC",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -378,8 +378,8 @@
   ],
   "quarterly": [
     {
-      "period_end": "2026-04-30",
-      "filing_date": "2026-06-22",
+      "period_end": "2026-07-31",
+      "filing_date": "2026-09-16",
       "form": "10-Q",
       "namespace": "us-gaap",
       "currency": "USD",
@@ -403,6 +403,24 @@
         "total_debt": "us-gaap:LongTermDebt",
         "total_assets": "us-gaap:Assets"
       }
+    },
+    {
+      "period_end": "2026-04-30",
+      "filing_date": "2026-06-22",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 2,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 0,
+      "capex_M": 0,
+      "operating_cash_flow_M": 0,
+      "operating_income_M": 0,
+      "sga_M": null,
+      "cash_M": null,
+      "total_debt_M": 12,
+      "total_assets_M": 14
     },
     {
       "period_end": "2025-10-31",

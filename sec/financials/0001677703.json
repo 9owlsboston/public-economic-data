@@ -1,7 +1,7 @@
 {
   "cik": "0001677703",
   "name": "CONDUENT Inc",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -198,6 +198,35 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-10",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 531,
+      "rnd_M": 0,
+      "cost_of_revenue_M": 435,
+      "net_income_M": -116,
+      "capex_M": 18,
+      "operating_cash_flow_M": -1,
+      "operating_income_M": null,
+      "sga_M": 80,
+      "cash_M": 228,
+      "total_debt_M": null,
+      "total_assets_M": 2245,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:ProfitLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-05-11",
       "form": "10-Q",
@@ -213,18 +242,7 @@
       "sga_M": 91,
       "cash_M": 228,
       "total_debt_M": null,
-      "total_assets_M": 2393,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:ProfitLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 2393
     },
     {
       "period_end": "2025-09-30",

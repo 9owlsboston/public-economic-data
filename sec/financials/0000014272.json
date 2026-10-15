@@ -1,7 +1,7 @@
 {
   "cik": "0000014272",
   "name": "Bristol-Myers Squibb",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -144,6 +144,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-07-30",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 12973,
+      "rnd_M": 2959,
+      "cost_of_revenue_M": 3726,
+      "net_income_M": 3317,
+      "capex_M": 652,
+      "operating_cash_flow_M": 4497,
+      "operating_income_M": null,
+      "sga_M": 1826,
+      "cash_M": 8722,
+      "total_debt_M": 42861,
+      "total_assets_M": 87634,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-04-30",
       "form": "10-Q",
@@ -159,19 +189,7 @@
       "sga_M": 1617,
       "cash_M": 9574,
       "total_debt_M": 44140,
-      "total_assets_M": 86476,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 86476
     },
     {
       "period_end": "2025-09-30",

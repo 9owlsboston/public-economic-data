@@ -1,7 +1,7 @@
 {
   "cik": "0001099219",
   "name": "METLIFE INC",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -124,6 +124,34 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 19154,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 736,
+      "capex_M": null,
+      "operating_cash_flow_M": 4915,
+      "operating_income_M": 1604,
+      "sga_M": 154,
+      "cash_M": 19301,
+      "total_debt_M": 14244,
+      "total_assets_M": 759372,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-05-07",
       "form": "10-Q",
@@ -139,17 +167,7 @@
       "sga_M": 132,
       "cash_M": 22687,
       "total_debt_M": 14445,
-      "total_assets_M": 743211,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 743211
     },
     {
       "period_end": "2025-09-30",

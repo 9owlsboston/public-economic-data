@@ -1,7 +1,7 @@
 {
   "cik": "0001286681",
   "name": "Domino's Pizza, Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-28",
@@ -234,6 +234,54 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-09-06",
+      "filing_date": "2026-10-13",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1186,
+      "rnd_M": null,
+      "cost_of_revenue_M": 709,
+      "net_income_M": 152,
+      "capex_M": 61,
+      "operating_cash_flow_M": 521,
+      "operating_income_M": 242,
+      "sga_M": 106,
+      "cash_M": 229,
+      "total_debt_M": 3559,
+      "total_assets_M": 1766,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
+      "period_end": "2026-06-14",
+      "filing_date": "2026-07-20",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1194,
+      "rnd_M": null,
+      "cost_of_revenue_M": 716,
+      "net_income_M": 136,
+      "capex_M": 39,
+      "operating_cash_flow_M": 353,
+      "operating_income_M": 232,
+      "sga_M": 115,
+      "cash_M": 165,
+      "total_debt_M": 4876,
+      "total_assets_M": 1763
+    },
+    {
       "period_end": "2026-03-22",
       "filing_date": "2026-04-27",
       "form": "10-Q",
@@ -249,19 +297,7 @@
       "sga_M": 111,
       "cash_M": 233,
       "total_debt_M": 4876,
-      "total_assets_M": 1844,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 1844
     },
     {
       "period_end": "2025-09-07",

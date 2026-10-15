@@ -1,8 +1,38 @@
 {
   "cik": "0000909832",
   "name": "COSTCO WHOLESALE CORP /NEW",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
+    {
+      "period_end": "2026-08-30",
+      "filing_date": "2026-10-07",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 303154,
+      "rnd_M": null,
+      "cost_of_revenue_M": 264279,
+      "net_income_M": 9226,
+      "capex_M": 6435,
+      "operating_cash_flow_M": 15817,
+      "operating_income_M": 11685,
+      "sga_M": 27190,
+      "cash_M": 20207,
+      "total_debt_M": 3914,
+      "total_assets_M": 89045,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-08-31",
       "filing_date": "2025-10-08",
@@ -19,19 +49,7 @@
       "sga_M": 24966,
       "cash_M": 14161,
       "total_debt_M": 5713,
-      "total_assets_M": 77099,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 77099
     },
     {
       "period_end": "2024-09-01",

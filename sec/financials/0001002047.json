@@ -1,7 +1,7 @@
 {
   "cik": "0001002047",
   "name": "NetApp, Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2026-04-24",
@@ -235,6 +235,37 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-07-31",
+      "filing_date": "2026-09-02",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1819,
+      "rnd_M": 274,
+      "cost_of_revenue_M": 606,
+      "net_income_M": 375,
+      "capex_M": 102,
+      "operating_cash_flow_M": 503,
+      "operating_income_M": 484,
+      "sga_M": 98,
+      "cash_M": 1573,
+      "total_debt_M": 2488,
+      "total_assets_M": 10955,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-01-23",
       "filing_date": "2026-02-26",
       "form": "10-Q",
@@ -250,20 +281,7 @@
       "sga_M": 86,
       "cash_M": 1629,
       "total_debt_M": 2486,
-      "total_assets_M": 9971,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 9971
     },
     {
       "period_end": "2025-10-24",
@@ -289,7 +307,7 @@
       "form": "10-Q",
       "namespace": "us-gaap",
       "currency": "USD",
-      "revenue_M": 1559,
+      "revenue_M": 1398,
       "rnd_M": 242,
       "cost_of_revenue_M": 461,
       "net_income_M": 233,

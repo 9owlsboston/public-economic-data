@@ -1,7 +1,7 @@
 {
   "cik": "0001638826",
   "name": "ServiceTitan, Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -19,7 +19,26 @@
       "sga_M": 249,
       "cash_M": 429,
       "total_debt_M": 0,
+      "total_assets_M": 1745
+    },
+    {
+      "period_end": "2026-01-31",
+      "filing_date": "2026-09-08",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 961,
+      "rnd_M": 303,
+      "cost_of_revenue_M": 287,
+      "net_income_M": -160,
+      "capex_M": 5,
+      "operating_cash_flow_M": 110,
+      "operating_income_M": -169,
+      "sga_M": 249,
+      "cash_M": 429,
+      "total_debt_M": 0,
       "total_assets_M": 1745,
+      "amended": true,
       "tags_used": {
         "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "rnd": "us-gaap:ResearchAndDevelopmentExpense",
@@ -55,6 +74,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-07-31",
+      "filing_date": "2026-09-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 293,
+      "rnd_M": 101,
+      "cost_of_revenue_M": 84,
+      "net_income_M": -25,
+      "capex_M": 2,
+      "operating_cash_flow_M": 56,
+      "operating_income_M": -28,
+      "sga_M": 59,
+      "cash_M": 480,
+      "total_debt_M": null,
+      "total_assets_M": 1804,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:GeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-04-30",
       "filing_date": "2026-06-05",
       "form": "10-Q",
@@ -70,19 +119,26 @@
       "sga_M": 58,
       "cash_M": 422,
       "total_debt_M": null,
+      "total_assets_M": 1747
+    },
+    {
+      "period_end": "2026-04-30",
+      "filing_date": "2026-09-08",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 269,
+      "rnd_M": 88,
+      "cost_of_revenue_M": 75,
+      "net_income_M": -23,
+      "capex_M": 1,
+      "operating_cash_flow_M": -2,
+      "operating_income_M": -26,
+      "sga_M": 58,
+      "cash_M": 422,
+      "total_debt_M": null,
       "total_assets_M": 1747,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:GeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "amended": true
     },
     {
       "period_end": "2025-10-31",

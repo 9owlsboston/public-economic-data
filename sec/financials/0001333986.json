@@ -1,7 +1,7 @@
 {
   "cik": "0001333986",
   "name": "Equitable Holdings, Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -12,7 +12,7 @@
       "revenue_M": 11665,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": -1380,
+      "net_income_M": 0,
       "capex_M": null,
       "operating_cash_flow_M": 714,
       "operating_income_M": null,
@@ -30,7 +30,7 @@
       "revenue_M": 11665,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": -1380,
+      "net_income_M": 0,
       "capex_M": null,
       "operating_cash_flow_M": 714,
       "operating_income_M": null,
@@ -57,7 +57,7 @@
       "revenue_M": 12425,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1280,
+      "net_income_M": 0,
       "capex_M": null,
       "operating_cash_flow_M": 2006,
       "operating_income_M": null,
@@ -75,7 +75,7 @@
       "revenue_M": 10460,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1283,
+      "net_income_M": 0,
       "capex_M": null,
       "operating_cash_flow_M": -208,
       "operating_income_M": null,
@@ -93,7 +93,7 @@
       "revenue_M": 12644,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 2140,
+      "net_income_M": 0,
       "capex_M": null,
       "operating_cash_flow_M": -250,
       "operating_income_M": null,
@@ -111,7 +111,7 @@
       "revenue_M": 7614,
       "rnd_M": null,
       "cost_of_revenue_M": null,
-      "net_income_M": 1755,
+      "net_income_M": 0,
       "capex_M": null,
       "operating_cash_flow_M": -193,
       "operating_income_M": null,
@@ -177,6 +177,32 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-06",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1658,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": -453,
+      "capex_M": null,
+      "operating_cash_flow_M": 1142,
+      "operating_income_M": null,
+      "sga_M": null,
+      "cash_M": 17183,
+      "total_debt_M": 3839,
+      "total_assets_M": 334657,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtNoncurrent",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "filing_date": "2026-05-07",
       "form": "10-Q",
@@ -192,15 +218,7 @@
       "sga_M": null,
       "cash_M": 9904,
       "total_debt_M": 3837,
-      "total_assets_M": 310382,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtNoncurrent",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 310382
     },
     {
       "period_end": "2025-09-30",

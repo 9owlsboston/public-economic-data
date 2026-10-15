@@ -1,7 +1,7 @@
 {
   "cik": "0001646972",
   "name": "Albertsons Companies, Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2026-02-28",
@@ -163,6 +163,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-20",
+      "filing_date": "2026-07-28",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 24942,
+      "rnd_M": null,
+      "cost_of_revenue_M": 18304,
+      "net_income_M": 85,
+      "capex_M": 522,
+      "operating_cash_flow_M": 729,
+      "operating_income_M": 264,
+      "sga_M": 6379,
+      "cash_M": 293,
+      "total_debt_M": 8417,
+      "total_assets_M": 26917,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfRevenue",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2025-11-29",
       "filing_date": "2026-01-07",
       "form": "10-Q",
@@ -178,19 +208,7 @@
       "sga_M": 4760,
       "cash_M": 195,
       "total_debt_M": 8417,
-      "total_assets_M": 27093,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfRevenue",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquireProductiveAssets",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 27093
     },
     {
       "period_end": "2025-09-06",

@@ -1,7 +1,7 @@
 {
   "cik": "0000701985",
   "name": "Bath & Body Works, Inc.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2026-01-31",
@@ -252,6 +252,36 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-08-01",
+      "filing_date": "2026-08-26",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 1514,
+      "rnd_M": null,
+      "cost_of_revenue_M": 822,
+      "net_income_M": 118,
+      "capex_M": 98,
+      "operating_cash_flow_M": 316,
+      "operating_income_M": 216,
+      "sga_M": 476,
+      "cash_M": 794,
+      "total_debt_M": 3614,
+      "total_assets_M": 5156,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-05-02",
       "filing_date": "2026-05-27",
       "form": "10-Q",
@@ -267,19 +297,7 @@
       "sga_M": 356,
       "cash_M": 820,
       "total_debt_M": 3613,
-      "total_assets_M": 4963,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 4963
     },
     {
       "period_end": "2025-11-01",

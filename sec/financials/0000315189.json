@@ -1,7 +1,7 @@
 {
   "cik": "0000315189",
   "name": "Deere & Co.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
     {
       "period_end": "2025-11-02",
@@ -251,6 +251,34 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-08-02",
+      "filing_date": "2026-08-27",
+      "form": "10-Q",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 12608,
+      "rnd_M": 567,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1379,
+      "capex_M": 716,
+      "operating_cash_flow_M": 3250,
+      "operating_income_M": null,
+      "sga_M": 1220,
+      "cash_M": 8928,
+      "total_debt_M": null,
+      "total_assets_M": 107607,
+      "tags_used": {
+        "revenue": "us-gaap:Revenues",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
+    {
       "period_end": "2026-05-03",
       "filing_date": "2026-05-28",
       "form": "10-Q",
@@ -266,17 +294,7 @@
       "sga_M": 1209,
       "cash_M": 7905,
       "total_debt_M": null,
-      "total_assets_M": 107001,
-      "tags_used": {
-        "revenue": "us-gaap:Revenues",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "net_income": "us-gaap:NetIncomeLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 107001
     },
     {
       "period_end": "2026-02-01",

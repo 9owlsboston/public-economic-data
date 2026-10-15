@@ -1,8 +1,39 @@
 {
   "cik": "0000076334",
   "name": "Parker-Hannifin Corp.",
-  "last_refreshed": "2026-07-15",
+  "last_refreshed": "2026-10-15",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "filing_date": "2026-08-21",
+      "form": "10-K",
+      "namespace": "us-gaap",
+      "currency": "USD",
+      "revenue_M": 21499,
+      "rnd_M": 267,
+      "cost_of_revenue_M": 13397,
+      "net_income_M": 3649,
+      "capex_M": 459,
+      "operating_cash_flow_M": 4364,
+      "operating_income_M": 5068,
+      "sga_M": 3468,
+      "cash_M": 501,
+      "total_debt_M": 7472,
+      "total_assets_M": 30877,
+      "tags_used": {
+        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
+        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
+        "net_income": "us-gaap:NetIncomeLoss",
+        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "operating_income": "us-gaap:OperatingIncomeLoss",
+        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
+        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "total_debt": "us-gaap:LongTermDebt",
+        "total_assets": "us-gaap:Assets"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "filing_date": "2025-08-22",
@@ -19,20 +50,7 @@
       "sga_M": 3255,
       "cash_M": 467,
       "total_debt_M": 7501,
-      "total_assets_M": 29494,
-      "tags_used": {
-        "revenue": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-        "rnd": "us-gaap:ResearchAndDevelopmentExpense",
-        "cost_of_revenue": "us-gaap:CostOfGoodsAndServicesSold",
-        "net_income": "us-gaap:ProfitLoss",
-        "capex": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "operating_cash_flow": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-        "operating_income": "us-gaap:OperatingIncomeLoss",
-        "sga": "us-gaap:SellingGeneralAndAdministrativeExpense",
-        "cash": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-        "total_debt": "us-gaap:LongTermDebt",
-        "total_assets": "us-gaap:Assets"
-      }
+      "total_assets_M": 29494
     },
     {
       "period_end": "2024-06-30",
@@ -43,7 +61,7 @@
       "revenue_M": 19930,
       "rnd_M": 253,
       "cost_of_revenue_M": 12802,
-      "net_income_M": 2844,
+      "net_income_M": 2845,
       "capex_M": 400,
       "operating_cash_flow_M": 3384,
       "operating_income_M": 4069,
@@ -61,7 +79,7 @@
       "revenue_M": 19065,
       "rnd_M": 258,
       "cost_of_revenue_M": 12636,
-      "net_income_M": 2083,
+      "net_income_M": 2084,
       "capex_M": 381,
       "operating_cash_flow_M": 2980,
       "operating_income_M": 3404,
