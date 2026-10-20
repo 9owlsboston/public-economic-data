@@ -4,7 +4,7 @@
   "ticker": "PST",
   "exchange": "Borsa Italiana",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -60,7 +60,7 @@
       "currency": "EUR",
       "revenue_M": 18280,
       "rnd_M": null,
-      "cost_of_revenue_M": 13863,
+      "cost_of_revenue_M": 13094,
       "net_income_M": 1578,
       "operating_income_M": 2743,
       "sga_M": 293,
@@ -73,11 +73,30 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 7484,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3613,
+      "net_income_M": 532,
+      "operating_income_M": 1032,
+      "sga_M": null,
+      "capex_M": 287,
+      "operating_cash_flow_M": 789,
+      "cash_M": 8820,
+      "total_debt_M": null,
+      "total_assets_M": 293723,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 4289,
       "rnd_M": null,
-      "cost_of_revenue_M": 3324,
+      "cost_of_revenue_M": 3077,
       "net_income_M": 812,
       "operating_income_M": 904,
       "sga_M": null,
@@ -85,18 +104,14 @@
       "operating_cash_flow_M": 1402,
       "cash_M": 9889,
       "total_debt_M": null,
-      "total_assets_M": 287878,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 287878
     },
     {
       "period_end": "2025-12-31",
       "currency": "EUR",
       "revenue_M": 11938,
       "rnd_M": null,
-      "cost_of_revenue_M": 8162,
+      "cost_of_revenue_M": 8841,
       "net_income_M": 459,
       "operating_income_M": 1133,
       "sga_M": null,
@@ -111,7 +126,7 @@
       "currency": "EUR",
       "revenue_M": 3743,
       "rnd_M": null,
-      "cost_of_revenue_M": 2813,
+      "cost_of_revenue_M": 2581,
       "net_income_M": 596,
       "operating_income_M": 853,
       "sga_M": null,
@@ -126,7 +141,7 @@
       "currency": "EUR",
       "revenue_M": 5451,
       "rnd_M": null,
-      "cost_of_revenue_M": 2125,
+      "cost_of_revenue_M": 1906,
       "net_income_M": 565,
       "operating_income_M": 972,
       "sga_M": null,

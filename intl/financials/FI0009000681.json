@@ -4,7 +4,7 @@
   "ticker": "NOKIA",
   "exchange": "OMX Helsinki",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 4815,
+      "rnd_M": 1383,
+      "cost_of_revenue_M": 2669,
+      "net_income_M": 2,
+      "operating_income_M": -50,
+      "sga_M": 817,
+      "capex_M": 129,
+      "operating_cash_flow_M": -620,
+      "cash_M": 4348,
+      "total_debt_M": 3359,
+      "total_assets_M": 37276,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 4497,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 783,
       "cash_M": 4951,
       "total_debt_M": 3325,
-      "total_assets_M": 37286,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 37286
     },
     {
       "period_end": "2025-12-31",
@@ -124,12 +139,12 @@
     {
       "period_end": "2025-06-30",
       "currency": "EUR",
-      "revenue_M": 4546,
-      "rnd_M": 1161,
-      "cost_of_revenue_M": 2575,
+      "revenue_M": 4443,
+      "rnd_M": 1143,
+      "cost_of_revenue_M": 2489,
       "net_income_M": 90,
-      "operating_income_M": 80,
-      "sga_M": 744,
+      "operating_income_M": 148,
+      "sga_M": 721,
       "capex_M": 121,
       "operating_cash_flow_M": 209,
       "cash_M": 4797,

@@ -4,8 +4,27 @@
   "ticker": "RI",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 9403,
+      "rnd_M": null,
+      "cost_of_revenue_M": 3909,
+      "net_income_M": 1203,
+      "operating_income_M": 2412,
+      "sga_M": 1409,
+      "capex_M": 391,
+      "operating_cash_flow_M": 1579,
+      "cash_M": 1993,
+      "total_debt_M": 12668,
+      "total_assets_M": 37297,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "currency": "EUR",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 1788,
       "cash_M": 1829,
       "total_debt_M": 12589,
-      "total_assets_M": 37080,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 37080
     },
     {
       "period_end": "2024-06-30",

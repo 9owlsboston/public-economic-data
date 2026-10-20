@@ -4,7 +4,7 @@
   "ticker": "ISP",
   "exchange": "Borsa Italiana",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 7568,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2793,
+      "operating_income_M": null,
+      "sga_M": 1064,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 44695,
+      "total_debt_M": 140229,
+      "total_assets_M": 992669,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 7323,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 35584,
       "total_debt_M": 93887,
-      "total_assets_M": 968065,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 968065
     },
     {
       "period_end": "2025-12-31",

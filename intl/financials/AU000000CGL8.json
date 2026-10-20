@@ -4,8 +4,27 @@
   "ticker": "COL",
   "exchange": "ASX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "currency": "AUD",
+      "revenue_M": 45580,
+      "rnd_M": null,
+      "cost_of_revenue_M": 33341,
+      "net_income_M": 1090,
+      "operating_income_M": 1811,
+      "sga_M": 8776,
+      "capex_M": 1491,
+      "operating_cash_flow_M": 3344,
+      "cash_M": 568,
+      "total_debt_M": 9892,
+      "total_assets_M": 20405,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "currency": "AUD",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 2936,
       "cash_M": 705,
       "total_debt_M": 10327,
-      "total_assets_M": 20294,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 20294
     },
     {
       "period_end": "2024-06-30",

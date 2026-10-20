@@ -4,12 +4,12 @@
   "ticker": "MUV2",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
       "currency": "EUR",
-      "revenue_M": 62312,
+      "revenue_M": 62310,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 6118,
@@ -33,7 +33,7 @@
       "cost_of_revenue_M": null,
       "net_income_M": 5704,
       "operating_income_M": null,
-      "sga_M": 8968,
+      "sga_M": 8962,
       "capex_M": 316,
       "operating_cash_flow_M": 3143,
       "cash_M": 9271,
@@ -43,7 +43,7 @@
     {
       "period_end": "2023-12-31",
       "currency": "EUR",
-      "revenue_M": 59516,
+      "revenue_M": 59515,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 4606,
@@ -58,7 +58,7 @@
     {
       "period_end": "2022-12-31",
       "currency": "EUR",
-      "revenue_M": 57548,
+      "revenue_M": 57546,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 5313,
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 17865,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2214,
+      "operating_income_M": null,
+      "sga_M": 2296,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 5819,
+      "total_debt_M": 7391,
+      "total_assets_M": 284927,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 16246,
@@ -85,16 +104,12 @@
       "operating_cash_flow_M": null,
       "cash_M": 5600,
       "total_debt_M": 7518,
-      "total_assets_M": 281932,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 281932
     },
     {
       "period_end": "2025-12-31",
       "currency": "EUR",
-      "revenue_M": 13360,
+      "revenue_M": 13358,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 945,

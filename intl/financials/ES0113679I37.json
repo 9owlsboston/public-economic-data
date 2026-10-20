@@ -4,7 +4,7 @@
   "ticker": "BKT",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 842,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 315,
+      "operating_income_M": null,
+      "sga_M": 115,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 12758,
+      "total_debt_M": 11046,
+      "total_assets_M": 140933,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 793,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 11516,
       "total_debt_M": 9981,
-      "total_assets_M": 136678,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 136678
     },
     {
       "period_end": "2025-12-31",
@@ -124,12 +139,12 @@
     {
       "period_end": "2025-06-30",
       "currency": "EUR",
-      "revenue_M": 793,
+      "revenue_M": 773,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 272,
       "operating_income_M": null,
-      "sga_M": 64,
+      "sga_M": 108,
       "capex_M": null,
       "operating_cash_flow_M": null,
       "cash_M": 13121,

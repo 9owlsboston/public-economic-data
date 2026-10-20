@@ -4,8 +4,27 @@
   "ticker": "WES",
   "exchange": "ASX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "currency": "AUD",
+      "revenue_M": 47140,
+      "rnd_M": null,
+      "cost_of_revenue_M": 31085,
+      "net_income_M": 2874,
+      "operating_income_M": 4103,
+      "sga_M": 9014,
+      "capex_M": 1194,
+      "operating_cash_flow_M": 4272,
+      "cash_M": 530,
+      "total_debt_M": 12716,
+      "total_assets_M": 28884,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "currency": "AUD",
@@ -17,13 +36,9 @@
       "sga_M": 8868,
       "capex_M": 1147,
       "operating_cash_flow_M": 4568,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "cash_M": 638,
+      "total_debt_M": 11168,
+      "total_assets_M": 27981
     },
     {
       "period_end": "2024-06-30",
@@ -36,9 +51,9 @@
       "sga_M": 8553,
       "capex_M": 1076,
       "operating_cash_flow_M": 4594,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
+      "cash_M": 835,
+      "total_debt_M": 11278,
+      "total_assets_M": 27309
     },
     {
       "period_end": "2023-06-30",
@@ -51,9 +66,9 @@
       "sga_M": 8150,
       "capex_M": 1288,
       "operating_cash_flow_M": 4179,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
+      "cash_M": 673,
+      "total_debt_M": 11169,
+      "total_assets_M": 26546
     },
     {
       "period_end": "2022-06-30",

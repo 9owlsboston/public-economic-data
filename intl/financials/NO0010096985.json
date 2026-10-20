@@ -4,7 +4,7 @@
   "ticker": "EQNR",
   "exchange": "Oslo Bors",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "NOK",
+      "revenue_M": 34523,
+      "rnd_M": null,
+      "cost_of_revenue_M": 18652,
+      "net_income_M": 4848,
+      "operating_income_M": 12863,
+      "sga_M": 273,
+      "capex_M": 2872,
+      "operating_cash_flow_M": 9470,
+      "cash_M": 8062,
+      "total_debt_M": 32419,
+      "total_assets_M": 140899,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "NOK",
       "revenue_M": 27815,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 5213,
       "cash_M": 5884,
       "total_debt_M": 31857,
-      "total_assets_M": 141154,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 141154
     },
     {
       "period_end": "2025-12-31",

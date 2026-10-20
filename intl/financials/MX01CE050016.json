@@ -4,7 +4,7 @@
   "ticker": "CEMEXCPO",
   "exchange": "BMV",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "MXN",
+      "revenue_M": 4593,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2975,
+      "net_income_M": 347,
+      "operating_income_M": 681,
+      "sga_M": 937,
+      "capex_M": 257,
+      "operating_cash_flow_M": 749,
+      "cash_M": 654,
+      "total_debt_M": 6879,
+      "total_assets_M": 28269,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "MXN",
       "revenue_M": 4019,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": 141,
       "cash_M": 687,
       "total_debt_M": 6859,
-      "total_assets_M": 28100,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 28100
     },
     {
       "period_end": "2025-12-31",
@@ -114,9 +129,9 @@
       "cost_of_revenue_M": 2817,
       "net_income_M": -356,
       "operating_income_M": 457,
-      "sga_M": -866,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
+      "sga_M": -1046,
+      "capex_M": 303,
+      "operating_cash_flow_M": 1016,
       "cash_M": 1822,
       "total_debt_M": 6779,
       "total_assets_M": 28945
@@ -129,26 +144,26 @@
       "cost_of_revenue_M": 2820,
       "net_income_M": 264,
       "operating_income_M": 547,
-      "sga_M": 817,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
+      "sga_M": 878,
+      "capex_M": 326,
+      "operating_cash_flow_M": 741,
       "cash_M": 1198,
-      "total_debt_M": null,
+      "total_debt_M": 6789,
       "total_assets_M": 29008
     },
     {
       "period_end": "2025-06-30",
       "currency": "MXN",
-      "revenue_M": 4126,
+      "revenue_M": 4093,
       "rnd_M": null,
-      "cost_of_revenue_M": 2725,
+      "cost_of_revenue_M": 2694,
       "net_income_M": 318,
-      "operating_income_M": 491,
-      "sga_M": 850,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
+      "operating_income_M": 495,
+      "sga_M": 904,
+      "capex_M": 320,
+      "operating_cash_flow_M": 361,
       "cash_M": 1166,
-      "total_debt_M": null,
+      "total_debt_M": 6921,
       "total_assets_M": 28802
     },
     {

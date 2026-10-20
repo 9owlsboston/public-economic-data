@@ -4,7 +4,7 @@
   "ticker": "CSU",
   "exchange": "TSX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "CAD",
+      "revenue_M": 3335,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2093,
+      "net_income_M": 274,
+      "operating_income_M": 588,
+      "sga_M": 250,
+      "capex_M": 22,
+      "operating_cash_flow_M": 479,
+      "cash_M": 2886,
+      "total_debt_M": 5827,
+      "total_assets_M": 17615,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "CAD",
       "revenue_M": 3181,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 897,
       "cash_M": 3010,
       "total_debt_M": 5562,
-      "total_assets_M": 16969,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 16969
     },
     {
       "period_end": "2025-12-31",
@@ -128,8 +143,8 @@
       "rnd_M": null,
       "cost_of_revenue_M": 1768,
       "net_income_M": 56,
-      "operating_income_M": 523,
-      "sga_M": 216,
+      "operating_income_M": 540,
+      "sga_M": 199,
       "capex_M": 16,
       "operating_cash_flow_M": 433,
       "cash_M": 2575,

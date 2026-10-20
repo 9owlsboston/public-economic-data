@@ -4,7 +4,7 @@
   "ticker": "BIMBOA",
   "exchange": "BMV",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "MXN",
+      "revenue_M": 105026,
+      "rnd_M": null,
+      "cost_of_revenue_M": 49771,
+      "net_income_M": 2935,
+      "operating_income_M": 9877,
+      "sga_M": 45378,
+      "capex_M": 4154,
+      "operating_cash_flow_M": 10075,
+      "cash_M": 16563,
+      "total_debt_M": 187021,
+      "total_assets_M": 409173,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "MXN",
       "revenue_M": 100319,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 15111,
       "cash_M": 19574,
       "total_debt_M": 191782,
-      "total_assets_M": 418883,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 418883
     },
     {
       "period_end": "2025-12-31",
@@ -109,12 +124,12 @@
     {
       "period_end": "2025-06-30",
       "currency": "MXN",
-      "revenue_M": 107503,
+      "revenue_M": 107389,
       "rnd_M": null,
-      "cost_of_revenue_M": 50777,
-      "net_income_M": 2823,
-      "operating_income_M": 9330,
-      "sga_M": 47395,
+      "cost_of_revenue_M": 50721,
+      "net_income_M": 2826,
+      "operating_income_M": 9326,
+      "sga_M": 47341,
       "capex_M": 4600,
       "operating_cash_flow_M": 10563,
       "cash_M": 7494,

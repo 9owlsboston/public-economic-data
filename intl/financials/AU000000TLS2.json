@@ -4,8 +4,27 @@
   "ticker": "TLS",
   "exchange": "ASX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "currency": "AUD",
+      "revenue_M": 22507,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7854,
+      "net_income_M": 2241,
+      "operating_income_M": 3387,
+      "sga_M": 4989,
+      "capex_M": 3905,
+      "operating_cash_flow_M": 7554,
+      "cash_M": 1103,
+      "total_debt_M": 18603,
+      "total_assets_M": 44119,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "currency": "AUD",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 7324,
       "cash_M": 1012,
       "total_debt_M": 17995,
-      "total_assets_M": 44968,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 44968
     },
     {
       "period_end": "2024-06-30",

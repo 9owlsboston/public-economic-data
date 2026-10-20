@@ -4,8 +4,27 @@
   "ticker": "CURY",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
+    {
+      "period_end": "2026-04-30",
+      "currency": "GBP",
+      "revenue_M": 9254,
+      "rnd_M": null,
+      "cost_of_revenue_M": 7557,
+      "net_income_M": 165,
+      "operating_income_M": 220,
+      "sga_M": null,
+      "capex_M": 79,
+      "operating_cash_flow_M": 425,
+      "cash_M": 147,
+      "total_debt_M": 952,
+      "total_assets_M": 5627,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-04-30",
       "currency": "GBP",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 453,
       "cash_M": 179,
       "total_debt_M": 965,
-      "total_assets_M": 5423,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 5423
     },
     {
       "period_end": "2024-04-30",

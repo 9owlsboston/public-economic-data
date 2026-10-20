@@ -4,7 +4,7 @@
   "ticker": "SRG",
   "exchange": "Borsa Italiana",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 1002,
+      "rnd_M": null,
+      "cost_of_revenue_M": -104,
+      "net_income_M": 275,
+      "operating_income_M": 509,
+      "sga_M": null,
+      "capex_M": 612,
+      "operating_cash_flow_M": 972,
+      "cash_M": 2796,
+      "total_debt_M": 21812,
+      "total_assets_M": 38015,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 999,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 860,
       "cash_M": null,
       "total_debt_M": 18501,
-      "total_assets_M": 29010,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 29010
     },
     {
       "period_end": "2025-12-31",
@@ -141,7 +156,7 @@
       "currency": "EUR",
       "revenue_M": 970,
       "rnd_M": null,
-      "cost_of_revenue_M": 209,
+      "cost_of_revenue_M": null,
       "net_income_M": 406,
       "operating_income_M": 502,
       "sga_M": null,

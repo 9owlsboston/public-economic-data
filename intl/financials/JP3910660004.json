@@ -4,12 +4,12 @@
   "ticker": "8411",
   "exchange": "TSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2026-03-31",
       "currency": "JPY",
-      "revenue_M": 4316919,
+      "revenue_M": 4221805,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 1248632,
@@ -28,7 +28,7 @@
     {
       "period_end": "2025-03-31",
       "currency": "JPY",
-      "revenue_M": 3809305,
+      "revenue_M": 3645206,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 885433,
@@ -88,9 +88,28 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "JPY",
+      "revenue_M": 1207917,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 422909,
+      "operating_income_M": null,
+      "sga_M": 505969,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 52124258,
+      "total_debt_M": 26039459,
+      "total_assets_M": 304283463,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "JPY",
-      "revenue_M": 1323234,
+      "revenue_M": 1228120,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 228742,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 61567751,
       "total_debt_M": 26180927,
-      "total_assets_M": 302240042,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 302240042
     },
     {
       "period_end": "2025-12-31",

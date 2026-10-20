@@ -4,7 +4,7 @@
   "ticker": "TKA",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-09-30",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 8786,
+      "rnd_M": 56,
+      "cost_of_revenue_M": 7567,
+      "net_income_M": 0,
+      "operating_income_M": 154,
+      "sga_M": 952,
+      "capex_M": 256,
+      "operating_cash_flow_M": -82,
+      "cash_M": 3379,
+      "total_debt_M": 772,
+      "total_assets_M": 29151,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 8380,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 26,
       "cash_M": 3331,
       "total_debt_M": 806,
-      "total_assets_M": 28461,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 28461
     },
     {
       "period_end": "2025-12-31",

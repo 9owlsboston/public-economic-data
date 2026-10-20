@@ -4,7 +4,7 @@
   "ticker": "005930",
   "exchange": "KRX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "KRW",
+      "revenue_M": 171499470,
+      "rnd_M": 16025293,
+      "cost_of_revenue_M": 52198759,
+      "net_income_M": 71269468,
+      "operating_income_M": 89492412,
+      "sga_M": 9107993,
+      "capex_M": 14783327,
+      "operating_cash_flow_M": 105081086,
+      "cash_M": 92916382,
+      "total_debt_M": 22408721,
+      "total_assets_M": 759480516,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "KRW",
       "revenue_M": 133873444,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 40274106,
       "cash_M": 73306751,
       "total_debt_M": 28138794,
-      "total_assets_M": 633339604,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 633339604
     },
     {
       "period_end": "2025-12-31",
@@ -115,7 +130,7 @@
       "net_income_M": 12006461,
       "operating_income_M": 12166062,
       "sga_M": 9644588,
-      "capex_M": 12191098,
+      "capex_M": 10523263,
       "operating_cash_flow_M": 22574494,
       "cash_M": 53399483,
       "total_debt_M": 16672280,
@@ -130,7 +145,7 @@
       "net_income_M": 4934034,
       "operating_income_M": 4676057,
       "sga_M": 8857672,
-      "capex_M": 13817083,
+      "capex_M": 15484918,
       "operating_cash_flow_M": 17360136,
       "cash_M": 47120025,
       "total_debt_M": 14029673,

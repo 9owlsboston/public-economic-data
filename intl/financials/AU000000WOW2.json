@@ -4,8 +4,27 @@
   "ticker": "WOW",
   "exchange": "ASX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "currency": "AUD",
+      "revenue_M": 71539,
+      "rnd_M": null,
+      "cost_of_revenue_M": 51970,
+      "net_income_M": 1138,
+      "operating_income_M": -128,
+      "sga_M": 4056,
+      "capex_M": 2435,
+      "operating_cash_flow_M": 4948,
+      "cash_M": 1497,
+      "total_debt_M": 16477,
+      "total_assets_M": 34065,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "currency": "AUD",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 4550,
       "cash_M": 1275,
       "total_debt_M": 17385,
-      "total_assets_M": 33829,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 33829
     },
     {
       "period_end": "2024-06-30",

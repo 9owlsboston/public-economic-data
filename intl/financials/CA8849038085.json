@@ -4,7 +4,7 @@
   "ticker": "TRI",
   "exchange": "TSX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "CAD",
+      "revenue_M": 1954,
+      "rnd_M": null,
+      "cost_of_revenue_M": 487,
+      "net_income_M": 448,
+      "operating_income_M": 560,
+      "sga_M": 713,
+      "capex_M": 177,
+      "operating_cash_flow_M": 920,
+      "cash_M": 451,
+      "total_debt_M": 3182,
+      "total_assets_M": 18079,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "CAD",
       "revenue_M": 2087,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 505,
       "cash_M": 400,
       "total_debt_M": 2448,
-      "total_assets_M": 17944,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 17944
     },
     {
       "period_end": "2025-12-31",

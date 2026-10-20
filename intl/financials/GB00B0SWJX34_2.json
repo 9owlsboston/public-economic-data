@@ -4,7 +4,7 @@
   "ticker": "BARC",
   "exchange": "LSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-04-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "GBP",
+      "revenue_M": 8338,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2502,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 245859,
+      "total_debt_M": 137935,
+      "total_assets_M": 1730358,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "GBP",
+      "revenue_M": 8163,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2176,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 235350,
+      "total_debt_M": 136839,
+      "total_assets_M": 1694786
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "GBP",
       "revenue_M": 7077,
@@ -85,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 229752,
       "total_debt_M": 219941,
-      "total_assets_M": 1544165,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 1544165
     },
     {
       "period_end": "2025-09-30",

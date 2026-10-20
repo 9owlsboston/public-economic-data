@@ -4,7 +4,7 @@
   "ticker": "METSO",
   "exchange": "OMX Helsinki",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 1334,
+      "rnd_M": 25,
+      "cost_of_revenue_M": 889,
+      "net_income_M": 128,
+      "operating_income_M": 185,
+      "sga_M": 232,
+      "capex_M": 36,
+      "operating_cash_flow_M": 117,
+      "cash_M": 383,
+      "total_debt_M": 1600,
+      "total_assets_M": 7394,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 1252,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 13,
       "cash_M": 416,
       "total_debt_M": 1542,
-      "total_assets_M": 7257,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 7257
     },
     {
       "period_end": "2025-12-31",
@@ -109,12 +124,12 @@
     {
       "period_end": "2025-06-30",
       "currency": "EUR",
-      "revenue_M": 1213,
-      "rnd_M": 27,
-      "cost_of_revenue_M": 829,
+      "revenue_M": 1257,
+      "rnd_M": 28,
+      "cost_of_revenue_M": 862,
       "net_income_M": 61,
-      "operating_income_M": 172,
-      "sga_M": 218,
+      "operating_income_M": 178,
+      "sga_M": 222,
       "capex_M": 24,
       "operating_cash_flow_M": 132,
       "cash_M": 432,

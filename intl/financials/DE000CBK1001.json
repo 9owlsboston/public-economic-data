@@ -4,7 +4,7 @@
   "ticker": "CBK",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 3437,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 897,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 58960,
+      "total_debt_M": 83385,
+      "total_assets_M": 619060,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 3218,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 65465,
       "total_debt_M": null,
-      "total_assets_M": 603298,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 603298
     },
     {
       "period_end": "2025-12-31",

@@ -4,7 +4,7 @@
   "ticker": "HUSQ-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "SEK",
+      "revenue_M": 14383,
+      "rnd_M": null,
+      "cost_of_revenue_M": 9713,
+      "net_income_M": 1030,
+      "operating_income_M": 1601,
+      "sga_M": 3076,
+      "capex_M": 489,
+      "operating_cash_flow_M": 3754,
+      "cash_M": 3457,
+      "total_debt_M": 13169,
+      "total_assets_M": 58663,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "SEK",
       "revenue_M": 13962,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": -904,
       "cash_M": 1708,
       "total_debt_M": 13893,
-      "total_assets_M": 58233,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 58233
     },
     {
       "period_end": "2025-12-31",
@@ -111,10 +126,10 @@
       "currency": "SEK",
       "revenue_M": 15277,
       "rnd_M": null,
-      "cost_of_revenue_M": 10101,
+      "cost_of_revenue_M": 10149,
       "net_income_M": 1578,
       "operating_income_M": 2062,
-      "sga_M": 3114,
+      "sga_M": 3066,
       "capex_M": 605,
       "operating_cash_flow_M": 2824,
       "cash_M": 3475,

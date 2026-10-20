@@ -4,7 +4,7 @@
   "ticker": "MBG",
   "exchange": "XETRA",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 32061,
+      "rnd_M": 1170,
+      "cost_of_revenue_M": 25972,
+      "net_income_M": 1065,
+      "operating_income_M": 1991,
+      "sga_M": 3084,
+      "capex_M": 2247,
+      "operating_cash_flow_M": 2431,
+      "cash_M": 10142,
+      "total_debt_M": 84358,
+      "total_assets_M": 259716,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 31602,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 3785,
       "cash_M": 12201,
       "total_debt_M": 81424,
-      "total_assets_M": 258618,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 258618
     },
     {
       "period_end": "2025-12-31",

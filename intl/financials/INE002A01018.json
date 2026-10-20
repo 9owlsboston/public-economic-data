@@ -4,7 +4,7 @@
   "ticker": "RELIANCE",
   "exchange": "NSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2026-03-31",
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "INR",
+      "revenue_M": 3094680,
+      "rnd_M": null,
+      "cost_of_revenue_M": 2264640,
+      "net_income_M": 209460,
+      "operating_income_M": 324170,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": null,
+      "total_debt_M": null,
+      "total_assets_M": null,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "INR",
       "revenue_M": 2940590,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 1373270,
       "total_debt_M": 3980000,
-      "total_assets_M": 21781400,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 21781400
     },
     {
       "period_end": "2025-12-31",

@@ -4,7 +4,7 @@
   "ticker": "SAND",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "SEK",
+      "revenue_M": 36752,
+      "rnd_M": 1233,
+      "cost_of_revenue_M": 21716,
+      "net_income_M": 5236,
+      "operating_income_M": 7235,
+      "sga_M": 6446,
+      "capex_M": 996,
+      "operating_cash_flow_M": 2706,
+      "cash_M": 3620,
+      "total_debt_M": 43121,
+      "total_assets_M": 186882,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "SEK",
       "revenue_M": 30685,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 4612,
       "cash_M": 8227,
       "total_debt_M": 41473,
-      "total_assets_M": 182232,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 182232
     },
     {
       "period_end": "2025-12-31",

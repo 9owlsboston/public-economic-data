@@ -4,7 +4,7 @@
   "ticker": "HEXA-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,40 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "SEK",
+      "revenue_M": 1050,
+      "rnd_M": 125,
+      "cost_of_revenue_M": 397,
+      "net_income_M": -1266,
+      "operating_income_M": 252,
+      "sga_M": 281,
+      "capex_M": 109,
+      "operating_cash_flow_M": 401,
+      "cash_M": 2162,
+      "total_debt_M": 2644,
+      "total_assets_M": 10320,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "currency": "SEK",
+      "revenue_M": 964,
+      "rnd_M": 124,
+      "cost_of_revenue_M": 358,
+      "net_income_M": 1608,
+      "operating_income_M": 233,
+      "sga_M": 265,
+      "capex_M": 114,
+      "operating_cash_flow_M": 312,
+      "cash_M": 1978,
+      "total_debt_M": 3254,
+      "total_assets_M": 17992
+    },
+    {
       "period_end": "2025-12-31",
       "currency": "SEK",
       "revenue_M": 1429,
@@ -85,23 +119,19 @@
       "operating_cash_flow_M": 556,
       "cash_M": 648,
       "total_debt_M": 4114,
-      "total_assets_M": 17108,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 17108
     },
     {
       "period_end": "2025-06-30",
       "currency": "SEK",
-      "revenue_M": 1370,
-      "rnd_M": 187,
-      "cost_of_revenue_M": 453,
+      "revenue_M": 1010,
+      "rnd_M": 122,
+      "cost_of_revenue_M": 364,
       "net_income_M": 225,
-      "operating_income_M": 313,
-      "sga_M": 405,
-      "capex_M": 150,
-      "operating_cash_flow_M": 420,
+      "operating_income_M": 242,
+      "sga_M": 276,
+      "capex_M": 117,
+      "operating_cash_flow_M": 286,
       "cash_M": 576,
       "total_debt_M": 4399,
       "total_assets_M": 17073
@@ -109,12 +139,12 @@
     {
       "period_end": "2025-03-31",
       "currency": "SEK",
-      "revenue_M": 1323,
-      "rnd_M": 192,
-      "cost_of_revenue_M": 434,
+      "revenue_M": 962,
+      "rnd_M": 124,
+      "cost_of_revenue_M": 343,
       "net_income_M": 189,
-      "operating_income_M": 267,
-      "sga_M": 387,
+      "operating_income_M": 199,
+      "sga_M": 264,
       "capex_M": 154,
       "operating_cash_flow_M": 308,
       "cash_M": 549,

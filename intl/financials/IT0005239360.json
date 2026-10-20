@@ -4,7 +4,7 @@
   "ticker": "UCG",
   "exchange": "Borsa Italiana",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 6541,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 2954,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 57888,
+      "total_debt_M": 142518,
+      "total_assets_M": 932091,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 7073,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 48180,
       "total_debt_M": null,
-      "total_assets_M": 902165,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 902165
     },
     {
       "period_end": "2025-12-31",
@@ -109,7 +124,7 @@
     {
       "period_end": "2025-06-30",
       "currency": "EUR",
-      "revenue_M": 6993,
+      "revenue_M": 6992,
       "rnd_M": null,
       "cost_of_revenue_M": null,
       "net_income_M": 3344,

@@ -4,7 +4,7 @@
   "ticker": "ORA",
   "exchange": "Euronext Paris",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 10853,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": null,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": null,
+      "cash_M": 9305,
+      "total_debt_M": 8859,
+      "total_assets_M": 126396,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 10095,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": null,
       "cash_M": null,
       "total_debt_M": null,
-      "total_assets_M": null,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": null
     },
     {
       "period_end": "2025-12-31",

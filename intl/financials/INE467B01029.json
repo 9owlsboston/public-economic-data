@@ -4,7 +4,7 @@
   "ticker": "TCS",
   "exchange": "NSE",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2026-03-31",
@@ -115,8 +115,8 @@
       "net_income_M": 137180,
       "operating_income_M": 178700,
       "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
+      "capex_M": 11550,
+      "operating_cash_flow_M": 138880,
       "cash_M": 64050,
       "total_debt_M": 112830,
       "total_assets_M": 1823720
@@ -126,15 +126,15 @@
       "currency": "INR",
       "revenue_M": 670870,
       "rnd_M": null,
-      "cost_of_revenue_M": 397920,
+      "cost_of_revenue_M": 366280,
       "net_income_M": 106570,
-      "operating_income_M": 168890,
-      "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
-      "cash_M": null,
-      "total_debt_M": null,
-      "total_assets_M": null
+      "operating_income_M": 169260,
+      "sga_M": 44660,
+      "capex_M": 9300,
+      "operating_cash_flow_M": 132620,
+      "cash_M": 74980,
+      "total_debt_M": 108210,
+      "total_assets_M": 1842680
     },
     {
       "period_end": "2025-06-30",
@@ -160,8 +160,8 @@
       "net_income_M": 122240,
       "operating_income_M": 156010,
       "sga_M": null,
-      "capex_M": null,
-      "operating_cash_flow_M": null,
+      "capex_M": 15150,
+      "operating_cash_flow_M": 145210,
       "cash_M": 83310,
       "total_debt_M": 93920,
       "total_assets_M": 1596290

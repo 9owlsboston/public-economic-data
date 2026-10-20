@@ -4,7 +4,7 @@
   "ticker": "FORTUM",
   "exchange": "OMX Helsinki",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 1124,
+      "rnd_M": null,
+      "cost_of_revenue_M": 724,
+      "net_income_M": 109,
+      "operating_income_M": 107,
+      "sga_M": null,
+      "capex_M": 103,
+      "operating_cash_flow_M": 324,
+      "cash_M": 2102,
+      "total_debt_M": 3864,
+      "total_assets_M": 15092,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 1992,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": null,
       "cash_M": 2478,
       "total_debt_M": 3947,
-      "total_assets_M": 15994,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 15994
     },
     {
       "period_end": "2025-12-31",
@@ -143,11 +158,11 @@
       "rnd_M": null,
       "cost_of_revenue_M": 911,
       "net_income_M": 363,
-      "operating_income_M": 461,
+      "operating_income_M": null,
       "sga_M": null,
-      "capex_M": 132,
+      "capex_M": null,
       "operating_cash_flow_M": null,
-      "cash_M": 4317,
+      "cash_M": null,
       "total_debt_M": 4728,
       "total_assets_M": 17743
     },

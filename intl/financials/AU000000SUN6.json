@@ -4,8 +4,27 @@
   "ticker": "SUN",
   "exchange": "ASX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
+    {
+      "period_end": "2026-06-30",
+      "currency": "AUD",
+      "revenue_M": 15289,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 1027,
+      "operating_income_M": null,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": 1585,
+      "cash_M": 997,
+      "total_debt_M": 2659,
+      "total_assets_M": 29567,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
     {
       "period_end": "2025-06-30",
       "currency": "AUD",
@@ -19,11 +38,7 @@
       "operating_cash_flow_M": 2550,
       "cash_M": 1361,
       "total_debt_M": 2528,
-      "total_assets_M": 30164,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 30164
     },
     {
       "period_end": "2024-06-30",

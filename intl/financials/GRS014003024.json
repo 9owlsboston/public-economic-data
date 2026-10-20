@@ -4,7 +4,7 @@
   "ticker": "TPEIR",
   "exchange": "ATHEX",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 786,
+      "rnd_M": null,
+      "cost_of_revenue_M": null,
+      "net_income_M": 336,
+      "operating_income_M": null,
+      "sga_M": 84,
+      "capex_M": 50,
+      "operating_cash_flow_M": 3085,
+      "cash_M": 10175,
+      "total_debt_M": 5392,
+      "total_assets_M": 94344,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 659,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": -3192,
       "cash_M": 7896,
       "total_debt_M": 5389,
-      "total_assets_M": 90019,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 90019
     },
     {
       "period_end": "2025-12-31",

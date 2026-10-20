@@ -4,7 +4,7 @@
   "ticker": "PHIA",
   "exchange": "Euronext Amsterdam",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 4360,
+      "rnd_M": 484,
+      "cost_of_revenue_M": 2210,
+      "net_income_M": 384,
+      "operating_income_M": 610,
+      "sga_M": 1207,
+      "capex_M": 157,
+      "operating_cash_flow_M": 376,
+      "cash_M": 1789,
+      "total_debt_M": 7465,
+      "total_assets_M": 26701,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 3905,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 188,
       "cash_M": 2592,
       "total_debt_M": 8097,
-      "total_assets_M": 27266,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 27266
     },
     {
       "period_end": "2025-12-31",

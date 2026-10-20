@@ -4,7 +4,7 @@
   "ticker": "AMS",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 1652,
+      "rnd_M": null,
+      "cost_of_revenue_M": 882,
+      "net_income_M": 344,
+      "operating_income_M": 480,
+      "sga_M": null,
+      "capex_M": 152,
+      "operating_cash_flow_M": 394,
+      "cash_M": 971,
+      "total_debt_M": 3598,
+      "total_assets_M": 11759,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 1683,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 486,
       "cash_M": 677,
       "total_debt_M": 3356,
-      "total_assets_M": 11427,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 11427
     },
     {
       "period_end": "2025-12-31",

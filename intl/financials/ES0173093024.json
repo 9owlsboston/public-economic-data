@@ -4,7 +4,7 @@
   "ticker": "RED",
   "exchange": "BME",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2025-12-31",
@@ -73,6 +73,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-06-30",
+      "currency": "EUR",
+      "revenue_M": 439,
+      "rnd_M": null,
+      "cost_of_revenue_M": -12,
+      "net_income_M": 140,
+      "operating_income_M": 148,
+      "sga_M": null,
+      "capex_M": null,
+      "operating_cash_flow_M": 369,
+      "cash_M": 938,
+      "total_debt_M": 6066,
+      "total_assets_M": 16131,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-03-31",
       "currency": "EUR",
       "revenue_M": 430,
@@ -85,11 +104,7 @@
       "operating_cash_flow_M": 149,
       "cash_M": null,
       "total_debt_M": null,
-      "total_assets_M": 16001,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 16001
     },
     {
       "period_end": "2025-12-31",

@@ -4,7 +4,7 @@
   "ticker": "EKTA-B",
   "exchange": "OMX Stockholm",
   "source": "yahoo_finance",
-  "last_refreshed": "2026-07-20",
+  "last_refreshed": "2026-10-20",
   "annual": [
     {
       "period_end": "2026-04-30",
@@ -88,6 +88,25 @@
   ],
   "quarterly": [
     {
+      "period_end": "2026-07-31",
+      "currency": "SEK",
+      "revenue_M": 3536,
+      "rnd_M": 458,
+      "cost_of_revenue_M": 2031,
+      "net_income_M": 264,
+      "operating_income_M": 371,
+      "sga_M": 658,
+      "capex_M": 208,
+      "operating_cash_flow_M": 0,
+      "cash_M": 2305,
+      "total_debt_M": 6830,
+      "total_assets_M": 26679,
+      "tags_used": {
+        "source": "yahoo_finance",
+        "notes": "Income statement + balance sheet + cash flow, converted to millions"
+      }
+    },
+    {
       "period_end": "2026-04-30",
       "currency": "SEK",
       "revenue_M": 4762,
@@ -100,11 +119,7 @@
       "operating_cash_flow_M": 1380,
       "cash_M": 3167,
       "total_debt_M": 7331,
-      "total_assets_M": 26955,
-      "tags_used": {
-        "source": "yahoo_finance",
-        "notes": "Income statement + balance sheet + cash flow, converted to millions"
-      }
+      "total_assets_M": 26955
     },
     {
       "period_end": "2026-01-31",
